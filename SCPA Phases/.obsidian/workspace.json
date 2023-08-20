@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md"
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md"
               }
             }
           }
@@ -148,42 +148,42 @@
   },
   "active": "b1b2759e175d688b",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Active Directory Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN).md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Bypassing UAC.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Insecure GUI Apps.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Description.md",
+    "Pentesting Phases/WebApp Hacking/Webapp Labs/DVWA/Setup.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Images/DVWA/Difficulty/Low/SQLMap",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Images/DVWA/Difficulty/Low/Manual",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Images/DVWA/Difficulty/Low",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Images/DVWA/Difficulty",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Images/DVWA",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Images",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix SQL Query List.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Suffix SQL Query List.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Scanners/Nmap.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shellcode Formatting.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Webshells.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Linux/SSH Lateral Movement.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu.md",
+    "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Cloud Providers/GoFile.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
     "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Cloud Providers/BayFiles.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/File Transfer and Data Exfiltration References.md",
     "Pentesting Phases/Initial Access/Callback Shells/Shell Handler.md",
     "Pentesting Phases/Command and Control/Cobalt Strike/Setup.md",
     "Pentesting Phases/Command and Control/Cobalt Strike/Usage.md",
-    "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Metasploit.md",
-    "Pentesting Phases/Command Line/Compilers/Windows.md",
-    "Pentesting Phases/Command Line/Compilers/Linux.md",
-    "Pentesting Phases/Command Line/Compilers/General.md",
-    "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
-    "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Sliver.md",
-    "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
-    "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom.md",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/Sqlmap.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Service Exploits/MySQL.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
-    "Pentesting Phases/Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Hijack Multiplexer Shell Sessions.md",
-    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Cron Jobs.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Registry/Tickets",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Registry/Dump Credentials",
-    "SCPA_Notes.ctb~",
-    "SCPA_Notes.ctb28628698582.ctb",
-    "SCPA_Notes.ctb-journal",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Registry/Hashdump",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/AIX",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/FreeBSD",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Mac OSX",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Registry",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
