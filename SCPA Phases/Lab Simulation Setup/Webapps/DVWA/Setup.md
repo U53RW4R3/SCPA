@@ -1,5 +1,14 @@
 # Setup
 
+#dvwa #lab #webapp
+## Linux DVWA Setup
+
+- Install dependencies
+
+```
+$ sudo apt update && sudo apt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php
+```
+
 - Extract and setup DVWA
 
 ```
@@ -40,7 +49,11 @@ $ sudo systemctl start apache2
 $ sudo systemctl start mysql
 ```
 
-- Create Database and dvwa DB user account
+- Setup MySQL server and leave root password empty.
+
+`$ sudo mysql_secure_installation`
+
+- Create Database and `dvwa@localhost` DB user account.
 
 ```
 $ sudo mysql
@@ -84,6 +97,17 @@ MariaDB [(none)]> GRANT FILE ON *.* TO dvwa@localhost;
 - Login as `dvwa@localhost` with a `dvwa` database.
 
 `$ mysql -u dvwa -pp@ssw0rd -D dvwa`
+
+## DNS Hosts Addresses
+
+^214bb7
+
+Map the DVWA IPv4 address as a DNS reference
+
+```
+$ sudo nano /etc/hosts
+<DVWA_Server_IP> dvwa.local
+```
 
 ## References
 
