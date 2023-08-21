@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adbb5b7df7fad630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix SQL Query List.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "weevely",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix SQL Query List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix SQL Query List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md"
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix SQL Query List.md"
               }
             }
           }
@@ -173,12 +161,15 @@
   },
   "active": "681f2ad41b0ef619",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
-    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Suffix SQL Query List.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix SQL Query List.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/Subfinder.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/DNS.md",
+    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+    "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/SQLMap.md",
     "Pentesting Phases/Command and Control/Webshells/Weevely.md",
     "Pentesting Phases/Initial Access/Callback Shells/Webshells.md",
     "Pentesting Phases/WebApp Hacking/Blind SQL Injection/Description.md",
@@ -194,7 +185,6 @@
     "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/DVWA/Difficulty",
     "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/DVWA",
     "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/Description.md",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix SQL Query List.md",
     "Pentesting Phases/WebApp Hacking/Command Injection/Commix.md",
     "Pentesting Phases/WebApp Hacking/Command Injection/DVWA/Difficulty/Low/Commix.md",
     "Pentesting Phases/WebApp Hacking/Command Injection/DVWA/Difficulty/Low/Manual.md",
@@ -207,8 +197,6 @@
     "Pentesting Phases/WebApp Hacking/HTTP Request Smuggling/Description.md",
     "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Description.md",
     "Pentesting Phases/WebApp Hacking/Insecure Direct Object Reference (IDOR)/Description.md",
-    "Pentesting Phases/WebApp Hacking/Insufficient Logging and Monitoring/Description.md",
-    "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Description.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
