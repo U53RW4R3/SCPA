@@ -76,19 +76,11 @@ Note: For this demonstration let's grant `dvwa@localhost` using all SQL statemen
 
 - You can of course grant privileges one by one.
 
-```
-MariaDB [(none)]> GRANT INSERT ON *.* TO dvwa@localhost;
+`MariaDB [(none)]> GRANT SELECT,INSERT,UPDATE,FILE,DROP,DELETE ON dvwa.* TO dvwa@localhost;`
 
-MariaDB [(none)]> GRANT SELECT ON *.* TO dvwa@localhost;
+- To revoke all privileges.
 
-MariaDB [(none)]> GRANT DROP ON *.* TO dvwa@localhost;
-
-MariaDB [(none)]> GRANT DELETE ON *.* TO dvwa@localhost;
-
-MariaDB [(none)]> GRANT UPDATE ON *.* TO dvwa@localhost;
-
-MariaDB [(none)]> GRANT FILE ON *.* TO dvwa@localhost;
-```
+`MariaDB [(none)]> REVOKE ALL PRIVILEGES ON *.* FROM dvwa@localhost;`
 
 - Save changes
 
@@ -112,3 +104,5 @@ $ sudo nano /etc/hosts
 ## References
 
 - [DVWA](https://github.com/digininja/DVWA)
+
+- [How Do I Change The Privileges For MySQL User that is Already Created](https://serverfault.com/questions/115950/how-do-i-change-the-privileges-for-mysql-user-that-is-already-created)
