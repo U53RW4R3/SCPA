@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "260a1851861b6b16",
+            "id": "66b59cb9d30b84a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md"
+                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md"
               }
             }
           }
@@ -159,15 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "260a1851861b6b16",
+  "active": "66b59cb9d30b84a0",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual Error-based Query SQL Injection.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Basic Queries.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual Error-based Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix and Suffix SQL Query List.md",
