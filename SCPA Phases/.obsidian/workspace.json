@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/DNSx.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/DNSx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/DNSx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md"
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/DNSx.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "66b59cb9d30b84a0",
   "lastOpenFiles": [
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/DNS.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/Subfinder.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/Sublist3r2.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/DNSx.md",
+    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Manual.md",
     "Pentesting Phases/Initial Access/Callback Shells/Webshells.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress",
@@ -176,11 +181,6 @@
     "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/Scanners/Nmap.md",
     "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/Scanners/XSSer.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
-    "Pentesting Phases/Command and Control/Havoc/Usage.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/Shortcut Link.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shellcode Formatting.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/HTML Smuggling.md",
-    "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
     "Pentesting Phases/WebApp Hacking/Blind SQL Injection",
     "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low",
     "Pentesting Phases/WebApp Hacking/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS",
