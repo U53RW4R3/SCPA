@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "66b59cb9d30b84a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ec4ceff952e1df13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md",
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md",
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md"
+                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md"
               }
             }
           }
@@ -158,15 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66b59cb9d30b84a0",
+  "active": "ec4ceff952e1df13",
   "lastOpenFiles": [
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Recon-ng.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Metasploit.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Go-Dork.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/SOCKS5 Server Credentials.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Basic Queries.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Robots.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Login Pages.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - theHarvester.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/theHarvester.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Content Management System (CMS).md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/Manual/Manual UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/SQL Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Images/Untitled",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Helpers/Prefix and Suffix SQL Query List.md",
     "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei.md",
@@ -181,18 +181,7 @@
     "Pentesting Phases/Hacking The Cloud/AWS",
     "Pentesting Phases/Hacking The Cloud",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Automated Exploitation/jSQL Injection.md",
-    "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/HTTP.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Basic Queries.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/DNSx.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/DNS.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/Subfinder.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/DNS/Sublist3r2.md",
-    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
-    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Manual.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Webshells.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Compromised Hosts/Webshells.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Content Management System (CMS).md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Compromised Hosts",
     "Pentesting Phases/WebApp Hacking/SQL Injection/DVWA/Difficulty/Low/SQLMap",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
