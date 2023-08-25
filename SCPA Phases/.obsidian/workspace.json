@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Description.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Description.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Description.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Description.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "ec4ceff952e1df13",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
