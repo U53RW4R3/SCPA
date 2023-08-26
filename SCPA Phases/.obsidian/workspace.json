@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/Sn1per.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/Sn1per.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/Sn1per.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md"
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/Sn1per.md"
               }
             }
           }
@@ -146,8 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "ec4ceff952e1df13",
   "lastOpenFiles": [
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Scan The Internet/Zmap.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Scan The Internet/Masscan.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Rustscan.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Ping Hosts.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Active Enumeration References.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu.md",
+    "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Go-Dork.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Untitled",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Metasploit.md",
@@ -171,15 +180,6 @@
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Panels",
     "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/SSH.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Certificate Transparency/02 - SSL Server Test.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Certificate Transparency/01 - Certificate Check.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/jSQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Traversal Directory/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection",
     "Pentesting Phases/WebApp Hacking/SQL Injection/Images/Untitled",
     "Pentesting Phases/Hacking The Cloud/Blog",
