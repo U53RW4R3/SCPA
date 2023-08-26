@@ -64,7 +64,7 @@ MariaDB [(none)]> CREATE USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
 MariaDB [(none)]> ALTER USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
 ```
 
-- This will grant the `dvwa@localhost` DB user with least privileges.
+- This will grant the `dvwa@localhost` DB user with least privileges. But skip this step and move on for [[Lab Simulation Setup/Webapps/DVWA/Setup#^14f9b2|granting all privileges]] to have the full experience of SQLi.
 
 ```
 MariaDB [(none)]> GRANT ALL ON dvwa.* TO dvwa@localhost;
@@ -72,7 +72,7 @@ MariaDB [(none)]> GRANT ALL ON dvwa.* TO dvwa@localhost;
 
 Note: For this demonstration let's grant `dvwa@localhost` using all SQL statements.
 
-`MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO dvwa@localhost;`
+`MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO dvwa@localhost;` ^14f9b2
 
 - You can of course grant privileges one by one.
 
@@ -106,3 +106,5 @@ $ sudo nano /etc/hosts
 - [DVWA](https://github.com/digininja/DVWA)
 
 - [How Do I Change The Privileges For MySQL User that is Already Created](https://serverfault.com/questions/115950/how-do-i-change-the-privileges-for-mysql-user-that-is-already-created)
+
+- https://www.prisma.io/dataguide/mysql/authentication-and-authorization/privilege-management
