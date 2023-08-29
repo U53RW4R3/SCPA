@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "d0a41dd9654ab242",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Cron Jobs.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Cron Job.md",
@@ -172,8 +174,6 @@
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Content Management System (CMS)/Wordpress.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Content Management System (CMS)/Apache Tomcat.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/SQL Query List.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Untitled",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Content Management System (CMS)",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files",
