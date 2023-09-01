@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md",
+                "file": "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner/Joomscan.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md",
+                "file": "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner/Joomscan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md",
+                "file": "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner/Joomscan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md"
+                "file": "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner/Joomscan.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "3d3ddb421a83bb93",
   "lastOpenFiles": [
-    "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
     "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner/Joomscan.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla",
+    "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
     "Lab Simulation Setup/Webapps/OWASP Juice Shop",
     "Pentesting Phases/Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md",
     "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress",
@@ -177,13 +180,10 @@
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Description.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Naabu.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Port Scanners",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Untitled",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Content Management System (CMS)",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Credentials",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
