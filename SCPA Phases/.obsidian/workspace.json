@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d3ddb421a83bb93",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Magento",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal",
     "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner/Joomscan.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Scanner",
@@ -179,11 +181,9 @@
     "Pentesting Phases/Initial Access/Callback Shells/OneLiners.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Description.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Port Scanners",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Untitled",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Content Management System (CMS)",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
