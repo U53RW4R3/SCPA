@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md"
               }
             }
           }
@@ -147,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d3ddb421a83bb93",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner/WPScan.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md",
     "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/MySQL.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Service Exploits/MySQL.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Credentials.md",
@@ -156,7 +158,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Hijack Multiplexer Shell Sessions.md",
     "Pentesting Phases/Command Line/Linux/Unix Shell/Basic Commands/05 - Process Manipulation.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Sudo.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/PostgreSQL.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/PATH.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Linux/Hashdump.md",
@@ -173,8 +174,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Delete Logs.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/DataSurgeon.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/03 - Robots.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Certificate Transparency/02 - SSL Server Test.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Magento",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal",
