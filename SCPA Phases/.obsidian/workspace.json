@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation/Commix.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nma",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation/Commix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation/Commix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation/Commix.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "3d3ddb421a83bb93",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation/Shellfire.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation/Commix.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/DVWA/Difficulty/Low/Commix.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Metasploit.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/Nmap.md",
@@ -173,17 +180,10 @@
     "Pentesting Phases/Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md",
     "Pentesting Phases/Command Line/Linux/Unix Shell/Terminal Multiplexer/Screen.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner/WPScan.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Manual.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/SSH.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Hijack Multiplexer Shell Sessions.md",
-    "Pentesting Phases/Operation Security/Online/SOCKS Proxy Servers.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Living off the Land (LotL)/Linux.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Port Scanners",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Untitled",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
