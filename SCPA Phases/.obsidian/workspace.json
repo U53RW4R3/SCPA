@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cat /etc/passwd",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md"
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users.md"
               }
             }
           }
@@ -146,21 +147,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "3d3ddb421a83bb93",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/PostgreSQL.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Linux/Hashdump.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Credentials.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner/WPScan.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md",
     "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/MySQL.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Service Exploits/MySQL.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Credentials.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Hijack Multiplexer Shell Sessions.md",
     "Pentesting Phases/Command Line/Linux/Unix Shell/Basic Commands/05 - Process Manipulation.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Sudo.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/PostgreSQL.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/PATH.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Linux/Hashdump.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Port Forwarding/SSH.md",
     "Pentesting Phases/Operation Security/Online/SOCKS Proxy Servers.md",
     "Pentesting Phases/Command and Control/Sliver/Setup.md",
@@ -172,8 +175,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Cloud Providers/GoFile.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/FTP.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Delete Logs.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/DataSurgeon.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Magento",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal",
