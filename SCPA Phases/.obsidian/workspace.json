@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "3d3ddb421a83bb93",
   "lastOpenFiles": [
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Configuration.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/jSQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds/Windows Registry Features.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Configuration.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/Shares.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Users.md",
@@ -171,9 +176,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/WinRM Lateral Movement.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Living off the Land (LotL)/Linux.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Living off the Land (LotL)/OSX.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Living off the Land (LotL)/Windows.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Change Password.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Webcam Chat.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Magento",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal",
@@ -182,8 +184,6 @@
     "Lab Simulation Setup/Webapps/OWASP Juice Shop",
     "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress",
     "Lab Simulation Setup/Webapps/Content Management System (CMS)",
-    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Port Scanners",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
