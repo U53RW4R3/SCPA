@@ -1,7 +1,0 @@
-# 08 - theHarvester
-
-`$ theHarvester -d <domain.com> -l 800 -b google`
-
-`$ theHarvester -d <domain.com> -b google,bing,yahoo,duckduckgo,twitter,linkedin,sublist3r,dnsdumpster`
-
-`$ theHarvester -d DigiNinja -b google,bing,linkedin,duckduckgo -f digininja.xml`
