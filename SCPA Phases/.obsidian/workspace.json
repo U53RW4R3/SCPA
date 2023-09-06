@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9cdb31b13582677a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md"
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md"
               }
             }
           }
@@ -148,6 +160,12 @@
   },
   "active": "3d3ddb421a83bb93",
   "lastOpenFiles": [
+    "Pentesting Phases/Hacking The Cloud/AWS/03 - Initial Foothold.md",
+    "Pentesting Phases/Hacking The Cloud/AWS/Draft.md",
+    "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
+    "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTImap.md",
     "Pentesting Phases/Initial Access/Callback Shells/OneLiners.md",
@@ -168,12 +186,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Passive/TCPDump.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/Draft.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Description.md",
-    "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Sliver.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds/SQLmap",
