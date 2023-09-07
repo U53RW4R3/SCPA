@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md"
+                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "3d3ddb421a83bb93",
   "lastOpenFiles": [
+    "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
+    "Pentesting Phases/Hacking The Cloud/AWS/04 - Post Exploitation.md",
     "Pentesting Phases/Hacking The Cloud/AWS/03 - Initial Foothold.md",
     "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/04 - Post Exploitation.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
     "Pentesting Phases/Hacking The Cloud/AWS/06 - Data Exfiltration.md",
     "Pentesting Phases/Hacking The Cloud/AWS/05 - Maintaining Access.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
