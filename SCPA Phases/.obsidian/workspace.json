@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26f631b7fa984675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
+                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
+                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md"
+                "file": "Lab Simulation Setup/Webapps/DVWA/Setup.md"
               }
             }
           }
@@ -146,34 +159,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d3ddb421a83bb93",
+  "active": "26f631b7fa984675",
   "lastOpenFiles": [
-    "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/04 - Post Exploitation.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/03 - Initial Foothold.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/06 - Data Exfiltration.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/05 - Maintaining Access.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
-    "Pentesting Phases/Hacking The Cloud/AWS/Draft.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTImap.md",
-    "Pentesting Phases/Initial Access/Callback Shells/OneLiners.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLmap.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Service Exploits/PostgreSQL.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Service Exploits/MySQL.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLmap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MySQL.md",
-    "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/MySQL.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MSSQL.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/MSRPC.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/06 - ASN ID.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/DNS.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/SQL Query List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLmap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/jSQL Injection.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLmap.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Login Pages.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Database Leaks.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/History Commands.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Confidential Documents.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Credentials/Passwords.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Compromised Hosts/Webshells.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Rustscan.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/DataSurgeon.md",
+    "Pentesting Phases/Hacking The Cloud/AWS/01 - Information Gathering.md",
+    "Pentesting Phases/Hacking The Cloud/AWS/02 - Enumeration.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Online/Tools/Search-That-Hash.md",
+    "Pentesting Phases/Command Line/Linux/Use Cases/Parse Python Packages.md",
+    "Pentesting Phases/Command Line/Linux/Use Cases/Base64.md",
+    "Pentesting Phases/Command Line/Linux/Use Cases/Networking/Basic.md",
+    "Pentesting Phases/Command Line/Compilers/Windows.md",
+    "Pentesting Phases/Command Line/Compilers/Linux.md",
+    "Pentesting Phases/Command Line/Compilers/General.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Online/Tools/Crowbar.md",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds/SQLmap",
