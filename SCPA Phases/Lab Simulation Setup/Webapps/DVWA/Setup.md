@@ -76,7 +76,7 @@ Note: For this demonstration let's grant `dvwa@localhost` using all SQL statemen
 
 - You can of course grant privileges one by one.
 
-`MariaDB [(none)]> GRANT SELECT,INSERT,UPDATE,FILE,DROP,DELETE ON dvwa.* TO dvwa@localhost;`
+`MariaDB [(none)]> GRANT SELECT,INSERT,UPDATE,FILE,DROP,DELETE,EXECUTE ON dvwa.* TO dvwa@localhost;`
 
 - To revoke all privileges.
 
