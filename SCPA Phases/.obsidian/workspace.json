@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/SSH Tunneling.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/WinRM.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "map",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/SSH Tunneling.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/WinRM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/SSH Tunneling.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/WinRM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/SSH Tunneling.md"
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/WinRM.md"
               }
             }
           },
@@ -158,16 +159,22 @@
   },
   "active": "3d3ddb421a83bb93",
   "lastOpenFiles": [
+    "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/WinRM.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/Shares.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/DNS.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/SSH Tunneling.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/ProxyTunnel.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/ICMP Tunneling.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/HTTP Tunneling.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/SOCKS Proxy/Metasploit.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Port Forwarding/SSH.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/SSH Tunneling.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/Manual/Error-Based Blind Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/Manual/Boolean-Based Blind Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLmap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/jSQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
     "Pentesting Phases/Initial Access/Callback Shells/OneLiners.md",
@@ -178,17 +185,11 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Dump Credentials/06 - Metasploit.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Dump Credentials/01 - Mimikatz.md",
     "Pentesting Phases/Command and Control/Metasploit/Interactive Shell.md",
-    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Helpers/Blind SQL Queries.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/SQLmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/Manual",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Helpers",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds/SQLmap",
