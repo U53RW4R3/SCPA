@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md"
               }
             }
           },
@@ -159,12 +159,12 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
     "Pentesting Phases/Operation Security/Online/Terminal Setup.md",
     "Pentesting Phases/Operation Security/Online/Retrieve Proxy Servers.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/SOCKS Proxy/Proxychains.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers/API Endpoint Wordlist.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers",
