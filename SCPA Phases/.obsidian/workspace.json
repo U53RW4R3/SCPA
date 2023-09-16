@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md"
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md"
               }
             }
           },
@@ -159,6 +160,22 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/08 - Web Crawlers and Directory Bruteforce.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/07 - Screenshots.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/06 - WAF Detection.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/05 - Detecting HTTP Methods.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/04 - SSL Certificate.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/03 - Robots.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/02 - Banner Grab.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/01 - Setup.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/Metasploit.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/02 - Gathering Emails.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/04 - Forge Repositories.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
@@ -166,29 +183,13 @@
     "Pentesting Phases/Operation Security/Online/Retrieve Proxy Servers.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/SOCKS Proxy/Proxychains.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers/API Endpoint Wordlist.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers",
     "Pentesting Phases/WebApp Hacking/API Endpoints",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
     "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Helpers/Sensitive File List.md",
-    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Description.md",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Helpers",
-    "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Description.md",
-    "Pentesting Phases/Command and Control/Webshells/Weevely.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/09 - Metasploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Manual.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/WinRM.md",
-    "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/WinRM.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/Shares.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/Manual",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty",
