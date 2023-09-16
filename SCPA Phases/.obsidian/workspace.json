@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md"
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md"
               }
             }
           },
@@ -160,8 +160,8 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/08 - Web Crawlers and Directory Bruteforce.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - WebDAV.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/08 - Web Crawlers and Directory Bruteforce.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/07 - Screenshots.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/06 - WAF Detection.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/05 - Detecting HTTP Methods.md",
