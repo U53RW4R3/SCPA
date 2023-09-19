@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Description.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/RTSP.md",
@@ -185,7 +186,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
     "Pentesting Phases/Operation Security/Online/Terminal Setup.md",
-    "Pentesting Phases/Operation Security/Online/Retrieve Proxy Servers.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers",
     "Pentesting Phases/WebApp Hacking/API Endpoints",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Helpers",
