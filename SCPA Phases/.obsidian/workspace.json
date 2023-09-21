@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "enum4linux",
+                "query": "responder",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md"
               }
             }
           },
@@ -161,13 +160,18 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Ettercap.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Bettercap.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/SMB Names Examples.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios/02 - DBMS Backend Relay Attack.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios/01 - Capture Hashes via Spoof SMB Shares.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/SMB & NETBIOS.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/XML External Entity/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Manual.md",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage.md",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios/02 - DBMS Backend Relay Attack.md",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/SMB Names Examples.md",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Passive/Responder.md",
@@ -190,11 +194,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Description.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/RTSP.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/Tools/HTTPx.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers",
     "Pentesting Phases/WebApp Hacking/API Endpoints",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
