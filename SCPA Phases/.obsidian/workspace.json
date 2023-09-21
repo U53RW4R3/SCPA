@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/Description.md",
+                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xss",
+                "query": "xp_",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/Description.md",
+                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/Description.md",
+                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/Description.md"
+                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder.md"
               }
             }
           },
@@ -160,8 +161,10 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/MSSQL Lateral Movement.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Helpers/Blind SQL Queries.md",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/Description.md",
@@ -185,8 +188,6 @@
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/04 - Forge Repositories.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers",
     "Pentesting Phases/WebApp Hacking/API Endpoints",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Helpers",
