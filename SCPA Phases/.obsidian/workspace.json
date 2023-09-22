@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Description.md",
+                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Description.md",
+                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Description.md",
+                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Description.md"
+                "file": "Pentesting Phases/Command and Control/Sliver/Core Commands.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
+    "Pentesting Phases/Command and Control/Sliver/Setup.md",
     "Pentesting Phases/WebApp Hacking/File Upload/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
@@ -190,7 +191,6 @@
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/DVWA/Difficulty/Low/Manual.md",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)",
