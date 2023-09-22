@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Metasploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Manual.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Metasploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Metasploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Metasploit.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Manual.md"
               }
             }
           },
@@ -160,12 +160,12 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/DVWA/Difficulty/Low/Commix.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Metasploit.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Fuzz Directory Traversal/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
