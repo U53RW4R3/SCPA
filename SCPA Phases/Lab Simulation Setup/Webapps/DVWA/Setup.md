@@ -105,6 +105,10 @@ $ sudo nano /etc/hosts
 
 - [DVWA](https://github.com/digininja/DVWA)
 
+- [Hacking Articles: Configure Web Application Penetration Testing Lab](https://www.hackingarticles.in/configure-web-application-penetration-testing-lab/)
+
+- [Hacking Articles: Web Application Lab Setup on Windows](https://www.hackingarticles.in/web-application-lab-setup-on-windows/)
+
 - [How Do I Change The Privileges For MySQL User that is Already Created](https://serverfault.com/questions/115950/how-do-i-change-the-privileges-for-mysql-user-that-is-already-created)
 
 - [How to Create a New User Account in MySQL and Grant Permissions on a Database](https://blog.devart.com/how-to-create-a-new-user-and-grant-privileges.html)
