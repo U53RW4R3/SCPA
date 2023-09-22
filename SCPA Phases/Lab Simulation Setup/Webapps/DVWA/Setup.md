@@ -30,10 +30,12 @@ $ sudo cp /var/www/html/dvwa/config/config.inc.php.dist /var/www/html/dvwa/confi
 - Configure PHP file
 
 ```
-$ sudo nano /etc/php/7.4/apache2/php.ini
+$ cat /etc/php/7.4/apache2/php.ini
+..[snip]..
 allow_url_include = On  
 display_startup_errors = On  
 display_errors = On
+..[snip]..
 ```
 
 ```

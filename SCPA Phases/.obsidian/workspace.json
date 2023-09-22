@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Linux.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Shellcode",
+                "query": "local file inclusion",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Linux.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Linux.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Linux.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md"
               }
             }
           },
@@ -158,44 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86582e7e40812e88",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
-    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Windows.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Helpers/Path Traversal List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
+    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Metasploit.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Mutillidae/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Helpers",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Mutillidae",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal",
     "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Linux.md",
+    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Windows.md",
     "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Metasploit.md",
     "Pentesting Phases/Initial Access/Delivery/Web Drive-by/CrackMapExec.md",
     "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Cobalt Strike.md",
     "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/DVWA/Difficulty/Low/Commix.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Metasploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Fuzz Directory Traversal/Metasploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Metasploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/DVWA/Difficulty/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Fuzz Directory Traversal/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Mutillidae.md",
-    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Automated Exploitation/Commix.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/Manual/Error-Based Blind Query SQL Injection.md",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Remote Code Execution (RCE)",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/Fuzz Directory Traversal",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion",
     "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/DVWA/Difficulty/Low/DotDotPwn",
-    "Pentesting Phases/WebApp Hacking/Injection/Directory Traversal and Local File Inclusion/Automated Exploitation",
-    "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation",
-    "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)",
-    "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Automated Exploitation",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
