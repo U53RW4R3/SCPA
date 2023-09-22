@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Description.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Description.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Description.md"
               }
             }
           },
@@ -158,11 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "86582e7e40812e88",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Helpers/Path Traversal List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
     "Lab Simulation Setup/Webapps/DVWA/Setup.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Metasploit.md",
