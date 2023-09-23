@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Checklist.md"
+                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md"
               }
             }
           },
@@ -160,42 +160,42 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/Initial Access/Internet of Things (IoT)/Routers.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/jSQL Injection.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Web Applications Forensics/DS_Store.md",
-    "Pentesting Phases/WebApp Hacking/Web Applications Forensics/Source Forge Repositories/GitHacker.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Forensics/Recover Files/Windows.md",
-    "Pentesting Phases/WebApp Hacking/Web Applications Forensics/Source Forge Repositories",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Forensics/Recover Files/Linux.md",
-    "Pentesting Phases/WebApp Hacking/Web Applications Forensics/Source Forge Repositories/Gitleaks.md",
-    "Pentesting Phases/WebApp Hacking/Web Applications Forensics/Source Forge Repositories/GitTools.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Log Files.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Web Browser Credentials/04 - Metasploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/DVWA/Difficulty/Low/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Metasploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Blind SQL Injection/DVWA/Difficulty/Low/Manual/Boolean-Based Blind Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Stored XSS/Low/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Metasploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Description.md",
-    "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
-    "Pentesting Phases/Command and Control/Sliver/Setup.md",
-    "Pentesting Phases/WebApp Hacking/File Upload/Description.md",
+    "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Helpers/Sensitive File List.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Description.md",
+    "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Description.md",
+    "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Insufficient Logging and Monitoring/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Insecure Direct Object Reference (IDOR)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/DS_Store.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories/GitHacker.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories/Gitleaks.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
+    "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers/API Endpoint Wordlist.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner/WPScan.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Magento/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty/Low",
+    "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty",
+    "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Manual",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Helpers",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Mutillidae",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal",
     "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually",
     "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Remote File Inclusion (RFI)",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
