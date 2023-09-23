@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
+                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
+                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
+                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md"
+                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Description.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wig.md",
     "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Description.md",
     "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap.md",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Helpers/Sensitive File List.md",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
@@ -185,7 +186,6 @@
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner/WPScan.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Magento/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty/Low",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA",
