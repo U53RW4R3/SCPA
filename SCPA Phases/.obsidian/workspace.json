@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md"
               }
             }
           },
@@ -160,6 +160,9 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/RDP.md",
     "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wig.md",
     "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Description.md",
@@ -180,12 +183,9 @@
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/DS_Store.md",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories/GitHacker.md",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories/Gitleaks.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
     "Pentesting Phases/WebApp Hacking/API Endpoints/Helpers/API Endpoint Wordlist.md",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner/WPScan.md",
-    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Joomla/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty/Low",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA",
