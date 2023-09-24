@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection.md"
               }
             }
           },
@@ -159,9 +159,9 @@
   },
   "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Port Forwarding/SSH.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
     "Pentesting Phases/WebApp Hacking/Injection/XML External Entity/Description.md",
     "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei.md",
     "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/SkipFish.md",
@@ -177,7 +177,7 @@
     "Pentesting Phases/Command and Control/Metasploit/MSFConsole/Core Commands.md",
     "Pentesting Phases/Command and Control/Pwncat/Usage.md",
     "Pentesting Phases/Command and Control/Pwncat/Setup.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Authentication Bypass.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/02 - Error-based Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
@@ -194,7 +194,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Helpers",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Mutillidae",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal",
-    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
