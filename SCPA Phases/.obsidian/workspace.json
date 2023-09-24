@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md"
               }
             }
           },
@@ -157,34 +157,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86582e7e40812e88",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Port Forwarding/SSH.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
+    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity/Description.md",
+    "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei.md",
+    "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/SkipFish.md",
+    "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Nmap.md",
+    "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Uniscan.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/QSReplace.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Metasploit.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/JSScanner.md",
+    "Pentesting Phases/Legends.md",
+    "Pentesting Phases/Command and Control/Metasploit/Interactive Shell.md",
+    "Pentesting Phases/Command and Control/Metasploit/MSFConsole/Core Commands.md",
+    "Pentesting Phases/Command and Control/Pwncat/Usage.md",
+    "Pentesting Phases/Command and Control/Pwncat/Setup.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Authentication Bypass.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/02 - Error-based Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/01 - Authentication Bypass.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/Helpers/SQL Query List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Startup.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XStrike.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Recon-ng.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Gxss.md",
-    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/JSScanner.md",
-    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/QSReplace.md",
-    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Cross Site Scripting (XSS)/XSSer.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/Helpers/Blind SQL Queries.md",
-    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/Manual/Error-Based Blind Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/Manual/Boolean-Based Blind Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty/Low",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty",
