@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md"
               }
             }
           },
@@ -158,20 +158,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86582e7e40812e88",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/jSQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/Manual/Time-Based Blind Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/Manual/Error-Based Blind Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/Manual/Boolean-Based Blind Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Blind SQL Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Blind SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Visible SQL Injection/Helpers/SQL Query List.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Visible SQL Injection/Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Blind SQL Injection/Helpers/Blind SQL Queries.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Blind SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Visible SQL Injection",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Visible SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Visible SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Visible SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Automated Exploitation/jSQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/Helpers/SQL Query List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/Scanners/Nmap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Blind SQL Injection/Helpers/Blind SQL Queries.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
@@ -184,9 +187,6 @@
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Description.md",
     "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Description.md",
-    "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Description.md",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty/Low",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA/Difficulty",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/DVWA",
