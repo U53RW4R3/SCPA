@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md"
               }
             }
           },
@@ -160,13 +160,13 @@
   },
   "active": "86582e7e40812e88",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/DVWA/Difficulty/Reflective XSS/Low/Manual.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Startup.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/Error-based Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - Visible SQL Injection/DVWA/Difficulty/Low/Manual/UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XStrike.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Recon-ng.md",
