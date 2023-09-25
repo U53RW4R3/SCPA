@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/DVWA/Difficulty/Low/SQLMap.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "0eeb1f5d06608c9d",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/DVWA/Difficulty/Low/SQLMap/03 - Data Exfiltration.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/DVWA/Difficulty/Low/SQLMap/04 - Initial Foothold.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/DVWA/Difficulty/Low/SQLMap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/DVWA/Difficulty/Low/SQLMap/03 - Data Exfiltration.md",
     "Pentesting Phases/Initial Access/Password Cracking/Online/Tools/Patator.md",
     "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/SSH.md",
     "Pentesting Phases/Initial Access/Password Cracking/Online/Tools/Crowbar.md",
