@@ -11,7 +11,7 @@ I'm Userware and I've started this project due to my experience that contains ta
 - [ ] Add Active Directory Lab in the **Lab Simulation Setup**
 - [ ] Include references and remove some duplicates
 - [ ] Fill in the information of **Hacking The Cloud**
-
+- [ ] Provide a mindmap to some sections if necessary
 # Roadmap
 
 - [ ] Cryptography section
