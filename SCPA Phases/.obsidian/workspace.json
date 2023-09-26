@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
+                "file": "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Empire.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ntlmrelayx",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
+                "file": "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Empire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
+                "file": "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Empire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md"
+                "file": "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Empire.md"
               }
             }
           },
@@ -159,9 +158,12 @@
   },
   "active": "d3c583a7958d77e4",
   "lastOpenFiles": [
+    "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
+    "Pentesting Phases/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+    "Pentesting Phases/Command and Control/Cobalt Strike/Usage.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - UNION Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/SQLMap/04 - Initial Foothold.md",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
     "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/WebApp Security Scanners/OWASP ZAP/Usage.md",
     "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection",
@@ -192,9 +194,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/DVWA/Difficulty/Low/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/DVWA/Difficulty/Low/Manual/Time-Based Blind Query SQL Injection.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
