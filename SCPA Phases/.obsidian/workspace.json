@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Boolean-Based Query SQL Injection.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection/Description.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Boolean-Based Query SQL Injection.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection/Description.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Boolean-Based Query SQL Injection.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection/Description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Boolean-Based Query SQL Injection.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection/Description.md"
               }
             }
           },
@@ -156,14 +156,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "d3c583a7958d77e4",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/WebApp Security Scanners/OWASP ZAP/Usage.md",
+    "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection",
+    "Pentesting Phases/WebApp Hacking/WebApp Security Scanners/Burp Suite/Usage.md",
+    "Pentesting Phases/WebApp Hacking/WebApp Security Scanners/OWASP ZAP",
+    "Pentesting Phases/WebApp Hacking/WebApp Security Scanners/Burp Suite",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Boolean-Based Query SQL Injection.md",
+    "Pentesting Phases/WebApp Hacking/WebApp Security Scanners",
     "Pentesting Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Boolean-Based Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Mutillidae/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/Mutillidae",
@@ -187,13 +194,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/DVWA/Difficulty/Low/Manual/Time-Based Blind Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/DVWA/Difficulty/Low/Manual/Boolean-Based Blind Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/DVWA/Difficulty/Low/Manual/Error-Based Blind Query SQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Global References WebApp Hacking",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/DVWA/Difficulty/Low/Manual/02 - Error-Based Query SQL Injection",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
