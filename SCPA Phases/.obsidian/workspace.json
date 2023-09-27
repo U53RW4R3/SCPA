@@ -156,10 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "c0870489d0bfeae7",
   "lastOpenFiles": [
-    "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/VNC.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Registry Keys.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
     "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/RDP.md",
+    "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/VNC.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/SMB.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/DNS.md",
@@ -190,8 +192,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Mutillidae/Manual.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/Mutillidae",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
