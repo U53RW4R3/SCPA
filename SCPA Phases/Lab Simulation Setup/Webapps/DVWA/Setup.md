@@ -3,6 +3,8 @@
 #dvwa #lab #webapp
 ## Linux DVWA Setup
 
+TODO: Setup PHPMyAdmin for linux and make note of it as optional and setup XAMPP for Windows.
+
 - Install dependencies
 
 ```
