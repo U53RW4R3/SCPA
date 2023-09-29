@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Commix/01 - Exploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Commix/01 - Exploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Commix/01 - Exploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Commix/01 - Exploit.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md"
               }
             }
           },
@@ -156,11 +156,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0870489d0bfeae7",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Commix",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/02 - Blind Command Injection",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Commix/01 - Exploit.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Commix",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Troll.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Webcam Chat.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Shellcode Injection.md",
@@ -181,11 +186,7 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Log Files.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Linux Enumeration and Discovery References.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Installed Programs.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Files and Directories.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Environment Variables.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ThreatCheck.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Software Packing.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Lab/DVWA/Difficulty/Low/Manual",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-based Command Injection/Lab/DVWA/Difficulty/Low/Manual",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers",
     "Lab Simulation Setup/Workstation/Windows/XAMPP",
     "Lab Simulation Setup/Workstation/Windows",
@@ -193,7 +194,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/UFW",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/IPTables",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/IPTables",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Database Administration Tools",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
