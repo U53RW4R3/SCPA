@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md"
               }
             }
           },
@@ -158,8 +158,13 @@
   },
   "active": "c0870489d0bfeae7",
   "lastOpenFiles": [
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Bind Shells.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Blind Command Injection List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
+    "Pentesting Phases/Command Line/Linux/Linux Commands References.md",
+    "Pentesting Phases/Command Line/Windows/Command Prompt/Windows Command Prompt References.md",
+    "Pentesting Phases/Command Line/Windows/Powershell/Windows Powershell Cmdlet References.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Bind Shells.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Reverse Shells.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells/ASPX.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells/ASP.md",
@@ -182,12 +187,7 @@
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Formats.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Payloads.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Platforms.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Assembler Code.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Bad Characters.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Shellcode Format.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Bind Shells",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Reverse Shells",
