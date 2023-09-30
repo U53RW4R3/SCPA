@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Architectures.md",
+                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Architectures.md",
+                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Architectures.md",
+                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Architectures.md"
+                "file": "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "c0870489d0bfeae7",
   "lastOpenFiles": [
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Bind Shells.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Reverse Shells.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells/ASPX.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells/ASP.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells/PHP.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Mac OSX/Stageless/Bind Shells.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Stageless/Bind Shells.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Linux/Staged/Bind Shells.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/Windows/Powercat.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/Shell Handler.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/DNSCat.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/Socat.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/Ncat.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/Netcat.md",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/Windows",
+    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Architectures.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Encoders.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Encryption.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Formats.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Payloads.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Platforms.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Architectures.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Assembler Code.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Bad Characters.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Shellcode Format.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Python/Stageless/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Bind Shells/ASPX.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Bind Shells/ASP.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Bind Shells/PHP.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Bind Shells",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Mac OSX/Staged/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Linux/Staged/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Python/Staged/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Reverse Shells/ASP.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Reverse Shells/ASPX.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Scripting Payloads/Windows/Exec Payloads.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Reverse Shells/PHP.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Reverse Shells",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Mac OSX/Stageless/Reverse Shells.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Mac OSX/Stageless",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Linux/Stageless/Reverse Shells.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Reverse Shells",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Mac OSX/Staged",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
