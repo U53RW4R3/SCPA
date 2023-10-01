@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md"
               }
             }
           },
@@ -158,9 +158,23 @@
   },
   "active": "c0870489d0bfeae7",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Automated Exploitation/Commix.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Blind Command Injection List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Commix/03 - Data Exfiltration.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Commix/02 - Enumeration.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Active Directory Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN).md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Active Directory Privilege Escalation/Kerberoasting/Kerberos Unconstrained Delegation.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/Kerberos.md",
+    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/CrackMapExec.md",
+    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Metasploit.md",
+    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/Cobalt Strike.md",
+    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/File Hosting Providers/Dropbox.md",
+    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/File Hosting Providers/4shared.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+    "Pentesting Phases/Initial Access/Delivery/Web Drive-by/File Hosting Providers",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Automated Exploitation/Commix.md",
     "Pentesting Phases/Command Line/Linux/Linux Commands References.md",
     "Pentesting Phases/Command Line/Windows/Command Prompt/Windows Command Prompt References.md",
     "Pentesting Phases/Command Line/Windows/Powershell/Windows Powershell Cmdlet References.md",
@@ -172,28 +186,14 @@
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells/PHP.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Mac OSX/Stageless/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Stageless/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Linux/Staged/Bind Shells.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/Windows/Powercat.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/Shell Handler.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/DNSCat.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/Socat.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/Ncat.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General/Netcat.md",
     "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/Windows",
     "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Architectures.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Encoders.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Encryption.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Formats.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Payloads.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Bind Shells",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Reverse Shells",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Mac OSX/Stageless",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Reverse Shells",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
