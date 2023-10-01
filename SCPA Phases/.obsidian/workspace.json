@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md"
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md"
               }
             }
           },
@@ -158,12 +158,12 @@
   },
   "active": "4e54d2047aebffb1",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
     "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
     "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wig.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLmap/Windows Registry.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
