@@ -14,19 +14,13 @@ $ sudo apt update && sudo apt install -y apache2 mariadb-server mariadb-client p
 - Extract and setup DVWA
 
 ```
-$ wget https://github.com/digininja/DVWA/archive/refs/tags/2.3.tar.gz
+$ sudo git clone https://github.com/digininja/DVWA.git /var/www/html/dvwa/
 
-$ sudo tar xzf DVWA-2.3.tar.gz -C /var/www/html/
-
-$ sudo mv /var/www/html/DVWA-2.3 /var/www/html/dvwa/
-
-$ sudo cp /var/www/html/dvwa/config/config.inc.php.dist
+$ sudo cp /var/www/html/dvwa/config/config.inc.php.dist /var/www/html/dvwa/config/config.inc.php
 
 $ sudo chmod -R 777 /var/www/html/dvwa/
 
 $ sudo chown -R www-data:www-data /var/www/html/dvwa/
-
-$ sudo cp /var/www/html/dvwa/config/config.inc.php.dist /var/www/html/dvwa/config/config.inc.php
 ```
 
 - Configure PHP file
@@ -34,14 +28,30 @@ $ sudo cp /var/www/html/dvwa/config/config.inc.php.dist /var/www/html/dvwa/confi
 ```
 $ cat /etc/php/7.4/apache2/php.ini
 ..[snip]..
+allow_url_fopen = On
 allow_url_include = On  
 display_startup_errors = On  
 display_errors = On
 ..[snip]..
 ```
 
-```
-$ sudo nano /var/www/html/dvwa/config/config.inc.php
+### Setup Database
+
+- Edit the `/var/www/html/dvwa/config/config.inc.php` file and add a password that is used for setting a MySQL user account.
+
+`$ cat /var/www/html/dvwa/config/config.inc.php`
+
+---
+
+```php
+$DBMS = 'MySQL';
+$_DVWA = array();
+$_DVWA[ 'db_server' ]   = getenv('DB_SERVER') ?: '127.0.0.1';
+$_DVWA[ 'db_database' ] = 'dvwa';
+$_DVWA[ 'db_user' ]     = 'dvwa';
+$_DVWA[ 'db_password' ] = 'p@ssw0rd';
+$_DVWA[ 'db_port']      = '3306';
+
 $_DVWA[ 'default_security_level' ] = 'low';
 ```
 
@@ -52,6 +62,8 @@ $ sudo systemctl start apache2
 
 $ sudo systemctl start mysql
 ```
+
+#### Setup Database user acccount
 
 - Setup MySQL server and leave root password empty.
 
@@ -64,9 +76,15 @@ $ sudo mysql
 MariaDB [(none)]> CREATE DATABASE dvwa;
 
 MariaDB [(none)]> CREATE USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
+```
 
+- You can of course change the password for the database user.
+
+```
 MariaDB [(none)]> ALTER USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
 ```
+
+#### Grant user privileges
 
 - This will grant the `dvwa@localhost` DB user with least privileges. But skip this step and move on for [[Lab Simulation Setup/Webapps/DVWA/Setup#^14f9b2|granting all privileges]] to have the full experience of SQLi.
 

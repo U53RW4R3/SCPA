@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 476.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "4e54d2047aebffb1",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/02 - Enumeration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/03 - Data Exfiltration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/04 - Initial Foothold.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - Initial Foothold and Persistence.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Identify Hash.md",
+    "Name-That-Hash.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/01 - DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/01 - DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/Boolean-Based Blind Query SQL Injection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/02 - Error-Based Query SQL Injection/01 - Database Reconnaissance.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/SSTI Detector.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
-    "Pentesting Phases/Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Recon-ng.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Gxss.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Reflective XSS/Difficulty/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/DOM-Based XSS/Difficulty/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
+    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Automated Exploitation/Commix.md",
+    "Lab Simulation Setup/Webapps/bWAPP",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Manual/02 - Reconnaissance.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - Data Exfiltration.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Manual/04 - Initial Foothold.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Commix/04 - Initial Foothold.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Commix/03 - Data Exfiltration.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Commix/02 - Enumeration.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab/01 - DVWA/Difficulty/Low/Commix/01 - Exploit.md",
-    "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/File Upload/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Reflective XSS/Difficulty",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/DOM-Based XSS/Difficulty/Low",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/DOM-Based XSS",
     "Pentesting Phases/WebApp Hacking/WebApp Security Scanners/Wapiti",
     "Pentesting Phases/WebApp Hacking/WebApp Security Scanners/W3af",
     "Pentesting Phases/Initial Access/Delivery/Web Drive-by/File Hosting Providers",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Bind Shells",
     "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/Windows",
-    "Pentesting Phases/Initial Access/Callback Shells/Shell Handler/General",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Staged/Bind Shells",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Webshells/Stageless/Reverse Shells",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/02 - Open Command Prompt.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Insecure GUI Apps/Manual/01 - MSPaint Shortcut Properties.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Images/Service Exploits/DLL Hijacking/Manual/06 - Procmon Potential Vulnerability.png",
