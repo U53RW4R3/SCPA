@@ -1,6 +1,6 @@
 # Setup
 
-#dvwa #lab #webapp
+Search Tag: #dvwa #lab #webapp
 ## Linux DVWA Setup
 
 TODO: Setup PHPMyAdmin for linux and make note of it as optional and setup [[Lab Simulation Setup/Workstation/Windows/XAMPP/Setup|XAMPP]] for Windows.
@@ -123,6 +123,7 @@ $ sudo nano /etc/hosts
 <DVWA_Server_IP> dvwa.local
 ```
 
+---
 ## References
 
 - [DVWA](https://github.com/digininja/DVWA)

@@ -4,5 +4,6 @@
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "showFrontmatter": false,
-  "attachmentFolderPath": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows"
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current"
 }
