@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b7b1edf2e1dfe003",
+        "id": "01e2b6d787f60c01",
         "type": "tabs",
         "children": [
           {
-            "id": "2de3bd862e41c1d8",
+            "id": "489522d6d28d9013",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Plain Template.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "amsi bypass",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Plain Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Plain Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Templates/Plain Template.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,15 +148,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2de3bd862e41c1d8",
+  "active": "489522d6d28d9013",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XStrike.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Templates/Plain Template.md",
     "Pentesting Phases/Legends.md",
     "Pentesting Phases/WebApp Hacking/Global References WebApp Hacking.md",
     "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/XML External Entity (XXE) Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Checklist.md",
@@ -180,10 +176,6 @@
     "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Insufficient Logging and Monitoring/Description.md",
     "Pentesting Phases/WebApp Hacking/Insufficient Logging and Monitoring/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Insecure Direct Object Reference (IDOR)/Description.md",
-    "Pentesting Phases/WebApp Hacking/Insecure Direct Object Reference (IDOR)/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity (XXE) Injection/Description.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Webmail",
