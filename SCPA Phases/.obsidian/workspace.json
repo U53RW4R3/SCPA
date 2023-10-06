@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md"
+                "file": "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Checklist.md"
               }
             }
           },
@@ -158,33 +158,33 @@
   },
   "active": "2de3bd862e41c1d8",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Security Misconfiguration/Description.md",
+    "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Description.md",
+    "Pentesting Phases/WebApp Hacking/JSON Web Token (JWT)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Insufficient Logging and Monitoring/Description.md",
+    "Pentesting Phases/WebApp Hacking/Insufficient Logging and Monitoring/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Insecure Direct Object Reference (IDOR)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Insecure Direct Object Reference (IDOR)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity (XXE) Injection/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity (XXE) Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/Inferential SQL Queries.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/NoSQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/LDAP Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
     "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
     "Lab Simulation Setup/Webapps/bWAPP/Setup.md",
     "Lab Simulation Setup/Webapps/DVWA/Setup.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ETW Bypass.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/AMSI Bypass.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - Hidden Parameters.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers/x8.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers/Wfuzz.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers/FFuF.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers/Arjun.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/08 - Web Crawlers and Directory Bruteforce.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Untitled.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Pentesting Phases/Initial Access/Callback Shells/Shellcode Formatting/Shellcode Formatting.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/HTTP.md",
-    "Pentesting Phases/Command Line/Compilers/Linux.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Shellcode Format.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Bad Characters.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Assembler Code.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Platforms.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Webmail",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/Remote Logins",
