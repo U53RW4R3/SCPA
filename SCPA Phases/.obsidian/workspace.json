@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ETW Bypass.md",
+                "file": "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ETW Bypass.md",
+                "file": "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ETW Bypass.md",
+                "file": "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ETW Bypass.md"
+                "file": "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "2de3bd862e41c1d8",
   "lastOpenFiles": [
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/AMSI Bypass.md",
+    "Lab Simulation Setup/Webapps/bWAPP/Setup.md",
+    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ETW Bypass.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/AMSI Bypass.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/HTTP/09 - Hidden Parameters.md",
@@ -183,8 +185,6 @@
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - OS Enumeration.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap/02 - Data Exfiltration.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Webmail",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/Remote Logins",
