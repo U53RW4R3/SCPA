@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 385.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -158,8 +158,12 @@
   },
   "active": "2de3bd862e41c1d8",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
     "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
     "Lab Simulation Setup/Webapps/bWAPP/Setup.md",
     "Lab Simulation Setup/Webapps/DVWA/Setup.md",
@@ -181,10 +185,6 @@
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Bad Characters.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Assembler Code.md",
     "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Platforms.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Shodan Usage.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - OS Enumeration.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Webmail",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/Remote Logins",
