@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Wordlist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SecLists",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Wordlist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Wordlist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Initial Access/Password Cracking/Wordlist.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md"
               }
             }
           },
@@ -159,6 +158,16 @@
   },
   "active": "2de3bd862e41c1d8",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Gxss.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Recon-ng.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Lab/01 - DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/SSTI Detector.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Wordlist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Shellshock List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Helpers/Path Traversal List.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
@@ -177,16 +186,6 @@
     "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Description.md",
     "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/XML External Entity (XXE) Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity (XXE) Injection/Description.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/Inferential SQL Queries.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLMap/Windows Registry.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/03 - Privilege Escalation/Windows.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/05 - Hardware/Linux.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/01 - Basic Information/Linux.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Linux.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Scanners",
     "Templates",
