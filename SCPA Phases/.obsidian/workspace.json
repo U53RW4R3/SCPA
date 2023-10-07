@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/02 - Banner Grab.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "arjun",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/02 - Banner Grab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/02 - Banner Grab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md"
+                "file": "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/02 - Banner Grab.md"
               }
             }
           },
@@ -158,8 +158,25 @@
   },
   "active": "489522d6d28d9013",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/05 - Hardware/Linux.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/01 - Setup TLS.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Dirb.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Metasploit.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Sublist3r2.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/09 - Fuzzers.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Directories",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/DHCP.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Description.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/05 - Hardware/Linux.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Linux.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/03 - Privilege Escalation/Windows.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/03 - Privilege Escalation/Linux.md",
@@ -173,27 +190,10 @@
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/01 - Basic Information/Linux.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/01 - Basic Information/Windows.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/02 - Credentials/Linux.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLMap/Windows Registry.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Defense Evasion Windows Firewall References.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/ISO File.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/Shortcut Link.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/Spear Phishing Social Engineering References.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/Toxssin.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Setting up a Phishing Page.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Sending Email.md",
-    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Rogue Access Point.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Webmail",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/Remote Logins",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Content Management System (CMS)",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Panels",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Enterprise Search Engines",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/03 - Query Joined via Hashtag.png",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration/04 - Harvest Hashdump Credentials via GROUP_CONCAT FROM MySQL Database Server.png",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration/03 - Query Hashdump Credentials From MySQL Database Server.png",
