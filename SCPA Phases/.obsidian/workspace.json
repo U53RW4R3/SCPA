@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 397.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md"
               }
             }
           },
@@ -158,33 +158,33 @@
   },
   "active": "489522d6d28d9013",
   "lastOpenFiles": [
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting/Manual.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting/XSSer.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/05 - Hardware/Linux.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Linux.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/03 - Privilege Escalation/Windows.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/03 - Privilege Escalation/Linux.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/02 - Credentials/Windows.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/01 - Banner Grab.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/02 - Fingerprint DBMS.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/03 - Databases.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/04 - Tables and Columns.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/05 - Credentials.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/06 - Privileges.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/01 - Basic Information/Linux.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/01 - Basic Information/Windows.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/02 - Credentials/Linux.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Initial Footholds/SQLMap/Windows Registry.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Checklist.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/Inferential SQL Queries.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XStrike.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
-    "Templates/Plain Template.md",
-    "Pentesting Phases/Legends.md",
-    "Pentesting Phases/WebApp Hacking/Global References WebApp Hacking.md",
-    "Pentesting Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Insecure Deserialization/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/XML External Entity (XXE) Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/04 - Automated Exploitation/Commix.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/02 - Blind Command Injection/Checklist.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Defense Evasion Windows Firewall References.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/ISO File.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/Shortcut Link.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/Spear Phishing Social Engineering References.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Spear Phishing/Toxssin.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Setting up a Phishing Page.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Sending Email.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Rogue Access Point.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Fuzzers",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Webapps/Webmail",
