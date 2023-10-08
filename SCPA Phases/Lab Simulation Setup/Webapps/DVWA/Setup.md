@@ -1,6 +1,7 @@
 # Setup
 
 Search Tag: #dvwa #lab #webapp
+
 ## Linux DVWA Setup
 
 TODO: Setup PHPMyAdmin for linux and make note of it as optional and setup [[Lab Simulation Setup/Workstation/Windows/XAMPP/Setup|XAMPP]] for Windows.
