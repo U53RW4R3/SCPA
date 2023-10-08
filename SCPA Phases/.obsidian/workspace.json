@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 317.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap.md"
               }
             }
           },
@@ -159,6 +159,11 @@
   "active": "db5e37f60226a0d5",
   "lastOpenFiles": [
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap.md",
     "Lab Simulation Setup/Webapps/DVWA/Setup.md",
     "Lab Simulation Setup/Server/Linux/MySQL/Setup.md",
     "Lab Simulation Setup/Server/Linux/MySQL",
@@ -166,7 +171,6 @@
     "Lab Simulation Setup/Server/Linux",
     "Lab Simulation Setup/Server",
     "Lab Simulation Setup/Workstation/Untitled.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab/01 - DVWA/Difficulty/Low/SQLMap.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/04 - Forge Repositories.md",
@@ -181,12 +185,8 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/MSSQL.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/Powercat.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/Archive Files.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - OS Enumeration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Directories",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters",
