@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
+                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
+                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
+                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md"
+                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md"
               }
             }
           },
@@ -158,18 +158,23 @@
   },
   "active": "be50dabdd3813acb",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/03 - Security Headers Scanner.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/02 - Blind Command Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Description.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
+    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/03 - Security Headers Scanner.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Blind Command Injection List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Shellshock List.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Scanners/Nmap.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/02 - Blind Command Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Information Gathering Frameworks/Maltego.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Information Gathering Frameworks/OSINT Framework.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Phonebook.md",
@@ -180,11 +185,6 @@
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/09 - theHarvester.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/01 - Certificate Check.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/Subdomain/DNS/Amass.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/Subdomain/DNS/Nmap.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/Subdomain/DNS/Metasploit.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/Subdomain",
     "Pentesting Phases/WebApp Hacking/Bruteforce Login/Lab Simulation",
     "Lab Simulation Setup/Server/Linux/MySQL",
