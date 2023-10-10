@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be50dabdd3813acb",
+            "id": "e3af57cd3fec961e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md"
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md"
               }
             }
           },
@@ -156,34 +156,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be50dabdd3813acb",
+  "active": "e3af57cd3fec961e",
   "lastOpenFiles": [
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/Tools/Nmap.md",
+    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
+    "Pentesting Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/08 - WebDAV.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/07 - Screenshots.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/06 - WAF Detection.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/03 - Robots.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/02 - Banner Grab.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/01 - Setup TLS.md",
+    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Online/Protocols/SMB & NETBIOS.md",
+    "Pentesting Phases/Initial Access/Password Cracking/Online/Tools/Patator.md",
+    "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Wordpress/Scanner/WPScan.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Lab Simulation/01 - DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Metasploit.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Lab Simulation/01 - DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Metasploit.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Lab Simulation/01 - DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Manual.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - OS Enumeration.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Collection.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/04 - OS Enumeration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/03 - Database Enumeration.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/02 - Data Collection.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage.md",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/SMB Names Examples.md",
-    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
-    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wig.md",
-    "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Checklist.md",
-    "Pentesting Phases/Initial Access/Internet of Things (IoT)/Routers.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Description.md",
-    "Pentesting Phases/Vulnerability Assessment/Public Exploits/ExploitDB.md",
-    "Pentesting Phases/Vulnerability Assessment/Public Exploits/Pompem.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/02 - bWAPP/Difficulty/Low/Manual/04 - Initial Foothold.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/02 - bWAPP/Difficulty/Low/Manual/03 - Data Exfiltration.md",
     "Pentesting Phases/Vulnerability Assessment/Public Exploits",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/Subdomain",
