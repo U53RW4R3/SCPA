@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
+                "file": "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md"
+                "file": "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Checklist.md"
               }
             }
           },
@@ -158,32 +158,33 @@
   },
   "active": "be50dabdd3813acb",
   "lastOpenFiles": [
-    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/02 - Blind Command Injection/Checklist.md",
+    "Pentesting Phases/Initial Access/Internet of Things (IoT)/Routers.md",
+    "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Components with Known Vulnerabilities/Description.md",
+    "Pentesting Phases/Vulnerability Assessment/Public Exploits/ExploitDB.md",
+    "Pentesting Phases/Vulnerability Assessment/Public Exploits/Pompem.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/02 - bWAPP/Difficulty/Low/Manual/04 - Initial Foothold.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/02 - bWAPP/Difficulty/Low/Manual/03 - Data Exfiltration.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/02 - bWAPP/Difficulty/Low/Manual/02 - Reconnaissance.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Gxss.md",
+    "Templates/Plain Template.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Pentesting Phases/Vulnerability Assessment/Vulnerability Scanner/Nmap.md",
+    "Pentesting Phases/Vulnerability Assessment/Public Exploits",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/File Upload/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Recon-ng.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/02 - Blind Command Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Description.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/03 - Security Headers Scanner.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Blind Command Injection List.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Helpers/Shellshock List.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Command Injection/Scanners/Nmap.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Information Gathering Frameworks/Maltego.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Information Gathering Frameworks/OSINT Framework.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Phonebook.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Cloud Lookup.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/06 - ASN ID.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/05 - Mail Exchange Servers.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/04 - Forge Repositories.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration.md",
-    "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/09 - theHarvester.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/Subdomain",
     "Pentesting Phases/WebApp Hacking/Bruteforce Login/Lab Simulation",
@@ -193,7 +194,6 @@
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Directories",
     "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/03 - Query Joined via Hashtag.png",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration/04 - Harvest Hashdump Credentials via GROUP_CONCAT FROM MySQL Database Server.png",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration/03 - Query Hashdump Credentials From MySQL Database Server.png",
