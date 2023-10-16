@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md"
               }
             }
           },
@@ -159,15 +158,15 @@
   },
   "active": "e3af57cd3fec961e",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Katana.md",
     "Pentesting Phases/Information Gathering/Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Gospider.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/Path Traversal/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/02 - Database Enumeration.md",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/03 - Data Collection.md",
