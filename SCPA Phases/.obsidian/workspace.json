@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wapiti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md",
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md"
+                "file": "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md"
               }
             }
           },
@@ -158,8 +159,18 @@
   },
   "active": "e3af57cd3fec961e",
   "lastOpenFiles": [
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/Shares.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ThreatCheck.md",
+    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
+    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Regular Payloads/Python/Stageless/Bind Shells.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Registry/Hashdump/01 - Manual.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/SMB Lateral Movement/PsExec.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Metasploit.md",
+    "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/SMB.md",
+    "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/RDP.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/Shares.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Service Exploits/Insecure Service Permission.md",
     "Pentesting Phases/Command and Control/Empire/Core Commands.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/General/SOCKS Proxy/3proxy.md",
@@ -174,16 +185,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/Archive Files.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/Archive Files.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Metasploit.md",
-    "Pentesting Phases/Command and Control/Metasploit/Interactive Shell.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC).md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Switching Callbacks.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/SMB Lateral Movement/SMBExec.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/SMB.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Active Directory Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN).md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager.md",
-    "Pentesting Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/RDP.md",
     "Untitled.canvas",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal/Scanner",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Active Directory Privilege Escalation/Authentication Relaying/SMB Relay",
