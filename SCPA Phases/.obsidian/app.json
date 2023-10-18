@@ -1,9 +1,0 @@
-{
-  "readableLineLength": false,
-  "strictLineBreaks": false,
-  "showLineNumber": true,
-  "alwaysUpdateLinks": true,
-  "showFrontmatter": false,
-  "attachmentFolderPath": "./",
-  "newFileLocation": "current"
-}
