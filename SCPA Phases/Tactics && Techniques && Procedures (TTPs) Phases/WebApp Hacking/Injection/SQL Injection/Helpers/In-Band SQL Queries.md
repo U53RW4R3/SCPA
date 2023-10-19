@@ -127,7 +127,7 @@ c:\wamp\www
 ---
 ## References
 
-- [WebSec: SQL Injection](https://www.websec.ca/kb/sql_injection)
+- [WebSec: SQL Injection Knowledge Base](https://www.websec.ca/kb/sql_injection)
 
 - [PayloadsAllTheThings SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection)
 
