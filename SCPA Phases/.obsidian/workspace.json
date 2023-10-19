@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md"
+                "file": "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md"
               }
             }
           },
@@ -158,13 +158,26 @@
   },
   "active": "80189109d931071f",
   "lastOpenFiles": [
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
+    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Passive/Responder.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Passive/Sipdump.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Passive/TCPDump.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/SMB Names Examples.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios/02 - DBMS Backend Relay Attack.md",
+    "Pentesting Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios/01 - Capture Hashes via Spoof SMB Shares.md",
+    "Pentesting Phases/Command and Control/Sliver/Core Commands.md",
+    "Pentesting Phases/Command and Control/Sliver/Setup.md",
+    "Pentesting Phases/Command and Control/Cobalt Strike/Setup.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Shortcut Links.md",
     "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Shortcut Link.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/Iodine.md",
     "Pentesting Phases/Command and Control/DNSCat2/Core Commands.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/DNSTunnel.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/DNSCat.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/DNS.md",
     "Pentesting Phases/Command and Control/DNSCat2",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/DNS2TCP.md",
@@ -173,19 +186,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/ICMP Tunneling.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/HTTP Tunneling.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling",
-    "Pentesting Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/ThreatCheck.md",
-    "Pentesting Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
-    "Pentesting Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Regular Payloads/Python/Stageless/Bind Shells.md",
-    "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/Host/Registry/Hashdump/01 - Manual.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/SMB Lateral Movement/PsExec.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Metasploit.md",
-    "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/SMB.md",
-    "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/RDP.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/Shares.md",
     "Untitled.canvas",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal/Scanner",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Active Directory Privilege Escalation/Authentication Relaying/SMB Relay",
