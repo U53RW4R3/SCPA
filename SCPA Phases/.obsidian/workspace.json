@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Mac OSX/Users.md",
+                "file": "Cryptography/Asymmetric/Description.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Mac OSX/Users.md",
+                "file": "Cryptography/Asymmetric/Description.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Mac OSX/Users.md",
+                "file": "Cryptography/Asymmetric/Description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Mac OSX/Users.md"
+                "file": "Cryptography/Asymmetric/Description.md"
               }
             }
           },
@@ -158,16 +158,31 @@
   },
   "active": "80189109d931071f",
   "lastOpenFiles": [
+    "Cryptography/Symmetric/Description.md",
+    "Cryptography/Asymmetric/Description.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/P2P Callback Shells.md",
+    "Cryptography/Asymmetric",
+    "Cryptography/Symmetric",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Switching Callbacks.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Mayhem/Printers.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Execute Assembly.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Shellcode Injection.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Metasploit.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Mayhem",
+    "Malware Development/Helpers/Implant Development/Artifacts.md",
+    "Malware Development/Helpers/Detection/ThreatCheck.md",
+    "Malware Development/Helpers/Detection/AMSITrigger.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Sign Binary.md",
+    "Malware Development/Helpers/Implant Development/Powershell",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Mac OSX/Users.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Networking/Networking.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Networking",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Helpers/Detection/AMSITrigger.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Helpers/Implant Development",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Helpers/Detection",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Helpers/Implant Development/AMSI Bypass.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Helpers/Detection/ThreatCheck.md",
+    "Malware Development/Helpers/Implant Development",
+    "Malware Development/Helpers/Detection",
+    "Malware Development/Helpers/Implant Development/Powershell/AMSI Bypass.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Hide Artifacts.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Helpers",
+    "Malware Development/Helpers",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Obfuscate Files/Webshell.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Obfuscate Files/Obfuscators/Invoke-PSObfuscation.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/03 - Shellter.md",
@@ -179,21 +194,6 @@
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Disable Firewall.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/IPTables/IPTables.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/UFW/UFW.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Windows/Clear Traces/Secure Delete Files.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Windows/Clear Traces/Remove Certifications.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Windows/Disable Logs.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Windows/Clear Traces/Remove Implants.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Clear Traces/Modify Logs.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Windows/Clear Traces",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Clear Traces/Delete Logs.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Clear Hosts.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Clear Traces/Remove Implants.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Clear Traces/Secure Delete Files.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Clear Traces",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Linux/Disable Logs.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Anti-Forensics/Windows/Clear Hosts.md",
-    "Malware Development",
-    "Cryptography",
     "Untitled.canvas",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Pentesting Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
