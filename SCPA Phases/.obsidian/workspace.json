@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3af57cd3fec961e",
+            "id": "80189109d931071f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/Iodine.md",
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/Iodine.md",
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/Iodine.md",
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/Iodine.md"
+                "file": "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md"
               }
             }
           },
@@ -156,10 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3af57cd3fec961e",
+  "active": "80189109d931071f",
   "lastOpenFiles": [
-    "Pentesting Phases/Command and Control/DNSCat2/Core Commands.md",
+    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Shortcut Links.md",
+    "Pentesting Phases/Initial Access/Delivery/Social Engineering/Phishing/Shortcut Link.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/Iodine.md",
+    "Pentesting Phases/Command and Control/DNSCat2/Core Commands.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/DNSTunnel.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Linux/Tunneling/DNS Tunneling/DNSCat.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
@@ -184,8 +186,6 @@
     "Pentesting Phases/Initial Access/Delivery/Remote Login Exploitation/RDP.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/IP Address.md",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Networking/Shares.md",
-    "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Service Exploits/Insecure Service Permission.md",
-    "Pentesting Phases/Command and Control/Empire/Core Commands.md",
     "Untitled.canvas",
     "Pentesting Phases/WebApp Hacking/Content Management System (CMS)/Drupal/Scanner",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Active Directory Privilege Escalation/Authentication Relaying/SMB Relay",
