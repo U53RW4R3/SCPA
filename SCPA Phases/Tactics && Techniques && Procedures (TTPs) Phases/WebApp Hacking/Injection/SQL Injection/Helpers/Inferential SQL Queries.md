@@ -31,3 +31,8 @@ Grab version
 
 ' OR 1=1; EXEC xp_dirtree 'C:\your_target_directory', 1, 1;-- -
 ```
+
+---
+## References
+
+- [WebSec: SQL Injection Knowledge Base](https://www.websec.ca/kb/sql_injection)

