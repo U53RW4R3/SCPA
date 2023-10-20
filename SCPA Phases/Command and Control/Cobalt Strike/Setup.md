@@ -1,5 +1,7 @@
 # Setup
 
+Search Tag: #cobalt-strike #command-and-control
+
 ## 01 - Dependencies
 
 ### Debian-based distros

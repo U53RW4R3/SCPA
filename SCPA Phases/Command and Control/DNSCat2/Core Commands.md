@@ -1,5 +1,7 @@
 # Core Commands
 
+Search Tag: #dnscat2 #command-and-control #help-menu
+
 TODO: Provide a usage example with dnscat
 
 ## Usage

