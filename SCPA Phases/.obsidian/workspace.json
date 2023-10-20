@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md"
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
     "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/05 - History.md",
     "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/04 - Feature.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Help Menu.md",
@@ -183,7 +184,6 @@
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/04 - Execute Process.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell",

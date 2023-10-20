@@ -1,5 +1,7 @@
 # 03 - Text Editor
 
+TODO: Fill this info
+
 ## 3.1 - Nano
 
 `$ nano file.txt`
