@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md"
               }
             }
           },
@@ -158,7 +158,24 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/PowerPoint.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Word.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Templates.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Inside Document Properties Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Excel.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers/Payload Delivery.md",
+    "Malware Development/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers",
+    "Malware Development/Checklist.md",
+    "Cryptography/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Discover Programs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
+    "Malware Development/Untitled",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
     "Malware Development/Helpers/Implant Templates/Artifacts.md",
+    "Malware Development/Helpers/Detection/AMSITrigger.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Formats.md",
     "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
     "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
@@ -169,21 +186,6 @@
     "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/04 - Feature.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Help Menu.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Command and Control/Havoc/Usage/Usage.md",
-    "Command and Control/Havoc/Setup.md",
-    "Command and Control/DNSCat2/Core Commands.md",
-    "Command and Control/Cobalt Strike/Setup.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/07 - Help Menu.md",
-    "Command and Control/Cobalt Strike/Usage/Core Features/01 - Shell Handler.md",
-    "Command and Control/Cobalt Strike/Usage/Core Features/02 - Credentials Database.md",
-    "Command and Control/Cobalt Strike/Cobalt Strike Global Refercnes.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/05 - Process Manipulation.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Spoof Arguments.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Basic Commands.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Meterpreter Scripts and Modules (TODO).md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell",
@@ -192,8 +194,6 @@
     "Command and Control/Covenant/Usage",
     "Command and Control/Havoc/Usage",
     "Command and Control/Sliver/Core Commands",
-    "Command and Control/Metasploit/MSFConsole/Database Commands/Usage",
-    "Command and Control/Metasploit/MSFConsole/Database Commands",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",

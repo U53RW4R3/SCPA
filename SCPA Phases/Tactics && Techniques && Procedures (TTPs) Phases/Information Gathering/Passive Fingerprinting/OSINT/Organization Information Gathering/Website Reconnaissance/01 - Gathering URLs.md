@@ -141,4 +141,7 @@ List of computer hardware manufacturers
 <country_name> computer hardware manufacturers
 
 Foreign exchange companies
+
+Mining in <country_name>
+Mines in <country_name>
 ```

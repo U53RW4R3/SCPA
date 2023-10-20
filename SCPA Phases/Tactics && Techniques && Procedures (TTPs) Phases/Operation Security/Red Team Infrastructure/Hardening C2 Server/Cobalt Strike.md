@@ -126,6 +126,8 @@ server {
 
 - [HelpSystems User Guide](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/welcome_main.htm)
 
+- [WhiteKnightLabs: Unleashing the Unseen: Harnessing the Power of Cobalt Strike Profiles for EDR Evasion](https://whiteknightlabs.com/2023/05/23/unleashing-the-unseen-harnessing-the-power-of-cobalt-strike-profiles-for-edr-evasion/)
+
 - [A Red Teamer Plays with JARM](https://www.cobaltstrike.com/blog/a-red-teamer-plays-with-jarm/)
 
 - [Cobalt Strike Malleable C2 Profile](https://unit42.paloaltonetworks.com/cobalt-strike-malleable-c2-profile/)

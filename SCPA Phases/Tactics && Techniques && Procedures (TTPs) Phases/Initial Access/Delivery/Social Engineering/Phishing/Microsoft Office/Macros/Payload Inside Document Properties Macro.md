@@ -2,6 +2,8 @@
 
 ## 01 - Crafting Manually
 
+TODO: Fill this info
+
 Using **comments** in the **Properties** to include malware URL link to execute as shell via `rundll32.exe`
 
 ---
