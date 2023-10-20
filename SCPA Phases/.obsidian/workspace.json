@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs.md"
               }
             }
           },
@@ -158,6 +158,12 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Helpers/Implant Templates/Artifacts.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/01 - Usage/Formats.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
+    "Cryptography/Symmetric/Description.md",
+    "Command Line/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
     "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
     "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/05 - History.md",
     "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/04 - Feature.md",
@@ -178,12 +184,6 @@
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Spoof Arguments.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Basic Commands.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Meterpreter Scripts and Modules (TODO).md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/07 - Miscellaneous.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/06 - Pseudo Shell.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/05 - WireTap.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/04 - Execute Process.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell",
