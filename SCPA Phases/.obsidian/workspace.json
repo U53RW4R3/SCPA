@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command and Control/Havoc/Usage/Usage.md",
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command and Control/Havoc/Usage/Usage.md",
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command and Control/Havoc/Usage/Usage.md",
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command and Control/Havoc/Usage/Usage.md"
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md"
               }
             }
           },
@@ -156,21 +156,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/05 - History.md",
+    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/04 - Feature.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Help Menu.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
+    "Command and Control/Havoc/Usage/Usage.md",
     "Command and Control/Havoc/Setup.md",
     "Command and Control/DNSCat2/Core Commands.md",
     "Command and Control/Cobalt Strike/Setup.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/07 - Help Menu.md",
     "Command and Control/Cobalt Strike/Usage/Core Features/01 - Shell Handler.md",
     "Command and Control/Cobalt Strike/Usage/Core Features/02 - Credentials Database.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
     "Command and Control/Cobalt Strike/Cobalt Strike Global Refercnes.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/05 - Process Manipulation.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Spoof Arguments.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Basic Commands.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Help Menu.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Meterpreter Scripts and Modules (TODO).md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/07 - Miscellaneous.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/06 - Pseudo Shell.md",
@@ -179,17 +184,12 @@
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
-    "Command and Control/Covenant/Setup.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Untitled.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell",
     "Command and Control/Cobalt Strike/Usage/Core Features",
     "Command and Control/Cobalt Strike/Usage",
-    "Command and Control/Covenant/Usage/Usage.md",
     "Command and Control/Covenant/Usage",
-    "Command and Control/Covenant/Untitled.md",
-    "Command and Control/Havoc/Usage/Usage.md",
     "Command and Control/Havoc/Usage",
     "Command and Control/Sliver/Core Commands",
     "Command and Control/Metasploit/MSFConsole/Database Commands/Usage",

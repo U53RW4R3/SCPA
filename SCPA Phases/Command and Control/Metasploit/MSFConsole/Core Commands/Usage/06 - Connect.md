@@ -2,6 +2,8 @@
 
 Search Tag: #metasploit-framework #command-and-control
 
+## 6.1 - Help Menu
+
 ```
 msf > connect -h
 Usage: connect [options] <host> <port>
@@ -22,7 +24,11 @@ OPTIONS:
     -u, --udp                       Switch to a UDP socket.
     -w, --timeout <seconds>         Specify connect timeout.
     -z, --try-connection            Just try to connect, then return.
+```
 
+## 6.2 - Usage
+
+```
 msf > connect <IP> <PORT>
 
 msf > connect -s <IP> <PORT>
