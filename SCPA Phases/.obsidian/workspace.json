@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Malware Development/Helpers/Entropy/Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Malware Development/Helpers/Entropy/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Malware Development/Helpers/Entropy/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md"
+                "file": "Malware Development/Helpers/Entropy/Commands.md"
               }
             }
           },
@@ -156,10 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Helpers/Entropy/Scripts.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Helpers/Implant Templates/Artifacts.md",
     "Malware Development/Helpers/Shellcode Formatting/Commands.md",
     "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
