@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md"
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md"
               }
             }
           },
@@ -158,23 +158,27 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
+    "Malware Development/Techniques/Persistence/WinAPI/CreateFile.md",
+    "Malware Development/Techniques/Persistence/WinAPI/Registry.md",
+    "Malware Development/Techniques/Process Injection/WinAPI/CreateProcess.md",
+    "Malware Development/Techniques/Process Injection/WinAPI/OpenProcess.md",
+    "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
+    "Malware Development/Techniques/Evasion/Spoof/Parent PPID Spoofing.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/IsDebuggerPresent.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
-    "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
-    "Malware Development/Techniques/Evasion/Spoof/Parent PPID Spoofing.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
     "Command Line/Linux/Linux Commands References.md",
     "Malware Development/Checklist.md",
     "Malware Development/Techniques/Evasion/Spoof",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation",
     "Malware Development/Techniques/Memory Management/WinAPI/Paging",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI",
@@ -183,13 +187,9 @@
     "Malware Development/Techniques/Evasion/Encryption/Untitled",
     "Malware Development/Techniques/Evasion/Encryption/Symmetric",
     "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/CreateProcess.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions",
-    "Malware Development/Techniques/Persistence/WinAPI/CreateFile.md",
     "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
     "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/ReadFile.md",
-    "Malware Development/Techniques/Persistence/WinAPI/Registry.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/OpenProcess.md",
     "Malware Development/Helpers/Implant Templates/Artifacts.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
     "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
