@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+                "file": "Malware Development/Helpers/Entropy/Scripts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+                "file": "Malware Development/Helpers/Entropy/Scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+                "file": "Malware Development/Helpers/Entropy/Scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md"
+                "file": "Malware Development/Helpers/Entropy/Scripts.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
     "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
     "Malware Development/Helpers/Implant Templates/Artifacts",
