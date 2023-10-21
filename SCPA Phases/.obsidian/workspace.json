@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md"
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md"
               }
             }
           },
@@ -158,6 +158,19 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
+    "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
+    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts",
+    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
+    "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
+    "Malware Development/Helpers/Entropy/Scripts.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
@@ -169,15 +182,10 @@
     "Malware Development/Techniques/Process Injection/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
     "Malware Development/Techniques/Evasion/Spoof/Parent PPID Spoofing.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/IsDebuggerPresent.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
-    "Command Line/Linux/Linux Commands References.md",
-    "Malware Development/Checklist.md",
     "Malware Development/Techniques/Evasion/Spoof",
     "Malware Development/Techniques/Memory Management/Memory Allocation",
     "Malware Development/Techniques/Memory Management/WinAPI/Paging",
@@ -186,14 +194,6 @@
     "Malware Development/Techniques/Memory Management",
     "Malware Development/Techniques/Evasion/Encryption/Untitled",
     "Malware Development/Techniques/Evasion/Encryption/Symmetric",
-    "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/ReadFile.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts.md",
-    "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
-    "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
-    "Malware Development/Helpers/Entropy/Commands.md",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
