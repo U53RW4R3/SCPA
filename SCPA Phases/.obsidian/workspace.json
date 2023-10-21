@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md",
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md",
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md",
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md"
+                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Techniques/Evasion/Encryption/XOR.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
+    "Malware Development/Techniques/Process Injection/WinAPI/CreateProcess.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions",
+    "Malware Development/Techniques/Evasion/Encryption",
+    "Malware Development/Techniques/Evasion",
+    "Malware Development/Techniques/Persistence/WinAPI/CreateFile.md",
+    "Malware Development/Techniques/Process Injection/WinAPI",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
+    "Malware Development/Techniques/Persistence/WinAPI",
+    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI",
+    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI",
+    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Processes/WinAPI",
+    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/ReadFile.md",
+    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)",
+    "Malware Development/Techniques/Persistence/WinAPI/Registry.md",
+    "Malware Development/Techniques/Process Injection/WinAPI/OpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Windows Function.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Processes/WinAPI/OpenProcess.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
     "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
     "Malware Development/Checklist.md",
     "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Helpers/Entropy/Scripts.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts.md",
     "Malware Development/Helpers/Shellcode Formatting/Commands.md",
     "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
-    "Malware Development/Helpers/Entropy",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Templates.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Inside Document Properties Macro.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Cloud Providers/GoFile.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/SUID and SGID.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Printers.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Linux Enumeration and Discovery References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Installed Programs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Files and Directories.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Environment Variables.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Cron Job.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Log Files",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers",
-    "Malware Development/Untitled",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell",
-    "Command and Control/Cobalt Strike/Usage/Core Features",
-    "Command and Control/Cobalt Strike/Usage",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
