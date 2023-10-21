@@ -1,6 +1,6 @@
 # Description
 
-Search Tags: \<insert tags>
+Search Tags: #cryptography #symmetric
 
 ---
 ## References

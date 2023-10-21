@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Cryptography/Symmetric/Algorithms/3DES.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Cryptography/Symmetric/Algorithms/3DES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Cryptography/Symmetric/Algorithms/3DES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md"
+                "file": "Cryptography/Symmetric/Algorithms/3DES.md"
               }
             }
           },
@@ -158,8 +158,22 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+    "Cryptography/Symmetric/Algorithms/DES.md",
+    "Cryptography/Symmetric/Algorithms/3DES.md",
+    "Cryptography/Asymmetric/Algorithms",
+    "Cryptography/Symmetric/Algorithms/RC4.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
+    "Cryptography/Symmetric/Algorithms",
+    "Cryptography/Asymmetric/Algorithms/RSA.md",
+    "Cryptography/Symmetric/Algorithms/AES.md",
+    "Cryptography/Symmetric/Algorithms/XOR.md",
+    "Malware Development/Checklist.md",
+    "Cryptography/README.md",
+    "Cryptography/Symmetric/Description.md",
+    "Cryptography/Asymmetric/Description.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+    "Malware Development/Helpers/Entropy/Scripts.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
     "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
@@ -168,32 +182,18 @@
     "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
     "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
     "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
-    "Malware Development/Helpers/Entropy/Scripts.md",
-    "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
-    "Malware Development/Techniques/Persistence/WinAPI/CreateFile.md",
-    "Malware Development/Techniques/Persistence/WinAPI/Registry.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/CreateProcess.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/OpenProcess.md",
-    "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
-    "Malware Development/Techniques/Evasion/Spoof/Parent PPID Spoofing.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/IsDebuggerPresent.md",
-    "Malware Development/Techniques/Evasion/Spoof",
+    "Malware Development/Techniques/Evasion/Spoofing Functions",
     "Malware Development/Techniques/Memory Management/Memory Allocation",
     "Malware Development/Techniques/Memory Management/WinAPI/Paging",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI",
     "Malware Development/Techniques/Memory Management",
-    "Malware Development/Techniques/Evasion/Encryption/Untitled",
-    "Malware Development/Techniques/Evasion/Encryption/Symmetric",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
