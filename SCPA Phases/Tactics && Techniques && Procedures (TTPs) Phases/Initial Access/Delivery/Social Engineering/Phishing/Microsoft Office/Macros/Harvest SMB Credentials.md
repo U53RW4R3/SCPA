@@ -4,7 +4,7 @@
 
 TODO: Demonstrate as many examples to fetch credentials using SMB relay via Responder
 
-Refer to **Sniffing and Spoofing** section under [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage|Usage]].
+Refer to **Sniffing and Spoofing** section under [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage|Responder]].
 
 ## 02 - Metasploit
 
