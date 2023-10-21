@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md"
+                "file": "Malware Development/Helpers/Implant Templates/Artifacts.md"
               }
             }
           },
@@ -158,8 +158,11 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
+    "Malware Development/Helpers/Detection/Entropy/Scripts.md",
+    "Malware Development/Helpers/Detection/Entropy/Commands.md",
     "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
+    "Malware Development/Helpers/Detection/Entropy",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
     "Malware Development/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
@@ -184,8 +187,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Log Files",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Service Controller Manager (SCM).md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/PowerPoint.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Word.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers",
     "Malware Development/Untitled",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH",
@@ -193,7 +194,6 @@
     "Command and Control/Cobalt Strike/Usage/Interactive Shell",
     "Command and Control/Cobalt Strike/Usage/Core Features",
     "Command and Control/Cobalt Strike/Usage",
-    "Command and Control/Covenant/Usage",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
