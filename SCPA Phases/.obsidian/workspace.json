@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
+                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
+                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
+                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md"
+                "file": "Malware Development/Helpers/Shellcode Formatting/Commands.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
+    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
     "Malware Development/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Templates.md",
@@ -183,9 +186,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/PowerPoint.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Word.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Excel.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers/Payload Delivery.md",
-    "Malware Development/README.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers",
     "Malware Development/Untitled",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH",
