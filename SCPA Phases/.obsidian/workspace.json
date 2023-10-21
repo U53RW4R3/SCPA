@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
+                "file": "Malware Development/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
+                "file": "Malware Development/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
+                "file": "Malware Development/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md"
+                "file": "Malware Development/Checklist.md"
               }
             }
           },
@@ -156,13 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation",
     "Malware Development/Techniques/Memory Management/WinAPI/Paging",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI",
