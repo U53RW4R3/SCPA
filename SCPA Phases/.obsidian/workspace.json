@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
+                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
+                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
+                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md"
+                "file": "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md"
               }
             }
           },
@@ -158,12 +158,18 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/IsDebuggerPresent.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
+    "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
     "Malware Development/Techniques/Evasion/Spoof/Parent PPID Spoofing.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
     "Command Line/Linux/Linux Commands References.md",
-    "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
     "Malware Development/Checklist.md",
     "Malware Development/Techniques/Evasion/Spoof",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
@@ -179,21 +185,15 @@
     "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
     "Malware Development/Techniques/Process Injection/WinAPI/CreateProcess.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions",
-    "Malware Development/Techniques/Evasion/Encryption",
     "Malware Development/Techniques/Persistence/WinAPI/CreateFile.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
     "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/ReadFile.md",
     "Malware Development/Techniques/Persistence/WinAPI/Registry.md",
     "Malware Development/Techniques/Process Injection/WinAPI/OpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/IsDebuggerPresent.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
     "Malware Development/Helpers/Implant Templates/Artifacts.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
     "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
     "Malware Development/Helpers/Entropy/Commands.md",
-    "Malware Development/Helpers/Entropy/Scripts.md",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
