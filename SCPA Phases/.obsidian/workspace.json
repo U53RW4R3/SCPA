@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Checklist.md"
+                "file": "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md"
               }
             }
           },
@@ -158,12 +158,19 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Techniques/Evasion/Spoof/Parent PPID Spoofing.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
+    "Command Line/Linux/Linux Commands References.md",
+    "Malware Development/Techniques/Evasion/Spoof/Command Line Spoofing.md",
+    "Malware Development/Checklist.md",
+    "Malware Development/Techniques/Evasion/Spoof",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualProtect.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation",
     "Malware Development/Techniques/Memory Management/WinAPI/Paging",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI",
     "Malware Development/Techniques/Memory Management",
@@ -173,7 +180,6 @@
     "Malware Development/Techniques/Process Injection/WinAPI/CreateProcess.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions",
     "Malware Development/Techniques/Evasion/Encryption",
-    "Malware Development/Techniques/Evasion",
     "Malware Development/Techniques/Persistence/WinAPI/CreateFile.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
@@ -186,14 +192,8 @@
     "Malware Development/Helpers/Implant Templates/Artifacts.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
     "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
-    "Malware Development/Checklist.md",
     "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Helpers/Entropy/Scripts.md",
-    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
-    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Templates.md",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
