@@ -8,4 +8,4 @@ Search Tag: #commix #command-injection #initial-foothold #persistence #webshell 
 
 - Find writable directories in the web root directory the drop a [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Webshells/Webshells|webshell]].
 
-`$ find /var/www/html -writable -type d 2>/dev/null`
+`> find /var/www/html/dvwa -writable -type d 2>/dev/null`

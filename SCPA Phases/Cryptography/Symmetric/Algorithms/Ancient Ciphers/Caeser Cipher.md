@@ -4,13 +4,21 @@
 
 ### Formula
 
-### Encryption
+#### Encryption
 
 $E_n (x) = (x + n) \mod 26$
 
-### Decryption
+#### Decryption
 
 $D_n (x) = (x - n) \mod 26$
+
+### Flowchart
+
+TODO: Translate from pseudo code to a flowchart
+
+### Pseudo Code
+
+TODO: Write a pseudo code
 
 ---
 ## References

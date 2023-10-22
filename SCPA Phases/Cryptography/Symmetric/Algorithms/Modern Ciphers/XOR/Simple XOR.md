@@ -159,6 +159,10 @@ Ciphertext: 8 + 4 + 2 + 1 = 15 &&
 \end{flalign}
 $$
 
+### Flowchart
+
+TODO: Translate from pseudo code to a flowchart
+
 ### Pseudo Code
 
 TODO: Provide Pseudo code
@@ -183,10 +187,6 @@ Key = 0x0A
 
 Ciphertext = Plaintext XOR Key
 ```
-
-### Flowchart
-
-TODO: Translate from pseudo code to a flowchart
 
 ---
 ## References
