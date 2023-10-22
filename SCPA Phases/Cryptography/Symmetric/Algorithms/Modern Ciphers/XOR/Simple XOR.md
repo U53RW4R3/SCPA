@@ -12,7 +12,7 @@ $P \oplus K = C$
 
 [[XOR Logical Gate.canvas|XOR Logical Gate]]
 
-| Plaintext (P) | Key | Ciphertext (C) |
+| _Plaintext (P)_ | _Key_ | _Ciphertext (C)_ |
 |---------------|-----|----------------|
 |      0        |  0  |      0         |
 |      0        |  1  |      1         |
@@ -45,10 +45,10 @@ Make a table to simplify the conversion. Just to confirm from the binary placeho
 	<body>
 		<table>
             <th align="center" colspan="4">
-                Plaintext (P) = 5
+                <em>Plaintext (P) = 5</em>
             </th>
 			<th align="center" colspan="4">
-                Key (K) = 10
+                <em>Key (K) = 10</em>
             </th>
             <tr>
                 <td>8</td>
@@ -131,7 +131,7 @@ Then _**Ciphertext (C)**_ from binary base 2 to decimal base 10. To get the outc
 	<body>
 		<table>
             <th align="center" colspan="4">
-                Ciphertext (C)
+                <em>Ciphertext (C)</em>
             </th>
             <tr>
                 <td>1</td>
@@ -166,7 +166,7 @@ TODO: Provide Pseudo code
 #### Simple XOR Ciphered Message
 
 ```c
-function
+function XOR()
 Plaintext = "Attack at Dawn!"
 
 Key = 0x0A

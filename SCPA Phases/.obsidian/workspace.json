@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -158,13 +158,13 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
     "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
     "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
     "Malware Development/Helpers/Entropy/Scripts.md",
     "Malware Development/Helpers/Entropy/Commands.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
-    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC5.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/TwoFish.md",
@@ -196,7 +196,6 @@
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR",
     "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Transposition.md",
     "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Vigenere.md",
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Enigma.md",
     "Cryptography/Symmetric/Algorithms/Ancient Ciphers",
     "Cryptography/Hashing/Algorithms",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
