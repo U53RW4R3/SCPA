@@ -39,16 +39,16 @@ $$
 \end{flalign}
 $$
 
-Make a table to simplify the conversion.
+Make a table to simplify the conversion. Just to confirm from the binary placeholders of 1's to get the sum total.
 
 <html>
 	<body>
 		<table>
             <th align="center" colspan="4">
-                P = 5
+                Plaintext (P) = 5
             </th>
 			<th align="center" colspan="4">
-                K = 10
+                Key (K) = 10
             </th>
             <tr>
                 <td>8</td>
@@ -70,11 +70,24 @@ Make a table to simplify the conversion.
                 <td>1</td>
                 <td>0</td>
             </tr>
+			<tr>
+                <td>0</td>
+                <td><b>4</b></td>
+                <td>0</td>
+                <td><b>1</b></td>
+                <td><b>8</b></td>
+                <td>0</td>
+                <td><b>2</b></td>
+                <td>0</td>
+            </tr>
+			<tr>
+                <td align="center" colspan="4"><b>4 + 1 = 5</b></td>
+				<td align="center" colspan="4"><b>8 + 2 = 10</b></td>
+				<td align="center"><b>Total</b></td>
+            </tr>
 		</table>
 	</body>
 </html>
-
-To confirm from the binary placeholders of 1's to get the sum total.
 
 $$
 \begin{flalign}
@@ -112,7 +125,39 @@ C = 1111 &&
 \end{flalign}
 $$
 
-Then convert the binary base 2 to decimal base 10.
+Then _**Ciphertext (C)**_ from binary base 2 to decimal base 10. To get the outcome.
+
+<html>
+	<body>
+		<table>
+            <th align="center" colspan="4">
+                Ciphertext (C)
+            </th>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td><b>8</b></td>
+                <td><b>4</b></td>
+                <td><b>2</b></td>
+                <td><b>1</b></td>
+            </tr>
+			<tr>
+                <td align="center" colspan="4"><b>8 + 4 + 2 + 1 = 15</b></td>
+				<td align="center"><b>Total</b></td>
+            </tr>
+		</table>
+	</body>
+</html>
+
+$$
+\begin{flalign}
+Ciphertext: 8 + 4 + 2 + 1 = 15 &&
+\end{flalign}
+$$
 
 ### Pseudo Code
 

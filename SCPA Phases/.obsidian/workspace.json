@@ -11,14 +11,11 @@
             "id": "d0daa8248c1d6ad1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
-                "viewState": {
-                  "x": -58.5311219747135,
-                  "y": 71.435571440405,
-                  "zoom": -0.26697440384262283
-                }
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -72,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 388.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas"
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md"
               }
             }
           },
@@ -161,9 +158,9 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
-    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC5.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/TwoFish.md",
     "Templates/Images/White Background.png",
