@@ -4,7 +4,13 @@
 
 ### Formula
 
+#### Encrypt
+
 $P \oplus K = C$
+
+#### Decrypt
+
+$C \oplus K = P$
 
 ### Truth Table and Logical Gate
 
@@ -20,6 +26,8 @@ $P \oplus K = C$
 |      1        |  1  |      0         |
 
 ### Compute
+
+#### Encryption
 
 To demonstrate how it works. Let's define the variables first. _**Plaintext (P)**_ is 5 and _**Key (K)**_ is 10.
 
@@ -158,6 +166,10 @@ $$
 Ciphertext: 8 + 4 + 2 + 1 = 15 &&
 \end{flalign}
 $$
+
+#### Decryption
+
+TODO: Decrypt the ciphertext
 
 ### Flowchart
 
