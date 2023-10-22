@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/3DES.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/3DES.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/3DES.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/3DES.md"
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/DES.md",
-    "Cryptography/Symmetric/Algorithms/3DES.md",
+    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Transposition.md",
+    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Vigenere.md",
+    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Enigma.md",
+    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Caeser Cipher.md",
+    "Cryptography/Hashing/Algorithms/SHA512.md",
+    "Cryptography/Symmetric/Algorithms/Ancient Ciphers",
+    "Cryptography/Hashing/Algorithms/SHA256.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC6.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC5.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/ARIA.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Camellia.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Serpent.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/HC-128.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/MARS.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/SHACAL-2.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Cast5.md",
+    "Cryptography/Asymmetric/Algorithms/Modern Ciphers/ElGamal.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/IDEA.md",
+    "Cryptography/Asymmetric/Algorithms/Modern Ciphers/Diffie-Hellman.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Skipjack.md",
+    "Cryptography/Asymmetric/Algorithms/Modern Ciphers/ECC.md",
+    "Cryptography/Asymmetric/Algorithms/Modern Ciphers/DSA.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TwoFish.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/BlowFish.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/OTP.md",
+    "Cryptography/Hashing/Algorithms/SHA1.md",
+    "Cryptography/Hashing/Algorithms/MD5.md",
+    "Cryptography/Hashing/Algorithms",
+    "Cryptography/Asymmetric/Algorithms/Modern Ciphers",
+    "Cryptography/Hashing",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers",
     "Cryptography/Asymmetric/Algorithms",
-    "Cryptography/Symmetric/Algorithms/RC4.md",
-    "Malware Development/Helpers/Entropy/Commands.md",
     "Cryptography/Symmetric/Algorithms",
-    "Cryptography/Asymmetric/Algorithms/RSA.md",
-    "Cryptography/Symmetric/Algorithms/AES.md",
-    "Cryptography/Symmetric/Algorithms/XOR.md",
-    "Malware Development/Checklist.md",
-    "Cryptography/README.md",
-    "Cryptography/Symmetric/Description.md",
-    "Cryptography/Asymmetric/Description.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
-    "Malware Development/Helpers/Entropy/Scripts.md",
-    "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
-    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
     "Malware Development/Helpers/Implant Templates/Artifacts",
-    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
-    "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
-    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
-    "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/NtAllocateVirtualMemory.md",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/VirtualAlloc.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI",
     "Malware Development/Techniques/Evasion/Spoofing Functions",
-    "Malware Development/Techniques/Memory Management/Memory Allocation",
-    "Malware Development/Techniques/Memory Management/WinAPI/Paging",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI",
-    "Malware Development/Techniques/Memory Management",
     "Untitled.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
