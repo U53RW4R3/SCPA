@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md"
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md"
               }
             }
           },
@@ -156,8 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions",
@@ -171,7 +174,6 @@
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/IsDebuggerPresent.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/Functions",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/Functions",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Helpers/Entropy/Scripts.md",
     "Malware Development/Techniques/Windows Functions References.md",
@@ -191,9 +193,7 @@
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions/NtOpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions/ReadFile.md",
     "Malware Development/Techniques/Memory Scrape/WinAPI",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",

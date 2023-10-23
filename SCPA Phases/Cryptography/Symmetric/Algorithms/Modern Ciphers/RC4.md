@@ -1,1 +1,44 @@
 # RC4
+
+
+```python
+function rc4(key, plaintext)
+    initialize_s_box(key)
+    initialize_state_array()
+    
+    i := 0
+    j := 0
+    encrypted_text := ""
+    
+    for each character in plaintext
+        i := (i + 1) mod 256
+        j := (j + S[i]) mod 256
+        swap_values(S[i], S[j])
+        
+        key_byte := S[(S[i] + S[j]) mod 256]
+        encrypted_char := character XOR key_byte
+        encrypted_text := encrypted_text + encrypted_char
+    
+    return encrypted_text
+
+
+function initialize_s_box(key)
+    S := array[0 to 255]
+    key_length := length(key)
+    for i from 0 to 255
+        S[i] := i
+    j := 0
+    for i from 0 to 255
+        j := (j + S[i] + key[i mod key_length]) mod 256
+        swap_values(S[i], S[j])
+
+
+function initialize_state_array()
+    // Initialize the state array (S) and other variables
+
+
+function swap_values(a, b)
+    temp := a
+    a := b
+    b := temp
+```

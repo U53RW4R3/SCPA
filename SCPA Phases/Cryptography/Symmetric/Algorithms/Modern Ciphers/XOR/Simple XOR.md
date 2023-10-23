@@ -301,27 +301,26 @@ TODO: Translate from pseudo code to a flowchart
 
 ### Pseudo Code
 
-TODO: Provide Pseudo code
-
 #### Simple XOR Ciphered Message
 
-```c
-function XOR()
-Plaintext = "Attack at Dawn!"
+```python
+function single_xor(plaintext, key)
+    ciphertext := ""
+    
+    for each character in plaintext
+        char := character XOR key
+        ciphertext := ciphertext + encrypted_char
+    
+    return ciphertext
 
-Key = 0x0A
+plaintext := "Attack At Dawn!"
+key := 10
 
-Ciphertext = Plaintext XOR Key
-```
+encrypt := single_xor(plaintext, key)
+print "Encrypted text: " + encrypt
 
-#### Simple XOR Ciphered Bytes
-
-```c
-Plaintext = {0x00, 0x11}
-
-Key = 0x0A
-
-Ciphertext = Plaintext XOR Key
+decrypt := single_xor(encrypt, key)
+print "Decrypted text: " + decrypt
 ```
 
 ---
