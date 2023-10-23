@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 314.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -158,8 +158,13 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Morse Code.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/SSTI Detector.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Online/Retrieve Proxy Servers.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Morse Code.md",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Malware Development/Helpers/Entropy/Scripts.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/HeapAlloc.md",
@@ -180,12 +185,7 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - Data Exfiltration.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Installed Programs.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Blackbox Testing.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Commix/01 - Exploit.md",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Caeser Cipher.md",
-    "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
-    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
     "Templates/Images/White Background.png",
     "Templates/Images",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.png",
