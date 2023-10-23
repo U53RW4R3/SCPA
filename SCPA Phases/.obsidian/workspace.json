@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md",
+                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md",
+                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md",
+                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md"
+                "file": "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md"
               }
             }
           },
@@ -156,49 +156,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0daa8248c1d6ad1",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
+    "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/Functions",
+    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions",
+    "Malware Development/Techniques/Persistence/WinAPI/Functions/CreateFile.md",
+    "Malware Development/Techniques/Process Injection/WinAPI/Functions",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/Functions/VirtualProtect.md",
+    "Malware Development/Techniques/Persistence/WinAPI/Functions",
+    "Malware Development/Techniques/Memory Scrape/WinAPI/Functions",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/IsDebuggerPresent.md",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/Functions",
+    "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/Functions",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
+    "Malware Development/Helpers/Entropy/Scripts.md",
     "Malware Development/Techniques/Windows Functions References.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
     "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
-    "Malware Development/Techniques/Memory Scrape/WinAPI/MiniDumpWriteDump.md",
+    "Malware Development/Techniques/Memory Scrape/WinAPI/Functions/MiniDumpWriteDump.md",
     "Malware Development/Techniques/Evasion/Spoofing Functions/Parent PPID Spoofing.md",
     "Malware Development/Techniques/Evasion/Spoofing Functions/Command Line Spoofing.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
     "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/IsDebuggerPresent.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/ReadFile.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions/NtOpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions/ReadFile.md",
     "Malware Development/Techniques/Memory Scrape/WinAPI",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
-    "Malware Development/Techniques/Memory Scrape",
     "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/SSTI Detector.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Operation Security/Online/Retrieve Proxy Servers.md",
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Morse Code.md",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
-    "Malware Development/Helpers/Entropy/Scripts.md",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
-    "Templates/Images",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.png",
-    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR",
-    "Cryptography/Symmetric/Algorithms/Whiteboard",
     "Untitled.canvas",
-    "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/Simple XOR",
-    "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR",
-    "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers",
-    "Cryptography/Symmetric/Algorithms/Images",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Invalid Response Input Parameter Boundary Limits Exceeded.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/03 - Query Joined via Hashtag.png",
