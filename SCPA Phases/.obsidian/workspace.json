@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Memory Scrape/WinAPI/MiniDumpWriteDump.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Memory Scrape/WinAPI/MiniDumpWriteDump.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Memory Scrape/WinAPI/MiniDumpWriteDump.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Memory Scrape/WinAPI/MiniDumpWriteDump.md"
+                "file": "Malware Development/Techniques/Windows Functions References.md"
               }
             }
           },
@@ -158,18 +158,23 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
+    "Malware Development/Techniques/Windows Functions References.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
+    "Malware Development/Techniques/Memory Scrape/WinAPI/MiniDumpWriteDump.md",
     "Malware Development/Techniques/Evasion/Spoofing Functions/Parent PPID Spoofing.md",
     "Malware Development/Techniques/Evasion/Spoofing Functions/Command Line Spoofing.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
-    "Malware Development/Techniques/Memory Scrape/WinAPI/MiniDumpWriteDump.md",
     "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/IsDebuggerPresent.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/NtOpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/OpenProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/ReadFile.md",
     "Malware Development/Techniques/Memory Scrape/WinAPI",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
@@ -182,11 +187,6 @@
     "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Morse Code.md",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Malware Development/Helpers/Entropy/Scripts.md",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/HeapAlloc.md",
-    "Malware Development/Helpers/Entropy/Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/02 - Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Printers.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
     "Templates/Images",
