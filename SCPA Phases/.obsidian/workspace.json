@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/HTTP.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/HTTP.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/HTTP.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/HTTP.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md"
               }
             }
           },
@@ -156,44 +156,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Linux Post Exploitation Persistence References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Remote Login.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/Rootkits/Apache Rootkit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/Rootkits",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Rootkits/Linux.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Rootkits",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/SUID.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/Bash Profiles.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/OpenSSH.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/WireTap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Service Daemon Backdoor.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Cron Jobs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/Webshell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/Backdoors.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Create User.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Untitled.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WMI.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/VNC.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Startup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Shortcut Links.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Service Controller Manager (SCM).md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Schtasks.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Registry Keys.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Powershell Profile.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/EXE Backdoors.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/HTTP",
-    "Malware Development/Techniques/Windows Functions References.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Detection.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Setup.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Detection.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Brute Ratel C4/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Brute Ratel C4/Detection.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Brute Ratel C4",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Capabilities.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Hide Artifacts.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Security Solutions/Linux/Basic Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Obfuscate Files/Webshell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Obfuscate Files/Obfuscators/Invoke-PSObfuscation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Obfuscate Files/Obfuscators/Invoke-Obfuscation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Obfuscate Files/Obfuscators/ConfuserEx.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Cloud Providers/GoFile.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/Functions",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
