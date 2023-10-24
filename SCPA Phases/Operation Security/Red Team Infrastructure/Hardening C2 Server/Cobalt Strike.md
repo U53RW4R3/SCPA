@@ -4,11 +4,22 @@ Search Tag: #red-team-infrastructure
 
 ## 01 - Setup
 
-### 1.1 - Redirectors
+### 1.1 - Generate TLS Keystore
+
+- Modify in `teamserver` bash script.
+
+```
+keytool -keystore ./cobaltstrike.store -storepass <password> -keypass <password> -genkey -keyalg RSA -alias <alias_name> -dname "CN=www.website.com, OU=Company Inc., O=Company, L=San Francisco, S=California, C=US"
+
+./TeamServerImage -Dcobaltstrike.server_port=50050 -Dcobaltstrike.server_bindto=0.0.0.0 -Djavax.net.ssl.keyStore=./cobalts
+trike.store -Djavax.net.ssl.keyStorePassword=<password> teamserver $*
+```
+
+### 1.2 - Redirectors
 
 TODO: Fill this information
 
-#### 1.1.1 - Apache2
+#### 1.2.1 - Apache2
 
 `$ sudo a2enmod rewrite`
 
@@ -50,7 +61,7 @@ sudo yum install mod_proxy mod_proxy_http && \
 sudo systemctl restart httpd
 ```
 
-#### 1.1.2 - Nginx
+#### 1.2.2 - Nginx
 
 `$ cat /etc/nginx/sites-available/default`
 

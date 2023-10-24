@@ -484,4 +484,17 @@ meterpreter > reg
 
 ```
 meterpreter > search -h
+Usage: search [-d dir] [-r recurse] -f pattern [-f pattern]...
+Search for files.
+
+OPTIONS:
+
+    -a   Find files modified after timestamp (UTC).  Format: YYYY-mm-dd or YYYY-mm-ddTHH:MM:SS
+    -b   Find files modified before timestamp (UTC). Format: YYYY-mm-dd or YYYY-mm-ddTHH:MM:SS
+    -d   The directory/drive to begin searching from. Leave empty to search all drives. (Default: )
+    -f   A file pattern glob to search for. (e.g. *secret*.doc?)
+    -h   Help Banner
+    -r   Recursively search sub directories. (Default: true)
 ```
+
+`meterpreter > search -d </path/to/directory/ | <drive_letter>:\\> -f confidential*`

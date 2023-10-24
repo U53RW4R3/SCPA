@@ -4,6 +4,8 @@ Search Tag: #red-team-infrastructure
 
 ## 01 - Setup
 
+TODO: Modify certificates to evade JARM detection
+
 ### 1.1 - Teamserver
 
 `$ sudo systemctl stop sliver`

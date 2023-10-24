@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 402.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Checklist.md"
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver.md"
               }
             }
           },
@@ -158,41 +158,41 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Caeser Cipher.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/SUID and SGID.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Files and Directories.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Installed Programs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Linux Enumeration and Discovery References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Cron Job.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Cloud Providers/GoFile.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/VNC.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/SNMP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/02 - Credentials/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Registry Keys.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Meterpreter Scripts and Modules (TODO).md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/03 - Privilege Escalation/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/04 - Config Files/Linux.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Uniscan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Auditing Tools/SharpUp.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Registry/Windows AutoLogin.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Registry/Registry Table Key Values.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Scheduled Tasks.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/List Processes.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Discover Programs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/CheckVM.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Port Scan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Configuration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Internal Reconnaissance/Users.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Internal Reconnaissance/Hidden Files and Directories.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions",
     "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/Functions",
     "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions",
-    "Malware Development/Techniques/Persistence/WinAPI/Functions/CreateFile.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions",
-    "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/Functions/VirtualProtect.md",
     "Malware Development/Techniques/Persistence/WinAPI/Functions",
     "Malware Development/Techniques/Memory Scrape/WinAPI/Functions",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/IsDebuggerPresent.md",
     "Malware Development/Techniques/Memory Management/Memory Allocation/WinAPI/Functions",
     "Malware Development/Techniques/Memory Management/Memory Allocation/NtAPI/Functions",
-    "Malware Development/Helpers/Entropy/Commands.md",
-    "Malware Development/Helpers/Entropy/Scripts.md",
-    "Malware Development/Techniques/Windows Functions References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/Functions/OpenProcess.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
-    "Malware Development/Techniques/Memory Scrape/WinAPI/Functions/MiniDumpWriteDump.md",
-    "Malware Development/Techniques/Evasion/Spoofing Functions/Parent PPID Spoofing.md",
-    "Malware Development/Techniques/Evasion/Spoofing Functions/Command Line Spoofing.md",
     "Malware Development/Techniques/Memory Scrape/WinAPI",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
