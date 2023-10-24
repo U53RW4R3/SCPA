@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
+                "file": "Malware Development/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
+                "file": "Malware Development/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
+                "file": "Malware Development/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md"
+                "file": "Malware Development/Checklist.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Caeser Cipher.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/SUID and SGID.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Files and Directories.md",
@@ -165,7 +168,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Linux Enumeration and Discovery References.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Cron Job.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions",
@@ -191,8 +193,6 @@
     "Malware Development/Techniques/Memory Scrape/WinAPI/Functions/MiniDumpWriteDump.md",
     "Malware Development/Techniques/Evasion/Spoofing Functions/Parent PPID Spoofing.md",
     "Malware Development/Techniques/Evasion/Spoofing Functions/Command Line Spoofing.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Memory Scrape/WinAPI",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",

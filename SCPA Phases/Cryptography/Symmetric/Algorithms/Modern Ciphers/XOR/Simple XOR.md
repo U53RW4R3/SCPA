@@ -4,11 +4,11 @@
 
 ### Formula
 
-#### Encrypt
+#### Encryption
 
 $P \oplus K = C$
 
-#### Decrypt
+#### Decryption
 
 $C \oplus K = P$
 
@@ -33,19 +33,15 @@ To demonstrate how it works. Let's define the variables first. _**Plaintext (P)*
 
 $$
 \begin{flalign}
-P = 5 &&
-\newline
-K = 10 &&
+	P = 5 &&
+	\newline
+	K = 10 &&
 \end{flalign}
 $$
 
 Convert the numbers from decimal base 10 to binary base 2.
 
-$$
-\begin{flalign}
-5 \oplus 10 = C &&
-\end{flalign}
-$$
+$5 \oplus 10 = C$
 
 Make a table to simplify the conversion. Just to confirm from the binary placeholders of 1's to get the sum total.
 
@@ -99,29 +95,25 @@ Make a table to simplify the conversion. Just to confirm from the binary placeho
 
 $$
 \begin{flalign}
-Plaintext: 4 + 1 = 5 &&
-\newline
-Key: 8 + 2 = 10 &&
+	Plaintext: 4 + 1 = 5 &&
+	\newline
+	Key: 8 + 2 = 10 &&
 \end{flalign}
 $$
 
 Decimal base 10 to binary base 2 has been converted.
 
-$$
-\begin{flalign}
-0101 \oplus 1010 = C &&
-\end{flalign}
-$$
+$0101 \oplus 1010 = C$
 
 XOR the binary numbers based on the [[Simple XOR#^cbf7ed|truth table]].
 
 $$
 \begin{flalign}
-\begin{split}
-0101 \\ \oplus 1010 \\
-\hline
-1111
-\end{split} &&
+	\begin{split}
+		0101 \\ \oplus 1010 \\
+		\hline
+		1111
+	\end{split} &&
 \end{flalign}
 $$
 
@@ -167,19 +159,15 @@ All we need is the _**Key (K)**_ to decrypt the _**Ciphertext (C)**_ into _**Pla
 
 $$
 \begin{flalign}
-C = 15 &&
-\newline
-K = 10 &&
+	C = 15 &&
+	\newline
+	K = 10 &&
 \end{flalign}
 $$
 
 Convert the numbers from decimal base 10 to binary base 2.
 
-$$
-\begin{flalign}
-15 \oplus 10 = C &&
-\end{flalign}
-$$
+$15 \oplus 10 = C$
 
 Make a table to simplify the conversion.
 
@@ -233,9 +221,9 @@ Make a table to simplify the conversion.
 
 $$
 \begin{flalign}
-Ciphertext: 8 + 4 + 2 + 1 = 15 &&
-\newline
-Key: 8 + 2 = 10 &&
+	Ciphertext: 8 + 4 + 2 + 1 = 15 &&
+	\newline
+	Key: 8 + 2 = 10 &&
 \end{flalign}
 $$
 
@@ -243,7 +231,7 @@ Decimal base 10 to binary base 2 has been converted.
 
 $$
 \begin{flalign}
-1111 \oplus 1010 = P &&
+	1111 \oplus 1010 = P &&
 \end{flalign}
 $$
 
@@ -251,11 +239,11 @@ XOR the binary numbers.
 
 $$
 \begin{flalign}
-\begin{split}
-1111 \\ \oplus 1010 \\
-\hline
-0101
-\end{split} &&
+	\begin{split}
+		1111 \\ \oplus 1010 \\
+		\hline
+		0101
+	\end{split} &&
 \end{flalign}
 $$
 
