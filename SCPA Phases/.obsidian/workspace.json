@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/System and Kernel Version.md"
               }
             }
           },
@@ -158,8 +158,14 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/SUID and SGID.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Files and Directories.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Installed Programs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Linux Enumeration and Discovery References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Cron Job.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions",
@@ -187,13 +193,7 @@
     "Malware Development/Techniques/Evasion/Spoofing Functions/Command Line Spoofing.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions/NtOpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions/ReadFile.md",
     "Malware Development/Techniques/Memory Scrape/WinAPI",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",

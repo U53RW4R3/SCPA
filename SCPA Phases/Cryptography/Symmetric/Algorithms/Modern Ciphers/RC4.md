@@ -24,7 +24,6 @@ function rc4(key, plaintext)
     
     return ciphertext
 
-
 function initialize_s_box(key)
     S := array[0 to 255]
     key_length := length(key)
@@ -35,7 +34,6 @@ function initialize_s_box(key)
         j := (j + S[i] + key[i mod key_length]) mod 256
         swap_values(S[i], S[j])
 
-
 function initialize_state_array()
     i := 0
     j := 0
@@ -43,7 +41,6 @@ function initialize_state_array()
     
     for i from 0 to 255
         state_array[i] := i
-
 
 function swap_values(a, b)
     temp := a
