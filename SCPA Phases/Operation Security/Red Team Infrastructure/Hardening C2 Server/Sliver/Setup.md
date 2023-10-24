@@ -1,12 +1,10 @@
-# Sliver
+# Setup
 
-Search Tag: #red-team-infrastructure
-
-## 01 - Setup
+Search Tag: #red-team-infrastructure #sliver
 
 TODO: Modify certificates to evade JARM detection
 
-### 1.1 - Teamserver
+## 1.1 - Teamserver
 
 `$ sudo systemctl stop sliver`
 
@@ -38,7 +36,7 @@ TODO: Modify certificates to evade JARM detection
 
 `$ sudo systemctl start sliver`
 
-### 1.2 - Firewall Rules
+## 1.2 - Firewall Rules
 
 ```
 # mkdir /etc/iptables
@@ -72,11 +70,11 @@ EOF
 
 `$ sudo chmod +x /etc/rc.firewall-rules`
 
-### 1.3 - Redirectors
+## 1.3 - Redirectors
 
 TODO: Fill this information
 
-#### 1.3.1 - Apache2
+### 1.3.1 - Apache2
 
 ```
 $ sudo a2enmod proxy && \
@@ -132,7 +130,7 @@ sudo service apache2 restart
 
 `$ sudo service apache2 restart`
 
-#### 1.3.2 - Nginx
+### 1.3.2 - Nginx
 
 `$ cat /etc/nginx/sites-available/sliver_c2`
 
@@ -182,33 +180,8 @@ $ sudo service nginx restart
 ```
 
 
-#### 1.3.3 - Domain Fronting
+### 1.3.3 - Domain Fronting
 
 TODO: Provide usage example for domain fronting in Sliver C2 and using certs to encrypt by evading JARM hashes
 
 `sliver > https`
-
-## 02 - Detection
-
-### 2.1 - Shodan
-
-`ssl:multiplayer ssl:operators`
-
-### 2.2 - JARM
-
-`$ git clone https://github.com/salesforce/jarm.git`
-
-`$ cd jarm/`
-
-`$ python jarm.py <C2_IP> -p 8888`
-
-`$ python jarm.py <C2_IP> -p 443`
-
-`$ python jarm.py <C2_IP> -p 80`
-
----
-## References
-
-- [Hunting C2 with Shodan](https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f)
-
-- [JARM](https://github.com/salesforce/jarm)

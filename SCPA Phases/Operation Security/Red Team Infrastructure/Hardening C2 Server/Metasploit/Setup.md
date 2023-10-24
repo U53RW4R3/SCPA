@@ -1,6 +1,6 @@
 # Metasploit
 
-Search Tag: #red-team-infrastructure
+Search Tag: #red-team-infrastructure #metasploit
 
 ## 01 - Setup
 
@@ -76,24 +76,6 @@ EOF
 
 `$ sudo chmod +x /etc/rc.firewall-rules`
 
-## 02 - Detection
-
-### 2.1 - Shodan
-
-`ssl:"MetasploitSelfSignedCA"`
-
-### 2.2 - JARM
-
-`$ git clone https://github.com/salesforce/jarm.git`
-
-`$ cd jarm/`
-
-`$ python jarm.py <C2_IP> -p 4444`
-
-`$ python jarm.py <C2_IP> -p 443`
-
-`$ python jarm.py <C2_IP> -p 80`
-
 ---
 ## References
 
@@ -110,7 +92,3 @@ EOF
 - https://labs.jumpsec.com/obfuscating-c2-during-a-red-team-engagement/
 
 - [Chapter 11 Visualizing Metasploit (Use case related about MSGRPC which is the msfrpcd when connecting metasploit remotely)](https://goois.net/chapter-11-visualizing-metasploit-mastering-metasploit-fourth-edition.html)
-
-- [Hunting C2 with Shodan](https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f)
-
-- [JARM](https://github.com/salesforce/jarm)

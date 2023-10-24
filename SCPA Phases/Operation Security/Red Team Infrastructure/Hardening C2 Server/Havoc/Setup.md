@@ -1,8 +1,6 @@
-# Havoc
+# Setup
 
-Search Tag: #red-team-infrastructure
-
-## 01 - Setup
+Search Tag: #red-team-infrastructure #havoc
 
 ### 1.1 - Firewall Rules
 
@@ -41,7 +39,3 @@ EOF
 ### 1.2 - Domain Fronting
 
 TODO: Provide an example usage for Havoc C2
-
-## 02 -Detection
-
-`ssl:postalCode=3540 ssl.jarm:"3fd21b20d00000021c43d21b21b43de0a012c76cf078b8d06f4620c2286f5e"`
