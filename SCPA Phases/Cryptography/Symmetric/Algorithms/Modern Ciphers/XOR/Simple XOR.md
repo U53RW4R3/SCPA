@@ -303,7 +303,7 @@ TODO: Translate from pseudo code to a flowchart
 
 #### Simple XOR Ciphered Message
 
-```python
+```vb
 function single_xor(plaintext, key)
     ciphertext := ""
     

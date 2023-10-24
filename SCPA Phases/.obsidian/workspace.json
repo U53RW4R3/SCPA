@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md"
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/RC4.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
     "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions",
