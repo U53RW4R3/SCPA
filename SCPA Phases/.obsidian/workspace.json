@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md"
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md"
               }
             }
           },
@@ -158,32 +158,32 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/WinRM.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Third-Party Programs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/TFTP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Telnet.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/SSH.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User/Create User.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/RDP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User/MSSQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Active Directory Persistence/Create User.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Execute Assembly.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Shellcode Injection.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Troll.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Webcam Chat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Change Password.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Miscellaneous/Mayhem/Printers.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Living off the Land (LotL)/Windows.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/WMI.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Startup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Shortcut Links.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Powershell Profile.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/At.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
+    "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
+    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
+    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions/ReadFile.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/Functions/OpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions/NtOpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
+    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/IsDebuggerPresent.md",
+    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
+    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+    "Malware Development/README.md",
+    "Malware Development/Checklist.md",
+    "Malware Development/Helpers/Entropy/Scripts.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Help Menu.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/07 - Miscellaneous.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Hacking The Cloud/AWS/04 - Post Exploitation.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers/Payload Delivery.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/USB Delivery/Hak5 Devices.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Penetration Initial Access References.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Remote Login",

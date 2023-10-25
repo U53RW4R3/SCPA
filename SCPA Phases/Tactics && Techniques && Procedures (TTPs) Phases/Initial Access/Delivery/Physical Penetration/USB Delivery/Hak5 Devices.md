@@ -15,7 +15,11 @@ TODO: Fill in the info of how to deploy the device
 ---
 ## References
 
+- [Payload Studio Community Edition](https://payloadstudio.hak5.org/community/)
+
 - [USB Rubber Ducky Payloads Hak5](https://github.com/hak5/usbrubberducky-payloads)
+
+- [Hak5 Payload Studio Documentation](https://docs.hak5.org/payload-studio/getting-started/overview)
 
 - [Hak5 USB Rubber Ducky Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/)
 

@@ -137,6 +137,17 @@ Stdapi: Webcam Commands
     webcam_stream  Play a video stream from the specified webcam
 
 
+Stdapi: Mic Commands
+====================
+
+    Command       Description
+    -------       -----------
+    listen        listen to a saved audio recording via audio player
+    mic_list      list all microphone interfaces
+    mic_start     start capturing an audio stream from the target mic
+    mic_stop      stop capturing audio
+
+
 Stdapi: Audio Output Commands
 =============================
 

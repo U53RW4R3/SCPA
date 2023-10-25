@@ -498,3 +498,8 @@ OPTIONS:
 ```
 
 `meterpreter > search -d </path/to/directory/ | <drive_letter>:\\> -f confidential*`
+
+---
+## References
+
+- [Metasploit Unleashed: Searching Content](https://www.offsec.com/metasploit-unleashed/searching-content/)

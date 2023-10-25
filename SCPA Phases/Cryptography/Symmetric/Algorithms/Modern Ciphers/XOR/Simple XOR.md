@@ -285,14 +285,21 @@ The _**Plaintext (P)**_ is 5 decimal base 10.
 
 ### Flowchart
 
-TODO: Translate from pseudo code to a flowchart
+```mermaid
+flowchart TD
+    A[Start] --> B[/Input Message and Key/] --> C{XOR Cipher}
+
+    C -->|Plaintext| D[/Encrypt/]
+    C -->|Ciphertext| E[/Decrypt/]
+    D & E --> F[End]
+```
 
 ### Pseudo Code
 
 #### Simple XOR Ciphered Message
 
 ```vb
-function single_xor(plaintext, key)
+function single_byte_xor(plaintext, key)
     ciphertext := ""
     
     for each character in plaintext
@@ -315,3 +322,9 @@ print "Decrypted text: " + decrypt
 ## References
 
 - [Wikipedia: XOR Cipher](https://en.wikipedia.org/wiki/XOR_cipher)
+
+- [Codementor: Deciphering Single-byte XOR Ciphertext](https://www.codementor.io/@arpitbhayani/deciphering-single-byte-xor-ciphertext-17mtwlzh30)
+
+- [GeeksForGeeks: XOR Encryption by Shifting Plaintext](https://www.geeksforgeeks.org/xor-encryption-shifting-plaintext/)
+
+- [Adeolu Olabode Afolabi: Improve Data Security Using Modified XOR Encryption Algorithm](https://www.researchgate.net/publication/270588628_AN_APPROACH_TO_IMPROVE_DATA_SECURITY_USING_MODIFIED_XOR_ENCRYPTION_ALGORITHM)
