@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Online/SOCKS Proxy Servers.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Online/SOCKS Proxy Servers.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Online/SOCKS Proxy Servers.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Online/SOCKS Proxy Servers.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md"
               }
             }
           },
@@ -156,10 +156,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0daa8248c1d6ad1",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
-    "Command Line/Linux/Use Cases/Networking/Basic.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/SMB Names Examples.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios/01 - Capture Hashes via Spoof SMB Shares.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Scenarios/02 - DBMS Backend Relay Attack.md",
     "Operation Security/Online/SOCKS Proxy Servers.md",
+    "Command Line/Linux/Use Cases/Networking/Basic.md",
     "Operation Security/Online/Terminal Setup.md",
     "Operation Security/Online/TOR.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
@@ -178,17 +186,9 @@
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Advanced Encryption Standard",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Rivest Cipher/RC4.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/XXTEA.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Rivest Cipher",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/DES",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/XTEA.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/TEA.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/WAKE.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
-    "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Remote Login",

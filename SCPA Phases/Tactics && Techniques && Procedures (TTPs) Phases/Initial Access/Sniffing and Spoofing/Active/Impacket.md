@@ -232,4 +232,6 @@ C:\> sc start netlogon
 
 - [How to Exploit Active Directory ACL Attack Paths Through LDAP Relaying Attacks](https://www.praetorian.com/blog/how-to-exploit-active-directory-acl-attack-paths-through-ldap-relaying-attacks/)
 
+https://rastamouse.me/ntlm-relaying-via-cobalt-strike/
+
 - [Relaying NTLM to MSSQL](https://blog.compass-security.com/2023/10/relaying-ntlm-to-mssql/)
