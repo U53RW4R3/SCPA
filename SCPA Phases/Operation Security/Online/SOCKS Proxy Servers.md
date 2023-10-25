@@ -14,7 +14,7 @@ tcp_connect_time_out 8000
 localnet 127.0.0.1/255.255.255.255
 [ProxyList]
 socks4  <IP> <PORT>
-socks5  <IP> <PORT> <username> <password>
+socks5  <IP> <PORT> [username] [password]
 http    <IP> <PORT> [username] [password]
 ```
 

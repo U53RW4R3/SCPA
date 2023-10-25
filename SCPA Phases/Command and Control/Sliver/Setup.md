@@ -54,6 +54,7 @@ make macos && make macos-arm64
 $ sudo systemctl stop sliver && \
 sudo rm -rf /root/.sliver/ /root/.sliver-client/ /home/$USER/.sliver/ /home/$USER/.sliver-client/ && \
 sudo cp /home/$USER/Downloads/sliver-server_linux /home/$USER/Downloads/sliver-client_linux /root/ && \
+sudo cp /root/sliver-server_linux /root/sliver-server && \
 sudo cp /home/$USER/Downloads/sliver-client_linux /usr/local/bin/sliver-client && \
 sudo chmod 755 /root/sliver-client_linux /root/sliver-server /usr/local/bin/sliver-client && \
 sudo systemctl daemon-reload && \

@@ -4,6 +4,19 @@ Search Tag: #red-team-infrastructure #sliver
 
 TODO: Modify certificates to evade JARM detection
 
+```
+$ sudo ls -l /root/.sliver/certs
+total 32
+-rw------- 1 root root 558 Oct 25 12:32 https-ca-cert.pem
+-rw------- 1 root root 227 Oct 25 12:32 https-ca-key.pem
+-rw------- 1 root root 644 Oct 25 12:32 mtls-implant-ca-cert.pem
+-rw------- 1 root root 288 Oct 25 12:32 mtls-implant-ca-key.pem
+-rw------- 1 root root 558 Oct 25 12:32 mtls-server-ca-cert.pem
+-rw------- 1 root root 227 Oct 25 12:32 mtls-server-ca-key.pem
+-rw------- 1 root root 704 Oct 25 12:32 operator-ca-cert.pem
+-rw------- 1 root root 288 Oct 25 12:32 operator-ca-key.pem
+```
+
 ## 1.1 - Teamserver
 
 `$ sudo systemctl stop sliver`

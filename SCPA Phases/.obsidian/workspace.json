@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
+                "file": "Operation Security/Online/SOCKS Proxy Servers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
+                "file": "Operation Security/Online/SOCKS Proxy Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
+                "file": "Operation Security/Online/SOCKS Proxy Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md"
+                "file": "Operation Security/Online/SOCKS Proxy Servers.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
+    "Command Line/Linux/Use Cases/Networking/Basic.md",
+    "Operation Security/Online/SOCKS Proxy Servers.md",
+    "Operation Security/Online/Terminal Setup.md",
+    "Operation Security/Online/TOR.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/01 - Certificate Check.md",
+    "Command and Control/Sliver/Core Commands/03 - Shell Handler.md",
+    "Command and Control/Sliver/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Camellia.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20/ChaCha20-Poly1305.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20/Salsa20.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20/ChaCha.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Advanced Encryption Standard/AES.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Advanced Encryption Standard",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Rivest Cipher/RC4.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/XXTEA.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Rivest Cipher",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/DES",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/XTEA.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/TEA.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA/WAKE.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TEA",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
     "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
     "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions/ReadFile.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/WinAPI/Functions/OpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Enumerate Process Identifiers (PIDs)/NtAPI/Functions/NtOpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/OpenProcess.md",
-    "Malware Development/Techniques/Anti-Sandbox/Anti-Debugger/WinAPI/Functions/IsDebuggerPresent.md",
-    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
-    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Sliver.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
-    "Malware Development/README.md",
-    "Malware Development/Checklist.md",
-    "Malware Development/Helpers/Entropy/Scripts.md",
-    "Malware Development/Helpers/Entropy/Commands.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Help Menu.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/07 - Miscellaneous.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Hacking The Cloud/AWS/04 - Post Exploitation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers/Payload Delivery.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/USB Delivery/Hak5 Devices.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Remote Login",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/Rootkits",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Rootkits",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/HTTP",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
