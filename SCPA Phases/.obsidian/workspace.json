@@ -159,6 +159,7 @@
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
     "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
     "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
     "Malware Development/Techniques/Anti-Sandbox/Others (Draft)/WinAPI/Functions/ReadFile.md",
@@ -183,7 +184,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Hacking The Cloud/AWS/04 - Post Exploitation.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Helpers/Payload Delivery.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/USB Delivery/Hak5 Devices.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Penetration Initial Access References.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Remote Login",

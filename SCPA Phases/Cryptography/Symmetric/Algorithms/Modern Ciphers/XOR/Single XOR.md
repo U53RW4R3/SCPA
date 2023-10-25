@@ -296,7 +296,7 @@ flowchart TD
 
 ### Pseudo Code
 
-#### Single XOR Ciphered Message
+#### Single XOR Cipher
 
 ```vb
 function single_byte_xor(plaintext, key)
