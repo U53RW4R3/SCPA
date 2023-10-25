@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "remove lines",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md"
+                "file": "Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md"
               }
             }
           },
@@ -156,11 +157,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
+    "Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/SMB Names Examples.md",
@@ -193,7 +195,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Remote Login",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Linux/Backdoors/Rootkits",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Rootkits",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
