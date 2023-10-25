@@ -311,10 +311,10 @@ function single_byte_xor(plaintext, key)
 plaintext := "Attack At Dawn!"
 key := 10
 
-encrypt := single_xor(plaintext, key)
+encrypt := single_byte_xor(plaintext, key)
 print "Encrypted text: " + encrypt
 
-decrypt := single_xor(encrypt, key)
+decrypt := single_byte_xor(encrypt, key)
 print "Decrypted text: " + decrypt
 ```
 
