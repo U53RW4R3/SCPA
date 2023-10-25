@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md",
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Simple XOR.md"
+                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md"
               }
             }
           },

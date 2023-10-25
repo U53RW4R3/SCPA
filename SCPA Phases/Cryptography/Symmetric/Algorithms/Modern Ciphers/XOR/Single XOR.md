@@ -1,4 +1,4 @@
-# Simple XOR
+# Single XOR
 
 ## Algorithm
 
@@ -105,7 +105,7 @@ Decimal base 10 to binary base 2 has been converted.
 
 $0101 \oplus 1010 = C$
 
-XOR the binary numbers based on the [[Simple XOR#^cbf7ed|truth table]].
+XOR the binary numbers based on the [[Single XOR#^cbf7ed|truth table]].
 
 $$
 \begin{flalign}
@@ -287,7 +287,7 @@ The _**Plaintext (P)**_ is 5 decimal base 10.
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[/Input key and message/] --> C{XOR Cipher}
+    A[Start] --> B[/Input message and key/] --> C{XOR Cipher}
 
     C -->|Plaintext| D[/Encrypt/]
     C -->|Ciphertext| E[/Decrypt/]
