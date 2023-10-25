@@ -287,7 +287,7 @@ The _**Plaintext (P)**_ is 5 decimal base 10.
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[/Input Message and Key/] --> C{XOR Cipher}
+    A[Start] --> B[/Input key and message/] --> C{XOR Cipher}
 
     C -->|Plaintext| D[/Encrypt/]
     C -->|Ciphertext| E[/Decrypt/]
