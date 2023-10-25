@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup.md",
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup.md",
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup.md",
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup.md"
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md"
               }
             }
           },
@@ -158,11 +158,13 @@
   },
   "active": "d0daa8248c1d6ad1",
   "lastOpenFiles": [
+    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Detection.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
     "Command and Control/Sliver/Core Commands/04 - Generate Beacons.md",
     "Command and Control/Sliver/Core Commands/03 - Shell Handler.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup.md",
     "Command Line/Linux/Unix Shell/Basic Commands/04 - Viewing and Editing Files.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay/SMB Authentication Relay.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Lateral Movement/Windows/Authentication Relay",
@@ -183,8 +185,6 @@
     "Command and Control/Sliver/Setup.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Camellia.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20/ChaCha20-Poly1305.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20/Salsa20.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Salsa20",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Advanced Encryption Standard",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/Rivest Cipher",
