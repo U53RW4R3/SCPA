@@ -10,17 +10,20 @@ Beacon Commands
 
     Command                   Description
     -------                   -----------
+    !                         Run a command from the history
     argue                     Spoof arguments for matching processes
     blockdlls                 Block non-Microsoft DLLs in child processes
     browserpivot              Setup a browser pivot session
     cancel                    Cancel a download that's in-progress
-    cd                        Change directory on host. Use '-' to get back to previous cwd.
+    cd                        Change directory
     checkin                   Call home and post data
     chromedump                Recover credentials from Google Chrome
     clear                     Clear beacon queue
+    clipboard                 Attempt to get text clipboard contents
     connect                   Connect to a Beacon peer over TCP
     covertvpn                 Deploy Covert VPN client
     cp                        Copy a file
+    data-store                Store post-ex items to Beacon
     dcsync                    Extract a password hash from a DC
     desktop                   View and interact with target's desktop
     dllinject                 Inject a Reflective DLL into a process
@@ -32,11 +35,13 @@ Beacon Commands
     execute                   Execute a program on target (no output)
     execute-assembly          Execute a local .NET program in-memory on target
     exit                      Terminate the beacon session
+    file_browser              Open the file browser tab for this beacon
     getprivs                  Enable system privileges on current token
     getsystem                 Attempt to get SYSTEM
     getuid                    Get User ID
     hashdump                  Dump password hashes
     help                      Help menu
+    history                   Show the command history
     inject                    Spawn a session in a specific process
     inline-execute            Run a Beacon Object File in this session
     jobkill                   Kill a long-running post-exploitation task
@@ -65,6 +70,7 @@ Beacon Commands
     powershell-import         Import a powershell script
     ppid                      Set parent PID for spawned post-ex jobs
     printscreen               Take a single screenshot via PrintScr method
+    process_browser           Open the process browser tab for this beacon
     ps                        Show process list
     psinject                  Execute PowerShell command in specific process
     pth                       Pass-the-hash using Mimikatz
@@ -86,8 +92,7 @@ Beacon Commands
     shinject                  Inject shellcode into a process
     shspawn                   Spawn process and inject shellcode into it
     sleep                     Set beacon sleep time
-    socks                     Start SOCKS4a server to relay traffic
-    socks stop                Stop SOCKS4a server
+    socks                     Start/Stop a SOCKS4a/SOCKS5 server to relay traffic
     spawn                     Spawn a session 
     spawnas                   Spawn a session as another user
     spawnto                   Set executable to spawn processes into
@@ -97,7 +102,10 @@ Beacon Commands
     ssh                       Use SSH to spawn an SSH session on a host
     ssh-key                   Use SSH to spawn an SSH session on a host
     steal_token               Steal access token from a process
+    syscall-method            Change or query the syscall method
     timestomp                 Apply timestamps from one file to another
+    token-store               Hot-swappable access tokens
     unlink                    Disconnect from parent Beacon
-    upload                    Upload a file to specified remote location.
+    upload                    Upload a file
+    windows_error_code        Show the Windows error code for a Windows error code number
 ```
