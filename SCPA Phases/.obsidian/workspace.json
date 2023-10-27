@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md"
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md"
               }
             }
           },
@@ -158,16 +158,17 @@
   },
   "active": "4a486e327011c927",
   "lastOpenFiles": [
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/12 - Execute Process.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Sliver.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Basic Commands.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Internal Reconnaissance.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Process Manipulation.md",
     "Command and Control/Sliver/Interactive Shell/Interactive Mode/00 - Interactive Shell.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Execute Process.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
     "Command and Control/Sliver/Interactive Shell/Interactive Mode/00 - Spawn Shell.md",
     "Command and Control/Sliver/Interactive Shell/Interactive Mode",
@@ -186,7 +187,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/MySQL.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Clear Text Passwords/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/Base64.md",
     "Malware Development/Helpers/Obfuscation Techniques",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Dump Memory Process",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences",
