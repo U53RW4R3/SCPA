@@ -33,9 +33,11 @@ Flags:
 
 Or you can manually enable multiplayer mode
 
-`[server] sliver > multiplayer`
+```
+[server] sliver > multiplayer
 
-`[server] sliver > multiplayer -L <IP> -l <PORT> [-p]`
+[server] sliver > multiplayer -L <IP> -l <PORT> [-p]
+```
 
 ## 2.2 - Operators
 

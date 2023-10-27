@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bf1e656d12647fdb",
+        "id": "a7c4f8978cbe9025",
         "type": "tabs",
         "children": [
           {
-            "id": "d0daa8248c1d6ad1",
+            "id": "4a486e327011c927",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 445.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md"
               }
             }
           },
@@ -156,44 +156,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0daa8248c1d6ad1",
+  "active": "4a486e327011c927",
   "lastOpenFiles": [
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Function Call Obfuscation.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Rename Entry Points.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Command and Control/Cobalt Strike/Usage/Core Features/01 - Shell Handler.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Dump Credentials/03 - Nishang.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Token Impersonation/Token Impersonation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Dump Memory Process/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Dump Memory Process/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Passwords.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs/Saved Credentials/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Dump Memory Process",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences/Powersploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Sliver.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Internal Reconnaissance.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Process Manipulation.md",
+    "Command and Control/Sliver/Interactive Shell/Interactive Mode/00 - Interactive Shell.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Execute Process.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Interactive Mode/00 - Spawn Shell.md",
+    "Command and Control/Sliver/Interactive Shell/Interactive Mode",
+    "Command and Control/Sliver/Interactive Shell/Untitled.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons",
+    "Command and Control/Sliver/Core Commands/01 - Help Menu.md",
+    "Command and Control/Sliver/Interactive Shell",
+    "Command and Control/Sliver/Core Commands/05 - Armory.md",
+    "Command and Control/Sliver/Core Commands/04 - Generate Beacons.md",
+    "Command and Control/Sliver/Core Commands/03 - Shell Handler.md",
+    "Command and Control/Sliver/Core Commands/02 - Teamserver.md",
+    "Command and Control/Sliver/Core Commands/06 - Interactive Beacon Session.md",
+    "Command and Control/Sliver/Setup.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/07 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Socat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/MySQL.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Clear Text Passwords/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Clear Text Passwords/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/Base64.md",
+    "Malware Development/Helpers/Obfuscation Techniques",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Dump Memory Process",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Clear Text Passwords",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Security Account Manager (SAM).md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Registry.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs/Sliver.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs/Saved Credentials",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Scheduled Tasks.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Kernel Exploits.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Startup Programs/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Startup Programs",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Token Impersonation",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Service Exploits/Weak Registry Permissions",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",

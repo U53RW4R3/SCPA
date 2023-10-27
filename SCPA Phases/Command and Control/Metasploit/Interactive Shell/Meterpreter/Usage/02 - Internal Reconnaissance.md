@@ -482,6 +482,8 @@ meterpreter > reg
 meterpreter > reg
 ```
 
+## 2.5 - Search Files
+
 ```
 meterpreter > search -h
 Usage: search [-d dir] [-r recurse] -f pattern [-f pattern]...
@@ -497,7 +499,9 @@ OPTIONS:
     -r   Recursively search sub directories. (Default: true)
 ```
 
-`meterpreter > search -d </path/to/directory/ | <drive_letter>:\\> -f confidential*`
+* **Basic Commands**
+
+`meterpreter > search -d [<drive_letter>:]/path/to/directory/ -f confidential*`
 
 ---
 ## References
