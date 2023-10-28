@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Cobalt Strike.md",
+                "file": "Command and Control/Havoc/Reset Teamserver Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Cobalt Strike.md",
+                "file": "Command and Control/Havoc/Reset Teamserver Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Cobalt Strike.md",
+                "file": "Command and Control/Havoc/Reset Teamserver Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Cobalt Strike.md"
+                "file": "Command and Control/Havoc/Reset Teamserver Database.md"
               }
             }
           },
@@ -156,15 +156,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a486e327011c927",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/04 - Process Manipulation.md",
+    "Command and Control/Havoc/Reset Teamserver Database.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/03 - Basic Commands.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Setup.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Help Menu.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
+    "Command and Control/Havoc/Usage/Core Features/01 - Shell Handler.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Cobalt Strike.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM).md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Schtasks.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Security Solutions/Windows/01 - Manual.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Schedule Periodic Tasks.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Cobalt Strike.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/Token/Token Impersonation.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/NetOnly.md",
@@ -177,18 +186,9 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Auditing Tools/WinPEAS.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/SSH.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/HTTP.md",
-    "Command and Control/Havoc/Setup.md",
     "Command and Control/Havoc/Usage/Interactive Shell/Demons",
-    "Command and Control/Havoc/Usage/Core Features/01 - Shell Handler.md",
     "Command and Control/Havoc/Usage/Interactive Shell",
     "Command and Control/Havoc/Usage/Core Features",
-    "Malware Development/Helpers/Obfuscation Techniques/PHP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Distributed Component Object Model (DCOM)/Distributed Component Object Model (DCOM).md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/WireTap.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC)",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Registry",

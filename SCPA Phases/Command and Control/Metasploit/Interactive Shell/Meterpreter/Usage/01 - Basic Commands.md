@@ -94,14 +94,14 @@ meterpreter > ls -S ".docx" c:/users/%username%/documents/
 
 ## 1.3 - File Manipulation
 
-* **Copy files**
+### 1.3.1 - Copy files
 
 ```
 meterpreter > cp
 Usage: cp oldfile newfile
 ```
 
-1. Over SMB Network
+- Over SMB Network
 
 ```
 meterpreter > cp file.txt //ws01/c$/windows/temp/file.txt
@@ -109,39 +109,39 @@ meterpreter > ls //ws01/c$/windows/temp/file.txt
 100666/rw-rw-rw-  0  fil  2022-05-24 01:52:49 -0400  //defalt/c$/windows/temp/file.txt
 ```
 
-* **Move files**
+### 1.3.2 - Move files
 
 ```
 meterpreter > mv
 Usage: mv oldfile newfile
 ```
 
-* **Delete files**
+### 1.3.3 - Delete files
 
 ```
 meterpreter > rm
 Usage: rm file1 [file2...]
 ```
 
-Over SMB Network
+- Over SMB Network
 
 `meterpreter > rm //ws01/c$/windows/temp/file.txt`
 
-* **Create directory**
+### 1.3.4 - Create Directories
 
 ```
 meterpreter > mkdir
 Usage: mkdir dir1 dir2 dir3 ...
 ```
 
-* **Delete directories**
+### 1.3.5 - Remove Directories
 
 ```
 meterpreter > rmdir
 Usage: rmdir dir1 dir2 dir3 ...
 ```
 
-* **Create/Edit the file**
+### 1.3.6 - Create/Edit the file
 
 **Note:** the default editor is `vim` if it's missing it'll switch to `nano` instead
 
@@ -157,12 +157,14 @@ Over SMB Network
 
 `meterpreter > edit //ws01/c$/Users/%username%/Documents/file.txt`
 
-* **Checksum File hashes**
+### 1.3.7 - Checksum File hashes
 
 ```
 meterpreter > checksum -h
 Usage: checksum [md5 / sha1] file1 file2 file3 ...
 ```
+
+- MD5 Hash
 
 ```
 meterpreter > checksum md5 file.txt

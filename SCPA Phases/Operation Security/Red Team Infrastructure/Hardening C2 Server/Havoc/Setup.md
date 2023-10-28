@@ -39,3 +39,8 @@ EOF
 ### 1.2 - Domain Fronting
 
 TODO: Provide an example usage for Havoc C2
+
+---
+## References
+
+- [Havoc ProfileGenerator](https://github.com/0xv1n/Havoc-ProfileGenerator)
