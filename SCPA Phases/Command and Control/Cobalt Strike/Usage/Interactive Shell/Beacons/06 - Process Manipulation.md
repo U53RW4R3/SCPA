@@ -30,7 +30,7 @@ Search Tag: #cobalt-strike #command-and-control
 
 ## 6.4 - Spawn Beacon Session
 
-`beacon> spawnas <username> <password>`
+`beacon> spawnas <domain_name>\<username> <password>`
 
 `beacon> spawnto <arch> <path> <args>`
 

