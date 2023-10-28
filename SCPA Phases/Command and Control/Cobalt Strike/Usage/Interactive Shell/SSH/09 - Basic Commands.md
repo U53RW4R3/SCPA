@@ -1,7 +1,7 @@
-# 08 - Basic Commands
+# 09 - Basic Commands
 
 Search Tag: #cobalt-strike #command-and-control
 
-## 8.1 - Execute Shell Commands
+## 9.1 - Execute Shell Commands
 
 `ssh> shell <command> [args]`

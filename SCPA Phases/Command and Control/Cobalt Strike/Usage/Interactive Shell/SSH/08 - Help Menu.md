@@ -1,4 +1,4 @@
-# 07 - Help Menu
+# 08 - Help Menu
 
 Search Tag: #cobalt-strike #command-and-control #help-menu
 

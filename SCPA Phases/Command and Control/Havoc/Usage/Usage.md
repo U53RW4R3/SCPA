@@ -327,7 +327,7 @@ Demon » help powershell
 
 ##### 2.1.6.2 - Usage
 
-* Execute any `shell` command that the demon implant spawns a process `cmd.exe`
+* Execute any `shell` command that the demon implant spawns a child process `cmd.exe`
 
 `Demon » shell <command> [args]`
 
@@ -489,7 +489,9 @@ Demon » help dll
 
 TODO: Fill this info
 
-`Demon » dll`
+`Demon » dll inject <pid> /path/to/file.dll [arguments]`
+
+`Demon » dll spawn <pid> /path/to/file.dll [arguments]`
 
 ## 03 - Reset Teamserver Database
 

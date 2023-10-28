@@ -1,4 +1,4 @@
-# 06 - Spoof Arguments
+# 07 - Spoof Arguments
 
 Search Tag: #cobalt-strike #command-and-control
 
