@@ -119,6 +119,15 @@ Demon » help cp
  - Usage         :  cp [/path/from/file.txt] [path/to/file.txt]
  - Example       :  cp C:\secrets.txt C:\Windows\Temp\secrets.txt
 
+Demon » help mv
+
+ - Command       :  mv
+ - Description   :  move file from one location to another
+ - Behavior      :  API Only
+ - Usage         :  mv [/path/from/file.txt] [path/to/file.txt]
+ - Example       :  mv C:\secrets.txt C:\Windows\Temp\secrets.txt
+ - Required Args :  2
+
 Demon » help remove
 
  - Command       :  remove
@@ -150,15 +159,17 @@ Demon » help cat
 
 - Copy file
 
-`Demon » cp C:\path\to\file.txt C:\path\to\copied_file.txt`
+`Demon » cp C:\path\to\remote\file.txt C:\path\to\remote\copied_file.txt`
 
 - Move file
 
-`Demon » mv C:\path\to\file.txt C:\path\to\moved_file.txt`
+`Demon » mv C:\path\to\remote\file.txt C:\path\to\remote\moved_file.txt`
+
+`Demon » cat C:\path\to\remote\file.txt`
 
 - Delete file
 
-`Demon » remove C:\path\to\file.txt`
+`Demon » remove C:\path\to\remote\file.txt`
 
 ## 3.6 - Execute Shell Commands
 

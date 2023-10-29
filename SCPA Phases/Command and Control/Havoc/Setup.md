@@ -14,7 +14,7 @@
 
 ### 1.2 - Clone the repository
 
-`$ sudo git clone https://github.com/HavocFramework/Havoc.git /opt/post-exploitation/Havoc`
+`$ sudo git clone [--branch dev] https://github.com/HavocFramework/Havoc.git /opt/post-exploitation/Havoc`
 
 `$ sudo chown $USER:$(id -gn $USER) -R /opt/post-exploitation/Havoc`
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ipconfig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Metasploit.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "4a486e327011c927",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Manual.md",
-    "Command Line/Windows/Command Prompt/05 - Services.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/SharPersist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Metasploit.md",
+    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/01 - Shell Handler.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Havoc.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Powersploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Manual.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Configuration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Port Scan.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Havoc.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Sliver.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Help Menu.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/03 - Basic Commands.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/04 - Internal Reconnaissance.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/05 - Process Manipulation.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Impacket",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/SMBExec",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Pass-The-Hash Toolkits",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Powershell Profile.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/WMI.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Schedule Tasks/At.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Schedule Tasks/Schtasks.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Schedule Tasks/BITSAdmin.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Schedule Tasks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Binary Backdoors/EXE Backdoors.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Binary Backdoors",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Binary Backdoors/DLL Backdoors.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Backdoor Types/HKCU/Privilege Escalation/Enable AlwaysInstallElevated.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Backdoor Types/HKLM/Privilege Escalation/Enable AlwaysInstallElevated.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Backdoor Types/HKLM/Image File Execution Options.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Key References.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Backdoor Types/HKCU/Privilege Escalation",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Backdoor Types/HKLM/Privilege Escalation",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Syntax/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Syntax/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Registry/AlwaysInstallElevated/01 - Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Offline/JTR.md",
-    "Command and Control/Metasploit/MSFConsole/Database Commands/Usage/05 - Credentials.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Collection.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Passwords.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Registry.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences/Powersploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Passwords/Sensitive Files/Group Policy Preferences/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/SDCLT",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/UAC Bypass",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Token Duplication",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/CMSTP",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Host Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/MMC",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",

