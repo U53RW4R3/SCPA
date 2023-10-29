@@ -508,4 +508,6 @@ OPTIONS:
 ---
 ## References
 
+- [Metasploit Unleashed: Interacting Registry](https://www.offsec.com/metasploit-unleashed/interacting-registry/)
+
 - [Metasploit Unleashed: Searching Content](https://www.offsec.com/metasploit-unleashed/searching-content/)
