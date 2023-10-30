@@ -124,3 +124,26 @@ msf > sessions -k 1
 
 msf > sessions -K
 ```
+
+## 2.9 - Execute Commands Pass Through Session ID(s)
+
+### 2.9.1 - Command Sessions
+
+```
+msf > sessions -s <module> <-i <session_id> | all>
+
+msf > sessions -c <shell_command> <-i <session_id> | all>
+```
+
+### 2.9.2 - Meterpreter Sessions
+
+```
+msf > sessions -s <module | meterpreter_script> <-i <session_id> | all>
+
+msf > sessions -C <meterpreter_command> <-i <session_id> | all>
+```
+
+---
+## References
+
+- [Metasploit Unleashed: Msfconsole Commands](https://www.offsec.com/metasploit-unleashed/msfconsole-commands/)

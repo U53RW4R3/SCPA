@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/05 - History.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/05 - History.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/05 - History.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md"
+                "file": "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/05 - History.md"
               }
             }
           },
@@ -158,32 +158,32 @@
   },
   "active": "4a486e327011c927",
   "lastOpenFiles": [
+    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/06 - Connect.md",
+    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/02 - Sessions.md",
     "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/01 - Shell Handler.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/SUID and SGID.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Printers.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Print Working Directory.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Linux Enumeration and Discovery References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Files and Directories.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Bind Shells/Netcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Netcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/NodeJS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/OpenSSL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Perl.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/PHP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Python.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Ruby.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Tarball.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Telnet.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Xterm.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Awk.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Bash.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Bind Shells/Python.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Cobalt Strike.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Powersploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Manual.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Configuration.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/Port Scan.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
-    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Sliver.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Help Menu.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/03 - Basic Commands.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/04 - Internal Reconnaissance.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/05 - Process Manipulation.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Impacket",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/SMBExec",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Pass-The-Hash Toolkits",

@@ -33,3 +33,8 @@ msf > connect <IP> <PORT>
 
 msf > connect -s <IP> <PORT>
 ```
+
+---
+## References
+
+- [Metasploit Unleashed: Msfconsole Commands](https://www.offsec.com/metasploit-unleashed/msfconsole-commands/)

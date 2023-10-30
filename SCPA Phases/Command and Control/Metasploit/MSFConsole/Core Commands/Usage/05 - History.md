@@ -36,3 +36,9 @@ msf > history
 109  run username=fox password=pass1234 rhosts=10.0.2.15
 ..[snip]..
 ```
+
+## 5.3 - Clear Metasploit History Commands
+
+```
+msf > history -c
+```
