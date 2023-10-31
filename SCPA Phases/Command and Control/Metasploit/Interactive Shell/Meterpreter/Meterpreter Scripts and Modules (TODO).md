@@ -314,8 +314,6 @@ run post/windows/manage/driver_loader
 
 run post/windows/manage/peinjector
 
-run post/windows/manage/shellcode_inject
-
 run post/windows/manage/enable_support_account
 
 run post/windows/manage/sshkey_persistence
