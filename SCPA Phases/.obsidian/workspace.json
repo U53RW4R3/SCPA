@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "seatbelt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md"
               }
             }
           },
@@ -158,33 +159,35 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Seatbelt.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Hardening.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Checklist.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Hardening.md",
+    "Command and Control/Sliver/Core Commands/04 - Generate Beacons.md",
+    "Command and Control/Sliver/Core Commands/03 - Shell Handler.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Domain Fronting.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Domain Fronting.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/04 - Execute Process.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
-    "Command and Control/Cobalt Strike/Cobalt Strike Global Refercnes.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/09 - Basic Commands.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Help Menu.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/07 - Spoof Arguments.md",
-    "Command and Control/Cobalt Strike/Setup.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/05 - Internal Reconnaissance.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Checklist.md",
-    "Malware Development/Techniques/Windows Functions References.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Add Firewall Rule.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Defense Evasion Windows Firewall References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Delete Firewall Rule.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Disable Firewall.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Windows/Manual/Modify Firewall Rule.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Passwords/RunAs/Saved Credentials/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Kernel",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Hijack Multiplexer Shell Sessions",
@@ -192,8 +195,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Weak File Permissions/Writable Passwd File",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Weak File Permissions/Writable Shadow File",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Weak File Permissions",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Network File System (NFS)",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/SUID and SGID/Environment Variables",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
