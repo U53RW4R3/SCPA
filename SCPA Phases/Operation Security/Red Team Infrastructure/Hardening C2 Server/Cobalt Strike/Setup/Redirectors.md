@@ -1,6 +1,5 @@
 # Redirectors
 
-
 TODO: Fill this information
 
 ## 01 - Apache2
@@ -36,9 +35,7 @@ sudo systemctl restart apache2
 
 `$ sudo a2ensite redirect`
 
-`$ sudo ln -s /etc/apache2/sites-available/cobalt_strike.conf /etc/apache2/sites-enabled/`
-
-`$ sudo service apache2 restart`
+`$ sudo systemctl restart apache2`
 
 ```
 sudo yum install mod_proxy mod_proxy_http && \
@@ -103,9 +100,13 @@ server {
 ---
 ## References
 
+- [C2 Redirection For Offensive Operations](https://synzack.github.io/C2-Redirection-for-Offensive-Operations/)
+
 - [WhiteOakSecurity: Cobalt Strike OpSec](https://www.whiteoaksecurity.com/blog/cobalt-strike-opsec/)
 
 - [High Reputation Redirectors and Domain Fronting](https://www.cobaltstrike.com/blog/high-reputation-redirectors-and-domain-fronting/)
+
+- [Cobalt Strike HTTP C2 Redirectors with Apache mod_rewrite](https://bluescreenofjeff.com/2016-06-28-cobalt-strike-http-c2-redirectors-with-apache-mod_rewrite/)
 
 - [HTTPS Payload and C2 Redirectors](https://bluescreenofjeff.com/2018-04-12-https-payload-and-c2-redirectors/)
 

@@ -27,6 +27,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_URI} ^/stage$
 RewriteRule ^.*$ http://<C2_IP>%{REQUEST_URI} [P]
 RewriteRule ^.*$ http://<domain.com>/? [L,R=302]
+$ chmod 644 /var/www/html/.htaccess
 ```
 
 ### 1.3 - HTTP

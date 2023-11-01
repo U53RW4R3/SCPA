@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/SharpBypassUAC.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "seatbelt",
+                "query": "bypassuac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/SharpBypassUAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/SharpBypassUAC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/SharpBypassUAC.md"
               }
             }
           },
@@ -159,34 +158,35 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Seatbelt.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/MMC/Empire.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/SharpBypassUAC.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/UAC Bypass/Metasploit.md",
+    "Command and Control/Empire/Interactive Shell.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Phishing/GoPhish.md",
+    "Operation Security/Red Team Infrastructure/Phishing",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Hardening.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Checklist.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Detection.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Seatbelt.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Hardening.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Checklist.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Detection.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Setup.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Hardening.md",
-    "Command and Control/Sliver/Core Commands/04 - Generate Beacons.md",
-    "Command and Control/Sliver/Core Commands/03 - Shell Handler.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Domain Fronting.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Domain Fronting.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/04 - Execute Process.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Kernel",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware",
@@ -194,7 +194,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/PATH",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Weak File Permissions/Writable Passwd File",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Weak File Permissions/Writable Shadow File",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Weak File Permissions",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
