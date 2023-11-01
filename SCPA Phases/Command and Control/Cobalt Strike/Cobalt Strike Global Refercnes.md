@@ -13,8 +13,6 @@ CTRL+K
 ---
 ## References
 
-* [Cobalt Strike Spawn Tunnel](https://rastamouse.me/cobalt-strike-spawn-tunnel/)
-
 * [Helpsystems.com Documentation](https://hstechdocs.helpsystems.com)
 
 * [Beacon Commands](https://www.aldeid.com/wiki/Cobalt-Strike/Beacon-Commands)

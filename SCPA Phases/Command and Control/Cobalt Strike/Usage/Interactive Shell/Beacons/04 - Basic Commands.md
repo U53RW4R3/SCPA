@@ -32,7 +32,7 @@ Search Tag: #cobalt-strike #command-and-control
 
 `beacon> sleep <seconds> <jitter>`
 
-`beacon> sleep 30 15`
+`beacon> sleep 15 30`
 
 ## 4.4 - List files or directories
 

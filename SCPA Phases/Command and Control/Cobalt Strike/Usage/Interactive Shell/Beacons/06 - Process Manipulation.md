@@ -39,3 +39,8 @@ Search Tag: #cobalt-strike #command-and-control
 `beacon> spawnto x86 C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe`
 
 `beacon> spawn <arch> <listener>`
+
+---
+## References
+
+* [Cobalt Strike Spawn Tunnel](https://rastamouse.me/cobalt-strike-spawn-tunnel/)
