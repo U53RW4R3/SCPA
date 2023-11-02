@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md"
+                "file": "Malware Development/Techniques/Windows Functions References.md"
               }
             }
           },
@@ -158,6 +158,23 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
+    "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
+    "Malware Development/Techniques/MessageBox/WinAPI/Functions/MessageBox.md",
+    "Malware Development/Techniques/MessageBox/WinAPI/Functions",
+    "Malware Development/Techniques/MessageBox/WinAPI",
+    "Malware Development/Techniques/MessageBox",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Function Call Obfuscation.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
+    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
+    "Malware Development/README.md",
+    "Malware Development/Checklist.md",
+    "Malware Development/Techniques/Windows Functions References.md",
+    "Cryptography/Symmetric/Description.md",
+    "Cryptography/Asymmetric/Algorithms/Modern Ciphers/RSA.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Compromised Hosts/Webshells.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+    "Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md",
     "Command Line/Linux/Unix Shell/Terminal Multiplexer/Screen.md",
     "Command Line/Linux/Unix Shell/Networking/IP Address.md",
     "Command Line/Linux/Unix Shell/Networking/Firewall Rules/IPTables/IPTables.md",
@@ -169,31 +186,13 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/IPTables/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/IPTables/Unix Shell.md",
     "Operation Security/Red Team Infrastructure/Phishing/GoPhish.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Seatbelt.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/SharpBypassUAC.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/MMC/Empire.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/UAC Bypass/Metasploit.md",
-    "Command and Control/Empire/Interactive Shell.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
     "Operation Security/Red Team Infrastructure/Phishing",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Hardening.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Checklist.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Kernel",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Hijack Multiplexer Shell Sessions",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/PATH",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",

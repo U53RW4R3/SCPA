@@ -2,6 +2,16 @@
 
 Search Tag: #google #dork #webshell
 
+## Top parameters
+
+```
+?c=
+?cmd=
+?command=
+```
+
+## Find specific strings and locations
+
 ```
 intitle:"(SSI Web Shell)" AND intext:"(ls -al)"
 inurl:/editor/filemanager/connectors/uploadtest.html
