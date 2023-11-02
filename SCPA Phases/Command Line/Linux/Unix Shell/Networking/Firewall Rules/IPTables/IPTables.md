@@ -13,3 +13,8 @@
 ## 03 - Delete Rules
 
 `$ sudo iptables`
+
+---
+## References
+
+- [Hackers Arise: Linux Basics for Hackers, Part 11: Linux Firewalls (iptables)](https://www.hackers-arise.com/post/linux-basics-for-hackers-part-11-linux-firewalls-iptables)

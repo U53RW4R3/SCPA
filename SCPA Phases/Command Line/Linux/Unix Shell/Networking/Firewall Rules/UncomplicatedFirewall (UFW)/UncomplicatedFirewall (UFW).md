@@ -1,5 +1,7 @@
 # UncomplicatedFirewall (UFW)
 
+TODO: Fill this info
+
 ## 01 - Create Rules
 
 - **SSH inbound rule connection**
@@ -15,3 +17,8 @@
 ## 03 - Delete Rules
 
 `$ sudo ufw`
+
+---
+## References
+
+- [Hackers Arise: Uncomplicated Firewall (ufw)](https://www.hackers-arise.com/post/linux-firewalls-uncomplicated-firewall-ufw)
