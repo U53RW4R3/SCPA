@@ -2,16 +2,22 @@
 
 ## Encode a string
 
-`PS C:\> $str = 'A string'`
+```powershell
+PS C:\> $str = 'A string'
 
-`PS C:\> [System.Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($str))`
+[System.Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($str))
+```
 
 ## Encode a file
 
-`PS C:\> $file = 'C:\path\to\shellcode.bin'`
+- This also applies to binary files especially to encode shellcode.
 
-`PS C:\> $raw_bytes = [IO.File]::ReadAllBytes($file)`
+```powershell
+PS C:\> $file = 'C:\path\to\shellcode.bin'
+$raw_bytes = [IO.File]::ReadAllBytes($file)
 
-`PS C:\> $raw_bytes = [Text.Encoding]::Unicode.GetBytes($(Get-Content $file -Encoding UTF-8 -Raw))`
+# Or this option
+# $raw_bytes = [Text.Encoding]::Unicode.GetBytes($(Get-Content $file -Encoding UTF-8 -Raw))
 
-`PS C:\> $encoded = [Convert]::ToBase64String($raw_bytes)`
+$encoded = [Convert]::ToBase64String($raw_bytes)
+```
