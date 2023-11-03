@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md"
               }
             }
           },
@@ -158,34 +158,34 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Implant Templates/Sliver.md",
-    "Malware Development/Helpers/Implant Templates/Metasploit.md",
-    "Malware Development/Helpers/Crypters/Python.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/Cobalt Strike.md",
     "Malware Development/README.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/05 - Internal Reconnaissance.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
+    "Malware Development/Helpers/Implant Templates/Metasploit.md",
+    "Malware Development/Helpers/Implant Templates/Sliver.md",
+    "Malware Development/Helpers/Crypters/Python.md",
     "Malware Development/Helpers/Crypters/C.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Collection.md",
     "Command and Control/Metasploit/MSFConsole/Database Commands/Usage/05 - Credentials.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Generate Custom Wordlist/JTR.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/04 - Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/03 - Sliver.md",
     "Malware Development/Techniques/Windows Functions References.md",
     "Malware Development/Helpers/Crypters/CSharp.md",
     "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike/Artifacts.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike/Aggressor Scripts.md",
-    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Resources.md",
-    "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
-    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
-    "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
-    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Implants.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike",
-    "Malware Development/Helpers/Obfuscation Techniques/Powershell.md",
-    "Malware Development/Helpers/Obfuscation Techniques/PHP.md",
-    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
-    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
-    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
     "Command Line/Operating Systems",
-    "Command Line/Operating Systems/BSD/Unix Shell/File and Directory Manipulation.md",
     "Command Line/Operating Systems/BSD/Unix Shell",
     "Command Line/Operating Systems/BSD",
     "Malware Development/Helpers/Crypters",
