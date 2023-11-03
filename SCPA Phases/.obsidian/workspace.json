@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Crypters/C.md",
+                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Crypters/C.md",
+                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Crypters/C.md",
+                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Crypters/C.md"
+                "file": "Malware Development/Helpers/Implant Templates/Metasploit.md"
               }
             }
           },
@@ -158,16 +158,24 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Crypters/CSharp.md",
+    "Malware Development/Helpers/Implant Templates/Sliver.md",
+    "Malware Development/Helpers/Implant Templates/Metasploit.md",
+    "Malware Development/Helpers/Crypters/Python.md",
+    "Malware Development/README.md",
     "Malware Development/Helpers/Crypters/C.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Collection.md",
+    "Command and Control/Metasploit/MSFConsole/Database Commands/Usage/05 - Credentials.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Generate Custom Wordlist/JTR.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/04 - Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/03 - Sliver.md",
+    "Malware Development/Techniques/Windows Functions References.md",
+    "Malware Development/Helpers/Crypters/CSharp.md",
     "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike/Artifacts.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike/Aggressor Scripts.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike/Resources.md",
-    "Malware Development/Helpers/Implant Templates/Metasploit.md",
     "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
     "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
-    "Malware Development/Helpers/Implant Templates/Sliver.md",
     "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike/Implants.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike",
@@ -180,17 +188,9 @@
     "Command Line/Operating Systems/BSD/Unix Shell/File and Directory Manipulation.md",
     "Command Line/Operating Systems/BSD/Unix Shell",
     "Command Line/Operating Systems/BSD",
-    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/01 - Navigation and Exploration.md",
-    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Scan The Internet/Masscan.md",
-    "Malware Development/README.md",
-    "Command Line/Compilers/Windows.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Helpers/Crypters",
     "Malware Development/Helpers/Compiler Scripts/Windows",
     "Malware Development/Helpers/Compiler Scripts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/ISO File.md",
     "Malware Development/Techniques/MessageBox/WinAPI/Functions",
     "Malware Development/Techniques/MessageBox/WinAPI",
     "Malware Development/Techniques/MessageBox",
