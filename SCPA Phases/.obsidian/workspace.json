@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md",
+                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md",
+                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md",
+                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Techniques/Windows Functions References.md"
+                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md"
               }
             }
           },
@@ -156,9 +156,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5b19bf2ec0c0fbf",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
+    "Command Line/Operating Systems",
+    "Command Line/Operating Systems/BSD/Unix Shell/File and Directory Manipulation.md",
+    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
+    "Command Line/Operating Systems/BSD/Unix Shell",
+    "Command Line/Operating Systems/BSD",
+    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/01 - Navigation and Exploration.md",
+    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Scan The Internet/Masscan.md",
+    "Malware Development/README.md",
+    "Command Line/Compilers/Windows.md",
+    "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
+    "Malware Development/Helpers/Crypters/C.md",
+    "Malware Development/Helpers/Crypters/CSharp.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
+    "Malware Development/Techniques/Process Injection/WinAPI/Functions/OpenProcess.md",
+    "Malware Development/Helpers/Crypters",
+    "Malware Development/Helpers/Compiler Scripts/Windows",
+    "Malware Development/Helpers/Compiler Scripts",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/ISO File.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
+    "Malware Development/Helpers/Entropy/Scripts.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Shellcode Format.md",
+    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
+    "Malware Development/Helpers/Obfuscation Techniques/Powershell.md",
+    "Malware Development/Techniques/Windows Functions References.md",
     "Malware Development/Techniques/MessageBox/WinAPI/Functions/MessageBox.md",
     "Malware Development/Techniques/MessageBox/WinAPI/Functions",
     "Malware Development/Techniques/MessageBox/WinAPI",
@@ -166,33 +190,10 @@
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Function Call Obfuscation.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
     "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
-    "Malware Development/README.md",
     "Malware Development/Checklist.md",
-    "Malware Development/Techniques/Windows Functions References.md",
     "Cryptography/Symmetric/Description.md",
-    "Cryptography/Asymmetric/Algorithms/Modern Ciphers/RSA.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Compromised Hosts/Webshells.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
-    "Command Line/Linux/Unix Shell/Terminal Multiplexer/Tmux.md",
-    "Command Line/Linux/Unix Shell/Terminal Multiplexer/Screen.md",
-    "Command Line/Linux/Unix Shell/Networking/IP Address.md",
-    "Command Line/Linux/Unix Shell/Networking/Firewall Rules/IPTables/IPTables.md",
-    "Command Line/Linux/Unix Shell/Networking/Firewall Rules/IPTables",
-    "Command Line/Linux/Unix Shell/Networking/Firewall Rules/UncomplicatedFirewall (UFW)/UncomplicatedFirewall (UFW).md",
-    "Command Line/Linux/Unix Shell/Networking/Firewall Rules/UncomplicatedFirewall (UFW)",
-    "Command Line/Linux/Unix Shell/Networking/Firewall Rules/Fwsnort.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/UFW/UFW.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/IPTables/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Firewalls/Linux/IPTables/Unix Shell.md",
-    "Operation Security/Red Team Infrastructure/Phishing/GoPhish.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
-    "Operation Security/Red Team Infrastructure/Phishing",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Kernel",
+    "Command Line/Operating Systems/Linux/Unix Shell/Networking/Firewall Rules/IPTables",
+    "Command Line/Operating Systems/Linux/Unix Shell/Networking/Firewall Rules/UncomplicatedFirewall (UFW)",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",

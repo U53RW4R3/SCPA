@@ -2,7 +2,7 @@
 
 ## 1.1 - List Files and Directories
 
-- **Print the current working directory you're on**
+- **Print the current working directory**
 
 `$ pwd`
 

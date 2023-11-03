@@ -12,6 +12,8 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 ## 02 - C
 
+### 2.1 - Cross Compilers
+
 - **Compile Windows binaries in Linux**
 
 `$ i686-w64-mingw32-gcc shellcode.c -o shell.exe`
@@ -24,9 +26,11 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 - **Compile Windows binaries in Linux with icons**
 
-`$ x86_64-w64-mingw32-windres resource.rc resource.o`
+```
+$ x86_64-w64-mingw32-windres resource.rc resource.o
 
-`$ x86_64-w64-mingw32-gcc -o shell.exe resource.o shell.c`
+$ x86_64-w64-mingw32-gcc -o shell.exe resource.o shell.c
+```
 
 - **Compile Windows Dynamic Linked Library in Linux**
 
@@ -34,23 +38,31 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 `$ x86_64-w64-mingw32-gcc shellcode.c -shared -o shell-x86_64.dll`
 
+### 2.2 - CL
+
 - **Compile Windows binaries**
 
 `C:\> cl.exe /W4 /EHsc shellcode.c /link /out:shellcode.exe`
 
 - **Compile Windows Dynamic Linked Library**
 
+TODO: Fill this info
+
 `C:\>`
 
 - **Compile Windows binaries with icons**
 
-`C:\> rc resource.rc`
+```
+C:\> rc resource.rc
 
-`C:\> cvtres /machine:x64 /out:resource.o resource.res`
+C:\> cvtres /machine:x64 /out:resource.o resource.res
 
-`C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsystem:console /machine:x64 resource.o`
+C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsystem:console /machine:x64 resource.o
+```
 
 ## 03 - C++
+
+### 3.1 - Cross Compilers
 
 - **Compile Windows binaries in Linux**
 
@@ -72,12 +84,17 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 `C:\> g++ shell.cpp -o shell.exe -s -static -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -fpermissive`
 
-`C:\> cl.exe /W4 /EHsc /Tcshell.cpp /link /out:shell.exe /subsystem:console /machine:x64`
-
-`C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.cpp /link /out:shell.exe /subsystem:console /machine:x64`
 - **Compile Windows Dynamic Linked Library in Windows**
 
 `C:\> g++ shell.cpp -o shell.dll -shared -s -static -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -fpermissive`
+
+### 3.2 - CL
+
+- **Compile Windows binaries in Windows**
+
+`C:\> cl.exe /W4 /EHsc /Tpshell.cpp /link /out:shell.exe /subsystem:console /machine:x64`
+
+`C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tpshell.cpp /link /out:shell.exe /subsystem:console /machine:x64`
 
 ## 04 - C\#
 
