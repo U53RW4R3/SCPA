@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
+                "file": "Malware Development/Helpers/Crypters/C.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
+                "file": "Malware Development/Helpers/Crypters/C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
+                "file": "Malware Development/Helpers/Crypters/C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md"
+                "file": "Malware Development/Helpers/Crypters/C.md"
               }
             }
           },
@@ -156,11 +156,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
+    "Malware Development/Helpers/Crypters/CSharp.md",
+    "Malware Development/Helpers/Crypters/C.md",
+    "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Artifacts.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Aggressor Scripts.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Resources.md",
+    "Malware Development/Helpers/Implant Templates/Metasploit.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
+    "Malware Development/Helpers/Implant Templates/Sliver.md",
+    "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Implants.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike",
+    "Malware Development/Helpers/Obfuscation Techniques/Powershell.md",
+    "Malware Development/Helpers/Obfuscation Techniques/PHP.md",
+    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+    "Malware Development/Helpers/Shellcode Formatting/Scripts.md",
+    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
     "Command Line/Operating Systems",
     "Command Line/Operating Systems/BSD/Unix Shell/File and Directory Manipulation.md",
-    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/02 - File and Directory Manipulation.md",
     "Command Line/Operating Systems/BSD/Unix Shell",
     "Command Line/Operating Systems/BSD",
     "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/01 - Navigation and Exploration.md",
@@ -168,32 +185,15 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Scan The Internet/Masscan.md",
     "Malware Development/README.md",
     "Command Line/Compilers/Windows.md",
-    "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
-    "Malware Development/Helpers/Crypters/C.md",
-    "Malware Development/Helpers/Crypters/CSharp.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
     "Malware Development/Techniques/Process Injection/WinAPI/Functions/OpenProcess.md",
     "Malware Development/Helpers/Crypters",
     "Malware Development/Helpers/Compiler Scripts/Windows",
     "Malware Development/Helpers/Compiler Scripts",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/ISO File.md",
-    "Malware Development/Helpers/Entropy/Commands.md",
-    "Malware Development/Helpers/Entropy/Scripts.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Shellcode Format.md",
-    "Malware Development/Helpers/Implant Templates/Artifacts/Metasploit.md",
-    "Malware Development/Helpers/Obfuscation Techniques/Powershell.md",
-    "Malware Development/Techniques/Windows Functions References.md",
-    "Malware Development/Techniques/MessageBox/WinAPI/Functions/MessageBox.md",
     "Malware Development/Techniques/MessageBox/WinAPI/Functions",
     "Malware Development/Techniques/MessageBox/WinAPI",
     "Malware Development/Techniques/MessageBox",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Function Call Obfuscation.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/Ordinals.md",
-    "Malware Development/Techniques/Evasion/Obfuscating Functions/API Hashing.md",
-    "Malware Development/Checklist.md",
-    "Cryptography/Symmetric/Description.md",
-    "Command Line/Operating Systems/Linux/Unix Shell/Networking/Firewall Rules/IPTables",
-    "Command Line/Operating Systems/Linux/Unix Shell/Networking/Firewall Rules/UncomplicatedFirewall (UFW)",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",

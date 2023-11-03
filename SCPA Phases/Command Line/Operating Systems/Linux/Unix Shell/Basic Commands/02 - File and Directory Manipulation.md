@@ -14,6 +14,10 @@ TODO: Fill this info
 
 ## 2.3 -  File and Directory Ownership
 
+`$ chown <username>:<group> file.txt`
+
+`$ chgrp <group> file.txt`
+
 ## 2.4 -  File Attribution
 
 - To set the file immutable to make the file cannot be altered.
