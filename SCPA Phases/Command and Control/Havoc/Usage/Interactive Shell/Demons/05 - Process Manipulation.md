@@ -1,8 +1,8 @@
-# 04 - Process Manipulation
+# 05 - Process Manipulation
 
-## 4.1 - Process Manipulation
+## 5.1 - Process Manipulation
 
-### 4.1.1 - Help Menu
+### 5.1.1 - Help Menu
 
 ```
 Demon » help proc
@@ -24,21 +24,21 @@ Demon » help proc
   find-module                    query for processes with specified loaded module
 ```
 
-### 4.1.2 - Usage
+### 5.1.2 - Usage
 
-#### 4.1.2.1 - Create Process
+#### 5.1.2.1 - Create Process
 
 `Demon » proc create notepad.exe`
 
 `Demon » proc create taskmgr.exe`
 
-#### 4.1.2.2 - Terminate Process
+#### 5.1.2.2 - Terminate Process
 
 `Demon » proc kill <pid>`
 
-#### 4.1.2.3 - Inject Process
+#### 5.1.2.3 - Inject Process
 
-##### 4.1.2.3.1 - Shellcode
+##### 5.1.2.3.1 - Shellcode
 
 * Help Menu
 
@@ -62,7 +62,7 @@ Demon » help shellcode
 
 `Demon » shellcode spawn <x64 | x86> /path/to/shellcode.bin`
 
-##### 4.1.2.3.2 - Spawn DLL
+##### 5.1.2.3.2 - Spawn DLL
 
 * Help Menu
 
@@ -82,11 +82,11 @@ Demon » help dll
 
 * Usage
 
-`Demon » dll inject <pid> /path/to/file.dll [arguments]`
+`Demon » dll inject <pid> /path/to/local/file.dll [arguments]`
 
-`Demon » dll spawn /path/to/file.dll [arguments]`
+`Demon » dll spawn /path/to/local/file.dll [arguments]`
 
-##### 4.1.2.3.3 - DotNET CLR Assembly
+##### 5.1.2.3.3 - DotNET CLR Assembly
 
 ```
 Demon » help dotnet
@@ -103,7 +103,7 @@ Demon » help dotnet
   inline-execute                 executes assembly in the current process and gets output
 ```
 
-##### 4.1.2.3.4 - Object File
+##### 5.1.2.3.4 - Object File
 
 ```
 Demon » help inline-execute

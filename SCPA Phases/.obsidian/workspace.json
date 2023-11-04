@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command Line/Operating Systems/Windows/Command Prompt/02 - File and Directory Manipulation.md",
+                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command Line/Operating Systems/Windows/Command Prompt/02 - File and Directory Manipulation.md",
+                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command Line/Operating Systems/Windows/Command Prompt/02 - File and Directory Manipulation.md",
+                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command Line/Operating Systems/Windows/Command Prompt/02 - File and Directory Manipulation.md"
+                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md"
               }
             }
           },
@@ -158,6 +158,24 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
+    "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
+    "Command and Control/Metasploit/MSFConsole/Database Commands/Help Menu.md",
+    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/02 - Sessions.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/07 - Miscellaneous.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/06 - Pseudo Shell.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/05 - WireTap.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/04 - Execute Process.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
+    "Command and Control/Havoc/Setup.md",
+    "Command and Control/Havoc/Reset Teamserver Database.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/05 - Process Manipulation.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/04 - Internal Reconnaissance.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/03 - Basic Commands.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
+    "Command and Control/Havoc/Usage/Core Features/01 - Shell Handler.md",
+    "Command Line/Operating Systems/Windows/Command Prompt/02 - File and Directory Manipulation.md",
     "Command Line/Operating Systems/Windows/Command Prompt/04 - Shortcut Program Path.md",
     "Command Line/Operating Systems/Windows/Command Prompt/05 - Services.md",
     "Command Line/Operating Systems/Windows/Powershell/Use Cases/Base64.md",
@@ -166,24 +184,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Sliver.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/Cobalt Strike.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/05 - Internal Reconnaissance.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
-    "Malware Development/Helpers/Implant Templates/Metasploit.md",
-    "Malware Development/Helpers/Implant Templates/Sliver.md",
-    "Malware Development/Helpers/Crypters/Python.md",
-    "Malware Development/Helpers/Crypters/C.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Collection.md",
-    "Command and Control/Metasploit/MSFConsole/Database Commands/Usage/05 - Credentials.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Generate Custom Wordlist/JTR.md",
-    "Malware Development/Techniques/Windows Functions References.md",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike",
     "Command Line/Operating Systems",
     "Command Line/Operating Systems/BSD/Unix Shell",

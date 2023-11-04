@@ -1,6 +1,6 @@
 # 02 - File and Directory Manipulation
 
-## 2.1 Create Files and Directories
+## 2.1 - Create Files and Directories
 
 ### 2.1.1 - Create an empty file
 
@@ -20,6 +20,14 @@ This is a text file
 Another line.^Z
 ```
 
-## 2.3 - File Attribution
+## 2.3 - File and Directory Attribution
 
 TODO: Fill this info
+
+- Set the attributes by flagging it as hidden (`+h`), read only (`+r`), and important system file (`+s`)
+
+`C:\> attrib +h +r +s <file | directory>`
+
+- Clear the attributes the by flagging them hidden (`-h`), read only (`-r`), and important system file (`-s`)
+
+`C:\> attrib -h -r -s <file | directory>`
