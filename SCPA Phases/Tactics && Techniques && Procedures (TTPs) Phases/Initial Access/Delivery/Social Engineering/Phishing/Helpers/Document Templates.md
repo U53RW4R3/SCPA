@@ -1,4 +1,4 @@
-# Templates
+# Document Templates
 
 TODO: Demonstrate by using google dorking to find any document template and also provide a few websites that allows for attackers to make the document legitimate depending on the pretext.
 

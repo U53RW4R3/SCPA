@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
+                "file": "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 382.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
+                "file": "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
+                "file": "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md"
+                "file": "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md"
               }
             }
           },
@@ -158,42 +158,42 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
-    "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
-    "Command and Control/Metasploit/MSFConsole/Database Commands/Help Menu.md",
-    "Command and Control/Metasploit/MSFConsole/Core Commands/Usage/02 - Sessions.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/07 - Miscellaneous.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/06 - Pseudo Shell.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/05 - WireTap.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/04 - Execute Process.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
-    "Command and Control/Havoc/Setup.md",
-    "Command and Control/Havoc/Reset Teamserver Database.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/05 - Process Manipulation.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/04 - Internal Reconnaissance.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/03 - Basic Commands.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
-    "Command and Control/Havoc/Usage/Core Features/01 - Shell Handler.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/02 - File and Directory Manipulation.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/04 - Shortcut Program Path.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/05 - Services.md",
-    "Command Line/Operating Systems/Windows/Powershell/Use Cases/Base64.md",
-    "Command Line/Operating Systems/Windows/Powershell/Use Cases/Calculate Size.md",
-    "Malware Development/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Manual.md",
+    "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
+    "Malware Development/Helpers/Identify Detection Triggers/AMSITrigger.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Internal Reconnaissance/Files and Directories/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Discover Programs/Discover Programs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/CheckVM.md",
+    "Malware Development/Helpers/Entropy/Scripts.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
+    "Malware Development/Helpers/Crypters/Python.md",
+    "Malware Development/Helpers/Crypters/CSharp.md",
+    "Malware Development/Helpers/Crypters/C.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/RDP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Helpers/HTML Smuggling.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Helpers/Document Templates.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/Payload Delivery Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/LibreOffice/Macros/Payload Delivery Macro/Payload Delivery Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/LibreOffice/Macros/Payload Delivery Macro",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Inside Document Properties Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Excel.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/PowerPoint.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Word.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Setting up a Phishing Page/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Helpers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Setting up a Phishing Page",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Hide Artifacts",
     "Malware Development/Helpers/Implant Templates/Cobalt Strike",
     "Command Line/Operating Systems",
     "Command Line/Operating Systems/BSD/Unix Shell",
     "Command Line/Operating Systems/BSD",
-    "Malware Development/Helpers/Crypters",
-    "Malware Development/Helpers/Compiler Scripts/Windows",
-    "Malware Development/Helpers/Compiler Scripts",
-    "Malware Development/Techniques/MessageBox/WinAPI/Functions",
-    "Malware Development/Techniques/MessageBox/WinAPI",
-    "Malware Development/Techniques/MessageBox",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
