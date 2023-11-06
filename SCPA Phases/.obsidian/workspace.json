@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Cobalt Strike.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Cobalt Strike.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Cobalt Strike.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Cobalt Strike.md"
               }
             }
           },
@@ -158,8 +158,18 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Cobalt Strike.md",
+    "Command and Control/Webshells/05 - Spawn Callback Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Havoc.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Windows/SOCKS Proxy/PowerProxy.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/02 - Generate Shellcode/Shellcode Format.md",
+    "Malware Development/README.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/12 - Execute Process.md",
@@ -174,16 +184,6 @@
     "Malware Development/Helpers/Entropy/Scripts.md",
     "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Helpers/Crypters/Python.md",
-    "Malware Development/Helpers/Crypters/CSharp.md",
-    "Malware Development/Helpers/Crypters/C.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Auditing Tools/Seatbelt.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/RDP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Helpers/HTML Smuggling.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Helpers/Document Templates.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/Payload Delivery Macro.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/LibreOffice/Macros/Payload Delivery Macro/Payload Delivery Macro.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/LibreOffice/Macros/Payload Delivery Macro",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Helpers",
