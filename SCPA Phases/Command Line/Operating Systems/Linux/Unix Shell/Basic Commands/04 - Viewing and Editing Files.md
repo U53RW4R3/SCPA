@@ -10,11 +10,13 @@
 
 ### 4.2.1 - Parse Files
 
-- **Remove ANSI characters**
+- Remove ANSI characters
 
-`$ sed -r "s/\x1B\[(([0-9]+)(;[0-9]+)*)?[m,K,H,f,J]//g" file.txt`
+```
+$ sed -r "s/\x1B\[(([0-9]+)(;[0-9]+)*)?[m,K,H,f,J]//g" file.txt
 
-`$ sed 's/\x1b\[[0-9;]*m//g' file.txt`
+$ sed 's/\x1b\[[0-9;]*m//g' file.txt
+```
 
 - **Remove empty lines**
 

@@ -2,6 +2,8 @@
 
 ## 01 - Create Rules
 
+TODO: Fill this info
+
 - **SSH inbound rule connection**
 
 `$ sudo iptables -A INPUT -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT`

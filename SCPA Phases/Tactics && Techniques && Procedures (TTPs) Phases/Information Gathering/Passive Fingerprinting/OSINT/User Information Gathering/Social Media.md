@@ -2,7 +2,7 @@
 
 ## 01 - Manual
 
-TODO: Provide real life examples when using social media platforms that correlates with [[OSINT Framework]]
+TODO: Provide real life examples when using social media platforms that correlates with [[OSINT Framework]].
 
 ### Facebook
 

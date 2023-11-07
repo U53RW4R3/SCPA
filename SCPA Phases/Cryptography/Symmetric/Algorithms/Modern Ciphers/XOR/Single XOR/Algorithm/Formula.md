@@ -1,18 +1,14 @@
-# Single XOR
+# Formula
 
-## Algorithm
-
-### Formula
-
-#### Encryption
+## Encryption
 
 $P \oplus K = C$
 
-#### Decryption
+## Decryption
 
 $C \oplus K = P$
 
-### Truth Table and Logical Gate
+## Truth Table and Logical Gate
 
 ^cbf7ed
 
@@ -25,9 +21,9 @@ $C \oplus K = P$
 |      1        |  0  |      1         |
 |      1        |  1  |      0         |
 
-### Compute
+## Compute
 
-#### Encryption
+### Encryption
 
 To demonstrate how it works. Let's define the variables first. _**Plaintext (P)**_ is 5 and _**Key (K)**_ is 10.
 
@@ -153,7 +149,7 @@ $Ciphertext: 8 + 4 + 2 + 1 = 15$
 
 The _**Ciphertext (C)**_ is 15 decimal base 10.
 
-#### Decryption
+### Decryption
 
 All we need is the _**Key (K)**_ to decrypt the _**Ciphertext (C)**_ into _**Plaintext (P)**_.
 
@@ -283,48 +279,7 @@ $Plaintext: 4 + 1 = 5$
 
 The _**Plaintext (P)**_ is 5 decimal base 10.
 
-### Flowchart
-
-```mermaid
-flowchart TD
-    A[Start] --> B[/Input message and key/] --> C{XOR Cipher}
-
-    C -->|Plaintext| D[/Encrypt/]
-    C -->|Ciphertext| E[/Decrypt/]
-    D & E --> F[End]
-```
-
-### Pseudo Code
-
-#### Single XOR Cipher
-
-```vb
-function single_byte_xor(plaintext, key)
-    ciphertext := ""
-    
-    for each character in plaintext
-        char := character XOR key
-        ciphertext := ciphertext + encrypted_char
-    
-    return ciphertext
-
-plaintext := "Attack At Dawn!"
-key := 10
-
-encrypt := single_byte_xor(plaintext, key)
-print "Encrypted text: " + encrypt
-
-decrypt := single_byte_xor(encrypt, key)
-print "Decrypted text: " + decrypt
-```
-
 ---
 ## References
 
 - [Wikipedia: XOR Cipher](https://en.wikipedia.org/wiki/XOR_cipher)
-
-- [Codementor: Deciphering Single-byte XOR Ciphertext](https://www.codementor.io/@arpitbhayani/deciphering-single-byte-xor-ciphertext-17mtwlzh30)
-
-- [GeeksForGeeks: XOR Encryption by Shifting Plaintext](https://www.geeksforgeeks.org/xor-encryption-shifting-plaintext/)
-
-- [Adeolu Olabode Afolabi: Improve Data Security Using Modified XOR Encryption Algorithm](https://www.researchgate.net/publication/270588628_AN_APPROACH_TO_IMPROVE_DATA_SECURITY_USING_MODIFIED_XOR_ENCRYPTION_ALGORITHM)
