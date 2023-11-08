@@ -1,6 +1,4 @@
-# General
-
-## 01 - NASM
+# NASM
 
 - **Compile Linux binaries**
 
@@ -45,41 +43,3 @@ $ nasm -f win64 shell.asm -o shell.obj
 
 $ x86_64-w64-mingw32-gcc -shared -o shell.dll shell.obj
 ```
-
-## 02 - Go
-
-`$ go get -u golang.org/x/sys/windows`
-
-`$ GO111MODULE=auto GOOS=windows GOARCH=amd64 go build shellrunner_win.go`
-
-## 03 - Rust
-
-### 3.1 - Install Toolchains
-
-- **List of toolchains**
-
-`$ rustc --print target-list`
-
-- **Install toolchain**
-
-`$ rustup target add x86_64-pc-windows-gnu`
-
-`$ rustup target add x86_64-pc-windows-msvc`
-
-### 3.2 - Linux
-
-- **Compile the binary statically**
-
-`$ rustc -C target-feature=+crt-static hello.rs`
-
-### 3.3 - Windows
-
-- **Select specific toolchain to compile a windows binary**
-
-`$ cargo b -r --target x86_64-pc-windows-gnu`
-
-`$ cargo b -r --target x86_64-pc-windows-msvc`
-
-`$ rustc --target=x86_64-pc-windows-gnu src/main.rs`
-
-`$ rustc --target=x86_64-pc-windows-msvc src/main.rs`

@@ -161,10 +161,6 @@ $method = $class.GetMethod("<method_name>")
 $method.Invoke(0, $null)
 ```
 
-## 05 - Python
-
-`$ nuitka.bat --onefile shell.py`
-
 ---
 ## References
 
@@ -178,8 +174,6 @@ $method.Invoke(0, $null)
 
 - [https://medium.com/@carlosprincipal1/how-to-bypass-antivirus-av-2020-easy-method-69749892928b](https://medium.com/@carlosprincipal1/how-to-bypass-antivirus-av-2020-easy-method-69749892928b)
 
-- [https://github.com/In3x0rabl3/OSEP](https://github.com/In3x0rabl3/OSEP)
+- [In3x0rabl3: OSEP](https://github.com/In3x0rabl3/OSEP)
 
 - [https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481)
-
-- [Nuitka](https://nuitka.net/)

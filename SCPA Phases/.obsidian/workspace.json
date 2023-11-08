@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md",
+                "file": "Command Line/Compilers/Windows/Windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nui",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.5
+    "width": 376.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md",
+                "file": "Command Line/Compilers/Windows/Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md",
+                "file": "Command Line/Compilers/Windows/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md"
+                "file": "Command Line/Compilers/Windows/Windows.md"
               }
             }
           },
@@ -158,8 +158,27 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
+    "Command Line/Compilers/Linux/Linux.md",
+    "Command Line/Compilers/Windows/Windows.md",
+    "Command Line/Compilers/Windows",
+    "Command Line/Compilers/Linux",
+    "Command Line/Compilers/General/Go.md",
+    "Command Line/Compilers/General/NASM.md",
+    "Command Line/Compilers/General/Python.md",
+    "Command Line/Compilers/General/Rust.md",
+    "Command Line/Compilers/General",
+    "Command Line/Compilers/Images/General/Python/01 - Choose a WinePrefix.png",
+    "Command Line/Compilers/Images/General/Python",
+    "Command Line/Compilers/Images/General/Python/03 - Select Windows 10 Version.png",
+    "Command Line/Compilers/Images/General/Python/02 - WineCFG.png",
+    "Command Line/Compilers/Images/General",
+    "Command Line/Compilers/Images",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/03 - Basic Commands.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/07 - Spoof Arguments.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Single XOR.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Formula.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm",
@@ -175,25 +194,8 @@
     "Malware Development/Helpers/Entropy/Commands.md",
     "Malware Development/Helpers/Crypters/Python.md",
     "Malware Development/Helpers/Crypters/CSharp.md",
-    "Malware Development/Helpers/Crypters/C.md",
-    "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
-    "Malware Development/Techniques/Evasion/Encryption/Symmetric/XOR.md",
-    "Malware Development/Techniques/Persistence/WinAPI/Functions/CreateFile.md",
-    "Malware Development/Techniques/Persistence/WinAPI/Functions/Registry.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/Functions/CreateProcess.md",
-    "Malware Development/Techniques/Process Injection/WinAPI/Functions/OpenProcess.md",
-    "Malware Development/README.md",
-    "Malware Development/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC)/Windows Management Instrumentation Command line (WMIC).md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/LibreOffice/Macros/Payload Delivery Macro",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Helpers",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Setting up a Phishing Page",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Hide Artifacts",
-    "Malware Development/Helpers/Implant Templates/Cobalt Strike",
-    "Command Line/Operating Systems",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
@@ -203,9 +205,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
     "Pentesting Phases/Post Exploitation/Shell Is The Beginning/Credential Access & Dumping/Windows/03 - Query Joined via Hashtag.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration/04 - Harvest Hashdump Credentials via GROUP_CONCAT FROM MySQL Database Server.png",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration/03 - Query Hashdump Credentials From MySQL Database Server.png",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Exfiltration/02 - Harvest Credentials via GROUP_CONCAT From Current Database.png",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - Banner Grab.png",
     "Pentesting Phases/Untitled.canvas",
     "Pentesting_Phases/Untitled.canvas"
   ]

@@ -128,10 +128,6 @@ $method = $class.GetMethod("<method_name>")
 $method.Invoke(0, $null)
 ```
 
-## 06 - Python
-
-`$ nuitka --onefile shell.py`
-
 ---
 ## References
 
@@ -140,5 +136,3 @@ $method.Invoke(0, $null)
 - [Purpl3f0xsecur1ty.tech AV Evasion.html](https://www.purpl3f0xsecur1ty.tech/2021/03/30/av_evasion.html)
 
 - [https://pentestlab.blog/2017/06/06/applocker-bypass-assembly-load/](https://pentestlab.blog/2017/06/06/applocker-bypass-assembly-load/)
-
-- [Nuitka](https://nuitka.net/)
