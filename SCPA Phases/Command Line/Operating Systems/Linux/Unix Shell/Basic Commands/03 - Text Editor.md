@@ -10,6 +10,6 @@ TODO: Fill this info
 
 `$ vim file.txt`
 
-Right indent -> `SHIFT + >>`
+Indent -> `SHIFT + >>`
 
-Left indent -> `SHIFT + <<`
+Reverse indent -> `SHIFT + <<`

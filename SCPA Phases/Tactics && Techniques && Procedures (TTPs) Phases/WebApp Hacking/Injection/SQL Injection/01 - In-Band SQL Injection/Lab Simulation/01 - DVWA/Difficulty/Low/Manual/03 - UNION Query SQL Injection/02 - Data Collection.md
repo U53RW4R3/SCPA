@@ -77,7 +77,7 @@ $ sudo gzip -k -d /usr/share/wordlists/rockyou.txt.gz > /usr/share/wordlists/roc
 - All the hashed credentials are cracked.
 
 ```
-# john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt current_db_hashes.txt
+$ john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt current_db_hashes.txt
 Using default input encoding: UTF-8
 Loaded 4 password hashes with no different salts (Raw-MD5 [MD5 256/256 AVX2 8x3])
 Warning: no OpenMP support for this hash type, consider --fork=2
@@ -158,7 +158,7 @@ Analyzing '*4F56EF3FCEF3F995F03D1E37E2D692D420111476'
 - We will crack the `mysql-sha1` hashes with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Offline/JTR|John The Ripper (JTR)]] with a dictionary attack using `/usr/share/wordlists/rockyou.txt.gz` wordlist.
 
 ```
-# john --format=mysql-sha1 --wordlist=/usr/share/wordlists/rockyou.txt mysql_hashes.txt
+$ john --format=mysql-sha1 --wordlist=/usr/share/wordlists/rockyou.txt mysql_hashes.txt
 Using default input encoding: UTF-8
 Loaded 2 password hashes with no different salts (mysql-sha1, MySQL 4.1+ [SHA1 256/256 AVX2 8x])
 Warning: no OpenMP support for this hash type, consider --fork=2
