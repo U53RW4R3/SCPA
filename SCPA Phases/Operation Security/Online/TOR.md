@@ -106,8 +106,6 @@ Go to IPv4 Settings and enter the following details from this table below.
 |---|---|---|---|
 |10.152.152.2-254|255.255.192.0 or 18|10.152.152.10|10.152.152.10|
 
-Here's a screenshot for a network setup.
-
 ---
 ## References
 
