@@ -14,7 +14,7 @@ Unlike the regular reverse/bind shells that we use to receive a connection. Webs
 
 `$ weevely <URL> <password>`
 
-Navigate to the **Command and Control** section related to [[05 - Spawn Callback Shell]].
+Navigate to the **Command and Control** section related to [[05 - Spawn Callback Shell|spawn callback shell]].
 
 ## 02 - Webshells
 

