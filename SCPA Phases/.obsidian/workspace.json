@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Domain Persistence/Golden Ticket.md",
+                "file": "Operation Security/Online/TOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"klist\"",
+                "query": "\"TOR\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Domain Persistence/Golden Ticket.md",
+                "file": "Operation Security/Online/TOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Domain Persistence/Golden Ticket.md",
+                "file": "Operation Security/Online/TOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Domain Persistence/Golden Ticket.md"
+                "file": "Operation Security/Online/TOR.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Domain Persistence/Golden Ticket.md",
+    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
     "Command and Control/Metasploit/MSFConsole/Database Commands/Help Menu.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC/Impacket.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC/Manual.md",

@@ -106,7 +106,34 @@ Go to IPv4 Settings and enter the following details from this table below.
 |---|---|---|---|
 |10.152.152.2-254|255.255.192.0 or 18|10.152.152.10|10.152.152.10|
 
+## 04 - Change TOR Circuit Identity
+
+- Change TOR Identity
+
+
+`$ killall -HUP tor`
+
+- If that does not work, enable the control port in your torrc file. Then, set a password for the control port with `tor --hash-password <password>`
+
+```
+$ echo -e 'AUTHENTICATE "<password>"\r\nSIGNAL NEWNYM\r\nQUIT' | nc 127.0.0.1 9051
+
+$ printf 'AUTHENTICATE "<password>"\r\nSIGNAL NEWNYM\r\n' | nc 127.0.0.1 9051
+```
+
+- Lookup IP
+
+`$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/`
+
 ---
 ## References
+
+- [Ifconfig.me](https://ifconfig.me/)
+
+- [IP.me](https://ip.me/)
+
+- [IPInfo](https://ipinfo.io)
+
+- [Amazon AWS IP Lookup](checkip.amazonaws.com)
 
 - [Subnet Cheatsheet Subnet Mask](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
