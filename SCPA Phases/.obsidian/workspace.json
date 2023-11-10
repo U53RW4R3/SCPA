@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Online/TOR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24e8a95575c7d827",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC/Manual.md",
+                "file": "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/09 - Basic Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"TOR\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Online/TOR.md",
+                "file": "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/09 - Basic Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Online/TOR.md",
+                "file": "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/09 - Basic Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Online/TOR.md"
+                "file": "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/09 - Basic Commands.md"
               }
             }
           },
@@ -171,11 +158,14 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC/Manual.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/09 - Basic Commands.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/SSH/08 - Help Menu.md",
+    "Operation Security/Online/TOR.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Domain Persistence/Golden Ticket.md",
     "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
     "Command and Control/Metasploit/MSFConsole/Database Commands/Help Menu.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC/Impacket.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/Domain Controller/DC/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Kernel/Impacket.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/Impacket.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/Manual.md",
@@ -192,11 +182,8 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/02 - SSL Server Test.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
-    "Operation Security/Online/TOR.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Webshells/Webshells.md",
-    "Command and Control/Webshells/05 - Spawn Callback Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/04 - OS Enumeration.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.5 - Enumerate DBMS Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.6 - Enumerate DBA Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.4 - DBA User.png",

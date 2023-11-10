@@ -110,7 +110,6 @@ Go to IPv4 Settings and enter the following details from this table below.
 
 - Change TOR Identity
 
-
 `$ killall -HUP tor`
 
 - If that does not work, enable the control port in your torrc file. Then, set a password for the control port with `tor --hash-password <password>`
