@@ -464,7 +464,7 @@ COMMANDS:
 
 ### 2.4.1 - Basic Commands
 
-- Syntax registry metepreter command.
+- Syntax registry meterpreter command.
 
 `meterpreter > reg <command> [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <registry_value> -t <registry_type>`
 
