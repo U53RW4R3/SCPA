@@ -1,6 +1,6 @@
-# 02 - Gathering Emails
+# Scrape Emails
 
-## 2.1 - Manual
+## 01 - Manual
 
 **Note:** some websites I've discovered that they couldn't work with `curl` or `wget` in this case go to **View Page Source** on any web browser of your choice and save it as html file then use the `grep` command to parse it.
 
@@ -12,13 +12,13 @@ $ curl --silent http[s]://<IP> | grep -Eo "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[
 $ grep -Eo "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" file.html | sort -u > emails.txt
 ```
 
-## 2.2 - DataSurgeon
+## 02 - DataSurgeon
 
 `$ curl --silent http[s]://<IP> | ds -eC | uniq`
 
 `$ wget -qO- http[s]://<IP> | ds -eC | uniq`
 
-## 2.3 - Recon-ng
+## 03 - Recon-ng
 
 - **`whois_pocs` recon-ng module**
 
@@ -48,7 +48,7 @@ $ grep -Eo "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" file.html | sor
 [recon-ng][default][pgp_search] > back
 ```
 
-## 2.4 - Metasploit
+## 04 - Metasploit
 
 ```
 msf > use auxiliary/gather/search_email_collector
