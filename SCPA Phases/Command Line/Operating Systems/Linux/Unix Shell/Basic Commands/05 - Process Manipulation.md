@@ -4,7 +4,11 @@
 
 ### 5.1.1 - List Processes
 
-`$ ps aux`
+```
+$ ps aux
+
+$ ps aux --forest
+```
 
 ### 5.1.2 - Fetch process ID
 
