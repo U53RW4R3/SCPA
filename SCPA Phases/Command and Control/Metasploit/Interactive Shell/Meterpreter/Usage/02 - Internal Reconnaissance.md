@@ -462,27 +462,35 @@ COMMANDS:
     queryval    Queries the data contents of a value [-k <key> -v <val>]
 ```
 
-* **Basic Commands**
+### 2.4.1 - Basic Commands
 
-TODO: Fill this info
+- Syntax registry metepreter command.
 
-`meterpreter > reg <command> [-r <target_IP>] -k <path\\to\\registry\\key> -v <registry_value> -t <registry_type>`
+`meterpreter > reg <command> [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <registry_value> -t <registry_type>`
 
-```
-meterpreter > reg enumkey [-r <target_IP>] -k hklm\\software\\microsoft\\currentversion\\run
+- Enumerate registry key.
 
-meterpreter > reg setval [-r <target_IP>] -k hklm\\software\\microsoft\\windows\\currentversion\\run -v <value> -t REG_SZ -d 'C:\path\to\shell.exe'
+`meterpreter > reg enumkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key`
 
-meterpreter > reg queryval [-r <target_IP>] -k hklm\\software\\microsoft\\currentversion\\run -v <value>
+- Set registry key value.
 
-meterpreter > reg deleteval [-r <target_IP>] -k hklm\\software\\microsoft\\currentversion\\run -v <value>
+`meterpreter > reg setval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value> -t <registry_type> -d 'C:\path\to\shell.exe'`
 
-meterpreter > reg
+- Query registry key value.
 
-meterpreter > reg
+`meterpreter > reg queryval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value>`
 
-meterpreter > reg
-```
+- Delete registry key value.
+
+`meterpreter > reg deleteval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value>`
+
+- Create registry subkey.
+
+`meterpreter > reg createkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\new_key [-w <32 | 64>]`
+
+- Query registry keys
+
+`meterpreter > reg queryclass [-r <target_IP>] -k <hive_name>\\path\\to\\registry`
 
 ## 2.5 - Search Files
 
