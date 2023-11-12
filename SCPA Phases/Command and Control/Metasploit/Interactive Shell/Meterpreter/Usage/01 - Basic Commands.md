@@ -4,13 +4,11 @@ Search Tag: #metasploit-framework #command-and-control
 
 ## 1.1 - Navigation
 
-* **Change Directory**
+* Change Directory
 
 `meterpreter > cd <directory>`
 
-`meterpreter > cd Documents`
-
-* **Get current working directory**
+* Get current working directory
 
 ```
 meterpreter > pwd

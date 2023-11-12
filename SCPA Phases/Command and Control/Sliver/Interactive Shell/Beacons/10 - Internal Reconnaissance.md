@@ -1,12 +1,30 @@
 # 10 - Internal Reconnaissance
 
+whoami
+
+getprivs
+
+getuid
+
+getpid
+
+getgid
+
+## Process Enumeration
+
+```
+sliver (IMPLANT_NAME) > ps -h
+```
+
 ## Networking
 
-* **IP Address**
+### IP Address
 
 `sliver (IMPLANT_NAME) > ifconfig [-A]`
 
-* **Netstat**
+### Netstat
+
+- Help Menu
 
 ```
 sliver > netstat -h
@@ -28,3 +46,7 @@ Flags:
   -t, --timeout int    command timeout in seconds (default: 60)
   -u, --udp            display information about UDP sockets
 ```
+
+- Usage
+
+registry

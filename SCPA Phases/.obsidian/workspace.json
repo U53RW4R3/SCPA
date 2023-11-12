@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Manual.md",
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"runas /netonly\"",
+                "query": "mimikatz.exe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 288.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Manual.md",
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Manual.md",
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Manual.md"
+                "file": "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md"
               }
             }
           },
@@ -158,32 +159,32 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/PowerSploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Dump Credentials/06 - Metasploit.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/04 - Execute Process.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Process Manipulation.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/07 - Help Menu.md",
+    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/10 - Internal Reconnaissance.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Internal Reconnaissance.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/12 - Execute Process.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/09 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Interactive Mode/13 - Interactive Shell.md",
+    "Command and Control/Sliver/Interactive Shell/Interactive Mode/14 - Spawn Shell.md",
+    "Command and Control/Sliver/Interactive Shell/Interactive Mode/14 - Basic Commands.md",
+    "Command and Control/Sliver/Interactive Shell/Interactive Mode/Untitled.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Weak Registry Permissions/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Unquoted Service Paths/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Permission/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/Sliver.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/PowerSploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Passwords/RunAs/Elevate/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Passwords/RunAs/Elevate/Sliver.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Passwords/RunAs/Saved Credentials/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Passwords/RunAs/Elevate/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Passwords/RunAs/Elevate/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/Token/Token Impersonation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/02 - Database Enumeration.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/02 - Data Collection.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/03 - OS Enumeration.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/02 - Error-Based Query SQL Injection/01 - Database Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
-    "Malware Development/Helpers/Obfuscation Techniques/Powershell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Scripting Payloads/Linux/Reverse Shells.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Scripting Payloads/Unix/Exec Payloads.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/Global References MSFVenom.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Scripting Payloads/Windows/Reverse Shells.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Containers",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/02 - Gathering Emails",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.5 - Enumerate DBMS Users.png",

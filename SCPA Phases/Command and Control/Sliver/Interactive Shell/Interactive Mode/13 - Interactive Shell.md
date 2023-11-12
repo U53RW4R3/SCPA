@@ -1,9 +1,8 @@
-# 06 - Interactive Shell
+# 13 - Interactive Shell
 
+## 13.1 - Interactive Session
 
-## 6.2 - Interactive Session
-
-### 6.2.1 - Help Menu
+### 13.1.1 - Help Menu
 
 TODO: Fill this info
 
@@ -52,7 +51,7 @@ Flags:
   -t, --timeout   int       command timeout in seconds (default: 60)
 ```
 
-### 6.2.2 - Usage
+### 13.1.2 - Usage
 
 - Switch from beacon to interactive session.
 

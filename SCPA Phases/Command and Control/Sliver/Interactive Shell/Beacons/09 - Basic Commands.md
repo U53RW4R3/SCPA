@@ -2,9 +2,101 @@
 
 ## Navigation
 
+* Change Directory
+
+```
+sliver (IMPLANT_NAME) > cd <directory>
+```
+
+* Get current working directory
+
+```
+sliver (IMPLANT_NAME) > pwd
+```
+
 ## List Contents
 
+### Help Menu
+
+```
+sliver (IMPLANT_NAME) > ls -h
+
+Command: ls <remote path>
+About: List remote files in current directory, or path if provided.
+
+Sorting
+Directory and file listings are sorted by name in ascending order by default.  Listings can also be sorted by size (-s) and modified time (-m).  All sorts can be reversed with -r.
+
+Filters
+Filters are a way to limit search results to directory and file names matching given criteria.
+
+Filters are specified after the path.  A blank path will filter on names in the current directory.  For example:
+/etc/passwd will display the listing for /etc/passwd.  "/etc/" is the path, and "passwd" is the filter.
+
+Directory and file listings can be filtered using the following patterns:
+'*': Wildcard, matches any sequence of non-path separators (slashes)
+        Example: n*.txt will match all file and directory names starting with n and ending with .txt
+
+'?': Single character wildcard, matches a single non-path separator (slashes)
+        Example: s?iver will match all file and directory names starting with s followed by any non-separator character and ending with iver.
+
+'[{range}]': Match a range of characters.  Ranges are specified with '-'. This is usually combined with other patterns. Ranges can be negated with '^'.
+        Example: [a-c] will match the characters a, b, and c.  [a-c]* will match all directory and file names that start with a, b, or c.
+                ^[r-u] will match all characters except r, s, t, and u.
+
+If you need to match a special character (*, ?, '-', '[', ']', '\\'), place '\\' in front of it (example: \\?).
+On Windows, escaping is disabled. Instead, '\\' is treated as path separator.
+
+
+Usage:
+======
+  ls [flags] [path]
+
+Args:
+=====
+  path  string    path to enumerate (default: .)
+
+Flags:
+======
+  -h, --help            display help
+  -m, --modified        sort by modified time
+  -r, --reverse         reverse sort order
+  -s, --size            sort by size
+  -t, --timeout  int    command timeout in seconds (default: 60)
+```
+
+### Usage
+
+```
+sliver (IMPLANT_NAME) > ls [drive_letter:/]path/to/remote/directory/
+```
+
 ## File Manipulation
+
+```
+sliver (IMPLANT_NAME) > cp
+```
+
+```
+sliver (IMPLANT_NAME) > mv
+```
+
+```
+sliver (IMPLANT_NAME) > cat
+```
+
+```
+sliver (IMPLANT_NAME) > mkdir
+```
+
+chown
+chmod
+
+```
+sliver (IMPLANT_NAME) > rm [-F] [drive_letter:/]path/to/remote/file
+
+sliver (IMPLANT_NAME) > rm [-F] -r [drive_letter:/]path/to/remote/directory
+```
 
 ## Load Extension
 

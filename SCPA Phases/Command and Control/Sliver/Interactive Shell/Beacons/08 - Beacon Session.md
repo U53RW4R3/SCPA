@@ -1,6 +1,8 @@
 # 08 - Beacon Session
 
-## 8.1 - Help Menu
+## 8.1 - Interact Beacon
+
+### 8.1.1 - Help Menu
 
 ```
 sliver > use -h
@@ -27,8 +29,38 @@ Sub Commands:
   sessions  Switch the active session
 ```
 
-## 8.2 - Usage
+### 8.1.2 - Usage
 
 - Interact a long beacon or session id string.
 
 `sliver > use <beacon_or_session_ID>`
+
+## 8.2 - Reconfigure Sleep and Jitter
+
+### 8.2.1 - Help Menu
+
+```
+sliver (IMPLANT_NAME) > reconfig -h
+
+Reconfigure the active beacon/session
+
+Usage:
+======
+  reconfig [flags]
+
+Flags:
+======
+  -i, --beacon-interval    string    beacon callback interval
+  -j, --beacon-jitter      string    beacon callback jitter (random up to)
+  -h, --help                         display help
+  -r, --reconnect-interval string    reconnect interval for implant
+  -t, --timeout            int       command timeout in seconds (default: 60)
+```
+
+### 8.2.2 - Usage
+
+- Note: `s` are measuring units that represents as seconds.
+
+```
+sliver (IMPLANT_NAME) > reconfig -i <sleep_seconds>s -j <integer>s
+```
