@@ -1,5 +1,7 @@
 # Sensitive File List
 
+Search Tag: #sensitive-data-exposure #helpers #credential-access-and-dumping #api
+
 ```
 .env
 .bash_history

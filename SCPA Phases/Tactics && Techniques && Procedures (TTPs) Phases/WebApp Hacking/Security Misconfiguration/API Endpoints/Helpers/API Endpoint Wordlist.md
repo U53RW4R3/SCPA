@@ -1,6 +1,6 @@
 # API Endpoint Wordlist
 
-Search Tag: #wordlist #api
+Search Tag: #wordlist #api #helpers
 
 ## Swagger API
 

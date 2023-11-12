@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Checklist.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Checklist.md"
               }
             }
           },
@@ -158,8 +158,15 @@
   },
   "active": "b5b19bf2ec0c0fbf",
   "lastOpenFiles": [
-    "Malware Development/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/API Endpoints/Helpers/API Endpoint Wordlist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/API Keys/Regular Expressions/Burp Suite.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/API Keys/API Keys References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/API Keys/cURL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/API Keys/Description.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Sensitive Data Exposure/Helpers/Sensitive File List.md",
     "Malware Development/Checklist.md",
+    "Malware Development/README.md",
     "Malware Development/Helpers/Entropy/Scripts.md",
     "Malware Development/Helpers/Entropy/Commands.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Containers/Docker.md",
@@ -179,13 +186,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Processes and Services.md",
     "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/05 - Process Manipulation.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/MSSQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Windows/MSSQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Lateral Movement/Windows/MSSQL Lateral Movement.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Create User/Manual.md",
-    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Brute Ratel C4/Detection.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.5 - Enumerate DBMS Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.6 - Enumerate DBA Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.4 - DBA User.png",

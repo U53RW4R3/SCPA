@@ -1,5 +1,7 @@
 # Description
 
+Search Tag: #api #credential-access-and-dumping
+
 TODO: Fill this info
 
 ---
