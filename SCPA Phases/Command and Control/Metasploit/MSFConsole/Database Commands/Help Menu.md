@@ -1,6 +1,6 @@
 # Help Menu
 
-Search Tag: #metasploit-framework #command-and-control #help-menu
+Search Tag(s): #metasploit-framework #command-and-control #help-menu
 
 ```
 Database Backend Commands

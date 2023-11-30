@@ -1,6 +1,6 @@
 # Setup
 
-Search Tag: #cobalt-strike #command-and-control
+Search Tag(s): #cobalt-strike #command-and-control
 
 ## 01 - Dependencies
 

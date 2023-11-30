@@ -1,6 +1,6 @@
 # 04 - OS Enumeration
 
-Search Tag: #sql-injection #sqlmap #enumeration-and-discovery #dvwa
+Search Tag(s): #sql-injection #sqlmap #enumeration-and-discovery #dvwa
 
 ## 4.1 - Conditions
 

@@ -1,3 +1,3 @@
 # 03 - Data Exfiltration
 
-Search Tag: #commix #command-injection #data-exfiltration #dvwa
+Search Tag(s): #commix #command-injection #data-exfiltration #dvwa

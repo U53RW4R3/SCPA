@@ -1,6 +1,6 @@
 # Database Leaks
 
-- **PHPMyAdmin**
+- PHPMyAdmin
 
 `"phpMyAdmin MYSQL-Dump" "INSERT INTO" -"the"`
 

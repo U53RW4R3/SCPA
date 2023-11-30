@@ -1,6 +1,6 @@
-# 09 - Cloud Lookup
+# 07 - Cloud Lookup
 
-## 9.1 - Metasploit
+## 7.1 - Metasploit
 
 ```
 msf > use auxiliary/gather/cloud_lookup

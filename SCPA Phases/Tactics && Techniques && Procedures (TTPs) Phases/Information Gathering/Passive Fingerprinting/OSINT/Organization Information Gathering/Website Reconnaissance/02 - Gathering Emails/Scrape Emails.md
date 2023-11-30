@@ -12,13 +12,19 @@ $ curl --silent http[s]://<IP> | grep -Eo "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[
 $ grep -Eo "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" file.html | sort -u > emails.txt
 ```
 
-## 02 - DataSurgeon
+## 02 - CeWL
 
-`$ curl --silent http[s]://<IP> | ds -eC | uniq`
+`$ cewl -u <user_agent> -ne --email_file emails.txt http[s]://<IP>`
 
-`$ wget -qO- http[s]://<IP> | ds -eC | uniq`
+## 03 - DataSurgeon
 
-## 03 - Recon-ng
+```
+$ curl --silent http[s]://<IP> | ds -eC | uniq
+
+$ wget -qO- http[s]://<IP> | ds -eC | uniq
+```
+
+## 04 - Recon-ng
 
 - **`whois_pocs` recon-ng module**
 
@@ -48,7 +54,7 @@ $ grep -Eo "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" file.html | sor
 [recon-ng][default][pgp_search] > back
 ```
 
-## 04 - Metasploit
+## 05 - Metasploit
 
 ```
 msf > use auxiliary/gather/search_email_collector
@@ -77,3 +83,10 @@ msf auxiliary(gather/search_email_collector) > set outfile /path/to/file.txt
 
 msf auxiliary(gather/search_email_collector) > run
 ```
+
+---
+## References
+
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
+
+- [Hacking Articles: A Detailed Guide on Cewl](https://www.hackingarticles.in/a-detailed-guide-on-cewl/)

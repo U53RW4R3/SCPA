@@ -1,6 +1,6 @@
 # 01 - Blackbox Testing
 
-Search Tag: #command-injection #dvwa
+Search Tag(s): #command-injection #dvwa
 
 ## Enumeration
 

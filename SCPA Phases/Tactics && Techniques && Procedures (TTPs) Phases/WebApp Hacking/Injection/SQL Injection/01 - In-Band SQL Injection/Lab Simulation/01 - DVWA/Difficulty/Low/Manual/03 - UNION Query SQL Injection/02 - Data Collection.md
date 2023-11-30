@@ -1,6 +1,6 @@
 # 02 - Data Collection
 
-Search Tag: #sql-injection #union #credential-access-and-dumping #data-exfiltration #dvwa
+Search Tag(s): #sql-injection #union #credential-access-and-dumping #data-exfiltration #dvwa
 
 ## 2.1 - Dump Credentials
 

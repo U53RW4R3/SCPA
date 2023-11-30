@@ -1,6 +1,6 @@
 # 01 - Database Reconnaissance
 
-Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
+Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 ## 1.1 - Columns Enumeration
 

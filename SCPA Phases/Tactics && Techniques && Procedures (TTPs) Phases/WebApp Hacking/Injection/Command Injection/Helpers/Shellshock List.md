@@ -1,6 +1,6 @@
 # Shellshock List
 
-Search Tag: #helpers #command-injection #shellshock
+Search Tag(s): #helpers #command-injection #shellshock
 
 TODO: Fill this info
 

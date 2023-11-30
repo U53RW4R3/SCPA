@@ -1,6 +1,6 @@
 # Blind Command Injection List
 
-Search Tag: #helpers #command-injection
+Search Tag(s): #helpers #command-injection
 
 ## Out-of-Band
 

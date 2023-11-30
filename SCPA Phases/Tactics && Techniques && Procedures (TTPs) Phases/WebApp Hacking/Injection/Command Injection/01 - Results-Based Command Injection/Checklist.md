@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag: #checklist #command-injection
+Search Tag(s): #checklist #command-injection
 
 TODO: Provide a checklist for command injection
 

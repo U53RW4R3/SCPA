@@ -1,6 +1,6 @@
 # Empire
 
-Search Tag: #red-team-infrastructure
+Search Tag(s): #red-team-infrastructure
 
 ## 01 - Setup
 

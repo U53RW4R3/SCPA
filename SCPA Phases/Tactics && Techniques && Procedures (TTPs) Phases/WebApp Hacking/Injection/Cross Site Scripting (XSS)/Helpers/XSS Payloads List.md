@@ -1,6 +1,6 @@
 # XSS Payloads List
 
-Search Tag: #helpers
+Search Tag(s): #helpers
 
 Note: JavaScript and HTML code snippets are case insensitive.
 

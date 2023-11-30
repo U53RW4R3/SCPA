@@ -1,6 +1,6 @@
 # 03 - Shell Handler
 
-Search Tag: #sliver #command-and-control
+Search Tag(s): #sliver #command-and-control
 
 ## 3.1 - TCP
 

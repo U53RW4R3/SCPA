@@ -122,10 +122,18 @@ $ printf 'AUTHENTICATE "<password>"\r\nSIGNAL NEWNYM\r\n' | nc 127.0.0.1 9051
 
 - Lookup IP
 
-`$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/`
+`$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/
+
+- Check if you're connected to TOR
+
+```
+$ curl --silent https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
+```
 
 ---
 ## References
+
+- [Check TOR](https://check.torproject.org/)
 
 - [Ifconfig.me](https://ifconfig.me/)
 

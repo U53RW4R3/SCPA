@@ -1,6 +1,6 @@
 # 01 - Database Reconnaissance
 
-Search Tag: #sql-injection #error-based #dvwa
+Search Tag(s): #sql-injection #error-based #dvwa
 
 ## 1.1 - Dump Database
 

@@ -67,6 +67,17 @@ Examples:
 
 ## Usage
 
-TODO: Provide more coverage of this tool
+TODO: Provide more coverage of this tool (refer to the link)
 
 `$ hydra -L users.txt -e nsr -t <int> <IP> <protocol>`
+
+- Use usernames and passwords combo list
+
+```
+$ hydra -C userpass.txt <IP> <protocol>
+```
+
+---
+## References
+
+- [Stationx: How to use Hydra](https://www.stationx.net/how-to-use-hydra/)

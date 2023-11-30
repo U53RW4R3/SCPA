@@ -1,6 +1,6 @@
 # Nmap
 
-Search Tag: #nmap #information-gathering #active-reconnaissance #xss #webapp
+Search Tag(s): #nmap #information-gathering #active-reconnaissance #xss #webapp
 
 ## DOM-Based XSS
 

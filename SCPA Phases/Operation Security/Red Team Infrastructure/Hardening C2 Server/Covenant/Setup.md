@@ -1,6 +1,6 @@
 # Setup
 
-Search Tag: #red-team-infrastructure #covenant
+Search Tag(s): #red-team-infrastructure #covenant
 
 TODO: Provide examples for setting Covenant C2 by changing profiles, adding firewalls, domain fronting, etc
 

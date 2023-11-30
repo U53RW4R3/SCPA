@@ -1,6 +1,6 @@
 # 02 - Teamserver
 
-Search Tag: #sliver #command-and-control
+Search Tag(s): #sliver #command-and-control
 
 ## 2.1 - Multiplayer
 

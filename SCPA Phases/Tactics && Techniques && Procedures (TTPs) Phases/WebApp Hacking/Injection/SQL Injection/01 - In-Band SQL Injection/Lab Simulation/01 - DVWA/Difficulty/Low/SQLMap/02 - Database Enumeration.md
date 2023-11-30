@@ -1,6 +1,6 @@
 # 02 - Database Enumeration
 
-Search Tag: #sql-injection #sqlmap #enumeration-and-discovery #dvwa
+Search Tag(s): #sql-injection #sqlmap #enumeration-and-discovery #dvwa
 
 ## 2.1 - Manual
 

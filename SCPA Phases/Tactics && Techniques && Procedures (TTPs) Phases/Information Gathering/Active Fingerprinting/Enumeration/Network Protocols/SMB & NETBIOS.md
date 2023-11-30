@@ -164,13 +164,23 @@ Lookup username accounts
 
 #### 1.2.1 - Usage
 
-##### 1.2.1.1 - SMBClient
+##### 1.2.1.1 - Samba Suite
+
+###### 1.2.1.1.1 - SMBClient
 
 `$ smbclient -U "<username>%<password>" -L //<IP>`
 
 `$ smbclient -U "<username>" --pw-nt-hash <ntlm_hash> -L //<IP>`
 
 `$ smbclient --option="client min protocol=core" -U "" //<IP>/<share>`
+
+##### 1.2.1.2 - Impacket
+
+###### 1.2.1.2.1 - SMBClient
+
+`$ smbclient [<domain>/]<username>:<password>@<IP>`
+
+`$ smbclient -hashes :<nt_hash> [<domain>/]<username>@<IP>`
 
 ##### 1.2.1.2 - Enum4Linux
 
@@ -184,11 +194,11 @@ Lookup username accounts
 
 ##### 1.2.1.4 - CrackMapExec
 
-- **Password**
+- Password
 
 `$ crackmapexec smb <IP> -u "<username>" -p "<password>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
 
-- **Pass The Hash**
+- Pass The Hash
 
 `$ crackmapexec smb <IP> -u "<username>" -H "<ntlm_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
 
@@ -202,7 +212,9 @@ Lookup username accounts
 
 #### 1.2.2 - Anonymous Login
 
-##### 1.2.2.1 - SMBClient
+##### 1.2.2.1 - Samba Suite
+
+###### 1.2.2.1.1 - SMBClient
 
 `$ smbclient -N -L //<IP>`
 
@@ -214,19 +226,29 @@ Lookup username accounts
 
 `$ smbclient -N -L //<IP> -mSMB3`
 
-##### 1.2.2.2 - SMBMap
+##### 1.2.2.2 - Impacket
+
+###### 1.2.2.2.1 - SMBClient
+
+```
+$ smbclient -no-pass [<domain>/]''@<IP>
+
+$ smbclient -no-pass [<domain>/]guest@<IP>
+```
+
+##### 1.2.2.3 - SMBMap
 
 `$ smbmap -H <IP> [-P <PORT>]`
 
 `$ smbmap -H <IP> [-P <PORT>] -u "guest" -p ""`
 
-##### 1.2.2.3 - Enum4Linux
+##### 1.2.2.4 - Enum4Linux
 
 `$ enum4linux -a -u "" -p "" <IP>`
 
 `$ enum4linux -a -u "guest" -p "" <IP>`
 
-##### 1.2.2.4 - CrackMapExec
+##### 1.2.2.5 - CrackMapExec
 
 `$ crackmapexec smb <IP> -u "" -p "" --shares`
 
@@ -246,7 +268,7 @@ smb: \> ls
 
 ### 2.1 - NETBIOS
 
-- **NetBIOS enumeration via Nmap**
+- NetBIOS enumeration via Nmap
 
 `$ sudo nmap -p U:137,T:139 <IP>`
 
@@ -254,7 +276,7 @@ smb: \> ls
 
 ### 2.2 - SMB
 
-- **NetBIOS enumeration via Nmap**
+- NetBIOS enumeration via Nmap
 
 `$ nmap -p 445 --script "safe or smb-enum-*" <IP>`
 
@@ -278,7 +300,7 @@ smb: \> ls
 
 ### 4.1 - NETBIOS
 
-- **Metasploit auxiliary module to enumerate NetBIOS**
+- Metasploit auxiliary module to enumerate NetBIOS
 
 ```
 msf > use auxiliary/scanner/netbios/nbname

@@ -1,6 +1,6 @@
 # Time-Based Blind Query SQL Injection
 
-Search Tag: #blind-sql-injection #dvwa
+Search Tag(s): #blind-sql-injection #dvwa
 
 TODO: Write a python script to bruteforce queries in order to automate blind SQL injection
 

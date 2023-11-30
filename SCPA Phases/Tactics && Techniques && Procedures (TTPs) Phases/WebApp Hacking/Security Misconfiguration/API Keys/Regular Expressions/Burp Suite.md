@@ -1,6 +1,6 @@
 # Burp Suite
 
-Search Tag: #api #credential-access-and-dumping #regex
+Search Tag(s): #api #credential-access-and-dumping #regex
 
 - Burp Suite regex:
 

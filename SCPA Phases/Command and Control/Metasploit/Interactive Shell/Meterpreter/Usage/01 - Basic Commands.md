@@ -1,6 +1,6 @@
 # 01 - Basic Commands
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 1.1 - Navigation
 
@@ -141,7 +141,7 @@ Usage: rmdir dir1 dir2 dir3 ...
 
 ### 1.3.6 - Create/Edit the file
 
-**Note:** the default editor is `vim` if it's missing it'll switch to `nano` instead
+Note: the default editor is `vim` if it's missing it'll switch to `nano` instead
 
 ```
 meterpreter > edit
@@ -254,7 +254,7 @@ meterpreter > background
 
 ## 1.8 - Re-encrypt key
 
-* **(Re)negotiate TLV packets for encryption**
+* (Re)negotiate TLV packets for encryption
 
 ```
 meterpreter > secure
@@ -264,10 +264,12 @@ meterpreter > secure
 
 ## 1.9 - Spawn Interactive Shell
 
-* **Windows**
+TODO: Fill this info
+
+* Windows
 
 `meterpreter > shell`
 
-* **Linux**
+* Linux
 
 `meterpreter > shell -t`

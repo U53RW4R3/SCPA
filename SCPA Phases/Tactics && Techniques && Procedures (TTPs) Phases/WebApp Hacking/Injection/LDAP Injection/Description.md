@@ -1,6 +1,6 @@
 # Description
 
-Search Tag: #ldap-injection
+Search Tag(s): #ldap-injection
 
 TODO: Fill this info
 

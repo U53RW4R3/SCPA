@@ -7,7 +7,7 @@
 - In Debian/Ubuntu-based distros
 
 ```
-$ sudo apt install -y python3-requests python3-dicttoxml
+$ sudo apt install -y python3-setuptools python3-requests python3-dicttoxml
 ```
 
 ### Install Arjun

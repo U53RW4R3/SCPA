@@ -1,6 +1,6 @@
 # 01 - Help Menu
 
-Search Tag: #sliver #command-and-control #help-menu
+Search Tag(s): #sliver #command-and-control #help-menu
 
 ```
 sliver > help

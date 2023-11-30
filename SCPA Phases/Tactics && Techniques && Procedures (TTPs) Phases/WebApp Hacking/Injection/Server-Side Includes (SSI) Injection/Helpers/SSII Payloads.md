@@ -1,6 +1,6 @@
 # SSII Payloads
 
-Search Tag: #helpers #server-side-includes-injection
+Search Tag(s): #helpers #server-side-includes-injection
 
 TODO: Fill this info
 

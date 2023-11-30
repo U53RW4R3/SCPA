@@ -1,6 +1,6 @@
 # Metasploit
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 01 - Multi Handler
 

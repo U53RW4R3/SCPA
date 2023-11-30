@@ -1,6 +1,6 @@
 # 05 - Credentials
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 5.1 - Help Menu
 

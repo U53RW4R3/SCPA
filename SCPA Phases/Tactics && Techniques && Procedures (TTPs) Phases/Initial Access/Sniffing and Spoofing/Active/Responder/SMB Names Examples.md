@@ -1,6 +1,6 @@
 # SMB Names Examples
 
-Search Tag: #mitm #responder #smb #relay #ntlm
+Search Tag(s): #mitm #responder #smb #relay #ntlm
 
 ## 01 - Hosts
 
@@ -24,6 +24,10 @@ Search Tag: #mitm #responder #smb #relay #ntlm
 \\ws2
 \\ws01
 \\ws02
+\\wks1
+\\wks2
+\\wks01
+\\wks02
 ```
 
 ## 02 - Servers

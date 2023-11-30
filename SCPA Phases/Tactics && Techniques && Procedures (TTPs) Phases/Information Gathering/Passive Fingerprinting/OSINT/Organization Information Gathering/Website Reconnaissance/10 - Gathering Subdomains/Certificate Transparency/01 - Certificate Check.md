@@ -10,7 +10,7 @@
 
 ## 1.3 - Recon-ng
 
-- **`certificate_transparency` recon-ng module**
+- `certificate_transparency` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/domains-hosts/certificate_transparency
@@ -24,7 +24,7 @@
 [recon-ng][default][certificate_transparency] > back
 ```
 
-- **`resolve` recon-ng module**
+- `resolve` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/hosts-hosts/resolve
@@ -36,7 +36,7 @@
 [recon-ng][default][resolve] > back
 ```
 
-- **`reverse_resolve` recon-ng module**
+- `reverse_resolve` recon-ng module
 
 ```
 [recon-ng][default] > modules load recon/netblocks-hosts/reverse_resolve

@@ -1,6 +1,6 @@
 # 03 - Help Menu
 
-Search Tag: #cobalt-strike #command-and-control #help-menu
+Search Tag(s): #cobalt-strike #command-and-control #help-menu
 
 ```
 beacon> help

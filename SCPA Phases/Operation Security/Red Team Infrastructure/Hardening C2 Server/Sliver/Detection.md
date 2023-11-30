@@ -1,6 +1,6 @@
 # Sliver
 
-Search Tag: #red-team-infrastructure #sliver #detection
+Search Tag(s): #red-team-infrastructure #sliver #detection
 
 ## 01 - Shodan
 

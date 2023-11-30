@@ -1,6 +1,6 @@
 # 02 - Credentials Database
 
-Search Tag: #cobalt-strike #command-and-control
+Search Tag(s): #cobalt-strike #command-and-control
 
 TODO: Finish the missing basic information with screenshots
 

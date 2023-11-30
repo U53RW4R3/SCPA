@@ -1,6 +1,6 @@
 # Detection
 
-Search Tag: #red-team-infrastructure #cobalt-strike #detection
+Search Tag(s): #red-team-infrastructure #cobalt-strike #detection
 
 ## 01 - Shodan
 

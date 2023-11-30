@@ -1,5 +1,5 @@
 # Checklist
 
-Search Tag: #checklist #nosql-injection
+Search Tag(s): #checklist #nosql-injection
 
 TODO: Fill this info

@@ -8,11 +8,11 @@
 
 `(spam){n}` - Repetition
 
-- Match every string that starts with **"Password:"** **followed by any 10 characters excluding "0"**
+- Match every string that starts with **"Password:" followed by any 10 characters excluding "0"**
 
 `Password:[^0]{10}`
 
-- Match **"username: "** **in the beginning of a line** (note the space!)
+- Match **"username: " in the beginning of a line** (note the space!)
 
 `^username:\s`
 

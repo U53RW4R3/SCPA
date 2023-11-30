@@ -1,6 +1,6 @@
 # 04 - Spawn Interactive Shell and Persistence
 
-Search Tag: #command-injection #initial-foothold #persistence #webshell #dvwa
+Search Tag(s): #command-injection #initial-foothold #persistence #webshell #dvwa
 
 ## Webshell
 

@@ -1,6 +1,6 @@
 # Detection
 
-Search Tag: #red-team-infrastructure #covenant #detection
+Search Tag(s): #red-team-infrastructure #covenant #detection
 
 ## 01 - Shodan
 

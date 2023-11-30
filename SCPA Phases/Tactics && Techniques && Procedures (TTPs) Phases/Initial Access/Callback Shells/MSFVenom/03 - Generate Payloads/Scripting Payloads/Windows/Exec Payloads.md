@@ -30,6 +30,4 @@
 
 ### Text-To-Speech
 
-- **Windows**
-
 `$ msfvenom -p cmd/windows/powershell/speak_pwned`

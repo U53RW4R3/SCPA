@@ -1,6 +1,6 @@
 # Inferential SQL Queries
 
-Search Tag: #helpers #blind-sql-injection #webapp
+Search Tag(s): #helpers #blind-sql-injection #webapp
 
 ## MySQL
 

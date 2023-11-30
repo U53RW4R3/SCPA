@@ -14,7 +14,7 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 ### 2.1 - Cross Compilers
 
-- **Compile Windows binaries in Linux**
+- Compile Windows binaries in Linux
 
 `$ i686-w64-mingw32-gcc shellcode.c -o shell.exe`
 
@@ -24,7 +24,7 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 `$ zig cc --target=x86_64-windows-gnu -static shell.c -o shell.exe`
 
-- **Compile Windows binaries in Linux with icons**
+- Compile Windows binaries in Linux with icons
 
 ```
 $ x86_64-w64-mingw32-windres resource.rc resource.o
@@ -32,7 +32,7 @@ $ x86_64-w64-mingw32-windres resource.rc resource.o
 $ x86_64-w64-mingw32-gcc -o shell.exe resource.o shell.c
 ```
 
-- **Compile Windows Dynamic Linked Library in Linux**
+- Compile Windows Dynamic Linked Library in Linux
 
 `$ i686-w64-mingw32-gcc shellcode.c -shared -o shell-x86.dll`
 
@@ -40,17 +40,17 @@ $ x86_64-w64-mingw32-gcc -o shell.exe resource.o shell.c
 
 ### 2.2 - CL
 
-- **Compile Windows binaries**
+- Compile Windows binaries
 
 `C:\> cl.exe /W4 /EHsc shellcode.c /link /out:shellcode.exe`
 
-- **Compile Windows Dynamic Linked Library**
+- Compile Windows Dynamic Linked Library
 
 TODO: Fill this info
 
 `C:\>`
 
-- **Compile Windows binaries with icons**
+- Compile Windows binaries with icons
 
 ```
 C:\> rc resource.rc
@@ -64,7 +64,7 @@ C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsy
 
 ### 3.1 - Cross Compilers
 
-- **Compile Windows binaries in Linux**
+- Compile Windows binaries in Linux
 
 `$ i686-w64-mingw32-g++ shell.cpp -o shell.exe -lws2_32 -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc`
 
@@ -74,23 +74,23 @@ C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsy
 
 `$ zig c++ --target=x86_64-windows-gnu  -static shell.cpp -o shell.exe`
 
-- **Compile Windows Dynamic Linked Library in Linux**
+- Compile Windows Dynamic Linked Library in Linux
 
 `$ i686-w64-mingw32-g++ shell.cpp -o shell.dll -shared -lws2_32 -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc`
 
 `$ x86_64-w64-mingw32-g++ shell.cpp -o shell.dll -shared -mconsole -I/usr/share/mingw-w64/include/ -s -ffunction-sections -fdata-sections -Wno-write-strings -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -fpermissive`
 
-- **Compile Windows binaries in Windows**
+- Compile Windows binaries in Windows
 
 `C:\> g++ shell.cpp -o shell.exe -s -static -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -fpermissive`
 
-- **Compile Windows Dynamic Linked Library in Windows**
+- Compile Windows Dynamic Linked Library in Windows
 
 `C:\> g++ shell.cpp -o shell.dll -shared -s -static -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -fpermissive`
 
 ### 3.2 - CL
 
-- **Compile Windows binaries in Windows**
+- Compile Windows binaries in Windows
 
 `C:\> cl.exe /W4 /EHsc /Tpshell.cpp /link /out:shell.exe /subsystem:console /machine:x64`
 
@@ -98,11 +98,11 @@ C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsy
 
 ## 04 - C\#
 
-- **Create .NET Console Project**
+- Create .NET Console Project
 
 `C:\> dotnet new console`
 
-- **Compile C# Project of Windows executable**
+- Compile C# Project of Windows executable
 
 `C:\> dotnet publish -r win-x64 -c Release -p:PublishSingleFile=true --sc false -p:PublishTrimmed=true`
 

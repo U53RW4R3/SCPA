@@ -1,6 +1,6 @@
 # 03 - Services
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 3.1 - Help Menu
 

@@ -1,6 +1,6 @@
 # In-Band SQL Query List
 
-Search Tag: #helpers #sql-injection #webapp
+Search Tag(s): #helpers #sql-injection #webapp
 
 ## Change numeric value of parameter ID
 
@@ -38,6 +38,7 @@ id=2-1
 ```
 --
 #
+%23 <- # urlencoded
 /*
 --<whitespace>
 -- -

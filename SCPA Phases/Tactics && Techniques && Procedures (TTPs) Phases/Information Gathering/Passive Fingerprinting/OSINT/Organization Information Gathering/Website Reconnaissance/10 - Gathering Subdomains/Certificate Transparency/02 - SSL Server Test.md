@@ -8,7 +8,7 @@ $ curl --silent "https://api.certspotter.com/v1/issuances?domain=<domain.com>&in
 
 ## 2.2 - Recon-ng
 
-- **`ssl_scan` recon-ng module**
+- `ssl_scan` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/ports-hosts/ssl_scan
@@ -26,7 +26,7 @@ $ curl --silent "https://api.certspotter.com/v1/issuances?domain=<domain.com>&in
 [recon-ng][default][ssl_scan] > back
 ```
 
-- **`migrate_ports` recon-ng module**
+- `migrate_ports` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/ports-hosts/migrate_ports

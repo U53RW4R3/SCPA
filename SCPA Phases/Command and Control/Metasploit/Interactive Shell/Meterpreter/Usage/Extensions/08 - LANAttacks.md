@@ -1,6 +1,6 @@
 # 08 - LANAttacks
 
-Search Tags: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 TODO: Provide usage examples
 

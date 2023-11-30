@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag: #checklist #server-side-template-injection #webapp
+Search Tag(s): #checklist #server-side-template-injection #webapp
 
 TODO: Provide more list for the SSTI checklist
 

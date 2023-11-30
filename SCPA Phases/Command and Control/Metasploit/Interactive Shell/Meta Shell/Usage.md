@@ -1,6 +1,6 @@
 # Usage
 
-Search Tag: #metasploit-framework #command-and-control #living-off-the-land
+Search Tag(s): #metasploit-framework #command-and-control #living-off-the-land
 
 ## 01 - Help Menu
 

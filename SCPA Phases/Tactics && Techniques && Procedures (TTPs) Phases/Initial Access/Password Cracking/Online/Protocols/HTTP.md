@@ -106,3 +106,5 @@ TODO: Fill in this information
 - [Default Password Scanner Default HTTP Login Hunter](https://www.infosecmatter.com/default-password-scanner-default-http-login-hunter-sh/)
 
 - [NNdefaccts](https://github.com/nnposter/nndefaccts)
+
+- [How to use Hydra to brute force login forms](https://www.manrajbansal.com/post/how-to-use-hydra-to-brute-force-login-forms)

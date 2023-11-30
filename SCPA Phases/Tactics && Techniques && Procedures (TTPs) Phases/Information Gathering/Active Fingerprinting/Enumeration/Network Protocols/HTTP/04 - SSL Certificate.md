@@ -45,7 +45,7 @@ TODO: Fill this info
 
 ## 4.7 - Metasploit
 
-- **Metasploit auxilary module HTTP SSL Certificate Checker**
+- Metasploit auxilary module HTTP SSL Certificate Checker
 
 ```
 msf > use auxiliary/scanner/http/cert
@@ -76,7 +76,7 @@ msf auxiliary(scanner/http/cert) > set rport <PORT>
 msf auxiliary(scanner/http/cert) > run
 ```
 
-- **Metasploit auxilary module SSL/TLS Version Detection**
+- Metasploit auxilary module SSL/TLS Version Detection
 
 ```
 msf > use auxiliary/scanner/ssl/ssl_version

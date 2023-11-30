@@ -1,6 +1,6 @@
 # 02 - Incognito
 
-Search Tags: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 2.1 - Help Menu
 

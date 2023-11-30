@@ -1,5 +1,5 @@
 # Description
 
-Search Tag: #blind-sql-injection
+Search Tag(s): #blind-sql-injection
 
 TODO: Fill this info about blind SQLi

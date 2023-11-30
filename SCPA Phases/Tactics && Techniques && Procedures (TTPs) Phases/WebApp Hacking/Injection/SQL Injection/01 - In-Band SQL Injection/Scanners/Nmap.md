@@ -1,6 +1,6 @@
 # Nmap
 
-Search Tag: #nmap #sql-injection #http
+Search Tag(s): #nmap #sql-injection #http
 
 - It'll scan for GET and POST request parameters
 

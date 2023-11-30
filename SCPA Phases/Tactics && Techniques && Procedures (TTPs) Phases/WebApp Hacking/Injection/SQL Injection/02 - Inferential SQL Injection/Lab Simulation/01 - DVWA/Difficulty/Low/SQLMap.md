@@ -1,6 +1,6 @@
 # SQLMap
 
-Search Tag: #blind-sql-injection #sqlmap #dvwa
+Search Tag(s): #blind-sql-injection #sqlmap #dvwa
 
 ## Boolean-Based
 

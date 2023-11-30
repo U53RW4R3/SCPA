@@ -1,6 +1,6 @@
 # 04 - Feature
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ```
 msf > features

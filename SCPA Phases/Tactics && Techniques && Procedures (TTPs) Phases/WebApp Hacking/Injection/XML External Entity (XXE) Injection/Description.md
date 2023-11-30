@@ -1,6 +1,6 @@
 # Description
 
-Search Tag: #xml-external-entity-injection
+Search Tag(s): #xml-external-entity-injection
 
 TODO: Fill this info
 

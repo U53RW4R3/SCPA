@@ -1,6 +1,6 @@
 # 01 - Espia
 
-Search Tags: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 1.1 - Help Menu
 

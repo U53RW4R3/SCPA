@@ -1,6 +1,6 @@
 # Description
 
-Search Tags: #cryptography #asymmetric
+Search Tag(s): #cryptography #asymmetric
 
 ---
 ## References

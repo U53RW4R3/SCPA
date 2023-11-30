@@ -1,6 +1,6 @@
 # Manual
 
-Search Tag: #dvwa #xss #sql-injection 
+Search Tag(s): #dvwa #xss #sql-injection 
 
 TODO: Demonstrate with [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin]] to inject javascript code
 

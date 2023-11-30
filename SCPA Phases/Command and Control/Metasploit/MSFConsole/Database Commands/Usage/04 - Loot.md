@@ -1,6 +1,6 @@
 # 04 - Loot
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 4.1 - Help Menu
 

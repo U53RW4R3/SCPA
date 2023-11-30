@@ -50,17 +50,17 @@
 
 #### 2.2 - ICMP Scan
 
-- **Ping Sweep**
+- Ping Sweep
 
 `$ sudo nmap -sn <IP>/<CIDR>`
 
 `$ nmap -sn -T4 <IP>/<CIDR> -oG - | awk '/Up$/{print $2}'`
 
-- **Echo Scan**
+- Echo Scan
 
 `$ sudo nmap -PE -sn <IP>/<CIDR>`
 
-- **Timestamp Scan**
+- Timestamp Scan
 
 `$ sudo nmap -PP -sn <IP>/<CIDR>`
 

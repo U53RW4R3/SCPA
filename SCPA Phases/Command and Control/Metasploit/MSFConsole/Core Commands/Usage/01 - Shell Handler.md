@@ -1,6 +1,6 @@
 # 01 - Shell Handler
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 1.1 - Multi Handler
 

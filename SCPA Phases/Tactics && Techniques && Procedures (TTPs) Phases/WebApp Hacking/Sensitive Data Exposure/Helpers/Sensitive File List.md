@@ -1,6 +1,6 @@
 # Sensitive File List
 
-Search Tag: #sensitive-data-exposure #helpers #credential-access-and-dumping #api
+Search Tag(s): #sensitive-data-exposure #helpers #credential-access-and-dumping #api
 
 ```
 .env

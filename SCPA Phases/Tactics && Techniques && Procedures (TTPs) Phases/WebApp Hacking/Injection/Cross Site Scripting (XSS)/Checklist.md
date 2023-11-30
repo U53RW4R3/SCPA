@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag: #checklist #xss #webapp
+Search Tag(s): #checklist #xss #webapp
 
 TODO: Provide more checklists for XSS
 

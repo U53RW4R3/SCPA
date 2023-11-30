@@ -1,6 +1,6 @@
 # Usage
 
-Search Tag: #mitm #responder #smb #relay #ntlm
+Search Tag(s): #mitm #responder #smb #relay #ntlm
 
 ## 01 - Responder
 

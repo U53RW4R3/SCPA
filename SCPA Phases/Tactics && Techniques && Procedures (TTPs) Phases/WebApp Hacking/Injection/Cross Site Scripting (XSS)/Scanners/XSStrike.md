@@ -1,6 +1,6 @@
 # XSStrike
 
-Search Tag: #xss #webapp
+Search Tag(s): #xss #webapp
 
 TODO: Fill this info
 

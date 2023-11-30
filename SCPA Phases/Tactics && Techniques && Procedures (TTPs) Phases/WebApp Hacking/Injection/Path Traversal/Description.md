@@ -1,6 +1,6 @@
 # Description
 
-Search Tag: #path-traversal
+Search Tag(s): #path-traversal
 
 TODO: Fill this description about Path Traversal
 

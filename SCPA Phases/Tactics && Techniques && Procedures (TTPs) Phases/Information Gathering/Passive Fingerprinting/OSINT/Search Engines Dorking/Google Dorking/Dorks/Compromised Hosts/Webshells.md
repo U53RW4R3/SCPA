@@ -1,6 +1,6 @@
 # Webshells
 
-Search Tag: #google #dork #webshell
+Search Tag(s): #google #dork #webshell
 
 ## Top parameters
 

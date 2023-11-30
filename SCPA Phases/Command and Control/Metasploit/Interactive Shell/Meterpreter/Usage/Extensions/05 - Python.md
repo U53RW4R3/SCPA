@@ -1,6 +1,6 @@
 # 05 - Python
 
-Search Tags: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ```
 meterpreter > load python

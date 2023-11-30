@@ -1,6 +1,6 @@
 # 06 - Peinjector
 
-Search Tags: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 6.1 - Help Menu
 
@@ -34,7 +34,7 @@ OPTIONS:
 
 ## 6.2 - Usage
 
-* **Unhook the API**
+* Unhook the API
 
 ```
 meterpreter > unhook_pe

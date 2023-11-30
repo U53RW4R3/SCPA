@@ -1,12 +1,12 @@
 # Cobalt Strike Global Refercnes
 
-Search Tag: #cobalt-strike #command-and-control
+Search Tag(s): #cobalt-strike #command-and-control
 
 TODO: Fill this info
 
 ## 01 - Shortcut Keys
 
-* **Clear the beacon screen console**
+* Clear the beacon screen console
 
 CTRL+K
 

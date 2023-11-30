@@ -510,14 +510,14 @@ Sub Commands:
 
 ### 4.4.2 - Usage
 
-* **List the implant names**
+* List the implant names
 
 `sliver > implants`
 
-* **Remove implants**
+* Remove implants
 
 `sliver > implants rm <implant_name>`
 
-* **Regenerate implants**
+* Regenerate implants
 
 `sliver > regenerate <implant_name>`

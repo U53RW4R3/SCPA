@@ -1,6 +1,6 @@
 # Purchasing Domain Names
 
-Search Tag: #red-team-infrastructure
+Search Tag(s): #red-team-infrastructure
 
 TODO: Fill this info
 

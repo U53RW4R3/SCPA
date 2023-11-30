@@ -1,6 +1,6 @@
 # 01 - Workspace
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 TODO: Fill this info
 ## 1.1 - Help Menu

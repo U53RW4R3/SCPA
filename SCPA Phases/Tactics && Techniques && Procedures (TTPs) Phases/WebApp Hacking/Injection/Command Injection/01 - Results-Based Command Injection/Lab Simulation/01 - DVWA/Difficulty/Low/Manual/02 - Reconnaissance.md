@@ -1,6 +1,6 @@
 # 02 - Reconnaissance
 
-Search Tag: #command-injection #enumeration-and-discovery #dvwa
+Search Tag(s): #command-injection #enumeration-and-discovery #dvwa
 
 ## User Enumeration
 

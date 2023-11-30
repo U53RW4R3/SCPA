@@ -263,7 +263,7 @@ TODO: Finish the rest of shell handler section
 
 ##### 2.3.1.1 - Shellcode
 
-* **UseStager**
+* UseStager
 
 ```
 (Empire) > usestager windows/shellcode
@@ -324,7 +324,7 @@ TODO: Finish the rest of shell handler section
 [+] launcher.bin written to /var/lib/powershell-empire/empire/client/generated-stagers/launcher.bin
 ```
 
-* **MSFVenom**
+* MSFVenom
 
 ```
 (Empire) > usestager windows/reverseshell
@@ -345,11 +345,11 @@ TODO: Finish the rest of shell handler section
 
 TODO: Fill this info
 
-* **UseStager**
+* UseStager
 
 CSharp payload
 
-* **MSFVenom**
+* MSFVenom
 
 ##### 2.3.1.5 - LNK
 
@@ -498,7 +498,7 @@ TODO: Fill this info
 
 #### 3.2.2 - Usage
 
-* **List the credentials**
+* List the credentials
 
 ```
 (Empire: usecredential/add) > list
@@ -510,7 +510,7 @@ TODO: Fill this info
 └────┴───────────┴────────┴───────────────┴──────────────┴───────────────┴─────┴────┴───────┘
 ```
 
-* **Remove credential**
+* Remove credential
 
 ```
 (Empire: credentials) > remove 1

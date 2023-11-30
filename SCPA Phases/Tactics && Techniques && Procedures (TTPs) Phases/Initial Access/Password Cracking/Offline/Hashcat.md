@@ -18,11 +18,11 @@
 
 ### 2.1 - Arch-based distros
 
-- **These are the required dependencies that is from the AUR**
+- These are the required dependencies that is from the AUR
 
 `$ sudo pamac install opencl-amd hashcat-git`
 
-- **Always add the flag in order to use hashcat**
+- Always add the flag in order to use hashcat
 
 `$ hashcat --self-test-disable`
 
@@ -34,13 +34,13 @@ TODO: Provide more examples of hashes
 
 #### 3.1.1 - MD5
 
-`$ hashcat -m 0`
+`$ hashcat -m 0 -a 0 md5_hashes.txt passwords.lst`
 
 ### 3.2 - Wi-Fi
 
 #### 3.2.1 - WPA-EAPOL-PBKDF2
 
-`$ hashcat -m 2500 -a0 wifi-handshakes.hccapx passwords.lst`
+`$ hashcat -m 2500 -a 0 wifi-handshakes.hccapx passwords.lst`
 
 ### 3.3 - Linux
 

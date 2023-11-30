@@ -4,11 +4,11 @@
 
 ### 1.1 - Dependencies
 
-- **Debian-based distros**
+- Debian-based distros
 
 `$ sudo apt install mkisofs`
 
-- **Arch-based distros**
+- Arch-based distros
 
 `$ sudo pacman -S cdrkit`
 
@@ -22,11 +22,11 @@
 
 ### 2.1 - Install
 
-- **Install the Visual C++ Build Tools**
+- Install the Visual C++ Build Tools
 
 - https://visualstudio.microsoft.com/visual-cpp-build-tools
 
-- **Turn off aliases for Python**
+- Turn off aliases for Python
 
 Search **Manage app execution aliases**
 

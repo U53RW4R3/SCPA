@@ -1,6 +1,6 @@
 # Hardening
 
-Search Tag: #red-team-infrastructure #metasploit
+Search Tag(s): #red-team-infrastructure #metasploit
 
 ## 01 - Setup
 
@@ -54,10 +54,10 @@ msf exploit(multi/handler) > set HttpCookie
 - A script to autorun after reboot. Run this as root (without `sudo`)
 
 ```bash
-cat << EOF > /etc/rc.firewall-rules
+cat << EOF > /etc/rc.local
 #!/bin/sh -e
 #
-# rc.firewall-rules
+# rc.local
 #
 # This script is executed at the end of each multiuser runlevel.
 # Make sure that the script will "exit 0" on success or any other
@@ -74,7 +74,11 @@ exit 0
 EOF
 ```
 
-`$ sudo chmod +x /etc/rc.firewall-rules`
+```
+$ sudo chmod 755 /etc/rc.local
+
+$ sudo systemctl start rc-local
+```
 
 ---
 ## References

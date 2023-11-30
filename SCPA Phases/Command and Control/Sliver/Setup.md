@@ -18,9 +18,11 @@
 
 **Note:** you can use this script to update sliver C2 if the `update` builtin command doesn't work
 
-`$ wget -qO- https://sliver.sh/install | sudo bash`
+```
+$ wget -qO- https://sliver.sh/install | sudo bash
 
-`$ curl https://sliver.sh/install | sudo bash`
+$ curl https://sliver.sh/install | sudo bash
+```
 
 ## Compile
 

@@ -1,6 +1,6 @@
 # XSSer
 
-Search Tag: #xsser #xss #webapp
+Search Tag(s): #xsser #xss #webapp
 
 TODO: Fill this info
 

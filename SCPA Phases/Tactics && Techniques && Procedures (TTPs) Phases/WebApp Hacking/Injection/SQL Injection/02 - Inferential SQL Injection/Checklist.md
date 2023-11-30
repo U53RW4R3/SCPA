@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag: #checklist #blind-sql-injection #webapp
+Search Tag(s): #checklist #blind-sql-injection #webapp
 
 TODO: Fill the rest of checklist for Blind SQL injection
 

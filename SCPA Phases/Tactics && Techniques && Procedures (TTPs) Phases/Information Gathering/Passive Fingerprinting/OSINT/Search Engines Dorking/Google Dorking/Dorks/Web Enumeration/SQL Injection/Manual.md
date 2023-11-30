@@ -39,13 +39,19 @@ admin panel
 login
 admin login
 password
+
+inurl:(login | signin | auth) intitle:(Login | "sign in")
 ```
 
 ## Error-Based SQL Injection Dorks
 
 ```
 inurl:index.php?id=1'
-inurl:".php?id=" intext:"You have an error in your SQL syntax"
+
+inurl:".php?id=" intext:("You have an error in your SQL syntax" | "PHP Parse error" | "PHP Warning" | "PHP Error")
+
+intext:("sql syntax near" | "syntax error has occurred" | "incorrect syntax near" | "unexpected end of SQL command" | "Warning: mysql_connect()" | "Warning: mysql_query()" | "Warning: pg_connect()")
+
 site:website.com ext:(php | aspx)
 ```
 

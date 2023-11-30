@@ -12,7 +12,7 @@
 
 ## 2.2 - Text Editor
 
-**Note:** Press **CTRL + Z** to end the file
+Note: Press **CTRL + Z** to end the file
 
 ```
 C:\> copy con file.txt

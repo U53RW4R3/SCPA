@@ -1,6 +1,6 @@
 # Detection
 
-Search Tag: #red-team-infrastructure #metasploit #detection
+Search Tag(s): #red-team-infrastructure #metasploit #detection
 
 ## 01 - Shodan
 

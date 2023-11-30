@@ -1,6 +1,6 @@
 # 01 - Capture Hashes via Spoof SMB Shares
 
-Search Tag: #mitm #responder #smb #relay #ntlm
+Search Tag(s): #mitm #responder #smb #relay #ntlm
 
 ## 1.1 - Attacker
 

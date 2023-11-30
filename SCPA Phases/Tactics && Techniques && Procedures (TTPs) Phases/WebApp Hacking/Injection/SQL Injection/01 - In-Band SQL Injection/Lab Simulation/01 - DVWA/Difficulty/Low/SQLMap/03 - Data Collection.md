@@ -1,6 +1,6 @@
 # 03 - Data Collection
 
-Search Tag: #sql-injection #sqlmap #credential-access-and-dumping #data-exfiltration #dvwa
+Search Tag(s): #sql-injection #sqlmap #credential-access-and-dumping #data-exfiltration #dvwa
 
 ### 3.1 - Dump the whole database
 

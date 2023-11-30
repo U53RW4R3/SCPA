@@ -1,6 +1,6 @@
 # Error-Based Blind Query SQL Injection
 
-Search Tag: #blind-sql-injection #dvwa
+Search Tag(s): #blind-sql-injection #dvwa
 
 TODO: Prepare with enumeration
 

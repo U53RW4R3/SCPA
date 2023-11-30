@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag: #checklist #path-traversal #webapp
+Search Tag(s): #checklist #path-traversal #webapp
 
 ## Information Gathering
 

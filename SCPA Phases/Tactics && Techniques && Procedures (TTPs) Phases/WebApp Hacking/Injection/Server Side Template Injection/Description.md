@@ -1,6 +1,6 @@
 # Description
 
-Search Tag: #checklist #server-side-template-injection
+Search Tag(s): #checklist #server-side-template-injection
 
 TODO: Write a description about SSTI
 

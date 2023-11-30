@@ -1,6 +1,6 @@
 # 07 - Miscellaneous
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ```
 meterpreter > get_timeouts

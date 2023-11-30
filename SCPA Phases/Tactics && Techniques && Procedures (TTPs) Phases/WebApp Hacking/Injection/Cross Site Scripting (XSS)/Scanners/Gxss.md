@@ -1,6 +1,6 @@
 # Gxss
 
-Search Tag: #xss #webapp
+Search Tag(s): #xss #webapp
 
 ## Setup
 

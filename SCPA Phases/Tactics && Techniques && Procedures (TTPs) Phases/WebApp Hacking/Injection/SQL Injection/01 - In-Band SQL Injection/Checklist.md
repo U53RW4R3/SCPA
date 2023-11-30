@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag: #checklist #sql-injection #webapp
+Search Tag(s): #checklist #sql-injection #webapp
 
 TODO: Fill the rest of checklist for SQL injection
 

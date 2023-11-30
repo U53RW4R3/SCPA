@@ -1,6 +1,6 @@
 # 06 - Connect
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 ## 6.1 - Help Menu
 

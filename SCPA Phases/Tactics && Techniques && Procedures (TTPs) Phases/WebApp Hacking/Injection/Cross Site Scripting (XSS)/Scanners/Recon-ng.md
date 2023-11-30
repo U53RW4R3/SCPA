@@ -1,8 +1,8 @@
 # Recon-ng
 
-Search Tag: #xss #webapp
+Search Tag(s): #xss #webapp
 
-- **`xssed` recon-ng module**
+- `xssed` recon-ng module
 
 ```
 [recon-ng][default] > modules load recon/domains-vulnerabilities/xssed

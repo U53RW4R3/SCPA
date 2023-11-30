@@ -1,5 +1,5 @@
 # Checklist
 
-Search Tag: #checklist #ldap-injection
+Search Tag(s): #checklist #ldap-injection
 
 TODO: Fill this info

@@ -1,6 +1,6 @@
 # 02 - DBMS Backend Relay Attack
 
-Search Tag: #mitm #responder #smb #relay #ntlm #sql-injection
+Search Tag(s): #mitm #responder #smb #relay #ntlm #sql-injection
 
 ## 2.1 - MySQL
 
@@ -32,7 +32,7 @@ DROP TABLE test_table;
 2> go
 ```
 
-- **Capture hash**
+- Capture hash
 
 `$ sudo responder -I <interface>`
 

@@ -1,6 +1,6 @@
 # Detection
 
-Search Tag: #red-team-infrastructure #brute-ratel-c4 #detection
+Search Tag(s): #red-team-infrastructure #brute-ratel-c4 #detection
 
 `http.html_hash:-1957161625 product:"Brute Ratel C4"`
 

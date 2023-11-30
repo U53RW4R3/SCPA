@@ -1,11 +1,11 @@
 # 03 - OS Enumeration
 
-Search Tag: #sql-injection #union #enumeration-and-discovery #dvwa
+Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 ## 3.1 - Conditions
 
 1. The DB user must have **FILE** and **SELECT** privileges.
-2. **Note:** Not all files are readable unless the current user is `root@<IP>` (e.g. `root@localhost`). You'll notice that you can't fetch SSH credentials which is normal due to security reasons.
+2. Not all files are readable unless the current user is `root@<IP>` (e.g. `root@localhost`). You'll notice that you can't fetch SSH credentials which is normal due to security reasons.
 
 ## 3.2 - Enumerate Database User Privileges
 

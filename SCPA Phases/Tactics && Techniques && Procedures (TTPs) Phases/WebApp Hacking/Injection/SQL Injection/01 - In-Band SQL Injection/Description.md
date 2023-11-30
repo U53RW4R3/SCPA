@@ -1,6 +1,6 @@
 # Description
 
-Search Tag: #sql-injection
+Search Tag(s): #sql-injection
 
 TODO: Write a description about SQL Injection
 

@@ -1,6 +1,6 @@
 # Command Injection List
 
-Search Tag: #helpers #command-injection
+Search Tag(s): #helpers #command-injection
 
 ## Enumeration Command Injection
 

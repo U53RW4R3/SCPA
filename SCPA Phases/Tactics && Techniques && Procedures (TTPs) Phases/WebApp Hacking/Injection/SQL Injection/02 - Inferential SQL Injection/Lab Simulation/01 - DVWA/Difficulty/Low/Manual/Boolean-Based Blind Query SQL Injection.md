@@ -1,6 +1,6 @@
 # Boolean-Based Blind Query SQL Injection
 
-Search Tag: #blind-sql-injection #dvwa
+Search Tag(s): #blind-sql-injection #dvwa
 
 TODO: Figure it out using a python script with a frequency analysis technique to bruteforce it faster.
 

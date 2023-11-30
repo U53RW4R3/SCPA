@@ -1,5 +1,5 @@
 # Description
 
-Search Tag: #insecure-deserialization
+Search Tag(s): #insecure-deserialization
 
 TODO: Fill this info

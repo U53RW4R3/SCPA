@@ -1,6 +1,6 @@
 # 06 - Process Manipulation
 
-Search Tag: #cobalt-strike #command-and-control
+Search Tag(s): #cobalt-strike #command-and-control
 
 ## 6.1 - Inject Process
 

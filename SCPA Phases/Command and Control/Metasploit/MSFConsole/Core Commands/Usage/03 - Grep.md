@@ -1,6 +1,6 @@
 # 03 - Grep
 
-Search Tag: #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control
 
 TODO: Show usage examples of using grep in MSF
 
