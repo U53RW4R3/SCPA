@@ -22,12 +22,15 @@ I'm Userware and I've started this project due to my experience that contains ta
 ### Parameters
 
 `<>` -> Required paramaters
+
 e.g `<IP>`, `<username>`, `<password>`
 
 `[]` -> Optional paramaters
+
 e.g `[/flag-option]`, `[args]`
 
 `[<>]` -> Optionally contextual required parameters
+
 e.g `[<bind_IP>]`, `[<PORT>]`
 
 ### Terminal Prompts
@@ -35,25 +38,31 @@ e.g `[<bind_IP>]`, `[<PORT>]`
 #### General
 
 `>` -> general terminal prompt
+
 e.g `> <command>`
 
 #### Unix-Like
 
 `$` -> User privileges
+
 e.g `user@hostname:~$ <command>`
 
 `#` -> Elevated privileges
+
 e.g `root@hostname:~# <command>`
 
 `PS />` -> Powershell Linux Console
+
 e.g `PS /home/user> <command>`
 
 #### Windows
 
 `<drive_letter>:\>` -> Command Prompt
+
 e.g `C:\> <command>`
 
 `PS <drive_letter>:\>` -> Powershell Console
+
 e.g `PS C:\> <cmdlet>`
 
 # WORK TO DO
