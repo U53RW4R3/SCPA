@@ -1,6 +1,6 @@
 # 06 - Pseudo Shell
 
-Search Tag(s): #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
 ```
 meterpreter > run post/linux/manage/pseudo_shell

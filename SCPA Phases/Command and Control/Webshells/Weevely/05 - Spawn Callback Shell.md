@@ -1,5 +1,7 @@
 # 05 - Spawn Callback Shell
 
+Search Tag(s): #weevely #command-and-control #webshell #interactive-shell
+
 ## 5.1 Reverse Shell
 
 * Attacker (waiting callback)

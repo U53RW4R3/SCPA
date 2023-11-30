@@ -16,13 +16,13 @@ I'm Userware and I've started this project due to my experience that contains ta
 
 ### Parameters
 
-`<>` -> required paramaters
+`<>` -> Required paramaters
 e.g `<IP>`, `<username>`, `<password>`
 
-`[]` -> optional paramaters
+`[]` -> Optional paramaters
 e.g `[/flag-option]`, `[args]`
 
-`[<>]` -> optionally dependent parameters
+`[<>]` -> Optionally contextual required parameters
 e.g `[<bind_IP>]`, `[<PORT>]`
 
 ### Terminal Prompts
@@ -54,6 +54,7 @@ e.g `PS C:\> <cmdlet>`
 - [ ] Include references and remove some duplicates
 - [ ] Fill in the information of **Hacking The Cloud**
 - [ ] Provide a mindmap to some sections if necessary
+
 # Roadmap
 
 - [ ] Cryptography section

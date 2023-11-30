@@ -4,29 +4,35 @@
 
 ## 1.1 - Clone the repository from a source forge site
 
-`$ sudo git clone --recurse-submodules https://github.com/cobbr/Covenant /opt/`
+`$ sudo git clone --recurse-submodules https://github.com/cobbr/Covenant /opt/post-exploitation/Covenant`
 
 ## 1.2 - Run the C2
 
 ### 1.2.1 - Run with dotnet CLI
 
-`$ export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1`
+```
+$ export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 
-`$ sudo dotnet run --project /opt/Covenant/Covenant`
+$ sudo dotnet run --project /opt/Covenant/Covenant
+```
 
 ### 1.2.2 -  Build and run with docker image
 
-`$ docker build -t covenant /opt/Covenant/Covenant`
+```
+$ docker build -t covenant /opt/Covenant/Covenant
 
-`$ sudo docker run -it -p 7443:7443 -p 80:80 -p 443:443 --name covenant /opt/Covenant/Covenant/Data:/app/Data covenant`
+$ sudo docker run -it -p 7443:7443 -p 80:80 -p 443:443 --name covenant /opt/Covenant/Covenant/Data:/app/Data covenant
+```
 
 ## 02 - Troubleshooting
 
 ### 2.1 - Restart Covenant
 
-`$ sudo docker stop covenant`
+```
+$ sudo docker stop covenant
 
-`$ sudo docker start covenant -ai`
+$ sudo docker start covenant -ai
+```
 
 ### 2.2 - Delete Data
 
@@ -42,6 +48,6 @@
 
 ### 3.1 - Register username
 
-* Navigate to this URL with a web browser `https://<IP>:7443`
+* Navigate to this URL with a web browser `https://<C2_IP>:7443`
 
 TODO: Insert screenshot here

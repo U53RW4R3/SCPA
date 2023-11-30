@@ -1,5 +1,7 @@
 # Interactive Shell
 
+Search Tag(s): #empire #command-and-control #interactive-shell #help-menu
+
 ## 01 - Help Menu
 
 ```
@@ -127,7 +129,7 @@
 ---
 ## References
 
-*  [Beginning Powershell Empire Attack](https://www.securitynik.com/2022/02/beginning-powershell-empire-attack-in.html)
+* [Beginning Powershell Empire Attack](https://www.securitynik.com/2022/02/beginning-powershell-empire-attack-in.html)
 
 * [HackMag Powershell Empire Modules](https://hackmag.com/security/powershell-empire/)
 

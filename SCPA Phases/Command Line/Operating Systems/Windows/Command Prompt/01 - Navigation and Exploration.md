@@ -1,5 +1,7 @@
 # 01 - Navigation and Exploration
 
+Search Tag(s): #command-line #windows
+
 ## 1.1 - List Files and Directories
 
 ### 1.1.1 - List files
@@ -21,3 +23,8 @@
 ### 1.2.1 - Change directory
 
 `C:\> cd folder\`
+
+---
+## References
+
+- [[Windows Command Prompt References]]

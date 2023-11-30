@@ -1,6 +1,6 @@
 # 04 - Powershell
 
-Search Tag(s): #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
 TODO: Fill this info
 

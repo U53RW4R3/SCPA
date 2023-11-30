@@ -1,5 +1,7 @@
 # Setup
 
+Search Tag(s): #havoc #command-and-control
+
 ## 01 - Compile and Execute
 
 ### 1.1 - Install Dependencies

@@ -1,5 +1,7 @@
 # 04 - Execution Policy
 
+Search Tag(s): #command-line #windows
+
 `PS C:\> Set-ExecutionPolicy Bypass -Scope <CurrentUser | Process> [-File C:\path\to\file.ps1]`
 
 ---

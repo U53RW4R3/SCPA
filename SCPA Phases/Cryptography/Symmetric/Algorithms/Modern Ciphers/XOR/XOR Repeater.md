@@ -1,6 +1,10 @@
 # XOR Repeater
 
+Search Tag(s): #cryptography #symmetric
+
 ## Algorithm
+
+TODO: Fill the python-style pseudo code of the XOR repeater encryption
 
 ### Pseudo Code
 

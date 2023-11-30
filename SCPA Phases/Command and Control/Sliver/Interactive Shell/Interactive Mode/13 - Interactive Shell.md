@@ -1,5 +1,7 @@
 # 13 - Interactive Shell
 
+Search Tag(s): #sliver #command-and-control #interactive-shell
+
 ## 13.1 - Interactive Session
 
 ### 13.1.1 - Help Menu

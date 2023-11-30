@@ -1,5 +1,7 @@
 # 08 - Beacon Session
 
+Search Tag(s): #sliver #command-and-control #interactive-shell
+
 ## 8.1 - Interact Beacon
 
 ### 8.1.1 - Help Menu

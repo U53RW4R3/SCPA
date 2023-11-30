@@ -1,5 +1,7 @@
 # DNS Records
 
+Search Tag(s): #glossary #networking
+
 ### Commonly used record types
 
 1. A (Host address)

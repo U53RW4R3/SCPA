@@ -1,5 +1,7 @@
 # IPTables
 
+Search Tag(s): #command-line #networking #linux
+
 ## 01 - Create Rules
 
 TODO: Fill this info

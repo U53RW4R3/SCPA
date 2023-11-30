@@ -1,5 +1,7 @@
 # Reset Teamserver Database
 
+Search Tag(s): #havoc #command-and-control
+
 `$ cat reset-teamserver.sh`
 
 ---

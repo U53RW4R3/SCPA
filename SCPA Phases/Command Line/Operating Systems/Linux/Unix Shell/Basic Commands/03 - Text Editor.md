@@ -1,5 +1,7 @@
 # 03 - Text Editor
 
+Search Tag(s): #command-line #linux
+
 TODO: Fill this info
 
 ## 3.1 - Nano

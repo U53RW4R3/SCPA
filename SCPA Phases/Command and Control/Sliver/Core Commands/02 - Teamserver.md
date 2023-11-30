@@ -27,9 +27,11 @@ Flags:
 
 * Reload and start the daemon `sliver.service`
 
-`$ sudo systemctl daemon-reload`
+```
+$ sudo systemctl daemon-reload
 
-`$ sudo systemctl start sliver`
+$ sudo systemctl start sliver
+```
 
 Or you can manually enable multiplayer mode
 
@@ -80,15 +82,19 @@ Flags:
 
 * Generate operator configuration file
 
-`$ sudo /root/sliver-server operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/`
+```
+$ sudo /root/sliver-server operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/
 
-`[server] sliver > new-operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/`
+[server] sliver > new-operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/
+```
 
 * Import configuration file with sliver client
 
-`$ sudo chown $USER:$USER file.cfg`
+```
+$ sudo chown $USER:$USER file.cfg
 
-`$ sliver import file.cfg`
+$ sliver import file.cfg
+```
 
 ### 2.2.2 - Kick Operators
 

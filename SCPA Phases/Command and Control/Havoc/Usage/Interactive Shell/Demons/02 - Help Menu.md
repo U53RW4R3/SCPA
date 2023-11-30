@@ -1,5 +1,7 @@
 # 02 - Help Menu
 
+Search Tag(s): #havoc #command-and-control #interactive-shell #help-menu
+
 ```
 Demon » help
 

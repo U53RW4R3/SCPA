@@ -1,5 +1,7 @@
 # 02 - Basic Commands
 
+Search Tag(s): #weevely #command-and-control #webshell #interactive-shell
+
 ## Execute
 
 Using `:shell_sh` to execute commands

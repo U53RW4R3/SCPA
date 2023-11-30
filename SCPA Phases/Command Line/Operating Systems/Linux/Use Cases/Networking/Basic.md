@@ -1,5 +1,7 @@
 # Basic
 
+Search Tag(s): #command-line #networking #use-cases #linux
+
 ## Retrieve private IPv4 address
 
 ```
@@ -43,6 +45,8 @@ awk -F ':' '$1 ~ /^Network/ && !seen[$2]++ { gsub(" ","",$2); print $2 }'
 
 ---
 ## References
+
+- [[Linux Commands References]]
 
 - [Regex Find IP Addresses File Grep](https://www.shellhacks.com/regex-find-ip-addresses-file-grep/)
 

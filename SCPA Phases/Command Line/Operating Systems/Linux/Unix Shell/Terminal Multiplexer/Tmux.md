@@ -1,5 +1,7 @@
 # Tmux
 
+Search Tag(s): #command-line #terminal-multiplexer #linux
+
 ## Setup
 
 ```

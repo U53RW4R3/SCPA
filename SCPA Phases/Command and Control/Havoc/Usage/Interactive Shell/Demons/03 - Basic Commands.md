@@ -1,5 +1,7 @@
 # 03 - Basic Commands
 
+Search Tag(s): #havoc #command-and-control #interactive-shell
+
 ## 3.1 - Check Request
 
 - Help Menu

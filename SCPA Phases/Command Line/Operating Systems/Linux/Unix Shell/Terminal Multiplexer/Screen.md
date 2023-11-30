@@ -1,5 +1,7 @@
 # Screen
 
+Search Tag(s): #command-line #terminal-multiplexer #linux
+
 ## Setup
 
 `$ cat screen_config.conf`

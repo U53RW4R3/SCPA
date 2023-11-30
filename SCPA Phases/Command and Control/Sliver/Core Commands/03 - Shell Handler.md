@@ -20,19 +20,23 @@ Search Tag(s): #sliver #command-and-control
 
 - Non-encrypted TLS key and certification
 
-`$ openssl req -new -x509 -keyout key.pem -out certificate.pem -days 365 -nodes`
+```
+$ openssl req -new -x509 -keyout key.pem -out certificate.pem -days 365 -nodes
 
-`sliver > http [-d <domain.com>] -L <IP> -l <PORT>`
+sliver > http [-d <domain.com>] -L <IP> -l <PORT>
 
-`sliver > https [-d <domain.com>] -L <IP> -l <PORT> -c /path/to/cert.pem -k /path/to/key.pem`
+sliver > https [-d <domain.com>] -L <IP> -l <PORT> -c /path/to/cert.pem -k /path/to/key.pem
+```
 
 ### 3.3.2 - Disguise the C2 as a website
 
-`sliver > websites add-content -w -p /index.html -c /home/user/nginx_error.html`
+```
+sliver > websites add-content -w -p /index.html -c /home/user/nginx_error.html
 
-`sliver > http -w error [-d <domain.com>] -L <IP> -l <PORT>`
+sliver > http -w error [-d <domain.com>] -L <IP> -l <PORT>
 
-`sliver > websites rm-content -w error -p /index.html`
+sliver > websites rm-content -w error -p /index.html
+```
 
 ## 3.4 - SMB
 

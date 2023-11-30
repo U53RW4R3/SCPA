@@ -1,5 +1,7 @@
 # 02 - Wildcards and optional characters
 
+Search Tag(s): #regex
+
 |Character|Legend|
 |---------|------|
 |`.`|Any character except when breaking with a line to treat it as it is (`\.`)|

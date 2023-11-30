@@ -1,5 +1,7 @@
 # 05 - Services
 
+Search Tag(s): #command-line #windows
+
 ## 5.1 - Start Service
 
 ### 5.1.1 - Net
@@ -23,3 +25,8 @@
 ### 5.2.1 - SCM (Service Control Management)
 
 `C:\> sc [\\<IP>] stop <servicesvc>`
+
+---
+## References
+
+- [[Windows Command Prompt References]]

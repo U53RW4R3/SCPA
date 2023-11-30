@@ -1,5 +1,7 @@
 # 07 - Help Menu
 
+Search Tag(s): #sliver #command-and-control #interactive-shell #help-menu
+
 ```
 sliver (IMPLANT_NAME) > help
 

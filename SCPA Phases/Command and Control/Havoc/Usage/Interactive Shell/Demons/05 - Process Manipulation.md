@@ -1,5 +1,7 @@
 # 05 - Process Manipulation
 
+Search Tag(s): #havoc #command-and-control #interactive-shell
+
 ## 5.1 - Process Manipulation
 
 ### 5.1.1 - Help Menu

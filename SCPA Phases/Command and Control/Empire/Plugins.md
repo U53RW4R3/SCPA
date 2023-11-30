@@ -1,5 +1,7 @@
 # Plugins
 
+Search Tag(s): #empire #command-and-control #help-menu
+
 ## 01 - Help Menu
 
 ```

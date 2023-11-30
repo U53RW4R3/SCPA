@@ -1,5 +1,7 @@
 # 09 - Basic Commands
 
+Search Tag(s): #sliver #command-and-control #interactive-shell
+
 ## Navigation
 
 * Change Directory

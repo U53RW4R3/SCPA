@@ -1,6 +1,6 @@
 # 06 - Peinjector
 
-Search Tag(s): #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
 ## 6.1 - Help Menu
 

@@ -1,5 +1,7 @@
 # 01 - Charsets
 
+Search Tag(s): #regex
+
 - **Match all of the following characters:** c, o, g
 
 `[cog]`

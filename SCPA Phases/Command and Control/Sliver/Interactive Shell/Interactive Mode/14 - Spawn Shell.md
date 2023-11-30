@@ -1,5 +1,7 @@
 # 14 - Spawn Shell
 
+Search Tag(s): #sliver #command-and-control #interactive-shell
+
 ### 14.1 - Help Menu
 
 ```

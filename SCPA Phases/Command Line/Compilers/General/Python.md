@@ -1,5 +1,7 @@
 # Python
 
+Search Tag(s): #command-line #compiler
+
 ## 01 - Nuitka
 
 ### 1.1 - Linux

@@ -1,5 +1,7 @@
 # Base64
 
+Search Tag(s): #command-line #use-cases #windows
+
 ## Encode a string
 
 ```powershell

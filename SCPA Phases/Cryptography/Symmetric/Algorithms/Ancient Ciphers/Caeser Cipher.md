@@ -1,5 +1,7 @@
 # Caeser Cipher
 
+Search Tag(s): #cryptography #symmetric
+
 ## Algorithm
 
 ### Formula

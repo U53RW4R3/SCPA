@@ -1,5 +1,7 @@
 # 04 - Basic Enumeration
 
+Search Tag(s): #weevely #command-and-control #webshell #interactive-shell
+
 ## 4.1 - System
 
 ```

@@ -1,6 +1,6 @@
 # 03 - ExtAPI
 
-Search Tag(s): #metasploit-framework #command-and-control
+Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
 TODO: Provide usage examples
 

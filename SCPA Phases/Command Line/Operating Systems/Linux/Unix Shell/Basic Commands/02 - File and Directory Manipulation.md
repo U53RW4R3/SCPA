@@ -1,5 +1,7 @@
 # 02 - File and Directory Manipulation
 
+Search Tag(s): #command-line #linux
+
 ## 2.1 - Touch
 
 ### 2.1.1 - Create an empty file
@@ -8,7 +10,7 @@
 
 ## 2.2 -  File and Directory Permissions
 
-TODO: Fill this info
+TODO: Fill this info with table reference
 
 `$ chmod <[i]iii> file.txt`
 

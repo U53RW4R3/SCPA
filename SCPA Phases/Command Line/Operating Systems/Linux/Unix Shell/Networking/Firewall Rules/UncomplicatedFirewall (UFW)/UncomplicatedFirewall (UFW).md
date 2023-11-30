@@ -1,10 +1,12 @@
 # UncomplicatedFirewall (UFW)
 
+Search Tag(s): #command-line #networking #linux
+
 TODO: Fill this info
 
 ## 01 - Create Rules
 
-- **SSH inbound rule connection**
+- SSH inbound rule connection
 
 `$ sudo ufw allow ssh`
 

@@ -1,5 +1,7 @@
 # Rust
 
+Search Tag(s): #command-line #compiler
+
 ## 01 - Install Toolchains
 
 - List of toolchains
@@ -8,9 +10,11 @@
 
 - Install toolchain
 
-`$ rustup target add x86_64-pc-windows-gnu`
+```
+$ rustup target add x86_64-pc-windows-gnu
 
-`$ rustup target add x86_64-pc-windows-msvc`
+$ rustup target add x86_64-pc-windows-msvc
+```
 
 ## 02 - Linux
 
@@ -22,10 +26,12 @@
 
 - Select specific toolchain to compile a windows binary
 
-`$ cargo b -r --target x86_64-pc-windows-gnu`
+```
+$ cargo b -r --target x86_64-pc-windows-gnu
 
-`$ cargo b -r --target x86_64-pc-windows-msvc`
+$ cargo b -r --target x86_64-pc-windows-msvc
 
-`$ rustc --target=x86_64-pc-windows-gnu src/main.rs`
+$ rustc --target=x86_64-pc-windows-gnu src/main.rs
 
-`$ rustc --target=x86_64-pc-windows-msvc src/main.rs`
+$ rustc --target=x86_64-pc-windows-msvc src/main.rs
+```

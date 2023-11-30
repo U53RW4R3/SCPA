@@ -1,5 +1,7 @@
 # Setup
 
+Search Tag(s): #empire #command-and-control
+
 ## 01 - Install
 
 ### 1.1 - Manual Installation

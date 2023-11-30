@@ -1,5 +1,9 @@
 # File and Directory Manipulation
 
+Search Tag(s): #command-line #bsd
+
+TODO: Fill this info
+
 ## File Attribution
 
 ---

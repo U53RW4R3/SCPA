@@ -1,5 +1,7 @@
 # 04 - Viewing and Editing Files
 
+Search Tag(s): #command-line #linux
+
 ## 4.1 - Less
 
 - Read file with ANSI characters

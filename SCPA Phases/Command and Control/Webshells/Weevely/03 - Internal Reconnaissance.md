@@ -1,5 +1,7 @@
 # 03 - Internal Reconnaissance
 
+Search Tag(s): #weevely #command-and-control #webshell #interactive-shell
+
 ## 3.1 - Port Scan
 
 ```

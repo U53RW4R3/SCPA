@@ -1,5 +1,7 @@
 # 02 - File and Directory Manipulation
 
+Search Tag(s): #command-line #windows
+
 ## 2.1 - Create Files and Directories
 
 ### 2.1.1 - Create an empty file
@@ -31,3 +33,8 @@ TODO: Fill this info
 - Clear the attributes the by flagging them hidden (`-h`), read only (`-r`), and important system file (`-s`)
 
 `C:\> attrib -h -r -s <file | directory>`
+
+---
+## References
+
+- [[Windows Command Prompt References]]

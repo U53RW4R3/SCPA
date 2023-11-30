@@ -1,5 +1,7 @@
 # Formula
 
+Search Tag(s): #cryptography #symmetric
+
 ## Encryption
 
 $P \oplus K = C$

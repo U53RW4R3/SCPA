@@ -1,5 +1,7 @@
 # Base64
 
+Search Tag(s): #command-line #use-cases #linux
+
 ## Powershell one-liner encoded
 
 - Three different options to encode base64

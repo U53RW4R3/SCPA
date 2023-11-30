@@ -1,5 +1,7 @@
 # 03 - Metacharacters and repetitions
 
+Search Tag(s): #regex
+
 |Character|Expansion|Legend|
 |---------|---------|------|
 |`\d`|`[0-9]`|Digits 0 to 9|

@@ -1,5 +1,7 @@
 # Setup
 
+Search Tag(s): #sliver #command-and-control
+
 ## Dependencies
 
 ### 01 - Arch-based distros

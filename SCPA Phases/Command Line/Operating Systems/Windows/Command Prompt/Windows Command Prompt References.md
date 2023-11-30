@@ -1,5 +1,7 @@
 # Windows Command Prompt Table References
 
+Search Tag(s): #command-line #windows
+
 |Commands|Networking|
 |---|---|
 |[`cd` \| `chdir`]|`ipconfig`|

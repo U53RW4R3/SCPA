@@ -1,5 +1,7 @@
 # 01 - Navigation and Exploration
 
+Search Tag(s): #command-line #linux
+
 ## 1.1 - List Files and Directories
 
 - Print the current working directory

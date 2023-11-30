@@ -1,5 +1,7 @@
 # Linux Commands Table References
 
+Search Tag(s): #command-line #linux
+
 |Basic Commands|Networking|
 |--------------|----------|
 |`cd`|[`wget` \| `curl`]|

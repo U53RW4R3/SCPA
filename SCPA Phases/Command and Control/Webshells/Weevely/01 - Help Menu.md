@@ -1,5 +1,7 @@
 # 01 - Help Menu
 
+Search Tag(s): #weevely #command-and-control #webshell #interactive-shell #help-menu
+
 ```
 www-data@172.28.128.8:/var/www/phpMyAdmin $ help
 The remote script execution triggers an error 500, check script and payload integrity

@@ -6,7 +6,7 @@ Search Tag(s): #cobalt-strike #command-and-control
 
 - Change Directories
 
-`beacon> cd <directory>`
+`beacon> cd <drive_letter>:\path\to\directory`
 
 ## 4.2 - File Manipulation
 

@@ -1,6 +1,8 @@
 # NASM
 
-- **Compile Linux binaries**
+Search Tag(s): #command-line #compiler
+
+- Compile Linux binaries
 
 ```
 $ nasm -f elf32 shell.asm -o shell.o
@@ -14,7 +16,7 @@ $ nasm -f elf64 shell.asm -o shell.o
 $ ld -m elf_x86_64 shell.o -o shell
 ```
 
-- **Compile Windows binaries in Linux**
+- Compile Windows binaries in Linux
 
 ```
 $ nasm -f win64 shell.asm -o shell.obj
@@ -36,7 +38,7 @@ C:\> link /SUBSYSTEM:CONSOLE /ENTRY:_start your_assembly_code.obj /OUT:your_shel
 C:\> objcopy -O binary your_shellcode.exe your_shellcode.bin
 ```
 
-- **Compile Windows Dynamic Linked Library in Linux**
+- Compile Windows Dynamic Linked Library in Linux
 
 ```
 $ nasm -f win64 shell.asm -o shell.obj
