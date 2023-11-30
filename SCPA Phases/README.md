@@ -12,6 +12,40 @@ The **SCPA (Sophicated Cyber Penetration Attacks)** is for hackers wanting a str
 
 I'm Userware and I've started this project due to my experience that contains tactics, techniques and procedures (TTP) and I've collected a lot of information just to summarize it all in one. I find it a waste that nobody would go thorough this effort especially for beginners who are still starting out. This knowledge will serve you well in your journey.
 
+## Legends
+
+### Parameters
+
+`<>` -> required paramaters
+e.g `<IP>`, `<username>`, `<password>`
+
+`[]` -> optional paramaters
+e.g `[/flag-option]`, `[args]`
+
+`[<>]` -> optionally dependent parameters
+e.g `[<bind_IP>]`, `[<PORT>]`
+
+### Terminal Prompts
+
+#### General
+
+`>` -> general terminal prompt
+e.g `> <command>`
+#### Unix-Like
+
+`$` -> User privileges
+e.g `user@hostname:~$ <command>`
+
+`#` -> Elevated privileges
+e.g `root@hostname:~# <command>`
+#### Windows
+
+`<drive_letter>:\>` -> Command Prompt
+e.g `C:\> <command>`
+
+`PS <drive_letter>:\>` -> Powershell Console
+e.g `PS C:\> <cmdlet>`
+
 # WORK TO DO
 
 - [ ] Add tags
@@ -27,3 +61,4 @@ I'm Userware and I've started this project due to my experience that contains ta
 - [ ] Malware Development section
 - [ ] Exploit development section
 - [ ] Writing Reports section (maybe)
+- [ ] Include MITRE ATT&CK techniques References

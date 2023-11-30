@@ -10,6 +10,8 @@ TODO: Fill this info
 
 `$ vim file.txt`
 
+`$ vim +<line_number> file.txt`
+
 Indent -> `SHIFT + >>`
 
 Reverse indent -> `SHIFT + <<`

@@ -71,17 +71,17 @@ Options:
 
 #### 1.2.1 - LLMNR
 
-- **NBT-NS and LLMNR Poisoning via capturing NTLMv2-SSP hashes**
+- NBT-NS and LLMNR Poisoning via capturing NTLMv2-SSP hashes
 
 `$ sudo responder -I <interface> -rdwv`
 
-- **LLMNR Poisoning**
+- LLMNR Poisoning
 
 `$ sudo responder -I eth0 --lm -v`
 
 #### 1.2.2 - DHCP
 
-- **DHCP and WPAD poisoning**
+- DHCP and WPAD poisoning
 
 When a windows host requires a new IP address dynamically it can perform HTTP WPAD poisoning response while the user uses a web browser that contains auto proxy settings enabled
 
@@ -89,7 +89,7 @@ When a windows host requires a new IP address dynamically it can perform HTTP WP
 
 #### 1.2.3 - WebDAV
 
-- **Block SMB traffic on the attacker's machine to poison NTLMv2-SSP responses via WebDAV/HTTP**
+- Block SMB traffic on the attacker's machine to poison NTLMv2-SSP responses via WebDAV/HTTP
 
 Note: You don't have to block the ports unless you're evading some IDS to identify you for performing MITM poisoning
 

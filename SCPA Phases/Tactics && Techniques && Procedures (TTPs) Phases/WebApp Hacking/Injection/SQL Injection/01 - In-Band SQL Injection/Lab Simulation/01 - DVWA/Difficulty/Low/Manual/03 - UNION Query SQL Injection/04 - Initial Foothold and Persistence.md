@@ -10,7 +10,7 @@ TODO: Figure out using SQL queries to create a user account in the current datab
 
 #### 4.1.1.1 - Conditions
 
-1. The DB user must have **SELECT**, **INSERT**, **UPDATE**, **DELETE**, **DROP** privileges.
+1. The DB user must have **SELECT, INSERT, UPDATE, DELETE, DROP** privileges.
 
 #### 4.1.1.2 - Enumerate Database User Privileges
 
@@ -70,7 +70,7 @@ DROP TABLE <database_name>.<table_name>;
 
 #### 4.1.2.1 - Conditions
 
-1. The DB user must have **SELECT**, **INSERT**, **CREATE**, **ALTER**, **UPDATE**, **DELETE** privileges.
+1. The DB user must have **SELECT, INSERT, CREATE, ALTER, UPDATE, DELETE** privileges.
 
 ## 4.2 - Webshell
 

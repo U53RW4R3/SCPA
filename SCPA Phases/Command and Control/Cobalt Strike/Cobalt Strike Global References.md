@@ -1,4 +1,4 @@
-# Cobalt Strike Global Refercnes
+# Cobalt Strike Global References
 
 Search Tag(s): #cobalt-strike #command-and-control
 

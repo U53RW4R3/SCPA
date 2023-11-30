@@ -1,4 +1,4 @@
-# 00 - {{title}}
+# {{title}}
 
 Search Tag(s): \<insert tags>
 

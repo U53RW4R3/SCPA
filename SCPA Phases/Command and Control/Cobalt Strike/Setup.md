@@ -4,11 +4,11 @@ Search Tag(s): #cobalt-strike #command-and-control
 
 ## 01 - Dependencies
 
-### Debian-based distros
+- Debian-based and Ubuntu-based distros
 
 `$ sudo apt install -y mingw-w64 nasm default-jdk default-jre`
 
-### Arch-based distros
+- Arch-based distros
 
 `$ sudo pacman -S mingw-w64-binutils mingw-w64-crt mingw-w64-gcc mingw-w64-headers mingw-w64-winpthreads nasm jdk-openjdk jre-openjdk`
 

@@ -1,7 +1,13 @@
 # Setup
 
-`$ sudo python3 -m venv /opt/pwncat-env`
+## Install from source
 
-`$ source /opt/pwncat-env/bin/activate`
+```
+$ sudo python3 -m venv /opt/pwncat-env
+
+$ source /opt/pwncat-env/bin/activate
+```
+
+## Install from Python Package
 
 `$ sudo pip install pwncat-cs`

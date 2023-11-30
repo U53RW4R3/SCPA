@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f9b34fc9e86deecc",
+        "id": "d77b53bbd100f5d5",
         "type": "tabs",
         "children": [
           {
-            "id": "c137ce50b450da2e",
+            "id": "c40714fcd5fc3684",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md"
+                "file": "README.md"
               }
             }
           },
@@ -156,44 +156,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c137ce50b450da2e",
+  "active": "c40714fcd5fc3684",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Entropy/Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Manual.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/ReadFile.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
-    "Malware Development/Checklist.md",
-    "Malware Development/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Wsreset/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Fodhelper/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Wsreset",
+    "Templates/Plain Template.md",
+    "README.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/General/RClone.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Host Persistence/Remote Login/Third-Party Programs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/PHPInfo.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Configuration Files.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Backup and Old Files.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Confidential Documents.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Robots.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Login Pages.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/04 - Forge Repositories.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Github Dorking/GitDorker.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Sensitive Files/Clear Text Passwords/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Sensitive Files/Clear Text Passwords/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Operating System/SQLMap/02 - Credentials/Windows.md",
-    "Malware Development/Helpers/Identify Detection Triggers/AVRed.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Data Breach/Pastebins.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Credentials/Passwords.md",
+    "Command and Control/Pwncat/Usage/Core Features/02 - Shell Handler.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Legends.md",
+    "Command and Control/Pwncat/Usage/Core Features/01 - Help Menu.md",
+    "Command and Control/Pwncat/Usage/Core Features/03 - Reconnecting with Implants.md",
+    "Command and Control/Pwncat/Setup.md",
+    "Command and Control/Pwncat/Usage/Core Features/04 - List Implants.md",
+    "Command and Control/Pwncat/Usage",
+    "Command and Control/Pwncat/Usage/Core Features",
+    "Command and Control/Covenant/Setup.md",
+    "Command and Control/Covenant/Covenant Global References.md",
+    "Command and Control/Covenant/Usage/Core Features/01 - Admin.md",
+    "Command and Control/Covenant/Usage/Core Features/02 - Shell Handler.md",
+    "Command and Control/Covenant/Usage/Core Features/03 - Generate Payloads.md",
+    "Command and Control/Covenant/Usage/Core Features/04 - Credentials Database.md",
+    "Command and Control/Covenant/Usage/Interactive Shell/Grunts/05 - Help Menu.md",
+    "Command and Control/Cobalt Strike/Cobalt Strike Global References.md",
+    "Command and Control/Covenant/Usage/Interactive Shell/Grunts",
+    "Command and Control/Covenant/Usage/Interactive Shell",
+    "Command and Control/Covenant/Usage/Core Features",
+    "Command and Control/Cobalt Strike/Setup.md",
+    "Command and Control/Images/Covenant",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Auditing Tools/Lynis.md",
+    "Command and Control/Images/Cobalt Strike/Core Features",
+    "Command and Control/Images/Cobalt Strike",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Auditing Tools/PostEnum.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Auditing Tools/Unix Privesc Check.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Auditing Tools/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Auditing Tools/LinEnum.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Linux/Auditing Tools/LinPEAS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Web Browser Credentials/04 - Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Forensics/Recover Files/Linux.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Wsreset",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Data Breach",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/DNS",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/API Keys/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Wordlist",
-    "Command and Control/Webshells/Weevely",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/General Webapp/Reverse Shells",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/General Webapp",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Untitled/Untitled",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Automation Server",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.5 - Enumerate DBMS Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.6 - Enumerate DBA Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.4 - DBA User.png",

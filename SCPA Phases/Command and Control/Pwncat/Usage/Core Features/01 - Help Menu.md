@@ -1,6 +1,4 @@
-# Usage
-
-## 01 - Help Menu
+# 01 - Help Menu
 
 ```
 $ pwncat-cs -h
@@ -33,10 +31,6 @@ options:
   --list                List installed implants with remote connection capability
   --verbose, -V         Enable verbose output for the remote commands executed by `pwncat`
 ```
-
-## 02 - Shell Handler
-
-`$ pwncat -m <linux | windows> -lp <PORT>`
 
 ---
 ## References
