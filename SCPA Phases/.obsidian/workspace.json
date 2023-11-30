@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command Line/Compilers/General/Dotnet.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command Line/Compilers/General/Dotnet.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command Line/Compilers/General/Dotnet.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command Line/Compilers/General/Dotnet.md"
+                "file": "README.md"
               }
             }
           },
@@ -158,9 +158,13 @@
   },
   "active": "5833d4e5c0c4df2d",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nessus.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nmap.md",
+    "README.md",
+    "Command Line/Compilers/General/Dotnet.md",
     "Command Line/Compilers/Linux/Linux.md",
     "Command Line/Compilers/Windows/Windows.md",
-    "Command Line/Compilers/General/Dotnet.md",
     "Command Line/Compilers/General/Rust.md",
     "Command Line/Compilers/General/Python.md",
     "Command Line/Compilers/General/NASM.md",
@@ -168,7 +172,6 @@
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
     "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
-    "README.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
     "Glossary/DNS Records.md",
     "Cryptography/Symmetric/Description.md",
@@ -181,9 +184,6 @@
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/MARS.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/IDEA.md",
     "Cryptography/Symmetric/Algorithms/Modern Ciphers/HC-128.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Cast5.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Camellia.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/BlowFish.md",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Untitled",
     "Command and Control/Images/Havoc/Core Features",
