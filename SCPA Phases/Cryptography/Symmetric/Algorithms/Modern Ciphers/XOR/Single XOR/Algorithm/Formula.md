@@ -103,7 +103,7 @@ Decimal base 10 to binary base 2 has been converted.
 
 $0101 \oplus 1010 = C$
 
-XOR the binary numbers based on the [[Single XOR#^cbf7ed|truth table]].
+XOR the binary numbers based on the [[#^cbf7ed|truth table]].
 
 $$
 \begin{flalign}

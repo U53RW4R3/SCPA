@@ -1,11 +1,11 @@
-# VeraCrypt
+# Menu
 
-TODO: Provide a usage coverage for encrypting internal and external drives (refer to the links)
+Search Tag(s): #operation-security #veracrypt #cryptography #command-line #help-menu
 
 ## Usage Menu
 
 ```
-$ veracrypt -h
+> veracrypt -h
 Usage: veracrypt [--auto-mount <str>] [--backup-headers] [--background-task] [-C] [-c] [--create-keyfile] [--delete-token-keyfiles] [-d] [--display-password] [--encryption <str>] [--explore] [--export-token-keyfile] [--filesystem <str>] [-f] [--fs-options <str>] [--hash <str>] [-h] [--import-token-keyfiles] [-k <str>] [-l] [--list-token-keyfiles] [--load-preferences] [--mount] [-m <str>] [--new-hash <str>] [--new-keyfiles <str>] [--new-password <str>] [--new-pim <str>] [--non-interactive] [--stdin] [-p <str>] [--pim <str>] [--protect-hidden <str>] [--protection-hash <str>] [--protection-keyfiles <str>] [--protection-password <str>] [--protection-pim <str>] [--random-source <str>] [--restore-headers] [--save-preferences] [--quick] [--size <str>] [--slot <str>] [-tc] [--test] [-t] [--token-lib <str>] [--token-pin <str>] [-v] [--version] [--volume-properties] [--volume-type <str>] [--no-size-check] [--legacy-password-maxlength] [--use-dummy-sudo-password] [Volume path] [Mount point]
   --auto-mount=<str>            Auto mount device-hosted/favorite volumes
   --backup-headers              Backup volume headers
@@ -321,11 +321,3 @@ veracrypt -d volume.hc
 Dismount all mounted volumes:
 veracrypt -d
 ```
-
-## Usage
-
-## References
-
-- [VeraCrypt](https://www.veracrypt.fr/en/Home.html)
-
-- [Encrypt Windows System Drive VeraCrypt](https://www.makeuseof.com/encrypt-windows-system-drive-veracrypt/)

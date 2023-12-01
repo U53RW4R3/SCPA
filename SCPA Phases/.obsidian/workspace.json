@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
+                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f63c50cfd1eb87b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Hacking.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
+                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md",
+                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/File Transfer and Data Exfiltration/Linux/DNS.md"
+                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md"
               }
             }
           },
@@ -158,51 +170,51 @@
   },
   "active": "5833d4e5c0c4df2d",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Wsreset/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/Fodhelper/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/CMSTP/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/CMSTP/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/UAC Bypass/Manual.md",
-    "README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nessus.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nmap.md",
-    "Command Line/Compilers/General/Dotnet.md",
-    "Command Line/Compilers/Linux/Linux.md",
-    "Command Line/Compilers/Windows/Windows.md",
-    "Command Line/Compilers/General/Rust.md",
-    "Command Line/Compilers/General/Python.md",
-    "Command Line/Compilers/General/NASM.md",
-    "Command Line/Compilers/General/Go.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Checklist.md",
-    "Glossary/DNS Records.md",
-    "Cryptography/Symmetric/Description.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Hacking.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Penetration Initial Access References.md",
+    "Operation Security/Offline/LUKS/Use Cases/Raspberry Pi Encrypted Dropbox.md",
+    "Operation Security/Offline/LUKS/Encrypting Partition.md",
+    "Operation Security/Offline/Spoof MAC Address/Linux.md",
+    "Operation Security/Offline/Spoof MAC Address/Windows.md",
+    "Operation Security/Offline/Veracrypt/Encrypting Partition.md",
+    "Operation Security/Offline/LUKS/File Containers.md",
+    "Operation Security/Offline/LUKS/Use Cases",
+    "Operation Security/Offline/Veracrypt/Menu.md",
+    "Operation Security/Offline/Veracrypt/File Containers.md",
+    "Operation Security/Offline/Spoof MAC Address",
+    "Operation Security/Online/Helpers/Retrieve Proxy Servers.md",
+    "Operation Security/Online/Helpers/Terminal Setup.md",
+    "Operation Security/Online/Helpers",
+    "Operation Security/Online/Helpers/SOCKS Proxy Servers.md",
+    "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
+    "Operation Security/Online/TOR/Setup/03 - Whonix.md",
+    "Operation Security/Online/TOR/Setup/02 - Privoxy.md",
+    "Operation Security/Online/TOR/Setup/01 - Proxychains.md",
+    "Operation Security/Online/TOR/Usage",
+    "Operation Security/Online/TOR",
+    "Operation Security/Online/TOR/Setup",
+    "Operation Security/Offline/LUKS",
+    "Malware Development/README.md",
+    "Malware Development/Checklist.md",
+    "Operation Security/Offline/File Containers",
     "Cryptography/README.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/TwoFish.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/Skipjack.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/SHACAL-2.md",
+    "Cryptography/Symmetric/Description.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Formula.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Single XOR.md",
+    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md",
+    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
+    "Malware Development/Helpers/Crypters/C.md",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Untitled",
     "Command and Control/Images/Havoc/Core Features",
-    "Command and Control/Images/Havoc/Setup",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
-    "Command and Control/Images/Havoc",
-    "Command and Control/Images/Covenant/Core Features",
-    "Command and Control/Covenant/Usage/Interactive Shell/Brute",
-    "Command and Control/Pwncat/Usage",
-    "Command and Control/Pwncat/Usage/Core Features",
-    "Command and Control/Covenant/Usage/Interactive Shell/Grunts",
-    "Command and Control/Covenant/Usage/Interactive Shell",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.5 - Enumerate DBMS Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.6 - Enumerate DBA Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.4 - DBA User.png",
     "Command Line/Compilers/Images/General/Python/01 - Choose a WinePrefix.png",
     "Command Line/Compilers/Images/General/Python/03 - Select Windows 10 Version.png",
     "Command Line/Compilers/Images/General/Python/02 - WineCFG.png",
-    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg",
     "Templates/Images/White Background.png",
     "Untitled.canvas",

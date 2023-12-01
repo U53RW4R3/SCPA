@@ -1,8 +1,8 @@
-# Spoof MAC Address
+# Linux
 
-## 01 - Linux
+Search Tag(s): #operation-security #spoofing #command-line #linux
 
-### 1.1 - Manual
+## 01 - Manual
 
 - `ip` command
 
@@ -16,9 +16,9 @@
 
 `$ sudo ifconfig <interface> hw ether $(openssl rand -hex 6 | sed 's/../&:/g;s/:$//')`
 
-### 1.2 - Macchanger
+## 02 - Macchanger
 
-#### Help Menu
+### 2.1 - Help Menu
 
 ```
 $ macchanger -h
@@ -40,17 +40,17 @@ Usage: macchanger [options] device
 Report bugs to https://github.com/alobbs/macchanger/issues
 ```
 
-#### Usage
+### 2.2 - Usage
 
-- **Change the MAC Address randomly**
+- Change the MAC Address randomly
 
 `$ sudo macchanger -r <interface>`
 
-- **Set the MAC Address manually**
+- Set the MAC Address manually
 
 `$ sudo macchanger -r <interface> -m ab:cd:ef:12:34:56`
 
-#### Use Case
+### 2.3 - Use Case
 
 - Setup a cronjob when rebooting the machine.
 
@@ -58,19 +58,3 @@ Report bugs to https://github.com/alobbs/macchanger/issues
 $ sudo crontab -e
 @reboot macchanger -r <interface>
 ```
-
-## 02 - Windows
-
-### 2.1 - Powershell
-
-- **Note:** run this script with administrative rights.
-
-```powershell
-PS C:\> Get-NetAdapter
-PS C:\> .\New-MACaddress.ps1 -interfaceindexnumber <int>
-```
-
----
-### References
-
-- [New-MACaddress.ps1](https://github.com/KurtDeGreeff/PlayPowershell/blob/master/New-MACaddress.ps1)
