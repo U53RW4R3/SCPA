@@ -1,6 +1,6 @@
 # Hardening
 
-Search Tag(s): #red-team-infrastructure #sliver
+Search Tag(s): #red-team-infrastructure #sliver #firewall-rules
 
 ## 01 - Teamserver
 

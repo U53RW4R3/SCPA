@@ -1,5 +1,7 @@
 # Redirectors
 
+Search Tag(s): #red-team-infrastructure #cobalt-strike #redirectors
+
 TODO: Fill this information
 
 ## 01 - Apache2

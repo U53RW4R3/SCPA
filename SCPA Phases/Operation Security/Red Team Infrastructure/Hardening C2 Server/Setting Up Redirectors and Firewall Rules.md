@@ -1,6 +1,6 @@
 # Setting Up Redirectors and Firewall Rules
 
-Search Tag(s): #red-team-infrastructure
+Search Tag(s): #red-team-infrastructure #redirectors #firewall-rules
 
 ## 01 - Linux
 

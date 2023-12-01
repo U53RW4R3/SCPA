@@ -1,5 +1,7 @@
 # Checklist
 
+Search Tag(s): #red-team-infrastructure #covenant
+
 TODO: Provide a checklist when setting up covenant c2
 
 ## Diagnostics

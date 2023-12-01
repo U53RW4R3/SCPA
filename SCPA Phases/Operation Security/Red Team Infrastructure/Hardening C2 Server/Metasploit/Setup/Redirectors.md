@@ -1,5 +1,7 @@
 # Redirectors
 
+Search Tag(s): #red-team-infrastructure #metasploit-framework #redirectors
+
 ## 01 - Apache2
 
 ### 1.1 - Config file

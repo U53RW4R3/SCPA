@@ -1,5 +1,7 @@
 # Checklist
 
+Search Tag(s): #red-team-infrastructure #cobalt-strike
+
 TODO: Provide a checklist when setting up cobalt strike c2
 
 ## Diagnostics

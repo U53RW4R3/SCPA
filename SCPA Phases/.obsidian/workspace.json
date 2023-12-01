@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Online/TOR/Setup/03 - Whonix.md"
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md"
               }
             }
           },
@@ -170,41 +170,41 @@
   },
   "active": "5833d4e5c0c4df2d",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Hacking.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Penetration Initial Access References.md",
-    "Operation Security/Offline/LUKS/Use Cases/Raspberry Pi Encrypted Dropbox.md",
-    "Operation Security/Offline/LUKS/Encrypting Partition.md",
-    "Operation Security/Offline/Spoof MAC Address/Linux.md",
-    "Operation Security/Offline/Spoof MAC Address/Windows.md",
-    "Operation Security/Offline/Veracrypt/Encrypting Partition.md",
-    "Operation Security/Offline/LUKS/File Containers.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+    "Operation Security/Red Team Infrastructure/Phishing/GoPhish.md",
+    "Operation Security/Red Team Infrastructure/Issue TLS Certificate.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Hardening.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Domain Fronting.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Domain Fronting.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Firewall Rules.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Hardening.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Domain Fronting.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Setup.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Checklist.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Checklist.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Detection.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Firewall Rules.md",
     "Operation Security/Offline/LUKS/Use Cases",
-    "Operation Security/Offline/Veracrypt/Menu.md",
-    "Operation Security/Offline/Veracrypt/File Containers.md",
     "Operation Security/Offline/Spoof MAC Address",
-    "Operation Security/Online/Helpers/Retrieve Proxy Servers.md",
-    "Operation Security/Online/Helpers/Terminal Setup.md",
     "Operation Security/Online/Helpers",
-    "Operation Security/Online/Helpers/SOCKS Proxy Servers.md",
-    "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
-    "Operation Security/Online/TOR/Setup/03 - Whonix.md",
-    "Operation Security/Online/TOR/Setup/02 - Privoxy.md",
-    "Operation Security/Online/TOR/Setup/01 - Proxychains.md",
     "Operation Security/Online/TOR/Usage",
     "Operation Security/Online/TOR",
     "Operation Security/Online/TOR/Setup",
     "Operation Security/Offline/LUKS",
-    "Malware Development/README.md",
-    "Malware Development/Checklist.md",
     "Operation Security/Offline/File Containers",
-    "Cryptography/README.md",
-    "Cryptography/Symmetric/Description.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Formula.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Single XOR.md",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
-    "Malware Development/Helpers/Crypters/C.md",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Untitled",
     "Command and Control/Images/Havoc/Core Features",

@@ -1,5 +1,7 @@
 # Checklist
 
+Search Tag(s): #red-team-infrastructure #sliver
+
 TODO: Provide a checklist when setting up sliver c2
 
 ## Diagnostics
