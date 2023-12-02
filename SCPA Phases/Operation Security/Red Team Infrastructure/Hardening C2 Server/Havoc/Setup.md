@@ -48,3 +48,5 @@ TODO: Provide an example usage for Havoc C2
 ## References
 
 - [Havoc ProfileGenerator](https://github.com/0xv1n/Havoc-ProfileGenerator)
+
+- [WesleyWong420: RedTeamOps-Havoc-101](https://github.com/WesleyWong420/RedTeamOps-Havoc-101)

@@ -20,7 +20,7 @@ TODO: Fill the rest of checklist for Blind SQL injection
 
 ##### Discover Ports
 
-- [ ] Probing ports to check what service version of the webservers using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap#^07168f|nmap]].
+- [ ] Probing ports to check what service version of the webservers using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap#^07168f|nmap]].
 
 ##### Fuzz Hidden Parameters
 
@@ -115,7 +115,7 @@ TODO: Fill out the page comparison for blind SQL injection
 #### DBMS Credentials
 
 - [ ] After you successfully exploited the parameters. Extract the DBMS credentials to authenticate the database server. You can perform this in [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/05 - Credentials|SQLMap]].
-- [ ] Run a port scanner like [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap|Nmap]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu|Naabu]] to discover DBMS open ports.
+- [ ] Run a port scanner like [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap|Nmap]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu|Naabu]] to discover DBMS open ports.
 
 ### Initial Foothold
 

@@ -19,7 +19,7 @@ TODO: Provide the checklist for public webapp exploits
 
 ##### Discover Ports
 
-- [ ] Probing ports to check what service version using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap#^07168f|nmap]].
+- [ ] Probing ports to check what service version using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap#^07168f|nmap]].
 
 ## Vulnerability Assessment
 

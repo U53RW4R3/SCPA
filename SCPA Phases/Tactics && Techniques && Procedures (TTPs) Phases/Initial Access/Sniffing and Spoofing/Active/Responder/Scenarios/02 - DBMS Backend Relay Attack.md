@@ -1,6 +1,6 @@
 # 02 - DBMS Backend Relay Attack
 
-Search Tag(s): #mitm #responder #smb #relay #ntlm #sql-injection
+Search Tag(s): #mitm #responder #smb #relay #ntlm #sql #sql-injection #scenarios
 
 ## 2.1 - MySQL
 

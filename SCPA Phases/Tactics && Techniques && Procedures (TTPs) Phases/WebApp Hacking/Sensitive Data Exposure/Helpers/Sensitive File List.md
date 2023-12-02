@@ -23,5 +23,6 @@ sitemap.xml
 .bash_history
 .zhistory
 .zsh_history
+.viminfo
 .python_history
 ```

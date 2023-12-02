@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c69b0ea1cd21c659",
+            "id": "00ba8073e3b9efdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Jump.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Jump.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Jump.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Jump.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoT.md"
               }
             }
           },
@@ -156,44 +156,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c69b0ea1cd21c659",
+  "active": "00ba8073e3b9efdd",
   "lastOpenFiles": [
-    "Command and Control/Metasploit/Interactive Shell/Helpers/Resource.md",
-    "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Jump.md",
-    "Command and Control/Metasploit/Interactive Shell/Helpers",
-    "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Remote-Exec.md",
-    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Aggressor Scripts.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/03 - Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC)/Windows Management Instrumentation Command line (WMIC).md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Helpers/Cobalt Strike/Untitled",
-    "Command and Control/Cobalt Strike/Helpers/Lateral Movement",
-    "Command and Control/Cobalt Strike/Helpers",
-    "Command and Control/Covenant/Covenant Global References.md",
-    "Command and Control/Covenant/Usage/Interactive Shell/Brute/Help Menu.md",
-    "Command and Control/Cobalt Strike/Cobalt Strike Global References.md",
-    "Command and Control/Covenant/Setup.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/06 - Process Manipulation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/02 - Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/01 - Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/02 - Revert Settings/Logrotate.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/03 - Delete Accounts/Delete Users.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/03 - Delete Accounts/Delete Users.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/03 - Delete Accounts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/02 - Revert Settings",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/03 - Delete Accounts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/04 - Clear Logs/Disable Logs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/04 - Clear Logs/Disable Logs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/02 - Revert Settings/Wdigest/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/04 - Clear Logs/Delete Logs/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/04 - Clear Logs/Delete Logs/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/02 - Revert Settings/Wdigest",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/02 - Revert Settings",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Windows/Clear Traces/04 - Clear Logs/Delete Logs",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/01 - Remove Artifacts/Secure Delete Files.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/01 - Remove Artifacts/01 - Remove Implants.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/04 - Clear Logs/Delete Logs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Anti-Forensics/Linux/Clear Traces/04 - Clear Logs/Modify Logs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Censys/Censys Usage.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Security Search Engines/Censys/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Go-Dork.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Producing Reports/Recon-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Spiderfoot.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Recon-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Infoga.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/GoMapEnum.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/DataSurgeon.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/CrossLinked.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - theHarvester.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/Untitled",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/SSL Server Test/Recon-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/SSL Server Test/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Command Injection/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/History Commands.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Database Leaks.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Configuration Files.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Confidential Documents.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Data/Sensitive Files/Backup and Old Files.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/09 - Phonebook.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/Recon-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/DNSRecon.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/SSL Server Test",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/DNS/IntoDNS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage/CeWL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage/Exiftool.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Cloud Lookup",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/06 - ASN ID",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/05 - Mail Exchange Servers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/04 - Forge Repositories",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

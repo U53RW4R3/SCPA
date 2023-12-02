@@ -13,7 +13,7 @@ TODO: Add powershell cmdlet Invoke-WmiMethod in the aggressor script wmi_psh and
 ```perl
 # $1 = bid (beacon_id), $2 = target, $3 = listener
 
-$process_name = rand(@("malware", "evil", "detectme"));
+$process_name = rand(@("svchost", "evil", "detectme"));
 
 sub wmi_remote_spawn {
    local('$name $exedata');

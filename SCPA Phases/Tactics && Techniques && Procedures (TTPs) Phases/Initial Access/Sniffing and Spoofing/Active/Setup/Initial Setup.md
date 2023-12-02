@@ -1,6 +1,6 @@
 # Initial Setup
 
-TODO: Fill in the infomation regarding the setting up for active MITM
+TODO: Fill in the information regarding the setting up for active MITM
 
 ## Enable IP forwarding
 

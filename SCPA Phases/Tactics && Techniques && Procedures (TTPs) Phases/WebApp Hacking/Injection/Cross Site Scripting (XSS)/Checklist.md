@@ -20,7 +20,7 @@ TODO: Provide more checklists for XSS
 
 ##### Discover Ports
 
-- [ ] Probing ports to check what service version of the webservers using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap#^07168f|nmap]].
+- [ ] Probing ports to check what service version of the webservers using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap#^07168f|nmap]].
 
 ##### Fuzz Hidden Parameters
 
