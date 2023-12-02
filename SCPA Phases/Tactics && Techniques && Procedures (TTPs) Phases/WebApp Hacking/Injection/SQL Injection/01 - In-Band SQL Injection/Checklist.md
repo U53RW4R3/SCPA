@@ -12,6 +12,7 @@ TODO: Fill the rest of checklist for SQL injection
 
 - [ ] Find common parameters to perform SQL injection via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual|google dorks]].
 - [ ] Spider the webservers with [[Katana|katana]] or [[Gospider|gospider]] to find hidden parameters.
+- [ ] Browse the website with OWASP ZAP or Burp Suite to see any potential interest.
 
 ### Active Reconnaissance
 
@@ -41,7 +42,7 @@ TODO: I got this covered - Userware
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
 - [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
-- [ ] Using [[Nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities.
+- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities.
 
 #### Content Management System
 

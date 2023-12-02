@@ -68,4 +68,4 @@ Specify x86|x64 to force a specific view of the registry.
 
 `beacon> reg query <x86 | x64> <HKLM | HKCR | HKCU | HKU>\path\to\registry_key\`
 
-`beacon> reg queryv <x86 | x64> <HKLM | HKCR | HKCU | HKU>\path\to\registry\registry_subkey`
+`beacon> reg queryv <x86 | x64> <HKLM | HKCR | HKCU | HKU>\path\to\registry registry_subkey`

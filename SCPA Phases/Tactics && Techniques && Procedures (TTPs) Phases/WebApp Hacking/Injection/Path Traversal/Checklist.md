@@ -10,6 +10,7 @@ Search Tag(s): #checklist #path-traversal #webapp
 
 - [ ] Find common parameters to perform path traversal via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual|google dorks]].
 - [ ] Spider the webservers with [[Katana|katana]] or [[Gospider|gospider]] to find hidden parameters.
+- [ ] Browse the website with OWASP ZAP or Burp Suite to see any potential interest.
 
 ### Active Reconnaissance
 
@@ -34,7 +35,7 @@ TODO: I got this covered - Userware
 
 - [ ] Use [[Wapiti]] to find potential path traversal exploits.
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto]] scanner to discover for existing path traversal exploits.
-- [ ] Using [[Nuclei]] with fuzzer templates to discover GET request URLs with path traversal vulnerabilities.
+- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei]] with fuzzer templates to discover GET request URLs with path traversal vulnerabilities.
 
 #### Content Management System
 

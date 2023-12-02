@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f63c50cfd1eb87b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Physical Penetration/Physical Hacking.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/01 - Mimikatz.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/01 - Mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/01 - Mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/01 - Mimikatz.md"
               }
             }
           },
@@ -170,44 +158,44 @@
   },
   "active": "5833d4e5c0c4df2d",
   "lastOpenFiles": [
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Phishing/GoPhish.md",
-    "Operation Security/Red Team Infrastructure/Issue TLS Certificate.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Hardening.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Domain Fronting.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Domain Fronting.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Hardening.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Domain Fronting.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Firewall Rules.md",
-    "Operation Security/Offline/LUKS/Use Cases",
-    "Operation Security/Offline/Spoof MAC Address",
-    "Operation Security/Online/Helpers",
-    "Operation Security/Online/TOR/Usage",
-    "Operation Security/Online/TOR",
-    "Operation Security/Online/TOR/Setup",
-    "Operation Security/Offline/LUKS",
-    "Operation Security/Offline/File Containers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/04 - Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/03 - Impacket.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/02 - Rubeus.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Tickets/01 - Mimikatz.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/PowerSploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Persistence/Windows/Domain Persistence/Golden Ticket.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Dump Credentials/06 - Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Manual/Impacket.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Hashdump/01 - Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Hashdump/02 - Mimikatz.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Hashdump/03 - Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Empire.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Mimikatz.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Nishang.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Invoke-DCSync.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Group Policy Preferences.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Domain Privilege Escalation/Token/Token Impersonation.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Sensitive Files/History/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Discover Programs/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Applocker/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Defense Evasion/Applocker",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Sensitive Files/Stored Files/Security Solutions",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Sensitive Files/Stored Files",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Sensitive Files/Config Files",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Sensitive Files/Config Files/Network Protocols/VNC",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Sensitive Files/Config Files/Network Protocols",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Sensitive Files",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Network Protocols/SNMP",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Network Protocols/SSH",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
-    "Command and Control/Images/Havoc/Untitled",
-    "Command and Control/Images/Havoc/Core Features",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.5 - Enumerate DBMS Users.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.6 - Enumerate DBA Users.png",

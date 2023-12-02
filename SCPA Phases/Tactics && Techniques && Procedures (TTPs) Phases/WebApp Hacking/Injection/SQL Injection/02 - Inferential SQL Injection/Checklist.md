@@ -12,6 +12,7 @@ TODO: Fill the rest of checklist for Blind SQL injection
 
 - [ ] Find common parameters to perform blind SQL injection via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual|google dorks]].
 - [ ] Spider the webservers with [[Katana|katana]] or [[Gospider|gospider]] to find hidden parameters.
+- [ ] Browse the website with OWASP ZAP or Burp Suite to see any potential interest.
 
 ### Active Reconnaissance
 

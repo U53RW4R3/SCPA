@@ -109,15 +109,21 @@ Use "dalfox [command] --help" for more information about a command.
 
 TODO: Fill this info
 
-`$ dalfox url http[s]://<IP>/ | cut -d " " -f 2 > xss_vulns.txt`
+`$ dalfox url http[s]://<IP>/`
 
-`$ dalfox file urls.txt | cut -d " " -f 2 > xss_vulns.txt`
+`$ dalfox url --waf-evasion http[s]://<IP>/`
 
 ## Use Cases
 
 ### Gathering Endpoints
 
-`$ gospider -S urls.txt -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e code-200 | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | qsreplace -a | dalfox pipe -o xss-endpoints-vulns.txt`
+```
+$ gospider -S urls.txt -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e code-200 | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | qsreplace -a | dalfox pipe -o xss-endpoints-vulns.txt
+
+$ dalfox url http[s]://<IP>/ | cut -d " " -f 2 > xss_vulns.txt
+
+$ dalfox file urls.txt | cut -d " " -f 2 > xss_vulns.txt
+```
 
 ---
 ## References
