@@ -192,7 +192,7 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 #### Enumeration and Discovery
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Linux/Users|Users]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Internal Reconnaissance/Users/Users|Users]]
 
 - [[Environment Variables]]
 
@@ -212,8 +212,8 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 #### Enumeration and Discovery
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Enumeration and Discovery/Windows/Host/Networking/IP Address/Manual|IP Addresses]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/Manual|IP Addresses]]
 
 #### Privilege Escalation
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Credential Access and Dumping/Windows/Host/Registry/Hashdump/01 - Manual|Manual Hashdump]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Registry/Hashdump/01 - Manual|Manual Hashdump]]

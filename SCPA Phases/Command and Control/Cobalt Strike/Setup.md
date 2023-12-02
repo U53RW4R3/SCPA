@@ -14,6 +14,8 @@ Search Tag(s): #cobalt-strike #command-and-control
 
 ## 02 - Launch teamserver and operator client
 
-`$ sudo ./teamserver <IP> <password> /path/to/malleable_c2.profile`
+```
+$ sudo ./teamserver <IP> <password> /path/to/malleable_c2.profile
 
-`$ ./cobaltstrike.sh`
+$ ./cobaltstrike.sh
+```

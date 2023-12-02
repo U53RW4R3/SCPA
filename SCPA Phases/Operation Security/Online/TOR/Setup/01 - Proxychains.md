@@ -28,7 +28,7 @@ $ curl https://ip.me
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/Pivoting and Lateral Movement/Pivoting/Linux/SOCKS Proxy/Proxychains|Pivoting SOCKS Proxy with proxychains]]
+- [[Proxychains|Pivoting SOCKS Proxy with proxychains]]
 
 - [Check TOR](https://check.torproject.org/)
 
