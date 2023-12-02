@@ -1,5 +1,7 @@
 # Covenant Global References
 
+Search Tag(s): #covenant #command-and-control #global-references
+
 * [Covenant](https://github.com/cobbr/Covenant/wiki)
 
 * [Covenant for Pentester Basics](https://www.hackingarticles.in/covenant-for-pentester-basics/)

