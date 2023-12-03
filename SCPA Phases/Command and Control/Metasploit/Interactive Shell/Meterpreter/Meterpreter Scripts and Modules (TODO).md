@@ -160,7 +160,9 @@ run post/windows/gather/credentials/kmeleon
 
 run post/windows/gather/enum_prefetch
 
-run post/windows/gather/credentials/line
+run post/windows/gather/credentials/viber (instant messenger)
+
+run post/windows/gather/credentials/line (instant messenger)
 
 run post/windows/gather/enum_proxy
 
@@ -244,7 +246,7 @@ run post/windows/gather/credentials/srware
 
 run post/windows/gather/credentials/sso
 
-run post/windows/gather/credentials/steam
+run post/windows/gather/credentials/steam (steam)
 
 run post/windows/gather/credentials/tango
 
@@ -265,8 +267,6 @@ run post/windows/gather/credentials/total_commander
 run post/windows/gather/credentials/trillian
 
 run post/windows/gather/tcpnetstat
-
-run post/windows/gather/credentials/viber
 
 run post/windows/gather/credentials/vnc
 
