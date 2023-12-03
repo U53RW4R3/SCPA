@@ -170,7 +170,11 @@ Lookup username accounts
 
 `$ smbclient -U "<username>%<password>" -L //<IP>`
 
+`$ smbclient -U "<username>" --password="<password>" -L //<IP>`
+
 `$ smbclient -U "<username>" --pw-nt-hash <ntlm_hash> -L //<IP>`
+
+`$ pth-smbclient -U <domain>/<username>%aad3b435b51404eeaad3b435b51404ee:<ntlm_hash> //<IP>/c$`
 
 `$ smbclient --option="client min protocol=core" -U "" //<IP>/<share>`
 
@@ -180,7 +184,7 @@ Lookup username accounts
 
 `$ smbclient [<domain>/]<username>:<password>@<IP>`
 
-`$ smbclient -hashes :<nt_hash> [<domain>/]<username>@<IP>`
+`$ smbclient -hashes :<ntlm_hash> [<domain>/]<username>@<IP>`
 
 ##### 1.2.1.2 - Enum4Linux
 

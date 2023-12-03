@@ -21,7 +21,7 @@
 ```
 $ sqsh -S <IP> -D <database> -U [<domain_name>\]<username> -P <password | ntlm_hash>
 
-$ sqsh -S <IP> -D <database> -U [<domain_name\]<username -P 00000000000000000000000000000000:<nt_hash>
+$ sqsh -S <IP> -D <database> -U [<domain_name\]<username -P 00000000000000000000000000000000:<ntlm_hash>
 ```
 
 ### 1.3 - Null Authenication
