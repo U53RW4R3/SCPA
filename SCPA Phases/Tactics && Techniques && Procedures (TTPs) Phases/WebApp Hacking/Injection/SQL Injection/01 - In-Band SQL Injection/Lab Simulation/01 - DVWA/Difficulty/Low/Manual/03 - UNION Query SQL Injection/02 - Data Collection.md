@@ -48,7 +48,7 @@ $ echo "admin:5f4dcc3b5aa765d61d8327deb882cf99,gordonb:e99a18c428cb38d5f26085367
 
 ### 2.1.2 - Crack Current Database Password Hashes
 
-- Let's identify what hash algorithm it uses before we could crack it. Let's run [[Identify Hash#^f93d17|Name-That-Hash]].
+- Let's identify what hash algorithm it uses before we could crack it. Let's run [[Name-That-Hash]].
 
 ```
 $ nth --no-banner --no-hashcat --text '5f4dcc3b5aa765d61d8327deb882cf99'
@@ -146,7 +146,7 @@ $ echo "root:*4F56EF3FCEF3F995F03D1E37E2D692D420111476,dvwa:*D7E39C3AF517EC9EF70
 
 ### 2.1.4 - Crack MySQL Server Password Hashes
 
-- Let's identify what hash algorithm it uses before we could crack it. Let's run [[Identify Hash#^0f21a0|HashID]].
+- Let's identify what hash algorithm it uses before we could crack it. Let's run [[HashID#^0f21a0|HashID]].
 
 ```
 $ hashid -j "*4F56EF3FCEF3F995F03D1E37E2D692D420111476"
@@ -172,6 +172,6 @@ Session completed.
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Enumeration/Network Protocols/MySQL|MySQL Active Enumeration]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/MySQL|MySQL Active Enumeration]]
 
 - [SecurityIdiots: XSS Injection with SQLi (XSSQLi)](https://www.securityidiots.com/Web-Pentest/SQL-Injection/xss-injection-with-sqli-xssqli.html)

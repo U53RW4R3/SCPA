@@ -10,7 +10,7 @@ TODO: Fill the rest of checklist for SQL injection
 
 #### Discover Hidden Parameters
 
-- [ ] Find common parameters to perform SQL injection via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual|google dorks]].
+- [ ] Find common parameters to perform SQL injection via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual|google dorks]].
 - [ ] Spider the webservers with [[Katana|katana]] or [[Gospider|gospider]] to find hidden parameters.
 - [ ] Browse the website with OWASP ZAP or Burp Suite to see any potential interest.
 
@@ -26,7 +26,7 @@ TODO: Fill the rest of checklist for SQL injection
 
 TODO: I got this covered - Userware
 
-- [ ] To bruteforce hidden parameters use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/FFuF|Fuff]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/Wfuzz|Wfuzz]].
+- [ ] To bruteforce hidden parameters use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/FFuF|Fuff]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/Wfuzz|Wfuzz]].
 - [ ] [[Arjun]] and [[x8]] and [[WaybackURLs]].
 
 ## Vulnerability Assessment
@@ -57,7 +57,7 @@ TODO: I got this covered - Userware
 
 #### Common Parameters
 
-- [ ] Check the top parameters in [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual|google dorks]].
+- [ ] Check the top parameters in [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual|google dorks]].
 
 #### GET Request
 
@@ -111,7 +111,7 @@ TODO: Fill out the page comparison for SQL injection
 #### DBMS Credentials
 
 - [ ] After you successfully exploited the parameters. Extract the DBMS credentials to authenticate the database server. You can perform this in [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Scenarios/Discovery and Enumeration/Database/SQLMap/05 - Credentials|SQLMap]].
-- [ ] Run a port scanner like [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap|Nmap]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Naabu|Naabu]] to discover DBMS open ports.
+- [ ] Run a port scanner like [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap|Nmap]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Port Scanners/Naabu|Naabu]] to discover DBMS open ports.
 
 ### Initial Foothold
 

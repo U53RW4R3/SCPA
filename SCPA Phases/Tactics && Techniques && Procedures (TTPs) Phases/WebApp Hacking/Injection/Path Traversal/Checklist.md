@@ -8,7 +8,7 @@ Search Tag(s): #checklist #path-traversal #webapp
 
 #### Discover Hidden Parameters
 
-- [ ] Find common parameters to perform path traversal via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual|google dorks]].
+- [ ] Find common parameters to perform path traversal via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual|google dorks]].
 - [ ] Spider the webservers with [[Katana|katana]] or [[Gospider|gospider]] to find hidden parameters.
 - [ ] Browse the website with OWASP ZAP or Burp Suite to see any potential interest.
 
@@ -24,7 +24,7 @@ Search Tag(s): #checklist #path-traversal #webapp
 
 TODO: I got this covered - Userware
 
-- [ ] To bruteforce hidden parameters use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/FFuF|Fuff]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/Wfuzz|Wfuzz]].
+- [ ] To bruteforce hidden parameters use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/FFuF|Fuff]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/Wfuzz|Wfuzz]].
 - [ ] [[Arjun]] and [[x8]] and [[WaybackURLs]].
 
 ## Vulnerability Assessment
@@ -48,7 +48,7 @@ TODO: I got this covered - Userware
 
 #### Common Parameters
 
-- [ ] Check the top parameters in [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual|google dorks]].
+- [ ] Check the top parameters in [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual|google dorks]].
 
 #### GET Request
 
