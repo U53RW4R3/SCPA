@@ -64,7 +64,15 @@ TODO: I got this covered - Userware
 
 #### Evasion
 
+- Change the `Content-Type` header to a normal file. For example:
+	- Images
+		- [ ] `image/png`
 - [ ] Use PHP filewrapper to bypass filter
+- Include metadata with `exiftool` with any of these tags:
+	- [ ] Comment
+	- [ ] Copyright
+	- [ ] DocumentName
+- [ ] Include PHP payload in the basename of the file. For example: `<?php system($_GET['cmd']); ?>.png`
 
 #### Remote File Inclusion (RFI)
 

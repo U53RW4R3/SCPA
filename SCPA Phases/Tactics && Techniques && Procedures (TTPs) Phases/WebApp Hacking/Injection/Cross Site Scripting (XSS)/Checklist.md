@@ -20,7 +20,7 @@ TODO: Provide more checklists for XSS
 
 ##### Discover Ports
 
-- [ ] Probing ports to check what service version of the webservers using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap#^07168f|nmap]].
+- [ ] Probing ports to check what service version of the webservers using [[06 - Scan Techniques|nmap]].
 
 ##### Fuzz Hidden Parameters
 
@@ -75,3 +75,11 @@ TODO: I got this covered - Userware
 #### Stored XSS
 
 - [ ] Waterfall
+
+#### File Upload
+
+- Include metadata with `exiftool` with any of these tags:
+	- [ ] Comment
+	- [ ] Copyright
+	- [ ] DocumentName
+- [ ] Include XSS payload in the basename of the file. For example: `"><script>alert(1)</script>.png`

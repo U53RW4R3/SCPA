@@ -4,6 +4,8 @@ Search Tag(s): #dvwa #xss #sql-injection
 
 TODO: Demonstrate with [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin]] to inject javascript code
 
+CTRL+SHIFT+C
+
 ## Persistent XSS
 
 Harvests data

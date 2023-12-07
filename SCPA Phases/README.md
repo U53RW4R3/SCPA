@@ -33,6 +33,8 @@ e.g `[/flag-option]`, `[args]`
 
 e.g `[<bind_IP>]`, `[<PORT>]`
 
+`()` -> Grouped parameter
+
 ### Terminal Prompts
 
 #### General

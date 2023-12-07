@@ -62,3 +62,8 @@ Extapi: WMI Querying Commands
     -------       -----------
     wmi_query     Perform a generic WMI query and return the results
 ```
+
+---
+## References
+
+- [OJ's Perspective: 3 Months of Meterpreter](https://buffered.io/posts/3-months-of-meterpreter/)
