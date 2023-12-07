@@ -2,7 +2,7 @@
 
 ## Gathering other URLs
 
-- **`google_site_web` recon-ng module**
+- `google_site_web` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/domains-hosts/google_site_web
@@ -16,7 +16,7 @@
 
 ## Discover sensitive information
 
-- **`interesting_files` recon-ng module**
+- `interesting_files` recon-ng module
 
 ```
 [recon-ng][default] > modules load discovery/info_disclosure/interesting_files
@@ -38,7 +38,7 @@
 
 ## Google dorking with vulnerabilities
 
-- **`ghdb` recon-ng module**
+- `ghdb` recon-ng module
 
 ```
 [recon-ng][default] > modules load recon/domains-vulnerabilities/ghdb
@@ -76,7 +76,7 @@
 
 ## Resolve URLs with IPs
 
-- **`resolve` recon-ng module**
+- `resolve` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/hosts-hosts/resolve
@@ -90,7 +90,7 @@
 
 ## Reverse resolve netblocks
 
-- **`reverse_resolve` recon-ng module**
+- `reverse_resolve` recon-ng module
 
 ```
 [recon-ng][default] > modules load recon/netblocks-hosts/reverse_resolve

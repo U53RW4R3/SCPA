@@ -47,6 +47,6 @@ Go to IPv4 Settings and enter the following details from this table below.
 
 - [IPInfo](https://ipinfo.io)
 
-- [Amazon AWS IP Lookup](checkip.amazonaws.com)
+- [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
 
 - [Subnet Cheatsheet Subnet Mask](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)

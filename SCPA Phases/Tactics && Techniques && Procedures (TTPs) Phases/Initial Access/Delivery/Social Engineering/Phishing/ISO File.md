@@ -36,7 +36,7 @@ Turn off the **App Installers**
 
 ![[02 - Manage app execution aliases.png]]
 
-- **Then install the Python packages**
+- Then install the Python packages
 
 ```
 C:\> git clone https://github.com/mgeeky/PackMyPayload.git

@@ -192,7 +192,7 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 #### Enumeration and Discovery
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Internal Reconnaissance/Users/Metasploit|Metasploit]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/01 - Users/C2 Frameworks/Metasploit|Metasploit]]
 
 - [[Environment Variables]]
 
@@ -202,7 +202,7 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 #### Enumeration and Discovery
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Internal Reconnaissance/Scheduled Tasks/Cron Job/Manual]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/03 - Scheduled Tasks/Cron Job/Manual/Living off the Land]]
 
 #### Credentials Access and Dumping
 

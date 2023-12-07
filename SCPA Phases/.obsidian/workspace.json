@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/02 - MSFVenom.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Cron Jobs.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#metasploit",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 438.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/02 - MSFVenom.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Cron Jobs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/02 - MSFVenom.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Cron Jobs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/02 - MSFVenom.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Cron Jobs.md"
               }
             }
           },
@@ -159,42 +158,42 @@
   },
   "active": "f2d8517f22f6f044",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/02 - MSFVenom.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/01 - Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Backdoor EXEcutable Files/03 - Shellter.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Obfuscators/ConfuserEx.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Obfuscators/Invoke-Obfuscation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Obfuscators/Invoke-PSObfuscation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Obfuscate Files/Webshell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Rootkits/Linux.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Linux/Basic Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Linux/Chkrootkit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Linux/ClamAV.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Linux/Lynis.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/01 - Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/02 - Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/02 - C2 Frameworks/03 - Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/02 - C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Security Solutions/Windows/01 - Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Auditing Tools/Bloodhound/Bloodhound.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Auditing Tools/adPEAS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Auditing Tools/Bloodhound",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN).md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/Kerberos Unconstrained Delegation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Offensive Tools/Binaries/Medusa.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Offensive Tools/Binaries/Rubeus.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Offensive Tools/Scripts/CrackMapExec.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Offensive Tools/Scripts/DomainPasswordSpray.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Sensitive Files/Stored Files/Security Solutions/McAfee/02 - C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Sensitive Files/Stored Files/Security Solutions/McAfee",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Sensitive Files/Stored Files/Security Solutions/McAfee/01 - Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Firewalls/Linux/UFW/Remove Firewall Rules",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Firewalls/Linux/IPTables/Remove Firewall Rules/Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Firewalls/Linux/IPTables/Remove Firewall Rules",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/Firewalls/Linux/IPTables/Remove Firewall Rules/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Bash Profiles.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Rootkits/Apache Rootkit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Gathering Information/Windows/WireTap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Gathering Information/Linux/WireTap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Mayhem/Printers.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Change Password.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Execute Assembly.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Shellcode Injection.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Troll.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Webcam Chat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Remote Login/SSH.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Remote Login/Create User.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Linux Post Exploitation Persistence References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Webshell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/SUID.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Service Daemon Backdoor.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/OpenSSH.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Linux/Backdoors/Cron Jobs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Gathering Information/Windows",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Gathering Information/Linux",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Gathering Information",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/WinRM.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/RDP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Install Software/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Install Software/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Install Certificate/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Shortcut Links.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/WMI",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Startup",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Syntax/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Syntax/Offensive Tools/Binaries",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Syntax/Offensive Tools",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Registry Keys/Registry Syntax/Manual",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

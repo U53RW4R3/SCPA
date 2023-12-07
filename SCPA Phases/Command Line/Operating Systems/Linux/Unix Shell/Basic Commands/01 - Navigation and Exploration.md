@@ -24,11 +24,13 @@ Search Tag(s): #command-line #linux
 
 ### 1.2.1 - Basics of find command
 
-`$ find / -type f -iname "*secrets*"`
+```
+$ find / -type f -iname "*secrets*"
 
-`$ find / -type d -iname "config"`
+$ find / -type d -iname "config"
 
-`$ find / -type f -user <username>`
+$ find / -type f -user <username>
+```
 
 ### 1.2.2 - Find size of bytes
 

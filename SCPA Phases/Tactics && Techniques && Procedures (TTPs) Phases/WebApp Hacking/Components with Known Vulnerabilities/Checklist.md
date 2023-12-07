@@ -37,7 +37,7 @@ TODO: Provide the checklist for public webapp exploits
 
 #### IoTs
 
-- [ ] [[Routers#^23aff9|Routersploit]] via `autopwn/scanner` module
+- [ ] [[Routers#^7d9f1e|Routersploit]] via `autopwn/scanner` module
 
 ### Exploits
 
