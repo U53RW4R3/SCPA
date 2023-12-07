@@ -8,12 +8,6 @@ run post/windows/gather/lsa_secrets (dump LSASS secrets)
 
 run post/windows/gather/memory_grep (find specific strings in the process ID)
 
-run post/windows/gather/credentials/thunderbird
-
-run post/windows/gather/credentials/windowslivemail
-
-run post/windows/gather/credentials/outlook (outlook credentials)
-
 run post/windows/gather/outlook (https://github.com/rapid7/metasploit-framework/blob/master/data/post/powershell/outlook.ps1)
 
 run post/windows/gather/exchange (https://github.com/rapid7/metasploit-framework/blob/master/data/post/powershell/exchange.ps1 && https://news.sophos.com/en-us/2021/03/09/sophoslabs-offensive-security-releases-post-exploitation-tool-for-exchange/ && https://github.com/sophoslabs/metasploit_gather_exchange)
@@ -172,7 +166,7 @@ run post/windows/gather/credentials/mcafee_vse_hashdump
 
 run post/windows/gather/credentials/mdaemon_cred_collector
 
-run post/windows/gather/enum_shares
+
 
 run post/windows/gather/credentials/meebo
 
@@ -229,8 +223,6 @@ run post/windows/gather/credentials/seamonkey
 run post/windows/gather/local_admin_search_enum
 
 run post/windows/gather/credentials/securecrt
-
-run post/windows/gather/credentials/skype
 
 run post/windows/gather/make_csv_orgchart
 
@@ -432,8 +424,6 @@ run post/multi/manage/shell_to_meterpreter
 
 run post/multi/gather/env
 
-run post/multi/gather/skype_enum
-
 run post/multi/manage/sudo
 
 run post/multi/gather/fetchmailrc_creds
@@ -623,8 +613,6 @@ run domain_list_gen
 run duplicate
 
 run enum_putty
-
-run enum_shares
 
 run enum_vmware
 

@@ -1,8 +1,8 @@
-# 01 - Basic Commands
+# 02 - Basic Commands
 
 Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
-## 1.1 - Navigation
+## 2.1 - Navigation
 
 * Change Directory
 
@@ -15,7 +15,7 @@ meterpreter > pwd
 C:\Users\aiden\
 ```
 
-## 1.2 - List Contents
+## 2.2 - List Contents
 
 ```
 meterpreter > ls -h
@@ -90,9 +90,9 @@ Mode              Size   Type  Last modified              Name
 meterpreter > ls -S ".docx" c:/users/%username%/documents/
 ```
 
-## 1.3 - File Manipulation
+## 2.3 - File Manipulation
 
-### 1.3.1 - Copy files
+### 2.3.1 - Copy files
 
 ```
 meterpreter > cp
@@ -107,14 +107,14 @@ meterpreter > ls //ws01/c$/windows/temp/file.txt
 100666/rw-rw-rw-  0  fil  2022-05-24 01:52:49 -0400  //defalt/c$/windows/temp/file.txt
 ```
 
-### 1.3.2 - Move files
+### 2.3.2 - Move files
 
 ```
 meterpreter > mv
 Usage: mv oldfile newfile
 ```
 
-### 1.3.3 - Delete files
+### 2.3.3 - Delete files
 
 ```
 meterpreter > rm
@@ -125,21 +125,21 @@ Usage: rm file1 [file2...]
 
 `meterpreter > rm //ws01/c$/windows/temp/file.txt`
 
-### 1.3.4 - Create Directories
+### 2.3.4 - Create Directories
 
 ```
 meterpreter > mkdir
 Usage: mkdir dir1 dir2 dir3 ...
 ```
 
-### 1.3.5 - Remove Directories
+### 2.3.5 - Remove Directories
 
 ```
 meterpreter > rmdir
 Usage: rmdir dir1 dir2 dir3 ...
 ```
 
-### 1.3.6 - Create/Edit the file
+### 2.3.6 - Create/Edit the file
 
 Note: the default editor is `vim` if it's missing it'll switch to `nano` instead
 
@@ -155,7 +155,7 @@ Over SMB Network
 
 `meterpreter > edit //ws01/c$/Users/%username%/Documents/file.txt`
 
-### 1.3.7 - Checksum File hashes
+### 2.3.7 - Checksum File hashes
 
 ```
 meterpreter > checksum -h
@@ -169,7 +169,7 @@ meterpreter > checksum md5 file.txt
 d4142d7def55ea1dfb6875f28cf08d9b  file.txt
 ```
 
-## 1.4 - Upload and Download Files
+## 2.4 - Upload and Download Files
 
 ```
 meterpreter > upload -h
@@ -198,13 +198,13 @@ OPTIONS:
     -t   Timestamp downloaded files
 ```
 
-## 1.5 - Load Extension
+## 2.5 - Load Extension
 
 `meterpreter > load <extension>`
 
 `meterpreter > run <post_module/meterpreter_script>`
 
-## 1.6 - Channels
+## 2.6 - Channels
 
 ```
 meterpreter > channel -h
@@ -245,14 +245,14 @@ Killing all channels...
 Killed all channels.
 ```
 
-## 1.7 - Background
+## 2.7 - Background
 
 ```
 meterpreter > background
 [*] Backgrounding session 1...
 ```
 
-## 1.8 - Re-encrypt key
+## 2.8 - Re-encrypt key
 
 * (Re)negotiate TLV packets for encryption
 
@@ -262,7 +262,7 @@ meterpreter > secure
 [+] Done.
 ```
 
-## 1.9 - Spawn Interactive Shell
+## 2.9 - Spawn Interactive Shell
 
 TODO: Fill this info
 

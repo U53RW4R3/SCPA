@@ -1,8 +1,8 @@
-# 03 - Process Manipulation
+# 04 - Process Manipulation
 
 Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
-## 3.1 - Migrate to Another Process
+## 4.1 - Migrate to Another Process
 
 * Setting up listener to auto migrate to another process
 
@@ -45,7 +45,7 @@ meterpreter > migrate -N winlogon.exe
 [*] Migration completed successfully.
 ```
 
-## 3.2 - Get Process ID
+## 4.2 - Get Process ID
 
 ```
 meterpreter > getpid

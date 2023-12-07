@@ -1,8 +1,8 @@
-# 02 - Internal Reconnaissance
+# 03 - Internal Reconnaissance
 
 Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
-## 2.1 - System
+## 3.1 - System
 
 * Show hardware information of the host
 
@@ -98,9 +98,9 @@ meterpreter > localtime
 Local Date/Time: 2022-05-14 14:39:41.311 Pacific Daylight Time (UTC-800)
 ```
 
-## 2.2 - Processes
+## 3.2 - Processes
 
-### 2.2.1 - List Processes
+### 3.2.1 - List Processes
 
 ```
 meterpreter > ps -h
@@ -178,7 +178,7 @@ Process List
 ..[snip]..
 ```
 
-### 2.2.2 - Filter Processes
+### 3.2.2 - Filter Processes
 
 TODO: Fill this info
 
@@ -207,7 +207,7 @@ meterpreter > pgrep lsass
 696
 ```
 
-## 2.3 - Networking
+## 3.3 - Networking
 
 * Help Menu
 
@@ -434,7 +434,7 @@ msf post(windows/manage/inject_host) > set session <session_id>
 msf post(windows/manage/inject_host) > run
 ```
 
-## 2.4 - Registry
+## 3.4 - Registry
 
 * Help Menu
 
@@ -463,7 +463,7 @@ COMMANDS:
     queryval    Queries the data contents of a value [-k <key> -v <val>]
 ```
 
-### 2.4.1 - Basic Commands
+### 3.4.1 - Basic Commands
 
 - Syntax registry meterpreter command.
 
@@ -493,7 +493,7 @@ COMMANDS:
 
 `meterpreter > reg queryclass [-r <target_IP>] -k <hive_name>\\path\\to\\registry`
 
-## 2.5 - Search Files
+## 3.5 - Search Files
 
 ```
 meterpreter > search -h

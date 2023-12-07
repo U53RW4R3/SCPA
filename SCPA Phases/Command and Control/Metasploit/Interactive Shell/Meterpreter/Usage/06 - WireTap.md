@@ -1,10 +1,10 @@
-# 05 - WireTap
+# 06 - WireTap
 
 Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
-## 5.1 - Webcam
+## 6.1 - Webcam
 
-### 5.1.1 - Help Menu
+### 6.1.1 - Help Menu
 
 ```
 meterpreter > webcam_snap -h
@@ -22,7 +22,7 @@ meterpreter > webcam_stream -h
 
 `meterpreter > webcam_snap -i <device_ID> -p /path/to/file.png`
 
-## 5.2 - Screenshots
+## 6.2 - Screenshots
 
 1. Screenshot
  

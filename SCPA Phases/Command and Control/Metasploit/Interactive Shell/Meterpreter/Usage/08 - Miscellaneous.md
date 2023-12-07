@@ -1,4 +1,4 @@
-# 07 - Miscellaneous
+# 08 - Miscellaneous
 
 Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
