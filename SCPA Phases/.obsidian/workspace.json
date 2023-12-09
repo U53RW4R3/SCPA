@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/LDAP.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems/Windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ldapsearch",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/LDAP.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems/Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/LDAP.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/LDAP.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems/Windows.md"
               }
             }
           },
@@ -159,6 +158,20 @@
   },
   "active": "9af29cb684ac327a",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/01 - Users/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/01 - Users/Offensive Tools/Scripts/PowerSploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/C2 Frameworks/Havoc.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/C2 Frameworks/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Offensive Tools/Scripts/PowerSploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/07 - Software Packing.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/LDAP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/03 - Applocker/Windows",
+    "Command and Control/Cobalt Strike/Usage/Core Features/02 - Credentials Database.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/ISO File.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Path Traversal/Lab Simulation/01 - DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Path Traversal/Lab Simulation/01 - DVWA/Difficulty/Low/Remote File Inclusion (RFI)/Manual.md",
@@ -173,18 +186,6 @@
     "Command Line/Operating Systems/Windows/Powershell/03 - Process Manipulation.md",
     "Malware Development/README.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/List Processes/Manual.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/03 - Process Manipulation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Dump Credentials/02 - Offensive Tools/Binaries/Mimikatz.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Sensitive Files/Dump Memory Process/Metasploit.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/02 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/DLL Hijacking/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Impacket/Services.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Impacket/SMBExec.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/09 - Maintaining Access/Persistence/Windows/Domain Persistence/Golden Ticket.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Kerberos",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/C2 Frameworks",
@@ -193,8 +194,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/Kerberos Unconstrained Delegation",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/Offensive Tools/Binaries",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/Offensive Tools/Scripts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/Manual",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
