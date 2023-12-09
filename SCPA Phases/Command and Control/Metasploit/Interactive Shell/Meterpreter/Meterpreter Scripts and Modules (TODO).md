@@ -8,8 +8,6 @@ run post/windows/manage/powershell/load_script
 
 run post/windows/manage/powershell/build_net_code
 
-run post/windows/gather/enum_ad_service_principal_names (Enum to Kerberoast SPNs)
-
 run post/windows/gather/lsa_secrets (dump LSASS secrets)
 
 run post/windows/gather/memory_grep (find specific strings in the process ID)

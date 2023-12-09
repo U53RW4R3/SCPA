@@ -105,6 +105,8 @@ C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsy
 ---
 ## References
 
+- [Malicious.link: Compiling a DLL using MingGW](https://room362.com/posts/2020/compiling-a-dll-using-mingw/)
+
 - [EDR and Blending In: How Attackers Avoid Getting Caught](https://www.optiv.com/insights/source-zero/blog/edr-and-blending-how-attackers-avoid-getting-caught)
 
 - [Quickpost Compiling EXEs and Resources with Mingw on Kali](https://blog.didierstevens.com/2018/09/17/quickpost-compiling-exes-and-resources-with-mingw-on-kali/)

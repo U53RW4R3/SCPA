@@ -19,7 +19,7 @@ TODO: Provide the checklist for public webapp exploits
 
 ##### Discover Ports
 
-- [ ] Probing ports to check what service version using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap#^07168f|nmap]].
+- [ ] Probing ports to check what service version using [[06 - Scan Techniques|nmap]].
 
 ## Vulnerability Assessment
 
@@ -27,7 +27,7 @@ TODO: Provide the checklist for public webapp exploits
 
 #### General
 
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto]] scanner to discover for existing webapp exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing webapp exploits.
 - [ ] Look for shellshock vulnerabilities in the [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist|shellshock checklist]].
 
 #### Content Management System

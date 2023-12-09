@@ -177,6 +177,10 @@ msf auxiliary(gather/ldap_hashdump) >
 ---
 ## References
 
-- [Pentesting LDAP](https://book.hacktricks.xyz/pentesting/pentesting-ldap)
+- [Hacktricks: Pentesting LDAP](https://book.hacktricks.xyz/pentesting/pentesting-ldap)
+
+- [Malicious.link: LDAPSearch Reference](https://room362.com/posts/2022/ldapsearch-reference/)
+
+- [Malicious.link: Dump LAPS passwords with ldapsearch](https://room362.com/posts/2017/dump-laps-passwords-with-ldapsearch/)
 
 - [Techno Herder: How To Search LDAP using ldapsearch (With Examples)](https://hack.technoherder.com/how-to-search-ldap-using-ldapsearch-with-examples/)

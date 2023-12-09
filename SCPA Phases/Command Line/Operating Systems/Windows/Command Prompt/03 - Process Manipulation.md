@@ -16,6 +16,8 @@ C:\> tasklist /fi "imagename eq <process.exe>"
 C:\> wmic process list full
 
 C:\> wmic process list brief
+
+C:\> wmic Path Win32_Process Get Caption, Processid, Commandline
 ```
 
 ## 3.2 - Terminate Processes
@@ -38,3 +40,5 @@ C:\> wmic process where "Name Like '<process.exe>'" call terminate
 ## References
 
 - [[Windows Command Prompt References]]
+
+- [Malicious.link: Get Process List](https://room362.com/posts/2020/get-process-list/)

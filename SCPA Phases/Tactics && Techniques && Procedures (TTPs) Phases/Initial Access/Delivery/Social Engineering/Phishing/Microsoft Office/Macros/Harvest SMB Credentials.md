@@ -19,4 +19,4 @@ Refer to **Sniffing and Spoofing** section under [[Tactics && Techniques && Proc
 
 - [Living off the Land Stealing NetNTLM Hashes](https://www.securify.nl/blog/living-off-the-land-stealing-netntlm-hashes)
 
-- [Phishing with Maldocs](https://www.n00py.io/2017/04/phishing-with-maldocs/)
+- [n00py: Phishing with Maldocs](https://www.n00py.io/2017/04/phishing-with-maldocs/)

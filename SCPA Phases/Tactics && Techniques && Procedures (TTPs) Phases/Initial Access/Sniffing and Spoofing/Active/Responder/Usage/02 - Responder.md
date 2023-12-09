@@ -50,16 +50,24 @@ $ sudo iptables -A INPUT -p tcp --dport 445 -j DROP
 
 - [Responders DHCP Poisoner](https://g-laurent.blogspot.com/2021/08/responders-dhcp-poisoner.html)
 
-- [Understanding UNC Paths SMB And WebDAV](https://www.n00py.io/2019/06/understanding-unc-paths-smb-and-webdav/)
+### Hacking Articles
 
-- [The Dangers of Endpoint Discovery in Vipre Endpoint Security](https://www.n00py.io/2020/12/the-dangers-of-endpoint-discovery-in-vipre-endpoint-security/)
+- [Hacking Articles: A Detailed Guide on Responder LLMNR Poisoning](https://www.hackingarticles.in/a-detailed-guide-on-responder-llmnr-poisoning/)
 
-- [Places of Interest in Stealing NetNTLM Hashes](https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/)
+### n00py
 
-- [Using A SCF File to Gather Hashes](https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/)
+- [n00py: Understanding UNC Paths SMB And WebDAV](https://www.n00py.io/2019/06/understanding-unc-paths-smb-and-webdav/)
+
+- [n00py: The Dangers of Endpoint Discovery in Vipre Endpoint Security](https://www.n00py.io/2020/12/the-dangers-of-endpoint-discovery-in-vipre-endpoint-security/)
+
+### Mubix
+
+- [Malicious.link: SMB/HTTP Auth Capture via SCF File](https://room362.com/posts/2016/smb-http-auth-capture-via-scf/)
+
+### DMCXBLUE
 
 - [DMCXBLUE: Capturing Hashes](https://dmcxblue.net/2020/06/17/capturing-hashes/)
 
-- [SMB HTTP Auth Capture va SCF](https://room362.com/post/2016/smb-http-auth-capture-via-scf/)
+- [Using A SCF File to Gather Hashes](https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/)
 
-- [A Detailed Guide on Responder LLMNR Poisoning](https://www.hackingarticles.in/a-detailed-guide-on-responder-llmnr-poisoning/)
+- [Places of Interest in Stealing NetNTLM Hashes](https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/)

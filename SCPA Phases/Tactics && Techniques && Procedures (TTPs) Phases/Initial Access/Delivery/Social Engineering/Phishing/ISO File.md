@@ -161,3 +161,7 @@ Then copy the ISO File to your attacker machine and start a web server to simula
 - [Tommelo LNK2Pwn](https://github.com/tommelo/lnk2pwn)
 
 - [IT-Gorillaz LNK2Pwn](https://github.com/it-gorillaz/lnk2pwn)
+
+### Mitigation
+
+- [Malicious.link: Blocking ISO mounting](https://room362.com/posts/2022/blocking-iso-mounting/)

@@ -18,7 +18,7 @@ Search Tag(s): #checklist #path-traversal #webapp
 
 ##### Discover Ports
 
-- [ ] Probing ports to check what service version of the webservers using [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage/Nmap#^07168f|nmap]].
+- [ ] Probing ports to check what service version of the webservers using [[06 - Scan Techniques|nmap]].
 
 ##### Fuzz Hidden Parameters
 
@@ -34,8 +34,8 @@ TODO: I got this covered - Userware
 #### General
 
 - [ ] Use [[Wapiti]] to find potential path traversal exploits.
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto]] scanner to discover for existing path traversal exploits.
-- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei]] with fuzzer templates to discover GET request URLs with path traversal vulnerabilities.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing path traversal exploits.
+- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with path traversal vulnerabilities.
 
 #### Content Management System
 

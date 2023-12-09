@@ -8,7 +8,7 @@ TODO: Fill this info
 
 ### Active Enumeration
 
-- [ ] Probing ports to check what service version of the webservers.
+- [ ] Probing ports to check what service version of the webservers using [[06 - Scan Techniques|nmap]].
 - [ ] Find common directories with a list of [[Shellshock List|Common Gateway Interface (CGI)]] or perform [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Metasploit|web crawling or directory bruteforce]].
 - [ ] Perform [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Metasploit|directory bruteforce]] after checking CGIs directories on the webserver to find specific file extensions: `.sh`
 

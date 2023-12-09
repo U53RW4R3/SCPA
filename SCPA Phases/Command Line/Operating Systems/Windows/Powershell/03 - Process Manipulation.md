@@ -6,9 +6,15 @@ Search Tag(s): #command-line #windows
 
 ### 2.1.1 - Display Processes
 
-`PS C:\> Get-Process`
+```
+PS C:\> Get-Process
 
-`PS C:\> Get-Process -IncludeUserName`
+PS C:\> Get-Process -IncludeUserName
+
+PS C:\> Get-CimInstance -ClassName Win32_Process | Select-Object CommandLine
+
+PS C:\> Get-WMiObject -ClassName Win32_Process 
+```
 
 ## 2.2 - Terminate Processes
 
@@ -24,3 +30,5 @@ Search Tag(s): #command-line #windows
 ## References
 
 - [[Windows Powershell Cmdlet References]]
+
+- [Malicious.link: Get Process List](https://room362.com/posts/2020/get-process-list/)

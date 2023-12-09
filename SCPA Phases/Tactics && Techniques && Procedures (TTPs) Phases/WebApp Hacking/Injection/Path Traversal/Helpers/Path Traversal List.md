@@ -41,4 +41,6 @@ zip://file.jpg%23shell.php
 
 - [0xffsec Handbook File Inclusion and Path Traversal](https://0xffsec.com/handbook/web-applications/file-inclusion-and-path-traversal/)
 
- - [Cobalt: A Pentester's Guide to File Inclusion](https://www.cobalt.io/blog/a-pentesters-guide-to-file-inclusion)
+- [Cobalt: A Pentester's Guide to File Inclusion](https://www.cobalt.io/blog/a-pentesters-guide-to-file-inclusion)
+
+- [Malicious.link: Simple PHP webshell with php filter chains](https://room362.com/posts/2023/simple-php-webshell-with-php-filter-chains/)
