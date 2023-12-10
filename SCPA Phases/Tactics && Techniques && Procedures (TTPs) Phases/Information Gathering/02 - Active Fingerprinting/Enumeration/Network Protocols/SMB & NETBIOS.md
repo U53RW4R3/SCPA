@@ -172,9 +172,9 @@ Lookup username accounts
 
 `$ smbclient -U "<username>" --password="<password>" -L //<IP>`
 
-`$ smbclient -U "<username>" --pw-nt-hash <ntlm_hash> -L //<IP>`
+`$ smbclient -U "<username>" --pw-nt-hash <nt_hash> -L //<IP>`
 
-`$ pth-smbclient -U <domain>/<username>%aad3b435b51404eeaad3b435b51404ee:<ntlm_hash> //<IP>/c$`
+`$ pth-smbclient -U <domain>/<username>%aad3b435b51404eeaad3b435b51404ee:<nt_hash> //<IP>/c$`
 
 `$ smbclient --option="client min protocol=core" -U "" //<IP>/<share>`
 
@@ -184,7 +184,7 @@ Lookup username accounts
 
 `$ smbclient [<domain>/]<username>:<password>@<IP>`
 
-`$ smbclient -hashes :<ntlm_hash> [<domain>/]<username>@<IP>`
+`$ smbclient -hashes :<nt_hash> [<domain>/]<username>@<IP>`
 
 ##### 1.2.1.2 - Enum4Linux
 
@@ -192,9 +192,9 @@ Lookup username accounts
 
 ##### 1.2.1.3 - SMBMap
 
-`$ smbmap -u "<username>" -p "<password>" -H "<ntlm_hash>" <IP> [-P <PORT>]`
+`$ smbmap -u "<username>" -p "<password>" -H "<nt_hash>" <IP> [-P <PORT>]`
 
-`$ smbmap -u "<username>" -p "<NT>:<LM>" -H "<ntlm_hash>" <IP> [-P <PORT>]`
+`$ smbmap -u "<username>" -p "<NT>:<LM>" -H "<nt_hash>" <IP> [-P <PORT>]`
 
 ##### 1.2.1.4 - CrackMapExec
 
@@ -204,7 +204,7 @@ Lookup username accounts
 
 - Pass The Hash
 
-`$ crackmapexec smb <IP> -u "<username>" -H "<ntlm_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
+`$ crackmapexec smb <IP> -u "<username>" -H "<nt_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
 
 ##### 1.2.1.5 - Mount Share
 
@@ -372,11 +372,11 @@ Module options (auxiliary/scanner/smb/smb_enumshares):
 
 msf auxiliary(scanner/smb/smb_enumshares) > set smbuser <username>
 
-msf auxiliary(scanner/smb/smb_enumshares) > set smbpass <password>
+msf auxiliary(scanner/smb/smb_enumshares) > set smbpass <password | aad3b435b51404eeaad3b435b51404ee:<nt_hash>>
 
 msf auxiliary(scanner/smb/smb_enumshares) > set rhosts <IP>
 
-msf auxiliary(scanner/smb/smb_enumshares) > set smbdomain [domain_name]
+msf auxiliary(scanner/smb/smb_enumshares) > set smbdomain [<domain_name>]
 
 msf auxiliary(scanner/smb/smb_enumshares) > set showfiles <true | false>
 
@@ -409,11 +409,11 @@ Module options (auxiliary/scanner/smb/smb_enumusers):
 
 msf auxiliary(scanner/smb/smb_enumusers) > set smbuser <username>
 
-msf auxiliary(scanner/smb/smb_enumusers) > set smbpass <password>
+msf auxiliary(scanner/smb/smb_enumusers) > set smbpass <password | aad3b435b51404eeaad3b435b51404ee:<nt_hash>>
 
 msf auxiliary(scanner/smb/smb_enumusers) > set rhosts <IP>
 
-msf auxiliary(scanner/smb/smb_enumusers) > set smbdomain [domain_name]
+msf auxiliary(scanner/smb/smb_enumusers) > set smbdomain [<domain_name>]
 
 msf auxiliary(scanner/smb/smb_enumusers) > set threads 4
 
@@ -463,9 +463,9 @@ View the full module info with the info, or info -d command.
 
 msf auxiliary(scanner/smb/smb_lookupsid) > set smbuser <username>
 
-msf auxiliary(scanner/smb/smb_lookupsid) > set smbpass <password | DOMAIN>
+msf auxiliary(scanner/smb/smb_lookupsid) > set smbpass <password | aad3b435b51404eeaad3b435b51404ee:<nt_hash>>
 
-msf auxiliary(scanner/smb/smb_lookupsid) > set smbdomain [domain_name]
+msf auxiliary(scanner/smb/smb_lookupsid) > set smbdomain [<domain_name>]
 
 msf auxiliary(scanner/smb/smb_lookupsid) > set action <LOCAL | DOMAIN>
 
