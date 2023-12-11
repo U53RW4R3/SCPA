@@ -1,5 +1,7 @@
 # Meterpreter Scripts and Modules (TODO)
 
+https://github.com/rapid7/metasploit-framework/tree/master/documentation (refer to this)
+
 ## Windows Gather Modules
 
 
@@ -23,9 +25,13 @@ run post/windows/gather/enum_chrome (dump chrome browser cache data)
 
 run post/windows/gather/enum_putty_saved_sessions (discover putty SSH sessions)
 
+=========
+
 run dumplinks (dump shortcut lnk files)
 
-run post/windows/gather/dumplinks (dump shortcut lnk files)
+run post/windows/gather/dumplinks (dump shortcut lnk files) && https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/post/windows/gather/dumplinks.md
+
+=========
 
 run post/windows/gather/bitcoin_jacker (Harvest bitcoin wallet)
 
@@ -368,8 +374,6 @@ run post/multi/manage/screensaver
 run post/multi/gather/enum_hexchat
 
 run post/multi/gather/rubygems_api_key
-
-run post/multi/manage/screenshare
 
 run post/multi/gather/enum_software_versions
 

