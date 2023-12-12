@@ -143,7 +143,7 @@ By default the username is `sa` with null authentication of the MSSQL database s
 ### 2.1 - Help Menu
 
 ```
-$ mssqlclient -h
+$ mssqlclient.py -h
 
 SQL> help
 ```

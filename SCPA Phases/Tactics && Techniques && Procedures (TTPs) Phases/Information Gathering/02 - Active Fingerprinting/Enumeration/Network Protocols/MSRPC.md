@@ -6,7 +6,7 @@
 
 #### 1.1.1 - Impacket
 
-`$ rpcdump <IP> -p 135`
+`$ rpcdump.py <IP> -p 135`
 
 #### 1.1.2 - Windows Command Prompt
 
@@ -18,7 +18,7 @@
 
 ## 03 - Metasploit
 
-- **Metasploit auxiliary module Endpoint Mapper Service Discovery**
+- Metasploit auxiliary module Endpoint Mapper Service Discovery
 
 ```
 msf > use auxiliary/scanner/dcerpc/endpoint_mapper
@@ -43,7 +43,7 @@ msf auxiliary(scanner/dcerpc/endpoint_mapper) > set rhosts <IP>
 msf auxiliary(scanner/dcerpc/endpoint_mapper) > run
 ```
 
-- **Metasploit auxiliary module Hidden DCERPC Service Discovery**
+- Metasploit auxiliary module Hidden DCERPC Service Discovery
 
 ```
 msf > use auxiliary/scanner/dcerpc/hidden
@@ -67,7 +67,7 @@ msf auxiliary(scanner/dcerpc/hidden) > set rhosts <IP>
 msf auxiliary(scanner/dcerpc/hidden) > run
 ```
 
-- **Metasploit auxiliary module Remote Management Interface Discovery**
+- Metasploit auxiliary module Remote Management Interface Discovery
 
 ```
 msf > use auxiliary/scanner/dcerpc/management
@@ -92,7 +92,7 @@ msf auxiliary(scanner/dcerpc/management) > set rhosts <IP>
 msf auxiliary(scanner/dcerpc/management) > run
 ```
 
-- **Metasploit auxiliary module Remote Management Interface Discovery**
+- Metasploit auxiliary module Remote Management Interface Discovery
 
 ```
 msf > use auxiliary/scanner/dcerpc/tcp_dcerpc_auditor

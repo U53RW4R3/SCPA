@@ -18,4 +18,4 @@
 
 ## 03 - Impacket
 
-`$ rdp_check <domain_name>/<username>:<password>@<IP>`
+`$ rdp_check.py <domain_name>/<username>:<password>@<IP>`

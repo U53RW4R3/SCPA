@@ -8,7 +8,7 @@
 
 Check some common and leaked credentials performing a password dictionary attack against and RDP service with impacket
 
-`$ rdp_check <domain_name>/<name>:<password>@<IP>`
+`$ rdp_check.py <domain_name>/<name>:<password>@<IP>`
 
 ## 02 - Nmap
 

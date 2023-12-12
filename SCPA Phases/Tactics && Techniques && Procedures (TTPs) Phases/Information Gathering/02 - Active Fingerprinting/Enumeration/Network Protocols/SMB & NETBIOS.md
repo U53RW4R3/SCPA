@@ -182,9 +182,9 @@ Lookup username accounts
 
 ###### 1.2.1.2.1 - SMBClient
 
-`$ smbclient [<domain>/]<username>:<password>@<IP>`
+`$ smbclient.py [<domain>/]<username>:<password>@<IP>`
 
-`$ smbclient -hashes :<nt_hash> [<domain>/]<username>@<IP>`
+`$ smbclient.py -hashes :<nt_hash> [<domain>/]<username>@<IP>`
 
 ##### 1.2.1.2 - Enum4Linux
 
@@ -235,9 +235,9 @@ Lookup username accounts
 ###### 1.2.2.2.1 - SMBClient
 
 ```
-$ smbclient -no-pass [<domain>/]''@<IP>
+$ smbclient.py -no-pass [<domain>/]''@<IP>
 
-$ smbclient -no-pass [<domain>/]guest@<IP>
+$ smbclient.py -no-pass [<domain>/]guest@<IP>
 ```
 
 ##### 1.2.2.3 - SMBMap
