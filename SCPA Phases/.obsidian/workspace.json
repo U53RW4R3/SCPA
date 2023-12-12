@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "9af29cb684ac327a",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Jump Host.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Local Port Forwarding.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Jump Host.md",
     "Command and Control/Webshells/Weevely/05 - Spawn Callback Shell.md",
     "Command Line/Operating Systems/Linux/Use Cases/Basic Commands/Randomized Characters.md",
     "Command Line/Operating Systems/Linux/Use Cases/Basic Commands/Parse Python Packages.md",
