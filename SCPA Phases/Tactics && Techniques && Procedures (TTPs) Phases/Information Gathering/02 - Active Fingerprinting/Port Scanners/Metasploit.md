@@ -155,6 +155,8 @@ msf auxiliary(scanner/portmap/portmap_amp) >
 
 ## Evasion
 
+- Idle Zombie Scan
+
 ```
 msf > use auxiliary/scanner/ip/ipidseq
 
@@ -175,5 +177,14 @@ msf auxiliary(scanner/ip/ipidseq) > set rhosts <IP>/<CIDR>
 
 msf auxiliary(scanner/ip/ipidseq) > set rport <PORT>
 
+msf auxiliary(scanner/ip/ipidseq) > set threads 2
+
 msf auxiliary(scanner/ip/ipidseq) > run
 ```
+
+---
+## References
+
+### Evasion
+
+- [[08 - Evasion#^031757|Nmap: Zombie Scan]]

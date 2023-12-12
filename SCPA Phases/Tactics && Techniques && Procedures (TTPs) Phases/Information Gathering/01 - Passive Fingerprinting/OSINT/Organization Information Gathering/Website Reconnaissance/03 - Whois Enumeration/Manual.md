@@ -1,0 +1,3 @@
+# Manual
+
+`$ whois <domain.com>`

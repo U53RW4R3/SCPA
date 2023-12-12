@@ -4,6 +4,8 @@ Search Tag(s): #command-line #networking #use-cases #linux
 
 ## Retrieve private IPv4 address
 
+TODO: Rearrange them
+
 ```
 $ ifconfig | grep "inet" | grep "broadcast" | awk '{print $2}'
 

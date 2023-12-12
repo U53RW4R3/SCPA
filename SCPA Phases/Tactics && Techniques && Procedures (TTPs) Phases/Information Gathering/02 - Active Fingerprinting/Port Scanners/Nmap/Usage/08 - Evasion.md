@@ -80,7 +80,7 @@ Exploit misconfigured firewall rules with a source port
 
 `$ sudo hping3 <target_IP> -a <source_IP>`
 
-2. Idle Zombie Scan
+2. Idle Zombie Scan ^031757
 
 `$ sudo nmap -sI <zombie_IP> <target_IP>`
 

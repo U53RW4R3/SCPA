@@ -1,23 +1,4 @@
-# Whois Enumeration
-
-## 3.1 - Manual
-
-`$ whois <domain.com>`
-
-## 3.2 - Amass
-
-### Setup
-
-```
-$ go install -v github.com/owasp-amass/amass/v3/...@master && \
-sudo cp ~/go/bin/amass /usr/local/bin
-```
-
-### Usage
-
-`$ amass intel -whois -d <website.com> -dir whois-output`
-
-## 3.3 - Recon-ng
+# Recon-ng
 
 - `viewdns_reverse_whois` recon-ng module
 
