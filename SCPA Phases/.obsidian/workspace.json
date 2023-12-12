@@ -11,8 +11,12 @@
             "id": "9af29cb684ac327a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "slayer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md"
+              }
             }
           },
           {
@@ -150,11 +158,19 @@
   },
   "active": "9af29cb684ac327a",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Windows/Port Forwarding/SSH.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Local Port Forwarding.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Remote Port Forwarding.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Jump Host.md",
+    "Command and Control/Webshells/Weevely/05 - Spawn Callback Shell.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Basic Commands/Randomized Characters.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Basic Commands/Parse Python Packages.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Basic Commands/Base64.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Basic Commands",
+    "Command Line/Compilers/Linux/Linux.md",
+    "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Jump.md",
+    "Command and Control/Cobalt Strike/Helpers/Lateral Movement/Remote-Exec.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Windows/Port Forwarding/SSH.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Metasploit/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/General/Port Forwarding/Socat.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/SOCKS Proxy/reGeorg.md",
@@ -169,13 +185,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/HTTP Tunneling.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/ProxyTunnel.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/ICMP Tunneling.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/DNS Tunneling/DNSCat2.md",
-    "Command and Control/DNSCat2/Core Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/DNS Tunneling/DNSCat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Windows/SOCKS Proxy/PowerProxy.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share/FTP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Share/SMB.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Default Credentials/Network Protocols/FTP.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Default Credentials/Network Protocols",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Default Credentials",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Internet of Things (IoT)/Modbus",
@@ -185,7 +194,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/IoTs/CCTV Cameras",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Metasploit",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
