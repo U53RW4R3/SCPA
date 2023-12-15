@@ -5,3 +5,8 @@ $ theHarvester -d <domain.com | organization_name> -l 800 -b google,bing,yahoo,d
 
 $ theHarvester -d DigiNinja -b google,bing,linkedin,duckduckgo -f digininja.xml
 ```
+
+---
+## References
+
+- [theHarvester](https://github.com/laramies/theHarvester)

@@ -27,15 +27,13 @@ activity "Activity in %t(%n)"
 
 `$ screen -S <session_name>`
 
-`CTRL-a + CTRL-d` -> detach session for gnu screen
-
 `$ session -ls` -> list the sessions
 
 `$ session -r <session_name>`
 
 `CTRL-a + c` -> creates a new window
 
-`CTRL-a + CTRL-d` -> detach session for screen
+`CTRL-a + CTRL-d` -> detach session for GNU screen
 
 `CTRL-a + n` -> next window pane
 

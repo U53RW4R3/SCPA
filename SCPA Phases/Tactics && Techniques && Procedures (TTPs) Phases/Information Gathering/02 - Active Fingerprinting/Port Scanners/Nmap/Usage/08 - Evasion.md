@@ -48,7 +48,7 @@ Send randomized data
 
 ### 8.1.3 -  Spoofing
 
-1. Decoys
+#### 8.1.3.1 - Decoys
 
 - Using SOCKS proxies to disguise ourselves
 
@@ -58,17 +58,19 @@ Send randomized data
 
 - Send decoys to the target IP
 
-`$ sudo nmap -D <IP_1>,<IP_2>,<IP_3> <IP>`
+```
+$ sudo nmap -D <IP_1>,<IP_2>,<IP_3> <IP>
 
-`$ sudo nmap -D RND:<int> <IP>`
+$ sudo nmap -D RND:<int> <IP>
 
-`$ sudo nmap -D RND:10 <IP>`
+$ sudo nmap -D RND:10 <IP>
+```
 
-Specify the network interface
+- Specify the network interface
 
 `$ sudo nmap -e <interface> <IP>`
 
-Spoof source IP address
+- Spoof source IP address
 
 `$ sudo nmap -e <interface> -Pn -S <source_IP> <target_IP>`
 
@@ -80,7 +82,15 @@ Exploit misconfigured firewall rules with a source port
 
 `$ sudo hping3 <target_IP> -a <source_IP>`
 
-2. Idle Zombie Scan ^031757
+#### 8.1.3.2 - Idle Zombie Scan
+
+^72346e
+
+- Scan for incremental ports to probe
+
+`$ sudo nmap --script ipidseq [--script-args probeport=<PORT>] <target_IP>`
+
+- Scan a target with a zombie source IP
 
 `$ sudo nmap -sI <zombie_IP> <target_IP>`
 

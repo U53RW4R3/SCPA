@@ -69,3 +69,7 @@ intext:("You have an error in your SQL syntax" | "PHP Parse error" | "PHP Warnin
 - [HOW TO FIND ADMIN PANEL OF WEBSITE USING GOOGLE DORKS?](https://coolzgeeks.com/how-to-find-admin-panel-using-google-dorks/)
 
 - [DorkSearch.com](https://dorksearch.com/)
+
+### Gathering SQL Injection Vulnerabilities
+
+- [Threat Intelligence: How to find vulnerabilities in a web page in 10 minutes](https://medium.com/@Threat_Intelligence/how-to-find-vulnerabilities-in-a-web-page-in-10-minutes-66cd052b4fbc)

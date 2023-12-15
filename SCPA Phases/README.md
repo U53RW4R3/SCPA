@@ -25,7 +25,7 @@ I'm Userware and I've started this project due to my experience that contains ta
 
 e.g `<IP>`, `<username>`, `<password>`
 
-`[]` -> Optional paramaters
+`[]` -> Optional contextual paramaters
 
 e.g `[/flag-option]`, `[args]`
 

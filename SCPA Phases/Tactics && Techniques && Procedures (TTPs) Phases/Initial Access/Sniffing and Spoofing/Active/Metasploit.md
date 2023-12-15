@@ -141,3 +141,5 @@ msf auxiliary(server/capture/smb) > run
 - [Run ARP Poisoning Attacks with Metasploit and Detect Them with Wireshark](https://fabian-voith.de/2020/04/24/run-arp-poisoning-attacks-with-metasploit-and-detect-them-with-wireshark/)
 
 - [Using Metasploit SMB Sniffer Module](https://blog.carnal0wnage.com/2009/04/using-metasploit-smb-sniffer-module.html)
+
+- [Hackers Arise: Metasploit Basics, Part 20: Creating a Fake SMB Server to Capture Credentials](https://www.hackers-arise.com/post/2018/11/19/Metasploit-Basics-Part-20-Creating-a-Fake-SMB-Server-to-Capture-Credentials)

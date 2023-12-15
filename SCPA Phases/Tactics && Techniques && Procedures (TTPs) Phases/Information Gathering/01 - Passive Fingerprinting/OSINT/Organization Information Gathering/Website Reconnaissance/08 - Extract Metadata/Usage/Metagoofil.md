@@ -7,6 +7,8 @@ $ metagoofil -u "<user_agent>" -d <domain.com> -t pdf,doc,docx,docm,xls,xlsx,xls
 ---
 ## References
 
+- [Metagoofil](https://github.com/laramies/metagoofil)
+
 - [[OSINT Framework]]
 
 - [How Metadata Can Reveal Sensitive Information During Pentesting.](https://medium.com/@kanhaiyapanchal7/how-metadata-can-reveal-sensitive-information-during-pentesting-164037b33486)

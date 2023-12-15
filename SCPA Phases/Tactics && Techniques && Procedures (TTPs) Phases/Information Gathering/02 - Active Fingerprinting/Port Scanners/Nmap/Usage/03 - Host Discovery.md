@@ -74,7 +74,23 @@ If you want to specify a specific dns server to lookup
 
 `$ sudo nmap --traceroute -sn -PE <IP>`
 
+## 3.8 - Resolve IP Addresses
+
+TODO: Test this NSE script
+
+```
+$ nmap --resolve-all <IP>
+
+$ nmap --script resolveall --script-args=newtargets,resolveall.hosts={<host1>, ...} <IP>
+```
+
+## 3.9 - ICMP Forwarding Enabled
+
+`$ sudo nmap -sn --script ip-forwarding --script-args='target=<website.com>' <IP>`
+
 ---
 ## References
 
 - [Nmap usage tips](https://miloserdov.org/?p=3639)
+
+- [Nmap NSEDocs: Script resolveall](https://nmap.org/nsedoc/scripts/resolveall.html)

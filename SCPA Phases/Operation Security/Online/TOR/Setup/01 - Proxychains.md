@@ -18,12 +18,16 @@ socks5  127.0.0.1 9050
 - Lookup IP
 
 ```
-$ curl https://ipinfo.io
+$ proxychains curl https://ipinfo.io
 
-$ curl https://ifconfig.me
+$ proxychains curl https://ifconfig.me
 
-$ curl https://ip.me
+$ proxychains curl https://ip.me
 ```
+
+- Check if you're connected to TOR
+
+`$ proxychains curl --silent https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."`
 
 ---
 ## References

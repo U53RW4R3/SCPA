@@ -7,6 +7,10 @@ TODO: Provide a checklist for security misconfiguration
 - [ ] Router default credentials
 - [ ] Web panel default credentials
 
+### Vulnerability Assessment
+
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Security Misconfiguration/Default Credentials/Scanners/Nmap|NSE script]] to perform bruteforce the default crednetials on the webservers and IoTs with `-iL ips.txt` flag.
+
 ## API
 
 ### Information Gathering

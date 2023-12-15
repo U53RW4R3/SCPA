@@ -11,8 +11,8 @@ OPTIONS http[s]://<IP> HTTP/1.1
 
 - Test all HTTP methods
 
-`$ nmap -p 80,443 -sV --script http-methods --script-args http-methods.test=all <IP>`
+`$ nmap -p 80,443 -Pn -n -sV --script http-methods --script-args http-methods.test=all <IP>`
 
 - Discover open HTTP proxy
 
-`$ nmap -p 80,443,8080 --script http-open-proxy --script-args proxy.url=<URL>,proxy.pattern=<pattern> <IP>`
+`$ nmap -p 80,443,8080 -Pn -n --script http-open-proxy --script-args proxy.url=<URL>,proxy.pattern=<pattern> <IP>`

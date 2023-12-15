@@ -14,3 +14,5 @@ $ separator="======================================="; for i in $(ls); do printf
 ## References
 
 - [GitTools](https://github.com/internetwache/GitTools)
+
+- [Abid Mafahim: How I Found A Website Vulnerability In Under 10 Minutes](https://medium.com/@abidmafahim7/how-i-found-a-website-vulnerability-in-under-10-minutes-2b2ff934545d)

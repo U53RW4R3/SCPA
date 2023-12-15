@@ -17,3 +17,12 @@ TODO: Provide a checklist for Sensitive Data Exposure
 - [ ] Check the [[Sensitive File List|common sensitive file list]] to find sensitive files.
 - [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/Tools/Nmap|NSE script]] to enumerate the webservers with `-iL ips.txt` flag.
 - [ ] Perform directory bruteforce via [[Gobuster]].
+
+## Vulnerability Assessment
+
+### Scanners
+
+#### General
+
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Sensitive Data Exposure/Web Applications Forensics/Scanners/Nuclei|Nuclei]] with a default templates to discover configuration files exposed on the webservers.

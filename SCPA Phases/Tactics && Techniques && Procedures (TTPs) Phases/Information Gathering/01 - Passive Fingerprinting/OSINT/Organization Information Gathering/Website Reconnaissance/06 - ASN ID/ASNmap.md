@@ -36,7 +36,7 @@ OUTPUT:
    -version            show version of the project
 ```
 
-### Usage
+## Usage
 
 - Lookup target via ASN
 

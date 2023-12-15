@@ -8,9 +8,15 @@ Note: unlike SOCKS4 protocol, SOCKS5 provides more options for authentication an
 
 `$ nmap -p 1080 --script socks-auth-info <IP>`
 
+## Detect Open SOCKS Proxy
+
+`$ nmap -p 1080 --script socks-open-proxy --script-args proxy.url=<host>,proxy.pattern=<pattern> <IP>`
+
 ---
 ## References
 
 - [[Proxychains]]
+
+- [Nmap NSEDocs: Script socks-open-proxy](https://nmap.org/nsedoc/scripts/socks-open-proxy.html)
 
 - [Hacktricks: 1080 - Pentesting Socks](https://book.hacktricks.xyz/network-services-pentesting/1080-pentesting-socks)

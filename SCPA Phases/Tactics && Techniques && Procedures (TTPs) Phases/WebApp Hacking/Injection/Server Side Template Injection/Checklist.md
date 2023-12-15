@@ -12,7 +12,7 @@ TODO: Provide more list for the SSTI checklist
 
 - [ ] You can use XSS scanners to perform and inject Cross-Site Scripting (XSS) payloads for heuristic checks as a probable indicator for SSTI exploits.
 	- [[Dalfox]]
-- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei]] with fuzzer templates to discover GET request URLs with SSTI vulnerabilities.
+- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with SSTI vulnerabilities.
 
 - [ ] Try to inject XSS payloads and then perform the mathematical expressions 
 - [ ] Check Cookie headers to inject
