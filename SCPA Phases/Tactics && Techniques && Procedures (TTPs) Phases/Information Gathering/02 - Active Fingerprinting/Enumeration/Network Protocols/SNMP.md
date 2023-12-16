@@ -167,4 +167,4 @@ msf auxiliary(scanner/snmp/snmp_set) > set rhosts <IP>
 
 - [Pentesting SNMP](https://book.hacktricks.xyz/pentesting/pentesting-snmp)
 
-- [Enumerating with Nmap](https://materials.rangeforce.com/tutorial/2020/01/30/Enumerating-with-Nmap/)
+- [RangeForce: Enumerating with Nmap](https://materials.rangeforce.com/tutorial/2020/01/30/Enumerating-with-Nmap/)

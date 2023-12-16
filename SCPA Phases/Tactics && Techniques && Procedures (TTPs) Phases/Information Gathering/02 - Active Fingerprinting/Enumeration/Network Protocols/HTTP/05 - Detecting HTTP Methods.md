@@ -13,6 +13,8 @@ OPTIONS http[s]://<IP> HTTP/1.1
 
 `$ nmap -p 80,443 -Pn -n -sV --script http-methods --script-args http-methods.test=all <IP>`
 
-- Discover open HTTP proxy
+## 5.3 - Metasploit
 
-`$ nmap -p 80,443,8080 -Pn -n --script http-open-proxy --script-args proxy.url=<URL>,proxy.pattern=<pattern> <IP>`
+TODO: Fill this information
+
+`msf > use auxiliary/scanner/http/options`

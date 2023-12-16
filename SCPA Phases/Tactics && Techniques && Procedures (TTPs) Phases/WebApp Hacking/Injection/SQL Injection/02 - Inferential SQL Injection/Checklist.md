@@ -27,7 +27,7 @@ TODO: Fill the rest of checklist for Blind SQL injection
 TODO: I got this covered - Userware
 
 - [ ] To bruteforce hidden parameters use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/FFuF|Fuff]] or [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/Wfuzz|Wfuzz]].
-- [ ] [[Arjun]] and [[x8]] and [[WaybackURLs]].
+- [ ] [[Arjun]] and [[x8]] and [[WaybackURLs]] and [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/HTTP/Wayback Machine/Metasploit|Metasploit]].
 
 ## Vulnerability Assessment
 
@@ -41,6 +41,7 @@ TODO: I got this covered - Userware
 	- [[Dalfox]]
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
 
 #### Content Management System
 

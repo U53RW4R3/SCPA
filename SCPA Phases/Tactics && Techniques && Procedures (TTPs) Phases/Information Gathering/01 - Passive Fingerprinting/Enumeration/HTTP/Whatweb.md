@@ -17,4 +17,4 @@ TODO: Provide more usage coverage for Whatweb
 
 - [WhatWeb](https://morningstarsecurity.com/research/whatweb)
 
-- [WhatWeb (Github Repository)](https://github.com/urbanadventurer/WhatWeb)
+- [WhatWeb Source Repository](https://github.com/urbanadventurer/WhatWeb)

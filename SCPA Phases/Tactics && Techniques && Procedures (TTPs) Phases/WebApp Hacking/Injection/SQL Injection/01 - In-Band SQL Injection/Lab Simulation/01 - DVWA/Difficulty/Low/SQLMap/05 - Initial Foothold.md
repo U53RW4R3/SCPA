@@ -148,7 +148,7 @@ TODO: Test this and place it where it's appropriate
 
 #### 5.3.1.2 - Grab NTLM Hashes via SMB Authentication Relay
 
-- Run [[Responder|Responder]] to grab the NTLM hashes. This also can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Metasploit#^0c8cfd|metasploit SMB relay auxiliary module]] including [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]].
+- Run [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/Responder|Responder]] to grab the NTLM hashes. This also can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Metasploit#^0c8cfd|metasploit SMB relay auxiliary module]] including [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]].
 
 - Responder
 

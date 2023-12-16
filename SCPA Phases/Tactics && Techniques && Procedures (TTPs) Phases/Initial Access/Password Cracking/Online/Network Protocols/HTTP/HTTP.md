@@ -90,13 +90,13 @@ Regular http login form
 
 TODO: Fill in this information
 
-`$ nmap --script form-brute`
-
-`$ nmap --script http-frontpage-login`
+`$ nmap -p 80,443 --script http-brute <IP>`
 
 `$ nmap --script http-proxy-brute`
 
-`$ nmap --script http-joomla-brute`
+`$ nmap --script form-brute`
+
+`$ nmap --script http-frontpage-login`
 
 ---
 ## References

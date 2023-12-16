@@ -2,7 +2,7 @@
 
 ## Recon-ng
 
-- **`hackertarget` recon-ng module**
+- `hackertarget` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/domains-hosts/hackertarget
@@ -18,7 +18,7 @@
 [recon-ng][default][hackertarget] > back
 ```
 
-- **`resolve` recon-ng module**
+- `resolve` recon-ng module
 
 ```
 [recon-ng][default] > modules load recon/hosts-hosts/resolve

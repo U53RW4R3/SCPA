@@ -5,6 +5,6 @@ TODO: Provide a systematic approach when using this framework that overlaps with
 ---
 ## References
 
-- [OSINT-Framework Repository](https://github.com/lockfale/OSINT-Framework)
+- [OSINT-Framework Source Repository](https://github.com/lockfale/OSINT-Framework)
 
 - [OSINT Framework](https://osintframework.com/)

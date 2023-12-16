@@ -7,7 +7,7 @@ TODO: Fill this info
 ---
 ## References
 
-- [Pipal Github Repository](https://github.com/digininja/pipal)
+- [Pipal Source Repository](https://github.com/digininja/pipal)
 
 - [Pipal, Password Analyser](https://digi.ninja/projects/pipal.php)
 

@@ -48,14 +48,6 @@ msf auxiliary(scanner/http/scraper) > run
 
 `msf > use auxiliary/scanner/http/verb_auth_bypass`
 
-`msf > use auxiliary/scanner/http/open_proxy`
-
-`msf > use auxiliary/scanner/http/options`
-
-`msf > use auxiliary/scanner/http/enum_wayback`
-
-`msf > use auxiliary/scanner/http/backup_file`
-
 Apache Tomcat
 
 `msf > use auxiliary/scanner/http/tomcat_enum`
@@ -65,7 +57,3 @@ Office 365
 `msf > use auxiliary/gather/office365userenum`
 
 `msf > use auxiliary/scanner/http/docker_version`
-
-`msf > use auxiliary/scanner/http/git_scanner`
-
-`msf > use auxiliary/scanner/http/svn_scanner`
