@@ -1,49 +1,4 @@
-# 04 - SSL Certificate
-
-## 4.1 - OpenSSL
-
-`$ echo | openssl s_client -connect <URL>:443 2>/dev/null | openssl x509 -dates -noout`
-
-## 4.2 - TestSSL
-
-`$ testssl <URL>`
-
-`$ testssl -iL ips.txt`
-
-`$ testssl -U <URL>`
-
-## 4.3 - TLSx
-
-### 4.3.1 - Setup
-
-```
-$ go install github.com/projectdiscovery/tlsx/cmd/tlsx@latest && \
-sudo cp ~/go/bin/tlsx /usr/local/bin
-```
-
-### 4.3.2 - Help Menu
-
-`$ tlsx -h`
-
-### 4.3.3 - Usage
-
-TODO: Fill this info
-
-`$ tlsx`
-
-## 4.4 - SSLyze
-
-`$ sslyze <URL>`
-
-## 4.5 - SSLScan
-
-`$ sslscan <URL>`
-
-## 4.6 - Nmap
-
-`$ sudo nmap -p 443 --script ssl-date,ssl-cert,ssl-cert-intaddr,ssl-enum-ciphers,sslv2 <IP>`
-
-## 4.7 - Metasploit
+# Metasploit
 
 - Metasploit auxilary module HTTP SSL Certificate Checker
 
@@ -112,10 +67,3 @@ msf auxiliary(scanner/ssl/ssl_version) > set rhosts <target_IP>
 
 msf auxiliary(scanner/ssl/ssl_version) > run
 ```
-
----
-## References
-
-- [TestSSL](https://github.com/drwetter/testssl.sh)
-
-- [SSLyze](https://github.com/nabla-c0d3/sslyze)

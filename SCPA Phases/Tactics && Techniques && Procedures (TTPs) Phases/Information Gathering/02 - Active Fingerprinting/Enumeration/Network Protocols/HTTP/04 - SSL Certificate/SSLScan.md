@@ -1,0 +1,3 @@
+# SSLScan
+
+`$ sslscan <URL>`

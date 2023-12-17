@@ -6,7 +6,7 @@
 
 `$ cat subdomains.txt | xargs -P 10 -I {} host {} | grep "has address" --color=auto`
 
-- **Pipe it to IPv4 addresses**
+- Pipe it to IPv4 addresses
 
 `$ for domain in $(cat subdomains.txt); do host $domain | grep "has address" | cut -d ' ' -f 4 | sort | uniq > ips.txt`
 
@@ -122,11 +122,11 @@ sudo cp ~/go/bin/gobuster /usr/local/bin
 
 `$ nmap -p 53 --script dns-check-zone --script-args="dns-check-zone.domain=<domain.com>" <IP>`
 
-`$ sudo nmap -p 53 -sS --script dns-brute --script-args="dns-brute.domain=<domain.com>,dns-brute.hostlist=subdomains.txt" <IP>`
+`$ sudo nmap -p 53,80,443 -sS --script dns-brute --script-args="dns-brute.domain=<domain.com>,dns-brute.hostlist=subdomains.txt" <IP>`
 
 ## 13 - Metasploit
 
-- **Metasploit auxiliary module DNS Amplification Scanner**
+- Metasploit auxiliary module DNS Amplification Scanner
 
 ```
 msf > use auxiliary/scanner/dns/dns_amp
@@ -193,6 +193,7 @@ View the full module info with the info, or info -d command.
 msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserver_IP_2>,<nameserver_IP_n>] domain=<website.com>
 ```
 
+---
 ## References
 
 - [Hacktricks: Pentesting DNS](https://book.hacktricks.xyz/pentesting/pentesting-dns)

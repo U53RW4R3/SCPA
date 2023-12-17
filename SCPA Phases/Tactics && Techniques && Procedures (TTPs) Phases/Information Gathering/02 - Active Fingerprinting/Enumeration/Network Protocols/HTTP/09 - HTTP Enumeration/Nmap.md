@@ -1,8 +1,12 @@
-# 09 - HTTP Enumeration
+# Nmap
 
-## 9.1 - Nmap
+- Enumerate HTTP and service version
 
 `$ nmap -p 80,443,8080 -Pn -n -sV --script http-enum <IP>`
+
+- Get PHP version
+
+`$ nmap -p 80,443 -Pn -n --script http-php-version <IP>`
 
 - Find open redirects
 
@@ -15,9 +19,3 @@
 - Discover open HTTP proxy
 
 `$ nmap -p 80,443,8080 -Pn -n --script http-open-proxy --script-args proxy.url=<URL>,proxy.pattern=<pattern> <IP>`
-
-## 9.2 - Metasploit
-
-TODO: Fill this information
-
-`msf > use auxiliary/scanner/http/open_proxy`

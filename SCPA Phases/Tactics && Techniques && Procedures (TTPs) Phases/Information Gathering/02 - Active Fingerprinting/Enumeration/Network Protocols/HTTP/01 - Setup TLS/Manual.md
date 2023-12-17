@@ -1,8 +1,8 @@
-# 01 - Setup TLS
+# Manual
 
-## 1.1 - OpenSSL
+## 01 - OpenSSL
 
-**TODO: manually configure a wide compatibility for legacy OpenSSL to interact weak encryption**
+TODO: manually configure a wide compatibility for legacy OpenSSL to interact weak encryption
 
 `$ cat /etc/ssl/kali.cnf`
 

@@ -1,20 +1,4 @@
-# 03 - Robots
-
-## 3.1 - Manual
-
-### 3.1.1 - Web Browser
-
-Open your web browser and Navigate to `http[s]://<IP>/robots.txt` by entering it on the URL depending on what website you're targeting
-
-### 3.1.2 - cURL
-
-`$ curl --silent -A <user_agent> http[s]://<IP>/robots.txt`
-
-## 3.2 - Nmap
-
-`$ nmap -p 80,443 --script http-robots.txt <IP>`
-
-## 3.3 - Metasploit
+# Metasploit
 
 ```
 msf > use auxiliary/scanner/http/robots_txt
