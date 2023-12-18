@@ -46,15 +46,15 @@
 
 - TCP SYN Ping Scan
 
-`$ sudo nmap -PS22,80,443 -sn <IP>/<CIDR>`
+`$ sudo nmap -sn -PS22,80,443 <IP>/<CIDR>`
 
 - TCP ACK Ping Scan
 
-`$ sudo nmap -PA22,80,443 -sn <IP>/<CIDR>`
+`$ sudo nmap -sn -PA22,80,443 <IP>/<CIDR>`
 
 ## 3.5 - UDP Scan
 
-`$ sudo nmap -PU53,88,161,162 -sn <IP>/<CIDR>`
+`$ sudo nmap -sn -PU53,88,161,162 <IP>/<CIDR>`
 
 ## 3.6 - DNS Lookup
 

@@ -65,6 +65,8 @@ TODO: Fill in the information to provide more usage coverage of Cewl and it's us
 
 - [CeWL](https://github.com/digininja/CeWL)
 
-- [Hacking Articles: A Detailed Guide on Cewl](https://www.hackingarticles.in/a-detailed-guide-on-cewl/)
+- [Hacking Articles: A Detailed Guide on CeWLl](https://www.hackingarticles.in/a-detailed-guide-on-cewl/)
 
 - [Cyber Gladius: Building Custom Company-Specific Wordlists](https://cybergladius.com/building-custom-company-specific-wordlists/)
+
+- [Hackers Arise: Mr. Robot Hacks, Part 7: How Elliot Hacks Everyone's Password](https://www.hackers-arise.com/post/2019/08/09/Mr-Robot-Hacks-Part-7-How-Elliot-Hacks-Everyones-Password)

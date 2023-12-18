@@ -1,6 +1,10 @@
 # Default Credentials
 
-- [Many Passwords](https://github.com/many-passwords/many-passwords)
+- [Hackers Arise: Passwords](https://www.hackers-arise.com/passwords)
+
+- [NordPass: Most common passwords list](https://nordpass.com/most-common-passwords-list/)
+
+- [Many Passwords Source Repository](https://github.com/many-passwords/many-passwords)
 
 - [DefaultCreds Cheatsheet](https://github.com/ihebski/DefaultCreds-cheat-sheet "https://github.com/ihebski/DefaultCreds-cheat-sheet")
 

@@ -13,4 +13,4 @@ TODO: Fill this info
 
 - [Pipal Email Checker](https://digi.ninja/blog/pipal_email_checker.php)
 
-- [Password Cracking Strategy: Using pipal to Determine Common Password Patterns](https://www.hackers-arise.com/post/password-cracking-strategy-using-pipal-to-determine-password-patterns)
+- [Hackers Arise: Using pipal to Determine Common Password Patterns](https://www.hackers-arise.com/post/password-cracking-strategy-using-pipal-to-determine-password-patterns)

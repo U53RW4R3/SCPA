@@ -48,11 +48,22 @@
 
 `$ sudo nmap -O <IP>`
 
-- Service Version detection ^07168f
+- Service Version detection
+^07168f
 
 `$ sudo nmap -sV <IP>`
 
 `$ sudo nmap -sV --version-all <IP>`
+
+## 6.5 - Firewall Detection
+
+- Best against stateful firewalls
+
+`$ nmap -sn -n -PS <PORT> <IP>`
+
+- Best against stateless firewalls
+
+`$ nmap -sn -n -PA <PORT> <IP>`
 
 ---
 ## References

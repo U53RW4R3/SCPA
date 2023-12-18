@@ -1,5 +1,7 @@
 # Nmap
 
+Search Tag(s): #active-reconnaissance #network-protocols #dhcp #nmap
+
 `$ sudo nmap -sU -p 67 --script dhcp-discover <IP>`
 
 - These NSE scripts discovers the local network which is why an IP is not required as an input

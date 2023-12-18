@@ -84,3 +84,5 @@ TODO: Provide more use cases of cracking hashes in Linux
 - [Custom Rules for John The Ripper](https://web.archive.org/web/20200813234129/https://gracefulsecurity.com/custom-rules-for-john-the-ripper/)
 
 - [Custom Rules for John The Ripper Examples](https://web.archive.org/web/20200814150401/https://gracefulsecurity.com/custom-rules-for-john-the-ripper-examples/)
+
+- [Hackers Arise: Password Cracking Strategy](https://www.hackers-arise.com/password-cracking-strategy)

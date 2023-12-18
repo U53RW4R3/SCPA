@@ -78,3 +78,5 @@ TODO: Fill in this information related to cracking linux hashes
 - [Hashcat Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)
 
 - [Better Hacking Through Cracking Know Your Rules](https://www.trustedsec.com/blog/better-hacking-through-cracking-know-your-rules/)
+
+- [Hackers Arise: Password Cracking Strategy](https://www.hackers-arise.com/password-cracking-strategy)

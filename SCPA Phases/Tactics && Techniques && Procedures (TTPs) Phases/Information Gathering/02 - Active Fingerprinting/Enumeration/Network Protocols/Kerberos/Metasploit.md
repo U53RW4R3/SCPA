@@ -26,7 +26,7 @@ msf auxiliary(gather/kerberos_enumusers) > set user_file usernames.txt
 msf auxiliary(gather/kerberos_enumusers) > exploit -j
 ```
 
-## 02 Kerberoast
+## 02 - Kerberoast
 
 ```
 msf > use auxiliary/gather/get_user_spns
