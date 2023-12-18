@@ -16,11 +16,11 @@
 
 `$ sudo mount -t nfs -o rw <IP>:</directory> /mnt/nfs`
 
-- **Mount older Linux or Unix-like systems**
+- Mount older Linux or Unix-like systems
 
 `$ sudo mount -t nfs -o rw,vers=2 <IP>:</directory> /mnt/nfs`
 
-- **Unmount the shared folder once the infiltration has been and clean up the logs**
+- Unmount the shared folder once the infiltration has been and clean up the logs
 
 `$ sudo umount /mnt/nfs`
 
@@ -28,7 +28,7 @@
 
 `$ nmap -p 111,2049 -sV --script nfs-ls,nfs-showmount,nfs-statfs,rpc-info <IP>`
 
-`$ nmap -p 111,2049 -sV --script nfs-*,rpc-info <IP>`
+`$ nmap -p 111,2049 -sV --script nfs-*,rpcinfo <IP>`
 
 ## 03 - Metasploit
 
@@ -53,5 +53,7 @@ msf auxiliary(scanner/nfs/nfsmount) > run
 
 ---
 ## References
+
+- [Hacktricks: Pentesting Portmapper](https://book.hacktricks.xyz/network-services-pentesting/pentesting-rpcbind)
 
 - [RangeForce: Enumerating with Nmap](https://materials.rangeforce.com/tutorial/2020/01/30/Enumerating-with-Nmap/)

@@ -4,6 +4,10 @@
 
 `$ nmap -p 80,443,8080 -Pn -n -sV --script http-enum <IP>`
 
+- Find backup folders
+
+`$ nmap -p 80,443 -Pn -n --script http-backup-finder <IP>`
+
 - Get PHP version
 
 `$ nmap -p 80,443 -Pn -n --script http-php-version <IP>`

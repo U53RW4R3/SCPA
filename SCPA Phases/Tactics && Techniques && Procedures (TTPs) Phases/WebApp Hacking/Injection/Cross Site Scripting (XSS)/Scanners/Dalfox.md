@@ -118,7 +118,7 @@ TODO: Fill this info
 ### Gathering Endpoints
 
 ```
-$ gospider -S urls.txt -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e code-200 | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | qsreplace -a | dalfox pipe -o xss-endpoints-vulns.txt
+$ gospider -S urls.txt -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e code-200 | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | qsreplace -a | uro | dalfox pipe -o xss-endpoints-vulns.txt
 
 $ dalfox url http[s]://<IP>/ | cut -d " " -f 2 > xss_vulns.txt
 

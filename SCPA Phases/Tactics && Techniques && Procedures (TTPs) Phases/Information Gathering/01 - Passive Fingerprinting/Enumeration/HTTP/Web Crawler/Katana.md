@@ -118,6 +118,12 @@ OUTPUT:
 
 `$ katana -list urls.txt -f qurl -fx -d 5 -ef jpg,jpeg,gif,css,tif,tiff,png,ttf,woff,woff2,ico,pdf,svg,txt,js,md -o fuzz-endpoints.txt`
 
+### Declutter Endpoints
+
+TODO: Fill this info
+
+`$ subfinder -dL domains.txt | dnsx | katana -f qurl -d 5 -em php,asp,aspx,jsp | uro | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | httpx -silent -o fuzz-active-endpoints.txt`
+
 ---
 ## References
 

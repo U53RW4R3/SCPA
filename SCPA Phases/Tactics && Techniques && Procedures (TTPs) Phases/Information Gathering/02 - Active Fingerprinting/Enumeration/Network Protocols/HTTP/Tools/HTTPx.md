@@ -186,6 +186,7 @@ OPTIMIZATIONS:
 ## Use Cases
 
 TODO: Provide more use cases when using httpx
+
 ### Retrieve Active URLs
 
 `$ subfinder -dL domains.txt | dnsx -silent | httpx -mc 200,204,301,302,307,308,404,410,500,520,526 -o active-urls-output.txt`
@@ -217,6 +218,10 @@ TODO: Provide more use cases when using httpx
 - Refer to [[API Endpoint Wordlist#^aa6137|swagger wordlist]].
 
 `$ httpx -l urls.txt -path wordlist-swagger.txt -mr 'password|token|API key|authorization'`
+
+### Gather Endpoints
+
+`$ subfinder -dL domains.txt | dnsx | waybackurl | uro | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | httpx -silent -o active-url-endpoints.txt`
 
 ### SQL Injection
 

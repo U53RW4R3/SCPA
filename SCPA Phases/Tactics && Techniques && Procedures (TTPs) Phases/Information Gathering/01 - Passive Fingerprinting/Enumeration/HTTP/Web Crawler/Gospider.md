@@ -67,7 +67,7 @@ TODO: Provide more usage coverage for `gospider`
 
 ### Filter endpoints
 
-`$ cat output/* | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | sort -u`
+`$ cat output/* | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | uro | sort -u`
 
 ---
 ## References
