@@ -98,7 +98,13 @@ List of automobile manufacturers of <country_name>
 List of fast food restaurant in <country_name>
 List of restaurant chains in <country_name>
 
-List of Internet service providers in <country_name>
+List of internet service providers in <country_name>
+List of <country_name> telephone companies
+Telecommunications in <country_name>
+VPS Providers
+Web Hosting Providers
+Data Centers
+
 Computer companies of <country_name>
 List of computer system manufacturers
 List of computer hardware manufacturers
@@ -108,4 +114,6 @@ Foreign exchange companies
 
 Mining in <country_name>
 Mines in <country_name>
+
+List of <country_name> defense contractors
 ```

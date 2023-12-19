@@ -8,13 +8,13 @@ TODO: Fill this information by referring to the references down below
 
 #### 1.1.1 - Authenticate
 
-- **Local**
+- Local
 
 `$ psql -U <username>`
 
 `$ psql -U <username> -W`
 
-- **Remote**
+- Remote
 
 `$ psql -h <IP> -U <username> -W`
 

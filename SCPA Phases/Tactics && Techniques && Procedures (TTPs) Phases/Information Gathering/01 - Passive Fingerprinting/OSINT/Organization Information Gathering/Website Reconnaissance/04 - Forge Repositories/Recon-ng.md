@@ -1,14 +1,4 @@
-# Forge Repositories
-
-## 4.1 - Grep.app
-
-TODO: Fill this info
-
-```
-emails
-```
-
-## 4.2 - Recon-ng
+# Recon-ng
 
 - `dev_diver` recon-ng module
 
@@ -21,10 +11,3 @@ emails
 
 [recon-ng][default][dev_diver] > run
 ```
-
----
-## References
-
-- [Grep.app](https://grep.app/)
-
-- [[GitDorker]]

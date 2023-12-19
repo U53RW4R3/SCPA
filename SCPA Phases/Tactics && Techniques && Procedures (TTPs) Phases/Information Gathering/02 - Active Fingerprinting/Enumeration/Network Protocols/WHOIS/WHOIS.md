@@ -8,4 +8,4 @@
 
 ## 02 - Nmap
 
-`$ nmap -p 43 -sCV -Pn <IP>`
+`$ nmap -p 43 -Pn -sCV <IP>`
