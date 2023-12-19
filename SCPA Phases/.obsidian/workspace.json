@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Usage/Usage.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/SSLDump.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Usage/Usage.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/SSLDump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Usage/Usage.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/SSLDump.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Usage/Usage.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/SSLDump.md"
               }
             }
           },
@@ -158,8 +158,15 @@
   },
   "active": "705e6bd4f1c05934",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/TCPDump.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Passive/SSLDump.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/DNS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Automation Server/Jenkins.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/General Webapp/Reverse Shells/Groovy.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/SkipFish.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Usage/Usage.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Setup.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/jSQL Injection",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Usage/Evasion.md",
@@ -181,13 +188,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/Tools/HTTPx.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/DNS.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/Subdomain/DNS/Scanners/DNSx.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Gospider.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/HTTP/Wayback Machine/WaybackURLs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Uro.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/API Keys",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Finger",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS",
