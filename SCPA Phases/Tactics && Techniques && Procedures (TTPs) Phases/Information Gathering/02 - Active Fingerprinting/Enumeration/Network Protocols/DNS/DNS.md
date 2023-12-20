@@ -42,11 +42,11 @@
 
 `$ fierce --domain <domain.com> --dictionary wordlist.txt | grep Found | tee output.txt`
 
-- **Extract subdomains**
+- Extract subdomains
 
 `$ awk -F ". " '{print $2}' output.txt > subdomains.txt`
 
-- **Extract IPs**
+- Extract IPs
 
 `$ awk -F ". " '{print $3}' output.txt | sort -u | tr -d "()" > ips.txt`
 
