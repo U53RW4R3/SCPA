@@ -1,5 +1,7 @@
 # Windows Powershell Cmdlet Table References
 
+Search Tag(s): #command-line #windows
+
 |Commands|Aliases|
 |---|---|
 |`Set-Location`|[`cd` \| `chdir` \| `sl`]|

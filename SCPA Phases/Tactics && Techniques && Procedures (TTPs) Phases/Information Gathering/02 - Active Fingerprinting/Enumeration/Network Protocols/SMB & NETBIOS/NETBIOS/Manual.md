@@ -2,14 +2,6 @@
 
 ## 01 - Usage
 
-- Scanning for NetBIOS hosts
-
-`$ nmblookup -A <IP>`
-
-`$ nbtscan <IP>/<CIDR>`
-
-`$ nbtscan –v –s : <IP>/<CIDR> | cut -d ":" –f 1 > smb-hosts.txt`
-
 - Authenticating with NetBIOS protocol
 
 `$ rpcclient -U <username>%<password> <IP>`

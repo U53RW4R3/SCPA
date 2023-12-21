@@ -4,7 +4,7 @@
 
 ### 3.1.1 - VirtualBox
 
-Select the virtual machine and click on **Settings**
+Select the virtual machine and click on **Settings**.
 
 ![[01 - VM VirtualBox Manager Settings.png]]
 
@@ -39,6 +39,8 @@ Go to IPv4 Settings and enter the following details from this table below.
 ---
 ## References
 
+- [VEEXH: How To Safely Access The Darknet For Threat Research](https://medium.com/the-sleuth-sheet/how-to-safely-access-the-darknet-for-threat-research-89047bfc3cbb)
+
 - [Check TOR](https://check.torproject.org/)
 
 - [Ifconfig.me](https://ifconfig.me/)
@@ -48,5 +50,3 @@ Go to IPv4 Settings and enter the following details from this table below.
 - [IPInfo](https://ipinfo.io)
 
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
-
-- [Subnet Cheatsheet Subnet Mask](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
