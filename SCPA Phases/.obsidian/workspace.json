@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4abfd60f7cf8c4dc",
+        "id": "6ca1ab30ac17e981",
         "type": "tabs",
         "children": [
           {
-            "id": "705e6bd4f1c05934",
+            "id": "c24e9c29070ad2a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSLH.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSLH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSLH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSLH.md"
               }
             }
           },
@@ -156,34 +156,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "705e6bd4f1c05934",
+  "active": "c24e9c29070ad2a8",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/TestSSL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLScan.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/TLSx.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md",
-    "Command Line/Operating Systems/Linux/Use Cases/Regex/Subdomains.md",
-    "Command Line/Operating Systems/Linux/Use Cases/Networking/Basic.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/DNS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Tools/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/Subdomain/DNS/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/SSL Server Test/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/HTTP/Web Crawler/Gospider.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/Subdomain/DNS/Scanners/Findomain.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/Enumeration/Subdomain/DNS/Scanners/Fierce.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/NTP/NTP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/09 - HTTP Enumeration/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Cross Side Request Forgery (CSRF)/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Path Traversal/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/03 - Robots/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSH Tunneling.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Jump Host.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/ProxyTunnel.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSLH.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/STunnel (TLS Tunneling).md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/STunnel 1.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/09 - HTTP Enumeration/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/09 - HTTP Enumeration/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SNMP/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SNMP/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SNMP/Nmap.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Regex/Domains.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Kerberos/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS/NETBIOS/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/09 - HTTP Enumeration/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/JSScanner.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/Tools/HTTPx.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/HTTP/HTTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/TLSx.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/TestSSL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLScan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/Nmap.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/TFTP",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SIP",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/POP3",

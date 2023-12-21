@@ -22,4 +22,9 @@
 
 - Discover open HTTP proxy
 
-`$ nmap -p 80,443,8080 -Pn -n --script http-open-proxy --script-args proxy.url=<URL>,proxy.pattern=<pattern> <IP>`
+`$ nmap -p 80,443,3128,8080 -Pn -n --script http-open-proxy --script-args proxy.url=<URL>,proxy.pattern=<pattern> <IP>`
+
+---
+## References
+
+- [[ProxyTunnel]]

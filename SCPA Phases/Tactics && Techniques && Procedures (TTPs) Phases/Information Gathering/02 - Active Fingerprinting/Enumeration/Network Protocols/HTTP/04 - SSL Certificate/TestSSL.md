@@ -129,6 +129,8 @@ Options requiring a value can also be called with '=' e.g. testssl.sh -t=smtp --
 
 `$ testssl <URL>`
 
+- Scan multiple IP addresses
+
 `$ testssl -iL ips.txt`
 
 `$ testssl -U <URL>`
@@ -136,9 +138,9 @@ Options requiring a value can also be called with '=' e.g. testssl.sh -t=smtp --
 - Gathering subdomains
 
 ```
-$ testssl --quiet -iL ips.txt -oL tls-dns-certificate-output.txt
+$ testssl --quiet -S -iL ips.txt -oL tls-dns-certificate-output.txt
 
-$ grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z]{2,})+' tls-dns-certificate-output.txt | sort -u > subdomains-output.txt
+$ grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z0-9-]{2,})+' tls-dns-certificate-output.txt | sort -u > subdomains-output.txt
 ```
 
 ---

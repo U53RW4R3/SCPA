@@ -1,12 +1,6 @@
-# Metasploit
+# Manual
 
-TODO: Fill this info
-
-`msf > use auxiliary/scanner/http/open_proxy`
-
-```
-msf > use auxiliary/scanner/http/squid_pivot_scanning
-```
+`$ curl --proxy http[s]://<pivot_IP> <target_IP>`
 
 ---
 ## References

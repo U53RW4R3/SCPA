@@ -101,7 +101,7 @@ Scan commands:
 ```
 $ sslyze --certinfo <IP> | tee tls-dns-certificate-output.txt
 
-$ grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z]{2,})+' tls-dns-certificate-output.txt | sort -u > subdomains-output.txt
+$ grep "SubjAltName - DNS Names" tls-certificate.txt | grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z0-9-]{2,})+' | sort -u > subdomains-output.txt
 ```
 
 ---
@@ -111,4 +111,4 @@ $ grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z]{2,})+' tls-dns-certificate-
 
 - [SSLyze](https://nabla-c0d3.github.io/sslyze/documentation/)
 
-- [[Subdomains]]
+- [[Domains]]
