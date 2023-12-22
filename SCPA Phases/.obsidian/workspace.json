@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile/SourcePoint.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/04 - Payload Staging.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile/SourcePoint.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/04 - Payload Staging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile/SourcePoint.md",
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/04 - Payload Staging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile/SourcePoint.md"
+                "file": "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/04 - Payload Staging.md"
               }
             }
           },
@@ -158,35 +158,35 @@
   },
   "active": "c24e9c29070ad2a8",
   "lastOpenFiles": [
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/05 - Post Exploitation Code Block.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/04 - Payload Staging.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/02 - Basics.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/03 - Network Protocol Code Block.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile/SourcePoint.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/01 - Legacy Operating Systems/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/04 - Firewalls/Linux/IPTables/Disable Firewall.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/03 - Applocker/Windows/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/03 - Applocker/Windows/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/11 - Anti-Forensics/Windows/Clear Traces/05 - Clear Logs/Delete Logs/History Commands/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/11 - Anti-Forensics/Windows/Clear Traces/05 - Clear Logs/Delete Logs/History Commands/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/04 - Firewalls/Linux/IPTables/Remove Firewall Rules/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/04 - Firewalls/Linux/IPTables/Remove Firewall Rules/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/04 - Firewalls/Linux/IPTables/Living off the Land.md",
     "Malware Development/Helpers/Shellcode Formatting/Commands.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/Malleable C2 Profile References.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/05 - Post Exploitation Code Block.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile/SourcePoint.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Authenticate RDP/Manual/Unix Shell/FreeRDP.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Authenticate RDP/Manual/Unix Shell/Rdesktop.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Authenticate RDP/Manual/Unix Shell/Remmina.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/01 - Generate TLS Keystore.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/03 - Network Protocol Code Block.md",
     "Operation Security/Online/TOR/Setup/03 - Whonix.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile/Malleable-C2-Randomizer.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/Manual/Third-Party Tools/Adfind.exe.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Post Exploitation References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Internal Reconnaissance/01 - Users/Manual/Living off the Land.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Domain Fronting.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile/02 - Basics.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Setup Malleable C2 Profile",
-    "Command Line/Operating Systems/Windows/Powershell/Windows Powershell Cmdlet References.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/Windows Command Prompt References.md",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers/Malleable C2 Profile",
     "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Helpers",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/05 - Internal Reconnaissance.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/04 - Basic Commands.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Command Line/Networking/Netmask/IPCalc.md",
     "Command Line/Networking",
     "Command Line/Networking/Netmask",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/Manual",
