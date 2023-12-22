@@ -43,20 +43,20 @@ stage {
 	set syscall_method "<None | Direct | Indirect>";
 
     transform-x86 {
-        strrep "ReflectiveLoader" "";
+        strrep "ReflectiveLoader" "";                        # Find "Export.Name" (optional)
         strrep "This program cannot be run in DOS mode" "";
-        strrep "beacon.dll" "";                              # Find "Export.Name"
+        strrep "beacon.dll" "";
         prepend "\x90\x90\x90";
         }
 
     transform-x64 {
-        strrep "ReflectiveLoader" "";
+        strrep "ReflectiveLoader" "";                        # Find "Export.Name" (optional)
         strrep "This program cannot be run in DOS mode" "";
-        strrep "beacon.x64.dll" "";                          # Find "Export.Name"
+        strrep "beacon.x64.dll" "";
         prepend "\x90\x90\x90";
         }
 
-	# Append strings (useful to mimic from a program or adversary's own malware)
+	# Append strings (useful to emulate from a program or adversary's own malware)
 	string "BAD BYTES";
 	string "{48 FF}";
 }
