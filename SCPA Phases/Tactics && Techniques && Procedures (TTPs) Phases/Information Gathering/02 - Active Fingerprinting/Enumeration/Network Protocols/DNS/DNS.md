@@ -118,7 +118,7 @@ sudo cp ~/go/bin/gobuster /usr/local/bin
 
 ## 12 - Nmap
 
-`$ nmap -p 53 --script dns-zone-transfer --script-args="dns-check-zone.domain=<domain.com>" <nameserver_IP>`
+`$ nmap -p 53 --script dns-zone-transfer --script-args="dns-zone.transfer.domain=<domain.com>" <nameserver_IP>`
 
 `$ nmap -p 53 --script dns-check-zone --script-args="dns-check-zone.domain=<domain.com>" <IP>`
 

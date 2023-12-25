@@ -2,7 +2,17 @@
 
 TODO: Fill this info
 
+## Usage
+
+`$ uro -i urls.txt -o truncated-output.txt`
+
+## Use Cases
+
+### Truncate Endpoints
+
+`$ waybackurls <domain.com> | uro -o truncated-fuzz-endpoints-output.txt`
+
 ---
 ## References
 
-- [uro](https://github.com/s0md3v/uro)
+- [Uro](https://github.com/s0md3v/uro)

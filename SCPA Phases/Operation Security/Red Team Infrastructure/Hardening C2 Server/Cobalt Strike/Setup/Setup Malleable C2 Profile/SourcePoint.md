@@ -168,7 +168,7 @@ $ ./SourcePoint -Host <C2_IP> -Datajitter "<seconds>" -Sleep "<seconds>" -Jitter
 
 ### Helpers
 
-- [[Malleable C2 Profile References|Malleable C2 Profile References]]
+- [[Malleable C2 Profile References]]
 
 - [WhiteKnightLabs: Unleashing the Unseen: Harnessing the Power of Cobalt Strike Profiles for EDR Evasion](https://whiteknightlabs.com/2023/05/23/unleashing-the-unseen-harnessing-the-power-of-cobalt-strike-profiles-for-edr-evasion/)
 

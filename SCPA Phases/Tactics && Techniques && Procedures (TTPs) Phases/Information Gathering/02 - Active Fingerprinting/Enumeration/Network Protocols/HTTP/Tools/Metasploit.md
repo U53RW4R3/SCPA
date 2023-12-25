@@ -48,10 +48,6 @@ msf auxiliary(scanner/http/scraper) > run
 
 `msf > use auxiliary/scanner/http/verb_auth_bypass`
 
-Apache Tomcat
-
-`msf > use auxiliary/scanner/http/tomcat_enum`
-
 Office 365
 
 `msf > use auxiliary/gather/office365userenum`

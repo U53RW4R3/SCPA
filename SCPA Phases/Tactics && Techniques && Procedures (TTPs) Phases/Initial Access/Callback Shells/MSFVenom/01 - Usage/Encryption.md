@@ -31,8 +31,8 @@ Framework Encryption Formats [--encrypt <value>]
 ---
 ## References
 
-- [How to XOR with Metasploit Framework Compiler](https://github.com/rapid7/metasploit-framework/wiki/How-to-XOR-with-Metasploit-Framework-Compiler)
+- [Rapid7: How to XOR with Metasploit Framework Compiler](https://github.com/rapid7/metasploit-framework/wiki/How-to-XOR-with-Metasploit-Framework-Compiler)
 
-- [How to RC4 with Metasploit Framework Compiler](https://github.com/rapid7/metasploit-framework/wiki/How-to-decrypt-RC4-with-Metasploit-Framework-Compiler)
+- [Rapid7: How to RC4 with Metasploit Framework Compiler](https://github.com/rapid7/metasploit-framework/wiki/How-to-decrypt-RC4-with-Metasploit-Framework-Compiler)
 
-- [How to decode Base64 with Metasploit Framework Compiler](https://github.com/rapid7/metasploit-framework/wiki/How-to-decode-Base64-with-Metasploit-Framework-Compiler)
+- [Rapid7: How to decode Base64 with Metasploit Framework Compiler](https://github.com/rapid7/metasploit-framework/wiki/How-to-decode-Base64-with-Metasploit-Framework-Compiler)

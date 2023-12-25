@@ -79,11 +79,26 @@ http-post {
 
 ```
 http-beacon {
-    set library "winhttp";
+    set library "winhttp"; (by default)
+    # set library "wininet";
 }
+```
 
+### 3.1.6 - HTTP Variant Configs
+
+```
 http-beacon "wininet-beacon-variant" {
     set library "wininet";
+}
+
+http-get "HTTP-GET-Variant" {
+	set verb "GET";
+	set uri "";
+}
+
+http-post "HTTP-POST-Variant" {
+	set verb "POST";
+	set uri "";
 }
 ```
 
@@ -92,5 +107,7 @@ http-beacon "wininet-beacon-variant" {
 TODO: Fill this info
 
 ```
+dns-beacon {
 
+}
 ```
