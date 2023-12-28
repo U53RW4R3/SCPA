@@ -35,7 +35,7 @@ TODO: I got this covered - Userware
 
 - [ ] Use [[Wapiti]] to find potential path traversal exploits.
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing path traversal exploits.
-- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with path traversal vulnerabilities.
+- [ ] Using [[Webapps|Nuclei]] with fuzzer templates to discover GET request URLs with path traversal vulnerabilities.
 
 #### Content Management System
 

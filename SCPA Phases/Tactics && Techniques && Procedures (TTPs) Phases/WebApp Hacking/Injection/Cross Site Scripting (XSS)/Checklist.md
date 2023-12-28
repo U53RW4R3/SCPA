@@ -42,7 +42,7 @@ TODO: I got this covered - Userware
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
 - [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap|NSE script]] to probe for XSS vulnerabilities on the webservers with `-iL ips.txt` flag.
-- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with XSS vulnerabilities.
+- [ ] Using [[Webapps|Nuclei]] with fuzzer templates to discover GET request URLs with XSS vulnerabilities.
 
 #### Content Management System
 

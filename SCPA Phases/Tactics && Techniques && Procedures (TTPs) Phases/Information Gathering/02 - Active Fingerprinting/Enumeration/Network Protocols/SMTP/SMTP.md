@@ -100,9 +100,18 @@ EXPN sshd
 
 `$ smtp-user-enum -M <MODE> -u <USER> -t <IP>`
 
-## 03 - Nmap
+## 03 - Patator
 
-### 3.1 - Nmap NSE Enumeration
+TODO: Fill this info
+
+`$ patator`
+
++ smtp_vrfy     : Enumerate valid users using SMTP VRFY
++ smtp_rcpt     : Enumerate valid users using SMTP RCPT TO
+
+## 04 - Nmap
+
+### 4.1 - Nmap NSE Enumeration
 
 `$ nmap -p 25 -Pn --script smtp-commands,smtp-strangeport <IP>`
 
@@ -110,9 +119,9 @@ EXPN sshd
 
 `$ nmap -p 587 -Pn --script smtp-ntlm-info <IP>`
 
-## 04 - Metasploit
+## 05 - Metasploit
 
-### 4.1 - Banner Grab
+### 5.1 - Banner Grab
 
 ```
 msf > use auxiliary/scanner/smtp/smtp_version
@@ -134,7 +143,7 @@ msf auxiliary(scanner/smtp/smtp_version) > set threads 10
 msf auxiliary(scanner/smtp/smtp_version) > run
 ```
 
-- **For domain controller**
+- For domain controller
 
 ```
 msf > use auxiliary/scanner/smtp/smtp_ntlm_domain
@@ -155,7 +164,7 @@ msf auxiliary(scanner/smtp/smtp_ntlm_domain) > set rhosts <IP>
 msf auxiliary(scanner/smtp/smtp_ntlm_domain) > run
 ```
 
-### 4.2 - Checking for open SMTP relays that can be used to create a spoofed email when planning a spear phishing attempt
+### 5.2 - Checking for open SMTP relays that can be used to create a spoofed email when planning a spear phishing attempt
 
 ```
 msf > use auxiliary/scanner/smtp/smtp_relay
@@ -186,7 +195,7 @@ msf auxiliary(scanner/smtp/smtp_relay) > set extended <true | false>
 msf auxiliary(scanner/smtp/smtp_relay) > exploit -j
 ```
 
-### 4.3 - Username Bruteforce Enumeration
+### 5.3 - Username Bruteforce Enumeration
 
 ```
 msf > use auxiliary/scanner/smtp/smtp_enum
@@ -213,6 +222,6 @@ msf auxiliary(scanner/smtp/smtp_enum) > run
 ---
 ## References
 
-- [Pentesting SMTP](https://book.hacktricks.xyz/pentesting/pentesting-smtp)
+- [Hacktricks: Pentesting SMTP](https://book.hacktricks.xyz/pentesting/pentesting-smtp)
 
-- [SMTP Commands](https://book.hacktricks.xyz/pentesting/pentesting-smtp/smtp-commands)
+- [Hacktricks: SMTP Commands](https://book.hacktricks.xyz/pentesting/pentesting-smtp/smtp-commands)

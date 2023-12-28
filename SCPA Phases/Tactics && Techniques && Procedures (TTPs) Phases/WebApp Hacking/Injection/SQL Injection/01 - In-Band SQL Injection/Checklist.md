@@ -42,7 +42,7 @@ TODO: I got this covered - Userware
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
 - [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
-- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities.
+- [ ] Using [[Webapps|Nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities.
 
 #### Content Management System
 
