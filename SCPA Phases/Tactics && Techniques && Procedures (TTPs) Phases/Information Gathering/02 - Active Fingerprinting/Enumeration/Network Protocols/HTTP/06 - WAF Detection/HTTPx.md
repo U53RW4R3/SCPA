@@ -1,3 +1,3 @@
 # HTTPx
 
-TODO: Showcase HTTPx to detect WAF
+`$ httpx -l urls.txt -cdn`

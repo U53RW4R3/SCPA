@@ -1,5 +1,7 @@
 # Description
 
+Search Tag(s): #webapp #file-upload
+
 TODO: Fill this description about file upload webapp vulnerability
 
 ---

@@ -36,12 +36,13 @@ TODO: I got this covered - Userware
 #### General
 
 - [ ] Use [[Wapiti]] to find potential blind SQL injection exploits.
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing blind SQL injection exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nikto|nikto]] scanner to discover for existing blind SQL injection exploits.
 - [ ] You can use XSS scanners to perform and inject Cross-Site Scripting (XSS) payloads for heuristic checks as a probable indicator for blind SQL injection exploits.
 	- [[Dalfox]]
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
-- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap|NSE script]] to probe for blind SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Metasploit|metasploit]] auxiliary scanner module to find blind SQL injection vulnerabilities on the webservers.
 
 #### Content Management System
 
@@ -111,7 +112,7 @@ TODO: Fill out the page comparison for blind SQL injection
 	- if possible you can use another inferential SQL injection techniques: 
 		- [ ] Time-based blind query (`--technique=T`). To narrow it down:
 			- `--time-sec` to increase the sleep delay response
-- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Gobuster]] if you must.
+- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster]] if you must.
 
 #### DBMS Credentials
 

@@ -1,6 +1,6 @@
 # Dalfox
 
-Search Tag(s): #xss #webapp
+Search Tag(s): #information-gathering #active-reconnaissance #xss #webapp
 
 ## Setup
 

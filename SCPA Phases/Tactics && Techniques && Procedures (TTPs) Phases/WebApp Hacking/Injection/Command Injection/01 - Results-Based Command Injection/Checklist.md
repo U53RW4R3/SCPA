@@ -46,7 +46,7 @@ TODO: I got this covered - Userware
 
 #### General
 
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing command injection exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/Scanners/Nikto|nikto]] scanner to discover for existing command injection exploits.
 - [ ] Look for shellshock vulnerabilities in the [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist|shellshock checklist]].
 
 #### Content Management System

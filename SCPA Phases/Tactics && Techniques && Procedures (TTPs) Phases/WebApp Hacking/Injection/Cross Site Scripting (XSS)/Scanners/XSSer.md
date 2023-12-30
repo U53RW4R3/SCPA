@@ -1,6 +1,6 @@
 # XSSer
 
-Search Tag(s): #xsser #xss #webapp
+Search Tag(s): #information-gathering #active-reconnaissance #xsser #xss #webapp
 
 TODO: Fill this info
 

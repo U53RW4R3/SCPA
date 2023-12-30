@@ -36,13 +36,14 @@ TODO: I got this covered - Userware
 #### General
 
 - [ ] Use [[Wapiti]] to find potential SQL injection exploits.
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing SQL injection exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nikto|nikto]] scanner to discover for existing SQL injection exploits.
 - [ ] You can use XSS scanners to perform and inject Cross-Site Scripting (XSS) payloads for heuristic checks as a probable indicator for SQL injection exploits.
 	- [[Dalfox]]
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
-- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
-- [ ] Using [[Webapps|Nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities.
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Using [[Webapps|nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Metasploit|metasploit]] auxiliary scanner module to find SQL injection vulnerabilities on the webservers.
 
 #### Content Management System
 
@@ -106,7 +107,7 @@ TODO: Fill out the page comparison for SQL injection
 		- [ ] UNION query (`--technique=U`). Otherwise, stick with boolean-based technique. To narrow it down:
 			- `--union-cols` to specify number of fields.
 			- `--union-from` to enforce UNION query technique. in some DBMS(es) instances such as, **Microsoft Access** requires table to validate the response.
-- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Gobuster]] if you must.
+- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster]] if you must.
 
 #### DBMS Credentials
 

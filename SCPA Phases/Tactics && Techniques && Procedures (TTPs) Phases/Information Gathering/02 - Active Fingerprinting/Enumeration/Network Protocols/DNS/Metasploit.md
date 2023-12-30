@@ -1,130 +1,4 @@
-# DNS
-
-## 01 - Manual
-
-`$ for domain in $(cat subdomains.txt); do host $domain | grep "has address" --color=auto`
-
-`$ cat subdomains.txt | xargs -P 10 -I {} host {} | grep "has address" --color=auto`
-
-- Pipe it to IPv4 addresses
-
-`$ for domain in $(cat subdomains.txt); do host $domain | grep "has address" | cut -d ' ' -f 4 | sort | uniq > ips.txt`
-
-`$ cat subdomains.txt | xargs -P 10 -I {} host {} | grep "has address" | cut -d ' ' -f 4 | sort | uniq > ips.txt`
-
-`$ for domain in $(cat subdomains.txt); do host $domain | grep "has address" | awk "{print $4}" | sort | uniq > ips.txt`
-
-`$ cat subdomains.txt | xargs -P 10 -I {} host {} | grep "has address" | awk "{print $4}" | sort | uniq > ips.txt`
-
-## 02 - DNSx
-
-`$ dnsx -d <domain>.FUZZ -w wordlist.txt -resp`
-
-`$ for domain in $(cat domains.txt); do dnsx -silent -d FUZZ.$domain -w wordlist.txt -o $domain.txt; done`
-
-## 03 - Amass
-
-`$ amass enum -brute -d <website.com> -w subdomains-wordlists.txt -o subdomains.txt`
-
-`$ amass enum -active -df domains.txt -w subdomains-wordlists.txt -o subdomains.txt`
-
-`$ amass db -df domains.txt -names -o subdomains.txt`
-
-## 04 - DNSRecon
-
-`$ dnsrecon -d <domain> -t brt --threads 8 -D wordlist.txt`
-
-## 05 - Fierce
-
-### 5.1 - Fierce Python Version
-
-`$ fierce --domain <domain.com> | grep Found | tee output.txt`
-
-`$ fierce --domain <domain.com> --dictionary wordlist.txt | grep Found | tee output.txt`
-
-- Extract subdomains
-
-`$ awk -F ". " '{print $2}' output.txt > subdomains.txt`
-
-- Extract IPs
-
-`$ awk -F ". " '{print $3}' output.txt | sort -u | tr -d "()" > ips.txt`
-
-### 5.2 - Fierce Perl Version
-
-`$ fierce -dns <domain.com> -dns-servers <nameserver_IP>`
-
-## 06 - Ffuf
-
-`$ ffuf -u https://FUZZ.domain.com/ -w subdomains.txt -p 1 -f 301,401,403`
-
-## 07 - Sublist3r2
-
-### 7.1 - Setup
-
-```
-$ git clone https://github.com/RoninNakomoto/Sublist3r2.git && \
-python3 -m venv ~/environments/sublist3r2 && \
-source ~/environments/sublist3r2/bin/activate && \
-python -m pip install --upgrade pip && \
-cd ~/sublist3r2/ && pip install -r requirements.txt && \
-deactivate
-```
-
-### 7.2 - Usage
-
-`$ source ~/environments/sublist3r2/bin/activate`
-
-`$ sublist3r2 -d website.com -b -t 64 -o subdomains.txt`
-
-## 08 - Recon-ng
-
-- **`brute_hosts` recon-ng module**
- 
-```
-[recon-ng][default] > marketplace install recon/domains-hosts/brute_hosts
-
-[recon-ng][default][brute_hosts] > modules load recon/domains-hosts/brute_hosts
-
-[recon-ng][default][brute_hosts] > options set SOURCE <domain.com>
-
-[recon-ng][default][brute_hosts] > run
-```
-
-## 09 - Knockpy
-
-`$ knockpy <domain.com>`
-
-`$ knockpy <domain.com> -t 30 -w subdomains.txt -w SecLists/Discovery/DNS/subdomains-top1million-5000.txt`
-
-## 10 - DNSMap
-
-`$ dnsmap -d <domain.com>`
-
-## 11 - Gobuster
-
-### 11.1 - Setup
-
-```
-$ go install github.com/OJ/gobuster/v3@latest && \
-sudo cp ~/go/bin/gobuster /usr/local/bin
-```
-
-### 11.2 - Help Menu
-
-### 11.3 - Usage
-
-`$ gobuster dns -d <domain.com> -t 16 -w wordlist.txt`
-
-## 12 - Nmap
-
-`$ nmap -p 53 --script dns-zone-transfer --script-args="dns-zone.transfer.domain=<domain.com>" <nameserver_IP>`
-
-`$ nmap -p 53 --script dns-check-zone --script-args="dns-check-zone.domain=<domain.com>" <IP>`
-
-`$ sudo nmap -p 53,80,443 -sS --script dns-brute --script-args="dns-brute.domain=<domain.com>,dns-brute.hostlist=subdomains.txt" <IP>`
-
-## 13 - Metasploit
+# Metasploit
 
 - Metasploit auxiliary module DNS Amplification Scanner
 
@@ -155,7 +29,7 @@ View the full module info with the info, or info -d command.
 msf auxiliary(scanner/dns/dns_amp) > run threads=8 batchsize=<int> domainname=<domain.com> rhosts=<IP>
 ```
 
-- **Metasploit auxiliary module DNS Record Scanner and Enumerator**
+- Metasploit auxiliary module DNS Record Scanner and Enumerator
 
 ```
 msf > use auxiliary/gather/enum_dns
@@ -192,14 +66,3 @@ View the full module info with the info, or info -d command.
 
 msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserver_IP_2>,<nameserver_IP_n>] domain=<website.com>
 ```
-
----
-## References
-
-- [Hacktricks: Pentesting DNS](https://book.hacktricks.xyz/pentesting/pentesting-dns)
-
-- [Amass Tutorial](https://github.com/OWASP/Amass/wiki/Tutorial)
-
-- [Amass User Guide](https://github.com/OWASP/Amass/wiki/User-Guide)
-
-- [Amass Quick Tutorial Example Usage](https://allabouttesting.org/owasp-amass-quick-tutorial-example-usage/)

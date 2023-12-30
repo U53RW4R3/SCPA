@@ -53,7 +53,7 @@ TODO: I got this covered - Userware
 
 #### General
 
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing blind command injection exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/Scanners/Nikto|nikto]] scanner to discover for existing blind command injection exploits.
 
 #### Content Management System
 

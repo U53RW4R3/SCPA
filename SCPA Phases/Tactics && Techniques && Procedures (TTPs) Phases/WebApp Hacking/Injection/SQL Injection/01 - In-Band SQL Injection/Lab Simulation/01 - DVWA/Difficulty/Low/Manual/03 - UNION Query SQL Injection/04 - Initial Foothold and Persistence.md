@@ -30,11 +30,19 @@ TODO: Figure out using SQL queries to create a user account in the current datab
 
 #### 4.1.1.3 - INSERT values
 
-`' INSERT INTO dvwa.users values()#`
+```
+' INSERT INTO dvwa.users values()#
+
+; INSERT INTO dvwa.users values()#
+```
 
 #### 4.1.1.4 - UPDATE values
 
-`' UPDATE INTO dvwa.users values()#`
+```
+' UPDATE INTO dvwa.users values()#
+
+; UPDATE dvwa.users SET password="<new_md5_hash> WHERE user='admin'#
+```
 
 #### 4.1.1.5 - Clean Traces
 

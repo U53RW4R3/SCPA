@@ -1,10 +1,4 @@
-# 06 - WAF Detection
-
-## 6.2 - Wafw00f
-
-`$ wafw00f <URL_1> <URL_2> <URL_n>`
-
-## 6.3 - WhatWAF
+# WhatWAF
 
 TODO: Fill this info
 

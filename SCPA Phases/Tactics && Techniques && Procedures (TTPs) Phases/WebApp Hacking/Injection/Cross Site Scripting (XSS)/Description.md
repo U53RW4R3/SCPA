@@ -1,6 +1,6 @@
 # Description
 
-Search Tag(s): #xss
+Search Tag(s): #xss #webapp
 
 TODO: Fill this information about XSS
 

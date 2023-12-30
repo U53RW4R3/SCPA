@@ -1,3 +1,8 @@
 # Description
 
 TODO: Fill this info
+
+---
+## References
+
+- [Hacktricks: CGI](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi)

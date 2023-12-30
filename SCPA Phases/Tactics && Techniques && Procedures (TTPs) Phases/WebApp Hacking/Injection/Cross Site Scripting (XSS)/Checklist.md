@@ -36,7 +36,7 @@ TODO: I got this covered - Userware
 #### General
 
 - [ ] Use [[Wapiti]] to find potential XSS exploits.
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing XSS exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nikto|nikto]] scanner to discover for existing XSS exploits.
 - [ ] You can use XSS scanners to perform and inject Cross-Site Scripting (XSS) payloads for heuristic checks.
 	- [[Dalfox]]
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]

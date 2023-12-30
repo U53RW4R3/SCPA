@@ -1,6 +1,6 @@
 # XSStrike
 
-Search Tag(s): #xss #webapp
+Search Tag(s): #information-gathering #active-reconnaissance #xss #webapp
 
 TODO: Fill this info
 

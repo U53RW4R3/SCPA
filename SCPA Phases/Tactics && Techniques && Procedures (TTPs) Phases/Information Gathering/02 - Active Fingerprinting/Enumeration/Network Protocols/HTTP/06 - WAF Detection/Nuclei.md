@@ -1,3 +1,3 @@
 # Nuclei
 
-TODO: showcase using nuclei to detect WAF
+`$ nuclei -u <URL> -t ~/nuclei-templates -tags waf`

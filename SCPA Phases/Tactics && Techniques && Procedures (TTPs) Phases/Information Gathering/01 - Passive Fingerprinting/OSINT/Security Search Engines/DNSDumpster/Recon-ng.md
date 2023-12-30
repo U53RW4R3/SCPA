@@ -1,6 +1,4 @@
-# DNSDumpster
-
-## Recon-ng
+# Recon-ng
 
 - `hackertarget` recon-ng module
 
@@ -31,8 +29,3 @@
 
 [recon-ng][default][reverse_resolve] > run
 ```
-
----
-## References
-
-- [DNSDumpster](https://dnsdumpster.com)

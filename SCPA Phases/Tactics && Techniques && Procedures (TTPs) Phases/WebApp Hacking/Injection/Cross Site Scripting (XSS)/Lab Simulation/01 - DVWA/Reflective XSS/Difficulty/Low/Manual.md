@@ -2,7 +2,7 @@
 
 TODO: Demonstrate how XSS can be leveraged by an attacker.
 
-### Phishing via XSS
+### Phishing via XSS (Account Takeover)
 
 ```html
 <h3>Login</h3>
