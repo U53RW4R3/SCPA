@@ -1,3 +1,14 @@
 # Nuclei
 
 TODO: Provide specific nuclei templates to scan for open API Keys
+
+`$ nuclei -u <URL> -t ~/nuclei-templates -tags api`
+
+- Swagger API
+
+`$ nuclei -u <URL> -t ~/nuclei-templates -id swagger-api`
+
+---
+## References
+
+- [[API Endpoint Wordlist]]

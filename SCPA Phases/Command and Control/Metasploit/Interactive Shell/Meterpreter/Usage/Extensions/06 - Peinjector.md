@@ -32,12 +32,16 @@ OPTIONS:
     -h  Help banner
 ```
 
-## 6.2 - Usage
-
-* Unhook the API
+## 6.2 - Unhook Runtime
 
 ```
 meterpreter > unhook_pe
 [+] Command execution completed:
 [0, 0, nil]
 ```
+
+## 6.3 - Inject Shellcode
+
+TODO: Fill this info
+
+`meterpreter > injectpe`

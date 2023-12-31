@@ -72,7 +72,7 @@ TODO: Fill in the rest
 <iframe src="http[s]://<attacker_URL>/script.js">
 ```
 
-### Inject JavaScript code
+### Inject JavaScript Code
 
 - XSS DOM object
 

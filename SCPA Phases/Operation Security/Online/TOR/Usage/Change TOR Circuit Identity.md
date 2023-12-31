@@ -14,7 +14,7 @@ $ printf 'AUTHENTICATE "<password>"\r\nSIGNAL NEWNYM\r\n' | nc 127.0.0.1 9051
 
 - Lookup IP
 
-`$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/
+`$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/`
 
 - Check if you're connected to TOR
 

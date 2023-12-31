@@ -1,6 +1,8 @@
 # SSH Keys
 
 ```
+"-----BEGIN RSA PRIVATE KEY-----" inurl:id_rsa
+
 intitle:"index of /" ssh
 
 intitle:"index of" id_rsa -id_rsa.pub

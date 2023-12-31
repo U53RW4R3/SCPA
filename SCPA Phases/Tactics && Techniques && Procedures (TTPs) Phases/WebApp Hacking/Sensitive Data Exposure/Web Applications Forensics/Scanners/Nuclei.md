@@ -2,8 +2,22 @@
 
 TODO: Provide information for finding sensitive files related to source forge repositories
 
+`$ nuclei -u <URL> -t ~/nuclei-templates -tags exposure,config,backup,files,db,database,secret`
+
+## Config files and directories
+
 - .git config directory
 
-`$ nuclei -l ips.txt`
+```
+$ nuclei -u <URL> -t ~/nuclei-templates -tags git,github,exposure,config,backup
+
+$ nuclei -u <URL> -t ~/nuclei-templates -id git-config,exposed-gitignore
+```
 
 - DS_Store
+
+`$ nuclei <URL> -t ~/nuclei-templates -tags ds_store`
+
+- Ansible
+
+`$ nuclei -u <URL> -t ~/nuclei-templates -id ansible-config-disclosure`
