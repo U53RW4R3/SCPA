@@ -13,19 +13,13 @@
 
 `$ patator smtp_login`
 
-## 02 - Nmap
+## 03 - Nmap
 
 `$ nmap -p 25 --script smtp-brute --script-args smtp-brute.auth=<LOGIN | PLAIN | CRAM-MD5 | DIGEST-MD5 | NTLM>`
 
 `$ nmap -p 25 --script smtp-brute --script-args smtp-brute.auth=LOGIN,userdb=users.lst,passdb=passwords.lst <IP>`
 
-## 03 - Patator
-
-TODO: Fill this info
-
-+ smtp_login    : Brute-force SMTP
-
 ---
 ## References
 
-- [Brute Force SMTP](https://book.hacktricks.xyz/brute-force#smtp)
+- [Hacktricks: Brute Force SMTP](https://book.hacktricks.xyz/brute-force#smtp)

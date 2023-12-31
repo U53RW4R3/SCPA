@@ -6,6 +6,8 @@
 
 `$ nmap -p80,443,8080 --script ajp-request <IP>`
 
+`msf > use auxiliary/scanner/http/tomcat_mgr_login`
+
 `meterpreter > run post/windows/gather/enum_tomcat`
 
 https://viperone.gitbook.io/pentest-everything/everything/ports/ports-8080-8180-apache-tomcat

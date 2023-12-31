@@ -31,6 +31,8 @@ set rhost <target_IP>
 set rport <target_PORT>
 ```
 
+`msf > use post/multi/gather/jenkins_gather`
+
 ---
 ## References
 

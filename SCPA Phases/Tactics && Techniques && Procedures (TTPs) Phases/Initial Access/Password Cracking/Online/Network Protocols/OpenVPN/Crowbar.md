@@ -1,10 +1,8 @@
-# OpenVPN
-
-## 01 - Crowbar
+# Crowbar
 
 `$ crowbar -b openvpn -s <target_IP>/<CIDR> -p <PORT> -m file.ovpn [-k ca.crt] -u <username> -C passwords.txt`
 
 ---
 ## References
 
-- [[Crowbar]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Tools/Crowbar]]

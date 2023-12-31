@@ -1,12 +1,4 @@
-# IRC
-
-## 01 - Hydra
-
-TODO: Provide an syntax example to bruteforce IRC with hydra
-
-`$ hydra -U irc`
-
-## 02 - Nmap
+# Nmap
 
 `$ nmap -p 6667 --script irc-brute --script-args userdb=users.lst,passdb=passwords.lst <IP>`
 

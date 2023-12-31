@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Vigenere.md",
-                "mode": "preview",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Checklist.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Vigenere.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Vigenere.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Vigenere.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Checklist.md"
               }
             }
           },
@@ -158,45 +158,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "c24e9c29070ad2a8",
   "lastOpenFiles": [
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Transposition.md",
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Enigma.md",
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Caeser Cipher.md",
-    "Cryptography/Symmetric/Algorithms/Ancient Ciphers/Atbash.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/XOR Repeater.md",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Formula.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Scanners/Nikto.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Servlet Containers/Jenkins.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Meterpreter Scripts and Modules (TODO).md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Database Administration Tool/PHPMyAdmin/Metasploit.md",
+    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Database Administration Tool/PHPMyAdmin/Hydra.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Database Administration Tools/PHPMyAdmin.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/HTTP/HTTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/HTTP/Patator.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/IRC/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/HTTP/Hydra.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/HTTP/Medusa.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/HTTP/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Servlet Containers/Apache Tomcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/HTTP/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/IRC/Hydra.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/Kerberos/Kerbrute.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/LDAP/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/LDAP/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/LDAP/Hydra.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MSSQL/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MSSQL/Hydra.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MSSQL/Medusa.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MSSQL/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MySQL/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/PostgreSQL",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/POP3",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/OpenVPN",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MySQL",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MSSQL",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/LDAP",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/SNMP",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
-    "Cryptography/Symmetric/Algorithms/Modern Ciphers/XOR/Single XOR/Algorithm/Program.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - theHarvester.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/09 - Phonebook.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/DNS/IntoDNS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/SSL Server Test/Recon-ng.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/SSL Server Test/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/Recon-ng.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/Sn0int.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/10 - Gathering Subdomains/Certificate Transparency/Certificate Check/DNSRecon.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage/Metagoofil.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage/Exiftool.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Extract Metadata/Usage/CeWL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration/Recon-ng.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/03 - Whois Enumeration/Amass.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/02 - Gathering Emails/Scrape Emails/CeWL.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Linux/Gather WiFi Credentials",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/IoTs/Printers",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/IoTs/Satellites",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Content Management System (CMS)/Magento/Scanner",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Ghauri/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/Ghauri",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Components with Known Vulnerabilities/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/DNSDumpster",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/01 - Basic Commands/Windows",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/01 - Basic Commands/Linux",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.5 - Enumerate DBMS Users.png",

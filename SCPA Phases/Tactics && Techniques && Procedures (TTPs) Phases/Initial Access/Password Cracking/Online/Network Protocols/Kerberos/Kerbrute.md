@@ -1,4 +1,4 @@
-# Kerberos
+# Kerbrute
 
 - Password Spray each domain username accounts from an active directory
 
@@ -17,4 +17,4 @@
 
 - [Kerbrute](https://github.com/ropnop/kerbrute)
 
-- [https://book.hacktricks.xyz/pentesting/pentesting-kerberos-88](https://book.hacktricks.xyz/pentesting/pentesting-kerberos-88)
+- [Hacktricks: Pentesting Kerberos](https://book.hacktricks.xyz/pentesting/pentesting-kerberos-88)

@@ -1,6 +1,4 @@
-# POP3
-
-## 01 - Hydra
+# Hydra
 
 TODO: Provide syntax
 

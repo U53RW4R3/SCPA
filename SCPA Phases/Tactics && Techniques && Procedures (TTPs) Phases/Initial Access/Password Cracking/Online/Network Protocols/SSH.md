@@ -26,9 +26,9 @@ TODO: Provide a syntax of sshkey to brute force targets with crowbar
 
 ## 05 - Metasploit
 
-- **Bruteforce SSH Public Keys**
+- Bruteforce SSH Public Keys
 
-Note: Any file extension that ends with .pub
+Note: Any file extension that ends with `.pub`
 
 ```
 msf > use scanner/ssh/ssh_identify_pubkeys
@@ -57,8 +57,10 @@ msf auxiliary(scanner/ssh/ssh_identify_pubkeys) > run -j
 
 ## 05 - Nmap
 
-- **Bruteforce SSH Public Keys**
+- Bruteforce SSH Public Keys
 
-`$ nmap -p 22 --script ssh-publickey-acceptance --script-args "ssh.usernames={'root', 'user'}, ssh.privatekeys={'./id_rsa1', './id_rsa2'}" <IP>`
+```
+$ nmap -p 22 --script ssh-publickey-acceptance --script-args "ssh.usernames={'root', 'user'}, ssh.privatekeys={'./id_rsa1', './id_rsa2'}" <IP>
 
-`$ nmap -p 22 --script ssh-publickey-acceptance --script-args 'ssh.usernames={"root", "user"}, publickeys={"./id_rsa1.pub", "./id_rsa2.pub"}' <IP>`
+$ nmap -p 22 --script ssh-publickey-acceptance --script-args 'ssh.usernames={"root", "user"}, publickeys={"./id_rsa1.pub", "./id_rsa2.pub"}' <IP>
+```
