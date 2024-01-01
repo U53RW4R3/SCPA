@@ -12,11 +12,6 @@ Search Tag(s): #command-line #windows
 
 `C:\> dir /s *.txt`
 
-### 1.1.2 - Delete folder
-
-`C:\> rd folder\`
-
-`C:\> rmdir folder\`
 
 ## 1.2 - Change Directories
 

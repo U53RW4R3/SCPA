@@ -28,6 +28,7 @@ TODO: Provide the checklist for public webapp exploits
 #### General
 
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing webapp exploits.
+- [ ] Use [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Components with Known Vulnerabilities/Scanners/Nuclei|nuclei]] with a default templates to discover vulnerable webapp components.
 - [ ] Look for shellshock vulnerabilities in the [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist|shellshock checklist]].
 
 #### Content Management System

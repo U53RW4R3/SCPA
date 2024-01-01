@@ -12,6 +12,14 @@ Search Tag(s): #command-line #windows
 
 `C:\> mkdir new_directory`
 
+### 2.1.3 - Delete directory
+
+```
+C:\> rd folder
+
+C:\> rmdir folder
+```
+
 ## 2.2 - Text Editor
 
 Note: Press **CTRL + Z** to end the file
