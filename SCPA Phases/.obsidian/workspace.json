@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Setup.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Scenarios/Discovery and Enumeration/Database/04 - Tables and Columns.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nuclei",
+                "query": "\"--statements\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Setup.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Scenarios/Discovery and Enumeration/Database/04 - Tables and Columns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Setup.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Scenarios/Discovery and Enumeration/Database/04 - Tables and Columns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Setup.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Scenarios/Discovery and Enumeration/Database/04 - Tables and Columns.md"
               }
             }
           },
@@ -160,8 +161,12 @@
   },
   "active": "c24e9c29070ad2a8",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Scenarios/Discovery and Enumeration/Database/04 - Tables and Columns.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/02 - Database Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Content Management System (CMS)/Drupal/Scanner/Nikto.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Usage/01 - Help Menu.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Use Cases/Webapps.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Use Cases/Port Scanning.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Use Cases/IoTs.md",
@@ -182,10 +187,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Components with Known Vulnerabilities/Scanners/Nuclei.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLyze.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/SSLScan.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/Tools/HTTPx.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/02 - File and Directory Manipulation.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/01 - Navigation and Exploration.md",
-    "Command Line/Operating Systems/Windows/Command Prompt/03 - Process Manipulation.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/PostgreSQL",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/POP3",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/OpenVPN",
