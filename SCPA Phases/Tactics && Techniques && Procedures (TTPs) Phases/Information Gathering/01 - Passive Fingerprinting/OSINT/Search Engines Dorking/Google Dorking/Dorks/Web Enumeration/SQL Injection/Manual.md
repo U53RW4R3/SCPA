@@ -4,10 +4,26 @@
 
 ```
 ?id=
+?cid=
+?uid=
+?iddesc=
 ?page=
+?pageid=
+?page_id=
 ?dir=
 ?search=
+?item=
+?itemid=
+?cart=
+?cartid=
+?book=
+?bookid=
+?pid=
+?prodid=
+?profileid=
 ?category=
+?categoryid=
+?idcategory=
 ?file=
 ?class=
 ?url=
@@ -20,6 +36,8 @@
 ?title=
 ?view=
 ?topic=
+?news=
+?newsid=
 ?thread=
 ?type=
 ?date=
@@ -29,7 +47,10 @@
 ?nav=
 ?region=
 ?cat=
+?catalog=
 ?catid=
+?cat_id=
+?catalogid=
 ```
 
 ## Login Panels
