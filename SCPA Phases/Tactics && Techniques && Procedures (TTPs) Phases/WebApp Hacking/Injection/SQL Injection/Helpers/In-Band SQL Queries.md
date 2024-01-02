@@ -212,9 +212,11 @@ c:\wamp\www
 
 - [WebSec: SQL Injection Knowledge Base](https://www.websec.ca/kb/sql_injection)
 
-- [PayloadsAllTheThings SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection)
+- [PayloadsAllTheThings: SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection)
 
 - [PentestLab: SQL Injection Authentication Bypass Cheat Sheet](https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/)
+
+- [Hacktricks: SQL Login Bypass](https://book.hacktricks.xyz/pentesting-web/login-bypass/sql-login-bypass)
 
 - [SecLists: Linux Web Root Directories](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/default-web-root-directory-linux.txt)
 
