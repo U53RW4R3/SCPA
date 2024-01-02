@@ -68,6 +68,8 @@ TODO: I got this covered - Userware
 - Change the `Content-Type` header to a normal file. For example:
 	- Images
 		- [ ] `image/png`
+	- Applications
+		- [ ] `application/pdf`
 - [ ] Use PHP filewrapper to bypass filter
 - Include metadata with `exiftool` with any of these tags:
 	- [ ] Comment
