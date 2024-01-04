@@ -269,9 +269,9 @@ $ httpx -l fuzz-urls.txt -o sqli-fuzz-output.txt -probe -sc -mr "(SQL syntax.*?M
 ---
 ## References
 
-- [HTTPX](https://github.com/projectdiscovery/httpx)
+- [HTTPx](https://github.com/projectdiscovery/httpx)
 
-- [Hacking Articles: A detailed Guide on HTTPX](https://www.hackingarticles.in/a-detailed-guide-on-httpx/)
+- [Hacking Articles: A detailed Guide on HTTPx](https://www.hackingarticles.in/a-detailed-guide-on-httpx/)
 
 - [Enlace Hacktivista: Initial Access Tactics, techniques and procedures](https://enlacehacktivista.org/index.php?title=Initial_Access_Tactics,_techniques_and_procedures)
 

@@ -17,7 +17,7 @@ TODO: Duplicate this in the post exploitation section
 `$ rpcclient -U "" -N <IP>`
 
 
-TODO: Re-arrange them in post exploitation section
+TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
 
 ### 2.2 - Basic Information
 

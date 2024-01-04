@@ -1,8 +1,6 @@
 # Manual
 
-Search Tag(s): #active-reconnaissance #network-protocols
-
-TODO: Fill this info
+Search Tag(s): #active-reconnaissance #network-protocols #ipsec
 
 ## Help Menu
 

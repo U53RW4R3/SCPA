@@ -172,6 +172,6 @@ Session completed.
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/MySQL/MySQL|MySQL Active Enumeration]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/MySQL/Manual|MySQL Active Enumeration]]
 
 - [SecurityIdiots: XSS Injection with SQLi (XSSQLi)](https://www.securityidiots.com/Web-Pentest/SQL-Injection/xss-injection-with-sqli-xssqli.html)

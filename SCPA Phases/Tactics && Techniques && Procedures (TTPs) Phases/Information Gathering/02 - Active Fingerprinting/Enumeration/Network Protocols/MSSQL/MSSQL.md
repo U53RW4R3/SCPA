@@ -30,6 +30,8 @@ By default the username is `sa` with null authentication of the MSSQL database s
 
 `$ sqsh -S <IP> -U sa -P ""`
 
+TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
+
 ### 1.4 - Operating System
 
 #### 1.4.1 - Hostname
