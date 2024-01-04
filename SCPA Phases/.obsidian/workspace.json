@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/SSHFS.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Database Backends/MSSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sshfs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/SSHFS.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Database Backends/MSSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/SSHFS.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Database Backends/MSSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/SSHFS.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Database Backends/MSSQL.md"
               }
             }
           },
@@ -161,42 +160,42 @@
   },
   "active": "c24e9c29070ad2a8",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Archive Files.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Archive Files/Tarball.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Archive Files.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Archive Files",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/MSSQL/MSSQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Database Backends/MSSQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/SMB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Database Backends",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/FTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Archive Files/Zip.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Archive Files/Makecab.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Archive Files/Tarball.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Archive Files/Linux.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Archive Files/7zip.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/MySQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Archive Files/Tarball.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/C2 Frameworks/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Database Backends/PostgreSQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Database Backends/MySQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Archive Files/Zip.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/SSH/SSHFS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/SSH/SFTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/SSH/SCP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/SSH/Rsync.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Archive Files",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Linux File Transfer and Data Exfiltration References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Archive Files",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Database Backends",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Archive Files/Tarball",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Archive Files",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Ncat.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Netcat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/PostgreSQL.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/RClone.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Socat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/SSHFS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/C2 Frameworks/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/Rsync.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/SCP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/C2 Frameworks/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH/SFTP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/SSH",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/SSH.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/SSH",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/SSH.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Linux.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/Crafting Manually/Windows.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/C2 Frameworks/Metasploit/Web Delivery.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/C2 Frameworks/Metasploit/SMB Delivery.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/C2 Frameworks/Metasploit/HTA Web Server.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/C2 Frameworks/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/C2 Frameworks/Metasploit",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/File Hosting Providers/4shared.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Web Drive-by/File Hosting Providers/Dropbox.md",
-    "Command and Control/Empire/Core Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/PostgreSQL",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/POP3",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/OpenVPN",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MySQL",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/MSSQL",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/LDAP",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
