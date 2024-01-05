@@ -42,7 +42,7 @@ TODO: I got this covered - Userware
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
 - [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap|NSE script]] to probe for SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
-- [ ] Using [[Webapps|nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities.
+- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with SQL injection vulnerabilities and other indicators of PHP syntax code disclosure.
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Metasploit|metasploit]] auxiliary scanner module to find SQL injection vulnerabilities on the webservers.
 
 #### Content Management System
@@ -107,7 +107,7 @@ TODO: Fill out the page comparison for SQL injection
 		- [ ] UNION query (`--technique=U`). Otherwise, stick with boolean-based technique. To narrow it down:
 			- `--union-cols` to specify number of fields.
 			- `--union-from` to enforce UNION query technique. in some DBMS(es) instances such as, **Microsoft Access** requires table to validate the response.
-- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster]] if you must.
+- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]] if you must.
 
 #### DBMS Credentials
 

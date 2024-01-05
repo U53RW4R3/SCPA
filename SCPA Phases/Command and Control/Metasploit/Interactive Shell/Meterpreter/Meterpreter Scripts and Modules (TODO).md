@@ -411,8 +411,6 @@ run post/multi/manage/upload_exec
 
 run post/multi/gather/find_vmx
 
-run post/multi/gather/tomcat_gather
-
 run post/multi/manage/zip
 
 run post/multi/gather/firefox_creds

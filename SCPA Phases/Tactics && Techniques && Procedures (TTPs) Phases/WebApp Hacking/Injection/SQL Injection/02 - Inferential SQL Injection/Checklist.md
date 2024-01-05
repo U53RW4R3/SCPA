@@ -42,6 +42,7 @@ TODO: I got this covered - Userware
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
 - [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap|NSE script]] to probe for blind SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with blind SQL injection vulnerabilities and other indicators of PHP syntax code disclosure.
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Metasploit|metasploit]] auxiliary scanner module to find blind SQL injection vulnerabilities on the webservers.
 
 #### Content Management System
@@ -112,7 +113,7 @@ TODO: Fill out the page comparison for blind SQL injection
 	- if possible you can use another inferential SQL injection techniques: 
 		- [ ] Time-based blind query (`--technique=T`). To narrow it down:
 			- `--time-sec` to increase the sleep delay response
-- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster]] if you must.
+- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]] if you must.
 
 #### DBMS Credentials
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "http_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Entropy/Scripts.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md"
               }
             }
           },
@@ -160,42 +160,42 @@
   },
   "active": "c24e9c29070ad2a8",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Entropy/Commands.md",
-    "Malware Development/Helpers/Crypters/C.md",
-    "Malware Development/Helpers/Crypters/Python.md",
-    "Malware Development/Helpers/Crypters/CSharp.md",
-    "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/C2 Framework/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/C2 Framework/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/C2 Framework/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/Configuration.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/Port Scan/C2 Frameworks/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/Mutillidae/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Nuclei/Use Cases/Webapps.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Nikto.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - Detecting HTTP Methods/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/04 - SSL Certificate/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Internal Phishing/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Path Traversal/Lab Simulation/01 - DVWA/Difficulty/Low/Directory Traversal and Local File Inclusion/Metasploit.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Meterpreter Scripts and Modules (TODO).md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Servlet Containers/Apache Tomcat/Scanners/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Servlet Containers/Apache Tomcat/Apache Tomcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Change Password.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Troll/Troll.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Troll/Mac OSX.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Troll/Linux.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Troll/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Troll",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/10 - Miscellaneous/Webcam Chat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Scenarios/Discovery and Enumeration/Database/04 - Tables and Columns.md",
+    "Lab Simulation Setup/Vulnerable Machines/Metasploitable3/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Servlet Containers/Apache Tomcat/Scanners/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Servlet Containers/Apache Tomcat/Scanners",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Servlet Containers/Apache Tomcat",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoTs/Printers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoTs/CCTV",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoTs/Modbus",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoTs",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/Webapps/Webmail",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/Webapps",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/Port Scan/C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/Port Scan/Offensive Tools/Scripts/Powersploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/Port Scan/Offensive Tools/Scripts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/Port Scan/Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/Port Scan",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/Offensive Tools/Scripts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/Manual/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Networking/IP Address/C2 Framework",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS/NETBIOS/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS/SMB/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS/NETBIOS/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS/NETBIOS/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/PostgreSQL/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SIP/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SIP/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/RDP/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/RDP/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/RDP/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/RTSP/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/RTSP/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/PostgreSQL/PostgreSQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/LDAP/Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/FTP/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/FTP/Server",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
