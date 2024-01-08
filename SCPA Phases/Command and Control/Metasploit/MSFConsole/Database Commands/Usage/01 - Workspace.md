@@ -26,6 +26,30 @@ OPTIONS:
 
 TODO: Fill this info - Userware
 
+- Add new workspace
+
+```
+msf > workspace -a new_workspace
+[*] Added workspace: new_workspace
+[*] Workspace: new_workspace
+```
+
+- Rename workspace
+
+```
+msf > workspace -r default renamed_workspace
+[*] Renamed workspace 'default' to 'renamed_workspace'
+```
+
+- List workspace
+
+```
+msf > workspace [-l]
+default
+new_workspace
+renamed_workspace
+```
+
 ---
 ## References
 

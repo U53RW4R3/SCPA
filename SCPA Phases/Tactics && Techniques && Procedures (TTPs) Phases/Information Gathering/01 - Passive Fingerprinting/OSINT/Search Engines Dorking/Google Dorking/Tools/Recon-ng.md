@@ -74,26 +74,7 @@
 [recon-ng][default][ghdb] > options set SOURCE <domain.com>
 ```
 
-## Resolve URLs with IPs
+---
+## References
 
-- `resolve` recon-ng module
-
-```
-[recon-ng][default] > marketplace install recon/hosts-hosts/resolve
-
-[recon-ng][default] > modules load recon/hosts-hosts/resolve
-
-[recon-ng][default][resolve] > run
-
-[recon-ng][default][resolve] > back
-```
-
-## Reverse resolve netblocks
-
-- `reverse_resolve` recon-ng module
-
-```
-[recon-ng][default] > modules load recon/netblocks-hosts/reverse_resolve
-
-[recon-ng][default][reverse_resolve] > run
-```
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/Recon-ng|DNS Enumeration: Recon-ng]]

@@ -14,22 +14,7 @@
 [recon-ng][default][certificate_transparency] > back
 ```
 
-- `resolve` recon-ng module
+---
+## References
 
-```
-[recon-ng][default] > marketplace install recon/hosts-hosts/resolve
-
-[recon-ng][default] > modules load recon/hosts-hosts/resolve
-
-[recon-ng][default][resolve] > run
-
-[recon-ng][default][resolve] > back
-```
-
-- `reverse_resolve` recon-ng module
-
-```
-[recon-ng][default] > modules load recon/netblocks-hosts/reverse_resolve
-
-[recon-ng][default][reverse_resolve] > run
-```
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/Recon-ng|DNS Enumeration: Recon-ng]]

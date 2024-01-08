@@ -1,6 +1,6 @@
 # Recon-ng
 
-- **`cache_snoop` recon-ng module**
+- `cache_snoop` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install discovery/info_disclosure/cache_snoop

@@ -44,27 +44,9 @@
 [recon-ng][default][whois_orgs] > back
 ```
 
-- `resolve` recon-ng module
-
-```
-[recon-ng][default] > modules load recon/hosts-hosts/resolve
-
-[recon-ng][default][resolve] > options set SOURCE query SELECT DOMAIN FROM DOMAINS
-
-[recon-ng][default][resolve] > run
-
-[recon-ng][default][resolve] > back
-```
-
-- `reverse_resolve` recon-ng module
-
-```
-[recon-ng][default] > modules load recon/netblocks-hosts/reverse_resolve
-
-[recon-ng][default][reverse_resolve] > run
-```
-
 ---
 ## References
+
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/Recon-ng|DNS Enumeration: Recon-ng]]
 
 - [ViewDNS.info](https://viewdns.info)

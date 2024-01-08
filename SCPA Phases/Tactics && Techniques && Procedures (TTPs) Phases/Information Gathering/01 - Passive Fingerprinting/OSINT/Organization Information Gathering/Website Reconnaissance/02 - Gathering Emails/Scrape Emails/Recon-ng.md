@@ -27,3 +27,8 @@
 
 [recon-ng][default][pgp_search] > back
 ```
+
+---
+## References
+
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/Recon-ng|DNS Enumeration: Recon-ng]]

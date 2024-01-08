@@ -2,6 +2,13 @@
 
 TODO: Fill this info
 
+## Setup
+
+```
+$ go install -v github.com/OJ/gobuster/v3@latest && \
+mv ~/go/bin/gobuster /usr/local/bin/
+```
+
 ## Help Menu
 
 ```
