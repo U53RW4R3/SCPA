@@ -41,7 +41,7 @@ TODO: I got this covered - Userware
 	- [[Dalfox]]
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
-- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap|NSE script]] to probe for XSS vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/Nmap|NSE script]] to probe for XSS vulnerabilities on the webservers with `-iL ip_targets.txt` flag.
 - [ ] Using [[Webapps|Nuclei]] with fuzzer templates to discover GET request URLs with XSS vulnerabilities.
 
 #### Content Management System

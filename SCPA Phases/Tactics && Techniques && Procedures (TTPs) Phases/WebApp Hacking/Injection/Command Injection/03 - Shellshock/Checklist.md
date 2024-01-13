@@ -20,7 +20,7 @@ TODO: Fill this info
 
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/Scanners/Nikto|nikto]] scanner to discover for existing shellshock exploits.
 - [ ] Use [[Wapiti]] to find potential shellshock exploits.
-- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/Scanners/Nmap|NSE script]] to probe for shellshock vulnerabilities on the webservers with `-iL ips.txt`.
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/Scanners/Nmap|NSE script]] to probe for shellshock vulnerabilities on the webservers with `-iL ip_targets.txt`.
 
 ## Exploit
 

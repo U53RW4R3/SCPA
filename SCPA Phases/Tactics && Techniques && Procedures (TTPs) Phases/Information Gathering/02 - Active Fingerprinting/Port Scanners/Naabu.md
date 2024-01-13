@@ -102,7 +102,7 @@ DEBUG:
 
 `$ naabu -host <IP> -o port-scanned-output.txt`
 
-`$ naabu -list ips.txt -o port-scanned-output.txt`
+`$ naabu -list ip_targets.txt -o port-scanned-output.txt`
 
 `$ echo <ASN_ID> | naabu -p80,443`
 

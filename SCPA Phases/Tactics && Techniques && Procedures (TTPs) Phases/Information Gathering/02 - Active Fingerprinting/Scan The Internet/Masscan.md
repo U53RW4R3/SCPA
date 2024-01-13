@@ -68,7 +68,7 @@ TODO: Provide more usage coverage for masscan
 ### Exclude IP addresses
 
 ```
-$ cat exclude-ip-ranges.txt
+$ cat block-ip-ranges.txt
 0.0.0.0/8
 10.0.0.0/8
 127.0.0.0/8
@@ -79,7 +79,7 @@ $ cat exclude-ip-ranges.txt
 240.0.0.0/4
 255.255.255.255/32
 
-$ sudo masscan -p 80,443 --open-only -Pn -sS --rate 10000 -S 8.8.8.8 --excludefile exclude-ip-ranges.txt --ranges 0.0.0.0/0 | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" > ips.txt
+$ sudo masscan -p 80,443 --open-only -Pn -sS --rate 10000 -S 8.8.8.8 --excludefile block-ip-ranges.txt --ranges 0.0.0.0/0 | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" > ips_output.txt
 ```
 
 ---

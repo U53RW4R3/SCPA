@@ -1,4 +1,4 @@
-# Fully Interactive TTY
+# Linux
 
 ## 01 - Spawn TTY Shell
 

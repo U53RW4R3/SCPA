@@ -5,7 +5,6 @@ https://github.com/rapid7/metasploit-framework/tree/master/documentation (refer 
 ## Windows Gather Modules
 
 
-
 run post/windows/manage/powershell/load_script
 
 run post/windows/manage/powershell/build_net_code
@@ -266,8 +265,6 @@ run post/windows/manage/dell_memory_protect
 
 run post/windows/manage/multi_meterpreter_inject
 
-run post/windows/manage/download_exec
-
 run post/windows/manage/nbd_server
 
 run post/windows/manage/driver_loader
@@ -401,8 +398,6 @@ run post/multi/manage/sudo
 
 run post/multi/gather/fetchmailrc_creds
 
-run post/multi/manage/system_session
-
 run post/multi/gather/filezilla_client_cred
 
 run post/multi/gather/thunderbird_creds
@@ -473,8 +468,6 @@ run post/linux/manage/dns_spoofing
 run post/linux/busybox/wget_exec
 
 run post/linux/gather/enum_system
-
-run post/linux/manage/download_exec
 
 run post/linux/dos/xen_420_dos
 

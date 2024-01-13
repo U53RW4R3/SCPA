@@ -10,7 +10,7 @@
 
 `$ amass enum -passive -df domains.txt -o subdomains.txt`
 
-`$ amass enum -passive -df domains.txt -o subdomains.txt && awk < subdomains.txt '{ system("resolveip -s "$1)}' > ips.txt`
+`$ amass enum -passive -df domains.txt -o subdomains.txt && awk < subdomains.txt '{ system("resolveip -s "$1)}' > ip_targets.txt`
 
 `$ amass db -df domains.txt -names -o subdomains.txt`
 

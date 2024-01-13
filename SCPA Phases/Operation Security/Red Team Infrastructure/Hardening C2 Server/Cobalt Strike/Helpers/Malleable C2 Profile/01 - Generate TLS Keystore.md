@@ -2,16 +2,63 @@
 
 Search Tag(s): #red-team-infrastructure #cobalt-strike #helpers
 
+## 1.1 - Java Keytool
+
 - Modify in `teamserver` bash script.
 
 ```
-keytool -keystore ./cobaltstrike.store -storepass <password> -keypass <password> -genkey -keyalg RSA -alias <alias_name> -dname "CN=www.website.com, OU=Company Inc., O=Company Name, L=San Francisco, S=California, C=US"
+$ keytool -keystore ./cobaltstrike.store -storepass <password> -keypass <password> -genkey -keyalg RSA -alias <alias_name> -dname "CN=www.website.com, OU=Company Inc., O=Company Name, L=San Francisco, S=California, C=US"
 
 ./TeamServerImage -Dcobaltstrike.server_port=50050 -Dcobaltstrike.server_bindto=0.0.0.0 -Djavax.net.ssl.keyStore=./cobalts
 trike.store -Djavax.net.ssl.keyStorePassword=<password> teamserver $*
 ```
 
-## 01 - HTTP Certificate
+## 1.2 - OpenSSL
+
+```
+$ openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out public.crt -keyout private.key
+..[snip]..
+Country Name (2 letter code) [AU]:US
+State or Province Name (full name) [Some-State]:California
+Locality Name (eg, city) []:San Francisco
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:Pantheon Systems, Inc.
+Organizational Unit Name (eg, section) []:
+Common Name (e.g. server FQDN or YOUR name) []:pantheonsite.io
+Email Address []:info@fortra.com
+
+$ openssl req -new -key private.key -out domain.csr
+Country Name (2 letter code) [AU]:US
+State or Province Name (full name) [Some-State]:California
+Locality Name (eg, city) []:San Francisco
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:Pantheon Systems, Inc.
+Organizational Unit Name (eg, section) []:
+Common Name (e.g. server FQDN or YOUR name) []:pantheonsite.io
+Email Address []:info@fortra.com
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:94c5a50b927c7234c3d347ea0da8a022
+String too long, must be at most 20 bytes long
+A challenge password []:94c5a50b92
+An optional company name []:
+
+$ openssl pkcs12 -export -in public.crt -inkey private.key -out domain.pkcs12 -passout:<source_keystore_password>
+Enter Export Password:
+Verifying - Enter Export Password:
+
+$ keytool -importkeystore -deststorepass <destination_keystore_password> -destkeystore domain.store -srckeystore domain.pkcs12 -srcstoretype PKCS12 -srcstorepass <source_keystore_password>
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+Importing keystore domain.pkcs12 to domain.store...
+Enter destination keystore password:
+Re-enter new password:
+Enter source keystore password:
+Entry for alias 1 successfully imported.
+Import command completed:  1 entries successfully imported, 0 entries failed or cancelled
+
+$ rm domain.pkcs12
+```
+
+## 1.3 - HTTP Certificate
 
 ```
 https-certificate {

@@ -41,7 +41,7 @@ TODO: I got this covered - Userware
 	- [[Dalfox]]
 	- [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSSer|XSSer]]
 	- [[XSStrike]]
-- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap|NSE script]] to probe for blind SQL injection vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nmap|NSE script]] to probe for blind SQL injection vulnerabilities on the webservers with `-iL ip_targets.txt` flag.
 - [ ] Using [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Nuclei|Nuclei]] with fuzzer templates to discover GET request URLs with blind SQL injection vulnerabilities and other indicators of PHP syntax code disclosure.
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Scanners/Metasploit|metasploit]] auxiliary scanner module to find blind SQL injection vulnerabilities on the webservers.
 

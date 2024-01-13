@@ -54,12 +54,12 @@ Send randomized data
 
 `$ nmap --proxies <schema>://<IP>:<PORT> <target_IP>`
 
-`$ nmap --proxies socks4://<IP>:<PORT>,http://<IP>:<PORT> <IP>`
+`$ nmap --proxies socks4://<IP>:<PORT>,http://<IP>:<PORT> <target_IP>`
 
 - Send decoys to the target IP
 
 ```
-$ sudo nmap -D <IP_1>,<IP_2>,<IP_3> <IP>
+$ sudo nmap -D <IP_1>,<IP_2>,<IP_3> <target_IP>
 
 $ sudo nmap -D RND:<int> <IP>
 

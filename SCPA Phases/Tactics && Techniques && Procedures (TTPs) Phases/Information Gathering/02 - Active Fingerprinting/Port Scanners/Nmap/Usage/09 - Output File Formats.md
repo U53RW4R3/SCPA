@@ -6,9 +6,11 @@
 
 - Rover Nmap IP Addresses
 
-`$ grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' initial.nmap > ips.txt`
+```
+$ grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' initial.nmap > ip_targets.txt
 
-`$ awk '/is up/ {print up}; {gsub (^(||)/,""); up = $NF}' initial.nmap > ips.txt`
+$ awk '/is up/ {print up}; {gsub (^(||)/,""); up = $NF}' initial.nmap > ip_targets.txt
+```
 
 - 1337 5P34K 0U7PU7 F0rM47
 

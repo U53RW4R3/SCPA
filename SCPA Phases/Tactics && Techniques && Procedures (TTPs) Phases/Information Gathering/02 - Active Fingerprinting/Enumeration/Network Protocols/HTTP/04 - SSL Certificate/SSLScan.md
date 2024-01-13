@@ -88,7 +88,7 @@ Example:
 
 - Scan multiple IP addresses
 
-`$ sslscan --targets=ips.txt`
+`$ sslscan --targets=ip_targets.txt`
 
 - Gather subdomains
 

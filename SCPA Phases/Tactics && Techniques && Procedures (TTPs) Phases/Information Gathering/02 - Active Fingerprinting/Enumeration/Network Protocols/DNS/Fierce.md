@@ -2,9 +2,11 @@
 
 ## 01 - Fierce Python Version
 
-`$ fierce --domain <domain.com> | grep Found | tee output.txt`
+```
+$ fierce --domain <domain.com> | grep Found | tee output.txt
 
-`$ fierce --domain <domain.com> --dictionary wordlist.txt | grep Found | tee output.txt`
+$ fierce --domain <domain.com> --dictionary wordlist.txt | grep Found | tee output.txt
+```
 
 - Extract subdomains
 
@@ -12,7 +14,7 @@
 
 - Extract IPs
 
-`$ awk -F ". " '{print $3}' output.txt | sort -u | tr -d "()" > ips.txt`
+`$ awk -F ". " '{print $3}' output.txt | sort -u | tr -d "()" > ip_targets.txt`
 
 ## 02 - Fierce Perl Version
 

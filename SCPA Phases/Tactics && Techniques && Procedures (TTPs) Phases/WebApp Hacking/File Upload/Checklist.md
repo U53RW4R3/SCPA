@@ -33,7 +33,7 @@ TODO: I got this covered - Userware
 
 #### General
 
-- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Scanners/Nmap|NSE script]] to probe for file upload vulnerabilities on the webservers with `-iL ips.txt` flag.
+- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Scanners/Nmap|NSE script]] to probe for file upload vulnerabilities on the webservers with `-iL ip_targets.txt` flag.
 - [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing file upload exploits.
 
 #### Content Management System

@@ -16,7 +16,7 @@
 
 `$ finger-user-enum.pl -u <username> -t <IP>`
 
-`$ finger-user-enum.pl -U users.txt -T ips.txt`
+`$ finger-user-enum.pl -U users.txt -T ip_targets.txt`
 
 ---
 ## References

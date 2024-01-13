@@ -99,7 +99,7 @@ $method.Invoke(0, $null)
 
 - [Purpl3f0xsecur1ty.tech AV Evasion.html](https://www.purpl3f0xsecur1ty.tech/2021/03/30/av_evasion.html)
 
-- [https://pentestlab.blog/2017/06/06/applocker-bypass-assembly-load/](https://pentestlab.blog/2017/06/06/applocker-bypass-assembly-load/)
+- [Pentestlab Blog: Applocker Bypass Assembly Load](https://pentestlab.blog/2017/06/06/applocker-bypass-assembly-load/)
 
 - [In3x0rabl3: OSEP](https://github.com/In3x0rabl3/OSEP)
 

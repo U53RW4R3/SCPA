@@ -1,14 +1,20 @@
 # Rustscan
 
-## Setup
+## 01 - Setup
 
-### 01 - Install
+### 1.1 - Install
+
+#### 1.1.1 - Install Rust Compiler
 
 - Install Rust compiler
 
-`$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+```
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-`$ wget -qO- https://sh.rustup.rs | sh`
+$ wget -qO- https://sh.rustup.rs | sh
+```
+
+- Refresh the terminal
 
 `$ source "$HOME/.cargo/env"`
 
@@ -16,7 +22,7 @@
 
 `$ cargo install rustscan && sudo cp ~/.cargo/bin/rustscan /usr/local/bin/`
 
-### 02 - Compile
+### 1.2 - Compile
 
 - Clone the repository
 
@@ -26,7 +32,7 @@ cd RustScan/ && rustup default stable && cargo b -r &&
 sudo cp target/release/rustscan /usr/local/bin/
 ```
 
-### 03 - Docker
+### 1.3 - Docker
 
 `$ sudo docker pull rustscan/rustscan:2.0.1`
 
@@ -38,7 +44,7 @@ sudo cp target/release/rustscan /usr/local/bin/
 alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:2.0.1'
 ```
 
-## Usage
+## 02 - Usage
 
 - Scan a IP target with a timeout and a batch size
 
@@ -46,7 +52,7 @@ alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:2.0.1'
 
 - Scan list of IP targets
 
-`$ sudo rustscan -a ips.txt -t 3000 -b 4500`
+`$ sudo rustscan -a ip_targets.txt -t 3000 -b 4500`
 
 - Scan the IP target with greppable output
 
@@ -66,9 +72,11 @@ alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:2.0.1'
 
 - Nmap arguments
 
-`$ sudo rustscan -a <IP> -- [nmap arguments]`
+```
+$ sudo rustscan -a <IP> -- [nmap arguments]
 
-`$ sudo rustscan -a <IP> -- -Pn -sVC`
+$ sudo rustscan -a <IP> -- -Pn -n -sVC
+```
 
 ---
 ## References

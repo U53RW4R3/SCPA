@@ -105,7 +105,7 @@ TODO: Fill this info
 ## 04 - Use Cases
 
 ```
-$ tlsx -l ips.txt -san -o tls-dns-certificates.txt
+$ tlsx -l ip_targets.txt -san -o tls-dns-certificates.txt
 
 $ grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z0-9-]{2,})+' tls-dns-certificate-output.txt | sort -u > subdomains-output.txt
 ```

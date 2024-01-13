@@ -91,7 +91,3 @@ msf auxiliary(scanner/smb/smb_login) > run
 ## 05 - Nmap
 
 `$ nmap -p 445 --script smb-brute --script-args smbtype=<version> <IP>`
-
-- Pass the Hash
-
-`$ sudo nmap -p U:137,T:139 --script smb-enum-groups,smb-enum-users --script-args 'smbuser=<username>,smbhash=<nt_hash>' <IP>/<CIDR>`

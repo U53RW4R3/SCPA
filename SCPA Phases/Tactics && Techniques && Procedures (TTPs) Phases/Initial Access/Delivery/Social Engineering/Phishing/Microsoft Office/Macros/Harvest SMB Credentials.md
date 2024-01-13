@@ -15,7 +15,7 @@ Refer to **Sniffing and Spoofing** section under [[Tactics && Techniques && Proc
 ---
 ## References
 
-- [SMB Share SCF File Attacks](https://pentestlab.blog/2017/12/13/smb-share-scf-file-attacks/)
+- [Pentestlab Blog: SMB Share SCF File Attacks](https://pentestlab.blog/2017/12/13/smb-share-scf-file-attacks/)
 
 - [Living off the Land Stealing NetNTLM Hashes](https://www.securify.nl/blog/living-off-the-land-stealing-netntlm-hashes)
 

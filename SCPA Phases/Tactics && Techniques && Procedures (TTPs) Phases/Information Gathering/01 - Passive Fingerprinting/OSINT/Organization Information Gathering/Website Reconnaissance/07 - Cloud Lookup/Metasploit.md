@@ -51,7 +51,7 @@ msf auxiliary(gather/cloud_lookup) > set censys_uid <censys_api_uid>
 
 msf auxiliary(gather/cloud_lookup) > set ns <nameserver_IP_1>,<nameserver_IP_2>,<nameserver_IP_n>
 
-msf auxiliary(gather/cloud_lookup) > set ipblacklist_file [/path/to/blacklisted_ips.txt]
+msf auxiliary(gather/cloud_lookup) > set ipblacklist_file [/path/to/block_ips.txt]
 
 msf auxiliary(gather/cloud_lookup) > set uripath </path/to/uri/>
 
