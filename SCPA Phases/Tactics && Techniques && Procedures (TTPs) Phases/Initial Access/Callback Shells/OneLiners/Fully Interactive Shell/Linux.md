@@ -125,8 +125,10 @@ localhost ~ #
 ---
 ## References
 
-- [Shells Full TTYs](https://book.hacktricks.xyz/shells/shells/full-ttys)
+- [Hacktricks: Shells Full TTYs](https://book.hacktricks.xyz/shells/shells/full-ttys)
 
-- [Upgrading Simple Shells to Fully Interactive TTYs](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
+- [ROPNOP: Upgrading Simple Shells to Fully Interactive TTYs](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
 
-- [Post Exploitation Without a TTY](https://pentestmonkey.net/blog/post-exploitation-without-a-tty)
+- [Pentest Monkey: Post Exploitation Without a TTY](https://pentestmonkey.net/blog/post-exploitation-without-a-tty)
+
+- [Enlace Hacktivista: Stabilizing reverse shells](https://enlacehacktivista.org/index.php?title=Stabilizing_reverse_shells)

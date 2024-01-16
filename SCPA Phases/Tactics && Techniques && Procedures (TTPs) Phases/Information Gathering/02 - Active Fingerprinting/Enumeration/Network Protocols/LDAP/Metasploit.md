@@ -91,3 +91,8 @@ View the full module info with the info, or info -d command.
 
 msf auxiliary(gather/ldap_hashdump) >
 ```
+
+---
+## References
+
+- [Rapid7: Metasploit Framework LDAP Auxiliary Module](https://docs.metasploit.com/docs/pentesting/metasploit-guide-ldap.html)

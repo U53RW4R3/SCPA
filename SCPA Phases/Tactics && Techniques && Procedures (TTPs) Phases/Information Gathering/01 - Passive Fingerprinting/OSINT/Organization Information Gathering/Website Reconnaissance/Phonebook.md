@@ -1,4 +1,4 @@
-# 09 - Phonebook
+# Phonebook
 
 TODO: Provide screenshots of using Phonebook
 
