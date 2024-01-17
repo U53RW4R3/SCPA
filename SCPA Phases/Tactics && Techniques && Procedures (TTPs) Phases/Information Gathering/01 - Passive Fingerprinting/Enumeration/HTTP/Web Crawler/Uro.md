@@ -1,6 +1,11 @@
 # Uro
 
-TODO: Fill this info
+## Setup
+
+```
+$ git clone https://github.com/s0md3v/uro && cd uro && \
+sudo python3 setup.py install
+```
 
 ## Usage
 
