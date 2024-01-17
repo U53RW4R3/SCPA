@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Manual/Unix Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbclient.py",
+                "query": "dns2t",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Manual/Unix Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Manual/Unix Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Unix Shell.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Manual/Unix Shell.md"
               }
             }
           },
@@ -161,8 +161,25 @@
   },
   "active": "ef3c0101e694a5b7",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS/SMB/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/11 - Anti-Forensics/Linux/Clear Traces/04 - Clear Logs/Delete Logs/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/11 - Anti-Forensics/Linux/Clear Traces/02 - Revert Settings/Logrotate.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/SMB Relay.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/C2 Frameworks/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Token/GetSystem.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/C2 Frameworks/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/Offensive Tools/Scripts/Powersploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/Offensive Tools/Scripts",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/Offensive Tools",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberoasting/ServicePrincipalName (SPN)/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/Kerberos Relay.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMB & NETBIOS/SMB/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Distributed Component Object Model (DCOM)/Manual/Unix Shell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC)/C2 Frameworks/Windows Management Instrumentation Command line (WMIC).md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC)/C2 Frameworks",
@@ -173,30 +190,13 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/C2 Frameworks/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Manual/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/C2 Frameworks/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Registry/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Registry/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/PsExec/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/PsExec/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/PsExec/C2 Frameworks/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/PsExec/C2 Frameworks/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/PsExec/C2 Frameworks/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Hijack Remote Desktop Session/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Hijack Remote Desktop Session/Offensive Tools/Binaries/Mimikatz.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/RDP Sessions Abuse/C2 Frameworks/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/RDP Sessions Abuse/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/RDP Sessions Abuse/Manual/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Registry/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Registry/Manual",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Distributed Component Object Model (DCOM)/Offensive Tools/Binaries",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Distributed Component Object Model (DCOM)/Offensive Tools/Scripts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Distributed Component Object Model (DCOM)/Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Distributed Component Object Model (DCOM)/C2 Frameworks",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
