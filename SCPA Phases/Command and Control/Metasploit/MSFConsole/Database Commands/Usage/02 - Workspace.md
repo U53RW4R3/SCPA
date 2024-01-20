@@ -1,8 +1,8 @@
-# 01 - Workspace
+# 02 - Workspace
 
 Search Tag(s): #metasploit-framework #command-and-control 
 
-## 1.1 - Help Menu
+## 2.1 - Help Menu
 
 ```
 msf > workspace -h
@@ -22,7 +22,7 @@ OPTIONS:
     -v, --list-verbose        List workspaces verbosely.
 ```
 
-## 1.2 - Usage
+## 2.2 - Usage
 
 TODO: Fill this info - Userware
 

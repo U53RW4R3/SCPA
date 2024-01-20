@@ -1,8 +1,8 @@
-# 06 - Vulns
+# 07 - Vulns
 
 Search Tag(s): #metasploit-framework #command-and-control
 
-## 6.1 - Help Menu
+## 7.1 - Help Menu
 
 ```
 msf > vulns -h
@@ -27,6 +27,6 @@ Examples:
   vulns -p 1-65536 -s http  # identified as http on any port
 ```
 
-## 6.2 - Usage
+## 7.2 - Usage
 
 TODO: Fill this info

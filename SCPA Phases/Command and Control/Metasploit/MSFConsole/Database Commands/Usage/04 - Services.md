@@ -1,8 +1,8 @@
-# 03 - Services
+# 04 - Services
 
 Search Tag(s): #metasploit-framework #command-and-control
 
-## 3.1 - Help Menu
+## 4.1 - Help Menu
 
 ```
 msf > services -h
@@ -28,7 +28,7 @@ OPTIONS:
 Available columns: created_at, info, name, port, proto, state, updated_at
 ```
 
-## 3.2 - Usage
+## 4.2 - Usage
 
 ```
 msf > services

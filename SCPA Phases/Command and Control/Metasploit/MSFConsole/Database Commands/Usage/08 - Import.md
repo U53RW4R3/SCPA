@@ -1,8 +1,8 @@
-# 07 - Import
+# 08 - Import
 
 Search Tag(s): #metasploit-framework #command-and-control
 
-## 7.1 - Help Menu
+## 8.1 - Help Menu
 
 ```
 msf > db_import 
@@ -47,6 +47,6 @@ Currently supported file types include:
     Wapiti XML
 ```
 
-## 7.2 - Usage
+## 8.2 - Usage
 
 `msf > db_import output.xml`

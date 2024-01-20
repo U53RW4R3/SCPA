@@ -1,8 +1,8 @@
-# 04 - Loot
+# 05 - Loot
 
 Search Tag(s): #metasploit-framework #command-and-control
 
-## 4.1 - Help Menu
+## 5.1 - Help Menu
 
 ```
 msf > loot -h
@@ -24,7 +24,7 @@ OPTIONS:
     -u, --update              Update loot. Not officially supported.
 ```
 
-## 2.4 - Usage
+## 5.2 - Usage
 
 ```
 msf > loot

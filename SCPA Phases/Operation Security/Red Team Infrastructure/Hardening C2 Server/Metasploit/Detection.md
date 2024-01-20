@@ -6,7 +6,13 @@ Search Tag(s): #red-team-infrastructure #metasploit-framework #detection
 
 `ssl:"MetasploitSelfSignedCA"`
 
-## 02 - JARM
+## 02 - Censys
+
+```
+services.software.product=`Metasploit`
+```
+
+## 03 - JARM
 
 `$ git clone https://github.com/salesforce/jarm.git`
 
@@ -22,5 +28,9 @@ Search Tag(s): #red-team-infrastructure #metasploit-framework #detection
 ## References
 
 - [Hunting C2 with Shodan](https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f)
+
+- [C2 JARM](https://github.com/cedowens/C2-JARM)
+
+- [Russian Ransomware C2 Network Discovered in Censys Data](https://censys.com/russian-ransomware-c2-network-discovered-in-censys-data/)
 
 - [JARM](https://github.com/salesforce/jarm)

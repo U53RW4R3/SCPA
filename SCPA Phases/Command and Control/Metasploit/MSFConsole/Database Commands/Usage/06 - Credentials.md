@@ -1,8 +1,8 @@
-# 05 - Credentials
+# 06 - Credentials
 
 Search Tag(s): #metasploit-framework #command-and-control
 
-## 5.1 - Help Menu
+## 6.1 - Help Menu
 
 ```
 Credentials Backend Commands
@@ -105,7 +105,7 @@ Example, deleting:
   creds -d -s smb
 ```
 
-## 5.2 - Usage
+## 6.2 - Usage
 
 ```
 msf > creds

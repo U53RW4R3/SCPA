@@ -1,8 +1,8 @@
-# 02 - Hosts
+# 03 - Hosts
 
 Search Tag(s): #metasploit-framework #command-and-control
 
-## 2.1 - Help Menu
+## 3.1 - Help Menu
 
 ```
 msf > hosts -h
@@ -29,7 +29,7 @@ OPTIONS:
 Available columns: address, arch, comm, comments, created_at, cred_count, detected_arch, exploit_attempt_count, host_detail_count, info, mac, name, note_count, os_family, os_flavor, os_lang, os_name, os_sp, purpose, scope, service_count, state, updated_at, virtual_host, vuln_count, tags
 ```
 
-## 2.2 - Usage
+## 3.2 - Usage
 
 ```
 msf > hosts

@@ -21,6 +21,18 @@ Module options (auxiliary/gather/shodan_search):
    SHODAN_APIKEY                   yes       The SHODAN API key
 
 msf auxiliary(gather/shodan_search) > set shodan_apikey <api>
+
+msf auxiliary(gather/shodan_search) > set database <true | false>
+
+msf auxiliary(gather/shodan_search) > set maxpage <maximum_pages>
+
+msf auxiliary(gather/shodan_search) > set outfile [/path/to/target_ips_output.txt]
+
+msf auxiliary(gather/shodan_search) > set query <shodan_query>
+
+msf auxiliary(gather/shodan_search) > set regex <regex_search>
+
+msf auxiliary(gather/shodan_search) > run
 ```
 
 ## Shodan host auxiliary module
@@ -57,3 +69,10 @@ Module options (auxiliary/gather/shodan_honeyscore):
 
 msf auxiliary(gather/shodan_honeyscore) > set shodan_apikey <api>
 ```
+
+---
+## References
+
+- [Rapid7: Metasploit Framework Shodan Host Auxiliary Module](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/gather/shodan_host.md)
+
+- [Rapid7: Metasploit Framework Shodan Honeyscore Auxiliary Module](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/gather/shodan_honeyscore.md)

@@ -2,23 +2,24 @@
 
 TODO: Fill this info
 
-## Setup
+## 01 - Setup
 
-### Linux
+### 1.1 - Linux
 
-#### Install Dependencies
+#### 1.1.1 - Install Dependencies
 
 ```
 $ sudo apt install default-jdk default-jre rpm fakeroot
 ```
 
-#### Install Angry IP Scanner
+#### 1.1.2 - Install Angry IP Scanner
 
 - Compile
 
 ```
-$ git clone https://github.com/angryip/ipscan.git && \
-make linux && sudo mkdir -p /opt/intelligence-gathering/AngryIPScanner/ \
+$ git clone https://github.com/angryip/ipscan.git && cd ipscan && \
+sudo -s && make linux && \
+sudo mkdir -p /opt/intelligence-gathering/AngryIPScanner/ && \
 sudo cp build/libs/ipscan-linux64-3.9.1-2-g7950484a.jar /opt/intelligence-gathering/AngryIPScanner/ipscan.jar
 ```
 
@@ -37,7 +38,7 @@ chmod 755 /usr/local/bin/ipscan
 
 `$ sudo dpkg -i build/libs/ipscan_3.9.1-2-g7950484a_amd64.deb`
 
-### Windows
+### 1.2 - Windows
 
 - Compile
 
@@ -45,7 +46,7 @@ chmod 755 /usr/local/bin/ipscan
 C:\> git clone https://github.com/angryip/ipscan.git && .\gradle win64
 ```
 
-## Help Menu
+## 02 - Help Menu
 
 ```
 $ ipscan -h        
@@ -70,11 +71,15 @@ And possible [options] are (grouping allowed):
 -a      append to the file, do not overwrite
 ```
 
-## Usage
+## 03 - Usage
 
-You can find windows file sharing servers
+Note: Angry IP Scanner will label windows file sharing servers
+
+- Scan IP range
 
 `$ ipscan -f:<IP_range> -o scan-output.txt`
+
+- Scan 
 
 ---
 ## References
