@@ -77,11 +77,15 @@ Note: Angry IP Scanner will label windows file sharing servers
 
 - Scan IP range
 
-`$ ipscan -f:<IP_range> -o scan-output.txt`
+`$ ipscan -sq -f:range <start_IP_range> <end_IP_range> -o live-hosts-output.txt`
 
-- Scan 
+- Scan from IP target lists
+
+`$ ipscan -sq -f:file ip_targets.txt -o live-hosts-output.txt`
 
 ---
 ## References
 
 - [Angry IP Scanner](https://angryip.org/)
+
+- [Aldeid: Angry IP Scanner](https://www.aldeid.com/wiki/Angry-IPScan)

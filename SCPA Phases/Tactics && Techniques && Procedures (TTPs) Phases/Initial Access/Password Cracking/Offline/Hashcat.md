@@ -60,7 +60,7 @@ TODO: Fill in this information related to cracking linux hashes
 
 ^87baa5
 
-- **Kerberos 5, etype 23, TGS-REP**
+- Kerberos 5, etype 23, TGS-REP
 
 `$ hashcat -m 13100`
 

@@ -78,10 +78,6 @@ Exploit misconfigured firewall rules with a source port
 
 `$ sudo nmap -g <PORT> <IP>`
 
-- Spoof source IP
-
-`$ sudo hping3 <target_IP> -a <source_IP>`
-
 #### 8.1.3.2 - Idle Zombie Scan
 
 ^72346e

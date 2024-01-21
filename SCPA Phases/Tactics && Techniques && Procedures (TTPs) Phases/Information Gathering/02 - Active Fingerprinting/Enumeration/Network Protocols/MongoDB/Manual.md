@@ -10,12 +10,23 @@ TODO: Fill this info
 > show dbs
 
 > use <database>
+```
 
+## Tables
+
+```
 > show collections
 
 > show tables
 ```
 
+## Query
+
+```
+> db.<table>.find()
+```
+
+## Automation Script
 
 ```python
 #!/usr/bin/python

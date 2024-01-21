@@ -4,11 +4,11 @@
 
 - Note: tdl (Top Level Domain) is `.com`, `.net`, etc...
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN>\<username>' -w '<password>' -b "DC=<1_subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN>\<username>' -w '<password>' -b "DC=<1_subdomain>,DC=<tdl>"`
 
 ## 02 - Null Credentials
 
-`$ ldapsearch -x -h ldap://<IP> -D '' -w '' -b "DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '' -w '' -b "DC=<subdomain>,DC=<tdl>"`
 
 
 TODO: Re-arrange from this section to post exploitation
@@ -19,39 +19,39 @@ TODO: Re-arrange from this section to post exploitation
 
 - Retrieve Users
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Users,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Users,DC=<subdomain>,DC=<tdl>"`
 
 - Retrieve a specific user account
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=<username>,CN=Users,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=<username>,CN=Users,DC=<subdomain>,DC=<tdl>"`
 
 - Retrieve Domain Users
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Domain Users,CN=Users,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Domain Users,CN=Users,DC=<subdomain>,DC=<tdl>"`
 
 #### 1.3.2 - Administrators
 
 - Retrieve Domain Admins
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Domain Admins,CN=Users,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Domain Admins,CN=Users,DC=<subdomain>,DC=<tdl>"`
 
 - Retrieve Enterprise Admins
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Enterprise Admins,CN=Users,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Enterprise Admins,CN=Users,DC=<subdomain>,DC=<tdl>"`
 
 - Retrieve Administrators
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Administrators,CN=Builtin,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Administrators,CN=Builtin,DC=<subdomain>,DC=<tdl>"`
 
 #### 1.3.3 - Remote Desktop Users
 
 - Retrieve Remote Desktop Group
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Remote Desktop Users,CN=Builtin,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Remote Desktop Users,CN=Builtin,DC=<subdomain>,DC=<tdl>"`
 
 ### 1.4 - Retrieve Computers
 
-`$ ldapsearch -x -h ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Computers,DC=<subdomain>,DC=<tdl>"`
+`$ ldapsearch -x ldap://<IP> -D '<DOMAIN_NAME>\<username>' -w '' -b "CN=Computers,DC=<subdomain>,DC=<tdl>"`
 
 ---
 ## References
