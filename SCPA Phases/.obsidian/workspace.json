@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/SMB Relay.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/RDP/Manual.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 368.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/SMB Relay.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/RDP/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/SMB Relay.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/RDP/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/SMB Relay.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/RDP/Manual.md"
               }
             }
           },
@@ -160,8 +160,18 @@
   },
   "active": "ef3c0101e694a5b7",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/Kerberos Relay.md",
+    "Command Line/Operating Systems/Linux/Unix Shell/Basic Commands/03 - Text Editor.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/RDP/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/RDP",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/RDP/Crowbar.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/08 - Beacon Session.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Authenticate RDP/Manual/Unix Shell/Rdesktop.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Authenticate RDP/Manual/Unix Shell/FreeRDP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Regular Payloads/Windows/Exec Payloads.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Scripting Payloads/Windows/Exec Payloads.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Scripting Payloads/Windows/Reverse Shells.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/SMB Relay.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/Kerberos Relay.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/ASREPRoast/Manual/Unix Shell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/ASREPRoast/Offensive Tools/Binaries/Rubeus.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/ASREPRoast/Offensive Tools/Scripts/PowerSploit.md",
@@ -185,17 +195,7 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC)/Offensive Tools/Binaries",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Windows Management Instrumentation Command line (WMIC)/Offensive Tools",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Offensive Tools/Binaries/SharpMove.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/Schedule Periodic Tasks/Schtasks/Offensive Tools/Binaries/SharpMove.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Offensive Tools/Binaries",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/Schedule Periodic Tasks/Schtasks/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/Schedule Periodic Tasks/Schtasks/Offensive Tools/Binaries",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Distributed Component Object Model (DCOM)/Offensive Tools/Binaries/SharpMove.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Remote File Access/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/SMB Lateral Movement/Service Control Manager/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Authenticate RDP/Binaries/SharpRDP.md",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

