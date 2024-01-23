@@ -1,6 +1,6 @@
 # Nmap
 
-- Enumerate HTTP and service version
+- Enumerate HTTP, service version and some common directories.
 
 `$ nmap -p 80,443,8080 -Pn -n -sV --script http-enum --script-args http.useragent='<user_agent>' <IP>`
 

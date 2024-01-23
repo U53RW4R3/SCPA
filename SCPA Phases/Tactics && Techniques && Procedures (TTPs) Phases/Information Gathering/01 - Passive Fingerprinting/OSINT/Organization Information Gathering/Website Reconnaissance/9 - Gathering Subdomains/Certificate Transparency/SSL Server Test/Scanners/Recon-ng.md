@@ -33,7 +33,7 @@
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/Recon-ng|DNS Enumeration: Recon-ng]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/Scanners/Recon-ng|DNS Enumeration: Recon-ng]]
 
 - [SSLTest](https://www.ssllabs.com/ssltest/)
 

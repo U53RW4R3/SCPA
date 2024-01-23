@@ -1,4 +1,4 @@
-ssh# Amass
+# Amass
 
 ```
 $ amass enum -brute -d <website.com> -w subdomains-wordlists.txt -o subdomains.txt
