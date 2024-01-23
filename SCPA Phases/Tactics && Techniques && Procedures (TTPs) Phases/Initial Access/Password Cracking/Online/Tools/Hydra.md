@@ -12,7 +12,7 @@ Options:
   -R        restore a previous aborted/crashed session
   -I        ignore an existing restore file (don't wait 10 seconds)
   -S        perform an SSL connect
-  -s PORT   if the service is on a different default port, define it here
+   PORT   if the service is on a different default port, define it here
   -l LOGIN or -L FILE  login with LOGIN name, or load several logins from FILE
   -p PASS  or -P FILE  try password PASS, or load several passwords from FILE
   -x MIN:MAX:CHARSET  password bruteforce generation, type "-x -h" to get help

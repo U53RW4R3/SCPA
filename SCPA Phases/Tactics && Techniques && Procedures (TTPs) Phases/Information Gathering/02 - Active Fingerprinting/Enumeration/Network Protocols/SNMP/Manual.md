@@ -61,6 +61,6 @@ $ snmpwalk -v 2c -c public <IP>:<PORT> | grep hrSWInstalledName | cut -d " " -f 
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Telnet/Telnet|Active Enumeration: Telnet]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/Telnet/Telnet|Active Enumeration: Telnet]]
 
 - [Pentesting SNMP](https://book.hacktricks.xyz/pentesting/pentesting-snmp)

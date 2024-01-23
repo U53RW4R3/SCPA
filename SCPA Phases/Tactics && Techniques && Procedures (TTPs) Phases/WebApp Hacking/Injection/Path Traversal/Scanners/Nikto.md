@@ -1,6 +1,6 @@
 # Nikto
 
-`$ nikto -h <IP> -T 57c -no404`
+`$ nikto -h <IP> -T 57c -no404 -Plugins dir_traversal`
 
 ---
 ## References

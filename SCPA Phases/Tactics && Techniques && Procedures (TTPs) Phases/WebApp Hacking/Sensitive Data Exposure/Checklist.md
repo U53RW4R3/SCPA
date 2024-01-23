@@ -6,6 +6,7 @@ TODO: Provide a checklist for Sensitive Data Exposure
 
 ### Passive Reconnaissance
 
+- [ ] Find common pattern of potential information disclosure in `robots.txt` via [[Robots|google dorks]].
 - [ ] Use [[WaybackURLs]] to find previous potential sensitive data or information disclosure.
 
 ### Active Reconnaissance
@@ -18,9 +19,16 @@ TODO: Provide a checklist for Sensitive Data Exposure
 
 ##### Webserver Enumeration
 
-- [ ] Check the [[Sensitive File List|common sensitive file list]] to find sensitive files.
-- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/09 - HTTP Enumeration/Nmap|NSE script]] to enumerate the webservers with `-iL ip_targets.txt` flag.
-- [ ] Perform directory bruteforce via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]].
+- `robots.txt`
+	- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/03 - Robots/Nmap|NSE script]] to discover `robots.txt` for exposed sensitive directories.
+	- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/03 - Robots/Nikto|nikto]] to discover `robots.txt` for exposed sensitive directories.
+	- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/03 - Robots/Nuclei|nuclei]] to discover `robots.txt` for exposed sensitive directories.
+	- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/03 - Robots/Metasploit|auxiliary metasploit module]] to discover `robots.txt` for exposed sensitive directories.
+
+- Exposed Directories
+	- [ ] Check the [[Sensitive File List|common sensitive file list]] to find sensitive files.
+	- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/09 - HTTP Enumeration/Nmap|NSE script]] to enumerate the webservers with `-iL ip_targets.txt` flag.
+	- [ ] Perform directory bruteforce via [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]].
 
 ## Vulnerability Assessment
 

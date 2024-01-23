@@ -2,6 +2,8 @@
 
 `$ nmap -p 445 --script "safe or smb-enum-*" <IP>`
 
+TODO: Re-arrange from this section to post exploitation
+
 `$ nmap -p 445 --script smb-os-discovery --script-args unsafe=1 <IP>`
 
 `$ nmap -p 445 --script smb-security-mode <IP>`

@@ -2,7 +2,7 @@
 
 Search Tag(s): #webapp
 
-`$ nikto -h <IP> -T bd`
+`$ nikto -h <IP> -T bd -Plugins outdated`
 
 ---
 ## References

@@ -12,12 +12,11 @@ Search Tag(s): #command-line #windows
 
 `C:\> dir /s *.txt`
 
-
 ## 1.2 - Change Directories
 
 ### 1.2.1 - Change directory
 
-`C:\> cd folder\`
+`C:\> cd folder`
 
 ---
 ## References
