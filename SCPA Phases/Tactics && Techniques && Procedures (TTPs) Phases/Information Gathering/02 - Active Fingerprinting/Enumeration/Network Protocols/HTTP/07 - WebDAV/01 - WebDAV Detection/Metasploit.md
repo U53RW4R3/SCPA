@@ -1,6 +1,6 @@
 # Metasploit
 
-- Metasploit auxilary module HTTP WebDAV Scanner
+- Metasploit auxiliary module HTTP WebDAV Scanner
 
 ```
 msf > use auxiliary/scanner/http/webdav_scanner

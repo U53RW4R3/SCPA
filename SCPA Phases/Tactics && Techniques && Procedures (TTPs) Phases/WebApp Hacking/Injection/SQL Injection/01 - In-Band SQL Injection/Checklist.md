@@ -107,7 +107,7 @@ TODO: Fill out the page comparison for SQL injection
 		- [ ] UNION query (`--technique=U`). Otherwise, stick with boolean-based technique. To narrow it down:
 			- `--union-cols` to specify number of fields.
 			- `--union-from` to enforce UNION query technique. in some DBMS(es) instances such as, **Microsoft Access** requires table to validate the response.
-- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]] if you must.
+- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]] if you must.
 
 #### DBMS Credentials
 

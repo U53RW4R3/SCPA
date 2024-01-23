@@ -1,6 +1,8 @@
 # Metasploit
 
-- Metasploit auxilary module HTTP SSL Certificate Checker
+## 01 - Certificate Checker
+
+- Metasploit auxiliary module HTTP SSL Certificate Checker
 
 ```
 msf > use auxiliary/scanner/http/cert
@@ -31,7 +33,9 @@ msf auxiliary(scanner/http/cert) > set rport <PORT>
 msf auxiliary(scanner/http/cert) > run
 ```
 
-- Metasploit auxilary module SSL/TLS Version Detection
+## 02 - TLS Version Detection
+
+- Metasploit auxiliary module SSL/TLS Version Detection
 
 ```
 msf > use auxiliary/scanner/ssl/ssl_version
@@ -66,4 +70,29 @@ msf auxiliary(scanner/ssl/ssl_version) > set threads 8
 msf auxiliary(scanner/ssl/ssl_version) > set rhosts <target_IP>
 
 msf auxiliary(scanner/ssl/ssl_version) > run
+```
+
+## 03 - SSL Vulnerabilities
+
+```
+msf > use auxiliary/gather/ssllabs_scan
+
+msf auxiliary(gather/ssllabs_scan) > options 
+
+Module options (auxiliary/gather/ssllabs_scan):
+
+   Name            Current Setting  Required  Description
+   ----            ---------------  --------  -----------
+   DELAY           5                yes       The delay in seconds between  API requests
+   GRADE           false            yes       Output only the hostname: grade
+   HOSTNAME                         yes       The target hostname
+   IGNOREMISMATCH  true             yes       Proceed with assessments even when the server certificate doesn't match the assessment hostname
+   USECACHE        true             yes       Use cached results (if available), else force live scan
+
+
+View the full module info with the info, or info -d command.
+
+msf auxiliary(gather/ssllabs_scan) > set hostname <website.com>
+
+msf auxiliary(gather/ssllabs_scan) > run
 ```

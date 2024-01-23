@@ -1,6 +1,6 @@
 # Metasploit
 
-- Metasploit auxilary module HTTP Directory Scanner
+- Metasploit auxiliary module HTTP Directory Scanner
 
 ```
 msf > use auxiliary/scanner/http/dir_scanner
@@ -36,7 +36,7 @@ msf auxiliary(scanner/http/dir_scanner) > set rport <PORT>
 msf auxiliary(scanner/http/dir_scanner) > run
 ```
 
-- Metasploit auxilary module HTTP Directory Listing Scanner
+- Metasploit auxiliary module HTTP Directory Listing Scanner
 
 ```
 msf > use auxiliary/scanner/http/dir_listing
@@ -66,7 +66,7 @@ msf auxiliary(scanner/http/dir_listing) > set rport <PORT>
 msf auxiliary(scanner/http/dir_listing) > run
 ```
 
-- Metasploit auxilary module HTTP Interesting File Scanner
+- Metasploit auxiliary module HTTP Interesting File Scanner
 
 ```
 msf > use auxiliary/scanner/http/files_dir

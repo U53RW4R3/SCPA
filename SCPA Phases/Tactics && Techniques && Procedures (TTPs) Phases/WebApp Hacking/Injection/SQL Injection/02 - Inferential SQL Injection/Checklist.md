@@ -113,7 +113,7 @@ TODO: Fill out the page comparison for blind SQL injection
 	- if possible you can use another inferential SQL injection techniques: 
 		- [ ] Time-based blind query (`--technique=T`). To narrow it down:
 			- `--time-sec` to increase the sleep delay response
-- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]] if you must.
+- [ ] Find an login (admin) panel to login the credentials you've obtained from the current database. Use [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]] if you must.
 
 #### DBMS Credentials
 

@@ -1,6 +1,6 @@
 # Metasploit
 
-- Metasploit auxilary module HTTP WebDAV Internal IP Scanner
+- Metasploit auxiliary module HTTP WebDAV Internal IP Scanner
 
 ```
 msf > use auxiliary/scanner/http/webdav_internal_ip
