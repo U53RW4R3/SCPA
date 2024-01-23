@@ -1,4 +1,6 @@
-# Exiftool
+# Manual
+
+## Exiftool
 
 `$ exiftool file`
 
