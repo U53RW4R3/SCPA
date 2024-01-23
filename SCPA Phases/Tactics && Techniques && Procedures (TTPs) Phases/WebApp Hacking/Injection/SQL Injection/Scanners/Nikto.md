@@ -1,6 +1,6 @@
 # Nikto
 
-`$ nikto -h <IP> -T 9a -no404`
+`$ nikto -h <IP> -T 9a -no404 -Plugins content_search`
 
 ---
 ## References

