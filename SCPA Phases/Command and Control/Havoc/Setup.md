@@ -20,9 +20,11 @@ $ sudo apt install -y git build-essential apt-utils cmake libfontconfig1 libglu1
 
 ### 1.2 - Clone the repository
 
-`$ sudo git clone [--branch dev] https://github.com/HavocFramework/Havoc.git /opt/post-exploitation/Havoc`
+```
+$ sudo git clone [--branch dev] https://github.com/HavocFramework/Havoc.git /opt/post-exploitation/Havoc
 
-`$ sudo chown $USER:$(id -gn $USER) -R /opt/post-exploitation/Havoc`
+$ sudo chown $USER:$(id -gn $USER) -R /opt/post-exploitation/Havoc
+```
 
 ### 1.3 - Compile the client
 
@@ -130,17 +132,21 @@ Demon {
 }
 ```
 
-* **Run the teamserver**
+* Run the teamserver
 
-`$ cd /opt/post-exploitation/Havoc/`
+```
+$ cd /opt/post-exploitation/Havoc/
 
-`$ sudo ./havoc server --profile profiles/havoc.yaotl`
+$ sudo ./havoc server --profile profiles/havoc.yaotl
+```
 
-* **Run the client**
+* Run the client
 
-`$ cd /opt/post-exploitation/Havoc/`
+```
+$ cd /opt/post-exploitation/Havoc/
 
-`$ ./havoc client`
+$ ./havoc client
+```
 
 ## 03 - Troubleshooting
 

