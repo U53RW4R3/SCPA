@@ -38,15 +38,15 @@ $ smbclient.py -hashes :<nt_hash> [<domain>/]<username>@<IP>
 
 `$ enum4linux -a -u "<username>" -p "<password>" <IP>`
 
-### 1.5 - CrackMapExec
+### 1.5 - NetExec
 
 - Authenticate
 
-`$ crackmapexec smb <IP> -u "<username>" -p "<password>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
+`$ netexec smb <IP> -u "<username>" -p "<password>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
 
 - Pass The Hash
 
-`$ crackmapexec smb <IP> -u "<username>" -H "<nt_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
+`$ netexec smb <IP> -u "<username>" -H "<nt_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
 
 ### 1.6 - Mount Share
 
@@ -98,12 +98,12 @@ $ enum4linux -a -u "" -p "" <IP>
 $ enum4linux -a -u "guest" -p "" <IP>
 ```
 
-### 2.5 - CrackMapExec
+### 2.5 - netexec
 
 ```
-$ crackmapexec smb <IP> -u "" -p "" --shares
+$ netexec smb <IP> -u "" -p "" --shares
 
-$ crackmapexec smb <IP> -u "guest" -p "" --shares
+$ netexec smb <IP> -u "guest" -p "" --shares
 ```
 
 ## 03 - System Volume Information

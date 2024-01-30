@@ -1,0 +1,3 @@
+# Nuclei
+
+`$ nuclei -l <URL> -t ~/nuclei-templates -tags panels`

@@ -36,4 +36,10 @@ set rport <target_PORT>
 ---
 ## References
 
+- [Hacktricks: Jenkins](https://cloud.hacktricks.xyz/pentesting-ci-cd/jenkins-security)
+
+- [Pwn Jenkins](https://github.com/gquere/pwn_jenkins)
+
+- [Highon Coffee: Jenkins RCE via Unauthenticated API](https://highon.coffee/blog/jenkins-api-unauthenticated-rce-exploit/)
+
 - [Double Pivoting | Metasploit and Manual Pivoting](https://www.hdysec.com/double-pivoting-both-metasploit-and-manual/)

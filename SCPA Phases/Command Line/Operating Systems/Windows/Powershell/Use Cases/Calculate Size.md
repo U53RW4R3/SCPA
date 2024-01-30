@@ -12,3 +12,5 @@ PS C:\> Get-ChildItem -Path C:\path\to\directory -Recurse -File | Measure-Object
 ## References
 
 - [[Windows Powershell Cmdlet References]]
+
+- [PowerShell: How to Get the Folder Size?](https://www.sharepointdiary.com/2021/07/get-folder-size-in-powershell.html)
