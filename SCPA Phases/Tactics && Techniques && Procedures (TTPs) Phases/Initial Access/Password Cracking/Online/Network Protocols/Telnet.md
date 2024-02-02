@@ -38,7 +38,7 @@ View the full module info with the info, or info -d command.
 
 msf auxiliary(scanner/telnet/telnet_login) > set username <username>
 
-msf auxiliary(scanner/telnet/telnet_login) > set pass_file /path/to/passwords.txt
+msf auxiliary(scanner/telnet/telnet_login) > set pass_file passwords.lst
 
 msf auxiliary(scanner/telnet/telnet_login) > set rhosts <target_IP>
 
@@ -47,4 +47,6 @@ msf auxiliary(scanner/telnet/telnet_login) > run -j
 
 ## 03 - Nmap
 
-`$ nmap -p 23 --script telnet-brute --script-args userdb=usernames.lst,passdb=passwords.lst,telnet-brute.timeout=8s <IP>`
+```
+$ nmap -p 23 --script telnet-brute --script-args userdb=usernames.lst,passdb=passwords.lst,telnet-brute.timeout=8s <IP>
+```

@@ -18,7 +18,7 @@ $ sudo apt install default-jdk default-jre rpm fakeroot
 
 ```
 $ git clone https://github.com/angryip/ipscan.git && cd ipscan && \
-sudo -s && make linux && \
+sudo make linux && \
 sudo mkdir -p /opt/intelligence-gathering/AngryIPScanner/ && \
 sudo cp build/libs/ipscan-linux64-3.9.1-2-g7950484a.jar /opt/intelligence-gathering/AngryIPScanner/ipscan.jar
 ```

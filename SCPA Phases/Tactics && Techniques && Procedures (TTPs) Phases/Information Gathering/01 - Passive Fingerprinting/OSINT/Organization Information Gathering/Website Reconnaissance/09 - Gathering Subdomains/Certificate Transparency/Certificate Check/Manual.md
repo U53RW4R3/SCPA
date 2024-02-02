@@ -2,7 +2,7 @@
 
 - Certificate Transparency (CT) Logs
 
-`$ curl --silent -s "https://crt.sh/?cn=<domain.com>&output=json" | jq -r '.[].name_value' | sort -u`
+`$ curl -s -s "https://crt.sh/?cn=<domain.com>&output=json" | jq -r '.[].name_value' | sort -u`
 
 - tls.bufferover.run
 

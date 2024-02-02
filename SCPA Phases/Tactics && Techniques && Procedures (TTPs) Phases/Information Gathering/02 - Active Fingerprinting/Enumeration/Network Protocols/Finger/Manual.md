@@ -12,11 +12,11 @@
 
 `$ finger <username>@<IP>`
 
-`$ finger-user-enum.pl -U users.txt -t <IP>`
+`$ finger-user-enum.pl -U users.lst -t <IP>`
 
 `$ finger-user-enum.pl -u <username> -t <IP>`
 
-`$ finger-user-enum.pl -U users.txt -T ip_targets.txt`
+`$ finger-user-enum.pl -U users.lst -T ip_targets.txt`
 
 ---
 ## References

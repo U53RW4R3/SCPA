@@ -18,7 +18,7 @@ $ printf 'AUTHENTICATE "<password>"\r\nSIGNAL NEWNYM\r\n' | nc 127.0.0.1 9051
 
 - Check if you're connected to TOR
 
-`$ curl --silent https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."`
+`$ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."`
 
 ---
 ## References

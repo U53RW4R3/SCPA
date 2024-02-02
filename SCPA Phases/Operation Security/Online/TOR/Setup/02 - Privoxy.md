@@ -58,7 +58,7 @@ $ curl https://ip.me
 - Check if you're connected to TOR
 
 ```
-$ curl --silent https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
+$ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
 ```
 
 ---

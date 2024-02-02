@@ -1,3 +1,3 @@
 # NetExec
 
-`$ netexec winrm <IP> -d <domain_name> -u users.txt -p passwords.lst`
+`$ netexec winrm <IP> -d <domain_name> -u users.lst -p passwords.lst`

@@ -169,6 +169,6 @@ Usage: wpscan [options]
 
 `$ wpscan --url "<URL>" -e <vp | ap | p>,<vt | at | t> --plugins-detection <mixed | passive | aggressive> --detection-mode <mixed | passive | aggressive>`
 
-`$ wpscan --url "<URL>" -U <username | usernames.txt> -P passwords.txt`
+`$ wpscan --url "<URL>" -U <username | usernames.txt> -P passwords.lst`
 
 `$ wpscan --url "<URL>" --rua --api-token <API>`

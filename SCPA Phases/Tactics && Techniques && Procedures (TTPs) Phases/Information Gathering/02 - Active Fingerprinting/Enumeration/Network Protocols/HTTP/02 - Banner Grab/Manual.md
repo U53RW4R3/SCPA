@@ -18,7 +18,7 @@ $ echo "" | ncat -v <IP> 80
 
 ## 02 - cURL
 
-`$ curl --silent -A <user_agent> -s -I <IP> | grep -e "Server: "`
+`$ curl -s -A <user_agent> -s -I <IP> | grep -e "Server: "`
 
 ## 03 - Wget
 

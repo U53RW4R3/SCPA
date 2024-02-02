@@ -1,4 +1,4 @@
-# Default Credentials
+# Default Credentials References
 
 - [Hackers Arise: Passwords](https://www.hackers-arise.com/passwords)
 
@@ -13,8 +13,6 @@
 - [RodneyCamilo Routers Default Credentials](https://github.com/RodneyCamilo/Default-Credentials)
 
 - [DefaultCreds CheatSheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
-
-- [Open Sez Me!](https://open-sez.me/index.html)
 
 - [SpeedGuide: Default Passwords](https://www.speedguide.net/default_passwords.php)
 

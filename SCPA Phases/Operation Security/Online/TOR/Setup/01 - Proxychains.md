@@ -27,7 +27,7 @@ $ proxychains curl https://ip.me
 
 - Check if you're connected to TOR
 
-`$ proxychains curl --silent https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."`
+`$ proxychains curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."`
 
 ---
 ## References

@@ -70,7 +70,7 @@ Module options (auxiliary/scanner/vnc/vnc_login):
 
 msf auxiliary(scanner/vnc/vnc_login) > set rhosts <IP>
 
-msf auxiliary(scanner/vnc/vnc_login) > set pass_file /path/to/passwords.txt
+msf auxiliary(scanner/vnc/vnc_login) > set pass_file passwords.lst
 
 msf auxiliary(scanner/vnc/vnc_login) > run
 ```
