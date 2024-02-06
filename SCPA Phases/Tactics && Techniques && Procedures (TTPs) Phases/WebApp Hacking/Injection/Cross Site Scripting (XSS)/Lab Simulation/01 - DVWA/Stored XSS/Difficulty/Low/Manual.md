@@ -2,7 +2,7 @@
 
 Search Tag(s): #dvwa #xss #sql-injection 
 
-TODO: Demonstrate with [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin]] to inject javascript code
+TODO: Demonstrate with [[02 - Interact Session|toxssin]] to inject javascript code
 
 CTRL+SHIFT+C
 
@@ -44,6 +44,8 @@ Finally, demonstrate a **waterfall** attack vector by utilizing metasploit frame
 ## References
 
 - [Computer Security Student (CSS): Man-in-the-Middle, Persistent Covert Cross Site Scripting Injection #2](https://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson15/index.html)
+
+- [StationX: How to Use the BeEF Hacking Tool](https://www.stationx.net/beef-hacking-tool/)
 
 - [SecurityIdiots: URL Spoofed Phishing using SQLi](https://securityidiots.com/Web-Pentest/SQL-Injection/url-spoofed-phishing-with-sqli.html)
 

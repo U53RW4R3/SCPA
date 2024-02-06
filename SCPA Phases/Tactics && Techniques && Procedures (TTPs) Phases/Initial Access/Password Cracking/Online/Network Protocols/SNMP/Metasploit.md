@@ -27,7 +27,7 @@ Module options (auxiliary/scanner/snmp/snmp_login):
 
 msf auxiliary(scanner/snmp/snmp_login) > set rhosts <IP>
 
-msf auxiliary(scanner/snmp/snmp_login) > set pass_file /path/to/passwords.lst
+msf auxiliary(scanner/snmp/snmp_login) > set pass_file passwords.lst
 
 msf auxiliary(scanner/snmp/snmp_login) > set stop_on_success true
 

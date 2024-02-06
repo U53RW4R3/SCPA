@@ -91,6 +91,4 @@ $ sudo masscan -p 80,443 --open-only -Pn -sS --rate 10000 -S 8.8.8.8 --excludefi
 
 - [Sickcodes: ARIN Reserved IPv4 Address CIDR Blocks](https://gist.github.com/sickcodes/5e72643852e301aac84cf34a0348ef09)
 
-- [Country IP Blocks](https://github.com/herrbischoff/country-ip-blocks)
-
 - [Blacklist IP ranges](https://gist.github.com/ozuma/fb21ab0f7143579b1f2794f4af746fb2)

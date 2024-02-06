@@ -1,6 +1,20 @@
 # JTR
 
-TODO: Use rules to generate passwords
+TODO: Provide more use cases (refer to the links)
+
+- Add a rule to generate a custom wordlist
+
+`$ cat /etc/john/john.conf`
+
+---
+
+```
+-s-c x** M l Q  
+# Add two numbers to the end of each password  
+$[0-9]$[0-9]
+```
+
+`$ john --wordlist=custom-wordlist.txt --rules --stdout > new-wordlist.txt`
 
 ---
 ## References

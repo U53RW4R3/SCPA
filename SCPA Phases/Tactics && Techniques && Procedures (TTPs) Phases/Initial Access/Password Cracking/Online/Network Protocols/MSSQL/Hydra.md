@@ -1,6 +1,6 @@
 # Hydra
 
-`$ hydra -L users.lst –P passwords.lst <IP> mssql`
+`$ hydra -V -L users.lst –P passwords.lst <IP> mssql`
 
 ---
 ## References

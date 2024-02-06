@@ -107,6 +107,10 @@ Example, deleting:
 
 ## 6.2 - Usage
 
+TODO: Fill this info
+
+- List the credentials
+
 ```
 msf > creds
 Credentials
@@ -132,4 +136,4 @@ host       origin     service        public              private                
 ---
 ## References
 
-- [Metasploit For Pentester Creds](https://www.hackingarticles.in/metasploit-for-pentester-creds/)
+- [Hacking Articles: Metasploit For Pentester Creds](https://www.hackingarticles.in/metasploit-for-pentester-creds/)

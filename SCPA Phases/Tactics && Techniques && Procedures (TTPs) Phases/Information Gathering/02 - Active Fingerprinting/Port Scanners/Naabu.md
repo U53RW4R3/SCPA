@@ -1,13 +1,13 @@
 # Naabu
 
-## Setup
+## 01 - Setup
 
 ```
 $ go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest && \
 sudo cp ~/go/bin/naabu /usr/local/bin
 ```
 
-## Help Menu
+## 02 - Help Menu
 
 ```
 $ naabu -h
@@ -98,7 +98,7 @@ DEBUG:
    -mp, -metrics-port int    port to expose nuclei metrics on (default 63636)
 ```
 
-## Usage
+## 03 - Usage
 
 `$ naabu -host <IP> -o port-scanned-output.txt`
 
@@ -108,7 +108,7 @@ DEBUG:
 
 `$ naabu -host <IP> -nmap-cli 'nmap -sC -oA initial'`
 
-## Troubleshoot
+## 04 - Troubleshoot
 
 If you encounter an installation problem for pcap. It's missing some dependencies.
 

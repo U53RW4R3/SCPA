@@ -102,23 +102,17 @@ Exploit misconfigured firewall rules with a source port
 
 `$ nmap --host-timeout 10ms <IP>`
 
-`$ nmap --host-timeout 100ms <IP>`
-
 `$ nmap --max-retries [0-5] <IP>`
 
-`$ nmap -sn --min-hostgroup 3 --max-hostgroup 3 <IP>/<CIDR>`
+`$ nmap -sn --min-hostgroup 96 --max-hostgroup 256 <IP>/<CIDR>`
 
 `$ nmap --scan-delay 11s <IP>`
 
-`$ nmap --max-rate 2 <IP>`
-
-`$ nmap --min-rate 2 <IP>`
+`$ nmap --min-rate 2 --max-rate 2 <IP>`
 
 `$ nmap --min-parallelism 2 --max-parallelism 2 <IP>`
 
-`$ nmap --min-rtt-timeout 5ms <IP>`
-
-`$ nmap --max-rtt-timeout 50ms <IP>`
+`$ nmap --min-rtt-timeout 5ms --max-rtt-timeout 50ms <IP>`
 
 `$ nmap --initial-rtt-timeout 50ms <IP>`
 

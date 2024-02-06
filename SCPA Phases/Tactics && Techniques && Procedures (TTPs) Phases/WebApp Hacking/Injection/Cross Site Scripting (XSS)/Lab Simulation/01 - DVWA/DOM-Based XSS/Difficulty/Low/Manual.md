@@ -1,3 +1,3 @@
 # Manual
 
-TODO: Demonstrate with [[Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin]] to inject javascript code
+TODO: Demonstrate with [[02 - Interact Session|toxssin]] to inject javascript code

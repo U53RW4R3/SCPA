@@ -1,3 +1,3 @@
 # Hydra
 
-`$ hydra -l root -p <password> mysql`
+`$ hydra -V -l root -p <password> mysql`

@@ -1,0 +1,36 @@
+# 01 - HTML Injection
+
+Search Tag(s): #helpers #xss
+
+Note: JavaScript and HTML code snippets are case insensitive.
+
+## 1.1 - Prefix
+
+```
+>
+'>
+">
+```
+
+## 1.2 - HTML attributes
+
+TODO: Fill in the rest
+
+| Headings | Text Formats | Escaping Special Characters |
+| ---- | ---- | ---- |
+| `<h1>header 1</h1>` | `<i>italic text</i>` | `&` -> `&amp;` |
+| `<h2>header 2</h2>` | `<em>emphasis italic text tag</em>` | `<` -> `&lt;` |
+| `<h3>header 3</h3>` | `<b>bold text</b>` | `>` -> `&gt;` |
+| `<h4>header 4</h4>` | `<strong>bold text</strong>` | `"` -> `&quot;` |
+| `<h5>header 5</h5>` | `<small>small text</small>` | `'` -> `&#x27;` |
+| `<h6>header 6</h6>` | `<sub>subscripted text</sub>` | `/` -> `&#x2F;` |
+|  | `<sup>superscripted text</sup>` | `©` -> `&copy` |
+|  | `<del>this text is deleted</del>` | `™` -> `&trade;` |
+|  |  | `®` -> `&reg;` |
+
+##
+
+---
+## References
+
+- [Wikipedia: List of XML and HTLM character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)

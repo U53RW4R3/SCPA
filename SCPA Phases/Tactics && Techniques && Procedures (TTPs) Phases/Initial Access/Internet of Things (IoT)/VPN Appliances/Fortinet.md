@@ -1,14 +1,6 @@
-# VPN Appliances
+# Fortinet
 
-## 01 - Cisco
-
-### 1.1 - Metasploit
-
-```
-msf > use auxiliary/scanner/http/cisco_ssl_vpn
-```
-
-## 02 - Fortinet
+TODO: Fill this info
 
 ```
 msf > use auxiliary/scanner/http/fortinet_ssl_vpn

@@ -3,7 +3,7 @@
 TODO: Fill this info
 
 ```
-
+$ ./cupp.py
 ```
 
 ---

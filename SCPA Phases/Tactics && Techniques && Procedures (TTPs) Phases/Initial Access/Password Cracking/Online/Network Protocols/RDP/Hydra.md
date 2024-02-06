@@ -2,4 +2,4 @@
 
 `$ hydra -U rdp`
 
-`$ hydra -l <username> -p <password> rdp://<IP>/<domain_name>`
+`$ hydra -V -l <username> -p <password> rdp://<IP>/<domain_name>`

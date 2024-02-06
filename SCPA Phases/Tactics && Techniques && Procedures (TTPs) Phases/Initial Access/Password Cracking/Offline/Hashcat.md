@@ -4,11 +4,11 @@
 
 - Wordlist Attack-Mode
 
-`$ hashcat -a 0 -m 0 md5hashes.txt passwords.lst`
+`$ hashcat -a 0 -m <hash_type_number> hashes.txt passwords.lst`
 
 - Brute-Force Attack-Mode
 
-`$ hashcat -a 3 -m 0 md5hashes.txt ?a?a?a?a?a?a`
+`$ hashcat -a 3 -m <hash_type_number> hashes.txt ?a?a?a?a?a?a`
 
 - Display the cracked hashes
 
@@ -34,7 +34,7 @@ TODO: Provide more examples of hashes
 
 #### 3.1.1 - MD5
 
-`$ hashcat -m 0 -a 0 md5_hashes.txt passwords.lst`
+`$ hashcat -a 0 -m 0 md5_hashes.txt passwords.lst`
 
 ### 3.2 - Wi-Fi
 
@@ -68,7 +68,7 @@ TODO: Fill in this information related to cracking linux hashes
 
 ^6d0af5
 
-- **Kerberos 5, etype 23, AS-REP**
+- Kerberos 5, etype 23, AS-REP
 
 `$ hashcat -m 18200`
 

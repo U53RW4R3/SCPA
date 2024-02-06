@@ -81,3 +81,5 @@ $ hydra -C userpass.lst <IP> <protocol>
 ## References
 
 - [Stationx: How to use Hydra](https://www.stationx.net/how-to-use-hydra/)
+
+- [Hacking Articles: A Detailed Guide on Hydra](https://www.hackingarticles.in/a-detailed-guide-on-hydra/)

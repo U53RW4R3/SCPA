@@ -40,6 +40,8 @@ run post/windows/gather/dumplinks (dump shortcut lnk files) && https://github.co
 
 =========
 
+run post/windows/escalate/droplnk
+
 run post/windows/gather/bitcoin_jacker (Harvest bitcoin wallet)
 
 run post/windows/gather/enum_av_excluded (find exclusions in Windows Defender and other few AVs)

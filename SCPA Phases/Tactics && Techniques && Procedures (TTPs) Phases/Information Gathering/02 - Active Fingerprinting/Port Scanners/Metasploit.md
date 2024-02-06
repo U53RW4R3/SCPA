@@ -1,6 +1,6 @@
 # Metasploit
 
-## Basics
+## 01 - Basics
 
 - TCP Connect
 
@@ -153,7 +153,7 @@ View the full module info with the info, or info -d command.
 msf auxiliary(scanner/portmap/portmap_amp) >
 ```
 
-## Evasion
+## 02 - Evasion
 
 - Idle Zombie Scan
 

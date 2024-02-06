@@ -2,9 +2,7 @@
 
 `$ hydra -U smtp`
 
-`$ hydra -V -l <username> -P passwords.lst <IP> smtp`
-
-`$ hydra -S -v -V -l <username> -P passwords.lst -s 587 <IP>`
+`$ hydra -V -l <username> -P passwords.lst [-s <PORT>] <IP> smtp`
 
 ---
 ## References

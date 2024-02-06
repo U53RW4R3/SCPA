@@ -2,13 +2,13 @@
 
 TODO: Provide more use cases
 
-## Quick Scan with OS Detection
+## 1.1 - Quick Scan with OS Detection
 
 ```
 $ sudo nmap [-Pn] -n -sV --version-light -F -O --min-hostgroup 96 -T4 <IP>/<CIDR>
 ```
 
-## Quick Scan of large networks in Nmap
+## 1.2 - Quick Scan of large networks in Nmap
 
 ```
 $ sudo nmap -n -F --min-hostgroup 96 -T4 <IP>/<CIDR>

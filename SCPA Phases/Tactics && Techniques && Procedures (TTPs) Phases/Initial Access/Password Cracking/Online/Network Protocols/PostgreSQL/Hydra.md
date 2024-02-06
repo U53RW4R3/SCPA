@@ -1,6 +1,6 @@
 # Hydra
 
-`$ hydra -u <username> -l passwords.lst <IP> postgres`
+`$ hydra -V -u <username> -l passwords.lst <IP> postgres`
 
 ---
 ## References

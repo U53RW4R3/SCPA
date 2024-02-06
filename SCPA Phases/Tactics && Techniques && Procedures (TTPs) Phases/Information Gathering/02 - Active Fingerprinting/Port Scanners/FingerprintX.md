@@ -1,19 +1,19 @@
 # FingerprintX
 
-TODO: Fill this info
-
-## Setup
+## 01 - Setup
 
 ```
 $ go install github.com/praetorian-inc/fingerprintx/cmd/fingerprintx@latest && \
 sudo cp ~/go/bin/fingerprintx /usr/local/bin
 ```
 
-## Help Menu
+## 02 - Help Menu
 
-## Usage
+TODO: Fill this info
 
-## Use Cases
+## 03 - Usage
+
+## 04 - Use Cases
 
 ---
 ## References
