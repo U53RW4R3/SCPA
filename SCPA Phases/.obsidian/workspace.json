@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Helpers References.md",
+                "file": "Malware Development/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xsstrike",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Helpers References.md",
+                "file": "Malware Development/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Helpers References.md",
+                "file": "Malware Development/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Helpers References.md"
+                "file": "Malware Development/README.md"
               }
             }
           },
@@ -160,42 +160,42 @@
   },
   "active": "ef3c0101e694a5b7",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/Harvest Autofill Credentials.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/Harvest Cookies.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Keyloggers.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Inject JavaScript Code.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Detection/02 - JavaScript.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Helpers References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/Malvertising.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/ClickJacking.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Port Scanning.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/HTML Attributes.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Detection/01 - HTML Injection.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Evasion/JavaScript.md",
+    "Command Line/Compilers/Windows/Windows.md",
+    "Malware Development/README.md",
+    "Command Line/Compilers/Linux/Linux.md",
+    "Malware Development/Checklist.md",
+    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
+    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/ReadFile.md",
+    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/PathFileExists.md",
+    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/GetFileAttributes.md",
+    "Malware Development/Helpers/Crypters/C.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/04 - Automated Exploitation/Commix/Commix.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Commix/02 - Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Commix/01 - Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit/Usage.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/06 - WireTap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Webshells/Webshells.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/07 - WebDAV/02 - File Upload/Cadaver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
+    "Command and Control/Webshells/Weevely/Database.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Compromised Hosts/Webshells.md",
+    "Command and Control/Webshells/Weevely/08 - Anti-Forensics.md",
+    "Command and Control/Webshells/Weevely/05 - Spawn Callback Shell.md",
+    "Command and Control/Webshells/Weevely/02 - Basic Commands.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Usage/Evasion.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Evasion",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List/Untitled",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Detection",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Scanners/XSStrike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF/Usage/Clone Website.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Nikto.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Sensitive Data Exposure/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Web Vulnerability Scanner/Wapiti.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin/Usage/02 - Interact Session.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/DOM-Based XSS/Difficulty/Low/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/Reflective XSS/Difficulty/Low/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin/Toxssin.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap/Usage",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

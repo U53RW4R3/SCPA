@@ -16,6 +16,15 @@ C:\> objcopy -O binary shell.exe shell.bin
 
 ### 2.1 - Cross Compilers
 
+- Setup `mingw-w64`
+
+```
+$ wget https://musl.cc/x86_64-w64-mingw32-cross.tgz && \
+sudo tar xzvf x86_64-w64-mingw32-cross.tgz -C /usr/local/ && \
+echo "export PATH=\$PATH:/usr/local/x86_64-w64-mingw32-cross/bin" >> ~/.bashrc && \
+source ~/.bashrc
+```
+
 - Compile Windows binaries in Linux
 
 ```
@@ -104,6 +113,16 @@ C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcshell.c /link /out:shell.exe /subsy
 
 ---
 ## References
+
+### Toolchains
+
+- [musl.cc](https://musl.cc/)
+
+- [Mingw-64 Toolchain (bleeding edge)](https://sourceforge.net/p/mingw-w64/)
+
+- [Cross-compiling with musl Toolchains](https://ariya.io/2020/06/cross-compiling-with-musl-toolchains)
+
+### Compiling Guides
 
 - [Malicious.link: Compiling a DLL using MingGW](https://room362.com/posts/2020/compiling-a-dll-using-mingw/)
 
