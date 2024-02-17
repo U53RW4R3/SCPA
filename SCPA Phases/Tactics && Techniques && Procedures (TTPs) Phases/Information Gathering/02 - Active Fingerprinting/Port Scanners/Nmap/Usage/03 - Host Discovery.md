@@ -66,10 +66,6 @@
 
 `$ sudo nmap -R <IP>/<CIDR>`
 
-If you want to specify a specific dns server to lookup
-
-`$ sudo nmap --dns-servers <dns_server_1>,<dns_server_2>,<dns_server_n> <IP>/<CIDR>`
-
 ## 3.7 - Traceroute
 
 `$ sudo nmap --traceroute -sn -PE <IP>`

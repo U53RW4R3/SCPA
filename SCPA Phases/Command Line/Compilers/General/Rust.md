@@ -6,7 +6,7 @@ Search Tag(s): #command-line #compiler
 
 - List of toolchains
 
-`$ rustc --print target-list`
+`> rustc --print target-list`
 
 - Install toolchain
 

@@ -7,3 +7,8 @@
 `$ dnsrecon -d zonetransfers.me -t axfr`
 
 `$ dnsrecon -r <IP_DNS>/<CIDR> -n <IP_DNS>`
+
+---
+## References
+
+- [DNSRecon](https://github.com/darkoperator/dnsrecon)

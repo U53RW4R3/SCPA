@@ -63,7 +63,7 @@ TODO: Fill the information with a step by step approach using error-based subque
 
 - [Hacking Articles: Form Based SQL Injection Manually](https://www.hackingarticles.in/form-based-sql-injection-manually/)
 
-- [Web Application Pentesting – Manual SQL Injection With Error Based String Method](https://gbhackers.com/manual-sql-injection/)
+- [GBHackers: Web Application Pentesting – Manual SQL Injection With Error Based String Method](https://gbhackers.com/manual-sql-injection/)
 
 - [Web Application & SQL Injection Pen Test cheatsheet by D7X](https://sqli.promiselabs.net/)
 

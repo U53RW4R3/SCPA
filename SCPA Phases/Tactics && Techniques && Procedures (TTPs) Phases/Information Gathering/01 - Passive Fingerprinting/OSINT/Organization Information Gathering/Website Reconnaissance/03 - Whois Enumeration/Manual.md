@@ -6,6 +6,8 @@
 $ whois <domain.com>
 
 $ whois -I <domain.com>
+
+$ whois -a -T inetnum <organization_name>
 ```
 
 ## 02 - Telnet

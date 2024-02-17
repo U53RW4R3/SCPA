@@ -64,3 +64,5 @@ https://cirt.net/rfiinc.txt?%00&cmd=ls
 - [Cobalt: A Pentester's Guide to File Inclusion](https://www.cobalt.io/blog/a-pentesters-guide-to-file-inclusion)
 
 - [Malicious.link: Simple PHP webshell with php filter chains](https://room362.com/posts/2023/simple-php-webshell-with-php-filter-chains/)
+
+- [Certcube: Cheatsheet – LFI & RCE & Webshells](https://blog.certcube.com/detailed-cheatsheet-lfi-rce-webshells/)

@@ -1,8 +1,10 @@
 # GitTools
 
-`$ ./extractor.sh <source> <destination>`
+```
+$ ./extractor.sh <source> <destination>
 
-`$ ./extractor.sh source-forge.git extracted-src-dir`
+$ ./extractor.sh source_forge.git extracted_src_dir
+```
 
 - To break down the git commits using a separator.
 

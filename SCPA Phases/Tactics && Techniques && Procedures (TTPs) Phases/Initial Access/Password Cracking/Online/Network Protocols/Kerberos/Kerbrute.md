@@ -53,15 +53,15 @@ Use "kerbrute [command] --help" for more information about a command.
 
 - Password Spray each domain username accounts from an active directory
 
-`$ kerbrute passwordspray -d <FQDN> users.lst <password>`
+`$ kerbrute passwordspray [--dc <IP>] -d <domain_name> users.lst <password>`
 
 - Brute force a username with a password dictionary (not recommended unless it has no lockout policy!)
 
-`$ kerbrute bruteuser -d <FQDN> passwords.lst <username>`
+`$ kerbrute bruteuser [--dc <IP>] -d <domain_name> passwords.lst <username>`
 
 - Brute force with a combo list of usernames and passwords against a domain controller
 
-`$ cat combolist.lst | kerbrute -d <FQDN> bruteforce -`
+`$ cat combolist.lst | kerbrute [--dc <IP>] -d <domain_name> bruteforce -`
 
 ---
 ## References

@@ -1,83 +1,22 @@
 # Retrieve Proxy Servers
 
-## Scoop
-
-### Compile binary
+## 01 - Nmap
 
 ```
-$ git clone https://git.tcp.direct/perp/scoop.git && \
-cd scoop && \
-go build scoop.go
-```
+$ nmap -p 1080 -Pn -n --script socks-open-proxy [--script-args "proxy.url=google.com,proxy.pattern=<pattern>"] <IP>
 
-- Fetch SOCKS Proxy servers
-
-`$ ./scrape && ./scoop`
-
-#### Use Proxychains
-
-`$ cat socks5.conf`
-
----
-
-```
-strict_chain  
-proxy_dns  
-tcp_read_time_out 15000  
-tcp_connect_time_out 8000  
-localnet 127.0.0.1/255.255.255.255  
-[ProxyList]  
-socks5  127.0.0.1 9999 user pass
-```
-
-`$ proxychains -f socks5.conf curl https://ipinfo.io`
-
-#### Use Privoxy
-
-`$ cat /etc/privoxy/config`
-
----
-
-```
-user-manual /usr/share/doc/privoxy/user-manual/
-confdir /etc/privoxy
-logdir /var/log/privoxy
-actionsfile match-all.action # Actions that are applied to all sites and maybe overruled later on.
-actionsfile default.action   # Main actions file
-actionsfile user.action      # User customizations
-#actionsfile regression-tests.action     # Tests for privoxy-regression-test
-filterfile default.filter
-filterfile user.filter      # User customizations
-logfile logfile
-listen-address  127.0.0.1:8118
-enable-remote-toggle  0
-enable-remote-http-toggle  0
-enable-edit-actions 0
-enforce-blocks 0
-buffer-limit 4096
-enable-proxy-authentication-forwarding 0
-forwarded-connect-retries  0
-accept-intercepted-requests 0
-allow-cgi-request-crunching 0
-split-large-forms 0
-keep-alive-timeout 5
-tolerate-pipelining 1
-socket-timeout 300
-forward-socks5  /       user:pass@127.0.0.1:9999  .
-```
-
-`$ privoxy /etc/privoxy/config`
-
-Refer to [[Terminal Setup]] section to configure a bash resource file
-
-```
-$ proxy_on
-username:
-server: localhost
-port: 8118
+$ nmap -p 1080 -Pn -n -sS --max-retries 1 --min-parallelism 700 --open -T4 --script socks-open-proxy -iL targets.txt 2>/dev/null | grep -B 4 -A 2 "socks-open-proxy:" | tee -a socks_proxies_output.txt
 ```
 
 ---
 ## References
 
-- [Scoop](https://git.tcp.direct/perp/scoop)
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/SOCKS/Nmap|Nmap: SOCKS]]
+
+- [Nmap NSEDocs: Script socks-open-proxy](https://nmap.org/nsedoc/scripts/socks-open-proxy.html)
+
+### Hunt for Open Proxies
+
+- [IP Address Location](https://www.ipaddresslocation.org/cidr/ip-ranges.php)
+
+- [Fun Over IP: Socks proxy servers scanning with nmap](https://funoverip.net/2010/11/socks-proxy-servers-scanning-with-nmap/)

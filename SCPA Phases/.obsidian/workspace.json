@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2515415af902e328",
+        "id": "30acf1a743b5b727",
         "type": "tabs",
         "children": [
           {
-            "id": "ef3c0101e694a5b7",
+            "id": "dabcb8ca049df802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/README.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/README.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/README.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/README.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md"
               }
             }
           },
@@ -158,44 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef3c0101e694a5b7",
+  "active": "dabcb8ca049df802",
   "lastOpenFiles": [
-    "Command Line/Compilers/Windows/Windows.md",
-    "Malware Development/README.md",
-    "Command Line/Compilers/Linux/Linux.md",
-    "Malware Development/Checklist.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/Registry.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/ReadFile.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/PathFileExists.md",
-    "Malware Development/Techniques/Anti-Sandbox/Virtualization Detection/WinAPI/GetFileAttributes.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/SSTI Detector.md",
+    "Command Line/Assemblers/General/NASM.md",
+    "Command Line/Assemblers/Linux/GAS.md",
+    "Command Line/Assemblers/Linux/YASM.md",
+    "Command Line/Assemblers/Windows/MASM.md",
+    "Command Line/Compilers/General/Dotnet.md",
+    "Command Line/Compilers/General/Go.md",
+    "Command Line/Compilers/General/Python.md",
+    "Command Line/Compilers/General/Rust.md",
+    "Command Line/Compilers/Linux/C.md",
+    "Command Line/Compilers/Linux/CPP.md",
+    "Command Line/Compilers/Windows/C.md",
+    "Command Line/Compilers/Windows/CPP.md",
+    "Malware Development/Helpers/Implant Templates/Metasploit.md",
     "Malware Development/Helpers/Crypters/C.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/04 - Automated Exploitation/Commix/Commix.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Commix/02 - Enumeration.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Commix/01 - Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit/Usage.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/06 - WireTap.md",
+    "Malware Development/Helpers/Crypters/CSharp.md",
+    "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
+    "Malware Development/Helpers/Entropy/Commands.md",
+    "Command Line/Assemblers/General",
+    "Command Line/Assemblers/Linux",
+    "Command Line/Assemblers/Windows",
+    "Command Line/Assemblers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap/Usage/Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap/Usage/SSRFMap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Path Traversal/Automated Exploitation/LFIMap.md",
+    "Operation Security/Online/Untitled",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/01 - Gather Subdomains",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/02 - Subdomain Bruteforce/Scanners",
     "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Webshells/Webshells.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/SSH/Manual/Dynamic Port Forwarding.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/07 - WebDAV/02 - File Upload/Cadaver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/04 - Initial Foothold and Persistence.md",
-    "Command and Control/Webshells/Weevely/Database.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Compromised Hosts/Webshells.md",
-    "Command and Control/Webshells/Weevely/08 - Anti-Forensics.md",
-    "Command and Control/Webshells/Weevely/05 - Spawn Callback Shell.md",
-    "Command and Control/Webshells/Weevely/02 - Basic Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Usage/Evasion.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Evasion",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/XSS Payloads List/Untitled",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Detection",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

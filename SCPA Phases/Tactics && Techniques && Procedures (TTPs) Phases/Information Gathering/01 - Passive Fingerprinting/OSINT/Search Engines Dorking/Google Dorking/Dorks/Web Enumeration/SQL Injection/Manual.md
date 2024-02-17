@@ -81,7 +81,9 @@ intext:("You have an error in your SQL syntax" | "PHP Parse error" | "PHP Warnin
 
 - [Top25-parmameter: SQL injection](https://github.com/lutfumertceylan/top25-parameter/blob/master/SQLi-parameters.txt)
 
-- [New Google Dorks List Collection for SQL Injection – 2023](https://gbhackers.com/latest-google-sql-dorks/)
+- [GBHackers: New Google Dorks List Collection for SQL Injection – 2023](https://gbhackers.com/latest-google-sql-dorks/)
+
+- [GBHackers: SQLMap Detecting and Exploiting SQL Injection](https://gbhackers.com/sqlmap-detecting-exploiting-sql-injection/)
 
 - [Google Dork Cheat Sheet for Finding Hidden Admin Panels](https://medium.com/@cuncis/google-dork-cheat-sheet-for-finding-hidden-admin-panels-379e3414d486)
 

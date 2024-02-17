@@ -13,6 +13,8 @@ deactivate
 
 ## 02 - Usage
 
-`$ source ~/environments/sublist3r2/bin/activate`
+```
+$ source ~/environments/sublist3r2/bin/activate
 
-`$ sublist3r2 -d website.com -b -t 64 -o subdomains.txt`
+$ sublist3r2 -d website.com -b -t 64 -o subdomains.txt
+```

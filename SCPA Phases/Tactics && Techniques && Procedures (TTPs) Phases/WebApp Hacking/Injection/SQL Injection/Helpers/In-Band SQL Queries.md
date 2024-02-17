@@ -231,3 +231,5 @@ c:\wamp\www
 - [Sjoerd Langkemper: Finding common files in the webroot](https://www.sjoerdlangkemper.nl/2018/05/23/creating-a-dirsearch-list/)
 
 - [Phrack.me: SQL Injection Cheatsheet](https://www.phrack.me/exploits/2020/07/09/SQL-Injection-primer.html)
+
+- [ExploitDB Papers: Beyond SQLi Obfuscate and Bypass](https://www.exploit-db.com/papers/17934)
