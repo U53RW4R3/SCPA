@@ -5,7 +5,7 @@ TODO: Provide use cases when using SIPVicious for exploiting VoIP Devices
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/VoIP/SIPVicious|SIPVicious: Password Cracking]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/IoTs/VoIP/SIPVicious|SIPVicious: Password Cracking]]
 
 - [RTC Security: Attacking Real VoIP System with Sipvicious OSS](https://www.rtcsec.com/article/attacking-real-voip-system-with-sipvicious-oss/)
 

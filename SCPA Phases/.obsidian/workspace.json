@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Internet of Things (IoT)/CCTV/CCTV.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 391.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Internet of Things (IoT)/CCTV/CCTV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Internet of Things (IoT)/CCTV/CCTV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Internet of Things (IoT)/CCTV/CCTV.md"
               }
             }
           },
@@ -160,6 +160,19 @@
   },
   "active": "dabcb8ca049df802",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/02 - Gathering Emails/Github Commits Checksum.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/SQL Databases",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/NoSQL Databases",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/Graphical Remote Program/VNC/VNC.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/Graphical Remote Program",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/Remote Login",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/Remote Login/Graphical Remote Program",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Untitled",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/IoTs",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Base64.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Basic Commands/Base64.md",
+    "Malware Development/Helpers/Shellcode Formatting/Commands.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SSH/C2 Frameworks/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SSH/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/WinRM/WinRM.md",
@@ -171,30 +184,17 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/Manual/Unix Shell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/Manual/Unix Shell",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/NoSQL Databases/Manual",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual/Unix Shell/VNCViewer.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual/Unix Shell/Remmina.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/C2 Frameworks/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/VNC.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/RKS (RemoteKeyStrokes).md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/Manual/Unix Shell/Remmina.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual/Unix Shell",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual",
     "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Internal Reconnaissance.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Shortcut Link.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/ISO File.md",
     "Command and Control/Cobalt Strike/Cobalt Strike Global References.md",
     "Command Line/Operating Systems/Windows/Command Prompt/04 - Shortcut Program Path.md",
-    "Command Line/Operating Systems/Linux/Use Cases/Networking/Basic.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Scan The Internet/Scanners/Masscan.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/02 - Subdomain Bruteforce/Scanners/Fierce.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/01 - Gather Subdomains/Scanners/Fierce.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Scan The Internet/Gathering IP Blocks.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/ISCSI",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/ISCSI",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
