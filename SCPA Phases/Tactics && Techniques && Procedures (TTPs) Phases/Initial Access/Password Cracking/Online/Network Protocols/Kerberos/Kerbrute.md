@@ -2,10 +2,19 @@
 
 ## 01 - Setup
 
+### 1.1 - Compile
+
 ```
-$ wget -O kerbrute https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 && \
-chmod 755 kerbrute && \
-sudo mv kerbrute /usr/local/bin/
+$ git clone https://github.com/ropnop/kerbrute.git && cd kerbrute && \
+make linux && chmod 755 dist/kerbrute_linux_amd64 && \
+sudo mv dist/kerbrute_linux_amd64 /usr/local/bin/kerbrute && \
+```
+
+### 1.2 - Download
+
+```
+$ sudo wget -O /usr/local/bin/kerbrute https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 && \
+sudo chmod 755 /usr/local/bin/kerbrute
 ```
 
 ## 02 - Help Menu
@@ -53,11 +62,11 @@ Use "kerbrute [command] --help" for more information about a command.
 
 - Password Spray each domain username accounts from an active directory
 
-`$ kerbrute passwordspray [--dc <IP>] -d <domain_name> users.lst <password>`
+`$ kerbrute passwordspray [--dc <IP>] -d <domain_name> users.lst "<password>"`
 
-- Brute force a username with a password dictionary (not recommended unless it has no lockout policy!)
+- Brute force a username with a password dictionary (not recommended unless it has no lockout policy).
 
-`$ kerbrute bruteuser [--dc <IP>] -d <domain_name> passwords.lst <username>`
+`$ kerbrute bruteuser [--dc <IP>] -d <domain_name> passwords.lst "<username>"`
 
 - Brute force with a combo list of usernames and passwords against a domain controller
 
@@ -65,6 +74,8 @@ Use "kerbrute [command] --help" for more information about a command.
 
 ---
 ## References
+
+- [[Credential Combolist]]
 
 - [Kerbrute](https://github.com/ropnop/kerbrute)
 

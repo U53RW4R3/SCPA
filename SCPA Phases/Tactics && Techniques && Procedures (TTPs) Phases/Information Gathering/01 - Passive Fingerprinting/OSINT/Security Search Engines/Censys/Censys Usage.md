@@ -23,7 +23,7 @@ $ curl -g -X 'GET' \
 ### 2.1 - Retrieve IP Addresses
 
 ```
-$ grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" censys-output.json | sort -u > ip_targets.txt
+$ grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" censys-output.json | sort -u > ip_targets.txt
 ```
 
 ---

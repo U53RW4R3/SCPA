@@ -79,7 +79,7 @@ $ cat block-ip-ranges.txt
 240.0.0.0/4
 255.255.255.255/32
 
-$ sudo masscan -p 80,443 --open-only -Pn -sS --rate 10000 -S 8.8.8.8 --excludefile block-ip-ranges.txt --ranges 0.0.0.0/0 | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" > ips_output.txt
+$ sudo masscan -p 80,443 --open-only -Pn -sS --rate 10000 -S 8.8.8.8 --excludefile block-ip-ranges.txt --ranges 0.0.0.0/0 | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" > ips_output.txt
 ```
 
 ---

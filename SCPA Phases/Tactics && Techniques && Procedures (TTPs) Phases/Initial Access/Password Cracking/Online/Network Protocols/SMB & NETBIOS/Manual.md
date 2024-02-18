@@ -13,6 +13,8 @@ do
 done
 ```
 
-`$ chmod +x password-spraying.sh`
+```
+$ chmod 755 password-spraying.sh
 
-`$ ./password-spraying.sh users.lst <password> <IP>`
+$ ./password-spraying.sh users.lst <password> <IP>
+```

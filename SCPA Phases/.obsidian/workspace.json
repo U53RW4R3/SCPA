@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Helpers/Social Engineering Pretext.md"
               }
             }
           },
@@ -160,42 +160,41 @@
   },
   "active": "dabcb8ca049df802",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage/02 - Basic.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Automated Exploitation/SSTIMap",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/Nuclei.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Server Side Template Injection/Scanners/SSTI Detector.md",
-    "Command Line/Assemblers/General/NASM.md",
-    "Command Line/Assemblers/Linux/GAS.md",
-    "Command Line/Assemblers/Linux/YASM.md",
-    "Command Line/Assemblers/Windows/MASM.md",
-    "Command Line/Compilers/General/Dotnet.md",
-    "Command Line/Compilers/General/Go.md",
-    "Command Line/Compilers/General/Python.md",
-    "Command Line/Compilers/General/Rust.md",
-    "Command Line/Compilers/Linux/C.md",
-    "Command Line/Compilers/Linux/CPP.md",
-    "Command Line/Compilers/Windows/C.md",
-    "Command Line/Compilers/Windows/CPP.md",
-    "Malware Development/Helpers/Implant Templates/Metasploit.md",
-    "Malware Development/Helpers/Crypters/C.md",
-    "Malware Development/Helpers/Crypters/CSharp.md",
-    "Malware Development/Helpers/Compiler Scripts/Windows/Scripts.md",
-    "Malware Development/Helpers/Entropy/Commands.md",
-    "Command Line/Assemblers/General",
-    "Command Line/Assemblers/Linux",
-    "Command Line/Assemblers/Windows",
-    "Command Line/Assemblers",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap/Usage/Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Server Side Request Forgery (SSRF)/Automated Exploitation/SSRFMap/Usage/SSRFMap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Path Traversal/Automated Exploitation/LFIMap.md",
-    "Operation Security/Online/Untitled",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/01 - Gather Subdomains",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/02 - Subdomain Bruteforce/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Vulnerability Assessment/Vulnerability Scanner/Metasploit",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SSH/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SSH/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/WinRM/WinRM.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SQL Databases/MySQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SQL Databases/MSSQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/NoSQL Databases/Redis.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/SMB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/Manual/Unix Shell",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/NoSQL Databases/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual/Unix Shell/VNCViewer.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual/Unix Shell/Remmina.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/VNC.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/RKS (RemoteKeyStrokes).md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/Manual/Unix Shell/Remmina.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual/Unix Shell",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/VNC/Manual",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Internal Reconnaissance.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/Shortcut Link.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Social Engineering/Phishing/ISO File.md",
+    "Command and Control/Cobalt Strike/Cobalt Strike Global References.md",
+    "Command Line/Operating Systems/Windows/Command Prompt/04 - Shortcut Program Path.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Networking/Basic.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Scan The Internet/Scanners/Masscan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/02 - Subdomain Bruteforce/Scanners/Fierce.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/DNS/01 - Gather Subdomains/Scanners/Fierce.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Scan The Internet/Gathering IP Blocks.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/ISCSI",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/ISCSI",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

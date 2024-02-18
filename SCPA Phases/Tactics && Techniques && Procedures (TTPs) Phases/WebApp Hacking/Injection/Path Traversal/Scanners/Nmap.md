@@ -9,3 +9,8 @@
 ```
 $ nmap -p 80,443 -PN -n --script http-rfi-spider --script-args http-rfi-spider.inclusionurl=https://google.com,http.useragent='<user_agent>' <IP>
 ```
+
+---
+## References
+
+- [[User Agents]]

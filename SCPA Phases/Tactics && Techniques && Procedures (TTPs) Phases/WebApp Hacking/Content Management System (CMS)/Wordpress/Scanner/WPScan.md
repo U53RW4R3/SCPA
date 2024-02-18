@@ -172,3 +172,8 @@ Usage: wpscan [options]
 `$ wpscan --url "<URL>" -U <username | usernames.txt> -P passwords.lst`
 
 `$ wpscan --url "<URL>" --rua --api-token <API>`
+
+---
+## References
+
+- [[User Agents]]

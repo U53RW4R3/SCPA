@@ -9,3 +9,8 @@ $ nmap -p 80,443 -Pn -n --script http-cross-domain-policy --script-args http-cro
 ```
 
 `$ nmap -p 80,443 -Pn -n --script http-csrf --script-args http.useragent='<user_agent>' <IP>`
+
+---
+## References
+
+- [[User Agents]]

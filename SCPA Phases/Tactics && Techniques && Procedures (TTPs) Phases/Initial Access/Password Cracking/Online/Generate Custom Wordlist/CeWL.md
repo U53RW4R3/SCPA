@@ -1,6 +1,6 @@
 # CeWL
 
-## Help Menu
+## 01 - Help Menu
 
 ```
 $ cewl -h
@@ -48,20 +48,22 @@ Usage: cewl [OPTIONS] ... <url>
     <url>: The site to spider.
 ```
 
-## Usage
+## 02 - Usage
 
 TODO: Fill in the information to provide more usage coverage of Cewl and it's use cases
 
 - Depth to spider
 
-`$ cewl -u "<user_agent>" -d <int> -w custom-wordlist.lst <URL>`
+`$ cewl -u "<user_agent>" -d <int> -w custom_wordlist.lst <URL>`
 
 - Minimum word length
 
-`$ cewl -u "<user_agent>" -m 9 -w custom-wordlist.lst <URL>`
+`$ cewl -u "<user_agent>" -m 9 -w custom_wordlist.lst <URL>`
 
 ---
 ## References
+
+- [[User Agents]]
 
 - [CeWL](https://github.com/digininja/CeWL)
 

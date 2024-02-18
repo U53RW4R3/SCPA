@@ -11,11 +11,11 @@ $ ifconfig | grep "inet" | grep "broadcast" | awk '{print $2}'
 
 $ ifconfig -a | awk '/(inet)(.*)broadcast/ {print $2}'
 
-$ ifconfig | grep -v 127.0.0.1 | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" | awk '{print $2}'
+$ ifconfig | grep -v 127.0.0.1 | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | awk '{print $2}'
 
 $ ip address | grep -v 127.0.0.1 | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
 
-$ while read -r line; do ping -c 1 $line | grep "bytes from" | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"; done < ips.txt | tee output.txt
+$ while read -r line; do ping -c 1 $line | grep "bytes from" | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"; done < ips.txt | tee output.txt
 ```
 
 `$ ip -4 -o address | awk '{print $4}' | cut -d "/" -f 1`
@@ -27,6 +27,14 @@ $ while read -r line; do ping -c 1 $line | grep "bytes from" | grep -Eo "(25[0-5
 `$ ip address | awk -- '$1 == "inet" && $3 == "brd" { split($2,a,"/"); print a[1]; }'`
 
 `$ ip address | egrep '^ *inet' | grep brd | awk -- '{ print $2; }' | sed -e 's:/[0-9]*$::'`
+
+## Retrieve Netblocks
+
+```
+$ grep -Eo '[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/[0-9]{1,2}' file.txt
+
+$ grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}' file.txt
+```
 
 ## Retrieve MAC Address
 

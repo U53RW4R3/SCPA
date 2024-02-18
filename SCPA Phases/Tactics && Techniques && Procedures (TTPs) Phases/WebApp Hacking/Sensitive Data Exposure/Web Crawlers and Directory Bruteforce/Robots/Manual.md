@@ -6,4 +6,9 @@ Open your web browser and Navigate to `http[s]://<IP>/robots.txt` by entering it
 
 ## 02 - cURL
 
-`$ curl -s -A <user_agent> http[s]://<IP>/robots.txt`
+`$ curl -s -A "<user_agent>" http[s]://<IP>/robots.txt`
+
+---
+## References
+
+- [[User Agents]]

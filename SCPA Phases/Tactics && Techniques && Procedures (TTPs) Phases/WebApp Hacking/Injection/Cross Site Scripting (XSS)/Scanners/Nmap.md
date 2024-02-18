@@ -17,3 +17,8 @@ Search Tag(s): #nmap #information-gathering #active-reconnaissance #xss #webapp
 ## XSSed Database
 
 `$ nmap -p80,443 -Pn -n --script http-xssed --script-args http.useragent='<user_agent>' <IP>`
+
+---
+## References
+
+- [[User Agents]]

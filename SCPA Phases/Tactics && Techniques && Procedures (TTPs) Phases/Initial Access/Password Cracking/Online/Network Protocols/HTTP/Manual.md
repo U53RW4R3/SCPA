@@ -1,6 +1,4 @@
-# HTTP
-
-## 01 - Manual
+# Manual
 
 TODO: Check out the references related to **Default HTTP Login Hunter** script
 

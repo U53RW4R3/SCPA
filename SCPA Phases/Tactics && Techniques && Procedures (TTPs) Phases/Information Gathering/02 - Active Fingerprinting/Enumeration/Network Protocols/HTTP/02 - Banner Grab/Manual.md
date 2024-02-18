@@ -18,8 +18,13 @@ $ echo "" | ncat -v <IP> 80
 
 ## 02 - cURL
 
-`$ curl -s -A <user_agent> -s -I <IP> | grep -e "Server: "`
+`$ curl -s -A "<user_agent>" -s -I <IP> | grep -e "Server: "`
 
 ## 03 - Wget
 
-`$ wget -U <user_agent> <IP> -q -S`
+`$ wget -U "<user_agent>" <IP> -q -S`
+
+---
+## References
+
+- [[User Agents]]

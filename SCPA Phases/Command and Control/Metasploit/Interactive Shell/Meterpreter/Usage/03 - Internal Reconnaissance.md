@@ -207,6 +207,12 @@ meterpreter > pgrep lsass
 696
 ```
 
+2. Retrieve process ID with path of the program
+
+```
+meterpreter > pgrep -l -f <process_name>
+```
+
 ## 3.3 - Networking
 
 * Help Menu
