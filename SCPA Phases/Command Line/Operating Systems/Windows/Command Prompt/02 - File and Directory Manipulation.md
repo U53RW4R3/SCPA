@@ -46,3 +46,5 @@ TODO: Fill this info
 ## References
 
 - [[Windows Command Prompt References]]
+
+- [SS64: Con](https://ss64.com/nt/con.html)
