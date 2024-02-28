@@ -1,3 +1,3 @@
 # Manual
 
-TODO: Demonstrate with [[02 - Interact Session|toxssin]] to inject javascript code
+TODO: Demonstrate with BeEF to inject javascript code

@@ -88,9 +88,9 @@ To save terminal raw output with commands
 
 `CTRL-b + x` -> Force kill an unresponsive process in a pane
 
-`CTRL-u` (using vim keybingding) -> Page Up
+`CTRL-u` (using vim keybinding) -> Page Up
 
-`CTRL-d` (using vim keybingding) -> Page Down
+`CTRL-d` (using vim keybinding) -> Page Down
 
 ---
 ## References

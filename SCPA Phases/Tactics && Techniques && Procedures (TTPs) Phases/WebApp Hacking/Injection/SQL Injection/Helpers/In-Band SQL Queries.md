@@ -218,6 +218,8 @@ c:\wamp\www
 
 - [WebSec: SQL Injection Knowledge Base](https://www.websec.ca/kb/sql_injection)
 
+- [Web Application & SQL Injection Pen Test cheatsheet by D7X](https://sqli.promiselabs.net/)
+
 - [PayloadsAllTheThings: SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection)
 
 - [Pentestlab Blog: SQL Injection Authentication Bypass Cheat Sheet](https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/)

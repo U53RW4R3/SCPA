@@ -19,20 +19,21 @@ $ sudo git clone https://github.com/digininja/DVWA.git /var/www/html/dvwa/
 
 $ sudo cp /var/www/html/dvwa/config/config.inc.php.dist /var/www/html/dvwa/config/config.inc.php
 
-$ sudo chmod -R 777 /var/www/html/dvwa/
+$ sudo chmod 777 /var/www/html/dvwa/hackable/uploads/
 
-$ sudo chown -R www-data:www-data /var/www/html/dvwa/
+$ sudo chown www-data /var/www/html/dvwa/config
 ```
 
 - Configure PHP file
 
 ```
-$ cat /etc/php/7.4/apache2/php.ini
+$ cat /etc/php/8.2/apache2/php.ini
 ..[snip]..
 allow_url_fopen = On
-allow_url_include = On  
-display_startup_errors = On  
+allow_url_include = On
+..[snip]..
 display_errors = On
+display_startup_errors = On
 ..[snip]..
 ```
 
@@ -52,7 +53,7 @@ $_DVWA[ 'db_database' ] = 'dvwa';
 $_DVWA[ 'db_user' ]     = 'dvwa';
 $_DVWA[ 'db_password' ] = 'p@ssw0rd';
 $_DVWA[ 'db_port']      = '3306';
-
+// ..[snip]..
 $_DVWA[ 'default_security_level' ] = 'low';
 ```
 
@@ -99,7 +100,11 @@ Note: For this demonstration let's grant `dvwa@localhost` using all SQL statemen
 
 - You can of course grant privileges one by one.
 
-`MariaDB [(none)]> GRANT SELECT,INSERT,UPDATE,FILE,DROP,DELETE,EXECUTE ON dvwa.* TO dvwa@localhost;`
+```
+MariaDB [(none)]> GRANT SELECT,INSERT,UPDATE,DROP,DELETE,EXECUTE ON dvwa.* TO dvwa@localhost;
+
+MariaDB [(none)]> GRANT FILE ON *.* TO dvwa@localhost;
+```
 
 - To revoke all privileges.
 
