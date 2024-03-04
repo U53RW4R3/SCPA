@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/RKS (RemoteKeyStrokes).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rdesktop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 404.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/RKS (RemoteKeyStrokes).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/RKS (RemoteKeyStrokes).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/RKS (RemoteKeyStrokes).md"
               }
             }
           },
@@ -160,42 +161,43 @@
   },
   "active": "d1a5343dc480b0fa",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/03 - Error-Based Query SQL Injection/01 - Database Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/01 - Boolean-Based Query SQL Injection/02 - Craft Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/Graphical Remote Program/RDP/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/RDP/Rdesktop.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/RDP Lateral Movement/Authenticate RDP/Manual/Unix Shell/Rdesktop.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Log Files/Log Files.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Webshells/Webshells.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/Graphical Remote Program/RDP/Manual/Unix Shell/Rdesktop.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/Windows/Powercat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Ncat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Netcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Bind Shells/Netcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Netcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/Shell Handler/General/Socat.md",
+    "Command and Control/Metasploit/Interactive Shell/Meta Shell/Usage.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Socat.md",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Kernel Exploits.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/OpenSSL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Linux/Reverse Shells/Bash.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Scripting Payloads/Linux/Bind Shells.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Callback Shells/OneLiners/Fully Interactive Shell/Linux.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/General/Port Forwarding/Socat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/OpenSSL",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Transport Security Layer",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Automated Exploitation/Upload_Bypass",
+    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/File Upload/Automated Exploitation",
     "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/02 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/02 - UNION Query SQL Injection/02 - Data Collection.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/BeEF/Usage/Clone Website.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin/Usage/02 - Interact Session.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Automated Exploitation/Toxssin/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/DOM-Based XSS/Difficulty/Low/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/Reflective XSS/Difficulty/Low/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Detection/02 - JavaScript.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Cross Site Scripting (XSS)/Helpers/Detection/01 - HTML Injection.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/02 - Inferential SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/Boolean-Based Blind Query SQL Injection.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Dump Credentials/02 - Offensive Tools/Scripts/Nishang.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Usage/02 - Basic Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/WebApp Hacking/Injection/Path Traversal/Helpers/Path Traversal List.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/SQL Databases",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/NoSQL Databases",
     "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/Graphical Remote Program",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/Remote Login",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/Remote Login/Graphical Remote Program",
     "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Untitled",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/IoTs",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SSH/C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Delivery/Remote Login Exploitation/SMB/Manual/Unix Shell",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

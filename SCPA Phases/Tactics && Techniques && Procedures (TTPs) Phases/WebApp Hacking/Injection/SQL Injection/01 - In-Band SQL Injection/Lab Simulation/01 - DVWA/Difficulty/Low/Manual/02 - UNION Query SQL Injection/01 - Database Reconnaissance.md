@@ -245,3 +245,5 @@ password
 ## References
 
 - [Hacking Articles: Form Based SQL Injection Manually](https://www.hackingarticles.in/form-based-sql-injection-manually/)
+
+- [PayloadsAllTheThings SQL Injection: MySQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/MySQL%20Injection.md)

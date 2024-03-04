@@ -5,7 +5,7 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 ## 3.1 - Conditions
 
 1. The DB user must have **FILE** and **SELECT** privileges.
-2. Not all files are readable unless the current user is `root@<IP>` (e.g. `root@localhost`). You'll notice that you can't fetch SSH credentials which is normal due to security reasons.
+2. Not all files are readable unless the current user is `root@<IP>` (e.g. `root@localhost`). For example, you'll notice that you can't fetch SSH credentials which is normal due to security reasons.
 
 ## 3.2 - Enumerate Database User Privileges
 
@@ -202,7 +202,7 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 #### Enumeration and Discovery
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/03 - Scheduled Tasks/Cron Job/Manual/Living off the Land]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/03 - Scheduled Tasks/Cron Job/Manual/Living off the Land|Cron Job]]
 
 #### Credentials Access and Dumping
 

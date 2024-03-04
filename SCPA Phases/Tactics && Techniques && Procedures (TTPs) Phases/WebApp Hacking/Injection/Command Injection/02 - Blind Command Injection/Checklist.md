@@ -67,10 +67,13 @@ TODO: I got this covered - Userware
 #### Common Parameters
 
 - [ ] Check the top parameters in [[Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual|google dorks]].
-- [ ] Whois Lookup
-- [ ] DNS Lookup
+- [ ] Whois lookup
+- [ ] DNS lookup
 - [ ] Ping
 - [ ] Traceroute
+- [ ] Email sending
+- [ ] Hosts discovery
+- [ ] Port scanning
 
 #### GET Request
 
