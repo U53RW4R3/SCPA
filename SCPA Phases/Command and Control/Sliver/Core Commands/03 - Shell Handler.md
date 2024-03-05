@@ -16,16 +16,16 @@ Search Tag(s): #sliver #command-and-control
 
 - Encrypted TLS key and certification
 
-`$ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out certificate.pem -sha256 -days 365`
+`$ openssl req -x509 -newkey rsa:4096 -keyout private.key -out certificate.crt -sha256 -days 365`
 
 - Non-encrypted TLS key and certification
 
 ```
-$ openssl req -new -x509 -keyout key.pem -out certificate.pem -days 365 -nodes
+$ openssl req -new -x509 -keyout private.key -out certificate.crt -days 365 -nodes
 
 sliver > http [-d <domain.com>] -L <IP> -l <PORT>
 
-sliver > https [-d <domain.com>] -L <IP> -l <PORT> -c /path/to/cert.pem -k /path/to/key.pem
+sliver > https [-d <domain.com>] -L <IP> -l <PORT> -c /path/to/certificate.crt -k /path/to/private.key
 ```
 
 ### 3.3.2 - Disguise the C2 as a website

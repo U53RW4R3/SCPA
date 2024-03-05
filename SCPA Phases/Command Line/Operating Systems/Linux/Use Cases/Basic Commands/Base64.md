@@ -11,9 +11,9 @@ $ str="a string"
 
 $ echo -en $str | iconv -t UTF-16LE | base64 -w 0
 
-$ echo -en $str | iconv -t UTF-16LE | openssl enc -base64
+$ echo -en $str | iconv -t UTF-16LE | openssl enc -base64 -A
 
-$ echo -en $str | iconv -t UTF-16LE | openssl enc -a -e
+$ echo -en $str | iconv -t UTF-16LE | openssl enc -a -e -A
 ```
 
 - You can read it from a file
@@ -21,7 +21,7 @@ $ echo -en $str | iconv -t UTF-16LE | openssl enc -a -e
 ```
 $ iconv -f ASCII -t UTF-16LE file.txt | base64 -w 0
 
-$ iconv -f ASCII -t UTF-16LE file.txt | openssl enc -base64
+$ iconv -f ASCII -t UTF-16LE file.txt | openssl enc -base64 -A
 
-$ iconv -f ASCII -t UTF-16LE file.txt | openssl enc -a -e
+$ iconv -f ASCII -t UTF-16LE file.txt | openssl enc -a -e -A
 ```

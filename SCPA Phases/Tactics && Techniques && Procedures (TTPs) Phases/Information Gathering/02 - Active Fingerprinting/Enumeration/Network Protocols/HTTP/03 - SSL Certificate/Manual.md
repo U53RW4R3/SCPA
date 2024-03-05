@@ -1,6 +1,6 @@
 # Manual
 
-## 01 - Certificate dates
+## 01 - Certificate Dates
 
 `$ echo | openssl s_client -connect <URL>:443 2>/dev/null | openssl x509 -dates -noout`
 

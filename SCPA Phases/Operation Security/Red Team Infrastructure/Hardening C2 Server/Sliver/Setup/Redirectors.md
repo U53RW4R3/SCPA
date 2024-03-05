@@ -64,9 +64,11 @@ $ cat /etc/apache2/sites-available/000-default.conf
 
 - For HTTPS listener
 
-`$ sudo a2enmod ssl`
+```
+$ sudo a2enmod ssl
 
-`$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt`
+$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/private.key -out /etc/apache2/ssl/certificate.crt
+```
 
 ---
 
@@ -78,8 +80,8 @@ $ sudo nano /etc/apache2/sites-available/default-ssl.conf
         # ServerAlias <C2_IP>
 
         SSLEngine on
-        SSLCertificateFile /etc/apache2/ssl/apache.crt
-        SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+        SSLCertificateFile /etc/apache2/ssl/certificate.crt
+        SSLCertificateKeyFile /etc/apache2/ssl/private.key
 
         ProxyPass / http://<C2_IP>:<C2_PORT>/
         ProxyPassReverse / http://<C2_IP>:<C2_PORT>/
@@ -140,7 +142,7 @@ server {
 ```
 
 ```
-$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/nginx.key -out /etc/nginx/ssl/nginx.crt
+$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/private.key -out /etc/nginx/ssl/certificate.crt
 
 $ sudo ln -s /etc/nginx/sites-available/sliver_c2 /etc/nginx/sites-enabled/
 

