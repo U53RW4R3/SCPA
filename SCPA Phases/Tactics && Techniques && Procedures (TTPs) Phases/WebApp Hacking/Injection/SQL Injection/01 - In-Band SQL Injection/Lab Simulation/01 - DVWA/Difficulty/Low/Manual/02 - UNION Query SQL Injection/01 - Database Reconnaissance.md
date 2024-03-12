@@ -16,7 +16,7 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 ' ORDER BY 3#
 ```
 
-- Keep Enumerating it until you've triggered an error.
+- Keep enumerating it until you've triggered an error.
 
 ![[1.1 - ORDER BY Enumerate One Field.png]]
 

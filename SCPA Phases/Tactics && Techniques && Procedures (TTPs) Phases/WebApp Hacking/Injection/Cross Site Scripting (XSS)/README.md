@@ -12,6 +12,8 @@ TODO: Fill this information about XSS
 
 ## Self XSS
 
+Can be exploit chained with CSRF.
+
 ## DOM-Based XSS (DXSS)
 
 ## Blind XSS (BXSS)

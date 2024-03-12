@@ -3,7 +3,7 @@
 - **Pipe it through hexdump**
 
 ```
-$ msfvenom -p linux/x86/exec cmd=whoami R | hexdump -v -e '"\\\x" 1/1 "%02x"'
+$ msfvenom -p linux/x86/exec cmd=whoami R | hexdump -ve '"\\\x" 1/1 "%02x"'
 [-] No platform was selected, choosing Msf::Module::Platform::Linux from the payload
 [-] No arch selected, selecting arch: x86 from the payload
 No encoder specified, outputting raw payload

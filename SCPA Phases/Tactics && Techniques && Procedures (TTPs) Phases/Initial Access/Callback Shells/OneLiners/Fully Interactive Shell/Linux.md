@@ -2,7 +2,7 @@
 
 ## 01 - Spawn TTY Shell
 
-### 1.1.1 - Python
+### 1.1 - Python
 
 ```
 $ python -c 'import pty; pty.spawn("/bin/bash")'
@@ -34,7 +34,7 @@ $ export TERM=xterm-256color
 $ stty rows <num> columns <cols>
 ```
 
-### 1.1.2 - Script
+### 1.2 - Script
 
 - This is a universal method for GNU/Linux and Unix-like operating systems
 
@@ -68,7 +68,7 @@ $ export TERM=xterm-256color
 $ stty rows <num> columns <cols>
 ```
 
-### 1.1.3 - Rlwrap
+### 1.3 - Rlwrap
 
 - Using the GNU readline wrapper with arrow keys. You can use this when using a normal reverse shell for penetrating Windows machine
 
@@ -78,7 +78,7 @@ $ stty rows <num> columns <cols>
 
 `user@pentestos:~$ rlwrap -r -f . nc <target_IP> <target_PORT>`
 
-### 1.1.4 - Expect
+### 1.4 - Expect
 
 Using `expect` to get a TTY
 

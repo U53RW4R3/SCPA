@@ -34,3 +34,5 @@ https://securityidiots.com/Web-Pentest/SQL-Injection/Blind-SQL-Injection.html
 https://resources.infosecinstitute.com/topics/application-security/blind-sql-injection/
 
 https://c0deman.wordpress.com/2013/06/25/mssql-injection-cheat-sheet/
+
+https://medium.com/@opabravo/manually-exploit-blind-sql-injection-with-ffuf-92881a199345

@@ -6,11 +6,12 @@ Search Tag(s): #blind-sql-injection #sqlmap #dvwa
 
 ## Time-Based
 
---time-sec=10
+`$ sqlmap -u "<URL>" --time-sec=10`
 
 ### Enumeration
 
---first=FIRSTCHAR   First query output word character to retrieve  
+--first=FIRSTCHAR   First query output word character to retrieve
+
 --last=LASTCHAR     Last query output word character to retrieve
 
 ### Page comparison

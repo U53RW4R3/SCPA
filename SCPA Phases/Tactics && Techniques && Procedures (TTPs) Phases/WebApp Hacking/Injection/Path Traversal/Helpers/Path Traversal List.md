@@ -59,6 +59,8 @@ https://cirt.net/rfiinc.txt?%00&cmd=ls
 
 - [SecLists: Directory Traversal Payloads](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/LFI)
 
+- [PinoyWH1Z: SSH-Private-Key-Looting-Wordlists](https://github.com/PinoyWH1Z/SSH-Private-Key-Looting-Wordlists)
+
 - [0xffsec Handbook File Inclusion and Path Traversal](https://0xffsec.com/handbook/web-applications/file-inclusion-and-path-traversal/)
 
 - [Cobalt: A Pentester's Guide to File Inclusion](https://www.cobalt.io/blog/a-pentesters-guide-to-file-inclusion)

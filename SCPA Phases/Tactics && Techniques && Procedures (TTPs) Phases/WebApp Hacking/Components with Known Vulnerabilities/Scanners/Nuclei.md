@@ -2,7 +2,7 @@
 
 TODO: Fill this info
 
-- Find CVEs and public exploits
+- Find CVEs and public exploits.
 
 `$ nuclei -u <URL> -t ~/nuclei-templates -id edb,cve`
 

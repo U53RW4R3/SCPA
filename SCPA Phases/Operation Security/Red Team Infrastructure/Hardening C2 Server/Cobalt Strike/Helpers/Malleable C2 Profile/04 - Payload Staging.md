@@ -36,7 +36,7 @@ stage {
 
 	# View the hexdump to take strings in order to mimic the DLL file
 	# $ hexdump -C file.dll
-	# $ hexdump -v -e '"\\\x" 1/1 "%02x"' file.dll
+	# $ hexdump -ve '"\\\x" 1/1 "%02x"' file.dll
     set rich_header     "\x1d\x67\x43\x53\x59\x06\x2d\x00\x59\x06\x2d\x00\x59\x06\x2d\x00\x3c\x60\x29\x01\x4c\x06\x2d\x00\x3c\x60\x2e\x01\x49\x06\x2d\x00\x>
 
 	# Setting the memory allocator either it's gonna be VirtualAlloc or HeapAlloc
