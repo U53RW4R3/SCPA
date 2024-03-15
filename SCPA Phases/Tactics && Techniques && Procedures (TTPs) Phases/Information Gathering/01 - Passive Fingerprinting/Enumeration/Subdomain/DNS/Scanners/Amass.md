@@ -4,7 +4,7 @@
 
 `$ amass intel -d <domain.com> -whois`
 
-`$ amass intel -org '<orgination_name>'`
+`$ amass intel -org '<organization_name>'`
 
 `$ amass enum -passive -d <domain.com> -o subdomains.txt`
 

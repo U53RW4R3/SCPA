@@ -146,16 +146,15 @@ $ echo "root:*4F56EF3FCEF3F995F03D1E37E2D692D420111476,dvwa:*D7E39C3AF517EC9EF70
 
 ### 2.1.4 - Crack MySQL Server Password Hashes
 
-- Let's identify what hash algorithm it uses before we could crack it. Let's run [[HashID#^0f21a0|HashID]].
+- Let's identify what hash algorithm it uses before we could crack it. Let's run [[Haiti]].
 
 ```
-$ hashid -j "*4F56EF3FCEF3F995F03D1E37E2D692D420111476"
-Analyzing '*4F56EF3FCEF3F995F03D1E37E2D692D420111476'
-[+] MySQL5.x [JtR Format: mysql-sha1]
-[+] MySQL4.1 [JtR Format: mysql-sha1]
+$ haiti --john-only "*4F56EF3FCEF3F995F03D1E37E2D692D420111476"
+MySQL5.x [JtR: mysql-sha1]
+MySQL4.1 [JtR: mysql-sha1]
 ```
 
-- We will crack the `mysql-sha1` hashes with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Offline/JTR|John The Ripper (JTR)]] with a dictionary attack using `/usr/share/wordlists/rockyou.txt.gz` wordlist.
+- We will crack the `mysql-sha1` hashes with [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Offline/JTR|John The Ripper (JTR)]] with a dictionary attack using `/usr/share/wordlists/rockyou.txt` wordlist.
 
 ```
 $ john --format=mysql-sha1 --wordlist=/usr/share/wordlists/rockyou.txt mysql_hashes.txt
