@@ -178,3 +178,8 @@
 | 186 | sys_sigaltstack | arch/i386/kernel/signal.c | const stack_t * | stack_t * | - | - | - |
 | 187 | sys_sendfile | mm/filemap.c | int | int | off_t * | size_t | - |
 | 190 | sys_vfork | arch/i386/kernel/process.c | struct pt_regs | - | - | - | - |
+
+---
+## References
+
+- [Chromium OS: Linux System Call Table](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)

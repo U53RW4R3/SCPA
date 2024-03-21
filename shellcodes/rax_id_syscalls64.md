@@ -323,3 +323,8 @@
 | 320 | sys_kexec_file_load | int kernel_fd | int initrd_fd | unsigned long cmdline_len | const char __user *cmdline_ptr | unsigned long flags |
 | 321 | sys_bpf | int cmd | union bpf_attr *attr | unsigned int size |
 | 322 | stub_execveat | int dfd | const char __user *filename | const char __user *const __user *argv | const char __user *const __user *envp | int flags |
+
+---
+## References
+
+- [Chromium OS: Linux System Call Table](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
