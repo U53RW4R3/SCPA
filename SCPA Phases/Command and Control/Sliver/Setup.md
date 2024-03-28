@@ -18,7 +18,7 @@ Search Tag(s): #sliver #command-and-control
 
 ## Install
 
-**Note:** you can use this script to update sliver C2 if the `update` builtin command doesn't work
+Note: you can use this script to update sliver C2 if the `update` builtin command doesn't work
 
 ```
 $ wget -qO- https://sliver.sh/install | sudo bash
