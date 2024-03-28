@@ -1,8 +1,8 @@
-# 03 - Basic Commands
+# 02 - Basic Commands
 
 Search Tag(s): #havoc #command-and-control #interactive-shell
 
-## 3.1 - Check Request
+## 2.1 - Check Request
 
 - Help Menu
 
@@ -38,7 +38,7 @@ Host Info:
   - User Name          : aiden
 ```
 
-## 3.2 - Navigation
+## 2.2 - Navigation
 
 ```
 Demon » cd <directory_name>
@@ -48,7 +48,7 @@ Demon » pwd
 [*] Current directory: C:\Users\aiden
 ```
 
-## 3.3 - Sleep and Jitter
+## 2.3 - Sleep and Jitter
 
 - Help Menu
 
@@ -66,7 +66,7 @@ Demon » help sleep
 
 `Demon » sleep 10 25`
 
-## 3.4 - List Contents
+## 2.4 - List Contents
 
 - Help Menu
 
@@ -108,7 +108,7 @@ Demon » dir c:\
               dir      02/10/2022 58:56:12   Windows
 ```
 
-## 3.5 - File Manipulation
+## 2.5 - File Manipulation
 
 - Help Menu
 
@@ -173,9 +173,9 @@ Demon » help cat
 
 `Demon » remove C:\path\to\remote\file.txt`
 
-## 3.6 - Execute Shell Commands
+## 2.6 - Execute Shell Commands
 
-### 3.6.1 - Help Menu
+### 2.6.1 - Help Menu
 
 ```
 Demon » help shell
@@ -194,7 +194,7 @@ Demon » help powershell
  - Example       :  powershell dir c:\windows\system32
 ```
 
-### 3.6.2 - Usage
+### 2.6.2 - Usage
 
 * Execute any `shell` command that the demon implant spawns a child process `cmd.exe`
 
@@ -204,7 +204,7 @@ Demon » help powershell
 
 `Demon » powershell <cmdlet> [args]`
 
-## 3.7 - Upload and Download Files
+## 2.7 - Upload and Download Files
 
 ```
 Demon » help download
@@ -239,7 +239,7 @@ Demon » help transfer
   remove                         stops and removes a download
 ```
 
-## 3.8 - Transfer Files Queue
+## 2.8 - Transfer Files Queue
 
 ```
 Demon » help transfer list
@@ -277,9 +277,9 @@ Demon » help transfer remove
  - Example       :  transfer remove ffff
 ```
 
-## 3.9 - Jobs Queue
+## 2.9 - Jobs Queue
 
-### 3.9.1 - Help Menu
+### 2.9.1 - Help Menu
 
 ```
 Demon » help job
@@ -305,7 +305,7 @@ Demon » help task
   clear                          clear all commands in task queue
 ```
 
-### 3.9.2 - Usage
+### 2.9.2 - Usage
 
 `Demon » job list`
 
@@ -319,6 +319,6 @@ Demon » help task
 
 `Demon » task clear`
 
-## 3.10 - Terminate Implant
+## 2.10 - Terminate Implant
 
 `Demon » exit`

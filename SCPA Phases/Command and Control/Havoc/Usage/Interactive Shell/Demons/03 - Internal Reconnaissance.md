@@ -1,7 +1,7 @@
-# 04 - Internal Reconnaissance
+# 03 - Internal Reconnaissance
 
 Search Tag(s): #havoc #command-and-control #interactive-shell
 
-## 4.1 - Networking
+## 3.1 - Networking
 
 `Demon » ipconfig`

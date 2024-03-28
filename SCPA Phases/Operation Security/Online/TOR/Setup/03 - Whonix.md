@@ -32,9 +32,9 @@ Choose **Ethernet**.
 
 Go to IPv4 Settings and enter the following details from this table below.
 
-|Address|Netmask|Gateway|DNS servers|
-|---|---|---|---|
-|10.152.152.2-254|255.255.192.0 or 18|10.152.152.10|10.152.152.10|
+| Address          | Netmask             | Gateway       | DNS servers   |
+| ---------------- | ------------------- | ------------- | ------------- |
+| 10.152.152.2-254 | 255.255.192.0 or 18 | 10.152.152.10 | 10.152.152.10 |
 
 ---
 ## References

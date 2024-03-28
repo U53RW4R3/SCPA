@@ -1,11 +1,11 @@
-# 01 - Shell Handler
+# Shell Handler
 
 Search Tag(s): #havoc #command-and-control
 
 TODO: Fill basic information with screenshots - Userware
 
-## 1.1 - HTTP
+## 01 - HTTP
 
-## 1.2 - HTTPS
+## 02 - HTTPS
 
-## 1.3 - SMB
+## 03 - SMB

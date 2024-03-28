@@ -1,10 +1,10 @@
-# 05 - Process Manipulation
+# 04 - Process Manipulation
 
 Search Tag(s): #havoc #command-and-control #interactive-shell
 
-## 5.1 - Process Manipulation
+## 4.1 - Process Manipulation
 
-### 5.1.1 - Help Menu
+### 4.1.1 - Help Menu
 
 ```
 Demon » help proc
@@ -26,21 +26,21 @@ Demon » help proc
   find-module                    query for processes with specified loaded module
 ```
 
-### 5.1.2 - Usage
+### 4.1.2 - Usage
 
-#### 5.1.2.1 - Create Process
+#### 4.1.2.1 - Create Process
 
 `Demon » proc create notepad.exe`
 
 `Demon » proc create taskmgr.exe`
 
-#### 5.1.2.2 - Terminate Process
+#### 4.1.2.2 - Terminate Process
 
 `Demon » proc kill <pid>`
 
-#### 5.1.2.3 - Inject Process
+#### 4.1.2.3 - Inject Process
 
-##### 5.1.2.3.1 - Shellcode
+##### 4.1.2.3.1 - Shellcode
 
 * Help Menu
 
@@ -64,7 +64,7 @@ Demon » help shellcode
 
 `Demon » shellcode spawn <x64 | x86> /path/to/shellcode.bin`
 
-##### 5.1.2.3.2 - Spawn DLL
+##### 4.1.2.3.2 - Spawn DLL
 
 * Help Menu
 
@@ -88,7 +88,7 @@ Demon » help dll
 
 `Demon » dll spawn /path/to/local/file.dll [arguments]`
 
-##### 5.1.2.3.3 - DotNET CLR Assembly
+##### 4.1.2.3.3 - DotNET CLR Assembly
 
 ```
 Demon » help dotnet
@@ -105,7 +105,7 @@ Demon » help dotnet
   inline-execute                 executes assembly in the current process and gets output
 ```
 
-##### 5.1.2.3.4 - Object File
+##### 4.1.2.3.4 - Object File
 
 ```
 Demon » help inline-execute

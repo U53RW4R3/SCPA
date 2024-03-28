@@ -37,7 +37,6 @@ decrypt := single_byte_xor(encrypt, key)
 print "Decrypted text: " + decrypt
 ```
 
-
 ---
 ## References
 
