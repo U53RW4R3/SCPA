@@ -28,6 +28,8 @@
 
 `net:<IP>/<CIDR>`
 
+`tag:"<tag_name>"`
+
 `vuln:"<cve_ID_number>"`
 
 `before:"<mm/dd/yy>"`

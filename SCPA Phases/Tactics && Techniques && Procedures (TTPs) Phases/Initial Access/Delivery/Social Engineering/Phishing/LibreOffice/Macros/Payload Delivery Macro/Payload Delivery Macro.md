@@ -11,4 +11,4 @@ TODO: Fill this information
 ---
 ## References
 
-- [Analyzing Document Macros with Yara](https://0xdf.gitlab.io/2019/03/27/analyzing-document-macros-with-yara.html)
+- [0xdf: Analyzing Document Macros with Yara](https://0xdf.gitlab.io/2019/03/27/analyzing-document-macros-with-yara.html)

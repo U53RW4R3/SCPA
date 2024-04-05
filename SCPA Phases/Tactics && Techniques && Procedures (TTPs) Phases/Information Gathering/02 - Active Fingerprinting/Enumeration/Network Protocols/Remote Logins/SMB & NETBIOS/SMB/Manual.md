@@ -4,14 +4,24 @@
 
 ### 1.1 - Samba Suite Utils
 
+#### 1.1.1 - Authentication
+
 ```
 $ smbclient -U "<username>%<password>" -L //<IP>
 
 $ smbclient -U "<username>" --password="<password>" -L //<IP>
+```
 
+- Pass The Hash
+
+```
 $ smbclient -U "<username>" --pw-nt-hash <nt_hash> -L //<IP>
+```
 
-$ pth-smbclient -U <domain>/<username>%aad3b435b51404eeaad3b435b51404ee:<nt_hash> //<IP>/c$
+- Set protocol
+
+```
+$ smbclient -m smb<1|2|3> -U "" //<IP>/<share>
 
 $ smbclient --option="client min protocol=core" -U "" //<IP>/<share>
 ```
@@ -36,17 +46,25 @@ $ smbclient.py -hashes :<nt_hash> [<domain>/]<username>@<IP>
 
 ### 1.4 - Enum4Linux
 
+TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
+
 `$ enum4linux -a -u "<username>" -p "<password>" <IP>`
+
+https://juggernaut-sec.com/ad-recon-msrpc-over-smb/
 
 ### 1.5 - NetExec
 
 - Authenticate
 
-`$ netexec smb <IP> -u "<username>" -p "<password>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
+```
+$ netexec smb <IP> -u "<username>" -p "<password>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol
+```
 
 - Pass The Hash
 
-`$ netexec smb <IP> -u "<username>" -H "<nt_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol`
+```
+$ netexec smb <IP> -u "<username>" -H "<nt_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol
+```
 
 ### 1.6 - Mount Share
 
@@ -98,7 +116,7 @@ $ enum4linux -a -u "" -p "" <IP>
 $ enum4linux -a -u "guest" -p "" <IP>
 ```
 
-### 2.5 - netexec
+### 2.5 - NetExec
 
 ```
 $ netexec smb <IP> -u "" -p "" --shares

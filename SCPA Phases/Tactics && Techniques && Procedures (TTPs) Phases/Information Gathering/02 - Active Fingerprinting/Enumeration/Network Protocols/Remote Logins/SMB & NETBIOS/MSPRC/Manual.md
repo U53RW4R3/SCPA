@@ -2,50 +2,25 @@
 
 ## 01 - Usage
 
+### 1.1 - Samba Suite Utils
+
 - Authenticating with NetBIOS protocol
 
 `$ rpcclient -U <username>%<password> <IP>`
 
-## 02 - Enumeration
-
-### 2.1 - Anonymous Login
-
-TODO: Duplicate this in the post exploitation section
+#### 1.1.2 - Anonymous Login
 
 - Check for anonymous login
 
-`$ rpcclient -U "" -N <IP>`
-
+`$ rpcclient -U "" [-p 593] -N <IP>`
 
 TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
 
-### 2.2 - Basic Information
+#### 1.1.4 - Domain Users
 
-- Retrieve user domain password information
+`rpcclient $> enumdomtrusts`
 
-`rpcclient $> getusrdompwinfo <RID>`
-
-### 2.3 - Domain Users
-
-- Enumerate Domain Users
-
-`rpcclient $> enumdomusers`
-
-`rpcclient $> enumalsgroups builtin`
-
-`rpcclient $> queryuser <username>`
-
-`rpcclient $> queryusersgroups <rid>`
-
-- Display Query Information
-
-`rpcclient $> querydispinfo`
-
-- Enumerate Privileges
-
-`rpcclient $> enumprivs`
-
-### 2.4 - LSA Query
+#### 1.1.5 - LSA Query
 
 - Enumerate SID From LSA
 
@@ -77,25 +52,7 @@ TODO: Re-arrange from this section to post exploitation under **Enumeration and 
 
 `rpcclient $> lsaquerysecobj`
 
-### 2.5 - Domain Groups
-
-- Enumerate Domain Groups
-
-`rpcclient $> enumdomgroups`
-
-`rpcclient $> querygroup <rid>`
-
-`rpcclient $> querygroupmem <rid>`
-
-- Domain Information
-
-`rpcclient $> querydominfo`
-
-`rpcclient $> enumdomains`
-
-- Domain Password Information
-
-`rpcclient $> getdompwinfo`
+#### 1.1.5 - Domain Groups
 
 - Retrieve information of SMB shares
 
@@ -105,15 +62,27 @@ TODO: Re-arrange from this section to post exploitation under **Enumeration and 
 
 `rpcclient $> netsharegetinto <share_name>`
 
-## 03 - Create Accounts
+## Persistence
+
+#### 1.1.6 - Create Accounts
 
 - Create domain user account
 
 `rpcclient $> createdomuser <username>`
 
-`rpcclient $> setuserinfo2 <username> 24 <password>`
+```
+rpcclient $> setuserinfo2 <username> <level> <password>
+
+rpcclient $> setuserinfo2 <username> 23 <password>
+
+rpcclient $> setuserinfo2 <username> 24 <password>
+```
 
 `rpcclient $> enumdomusers`
+
+https://malicious.link/posts/2017/reset-ad-user-password-with-linux/
+
+https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-samr/6b0dff90-5ac0-429a-93aa-150334adabf6?redirectedfrom=MSDN
 
 - LSA create account
 
@@ -131,11 +100,13 @@ Lookup username accounts
 
 `rpcclient $> lsaenumprivsaccount S-1-1-0`
 
-## 04 - Change Passwod Accounts
+#### 1.1.7 - Change Password Accounts
 
 `rpcclient $> chgpasswd <username> <old_password> <new_password>`
 
-## 05 - Delete Accounts
+## Anti-Forensics
+
+#### 1.1.8 - Delete Accounts
 
 - Delete user account
 
@@ -152,3 +123,18 @@ Lookup username accounts
 `rpcclient $> lsadelpriv S-1-1-0`
 
 `rpcclient $> lsaenumprivsaccount S-1-1-0`
+
+### 1.2 - Impacket
+
+`$ rpcdump.py <IP> -p <135 | 593>`
+
+### 1.3 - Windows Command Prompt
+
+`C:\> rpcdump [-p <135 | 593>] <IP>`
+
+---
+## References
+
+- [0xffsec: MSRPC (Microsoft Remote Procedure Call)](https://0xffsec.com/handbook/services/msrpc/)
+
+- [Hacktricks: 135 Pentesting MSPRC](https://book.hacktricks.xyz/pentesting/135-pentesting-msrpc)

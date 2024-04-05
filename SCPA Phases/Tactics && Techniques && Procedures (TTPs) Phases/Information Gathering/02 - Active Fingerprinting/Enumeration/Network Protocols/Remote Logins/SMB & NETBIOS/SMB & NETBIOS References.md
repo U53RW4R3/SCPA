@@ -6,7 +6,7 @@
 
 - [Hacktricks: Pentesting SMB](https://book.hacktricks.xyz/pentesting/pentesting-smb)
 
-- [0xFFSec: SMB Protocol Negotiation Failed](https://0xffsec.com/handbook/notes/smb-protocol-negotiation-failed/)
+- [0xffsec: SMB Protocol Negotiation Failed](https://0xffsec.com/handbook/notes/smb-protocol-negotiation-failed/)
 
 - [CyberCiTi: How to Configure Samba to Use SMBv2 and Disable SMBv1 on Linux or Unix](https://www.cyberciti.biz/faq/how-to-configure-samba-to-use-smbv2-and-disable-smbv1-on-linux-or-unix/)
 
