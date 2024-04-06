@@ -57,13 +57,13 @@ https://juggernaut-sec.com/ad-recon-msrpc-over-smb/
 - Authenticate
 
 ```
-$ netexec smb <IP> -u "<username>" -p "<password>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol
+$ netexec smb <IP> -u "<username>" -p "<password>" [-d <domain_name> | --local-auth] --groups --local-groups --pass-pol
 ```
 
 - Pass The Hash
 
 ```
-$ netexec smb <IP> -u "<username>" -H "<nt_hash>" --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol
+$ netexec smb <IP> -u "<username>" -H "<nt_hash>" [-d <domain_name> | --local-auth] --groups --local-groups --pass-pol
 ```
 
 ### 1.6 - Mount Share
@@ -119,9 +119,9 @@ $ enum4linux -a -u "guest" -p "" <IP>
 ### 2.5 - NetExec
 
 ```
-$ netexec smb <IP> -u "" -p "" --shares
+$ netexec smb <IP> -u "" -p "" [-d <domain_name> | --local-auth] --shares
 
-$ netexec smb <IP> -u "guest" -p "" --shares
+$ netexec smb <IP> -u "guest" -p "" [-d <domain_name> | --local-auth] --shares
 ```
 
 ## 03 - System Volume Information

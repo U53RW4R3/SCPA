@@ -1,3 +1,9 @@
 # NetExec
 
-`$ netexec winrm <IP> -d <domain_name> -u users.lst -p passwords.lst`
+- Username and password
+
+`$ netexec winrm <IP> -u users.lst -p passwords.lst [-d <domain_name> | --local-auth]`
+
+- Username and NTLM hashes
+
+`$ netexec winrm <IP> -u users.lst -H hashes.lst [-d <domain_name> | --local-auth]`
