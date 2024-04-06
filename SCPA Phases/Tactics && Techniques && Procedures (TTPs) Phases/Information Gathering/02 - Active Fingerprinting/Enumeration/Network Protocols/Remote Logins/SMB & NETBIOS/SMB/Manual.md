@@ -56,23 +56,21 @@ https://juggernaut-sec.com/ad-recon-msrpc-over-smb/
 
 - Authenticate
 
-```
-$ netexec smb <IP> -u "<username>" -p "<password>" [-d <domain_name> | --local-auth] --groups --local-groups --pass-pol
-```
+`$ netexec smb <IP> -u "<username>" -p "<password>" [-d <domain_name> | --local-auth]`
 
 - Pass The Hash
 
-```
-$ netexec smb <IP> -u "<username>" -H "<nt_hash>" [-d <domain_name> | --local-auth] --groups --local-groups --pass-pol
-```
+`$ netexec smb <IP> -u "<username>" -H "<nt_hash>" [-d <domain_name> | --local-auth]`
 
 ### 1.6 - Mount Share
 
-`$ sudo mkdir /mnt/smb`
+```
+$ sudo mkdir /mnt/smb
 
-`$ sudo mount -t cifs //<IP>/<share_name> /mnt/smb`
+$ sudo mount -t cifs //<IP>/<share_name> /mnt/smb
 
-`$ sudo mount -t cifs -o "port=<PORT> username=<username>,password=<password>" //<IP>/<share_name> /mnt/smb`
+$ sudo mount -t cifs -o "port=<PORT> username=<username>,password=<password>" //<IP>/<share_name> /mnt/smb
+```
 
 ## 02 - Anonymous Login
 

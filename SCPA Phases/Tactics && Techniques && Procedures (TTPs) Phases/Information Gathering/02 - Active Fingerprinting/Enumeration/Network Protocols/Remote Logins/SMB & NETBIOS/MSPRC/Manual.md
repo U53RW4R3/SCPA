@@ -52,16 +52,6 @@ TODO: Re-arrange from this section to post exploitation under **Enumeration and 
 
 `rpcclient $> lsaquerysecobj`
 
-#### 1.1.5 - Domain Groups
-
-- Retrieve information of SMB shares
-
-`rpcclient $> netshareenum`
-
-`rpcclient $> netshareenumall`
-
-`rpcclient $> netsharegetinto <share_name>`
-
 ## Persistence
 
 #### 1.1.6 - Create Accounts
