@@ -11,7 +11,7 @@ $ nmap -p 1080 -Pn -n -sS --max-retries 1 --min-parallelism 700 --open -T4 --scr
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Password Cracking/Online/Network Protocols/SOCKS/Nmap|Nmap: SOCKS]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Password Cracking/Online/Network Protocols/SOCKS/Nmap|Nmap: SOCKS]]
 
 - [Nmap NSEDocs: Script socks-open-proxy](https://nmap.org/nsedoc/scripts/socks-open-proxy.html)
 
