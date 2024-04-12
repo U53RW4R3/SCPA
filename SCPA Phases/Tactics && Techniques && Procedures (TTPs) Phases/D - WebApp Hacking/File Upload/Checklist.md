@@ -25,7 +25,7 @@ TODO: Provide a good checklist for file upload vulnerability
 TODO: I got this covered - Userware
 
 - [ ] To bruteforce hidden parameters use [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/FFuF|FFuF]] or [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Bruteforce Parameters/Wfuzz|Wfuzz]].
-- [ ] [[Arjun]] and [[x8]] and [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/HTTP/Wayback Machine/Metasploit|Metasploit]].
+- [ ] [[Arjun]] and [[x8]] and [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/HTTP/Wayback Machine/Metasploit|Metasploit]].
 
 ## Vulnerability Assessment
 
@@ -34,7 +34,7 @@ TODO: I got this covered - Userware
 #### General
 
 - [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/File Upload/Scanners/Nmap|NSE script]] to probe for file upload vulnerabilities on the webservers with `-iL ip_targets.txt` flag.
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/C - Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing file upload exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing file upload exploits.
 
 #### Content Management System
 

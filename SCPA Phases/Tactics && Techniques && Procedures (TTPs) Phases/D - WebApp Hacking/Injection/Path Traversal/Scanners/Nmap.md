@@ -2,7 +2,9 @@
 
 - Probe path traversal vulnerability.
 
-`$ nmap -p 80,443 -Pn -n --script http-passwd --script-args http-passwd.root=/path/to/URI/,http.useragent='<user_agent>' <IP>`
+```
+$ nmap -p 80,443 -Pn -n --script http-passwd --script-args http-passwd.root=/path/to/URI/,http.useragent='<user_agent>' <IP>
+```
 
 - Probe remote file inclusion vulnerability.
 

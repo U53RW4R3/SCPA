@@ -27,7 +27,7 @@ TODO: Provide the checklist for public webapp exploits
 
 #### General
 
-- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/C - Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing webapp exploits.
+- [ ] Run [[Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Nikto|Nikto]] scanner to discover for existing webapp exploits.
 - [ ] Use [[Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Components with Known Vulnerabilities/Scanners/Nuclei|nuclei]] with a default templates to discover vulnerable webapp components.
 - [ ] Look for shellshock vulnerabilities in the [[Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist|shellshock checklist]].
 
@@ -38,7 +38,7 @@ TODO: Provide the checklist for public webapp exploits
 
 #### IoTs
 
-- [ ] [[Routers#^7d9f1e|Routersploit]] via `autopwn/scanner` module
+- [ ] [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Internet of Things (IoT)/Routers/Routers#^7d9f1e|Routersploit]] via `autopwn/scanner` module
 
 ### Exploits
 

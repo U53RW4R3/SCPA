@@ -6,10 +6,6 @@
 
 `$ ldapsearch -x ldap://<IP> -D '<DOMAIN>\<username>' -w '<password>' -b "DC=<1_subdomain>,DC=<tdl>"`
 
-## 02 - Null Credentials
-
-`$ ldapsearch -x ldap://<IP> -D '' -w '' -b "DC=<subdomain>,DC=<tdl>"`
-
 
 TODO: Re-arrange from this section to post exploitation
 

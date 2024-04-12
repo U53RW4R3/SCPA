@@ -32,3 +32,5 @@ $ grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" censys-output.json | sort -u > ip_t
 - [Censys.io](https://search.censys.io/)
 
 - [Censys: Host Query Examples](https://support.censys.io/hc/en-us/articles/360059720271-Host-Query-Examples)
+
+- [Censys: Search Host Query Mindmap](https://censys.com/wp-content/uploads/2023/10/Censys-Search-Host-Queries.pdf)

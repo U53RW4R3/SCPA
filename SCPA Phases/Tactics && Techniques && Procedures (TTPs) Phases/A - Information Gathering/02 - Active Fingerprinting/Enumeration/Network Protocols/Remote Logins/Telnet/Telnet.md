@@ -14,7 +14,7 @@
 
 `$ nmap -p 23 -n -sV -Pn --script telnet-ntlm-info <IP>`
 
-### 03 - Metasploit
+## 03 - Metasploit
 
 ```
 msf > use auxiliary/scanner/telnet/telnet_version

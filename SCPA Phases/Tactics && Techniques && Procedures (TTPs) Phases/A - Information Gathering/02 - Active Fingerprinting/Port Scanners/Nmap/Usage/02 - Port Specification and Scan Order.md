@@ -2,27 +2,27 @@
 
 - Specify port to scan
 
-`$ sudo nmap -p <PORT>`
+`$ nmap -p <PORT>`
 
 - Port range to scan
 
-`$ sudo nmap -p 21-23 <IP>`
+`$ nmap -p 21-23 <IP>`
 
 - Port list to scan
 
-`$ sudo nmap -p 25,53,80,443`
+`$ nmap -p 25,53,80,443`
 
 - Port range and list to scan
 
-`$ sudo nmap -p 21-23,25,53,80 <IP>`
+`$ nmap -p 21-23,25,53,80 <IP>`
 
 - Scan all ports
 
-`$ sudo nmap -p- <IP>`
+`$ nmap -p- <IP>`
 
 - Show open ports
 
-`$ sudo nmap --open <IP>`
+`$ nmap --open <IP>`
 
 ---
 ## References

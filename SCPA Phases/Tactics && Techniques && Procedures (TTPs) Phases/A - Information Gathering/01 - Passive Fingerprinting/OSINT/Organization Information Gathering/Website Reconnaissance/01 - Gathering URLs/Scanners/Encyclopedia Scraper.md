@@ -89,12 +89,23 @@ Here are the list of targets for the scraper. Just copy the URL and paste it in 
 
 ```
 List of companies of <country_name>
+List of multinational companies with research and development centres in <country_name>
+List of <country_name> companies listed on the Nasdaq
+Companies of <country_name> by industry
 
+List of lighthouses in <country_name>
 List of airlines of <country_name>
+List of airports in <country_name>
 List of casinos in the <country_name>
+
 Logistics companies of the <country_name>
 Shipping companies of <country_name>
 List of automobile manufacturers of <country_name>
+
+Transport companies of <country_name>
+Bus companies of <country_name>
+List of cargo airlines
+
 List of fast food restaurant in <country_name>
 List of restaurant chains in <country_name>
 
@@ -117,3 +128,8 @@ Mines in <country_name>
 
 List of <country_name> defense contractors
 ```
+
+---
+## References
+
+- [[Gathering URLs References]]

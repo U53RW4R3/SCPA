@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eaad96a0436fa487",
+        "id": "4f8a3ded6435679b",
         "type": "tabs",
         "children": [
           {
-            "id": "f2baf13353edc284",
+            "id": "82e6dd0fc640a366",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/TGCD/Setup.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/SMB.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "3proxy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 329.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/TGCD/Setup.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/SMB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/TGCD/Setup.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/SMB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/TGCD/Setup.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/SMB.md"
               }
             }
           },
@@ -160,42 +160,42 @@
   },
   "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/TGCD/Usage.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/TGCD/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Port Forwarding/TGCD",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/General/SOCKS Proxy/3proxy.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Ettercap/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Ettercap/Usage/Ettercap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Ettercap/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Ettercap/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Ettercap",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/SMB & NETBIOS/MSPRC/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/DSniff/Usage/DSniff.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/DSniff/Usage/ARPSpoof.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/DSniff/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/DSniff/Usage/TCPKill.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Setup/Initial Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSH Tunneling.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/DSniff/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/ARPSpoof/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/DSniff",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Initial Access/Sniffing and Spoofing/Active/ARPSpoof",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Sniffing and Spoofing/Active/Bettercap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Port Scanners/Angry IP Scanner.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/SSLH.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Reverse Shells.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Regular Payloads/Windows/Staged/Bind Shells.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/02 - RPC Lateral Movement/01 - Service Control Manager/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Kernel Exploits.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/02 - RPC Lateral Movement",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/01 - Offensive Tools/Binaries",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/01 - Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Impersonate Logged-on Users/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/SMB & NETBIOS/SMB/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Password Cracking/Online/Network Protocols/Remote Login/SMB & NETBIOS/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Usage/03 - Filters.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/SMB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Verify Emails/Experte.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Scanners/LeakSearch.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Gathering Emails/Leak Lookup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Gathering Emails/Scylla.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Scanners/sn0int.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Gathering Emails/Pastebin Sites.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Gathering Emails/Hunter.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Gathering Emails/Email Format.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/02 - Gathering Emails/Scrape Emails/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Verify Emails",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Scanners/H8mail.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Scanners",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/Gathering Emails",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Github Dorking/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/Phonebook.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Wapiti.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/E - Hacking The Cloud/AWS/01 - Information Gathering.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/E - Hacking The Cloud/AWS/04 - Post Exploitation.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/E - Hacking The Cloud/AWS/03 - Initial Foothold.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/E - Hacking The Cloud/AWS/02 - Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases/NoSQL/MongoDB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Databases/NoSQL/MongoDB/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/File Server/FTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Censys Usage.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Censys/Use Cases/IoTs/CCTV.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases/SQL",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/Network Protocols/Remote Logins/Graphical Remote Program",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Databases",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/File Server",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases/NoSQL",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",

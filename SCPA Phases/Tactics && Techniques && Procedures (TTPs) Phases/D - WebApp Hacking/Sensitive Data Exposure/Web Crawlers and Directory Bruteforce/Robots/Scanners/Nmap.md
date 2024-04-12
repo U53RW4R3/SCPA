@@ -1,6 +1,6 @@
 # Nmap
 
-`$ nmap -p 80,443 --script http-robots.txt --script-args http.useragent='<user_agent>' <IP>`
+`$ nmap -p 80,443 -Pn --script http-robots.txt --script-args http.useragent='<user_agent>' <IP>`
 
 ---
 ## References

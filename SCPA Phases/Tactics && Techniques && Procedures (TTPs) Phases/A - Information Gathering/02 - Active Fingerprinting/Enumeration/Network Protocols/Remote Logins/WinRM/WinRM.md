@@ -4,11 +4,13 @@
 
 ### 1.1 - Usage
 
+TODO: Re-arrange to post exploitation
+
 `PS C:\> Enable-PSRemoting -Force`
 
 ## 02 - Nmap
 
-`$ nmap -p 5985,5986,47001 <IP>`
+`$ nmap -p 5985,5986,47001 -Pn <IP>`
 
 ## 03 - Metasploit
 

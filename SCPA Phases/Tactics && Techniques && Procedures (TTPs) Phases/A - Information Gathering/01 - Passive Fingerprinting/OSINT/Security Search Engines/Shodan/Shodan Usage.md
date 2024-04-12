@@ -89,6 +89,8 @@
 
 - [Shodan Dorks - The God’s Eye](https://shahjerry33.medium.com/shodan-dorks-the-gods-eye-f224f9b3984f)
 
+- [Secybr: Shodan.io Tutorials for Best Practices](https://secybr.com/posts/shodan-tutorials-for-best-practicies/)
+
 - [Shodan Cheatsheet](https://thedarksource.com/shodan-cheat-sheet/)
 
 - [Awesome Shodan Queries](https://github.com/jakejarvis/awesome-shodan-queries)

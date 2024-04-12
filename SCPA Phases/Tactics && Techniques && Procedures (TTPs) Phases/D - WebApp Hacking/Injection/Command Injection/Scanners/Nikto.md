@@ -15,4 +15,4 @@
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/C - Vulnerability Assessment/Web Vulnerability Scanner/Nikto|Nikto]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Nikto|Nikto]]

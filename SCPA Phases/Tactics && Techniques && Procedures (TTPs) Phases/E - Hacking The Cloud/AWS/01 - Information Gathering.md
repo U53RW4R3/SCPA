@@ -2,7 +2,7 @@
 
 - Install the native AWS tool to perform enumeration later on.
 
-`$ sudo apt install awscli`
+`$ sudo apt install -y awscli`
 
 - Use `httpx` to detect the AWS S3 technologies with `-server` to find it
 
@@ -14,7 +14,9 @@ $ awk -F "/" '{print "s3://"$3}' live-aws-s3-buckets.txt | sort -u > s3-buckets.
 
 ## Nuclei Scanner
 
-`$ nuclei -l live-aws-s3-buckets.txt -t ~/nuclei-templates -id aws-bucket-takeover -o accessible-aws-s3-buckets-output.txt`
+```
+$ nuclei -l live-aws-s3-buckets.txt -t ~/nuclei-templates -id aws-bucket-takeover -o accessible-aws-s3-buckets-output.txt
+```
 
 ## Automation Script
 
@@ -26,7 +28,7 @@ $ awk -F "/" '{print "s3://"$3}' live-aws-s3-buckets.txt | sort -u > s3-buckets.
 #!/bin/bash
 
 # Check if the AWS CLI is installed
-if ! command -v aws &> /dev/null
+if ! which aws &> /dev/null
 then
     echo "AWS CLI is not installed. Please install it and configure your credentials."
     exit 1
@@ -67,6 +69,8 @@ $ ./sweep-s3-buckets.sh s3-buckets.txt
 
 ---
 ## References
+
+https://buckets.grayhatwarfare.com/
 
 https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/
 
