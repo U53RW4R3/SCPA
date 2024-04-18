@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Usage/ARP Spoofing.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Usage/ARP Spoofing.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Usage/ARP Spoofing.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Usage/ARP Spoofing.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/Helpers/Results-Based Command Injection List.md"
               }
             }
           },
@@ -160,9 +160,11 @@
   },
   "active": "82e6dd0fc640a366",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/Helpers/Blind Command Injection List.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/SQL Injection/03 - Automated Exploitation/SQLMap/Usage/Injection.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Usage/ARP Spoofing.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Bettercap/Usage/ARP Spoofing.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Bettercap.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Airgeddon.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Aircrack-ng.md",
@@ -188,14 +190,12 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer/Network Protocols/SIP/SIPDump.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer/Network Protocols/TLS/SSLDump.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer/Wireshark.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer/TCPDump.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer/Network Protocols/TLS",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer/Network Protocols/SIP",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer/Network Protocols",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Passive/Packet Analyzer",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/ARP Spoofing",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/03 - Parse Emails",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/02 - Verify Emails",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
