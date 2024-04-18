@@ -1,6 +1,6 @@
 # Hydra
 
-TODO: Fill this info
+## 01 - Help Menu
 
 ```
 $ dpl4hydra help
@@ -24,9 +24,39 @@ Options:
   all         Dump list of all systems credentials into dpl4hydra_all.lst.
 
 Example:
-# dpl4hydra linksys
+$ dpl4hydra linksys
 File dpl4hydra_linksys.lst was created with 20 entries.
-# hydra -C ./dpl4hydra_linksys.lst -t 1 192.168.1.1 http-get /index.asp
+$ hydra -C ./dpl4hydra_linksys.lst -t 1 192.168.1.1 http-get /index.asp
+```
+
+## 02 - Usage
+
+TODO: Fill this info
+
+- Fetch the full default password list
+
+```
+$ dpl4hydra refresh
+Trying to locate wget or curl... done.
+Using curl for downloading data.
+
+Trying to download list of vendors from
+http://open-sez.me... done.
+
+
+Merging download with /usr/share/hydra/dpl4hydra_local.csv... done.
+Cleaning up and sorting /home/grayfox/.dpl4hydra/dpl4hydra_full.csv... done.
+
+Refreshed (d)efault (p)assword (l)ist /home/grayfox/.dpl4hydra/dpl4hydra_full.csv
+was created with 11079 entries.
+```
+
+- Limit the password with a brand name.
+
+```
+$ dpl4hydra <brand_name>
+
+$ ls -l .dpl4hydra
 ```
 
 ---

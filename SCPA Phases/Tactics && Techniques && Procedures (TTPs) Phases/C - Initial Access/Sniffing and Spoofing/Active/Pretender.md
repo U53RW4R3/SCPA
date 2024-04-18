@@ -1,8 +1,0 @@
-# Pretender
-
-TODO: Fill in the infomation regarding the usage of Pretender tool
-
----
-## References
-
-- [Pretender](https://github.com/RedTeamPentesting/pretender)

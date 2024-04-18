@@ -64,4 +64,6 @@ Search Tag(s): #wordlist #api #helpers
 ---
 ## References
 
+- [Kiterunner: Swagger wordlist](https://wordlists-cdn.assetnote.io/data/kiterunner/swagger-wordlist.txt)
+
 - [NahamSec: API Hacking with ChatGPT](https://www.youtube.com/watch?v=BTlUEWHRldk)

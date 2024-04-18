@@ -1,6 +1,6 @@
 # SMB Names Examples
 
-Search Tag(s): #mitm #responder #smb #relay #ntlm #helpers
+Search Tag(s): #sniffing-and-spoofing #responder #smb #relay #ntlm #helpers
 
 ## 01 - Hosts
 

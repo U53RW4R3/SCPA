@@ -2,14 +2,14 @@
 
 TODO: Fill in the information
 
-## Setup
+## 01 - Setup
 
 ```
 $ go install -v github.com/projectdiscovery/katana/cmd/katana@latest && \
 sudo cp ~/go/bin/katana /usr/local/bin
 ```
 
-## Help Menu
+## 02 - Help Menu
 
 ```
 $ katana -h    

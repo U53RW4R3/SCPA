@@ -1,4 +1,4 @@
-# Bettercap
+# Setup
 
 TODO: Fill in the infomation regarding the usage of Bettercap tool
 

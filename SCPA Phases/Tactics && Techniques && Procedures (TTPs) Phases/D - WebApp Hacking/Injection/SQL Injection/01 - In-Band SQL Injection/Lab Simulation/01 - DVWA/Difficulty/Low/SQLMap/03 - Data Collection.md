@@ -2,6 +2,13 @@
 
 Search Tag(s): #sql-injection #sqlmap #credential-access-and-dumping #data-exfiltration #dvwa
 
+TODO: Cover these parts
+
+```
+--no-cast           Turn off payload casting mechanism (prevents problems for data retrieval)
+--no-escape         Turn off string escaping mechanism (part of obfuscation and prevents problems for data retrieval)
+--hex               Use hex conversion during data retrieval (prevents problems for data retrieval)
+```
 ### 3.1 - Dump the whole database
 
 ```
