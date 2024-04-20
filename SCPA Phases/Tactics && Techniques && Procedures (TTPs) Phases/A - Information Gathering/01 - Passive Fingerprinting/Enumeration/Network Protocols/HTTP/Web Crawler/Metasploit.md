@@ -41,6 +41,16 @@ Module advanced options (auxiliary/crawler/msfcrawler):
 View the full module info with the info, or info -d command.
 
 msf auxiliary(crawler/msfcrawler) > set dontcrawl .exe,.run,.asc,.jpg,.jpeg,.png,.tiff,.woff,.woff2,.webp
+
+msf auxiliary(crawler/msfcrawler) > set rhosts <IP>
+
+msf auxiliary(crawler/msfcrawler) > set rport <PORT>
+
+msf auxiliary(crawler/msfcrawler) > set threads 8
+
+msf auxiliary(crawler/msfcrawler) > set path /path/to/uri
+
+msf auxiliary(crawler/msfcrawler) > run
 ```
 
 ---

@@ -1,13 +1,13 @@
 # Gospider
 
-## Setup
+## 01 - Setup
 
 ```
 $ go install github.com/jaeles-project/gospider@latest && \
 sudo cp ~/go/bin/gospider /usr/local/bin
 ```
 
-## Help Menu
+## 02 - Help Menu
 
 ```
 $ gospider -h 
@@ -57,17 +57,21 @@ Flags:
   -h, --help                      help for gospider
 ```
 
-## Usage
+## 03 - Usage
 
 TODO: Provide more usage coverage for `gospider`
 
-`$ gospider -S urls.txt -c 10 -d 5 --subs --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" -a -o output`
+```
+$ gospider -S urls.txt -c 10 -d 5 --subs --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" -a -o output
+```
 
-## Use Cases
+## 04 - Use Cases
 
-### Filter endpoints
+### 4.1 - Filter endpoints
 
-`$ cat output/* | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | uro | sort -u`
+```
+$ cat output/* | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | uro | sort -u
+```
 
 ---
 ## References

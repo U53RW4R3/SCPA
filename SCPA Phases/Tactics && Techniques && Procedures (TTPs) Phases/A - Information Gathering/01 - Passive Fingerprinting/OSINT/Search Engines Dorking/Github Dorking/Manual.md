@@ -35,6 +35,8 @@ intelx /([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/
 ---
 ## References
 
+- [random-robbie: keywords](https://github.com/random-robbie/keywords)
+
 - [Hacktricks: Github Dorks & Leaks](https://book.hacktricks.xyz/generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets)
 
 - [Techgaun: Github Dorks](https://github.com/techgaun/github-dorks)

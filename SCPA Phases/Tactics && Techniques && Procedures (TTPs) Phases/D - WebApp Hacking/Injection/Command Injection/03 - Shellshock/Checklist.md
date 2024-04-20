@@ -24,4 +24,4 @@ TODO: Fill this info
 
 ## Exploit
 
-- [ ] Run with [[Commix]] using the `--shellshock` module to test for command injections.
+- [ ] Run with [[Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/04 - Automated Exploitation/Commix/Commix]] using the `--shellshock` module to test for command injections.

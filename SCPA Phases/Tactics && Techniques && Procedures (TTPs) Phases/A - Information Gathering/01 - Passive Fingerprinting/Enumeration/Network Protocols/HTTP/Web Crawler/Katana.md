@@ -102,13 +102,13 @@ OUTPUT:
    -version                          display project version
 ```
 
-## Usage
+## 03 - Usage
 
 `$ katana -u <URL_1>,<URL_2>,<URL_n> -o fuzz-endpoints.txt`
 
-## Use Cases
+## 04 - Use Cases
 
-### Discover Endpoints
+### 4.1 - Discover Endpoints
 
 `$ katana -list urls.txt -f qurl -d 5 -em php,asp,aspx,jsp -o fuzz-endpoints.txt`
 
@@ -118,11 +118,13 @@ OUTPUT:
 
 `$ katana -list urls.txt -f qurl -fx -d 5 -ef jpg,jpeg,gif,css,tif,tiff,png,ttf,woff,woff2,ico,pdf,svg,txt,js,md -o fuzz-endpoints.txt`
 
-### Declutter Endpoints
+### 4.2 - Declutter Endpoints
 
 TODO: Fill this info
 
-`$ subfinder -dL domains.txt | dnsx | katana -f qurl -d 5 -em php,asp,aspx,jsp | uro | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | httpx -silent -o fuzz-active-endpoints.txt`
+```
+$ subfinder -dL domains.txt | dnsx | katana -f qurl -d 5 -em php,asp,aspx,jsp | uro | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | httpx -silent -o fuzz-active-endpoints.txt
+```
 
 ---
 ## References

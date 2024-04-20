@@ -1,10 +1,10 @@
 # Whatweb
 
-## Help Menu
+## 01 - Help Menu
 
 TODO: Provide more usage coverage for Whatweb
 
-## Usage
+## 02 - Usage
 
 `$ whatweb -U="<user_agent>" <URL>`
 
