@@ -94,7 +94,9 @@ Scan commands:
 
 - Scan multiple IP addresses
 
-`$ sslyze $(cat ip_targets.txt)`
+```
+$ sslyze $(cat ip_targets.txt)
+```
 
 - Gather subdomains
 

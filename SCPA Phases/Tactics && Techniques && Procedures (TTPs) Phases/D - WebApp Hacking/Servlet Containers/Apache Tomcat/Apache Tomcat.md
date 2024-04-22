@@ -14,7 +14,11 @@ https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules
 
 https://vk9-sec.com/apache-tomcat-manager-war-reverse-shell/
 
-`$ find -name tomcat-users.xml 2>/dev/null`
+```
+$ find / -name "tomcat-users.xml" 2>/dev/null
+
+$ find / -name "tomcat-users.xml" 2>&1
+```
 
 `meterpreter > run post/windows/gather/enum_tomcat`
 

