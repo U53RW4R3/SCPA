@@ -11,12 +11,8 @@
             "id": "82e6dd0fc640a366",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command and Control/Empire/Usage/Interactive Shell/Interactive Shell.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command and Control/Empire/Usage/Interactive Shell/Interactive Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command and Control/Empire/Usage/Interactive Shell/Interactive Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Command and Control/Empire/Usage/Interactive Shell/Interactive Shell.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,8 +152,15 @@
   },
   "active": "82e6dd0fc640a366",
   "lastOpenFiles": [
-    "Command and Control/Empire/Usage/Plugins/Plugins.md",
+    "Command and Control/Covenant/Setup.md",
+    "Command and Control/Covenant/Usage/Core Features/01 - Admin.md",
+    "Command and Control/Covenant/Usage/Core Features/02 - Shell Handler.md",
+    "Command and Control/Covenant/Usage/Core Features/03 - Generate Payloads.md",
+    "Command and Control/Covenant/Usage/Core Features/04 - Credentials Database.md",
+    "Command and Control/Covenant/Usage/Interactive Shell/Grunts/05 - Help Menu.md",
+    "Command and Control/Covenant/Usage/Interactive Shell/Brute/Help Menu.md",
     "Command and Control/Empire/Usage/Interactive Shell/Interactive Shell.md",
+    "Command and Control/Empire/Usage/Plugins/Plugins.md",
     "Command and Control/Empire/Usage/Core Commands/05 - Credentials Database/B - Manage Credentials.md",
     "Command and Control/Empire/Usage/Core Commands/05 - Credentials Database/A - Add Credentials Manually.md",
     "Command and Control/Empire/Usage/Core Commands/04 - Agents/Usage.md",
@@ -188,13 +187,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Servlet Containers/Apache Tomcat/Apache Tomcat.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/General/Archive Files/7zip.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Installed Programs/Installed Programs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Files and Directories/Files and Directories.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Sniffing and Spoofing/Active/Authentication Relay/Responder/Scenarios/02 - DBMS Backend Relay Attack.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/04 - Automated Exploitation/Commix/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/04 - Automated Exploitation/Commix/Commix.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/03 - Shellshock/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Command Injection/01 - Results-Based Command Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Commix/01 - Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/Subdomain/TLS/02 - SSL Certificate/Scanners/SSLyze.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Routersploit",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
