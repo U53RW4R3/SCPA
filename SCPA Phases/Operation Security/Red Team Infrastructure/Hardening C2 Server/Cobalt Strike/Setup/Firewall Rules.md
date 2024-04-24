@@ -32,6 +32,8 @@ exit 0
 EOF
 ```
 
+- Change permission and start the service.
+
 ```
 $ sudo chmod 755 /etc/rc.local
 

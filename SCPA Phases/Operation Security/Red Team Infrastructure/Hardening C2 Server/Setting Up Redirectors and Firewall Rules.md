@@ -63,6 +63,8 @@ root@c2server:~# iptables -A OUTPUT -p tcp --dport <redirector_PORT> -j DROP
 ---
 ## References
 
+- [advania: Reducing The Indicators of Compromise (IOCs) on Beacon and Team Server](https://www.advania.co.uk/insights/blog/reducing-the-indicators-of-compromise-iocs-on-beacon-and-team-server/)
+
 - [Hardening For Your C&C](https://medium.com/void-security/the-red-fortress-hardening-for-your-c-c-9c06af8147bd)
 
 - [Nginx for Red Teams](https://0xda.de/blog/2020/02/nginx-for-red-teams/)

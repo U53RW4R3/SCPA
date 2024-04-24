@@ -16,3 +16,5 @@ TODO: Fill this info
 - [ZeroSSL](https://zerossl.com/)
 
 - [SSLShopper](https://www.sslshopper.com/ssl-certificate-list.html)
+
+- [Jeff Atkinson: Fingerprinting Encrypted](https://old.zeek.org/brocon2018/slides/Jeff_Atkinson._Fingerprinting_Encrypted.pptx)

@@ -150,3 +150,5 @@ $ sudo nginx -t
 
 $ sudo service nginx restart
 ```
+
+Once you've setup the redirectors properly. Refer to the [[Setting Up Redirectors and Firewall Rules|section for setting up a firewall rule to apply it]].

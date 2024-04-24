@@ -8,18 +8,28 @@ Search Tag(s): #red-team-infrastructure #sliver #detection
 
 ## 02 - JARM
 
-`$ git clone https://github.com/salesforce/jarm.git`
+- To scan for MTLS listener.
 
-`$ cd jarm/`
+```
+$ git clone https://github.com/salesforce/jarm.git
 
-`$ python jarm.py <C2_IP> -p 8888`
+$ cd jarm/
 
-`$ python jarm.py <C2_IP> -p 443`
+$ python jarm.py <C2_IP> -p 8888
+```
 
-`$ python jarm.py <C2_IP> -p 80`
+ - To scan for HTTP/HTTPS listener.
+
+```
+$ python jarm.py <C2_IP> -p 443
+
+$ python jarm.py <C2_IP> -p 80
+```
 
 ---
 ## References
+
+- [drb-ra: C2IntelFeeds](https://github.com/drb-ra/C2IntelFeeds)
 
 - [Hunting C2 with Shodan](https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f)
 

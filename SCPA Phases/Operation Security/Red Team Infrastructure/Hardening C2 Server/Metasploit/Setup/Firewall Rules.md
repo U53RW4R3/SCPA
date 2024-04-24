@@ -9,7 +9,7 @@ Search Tag(s): #red-team-infrastructure #metasploit-framework #firewall-rules
 # iptables-save > /etc/iptables/rules.v4
 ```
 
-- A script to autorun after reboot. Run this as root (without `sudo`)
+- A script to autorun after reboot. Run this as root (without `sudo`).
 
 ```bash
 cat << EOF > /etc/rc.local
@@ -31,6 +31,8 @@ sudo iptables-restore < /etc/iptables/rules.v4
 exit 0
 EOF
 ```
+
+- Change permission and start the service.
 
 ```
 $ sudo chmod 755 /etc/rc.local

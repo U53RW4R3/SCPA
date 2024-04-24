@@ -27,6 +27,8 @@ services.software.product=`Metasploit`
 ---
 ## References
 
+- [drb-ra: C2IntelFeeds](https://github.com/drb-ra/C2IntelFeeds)
+
 - [Hunting C2 with Shodan](https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f)
 
 - [C2 JARM](https://github.com/cedowens/C2-JARM)
