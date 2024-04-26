@@ -118,6 +118,10 @@ Search Tag(s): #empire #command-and-control #interactive-shell #help-menu
 
 `(Empire: AGENT_NAME) > powershell_situational_awareness_network_arpscan`
 
+### Execute Shell Commands
+
+`(Empire: AGENT_NAME) > shell <commands>`
+
 ### 2.1 - Process Manipulation
 
 - Syntax

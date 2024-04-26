@@ -1,3 +1,3 @@
 # Nuclei
 
-`$ nuclei -l ip_targets.txt -id mongodb-info-enum -t ~/nuclei-templates`
+`$ nuclei -l ip_targets.txt -t ~/nuclei-templates -id mongodb-info-enum`

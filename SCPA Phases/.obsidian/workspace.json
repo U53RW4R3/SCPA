@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Port Scanning.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Path Traversal/Helpers/Log Poisoning.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rustscan |",
+                "query": "thehacker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Port Scanning.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Path Traversal/Helpers/Log Poisoning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Port Scanning.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Path Traversal/Helpers/Log Poisoning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Port Scanning.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Path Traversal/Helpers/Log Poisoning.md"
               }
             }
           },
@@ -161,42 +161,42 @@
   },
   "active": "82e6dd0fc640a366",
   "lastOpenFiles": [
-    "Operation Security/Red Team Infrastructure/Issue TLS Certificate.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Brute Ratel C4/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Brute Ratel C4/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Hardening.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Domain Fronting.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Metasploit/Setup/Redirectors.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Setting Up Redirectors and Firewall Rules.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Purchasing Domain Names.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Setup/Domain Fronting.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Sliver/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/Subdomain/DNS/Scanners/DNSx.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/Subdomain/DNS/Scanners/Subfinder.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Havoc/Setup.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Cobalt Strike/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Checklist.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Detection.md",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Covenant/Setup.md",
-    "Operation Security/Red Team Infrastructure/Phishing/GoPhish.md",
-    "Command and Control/Empire/Usage/Core Commands/05 - Credentials Database",
-    "Command and Control/Empire/Usage/Core Commands/04 - Agents",
-    "Command and Control/Empire/Usage/Core Commands/03 - Generate Payloads",
-    "Command and Control/Empire/Usage/Core Commands/02 - Shell Handler",
-    "Command and Control/Empire/Usage/Core Commands/01 - Admin",
-    "Command and Control/Empire/Usage/Plugins",
-    "Command and Control/Empire/Usage/Interactive Shell",
-    "Command and Control/Empire/Usage/Core Commands",
-    "Command and Control/Empire/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Routersploit",
+    "Tactics && Techniques && Procedures (TTPs) Phases/Tactics && Techniques && Procedures (TTPs) Phases Global References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Domain Privilege Escalation/Authentication Relaying/SMB Relay.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/Path Traversal/Helpers/Log Poisoning.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters/Arjun.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Pivoting/Linux/Tunneling/DNS Tunneling/DNSChef.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Windows Credential Vault Manager/Dump RDP Credentials.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/01 - Users/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/01 - Users/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/ARP/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/ARP/Scanners/Netdiscover.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/ARP/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/ARP/Scanners/Arp-scan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/Networking Configuration/DNS/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/Networking Configuration/Firewall Rules/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/Networking Configuration/IP Address/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/Networking Configuration/Netstat/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/02 - Networking/Ping Sweep/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Files and Directories/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Printers/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/System and Kernel Version/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/System and Kernel Version/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/System and Kernel Version/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/System and Kernel Version/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/SUID and SGID/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/SUID and SGID/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/SUID and SGID/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/SUID and SGID/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Processes and Services/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Processes and Services/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Processes and Services/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Processes and Services/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Print Working Directory/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Print Working Directory/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Print Working Directory/C2 Frameworks",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Log Files/Manual",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Log Files/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",

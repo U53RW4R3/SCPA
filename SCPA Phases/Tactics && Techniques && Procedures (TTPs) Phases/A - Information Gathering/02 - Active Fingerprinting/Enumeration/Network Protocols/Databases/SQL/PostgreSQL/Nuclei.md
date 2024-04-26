@@ -2,4 +2,4 @@
 
 ## 01 - Username Enumeration
 
-`$ nuclei -u <IP> -id psql-user-enum -t ~/nuclei-templates`
+`$ nuclei -u <IP> -t ~/nuclei-templates -id psql-user-enum`

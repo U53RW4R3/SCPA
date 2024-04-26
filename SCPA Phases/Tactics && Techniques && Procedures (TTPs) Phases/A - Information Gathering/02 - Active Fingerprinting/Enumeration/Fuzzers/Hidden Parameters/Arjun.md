@@ -64,6 +64,6 @@ TODO: Fill this info and I got this covered - Userware
 
 - [Bug Bounty: Find Hidden Parameters](https://hacktivator.medium.com/bug-bounty-find-hidden-parameters-ea219b01e7ca)
 
-- [HTTP parameter pollution](https://www.thehacker.recipes/web/inputs/http-parameter-pollution)
+- [The Hacker Recipes: HTTP parameter pollution](https://www.thehacker.recipes/web/inputs/http-parameter-pollution)
 
 - [Discover Hidden HTTP Parameters to Find Weaknesses in Web Apps](https://null-byte.wonderhowto.com/how-to/discover-hidden-http-parameters-find-weaknesses-web-apps-0212025)

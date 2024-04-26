@@ -192,15 +192,13 @@ Search Tag(s): #sql-injection #union #enumeration-and-discovery #dvwa
 
 #### Enumeration and Discovery
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/01 - Users/C2 Frameworks/Metasploit|Metasploit]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/01 - Users/Manual/Living off the Land|Users]]
 
-- [[Environment Variables]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Environment Variables/Manual/Living off the Land|Environment Variables]]
 
-- [[Log Files]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Log Files/Manual/Living off the Land|Log Files]]
 
-- [[System and Kernel Version]]
-
-#### Enumeration and Discovery
+- [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/System and Kernel Version/Manual/Living off the Land|System and Kernel Version]]
 
 - [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/03 - Scheduled Tasks/Cron Job/Manual/Living off the Land|Cron Job]]
 

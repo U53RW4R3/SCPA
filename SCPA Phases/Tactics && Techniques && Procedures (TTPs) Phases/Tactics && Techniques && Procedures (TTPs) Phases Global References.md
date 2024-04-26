@@ -2,4 +2,4 @@
 
 - [Wadcoms](https://wadcoms.github.io/)
 
-- [The Hacker Tools](https://tools.thehacker.recipes/)
+- [The Hacker Recipes: The Hacker Tools](https://tools.thehacker.recipes/)

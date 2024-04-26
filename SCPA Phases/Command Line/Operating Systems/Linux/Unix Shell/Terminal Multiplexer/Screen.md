@@ -66,6 +66,6 @@ activity "Activity in %t(%n)"
 ---
 ## References
 
-- [Automatically Record All Users Terminal Sessions Activity Linux Script Command](https://www.2daygeek.com/automatically-record-all-users-terminal-sessions-activity-linux-script-command/)
+- [2daygeek: Automatically Record All Users Terminal Sessions Activity Linux Script Command](https://www.2daygeek.com/automatically-record-all-users-terminal-sessions-activity-linux-script-command/)
 
-- [https://www.youtube.com/watch?v=I4xVn6Io5Nw](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
+- [GNU Screen Cheat Sheet](https://kapeli.com/cheat_sheets/screen.docset/Contents/Resources/Documents/index)
