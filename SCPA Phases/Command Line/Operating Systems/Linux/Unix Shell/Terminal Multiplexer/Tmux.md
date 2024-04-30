@@ -21,7 +21,7 @@ set -g default-terminal "screen-256color"
 
 # Vim keybindings in copy mode
 
-set -g mouse on
+# set -g mouse on
 set-window-option -g mode-keys vi
 set-option -s set-clipboard off
 bind P paste-buffer

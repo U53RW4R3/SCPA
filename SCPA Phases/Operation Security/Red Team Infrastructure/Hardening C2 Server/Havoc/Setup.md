@@ -28,7 +28,7 @@ cat << EOF > /etc/rc.local
 #
 # By default this script does nothing.
 
-sudo iptables-restore < /etc/iptables/rules.v4
+iptables-restore < /etc/iptables/rules.v4
 
 exit 0
 EOF

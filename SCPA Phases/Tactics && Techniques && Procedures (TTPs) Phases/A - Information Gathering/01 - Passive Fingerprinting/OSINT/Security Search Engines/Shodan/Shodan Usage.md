@@ -16,6 +16,8 @@
 
 `org:<organization_name>`
 
+`asn:<asn_ID>`
+
 `city:"<city_name>"`
 
 `postal:"<postal_code>"`

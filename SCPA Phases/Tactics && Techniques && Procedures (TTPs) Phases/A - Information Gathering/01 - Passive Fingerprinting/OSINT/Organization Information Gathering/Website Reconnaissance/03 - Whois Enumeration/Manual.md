@@ -14,9 +14,6 @@ $ whois -a -T inetnum <organization_name>
 
 ```
 $ telnet whois.iana.org 43
-Trying 192.0.47.59...
-Connected to whois.iana.org.
-Escape character is '^]'.
 <domain.com>
 ```
 

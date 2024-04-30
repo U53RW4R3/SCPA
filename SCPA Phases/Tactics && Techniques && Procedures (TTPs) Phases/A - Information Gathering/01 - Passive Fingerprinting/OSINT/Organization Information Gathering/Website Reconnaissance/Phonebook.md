@@ -13,8 +13,9 @@ git clone https://github.com/sm00v/Phonebook_CZ /opt/intelligence-gathering/Phon
 
 cat << EOF > /usr/local/bin/phonebook
 #!/bin/bash
-cd /opt/intelligence-gathering/Phonebook_CZ
+pushd /opt/intelligence-gathering/Phonebook_CZ > /dev/null
 python3 phonebook.py \$*
+popd > /dev/null
 EOF
 chmod 755 /usr/local/bin/phonebook
 ```

@@ -28,8 +28,9 @@ sudo cp build/libs/ipscan-linux64-3.9.1-2-g7950484a.jar /opt/intelligence-gather
 ```
 cat << EOF > /usr/local/bin/ipscan
 #!/bin/sh
-cd /opt/intelligence-gathering/AngryIPScanner/
+pushd /opt/intelligence-gathering/AngryIPScanner/ > /dev/null
 java -nowarn -jar ipscan.jar \$*
+popd > /dev/null
 EOF
 chmod 755 /usr/local/bin/ipscan
 ```
