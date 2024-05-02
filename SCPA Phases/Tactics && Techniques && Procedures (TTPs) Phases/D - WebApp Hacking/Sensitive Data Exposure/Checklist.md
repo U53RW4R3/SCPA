@@ -27,7 +27,7 @@ TODO: Provide a checklist for Sensitive Data Exposure
 
 - Exposed Directories
 	- [ ] Check the [[Sensitive File List|common sensitive file list]] to find sensitive files.
-	- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/06 - HTTP Enumeration/Scanners/Nmap|NSE script]] to enumerate the webservers with `-iL ip_targets.txt` flag.
+	- [ ] Run an [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - HTTP Enumeration/Scanners/Nmap|NSE script]] to enumerate the webservers with `-iL ip_targets.txt` flag.
 	- [ ] Perform directory bruteforce via [[Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Hacking/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Gobuster|gobuster]].
 
 ## Vulnerability Assessment

@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag(s): #checklist #webapp #file-upload
+Search Tag(s): #checklist #file-upload #webapp
 
 TODO: Provide a good checklist for file upload vulnerability
 

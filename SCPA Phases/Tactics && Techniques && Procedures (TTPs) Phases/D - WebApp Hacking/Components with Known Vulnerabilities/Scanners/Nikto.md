@@ -1,6 +1,6 @@
 # Nikto
 
-Search Tag(s): #webapp
+Search Tag(s): #webapp #nikto
 
 `$ nikto -h <IP> -T bd -Plugins outdated`
 

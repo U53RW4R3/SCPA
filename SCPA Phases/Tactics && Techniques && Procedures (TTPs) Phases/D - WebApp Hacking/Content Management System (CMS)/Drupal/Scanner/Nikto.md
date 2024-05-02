@@ -1,5 +1,7 @@
 # Nikto
 
+Search Tag(s): #drupal #nikto #drupal
+
 `$ nikto -h <IP> -Plugins drupal`
 
 ---

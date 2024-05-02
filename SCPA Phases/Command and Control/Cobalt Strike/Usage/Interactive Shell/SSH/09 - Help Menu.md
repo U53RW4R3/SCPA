@@ -26,7 +26,7 @@ SSH Commands
     rportfwd_local            Setup a reverse port forward via Cobalt Strike client
     shell                     Execute a command via the shell
     sleep                     Set parent beacon's sleep time
-    socks                     Start/Stop a SOCKS4a server to relay traffic
+    socks                     Start/Stop a SOCKS4a/SOCKS5 server to relay traffic
     sudo                      Run a command via sudo
     unlink                    Disconnect a child TCP Beacon session
     upload                    Upload a file

@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag(s): #checklist #command-injection #shellshock 
+Search Tag(s): #checklist #command-injection #shellshock  #webapp
 
 TODO: Fill this info
 

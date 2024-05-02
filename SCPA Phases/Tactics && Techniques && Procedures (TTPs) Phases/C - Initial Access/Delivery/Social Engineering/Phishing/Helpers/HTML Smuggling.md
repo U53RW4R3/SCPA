@@ -24,7 +24,7 @@
                     bytes[i] = binary_string.charCodeAt(i);
                 return bytes.buffer;
             }
-            // $ cat payload.exe | base64 -w 0
+            // $ base64 -w 0 payload.exe
             var base64_binary = '<base64_payload>'
             
             var data = Base64ToArray(base64_binary);

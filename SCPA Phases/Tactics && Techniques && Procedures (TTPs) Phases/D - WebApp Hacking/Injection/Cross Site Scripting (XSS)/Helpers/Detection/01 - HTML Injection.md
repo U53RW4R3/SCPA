@@ -28,7 +28,6 @@ TODO: Fill in the rest
 |  | `<del>this text is deleted</del>` | `™` -> `&trade;` |
 |  |  | `®` -> `&reg;` |
 
-##
 
 ---
 ## References

@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag(s): #checklist #command-injection
+Search Tag(s): #checklist #command-injection #webapp
 
 TODO: Provide a checklist for blind command injection
 

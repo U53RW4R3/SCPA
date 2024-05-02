@@ -2,6 +2,10 @@
 
 TODO: Fill this info
 
+https://github.com/defparam/smuggler
+
+https://github.com/neex/http2smugl
+
 ---
 ## References
 

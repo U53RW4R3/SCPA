@@ -2,6 +2,8 @@
 
 TODO: Fill this info
 
+Search Tag(s): #webapp #nuclei
+
 - Find CVEs and public exploits.
 
 `$ nuclei -u <URL> -t ~/nuclei-templates -id edb,cve`

