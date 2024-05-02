@@ -17,6 +17,6 @@ TODO: Provide more usage coverage for Whatweb
 
 - [[User Agents]]
 
-- [WhatWeb](https://morningstarsecurity.com/research/whatweb)
+- [Whatweb](https://morningstarsecurity.com/research/whatweb)
 
-- [WhatWeb Source Repository](https://github.com/urbanadventurer/WhatWeb)
+- [Whatweb Source Repository](https://github.com/urbanadventurer/WhatWeb)

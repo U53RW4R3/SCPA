@@ -118,11 +118,15 @@ Exploit misconfigured firewall rules with a source port
 
 ### 8.1.6 -  NSE Script
 
-`$ sudo nmap --script firewall-bypass --script-args firewall-bypass.helper="ftp",firewall-bypass.targetport=<PORT> <target_IP>`
+```
+$ sudo nmap --script firewall-bypass --script-args firewall-bypass.helper="ftp",firewall-bypass.targetport=<PORT> <target_IP>
+```
 
 ## 8.2 - Spoof User Agent
 
-`$ sudo nmap -Pn -n -sC --script-args http.useragent="<User_Agent>" <target_IP>`
+```
+$ sudo nmap -p 80,443 -Pn -n -sC --script-args http.useragent="<User_Agent>" <IP>
+```
 
 ---
 ## References

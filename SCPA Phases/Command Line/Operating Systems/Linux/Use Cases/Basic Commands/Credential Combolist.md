@@ -1,6 +1,6 @@
 # Credential Combolist
 
-Search Tags: #credential-stuffing
+Search Tag(s): #credential-stuffing
 
 - Combine usernames and passwords.
 
