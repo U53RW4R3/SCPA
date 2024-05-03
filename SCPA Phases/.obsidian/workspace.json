@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/HTTP/Whatweb.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "whatweb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/HTTP/Whatweb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/HTTP/Whatweb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/HTTP/Whatweb.md"
               }
             }
           },
@@ -160,6 +161,18 @@
   },
   "active": "82e6dd0fc640a366",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Sensitive Data Exposure/Checklist.md",
+    "Command and Control/Webshells/Weevely/02 - Basic Commands.md",
+    "Command and Control/Webshells/Weevely/01 - Help Menu.md",
+    "Command and Control/Webshells/Weevely/03 - Internal Reconnaissance.md",
+    "Command and Control/Webshells/Weevely/04 - Basic Enumeration.md",
+    "Command and Control/Webshells/Weevely/05 - Spawn Callback Shell.md",
+    "Command and Control/Webshells/Weevely/06 - HTTP Proxy.md",
+    "Command and Control/Webshells/Weevely/07 - Data Exfiltration.md",
+    "Command and Control/Webshells/Weevely/08 - Anti-Forensics.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/11 - Anti-Forensics/Linux/Clear Traces/04 - Clear Logs/Delete Logs/Offensive Tools/Binaries/CoverMyAss.md",
+    "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Open Redirect/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/JSON Web Token (JWT)/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Insecure Deserialization/Checklist.md",
@@ -174,18 +187,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Path Traversal/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/NoSQL Injection/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/LDAP Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Cross Site Scripting (XSS)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Content Management System (CMS)/Drupal/Scanner/Nikto.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Content Management System (CMS)/Drupal/Scanner/Drupwn.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Components with Known Vulnerabilities/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Components with Known Vulnerabilities/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication/Bruteforce Login/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Insecure Direct Object Reference (IDOR)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/403 and 401 Bypasses/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Application Server/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Application Server/GlassFish/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/API/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Content Management System (CMS)/Drupal/Scanner/Nmap.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Open Redirect/Scanners",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Open Redirect",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/API/GraphQL/GraphQLMap",
