@@ -1,6 +1,156 @@
 # Retrieve Proxy Servers
 
-## 01 - Nmap
+## 01 - Download public proxies
+
+- SOCKS4
+
+```
+$ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=<country_code>
+
+$ curl https://api.openproxylist.xyz/socks4.txt
+```
+
+- SOCKS4A
+
+```
+$ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4a&country=<country_code>
+```
+
+- SOCKS5
+
+```
+$ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&country=<country_code>
+
+$ curl https://api.openproxylist.xyz/socks5.txt
+```
+
+- HTTP
+
+```
+$ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&country=<country_code>
+
+$ curl https://api.openproxylist.xyz/http.txt
+```
+
+## 02 - Formatter
+
+### 2.1 - Proxychains
+
+Refer to [[Basic|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
+
+```bash
+#!/bin/bash
+
+# Name it as proxychains-formatter.sh
+
+PROXY="${1}"
+FILE="${2}"
+USERNAME="${3}"
+PASSWORD="${4}"
+
+function usage() {
+    echo "Usage: $0 <SOCKS4 | SOCKS5 | HTTP> ips.txt <username> <password>"
+}
+
+function format() {
+    local ip=()
+    local port=()
+    local temp=""
+
+	# TODO: add a flag for -t, --tor when using with /dev/tcp/<IP>/<PORT>
+    while read -r line
+    do
+        temp=$(echo "${line}" | cut -d ":" -f 1)
+        
+        if [[ $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b") ]]
+        then
+            ip+=("${temp}")
+            port+=($(echo "${line}" | cut -d ":" -f 2))
+        fi
+    done < "${FILE}"
+    
+    for ((i=0; i<${#ip[@]}; i++))
+    do
+        if [ ${PROXY,,} = "socks4" ]
+        then
+            echo "${PROXY,,} ${ip[$i]} ${port[$i]}"
+        elif [ ${PROXY,,} = "socks5" ]
+        then
+            echo "${PROXY,,} ${ip[$i]} ${port[$i]} ${USERNAME} ${PASSWORD}"
+        elif [ ${PROXY,,} = "http" ]
+        then
+            echo "${PROXY,,} ${ip[$i]} ${port[$i]} ${USERNAME} ${PASSWORD}"
+        fi
+    done
+}
+
+# TODO: Make flag switches
+
+if [ $# -lt 2 ] || [ $PROXY = "-h" ]
+then
+       usage
+       exit 1
+fi
+
+format
+```
+
+### 2.2 - Privoxy
+
+```bash
+#!/bin/bash
+
+# Name it as privoxy-formatter.sh
+
+PROXY="${1}"
+FILE="${2}"
+USERNAME="${3}"
+PASSWORD="${4}"
+
+function usage() {
+    echo "Usage: $0 <SOCKS4 | SOCKS5 | HTTP> ips.txt <username> <password>"
+}
+
+function format() {
+    local ip=()
+    local port=()
+    local temp=""
+
+    while read -r line
+    do
+        temp=$(echo "${line}" | cut -d ":" -f 1)
+        
+        if [[ $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b") ]]
+        then
+            ip+=("${temp}")
+            port+=($(echo "${line}" | cut -d ":" -f 2))
+        fi
+    done < "${FILE}"
+    
+    for ((i=0; i<${#ip[@]}; i++))
+    do
+        if [ ${PROXY,,} = "socks4" ]
+        then
+            echo "forward-socks4a   /       ${ip[$i]}:${port[$i]}   ."
+        elif [ ${PROXY,,} = "socks5" ]
+        then
+            echo "forward-socks5    /       ${USERNAME}:${PASSWORD}@${ip[$i]}:${port[$i]}   ."
+        fi
+    done
+}
+
+# TODO: Make flag switches
+
+if [ $# -lt 2 ] || [ $PROXY = "-h" ]
+then
+       usage
+       exit 1
+fi
+
+format
+```
+
+## 03 - Nmap
 
 ```
 $ nmap -p 1080 -Pn -n --script socks-open-proxy [--script-args "proxy.url=google.com,proxy.pattern=<pattern>"] <IP>
@@ -20,3 +170,27 @@ $ nmap -p 1080 -Pn -n -sS --max-retries 1 --min-parallelism 700 --open -T4 --scr
 - [IP Address Location](https://www.ipaddresslocation.org/cidr/ip-ranges.php)
 
 - [Fun Over IP: Socks proxy servers scanning with nmap](https://funoverip.net/2010/11/socks-proxy-servers-scanning-with-nmap/)
+
+### Publicly available proxy servers
+
+- [Proxyscrape](https://api.proxyscrape.com)
+
+- [OpenProxyList](https://api.openproxylist.xyz/)
+
+#### Spys.me
+
+- [spys.me: SOCKS Proxy Servers](https://spys.me/socks.txt)
+
+- [spys.me: HTTP](https://spys.me/proxy.txt)
+
+#### Github
+
+- [TheSpeedX: PROXY-List](https://github.com/TheSpeedX/PROXY-List)
+
+- [clarketm: proxy-list](https://github.com/clarketm/proxy-list)
+
+- [jetkai: proxy-list](https://github.com/jetkai/proxy-list)
+
+- [MuRongPIG: Proxy-Master](https://github.com/MuRongPIG/Proxy-Master)
+
+- [Proxyifly: free-proxy-list](https://github.com/proxifly/free-proxy-list)

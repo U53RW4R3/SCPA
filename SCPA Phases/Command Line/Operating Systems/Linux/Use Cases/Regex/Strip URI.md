@@ -1,6 +1,6 @@
 # Strip URI
 
-Search Tag(s): #command-line #networking #regex #use-cases #linux
+Search Tag(s): #use-cases #command-line #networking #regex #linux
 
 `$ grep -Po '^(.*://[^/]+)/' file.txt`
 
