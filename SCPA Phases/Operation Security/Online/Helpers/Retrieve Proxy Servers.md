@@ -41,15 +41,33 @@ Refer to [[Basic|ping sweep one liners]] to grab active proxy servers then pass 
 ```bash
 #!/bin/bash
 
-# Name it as proxychains-formatter.sh
-
 PROXY="${1}"
 FILE="${2}"
 USERNAME="${3}"
 PASSWORD="${4}"
 
-function usage() {
-    echo "Usage: $0 <SOCKS4 | SOCKS5 | HTTP> ips.txt <username> <password>"
+IPV4_REGEX="\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"
+
+function sweep() {
+	local ip=()
+    local port=()
+    local temp=""
+
+	# TODO: Some programs like proxychains accepts numeric IP addresses except privoxy
+	# $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "${IPV4_REGEX}" | sort -u)
+
+	# TODO: add a flag for -m, --method when using with /dev/tcp/<IP>/<PORT>
+    while read -r line
+    do
+	    # temp=$(echo "${line}" | grep -Eo "${IPV4_REGEX}")
+        temp=$(echo "${line}" | cut -d ":" -f 1)
+
+        if [[ $(ping -c 1 "${temp}" | grep "bytes from") ]]
+        then
+            ip+=("${temp}")
+            port+=($(echo "${line}" | cut -d ":" -f 2))
+        fi
+    done < "${FILE}"
 }
 
 function format() {
@@ -57,12 +75,13 @@ function format() {
     local port=()
     local temp=""
 
-	# TODO: add a flag for -t, --tor when using with /dev/tcp/<IP>/<PORT>
+	# TODO: add a flag for -m, --method when using with /dev/tcp/<IP>/<PORT>
     while read -r line
     do
+	    # temp=$(echo "${line}" | grep -Eo "${IPV4_REGEX}")
         temp=$(echo "${line}" | cut -d ":" -f 1)
-        
-        if [[ $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b") ]]
+
+        if [[ $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "${IPV4_REGEX}" | sort -u) ]]
         then
             ip+=("${temp}")
             port+=($(echo "${line}" | cut -d ":" -f 2))
@@ -71,17 +90,21 @@ function format() {
     
     for ((i=0; i<${#ip[@]}; i++))
     do
-        if [ ${PROXY,,} = "socks4" ]
+        if [[ ${PROXY,,} = "socks4" ]]
         then
             echo "${PROXY,,} ${ip[$i]} ${port[$i]}"
-        elif [ ${PROXY,,} = "socks5" ]
+        elif [[ ${PROXY,,} = "socks5" ]]
         then
             echo "${PROXY,,} ${ip[$i]} ${port[$i]} ${USERNAME} ${PASSWORD}"
-        elif [ ${PROXY,,} = "http" ]
+        elif [[ ${PROXY,,} = "http" ]]
         then
             echo "${PROXY,,} ${ip[$i]} ${port[$i]} ${USERNAME} ${PASSWORD}"
         fi
     done
+}
+
+function usage() {
+    echo "Usage: $0 <SOCKS4 | SOCKS5 | HTTP> ips.txt <username> <password>"
 }
 
 # TODO: Make flag switches
@@ -129,10 +152,10 @@ function format() {
     
     for ((i=0; i<${#ip[@]}; i++))
     do
-        if [ ${PROXY,,} = "socks4" ]
+        if [[ ${PROXY,,} = "socks4" ]]
         then
             echo "forward-socks4a   /       ${ip[$i]}:${port[$i]}   ."
-        elif [ ${PROXY,,} = "socks5" ]
+        elif [[ ${PROXY,,} = "socks5" ]]
         then
             echo "forward-socks5    /       ${USERNAME}:${PASSWORD}@${ip[$i]}:${port[$i]}   ."
         fi

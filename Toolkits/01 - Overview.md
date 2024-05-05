@@ -15,7 +15,7 @@
 * Webapp Lab
     1. [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA)
     2. [Damn Vulnerable WordPress](https://github.com/vavkamil/dvwp)
-    3. [Juice-Shop](https://github.com/bkimminich/juice-shop)
+    3. [Juice Shop](https://github.com/bkimminich/juice-shop)
     4. [bWAPP](https://sourceforge.net/projects/bwapp/files/bee-box/) && [Sourceforge](https://sourceforge.net/projects/bwapp/files/bWAPP/)
     5. [Commix-Testbed](https://github.com/commixproject/commix-testbed)
     6. [OWASP Bricks](https://sechow.com/bricks/)
@@ -25,13 +25,20 @@
     10. [IoTGoat](https://github.com/OWASP/IoTGoat)
     11. [XVWA (Xtreme Vulnerable Web Application)](https://github.com/s4n7h0/xvwa)
     12. [Damn Vulnerable Web Services](https://github.com/snoopysecurity/dvws-node)
-    13. [Pentest_lab](https://github.com/oliverwiegers/pentest_lab)
-    14. [Pentestlab](https://github.com/eystsen/pentestlab)
-    15. [Vulnerawa](https://github.com/hackercoolmagz/Vulnerawa)
-    16. [WampServer](https://sourceforge.net/projects/wampserver/)
-    17. [OWASP Broken Web Applications Project](https://sourceforge.net/projects/owaspbwa/)
-    18. [DVFU (Damn Vulnerable File Upload)](https://github.com/LunaM00n/File-Upload-Lab)
-    19. [JavaVulnerableLab](https://github.com/CSPF-Founder/JavaVulnerableLab)
+    13. [Vulnerawa](https://github.com/hackercoolmagz/Vulnerawa)
+    14. [WampServer](https://sourceforge.net/projects/wampserver/)
+    15. [OWASP Broken Web Applications Project](https://sourceforge.net/projects/owaspbwa/)
+    16. [DVFU (Damn Vulnerable File Upload)](https://github.com/LunaM00n/File-Upload-Lab)
+    17. [JavaVulnerableLab](https://github.com/CSPF-Founder/JavaVulnerableLab)
+
+    + Pentester Lab
+        1. [Web for Pentester](https://pentesterlab.com/exercises/web_for_pentester/attachments)
+        2. [From SQL Injection to Shell: PostgreSQL edition](https://pentesterlab.com/exercises/from_sqli_to_shell_pg_edition/attachments)
+
+    + Docker Images
+        1. [VulnerableWordpress](https://github.com/wpscanteam/VulnerableWordpress)
+        2. [Pentest_lab](https://github.com/oliverwiegers/pentest_lab)
+        3. [Pentestlab](https://github.com/eystsen/pentestlab)
 
 * Host Machine
     1. [Vulnerable Machine](https://bobloblaw321.wixsite.com/website/post/the-making-of-a-vulnerable-machine-blob-blog)

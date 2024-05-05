@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4f8a3ded6435679b",
+        "id": "bd1be48f951638d2",
         "type": "tabs",
         "children": [
           {
-            "id": "82e6dd0fc640a366",
+            "id": "ff79decf10ad96d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Online/Helpers/Retrieve Proxy Servers.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Server Side Template Injection (SSTI)/Lab Simulation/XVWA/Manual.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ping -c 1\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Online/Helpers/Retrieve Proxy Servers.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Server Side Template Injection (SSTI)/Lab Simulation/XVWA/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Online/Helpers/Retrieve Proxy Servers.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Server Side Template Injection (SSTI)/Lab Simulation/XVWA/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Online/Helpers/Retrieve Proxy Servers.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Server Side Template Injection (SSTI)/Lab Simulation/XVWA/Manual.md"
               }
             }
           },
@@ -158,44 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82e6dd0fc640a366",
+  "active": "ff79decf10ad96d2",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Password Cracking/Online/Network Protocols/SOCKS/Nmap.md",
-    "Operation Security/Online/Helpers/Retrieve Proxy Servers.md",
-    "Operation Security/Online/Helpers/SOCKS Proxy Servers.md",
-    "Command Line/Operating Systems/Linux/Use Cases/Networking/Basic.md",
-    "Operation Security/Online/TOR/Setup/01 - Proxychains.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/03 - Automated Exploitation/Ghauri/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/03 - Automated Exploitation/Ghauri/Usage/01 - Help Menu.md",
-    "Command Line/Operating Systems/Linux/Use Cases/Regex/Strip URI.md",
-    "Command Line/Operating Systems/Linux/Use Cases/Regex/Domains.md",
-    "Command Line/Operating Systems/Linux/Use Cases/Networking/Establish connection via TOR.md",
-    "Command Line/Operating Systems/Linux/Unix Shell/Networking/Firewall Rules/UncomplicatedFirewall (UFW)/UncomplicatedFirewall (UFW).md",
-    "Command and Control/Villain/Usage/01 - Help Menu.md",
-    "Command and Control/Villain/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Server Side Template Injection (SSTI)/Lab Simulation/Juice Shop/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Server Side Template Injection (SSTI)/Lab Simulation/XVWA/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/Server Side Template Injection (SSTI)/Lab Simulation/XVWA",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Lab Simulation/XVWA/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Insecure Direct Object Reference (IDOR)/Lab Simulation/XVWA/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Lab Simulation/XVWA",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Insecure Direct Object Reference (IDOR)/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Insecure Direct Object Reference (IDOR)/Lab Simulation/XVWA",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Insecure Direct Object Reference (IDOR)/Lab Simulation",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Authorization Bypass/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Authorization Bypass/Lab Simulation/DVWA/Low/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Authorization Bypass/Lab Simulation/DVWA/Low",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Authorization Bypass/Lab Simulation/DVWA",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication/Bruteforce Login/Lab Simulation/DVWA/Difficulty/Low/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Authorization Bypass/Lab Simulation",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Authorization Bypass",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Database Administration Tool/PHPMyAdmin/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Password Cracking/Online/Network Protocols/HTTP/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Password Cracking/Online/Network Protocols/HTTP/Hydra.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/File Upload/Automated Exploitation/Fuxploider/Usage/Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/02 - Database Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/03 - Data Collection.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/04 - OS Enumeration.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/05 - Initial Foothold.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Password Cracking/Wordlist/Other Wordlists.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/File Upload/Automated Exploitation/Fuxploider/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/File Upload/Automated Exploitation/Fuxploider/Usage",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/File Upload/Automated Exploitation/Upload_Bypass/Usage/Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/File Upload/Automated Exploitation/Fuxploider",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Servlet Containers/Apache Tomcat/Apache Tomcat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Servlet Containers/Apache Tomcat/Scanners/Nuclei.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Servlet Containers/Jenkins/Scanners/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Servlet Containers/Jenkins/Jenkins.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Web Application Firewall (WAF)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Web Application Firewall (WAF)/Cloud Lookup/Scanners/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Web Application Firewall (WAF)/Helpers/Evasion.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Web Application Firewall (WAF)/Cloudflare/Scanners/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Web Application Firewall (WAF)/Cloudflare/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Web Application Firewall (WAF)/Cloudflare",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authenticate/Password Attacks/Hydra.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authenticate/Scanners/Nuclei.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication/Bruteforce Login/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Open Redirect/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Open Redirect",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/API/GraphQL/GraphQLMap",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/API/GraphQL",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authenticate/Password Attacks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control",
-    "Tactics && Techniques && Procedures (TTPs) Phases/Information Gathering/Active Fingerprinting/Port Scanners/Nmap/Usage",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Server Side Request Forgery (SSRF)/Lab Simulation/Juice Shop/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/XML External Entity (XXE) Injection/Lab Simulation/Juice Shop/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Cross-Origin Resource Sharing (CORS)/Lab Simulation/Juice Shop/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Lab Simulation/Juice Shop/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Broken Authentication/Reset Account/04 - Other Authentication Mechanisms/README.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - WebApp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
