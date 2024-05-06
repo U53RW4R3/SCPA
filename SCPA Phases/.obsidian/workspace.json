@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"`sqlmap`\"",
+                "query": "ExploitDB",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md"
               }
             }
           },
@@ -160,6 +161,29 @@
   },
   "active": "ff79decf10ad96d2",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Components with Known Vulnerabilities/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/02 - Basic.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/CVE Database.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Scanners/Dorkscout.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Components with Known Vulnerabilities/Scanners/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Service Exploits/MySQL/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Usage/Pompem.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Usage",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Drupal/Scanner/Drupwn/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/Time-Based Blind Query SQL Injection.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Wifite.md",
@@ -169,33 +193,10 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/EAPMD5Pass.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Cowpatty.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Bully.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Bettercap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Airgeddon.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Aircrack-ng.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Cloud Lookup/Scanners/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Helpers/Evasion.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Scanners/Nuclei.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Scanners/Oralyzer.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Scanners/OpenRedireX.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Sublist3r2.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Gobuster.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/04 - Automated Exploitation/Commix/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Public Exploits",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/WPScan/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/WPScan",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Drupal/Scanner/Drupwn/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Drupal/Scanner/Drupwn",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/HTTP Request Smuggling (HRS)/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/HTTP/Webapp Information",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/HTTP/Declutter URLs",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Security Misconfiguration/API Keys/Helpers",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
