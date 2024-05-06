@@ -4,7 +4,7 @@
 
 ```
 $ go install github.com/projectdiscovery/tlsx/cmd/tlsx@latest && \
-sudo cp ~/go/bin/tlsx /usr/local/bin
+sudo mv ~/go/bin/tlsx /usr/local/bin
 ```
 
 ## 02 - Help Menu

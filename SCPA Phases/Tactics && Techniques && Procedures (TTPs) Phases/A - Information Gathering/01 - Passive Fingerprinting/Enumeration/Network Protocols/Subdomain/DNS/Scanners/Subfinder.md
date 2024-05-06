@@ -4,7 +4,7 @@
 
 ```
 $ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest && \
-sudo cp ~/go/bin/subfinder /usr/local/bin
+sudo mv ~/go/bin/subfinder /usr/local/bin
 ```
 
 ## Help Menu

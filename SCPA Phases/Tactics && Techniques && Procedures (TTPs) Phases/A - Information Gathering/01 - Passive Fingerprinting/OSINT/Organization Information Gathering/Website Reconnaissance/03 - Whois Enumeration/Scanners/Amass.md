@@ -3,8 +3,8 @@
 ### Setup
 
 ```
-$ go install -v github.com/owasp-amass/amass/v3/...@master && \
-sudo cp ~/go/bin/amass /usr/local/bin
+$ go install github.com/owasp-amass/amass/v3/...@master && \
+sudo mv ~/go/bin/amass /usr/local/bin
 ```
 
 ### Usage

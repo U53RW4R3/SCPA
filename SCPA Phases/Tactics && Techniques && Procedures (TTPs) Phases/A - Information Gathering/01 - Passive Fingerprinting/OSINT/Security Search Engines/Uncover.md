@@ -4,7 +4,7 @@
 
 ```
 $ go install -v github.com/projectdiscovery/uncover/cmd/uncover@latest && \
-sudo cp ~/go/bin/uncover /usr/local/bin
+sudo mv ~/go/bin/uncover /usr/local/bin
 ```
 
 ## Usage

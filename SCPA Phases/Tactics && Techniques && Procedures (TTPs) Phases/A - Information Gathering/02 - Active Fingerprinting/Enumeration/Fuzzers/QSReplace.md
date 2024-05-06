@@ -4,7 +4,7 @@
 
 ```
 $ go install github.com/tomnomnom/qsreplace@latest && \
-sudo cp ~/go/bin/qsreplace /usr/local/bin
+sudo mv ~/go/bin/qsreplace /usr/local/bin
 ```
 
 ## Usage

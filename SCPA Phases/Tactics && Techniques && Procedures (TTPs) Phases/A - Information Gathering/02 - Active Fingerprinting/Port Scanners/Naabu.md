@@ -3,8 +3,8 @@
 ## 01 - Setup
 
 ```
-$ go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest && \
-sudo cp ~/go/bin/naabu /usr/local/bin
+$ go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest && \
+sudo mv ~/go/bin/naabu /usr/local/bin
 ```
 
 ## 02 - Help Menu

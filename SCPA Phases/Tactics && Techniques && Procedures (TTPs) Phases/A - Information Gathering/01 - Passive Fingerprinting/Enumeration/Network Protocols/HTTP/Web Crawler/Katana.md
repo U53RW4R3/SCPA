@@ -5,8 +5,8 @@ TODO: Fill in the information
 ## 01 - Setup
 
 ```
-$ go install -v github.com/projectdiscovery/katana/cmd/katana@latest && \
-sudo cp ~/go/bin/katana /usr/local/bin
+$ go install github.com/projectdiscovery/katana/cmd/katana@latest && \
+sudo mv ~/go/bin/katana /usr/local/bin
 ```
 
 ## 02 - Help Menu

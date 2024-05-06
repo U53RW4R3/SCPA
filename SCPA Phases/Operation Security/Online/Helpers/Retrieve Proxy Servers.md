@@ -36,7 +36,7 @@ $ curl https://api.openproxylist.xyz/http.txt
 
 ### 2.1 - Proxychains
 
-Refer to [[Basic|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
+Refer to [[Command Line/Operating Systems/Linux/Use Cases/Networking/Basic|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
 
 ```bash
 #!/bin/bash

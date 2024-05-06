@@ -4,7 +4,7 @@
 
 ```
 $ go install github.com/tomnomnom/waybackurls@latest && \
-sudo cp ~/go/bin/waybackurls /usr/local/bin
+sudo mv ~/go/bin/waybackurls /usr/local/bin
 ```
 
 ## 02 - Usage

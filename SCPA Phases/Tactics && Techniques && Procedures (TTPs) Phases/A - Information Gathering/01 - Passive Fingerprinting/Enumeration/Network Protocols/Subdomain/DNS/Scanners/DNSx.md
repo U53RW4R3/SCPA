@@ -3,8 +3,8 @@
 ## 01 - Setup
 
 ```
-$ go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest && \
-sudo cp ~/go/bin/dnsx /usr/local/bin
+$ go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest && \
+sudo mv ~/go/bin/dnsx /usr/local/bin
 ```
 
 ## 02 - Help Menu

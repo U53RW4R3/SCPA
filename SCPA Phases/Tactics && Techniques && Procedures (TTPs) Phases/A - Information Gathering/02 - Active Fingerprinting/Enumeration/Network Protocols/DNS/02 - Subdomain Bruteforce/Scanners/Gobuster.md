@@ -4,7 +4,7 @@
 
 ```
 $ go install github.com/OJ/gobuster/v3@latest && \
-sudo cp ~/go/bin/gobuster /usr/local/bin
+sudo mv ~/go/bin/gobuster /usr/local/bin
 ```
 
 ## 02 - Help Menu

@@ -4,7 +4,7 @@
 
 ```
 $ go install github.com/projectdiscovery/asnmap/cmd/asnmap@latest && \
-sudo cp ~/go/bin/asnmap /usr/local/bin/
+sudo mv ~/go/bin/asnmap /usr/local/bin/
 ```
 
 ## Help Menu

@@ -4,7 +4,7 @@
 
 ```
 $ go install github.com/jaeles-project/gospider@latest && \
-sudo cp ~/go/bin/gospider /usr/local/bin
+sudo mv ~/go/bin/gospider /usr/local/bin
 ```
 
 ## 02 - Help Menu

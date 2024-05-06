@@ -5,8 +5,8 @@ TODO: Provide more information and probably other use cases
 ## Setup
 
 ```
-$ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest && \
-sudo cp ~/go/bin/httpx /usr/local/bin
+$ go install github.com/projectdiscovery/httpx/cmd/httpx@latest && \
+sudo mv ~/go/bin/httpx /usr/local/bin
 ```
 
 ## Help Menu

@@ -4,7 +4,7 @@
 
 ```
 $ go install github.com/praetorian-inc/fingerprintx/cmd/fingerprintx@latest && \
-sudo cp ~/go/bin/fingerprintx /usr/local/bin
+sudo mv ~/go/bin/fingerprintx /usr/local/bin
 ```
 
 ## 02 - Help Menu
