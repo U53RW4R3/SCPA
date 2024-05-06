@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Cloud Lookup/Scanners/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Wifite.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Cloud Lookup/Scanners/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Wifite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Cloud Lookup/Scanners/Metasploit.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Wifite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Cloud Lookup/Scanners/Metasploit.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Wifite.md"
               }
             }
           },
@@ -160,6 +160,16 @@
   },
   "active": "ff79decf10ad96d2",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Reaver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/PixieWPS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Fluxion.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/EAPMD5Pass.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Cowpatty.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Bully.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Bettercap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Airgeddon.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Aircrack-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Cloud Lookup/Scanners/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Helpers/Evasion.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Application Firewall (WAF)/Checklist.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
@@ -176,16 +186,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Dirb.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/DS_Store.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/GitHacker.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/JSA.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/Nikto.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/Nuclei.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/SecretFinder.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/SubJS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories/Gitleaks.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories/GitTools.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Source Forge Repositories/TruffleHog.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/04 - Automated Exploitation/Commix/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Public Exploits",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/WPScan/Usage",
