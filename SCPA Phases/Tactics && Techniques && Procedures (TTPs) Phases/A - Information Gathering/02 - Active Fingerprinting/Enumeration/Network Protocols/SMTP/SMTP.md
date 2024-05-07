@@ -37,7 +37,7 @@ NTLM supported
 
 ### 1.4 -Username Bruteforce Enumeration
 
-**Note:** Authenticating with SMTP protocols is not often required
+Note: Authenticating with SMTP protocols is not often required
 
 #### 1.4.1 - RCPT TO
 

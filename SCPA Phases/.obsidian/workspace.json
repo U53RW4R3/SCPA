@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ExploitDB",
+                "query": "\"TCM\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Metasploit.md"
               }
             }
           },
@@ -161,42 +161,42 @@
   },
   "active": "ff79decf10ad96d2",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Components with Known Vulnerabilities/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/02 - Basic.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/CVE Database.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Scanners/Dorkscout.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Components with Known Vulnerabilities/Scanners/Nuclei.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Service Exploits/MySQL/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Usage/Pompem.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Permission/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Superuser/Sudo/LD_PRELOAD/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Unquoted Service Paths/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Weak Registry Permissions/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Cron Jobs/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Kernel Exploits/Scenarios/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/SUID and SGID/Shared Object Injection/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Credentials/History/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Credentials/Password Cracking/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Superuser/Sudo/LD_PRELOAD/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/SUID and SGID/Environment Variables/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Weak Registry Permissions/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/PATH/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/PATH/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Superuser/Sudo/Environment Variables/Unix Shell.md",
+    "Malware Development/Helpers/Identify Detection Triggers/ThreatCheck.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/SMTP/SMTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Shortcut Link.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/Group Policy Properties/Offensive Tools/Scripts/PowerSploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/Subdomain/DNS/Websites",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/Subdomain/DNS/Manual",
     "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/Pompem",
     "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Drupal/Scanner/Drupwn/Setup.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/Manual/Time-Based Blind Query SQL Injection.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Difficulty/Low/SQLMap/01 - Exploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Wifite.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Reaver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/PixieWPS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Fluxion.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/EAPMD5Pass.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Cowpatty.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Wireless Attacks/Wireless Tools/Bully.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/04 - Automated Exploitation/Commix/Usage",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Public Exploits",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/WPScan/Usage",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/WPScan",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",

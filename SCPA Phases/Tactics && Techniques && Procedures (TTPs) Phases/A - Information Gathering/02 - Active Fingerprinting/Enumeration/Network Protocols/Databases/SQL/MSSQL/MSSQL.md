@@ -4,7 +4,7 @@
 
 ### 1.1 - Setup
 
-**Note:** The enumeration process is the same thing when using Windows own native program called `sqlcmd` or `osql` which is why `sqsh` on Linux uses the same syntax.
+Note: The enumeration process is the same thing when using Windows own native program called `sqlcmd` or `osql` which is why `sqsh` on Linux uses the same syntax.
 
 - Install Sqsh in Debian-based distros
 

@@ -4,7 +4,7 @@
 
 ### 1.1 - Create shortcut backdoor in powershell
 
-- **Note:** The **TargetPath** has a limit of 260 characters long
+Note: The **TargetPath** has a limit of 260 characters long
 
 If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`
 

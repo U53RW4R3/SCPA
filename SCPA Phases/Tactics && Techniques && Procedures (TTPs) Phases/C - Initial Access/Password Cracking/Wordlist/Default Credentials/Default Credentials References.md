@@ -18,6 +18,10 @@
 
 - [Router Passwords](https://www.routerpasswords.com/)
 
+- [FortyPoundHead: Default Password Lookup](https://www.fortypoundhead.com/tools_dpw.asp)
+
+- [DefaultPassword Info](https://default-password.info/)
+
 - [Cisco Router Passwords](https://www.routerpasswords.com/cisco-router-password/)
 
 - [CIRT.net Passwords](https://cirt.net/passwords)

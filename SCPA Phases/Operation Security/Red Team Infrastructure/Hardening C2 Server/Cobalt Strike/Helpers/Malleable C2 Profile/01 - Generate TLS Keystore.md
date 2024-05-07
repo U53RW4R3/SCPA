@@ -58,6 +58,14 @@ Import command completed:  1 entries successfully imported, 0 entries failed or 
 $ rm domain.pkcs12
 ```
 
+TODO: Shorten it
+
+- You can shorten it.
+
+```
+$ openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -subj "/C=<country_code>/ST=<state>/L=<locality>/O=<organization_name>/OU=<organization_unit>/CN=<domain.com>/emailAddress=<email>" -out public.crt -keyout private.key
+```
+
 ## 1.3 - HTTP Certificate
 
 ```

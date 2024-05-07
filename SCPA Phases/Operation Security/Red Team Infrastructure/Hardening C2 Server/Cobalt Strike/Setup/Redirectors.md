@@ -70,7 +70,9 @@ server {
 
 - For HTTPS listener
 
-`$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/cobaltstrike.key -out /etc/nginx/ssl/cobaltstrike.crt`
+```
+$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/cobaltstrike.key -out /etc/nginx/ssl/cobaltstrike.crt
+```
 
 ```
 server {

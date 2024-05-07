@@ -77,3 +77,5 @@ https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/
 https://github.com/nahamsec/lazys3
 
 https://github.com/sa7mon/S3Scanner
+
+https://github.com/jordanpotti/cloudscraper (huge TODO)

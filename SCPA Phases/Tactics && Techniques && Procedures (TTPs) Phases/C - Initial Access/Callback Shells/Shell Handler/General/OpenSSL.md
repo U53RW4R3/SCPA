@@ -5,7 +5,7 @@
 - Generate TLS certificate.
 
 ```
-user@pentestos:~$ openssl req -x509 -newkey rsa:4096 -keyout private.key -out certificate.crt -days 365 -nodes
+user@pentestos:~$ openssl req -x509 -newkey rsa:4096 -days 365 -nodes -subj "/C=<country_code>/ST=<state>/L=<locality>/O=<organization_name>/OU=<organization_unit>/CN=<domain.com>/emailAddress=<email> -keyout private.key -out certificate.crt
 ```
 
 - Shell handler.

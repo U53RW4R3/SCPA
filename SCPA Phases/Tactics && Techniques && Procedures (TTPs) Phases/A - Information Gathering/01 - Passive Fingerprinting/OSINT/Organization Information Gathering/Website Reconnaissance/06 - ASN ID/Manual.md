@@ -18,3 +18,7 @@ $ curl -s https://stat.ripe.net/data/announced-prefixes/data.json?resource=<asn_
  - [Hurricane Electric Internet Services](https://bgp.he.net/)
  
  - [RIPEstat](https://stat.ripe.net)
+ 
+ - [BGP Ranking](https://bgpranking.circl.lu/)
+
+- [PeeringDB](https://www.peeringdb.com/)

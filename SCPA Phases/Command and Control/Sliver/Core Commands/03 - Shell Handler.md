@@ -14,14 +14,16 @@ Search Tag(s): #sliver #command-and-control
 
 ### 3.3.1 - Use custom TLS key and certificate (this is optional but recommended for OPSEC)
 
-- Encrypted TLS key and certification
-
-`$ openssl req -x509 -newkey rsa:4096 -keyout private.key -out certificate.crt -sha256 -days 365`
-
-- Non-encrypted TLS key and certification
+Encrypted TLS key and certification.
 
 ```
-$ openssl req -new -x509 -keyout private.key -out certificate.crt -days 365 -nodes
+$ openssl req -x509 -newkey rsa:4096 -subj "/C=<country_code>/ST=<state>/L=<locality>/O=<organization_name>/OU=<organization_unit>/CN=<domain.com>/emailAddress=<email>" -keyout private.key -out certificate.crt -sha256 -days 365
+```
+
+Non-encrypted TLS key and certification.
+
+```
+$ openssl req -new -x509 -subj "/C=<country_code>/ST=<state>/L=<locality>/O=<organization_name>/OU=<organization_unit>/CN=<domain.com>/emailAddress=<email>" -keyout private.key -out certificate.crt -days 365 -nodes
 
 sliver > http [-d <domain.com>] -L <IP> -l <PORT>
 
