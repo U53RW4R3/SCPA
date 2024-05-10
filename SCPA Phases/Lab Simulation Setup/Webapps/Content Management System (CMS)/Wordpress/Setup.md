@@ -1,5 +1,7 @@
 # Setup
 
+Search Tag(s): #lab #wordpress #webapp
+
 TODO: Fill this info
 
 ---

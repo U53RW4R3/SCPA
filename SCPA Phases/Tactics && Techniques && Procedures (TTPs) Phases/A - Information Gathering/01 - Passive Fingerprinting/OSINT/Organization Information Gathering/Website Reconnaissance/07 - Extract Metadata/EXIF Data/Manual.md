@@ -2,9 +2,9 @@
 
 ## Exiftool
 
-`$ exiftool file`
+`$ exiftool file.extension`
 
-`$ exiftool -a file`
+`$ exiftool -a file.extension`
 
 ---
 ## References

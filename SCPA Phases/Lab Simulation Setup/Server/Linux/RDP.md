@@ -1,12 +1,12 @@
 # RDP
 
-## Setup
+## 01 - Setup
 
-- Install the X11 RDP server
+Install the X11 RDP server.
 
 `$ sudo apt install -y xrdp`
 
-- Edit the configuration file
+Edit the configuration file.
 
 ```
 $ sudo nano /etc/xrdp/xrdp.ini
@@ -15,6 +15,6 @@ $ sudo nano /etc/xrdp/xrdp.ini
 address=0.0.0.0
 ```
 
-- Restart the RDP server
+Restart the RDP server.
 
 `$ sudo systemctl restart xrdp`

@@ -1,6 +1,6 @@
 # Setup
 
-Search Tag(s): #bwapp #lab #webapp
+Search Tag(s): #lab #bwapp #webapp
 
 TODO: Fill this info
 

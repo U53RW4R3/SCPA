@@ -1,6 +1,6 @@
 # Setup
 
-Search Tag(s): #dvwa #lab #webapp
+Search Tag(s): #lab #dvwa #webapp
 
 ## Linux DVWA Setup
 

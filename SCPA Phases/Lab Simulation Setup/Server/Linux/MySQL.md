@@ -1,14 +1,12 @@
 # MySQL
 
-## Setup
-
-### Dependencies
+Install the required packages.
 
 ```
 $ sudo apt install mariadb-server mariadb-client
 ```
 
-- Open port 3306 to all network interfaces.
+Open port 3306 to all network interfaces.
 
 ```
 $ cat /etc/mysql/mariadb.conf.d/50-server.cnf
