@@ -60,6 +60,15 @@ Run the script to build the virtual machines.
 $ cd metasploitable3 && ./build.sh ubuntu1404 && ./biuld.sh windows2008
 ```
 
+### DNS Hosts Addresses
+
+Map the metasploitable3 IPv4 address as a DNS reference.
+
+```
+$ sudo nano /etc/hosts
+<VM_IP> metasploitable.local
+```
+
 ---
 ## References
 

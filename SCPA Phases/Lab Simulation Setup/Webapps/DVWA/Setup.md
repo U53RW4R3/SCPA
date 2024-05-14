@@ -1,30 +1,25 @@
 # Setup
 
-Search Tag(s): #lab #dvwa #webapp
+Search Tag(s): #lab #dvwa #webapp-pentesting
 
 ## Linux DVWA Setup
 
-TODO: Setup PHPMyAdmin for linux and make note of it as optional and setup [[Lab Simulation Setup/Workstation/Windows/XAMPP/Setup|XAMPP]] for Windows.
-
-- Install dependencies
+Install dependencies.
 
 ```
 $ sudo apt update && sudo apt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php
 ```
 
-- Extract and setup DVWA
+Extract and setup DVWA.
 
 ```
-$ sudo git clone https://github.com/digininja/DVWA.git /var/www/html/dvwa/
-
-$ sudo cp /var/www/html/dvwa/config/config.inc.php.dist /var/www/html/dvwa/config/config.inc.php
-
-$ sudo chmod 777 /var/www/html/dvwa/hackable/uploads/
-
-$ sudo chown www-data /var/www/html/dvwa/config
+$ sudo git clone https://github.com/digininja/DVWA.git /var/www/html/dvwa/ && \
+sudo cp /var/www/html/dvwa/config/config.inc.php.dist /var/www/html/dvwa/config/config.inc.php && \
+sudo chmod 777 /var/www/html/dvwa/hackable/uploads/ && \
+sudo chown www-data /var/www/html/dvwa/config
 ```
 
-- Configure PHP file
+Configure PHP file.
 
 ```
 $ cat /etc/php/8.2/apache2/php.ini
@@ -37,9 +32,15 @@ display_startup_errors = On
 ..[snip]..
 ```
 
-### Setup Database
+## Windows DVWA Setup
 
-- Edit the `/var/www/html/dvwa/config/config.inc.php` file and add a password that is used for setting a MySQL user account.
+Download the [XAMPP](https://www.apachefriends.org/download.html) executable and follow the instructions during the wizard process.
+
+TODO: Setup PHPMyAdmin for linux and make note of it as optional and setup XAMPP for Windows.
+
+## Setup Database
+
+Edit the `/var/www/html/dvwa/config/config.inc.php` file and add a password that is used for setting a MySQL user account.
 
 `$ cat /var/www/html/dvwa/config/config.inc.php`
 
@@ -67,11 +68,11 @@ $ sudo systemctl start mysql
 
 #### Setup Database user acccount
 
-- Setup MySQL server and leave root password empty.
+Setup MySQL server and leave root password empty.
 
 `$ sudo mysql_secure_installation`
 
-- Create Database and `dvwa@localhost` DB user account.
+Create Database and `dvwa@localhost` DB user account.
 
 ```
 $ sudo mysql
@@ -80,7 +81,7 @@ MariaDB [(none)]> CREATE DATABASE dvwa;
 MariaDB [(none)]> CREATE USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
 ```
 
-- You can of course change the password for the database user.
+You can of course change the password for the database user.
 
 ```
 MariaDB [(none)]> ALTER USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
@@ -88,7 +89,7 @@ MariaDB [(none)]> ALTER USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
 
 #### Grant user privileges
 
-- This will grant the `dvwa@localhost` DB user with least privileges. But skip this step and move on for [[Lab Simulation Setup/Webapps/DVWA/Setup#^14f9b2|granting all privileges]] to have the full experience of SQLi.
+This will grant the `dvwa@localhost` DB user with least privileges. But skip this step and move on for [[Lab Simulation Setup/Webapps/DVWA/Setup#^14f9b2|granting all privileges]] to have the full experience of SQLi.
 
 ```
 MariaDB [(none)]> GRANT ALL ON dvwa.* TO dvwa@localhost;
@@ -96,7 +97,11 @@ MariaDB [(none)]> GRANT ALL ON dvwa.* TO dvwa@localhost;
 
 Note: For this demonstration let's grant `dvwa@localhost` using all SQL statements.
 
-`MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO dvwa@localhost;` ^14f9b2
+```
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO dvwa@localhost;
+```
+
+^14f9b2
 
 - You can of course grant privileges one by one.
 
@@ -108,15 +113,21 @@ MariaDB [(none)]> GRANT FILE ON *.* TO dvwa@localhost;
 
 - To revoke all privileges.
 
-`MariaDB [(none)]> REVOKE ALL PRIVILEGES ON *.* FROM dvwa@localhost;`
+```
+MariaDB [(none)]> REVOKE ALL PRIVILEGES ON *.* FROM dvwa@localhost;
+```
 
-- Save changes
+ Save changes.
 
-`MariaDB [(none)]> FLUSH PRIVILEGES;`
+```
+MariaDB [(none)]> FLUSH PRIVILEGES;
+```
 
-- Login as `dvwa@localhost` with a `dvwa` database.
+Login as `dvwa@localhost` with a `dvwa` database.
 
-`$ mysql -u dvwa -pp@ssw0rd -D dvwa`
+```
+$ mysql -u dvwa -pp@ssw0rd -D dvwa
+```
 
 ## DNS Hosts Addresses
 
@@ -126,7 +137,7 @@ Map the DVWA IPv4 address as a DNS reference
 
 ```
 $ sudo nano /etc/hosts
-<DVWA_Server_IP> dvwa.local
+<web_server_IP> dvwa.local
 ```
 
 ---

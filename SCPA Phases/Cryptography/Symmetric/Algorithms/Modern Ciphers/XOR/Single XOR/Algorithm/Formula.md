@@ -14,7 +14,7 @@ $C \oplus K = P$
 
 ^cbf7ed
 
-[[XOR Logical Gate.canvas|XOR Logical Gate]]
+[[XOR Logical Gate.canvas|Whiteboard: XOR Logical Gate]]
 
 | _Plaintext (P)_ | _Key_ | _Ciphertext (C)_ |
 |---------------|-----|----------------|

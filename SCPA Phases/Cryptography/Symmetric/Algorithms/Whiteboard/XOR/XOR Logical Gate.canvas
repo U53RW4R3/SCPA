@@ -9,6 +9,6 @@
 	"edges":[
 		{"id":"916f47ce867a4ce8","fromNode":"1016620d51615035","fromSide":"right","toNode":"9a03f0120276e723","toSide":"left","color":"2"},
 		{"id":"698393e391b5b588","fromNode":"4a81363c0228759b","fromSide":"right","toNode":"9a03f0120276e723","toSide":"left","color":"4"},
-		{"id":"e49f49ab1253d190","fromNode":"9a03f0120276e723","fromSide":"right","toNode":"0751355252c56dbd","toSide":"left","color":"1","label":"XORed"}
+		{"id":"e49f49ab1253d190","fromNode":"9a03f0120276e723","fromSide":"right","toNode":"0751355252c56dbd","toSide":"left","color":"1","label":"XOR"}
 	]
 }

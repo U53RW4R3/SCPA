@@ -1,10 +1,7 @@
 # 01 - Proxychains
 
-`$ cat tor.conf`
-
----
-
 ```
+$ cat tor.conf
 strict_chain
 proxy_dns
 tcp_read_time_out 15000
@@ -27,7 +24,9 @@ $ proxychains curl https://ip.me
 
 - Check if you're connected to TOR
 
-`$ proxychains curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."`
+```
+$ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
+```
 
 ---
 ## References

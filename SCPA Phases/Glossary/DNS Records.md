@@ -1,6 +1,6 @@
 # DNS Records
 
-Search Tag(s): #glossary #networking
+Search Tag(s): #glossary #networking #network-protocols #dns
 
 ### Commonly used record types
 

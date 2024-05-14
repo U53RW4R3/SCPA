@@ -1,13 +1,12 @@
 # Change ExitNodes
 
-- The global `torrc` and the second line is for [[03 - Whonix|whonix]] gateway.
+## `torrc` config files
 
-```
-/etc/tor/torrc
-/usr/local/etc/torrc.d/50_user.conf
-```
+It is found system wide in `/etc/tor/torrc` and the other location `/usr/local/etc/torrc.d/50_user.conf` is for [[03 - Whonix|whonix]] gateway.
 
-- You can either modify config file to an IP address or a country code.
+## Change Static IP and/or country code
+
+You can either modify config file to an IP address or a country code.
 
 ```
 ExitNode <static_TOR_IP>

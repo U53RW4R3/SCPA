@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bd1be48f951638d2",
+        "id": "5b2aeae7cb07ed6c",
         "type": "tabs",
         "children": [
           {
-            "id": "ff79decf10ad96d2",
+            "id": "95eb87f79f65ce5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab Simulation Setup/Server/Linux/VNC.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lab Simulation Setup/Server/Linux/VNC.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Simulation Setup/Server/Linux/VNC.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Simulation Setup/Server/Linux/VNC.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md"
               }
             }
           },
@@ -158,46 +158,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff79decf10ad96d2",
+  "active": "6f3eb96d84de0fe8",
   "lastOpenFiles": [
-    "Lab Simulation Setup/Server/Linux/RDP.md",
-    "Lab Simulation Setup/Server/Linux/MySQL.md",
-    "Lab Simulation Setup/Server/Linux/HTTP Proxy/Tinyproxy.md",
-    "Lab Simulation Setup/Server/Linux/HTTP Proxy/Squid Proxy.md",
-    "Lab Simulation Setup/Server/Linux/VNC.md",
-    "Lab Simulation Setup/Server/Windows/Windows Server/MSSQL.md",
-    "Lab Simulation Setup/Vulnerable Machines/Metasploitable3/Setup.md",
-    "Lab Simulation Setup/Vulnerable Machines/Modbus.md",
-    "Lab Simulation Setup/Vulnerable Machines/Metasploitable2.md",
-    "Lab Simulation Setup/Webapps/bWAPP/Setup.md",
-    "Lab Simulation Setup/Webapps/OWASP Juice Shop/Setup.md",
-    "Lab Simulation Setup/Webapps/DVWA/Setup.md",
-    "Lab Simulation Setup/Webapps/Content Management System (CMS)/Wordpress/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/01 - Gathering URLs/Reconnaissance/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Data Breaches/01 - Gathering Emails/Email Format.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/11 - Anti-Forensics/Linux/Timestomps.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Files/History Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Files/Documents.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Files/Database Leaks.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Files/Configuration Files.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Files/Backup and Old Files.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/Webpage Crawl/CeWL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/EXIF Data/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/EXIF Data/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/Search Sensitive Files/Scanners/Metagoofil.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Scanners/OpenRedireX.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/JSON Web Token (JWT)/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/XML External Entity (XXE) Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Helpers/Inferential SQL Queries.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Nikto.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Server Side Template Injection (SSTI)/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Path Traversal/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/02 - Blind Command Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/Harvest Cookies.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/HTML Attributes.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/CRLF Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/NoSQL Injection/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Server-Side Includes Injection (SSII)/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Insecure Deserialization/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/Malvertising.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Helpers",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Redirector",
+    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Web Proxy",
+    "Lab Simulation Setup/Server/Linux/HTTP",
+    "Lab Simulation Setup/Server/Linux/HTTP",
+    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
+    "Operation Security/Offline/Volume-based Encryption/LUKS/Usage",
+    "Operation Security/Offline/Volume-based Encryption/Veracrypt/Usage",
+    "Operation Security/Offline/Volume-based Encryption",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/EXIF Data/Scanners",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/EXIF Data",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/Webpage Crawl",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Sensitive Files/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Lab Simulation/bWAPP/Difficulty/Low",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Lab Simulation/bWAPP/Difficulty",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Lab Simulation/bWAPP",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Cache Poisoning",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/API/GraphQL/Automated Exploitation",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
-    "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.6 - Enumerate DBMS Users.png",

@@ -1,6 +1,6 @@
 # Retrieve Proxy Servers
 
-## 01 - Download public proxies
+## 01 - Download Public Proxies
 
 - SOCKS4
 
@@ -32,9 +32,19 @@ $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&coun
 $ curl https://api.openproxylist.xyz/http.txt
 ```
 
-## 02 - Formatter
+## 02 - ScanSSH
 
-### 2.1 - Proxychains
+`$ sudo apt install -y scanssh`
+
+```
+$ readarray -t proxies < proxies.txt
+
+$ sudo scanssh -p -s <socks4 | socks5 | http-proxy> ${proxies[@]} | tee proxies.txt
+```
+
+## 03 - Formatter
+
+### 3.1 - Proxychains
 
 Refer to [[Command Line/Operating Systems/Linux/Use Cases/Networking/Basic|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
 
@@ -48,7 +58,7 @@ PASSWORD="${4}"
 
 IPV4_REGEX="\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"
 
-function sweep() {
+function scan() {
 	local ip=()
     local port=()
     local temp=""
@@ -56,7 +66,7 @@ function sweep() {
 	# TODO: Some programs like proxychains accepts numeric IP addresses except privoxy
 	# $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "${IPV4_REGEX}" | sort -u)
 
-	# TODO: add a flag for -m, --method when using with /dev/tcp/<IP>/<PORT>
+	# TODO: add a flag for -s, --scan <icmp | tcp> when using with /dev/tcp/<IP>/<PORT>
     while read -r line
     do
 	    # temp=$(echo "${line}" | grep -Eo "${IPV4_REGEX}")
@@ -75,7 +85,7 @@ function format() {
     local port=()
     local temp=""
 
-	# TODO: add a flag for -m, --method when using with /dev/tcp/<IP>/<PORT>
+	# TODO: add a flag for -s, --scan <icmp | tcp> when using with /dev/tcp/<IP>/<PORT>
     while read -r line
     do
 	    # temp=$(echo "${line}" | grep -Eo "${IPV4_REGEX}")
@@ -118,7 +128,7 @@ fi
 format
 ```
 
-### 2.2 - Privoxy
+### 3.2 - Privoxy
 
 ```bash
 #!/bin/bash
@@ -173,7 +183,7 @@ fi
 format
 ```
 
-## 03 - Nmap
+## 04 - Nmap
 
 ```
 $ nmap -p 1080 -Pn -n --script socks-open-proxy [--script-args "proxy.url=google.com,proxy.pattern=<pattern>"] <IP>
