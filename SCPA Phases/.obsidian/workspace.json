@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b2aeae7cb07ed6c",
+        "id": "8f6092046efa46d4",
         "type": "tabs",
         "children": [
           {
-            "id": "95eb87f79f65ce5a",
+            "id": "66f6fd9a7cfe4d90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Base64.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Base64.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Base64.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Base64.md"
               }
             }
           },
@@ -158,45 +158,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3eb96d84de0fe8",
+  "active": "66f6fd9a7cfe4d90",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Server Side Request Forgery (SSRF)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Open Redirect/Scanners/OpenRedireX.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/JSON Web Token (JWT)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/XML External Entity (XXE) Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Helpers/In-Band SQL Queries.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Helpers/Inferential SQL Queries.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Nikto.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/Scanners/Nuclei.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/02 - Inferential SQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Server Side Template Injection (SSTI)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Path Traversal/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/02 - Blind Command Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/01 - Results-Based Command Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/Harvest Cookies.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/HTML Attributes.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/CRLF Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/NoSQL Injection/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Server-Side Includes Injection (SSII)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Insecure Deserialization/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Helpers/Attack Vectors/Phishing Templates/Malvertising.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Helpers",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Redirector",
-    "Operation Security/Red Team Infrastructure/Hardening C2 Server/Empire/Web Proxy",
-    "Lab Simulation Setup/Server/Linux/HTTP",
-    "Lab Simulation Setup/Server/Linux/HTTP",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Base64.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Base64.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Bin2Hex.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Busybox.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Hex Encoded.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Linux File Transfer and Data Exfiltration References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Shortcut Link.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Web Drive-by/Crafting Manually/Windows.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/OneLiners/Windows/Reverse Shells/Powershell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Windows/Host/Dump Credentials/02 - Offensive Tools/Scripts/Nishang.md",
+    "Command Line/Operating Systems/Linux/Use Cases/Basic Commands/Base64.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/File Server/ISCSI/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/System and Kernel Version/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/01 - Internal Reconnaissance/01 - Users/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Environment Variables/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Global References WebApp Hacking.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/PHPMyAdmin/Scanners/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/PHPMyAdmin/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Jenkins/Jenkins.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Jenkins/Scanners/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/GlassFish/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Apache Tomcat/Apache Tomcat.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/cPanel/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Database Administration Tool/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/Source Forge",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Linux/Dump Credentials/Offensive Tools/Scripts",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Linux/Dump Credentials/Offensive Tools",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - Credential Access and Dumping/Linux/Dump Credentials",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/LDAP Injection/Lab Simulation/Difficulty/Low",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/LDAP Injection/Lab Simulation/Difficulty",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/LDAP Injection/Lab Simulation",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Lab Simulation/DVWA/Difficulty/Low",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Lab Simulation/DVWA/Difficulty",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Lab Simulation/DVWA",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
-    "Operation Security/Offline/Volume-based Encryption/LUKS/Usage",
-    "Operation Security/Offline/Volume-based Encryption/Veracrypt/Usage",
-    "Operation Security/Offline/Volume-based Encryption",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/EXIF Data/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/07 - Extract Metadata/EXIF Data",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
     "Command and Control/Images/Havoc/Setup/02 - Qt5 Fonts Configuration.png",

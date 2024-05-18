@@ -54,9 +54,11 @@ $ snmpwalk -v 2c -c public <IP>:<PORT> | grep hrSWInstalledName | cut -d " " -f 
 
 ## 04 - Onesixtyone
 
-`$ onesixtyone -w 0 <IP>`
+```
+$ onesixtyone -w 0 <IP>
 
-`$ onesixtyone -c <private | public> -i snmp_ip_targets.txt`
+$ onesixtyone -c <private | public> -i snmp_ip_targets.txt
+```
 
 ---
 ## References

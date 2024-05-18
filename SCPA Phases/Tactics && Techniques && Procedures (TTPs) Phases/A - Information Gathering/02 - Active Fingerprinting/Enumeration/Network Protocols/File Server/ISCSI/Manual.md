@@ -28,7 +28,9 @@ $ sudo fdisk -l
 
 - Mount the node
 
-`$ sudo mount /dev/sdX[n] /mnt`
+```
+$ sudo mount /dev/sdX[n] /mnt
+```
 
 ## 04 - Logout Node
 

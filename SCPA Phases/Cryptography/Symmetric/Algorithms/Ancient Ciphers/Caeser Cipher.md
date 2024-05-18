@@ -26,3 +26,5 @@ TODO: Write a pseudo code
 ## References
 
 - [Wikipedia: Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+
+- [Hacking Articles: Beginner Guide to Classic Cryptography](https://www.hackingarticles.in/beginner-guide-classic-cryptography/)
