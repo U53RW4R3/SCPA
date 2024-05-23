@@ -1,5 +1,7 @@
 # Remote-Exec
 
+Search Tag(s): #helpers #command-and-control #post-exploitation #lateral-movement #cobalt-strike
+
 TODO: Provide more aggressor scripts for remote-exec lateral movement
 
 ## DCOM

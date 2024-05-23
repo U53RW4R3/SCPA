@@ -1,6 +1,6 @@
 # A - Help Menu
 
-Search Tag(s): #empire #command-and-control #help-menu
+Search Tag(s): #help-menu #command-and-control #empire
 
 ```
 (Empire) > admin

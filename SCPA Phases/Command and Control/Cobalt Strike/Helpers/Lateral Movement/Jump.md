@@ -1,5 +1,7 @@
 # Jump
 
+Search Tag(s): #helpers #command-and-control #post-exploitation #lateral-movement #cobalt-strike
+
 TODO: Create aggressor scripts to aid in lateral movement
 
 ## WMI

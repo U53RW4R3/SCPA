@@ -1,6 +1,6 @@
 # Usage
 
-Search Tag(s): #empire #command-and-control #help-menu
+Search Tag(s): #help-menu #command-and-control #empire
 
 ## 01 - Help Menu
 
@@ -33,16 +33,24 @@ Search Tag(s): #empire #command-and-control #help-menu
 
 - List available agents.
 
-`(Empire: agents) > list`
+```
+(Empire: agents) > list
+```
 
 - Rename selected agent.
 
-`(Empire: agents) > rename <agent_name> <new_agent_name>`
+```
+(Empire: agents) > rename <agent_name> <new_agent_name>
+```
 
 - Clear tasks on the selected agent.
 
-`(Empire: agents) > clear <agent_name>`
+```
+(Empire: agents) > clear <agent_name>
+```
 
 - Kill current agent.
 
-`(Empire: agents) > kill <agent_name>`
+```
+(Empire: agents) > kill <agent_name>
+```

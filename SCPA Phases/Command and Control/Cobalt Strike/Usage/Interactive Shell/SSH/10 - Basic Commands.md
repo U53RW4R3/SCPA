@@ -1,10 +1,12 @@
 # 09 - Basic Commands
 
-Search Tag(s): #cobalt-strike #command-and-control
+Search Tag(s): #help-menu #command-and-control #cobalt-strike #privilege-escalation
 
 ## 9.1 - Execute Shell Commands
 
-`ssh> shell <command> [args]`
+```
+ssh> shell <command> [args]
+```
 
 ## 9.2 - Execute Elevated Shell Commands
 
@@ -19,4 +21,6 @@ Elevate via sudo with the specified password and run the specified command.
 
 ### 9.2.2 - Usage
 
-`ssh> sudo <password> <command> [arguments]`
+```
+ssh> sudo <password> <command> [arguments]
+```

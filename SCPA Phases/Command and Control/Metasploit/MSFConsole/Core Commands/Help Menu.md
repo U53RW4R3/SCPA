@@ -106,4 +106,11 @@ Exploit Commands
     rerun         Alias for rexploit
     rexploit      Reloads the module and launches an exploit attempt
     run           Alias for exploit
+
+DNS Commands
+============
+
+    Command           Description
+    -------           -----------
+    dns               Manage Metasploit's DNS resolving behaviour
 ```

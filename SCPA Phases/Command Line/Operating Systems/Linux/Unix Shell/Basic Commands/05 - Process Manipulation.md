@@ -14,14 +14,20 @@ $ ps aux --forest
 
 ### 5.1.2 - Fetch process ID
 
-`$ pgrep <program>`
+```
+$ pgrep <program>
+```
 
 ## 5.2 - Terminating Process
 
-`$ kill -9 <pid>`
+```
+$ kill -9 <pid>
 
-`$ pkill -9 <program>`
+$ pkill -9 <program>
+```
 
 ## 5.3 - Fork Background Process
 
-`$ <command> [args] &`
+```
+$ <command> [args] &
+```

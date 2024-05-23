@@ -1,5 +1,7 @@
 # 05 - Internal Reconnaissance
 
+Search Tag(s): #command-and-control #post-exploitation #enumeration-and-discovery #cobalt-strike
+
 TODO: Fill this info
 
 ## 5.1 - Port Scanning
@@ -35,15 +37,21 @@ will make the portscan go much faster. The default is 1024.
 
 ## 5.1.2 - Usage
 
-`beacon> portscan <pid> <x86 | x64> <IP>/<CIDR> <PORTS> <arp | icmp | none> <max_connections>`
+```
+beacon> portscan <pid> <x86 | x64> <IP>/<CIDR> <PORTS> <arp | icmp | none> <max_connections>
+```
 
 ## 5.2 - Copy Clipboard
 
-`beacon> clipboard`
+```
+beacon> clipboard
+```
 
 ## 5.3 - List Drives
 
-`beacon> drives`
+```
+beacon> drives
+```
 
 ## 5.4 - Enumerate Registry Keys
 
@@ -66,6 +74,14 @@ Specify x86|x64 to force a specific view of the registry.
 
 ### 5.4.2 - Usage
 
-`beacon> reg query <x86 | x64> <HKLM | HKCR | HKCU | HKU>\path\to\registry_key\`
+Query the registry keys.
 
-`beacon> reg queryv <x86 | x64> <HKLM | HKCR | HKCU | HKU>\path\to\registry registry_subkey`
+```
+beacon> reg query <x86 | x64> <HKLM | HKCR | HKCU | HKU>\path\to\registry_key\
+```
+
+Query the sub key registries.
+
+```
+beacon> reg queryv <x86 | x64> <HKLM | HKCR | HKCU | HKU>\path\to\registry registry_subkey
+```

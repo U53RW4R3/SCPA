@@ -1,3 +1,5 @@
 # 01 - Banner Grabbing
 
-`$ dig version.bind CHAOS TXT <domain.com>`
+```
+$ dig version.bind CHAOS TXT <domain.com>
+```

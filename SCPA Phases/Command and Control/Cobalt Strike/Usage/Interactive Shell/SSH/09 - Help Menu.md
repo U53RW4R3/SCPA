@@ -1,6 +1,6 @@
 # 08 - Help Menu
 
-Search Tag(s): #cobalt-strike #command-and-control #help-menu
+Search Tag(s): #help-menu #command-and-control #cobalt-strike
 
 ```
 ssh> help

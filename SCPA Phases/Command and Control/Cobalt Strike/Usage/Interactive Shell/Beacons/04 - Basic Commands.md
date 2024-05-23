@@ -1,38 +1,50 @@
 # 04 - Basic Commands
 
-Search Tag(s): #cobalt-strike #command-and-control
+Search Tag(s): #command-and-control #post-exploitation #cobalt-strike
 
 ## 4.1 - Navigation
 
-- Change Directories
+Change directories.
 
-`beacon> cd <drive_letter>:\path\to\directory`
+```
+beacon> cd <drive_letter>:\path\to\directory
+```
 
 ## 4.2 - File Manipulation
 
-- Create directory
+Create directory.
 
-`beacon> mkdir C:\path\to\new_directory\`
+```
+beacon> mkdir C:\path\to\new_directory\
+```
 
-- Copy file
+Copy file.
 
-`beacon> cp C:\path\to\file.txt C:\path\to\copied_file.txt`
+```
+beacon> cp C:\path\to\file.txt C:\path\to\copied_file.txt
+```
 
-- Move file
+Move file.
 
-`beacon> mv C:\path\to\file.txt C:\path\to\moved_file.txt`
+```
+beacon> mv C:\path\to\file.txt C:\path\to\moved_file.txt
+```
 
-- Delete file
+Delete file.
 
-`beacon> rm C:\path\to\file.txt`
+```
+beacon> rm C:\path\to\file.txt
+```
 
 ## 4.3 - Sleep and Jitter
 
-* Set the sleep time for executing beacon commands with delay. If `sleep` is `0` it becomes interactive mode.
+Set the sleep time for executing beacon commands with delay. If `sleep` is `0` it becomes interactive mode.
 
-`beacon> sleep <seconds> <jitter>`
+```
+beacon> sleep <seconds> <jitter>
 
-`beacon> sleep 15 30`
+beacon> sleep 15 30
+```
 
 ## 4.4 - List files or directories
 

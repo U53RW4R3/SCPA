@@ -1,5 +1,7 @@
 # 07 - Spoof Arguments
 
-Search Tag(s): #cobalt-strike #command-and-control
+Search Tag(s): #command-and-control #post-exploitation #defense-evasion #cobalt-strike
 
-`beacon> argue <command> [args]`
+```
+beacon> argue <command> [args]
+```

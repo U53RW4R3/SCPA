@@ -1,6 +1,6 @@
 # Core Commands
 
-Search Tag(s): #empire #command-and-control
+Search Tag(s): #command-and-control #empire
 
 # 02 - Usage
 
