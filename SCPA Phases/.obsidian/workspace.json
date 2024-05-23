@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Security Vendors/Microsoft.md",
+                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Security Vendors/Microsoft.md",
+                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Security Vendors/Microsoft.md",
+                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Security Vendors/Microsoft.md"
+                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors.md"
               }
             }
           },
@@ -160,8 +160,8 @@
   },
   "active": "b9b62b1507eb593e",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors.md",
     "Malware Development/Helpers/Evasion/Security Vendors/Microsoft.md",
+    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors.md",
     "Malware Development/Helpers/Evasion/Security Vendors",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Manual.md",
