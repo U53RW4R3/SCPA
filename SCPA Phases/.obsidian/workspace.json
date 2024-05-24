@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Generic.md",
+                "file": "Malware Development/Helpers/Evasion/Detection/Hardware/USB.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"script.sh\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Generic.md",
+                "file": "Malware Development/Helpers/Evasion/Detection/Hardware/USB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Generic.md",
+                "file": "Malware Development/Helpers/Evasion/Detection/Hardware/USB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Generic.md"
+                "file": "Malware Development/Helpers/Evasion/Detection/Hardware/USB.md"
               }
             }
           },
@@ -160,42 +160,42 @@
   },
   "active": "be2a26cdc63aafb3",
   "lastOpenFiles": [
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/VirtualBox.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/QEMU.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/Parallels.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/Xen.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Generic.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/VMWare.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/Hyper-V.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/VirtualBox.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Debug/Debugger Programs List.md",
+    "Malware Development/Helpers/Evasion/Detection/Hardware/USB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/05 - Forensics/USB Activities/Windows/Manual/Living off the Land.md",
+    "Malware Development/Helpers/Evasion/Detection/Hardware",
+    "Malware Development/Helpers/Evasion/Detection/Security Vendors/Microsoft.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Generic.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/Xen.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/VMWare.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/QEMU.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/Parallels.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors/Hyper-V.md",
+    "Malware Development/Helpers/Implant Templates/Metasploit/String Substitution.md",
+    "Malware Development/Helpers/Implant Templates/Sliver.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Resources.md",
+    "Malware Development/README.md",
+    "Malware Development/Helpers/Evasion/Obfuscation Techniques/Powershell.md",
+    "Malware Development/Helpers/Evasion/Obfuscation Techniques/PHP.md",
+    "Malware Development/Helpers/Implant Templates/Metasploit/PE Struct Manipulation.md",
+    "Malware Development/Helpers/Implant Templates/Metasploit/Metasploit Implant Templates References.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/ETW Bypass.md",
+    "Malware Development/Checklist.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Artifacts.md",
+    "Malware Development/Helpers/Implant Templates/Cobalt Strike/Aggressor Scripts.md",
+    "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
+    "Malware Development/Helpers/Evasion/Detection",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Debug",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Basic Commands/Windows/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Basic Commands/Linux/Metasploit.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox/Hypervisors",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Microsoft/Living off the Land.md",
-    "Malware Development/Helpers/Evasion/Security Vendors/Microsoft.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Microsoft/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Third Party Endpoints/Living off the Land.md",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors/Type-2 Hosted Hypervisors",
+    "Malware Development/Helpers/Evasion/Detection/Anti-Sandbox/Hypervisors",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Microsoft",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/01 - Manual/Third Party Endpoints",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/02 - C2 Frameworks/02 - Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Defense Evasion/02 - Security Solutions/Windows/02 - C2 Frameworks/03 - Cobalt Strike.md",
-    "Malware Development/Helpers/Evasion/Security Vendors",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Manual.md",
+    "Malware Development/Helpers/Evasion/Detection/Security Vendors",
     "Malware Development/Helpers/Evasion",
-    "Malware Development/Helpers/Scripts and Programs/Crypters/Python.md",
-    "Malware Development/Helpers/Scripts and Programs/Crypters/CSharp.md",
-    "Malware Development/Helpers/Scripts and Programs/Crypters/C.md",
-    "Malware Development/Helpers/Scripts and Programs/Entropy/Scripts.md",
-    "Malware Development/Helpers/Scripts and Programs/Shellcode Formatting/Commands.md",
-    "Malware Development/Helpers/Scripts and Programs/Compiler Scripts/Windows/Scripts.md",
-    "Malware Development/Helpers/Scripts and Programs/Shellcode Formatting/Scripts.md",
     "Malware Development/Helpers/Scripts and Programs",
-    "Malware Development/Helpers/Malware Detection",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Linux/Processes and Services/Manual/Living off the Land.md",
-    "Malware Development/Helpers/Evasion/Anti-Sandbox",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/Subdomain/DNS/Manual/References DNS Records.md",
-    "Lab Simulation Setup/Webapps/SecureBank",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
