@@ -4,21 +4,29 @@ Search Tag(s): #command-line #linux
 
 ## 1.1 - List Files and Directories
 
-- Print the current working directory
+Print the current working directory.
 
-`$ pwd`
+```
+$ pwd
+```
 
-- List files and directories
+List files and directories.
 
-`$ ls`
+```
+$ ls
+```
 
-- Lists all the information from the files with permissions
+Lists all the information from the files with permissions.
 
-`$ ls -l`
+```
+$ ls -l
+```
 
-- List all files and folders including hidden ones and give the size of human readable bytes
+List all files and folders including hidden ones and give the size of human readable bytes.
 
-`$ ls -lah`
+```
+$ ls -lah
+```
 
 ## 1.2 - Find
 
@@ -34,45 +42,83 @@ $ find / -type f -user <username>
 
 ### 1.2.2 - Find size of bytes
 
-`$ find / -type f -size 150`
+```
+$ find / -type f -size 150
+```
 
-- Find files that are less 10 Kilobytes
+Find files that are less 10 Kilobytes with a file extension.
 
-`$ find / -type f -size -10k -name "*.txt"`
+```
+$ find / -type f -size -10k -name "*.txt"
+```
 
 ### 1.2.3 - File ownership
 
-- Readable and writeable by the owner, and readable by everyone else (use octal format)
+Readable and writeable by the owner, and readable by everyone else (use octal format).
 
-`$ find / -type f -perm 644`
+```
+$ find / -type f -perm 644
+```
 
-- Readable by anyone (octal format)
+Readable by anyone (octal format).
 
-`$ find / -type f -perm /444`
+```
+$ find / -type f -perm /444
+```
 
-- Write permission for the group "others" with file extension
+Write permission for the group "others" with file extension.
 
-`$ find / -type f -perm o=w -name "*.sh"`
+```
+$ find / -type f -perm o=w -name "*.sh"
+```
 
-- Owned by root and have at least the SUID permission in `/usr/bin/` directory
+Owned by root and have at least the SUID permission in `/usr/bin/` directory.
 
-`$ find /usr/bin -type f -user root -perm -u=s`
+```
+$ find /usr/bin -type f -user root -perm -u=s
+```
 
-- Find all files that haven't been accessed in the last 10 days with file extension of "`*.png`"
+Find all files that haven't been accessed in the last 10 days with file extension of "`*.png`."
 
-`$ find / -type f -atime +10 -name "*.png"`
+```
+$ find / -type f -atime +10 -name "*.png"
+```
 
-- Find files that have been modified with the last 2 hours (120 minutes)
+Find files that have been modified with the last 2 hours (120 minutes).
 
-`$ find /usr/bin -type f -mmin -120`
+```
+$ find /usr/bin -type f -mmin -120
+```
 
 # Change Directories
 
-`$ cd directory/`
+Specify path to change directory.
 
-`$ cd /home/$USER/`
+```
+$ cd /path/to/directory/
+```
 
-`$ cd ../..`
+Shift one level above the current directory.
+
+```
+$ cd ../
+```
+
+Change to the previous directory.
+
+```
+$ cd -
+```
+
+Return to home user directory (`/home/$USER`).
+
+```
+$ cd
+
+$ cd ~
+
+$ cd /home/$USER/
+```
 
 ---
 ## References
