@@ -2,13 +2,17 @@
 
 ## 01 - Setup
 
-- Ubuntu/Debian based distros
+Ubuntu/Debian based distros
 
-`$ sudo apt install -y netmask`
+```
+$ sudo apt install -y netmask
+```
 
-- Arch based distros
+Arch based distros
 
-`$ sudo apt install -y netmask`
+```
+$ sudo apt install -y netmask
+```
 
 ## 02 - Help Menu
 
@@ -23,7 +27,7 @@ Usage: netmask spec [spec ...]
   -c, --cidr			Output CIDR format address lists
   -i, --cisco			Output Cisco style address lists
   -r, --range			Output ip address ranges
-  -x, --hex			Output address/netmask pairs in hex
+  -x, --hex			    Output address/netmask pairs in hex
   -o, --octal			Output address/netmask pairs in octal
   -b, --binary			Output address/netmask pairs in binary
   -n, --nodns			Disable DNS lookups for addresses

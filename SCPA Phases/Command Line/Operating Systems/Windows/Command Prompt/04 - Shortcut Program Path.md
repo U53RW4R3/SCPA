@@ -7,3 +7,5 @@ Search Tag(s): #command-line #windows
 Note: `%WINDIR%` is `C:\windows\`
 
 `%SYSTEMROOT%`
+
+Environment Variables

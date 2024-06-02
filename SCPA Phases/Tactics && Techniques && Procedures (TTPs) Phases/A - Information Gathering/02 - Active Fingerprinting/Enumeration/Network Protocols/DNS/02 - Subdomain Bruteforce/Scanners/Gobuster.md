@@ -43,4 +43,13 @@ Global Flags:
 
 ## 03 - Usage
 
-`$ gobuster dns -d <domain.com> -t 16 -w wordlist.txt`
+```
+$ gobuster dns -d <domain.com> -t 16 -w wordlist.txt
+```
+
+---
+## References
+
+### Wordlist
+
+- [Assetnote Wordlists: Best DNS Wordlist](https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt)

@@ -13,7 +13,7 @@ PS C:\> Get-Process -IncludeUserName
 
 PS C:\> Get-CimInstance -ClassName Win32_Process | Select-Object CommandLine
 
-PS C:\> Get-WMiObject -ClassName Win32_Process 
+PS C:\> Get-WmiObject -ClassName Win32_Process 
 ```
 
 ## 2.2 - Terminate Processes

@@ -37,3 +37,10 @@ View the full module info with the info, or info -d command.
 
 msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserver_IP_2>,<nameserver_IP_n>] domain=<website.com>
 ```
+
+---
+## References
+
+### Wordlist
+
+- [Assetnote Wordlists: Best DNS Wordlist](https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt)

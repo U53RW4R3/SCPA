@@ -13,3 +13,10 @@
 
 [recon-ng][default][brute_hosts] > run
 ```
+
+---
+## References
+
+### Wordlist
+
+- [Assetnote Wordlists: Best DNS Wordlist](https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt)

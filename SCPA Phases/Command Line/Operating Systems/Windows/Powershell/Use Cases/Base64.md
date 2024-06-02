@@ -12,7 +12,7 @@ PS C:\> $str = 'A string'
 
 ## Encode a file
 
-- This also applies to binary files especially to encode shellcode.
+This also applies to binary files especially to encode shellcode.
 
 ```powershell
 PS C:\> $file = 'C:\path\to\shellcode.bin'

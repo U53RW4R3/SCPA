@@ -2,18 +2,22 @@
 
 ## 01 - Setup
 
-- Ubuntu/Debian based distros
+Ubuntu/Debian based distros
 
-`$ sudo apt install -y ipcalc-ng`
+```
+$ sudo apt install -y ipcalc-ng
+```
 
-- Arch based distros
+Arch based distros
 
-`$ sudo apt install -y ipcalc-ng`
+```
+$ sudo apt install -y ipcalc-ng
+```
 
 ## 02 - Help Menu
 
 ```
-$ ipcalc-ng --help
+$ ipcalc-ng -?
 Usage: ipcalc-ng [OPTION...]
   -c, --check                     Validate IP address
   -r, --random-private=PREFIX     Generate a random private IP network using
