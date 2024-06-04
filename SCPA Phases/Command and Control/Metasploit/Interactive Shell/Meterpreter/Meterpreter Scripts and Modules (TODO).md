@@ -479,10 +479,6 @@ run post/linux/gather/checkcontainer
 
 run post/linux/gather/gnome_commander_creds
 
-run post/linux/manage/iptables_removal
-
-run post/linux/gather/checkvm
-
 run post/linux/gather/gnome_keyring_dump
 
 run post/linux/gather/ecryptfs_creds

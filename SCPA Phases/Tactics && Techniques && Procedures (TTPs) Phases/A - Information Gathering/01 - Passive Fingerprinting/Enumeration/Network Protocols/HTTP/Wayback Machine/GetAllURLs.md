@@ -36,7 +36,9 @@ Usage of gau:
 
 TODO: Fill this info
 
-`$ gau <URL_1> <URL_2> <URL_n> --o urls-output.txt`
+```
+$ gau <URL_1> <URL_2> <URL_n> --o urls-output.txt
+```
 
 `$ cat domains.txt | gau`
 

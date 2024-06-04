@@ -99,14 +99,6 @@ meterpreter > cp
 Usage: cp oldfile newfile
 ```
 
-- Over SMB Network
-
-```
-meterpreter > cp file.txt //ws01/c$/windows/temp/file.txt
-meterpreter > ls //ws01/c$/windows/temp/file.txt
-100666/rw-rw-rw-  0  fil  2022-05-24 01:52:49 -0400  //defalt/c$/windows/temp/file.txt
-```
-
 ### 2.3.2 - Move files
 
 ```
@@ -120,10 +112,6 @@ Usage: mv oldfile newfile
 meterpreter > rm
 Usage: rm file1 [file2...]
 ```
-
-- Over SMB Network
-
-`meterpreter > rm //ws01/c$/windows/temp/file.txt`
 
 ### 2.3.4 - Create Directories
 
@@ -147,13 +135,9 @@ Note: the default editor is `vim` if it's missing it'll switch to `nano` instead
 meterpreter > edit
 Edit a file on remote machine.
 Usage: edit file
+
+meterpreter > edit file.txt
 ```
-
-`meterpreter > edit file.txt`
-
-Over SMB Network
-
-`meterpreter > edit //ws01/c$/Users/%username%/Documents/file.txt`
 
 ### 2.3.7 - Checksum File hashes
 
@@ -162,7 +146,7 @@ meterpreter > checksum -h
 Usage: checksum [md5 / sha1] file1 file2 file3 ...
 ```
 
-- MD5 Hash
+MD5 Hash
 
 ```
 meterpreter > checksum md5 file.txt
@@ -200,11 +184,17 @@ OPTIONS:
 
 ## 2.5 - Load Extension
 
-`meterpreter > load <extension>`
+```
+meterpreter > load <extension>
+```
 
-`meterpreter > run <post_module/meterpreter_script>`
+## 2.6 - Execute module
 
-## 2.6 - Channels
+```
+meterpreter > run <post_module/meterpreter_script>
+```
+
+## 2.7 - Channels
 
 ```
 meterpreter > channel -h
@@ -245,16 +235,16 @@ Killing all channels...
 Killed all channels.
 ```
 
-## 2.7 - Background
+## 2.8 - Background
 
 ```
 meterpreter > background
 [*] Backgrounding session 1...
 ```
 
-## 2.8 - Re-encrypt key
+## 2.9 - Re-encrypt key
 
-* (Re)negotiate TLV packets for encryption
+(Re)negotiate TLV packets for encryption.
 
 ```
 meterpreter > secure
@@ -262,14 +252,18 @@ meterpreter > secure
 [+] Done.
 ```
 
-## 2.9 - Spawn Interactive Shell
+## 2.10 - Spawn Interactive Shell
 
 TODO: Fill this info
 
 * Windows
 
-`meterpreter > shell`
+```
+meterpreter > shell
+```
 
 * Linux
 
-`meterpreter > shell -t`
+```
+meterpreter > shell -t
+```
