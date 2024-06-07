@@ -106,7 +106,7 @@ TODO: Finish the enumeration part for escalating to root/admin privileges
 
 `MySQL [(none)]> SHOW PRIVILEGES \G;`
 
-These two are the most critical ways other than the basic query SQL commands just to get a reverse shell and escalate privileges for abusing the UDF MySQL feature. Look at the [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Privilege Escalation/Linux/Service Exploits/MySQL/Unix Shell|Service Exploits]] section.
+These two are the most critical ways other than the basic query SQL commands just to get a reverse shell and escalate privileges for abusing the UDF MySQL feature. Look at the [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Service Exploits/MySQL/Unix Shell|Service Exploits]] section.
 
 ```
 *************************** <number>. row ***************************

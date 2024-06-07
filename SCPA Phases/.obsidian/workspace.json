@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/01 - Offensive Tools/NetExec.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"cp\"",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/01 - Offensive Tools/NetExec.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/01 - Offensive Tools/NetExec.md",
+                "file": "Malware Development/Techniques/Windows Functions References.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/01 - Offensive Tools/NetExec.md"
+                "file": "Malware Development/Techniques/Windows Functions References.md"
               }
             }
           },
@@ -160,43 +160,43 @@
   },
   "active": "8d2f62c765c7cc8b",
   "lastOpenFiles": [
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/02 - Basic Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/C2 Frameworks/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/02 - RPC Lateral Movement/01 - Service Control Manager/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/Pass-The-Hash Toolkits/Pass-The-Hash Toolkits.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/02 - Remote File Access/Offensive Tools/Binaries/SharpMove.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/02 - Remote File Access/C2 Frameworks/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/02 - Remote File Access/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/02 - Remote File Access/C2 Frameworks/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/02 - Remote File Access/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/02 - Remote File Access/C2 Frameworks/Cobalt Strike.md",
-    "Command and Control/Webshells/Weevely/02 - Basic Commands.md",
-    "Command and Control/Havoc/Usage/Interactive Shell/Demons/01 - Help Menu.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/01 - Help Menu.md",
-    "Command and Control/Webshells/Weevely/01 - Help Menu.md",
-    "Command and Control/Cobalt Strike/Usage/Interactive Shell/Beacons/03 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/01 - Offensive Tools/Binaries/Mimikatz.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/SSH.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/SMTP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/SMB.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/ICMP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/FTP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/DNS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Download.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Upload.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Spawn Implant.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Basic Commands/Linux/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Network Protocols/HTTP",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - File Transfer and Data Exfiltration/Linux/Encoding Files",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization/Offensive Tools/Scripts",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization/Offensive Tools",
+    "Malware Development/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/04 - Automated Exploitation/Commix/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Nikto.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Gxss.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox/Usage/Usage.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Automated Exploitation/Upload_Bypass/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Helpers/PHP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Automated Exploitation/Fuxploider/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Automated Exploitation/Fuxploider/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/README.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/WPScan/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Magento/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Magento/Scanner/Nuclei.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Joomla/Scanner/Joomscan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Joomla/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Helpers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Automated Exploitation",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Scanners/XSRFProbe",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Lab Simulation/Change Password",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Lab Simulation/Transfer Funds",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Network Protocols/HTTP",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Encoding Files",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization/Offensive Tools/Scripts",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization/Offensive Tools",
     "Untitled.canvas",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization/Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization/C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/List Processes/Offensive Tools/Binaries",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/List Processes/Offensive Tools",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Virtualization/Manual",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/Difficulty/Low/Manual/03 - UNION Query SQL Injection/01 - Database Reconnaissance/1.1 - ORDER BY Enumerate One Field.png",
     "Command and Control/Images/Havoc/Setup/01 - Qt5 Settings.png",
