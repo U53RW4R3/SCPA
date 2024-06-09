@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md"
               }
             }
           },
@@ -160,6 +160,18 @@
   },
   "active": "8d2f62c765c7cc8b",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Lab Simulation/DVWA/Low/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/NoMore403.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/BypassFuzzer.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/403jump.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/4-ZERO-3.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/cURL Commands.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/API/Checklist.md",
+    "Command and Control/Metasploit/MSFConsole/Database Commands/Usage/01 - Setup Database.md",
+    "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
     "Operation Security/Online/TOR/Setup/03 - Whonix.md",
     "Operation Security/Online/Images/VirtualBox/04 - VM VirtualBox Manager Adapter Settings.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Encoding Files/Bin2Hex.md",
@@ -175,17 +187,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Gxss.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox/Usage/Usage.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Automated Exploitation/Upload_Bypass/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Helpers/PHP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Automated Exploitation/Fuxploider/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/File Upload/Automated Exploitation/Fuxploider/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/README.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Content Management System (CMS)/Wordpress/Scanner/Nuclei.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Helpers",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Automated Exploitation",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Scanners/XSRFProbe",
