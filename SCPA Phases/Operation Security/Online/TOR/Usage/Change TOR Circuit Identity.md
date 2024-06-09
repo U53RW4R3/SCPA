@@ -2,7 +2,9 @@
 
 Change TOR Identity.
 
-`$ killall -HUP tor`
+```
+$ killall -HUP tor
+```
 
 If that does not work, enable the control port in your torrc file. Then, set a password for the control port with `tor --hash-password <password>`.
 
@@ -14,7 +16,9 @@ $ printf 'AUTHENTICATE "<password>"\r\nSIGNAL NEWNYM\r\n' | nc 127.0.0.1 9051
 
 Lookup IP.
 
-`$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/`
+```
+$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/
+```
 
 Check if you're connected to TOR.
 
