@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 427.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md"
               }
             }
           },
@@ -160,33 +160,33 @@
   },
   "active": "8d2f62c765c7cc8b",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Lab Simulation/DVWA/Low/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/NoMore403.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/BypassFuzzer.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/403jump.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/403 and 401 Bypasses/4-ZERO-3.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/cURL Commands.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Helpers/Payloads.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/API/Checklist.md",
-    "Command and Control/Metasploit/MSFConsole/Database Commands/Usage/01 - Setup Database.md",
-    "Operation Security/Online/TOR/Usage/Change TOR Circuit Identity.md",
-    "Operation Security/Online/TOR/Setup/03 - Whonix.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/01 - Help Menu.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/LDAP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/Telnet.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/SMB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/HTTP/PUT Upload.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/HTTP/IoTs/Routers.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/File Server/FTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases/SQL/PostgreSQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases/NoSQL/MongoDB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/OpenVAS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nessus.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Setup.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Nuclei References.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nmap/Script Scan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Port Scanning.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/IoTs.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Forensics.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Filter Scanned Targets.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Detect Honeypots.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Uniscan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Databases/SQL/MSSQL/MSSQL.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Saved Credentials/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Elevate/Manual/Unix Shell.md",
     "Operation Security/Online/Images/VirtualBox/04 - VM VirtualBox Manager Adapter Settings.png",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Encoding Files/Bin2Hex.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Encoding Files/Base64/Unix Shell.md",
-    "Malware Development/Helpers/Scripts and Programs/Shellcode Formatting/Commands.md",
-    "Malware Development/Techniques/Windows Functions References.md",
-    "Malware Development/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Command Injection/04 - Automated Exploitation/Commix/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/XSSer.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Nikto.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Gxss.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Scanners/Dalfox/Usage/Usage.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/Cross Site Scripting (XSS)/Lab Simulation/01 - DVWA/Stored XSS/Difficulty/Low/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Helpers",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Automated Exploitation",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Scanners/XSRFProbe",
