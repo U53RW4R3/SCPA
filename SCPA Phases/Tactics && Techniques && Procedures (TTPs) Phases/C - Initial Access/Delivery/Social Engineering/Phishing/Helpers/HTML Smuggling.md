@@ -24,7 +24,7 @@
                     bytes[i] = binary_string.charCodeAt(i);
                 return bytes.buffer;
             }
-            // $ base64 -w 0 payload.exe
+            // $ basenc -w 0 --base64 payload.exe
             var base64_binary = '<base64_payload>'
             
             var data = Base64ToArray(base64_binary);
@@ -46,9 +46,24 @@
 
 `$ sudo python -m http.server 80`
 
+## 02 - Automated
+
+### 2.1 - BobTheSmuggler
+
+TODO: Provide usage details for BobTheSmuggler
+
+
 ---
 ## References
+
+- [BobTheSmuggler](https://github.com/TheCyb3rAlpha/BobTheSmuggler)
 
 - [A Detailed Guide on HTML Smuggling](https://www.hackingarticles.in/a-detailed-guide-on-html-smuggling/)
 
 - [GhostInHTML](https://github.com/exploitblizzard/GhostInHTML)
+
+### HTML Smuggling Templates
+
+- [raulm0429: HTMLSmuggling](https://github.com/raulm0429/HtmlSmuggling)
+
+- [JamesCooteUK Github Gist](https://gist.github.com/JamesCooteUK/507e5cc924e7811fbada64102d35509a)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "amsi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 374.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md",
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/SploitScan/Usage/01 - Help Menu.md"
+                "file": "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md"
               }
             }
           },
@@ -160,32 +161,32 @@
   },
   "active": "8d2f62c765c7cc8b",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/02 - Basic.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Public Exploits/ExploitDB/Usage/01 - Help Menu.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/LDAP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/Telnet.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Remote Logins/SMB.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/HTTP/PUT Upload.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/HTTP/IoTs/Routers.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/File Server/FTP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases/SQL/PostgreSQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Network Protocols/Databases/NoSQL/MongoDB.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/OpenVAS.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nessus.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Nuclei References.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nmap/Script Scan.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Port Scanning.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/IoTs.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Forensics.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Filter Scanned Targets.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Vulnerability Scanner/Nuclei/Use Cases/Detect Honeypots.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/Scanners/Web Vulnerability Scanner/Uniscan.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Databases/SQL/MSSQL/MSSQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Saved Credentials/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Elevate/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/05 - Credential Access and Dumping/Windows/Host/Dump Credentials/02 - Offensive Tools/Scripts/Nishang.md",
+    "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Network Protocols/RDP/FreeRDP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/02 - RPC Lateral Movement/01 - Service Control Manager/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/C2 Frameworks/Havoc.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Domain Persistence/Create Ticket/Golden Ticket.md",
+    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Internal Reconnaissance.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/ISO File.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/Payload Delivery Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Helpers/Payload Delivery.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Windows/Staged/Reverse Shells.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/MSFVenom/03 - Generate Payloads/Meterpreter Payloads/Python/Staged/Bind Shells.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/General/Archive Files/7zip.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Archive Files/Makecab.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/Cobalt Strike.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Helpers/HTML Smuggling.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Excel.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Macros/Payload Inside Document Properties Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/Word.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Microsoft Office/PowerPoint.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/LibreOffice/Macros/Payload Delivery Macro/Payload Delivery Macro.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Social Engineering/Phishing/Helpers/Document Templates.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/System and Kernel Version/C2 Frameworks/Metasploit.md",
     "Operation Security/Online/Images/VirtualBox/04 - VM VirtualBox Manager Adapter Settings.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Helpers",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Automated Exploitation",

