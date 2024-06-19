@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Number Bases (Radixes)/Base2 (binary digits).md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Download.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Number Bases (Radixes)/Base2 (binary digits).md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Download.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Number Bases (Radixes)/Base2 (binary digits).md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Download.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Number Bases (Radixes)/Base2 (binary digits).md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Download.md"
               }
             }
           },
@@ -160,7 +160,14 @@
   },
   "active": "8d2f62c765c7cc8b",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Spawn Implant.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/HTTP/Upload.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/DNS.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/FTP.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/ICMP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/SMB.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/SMTP.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Network Protocols/SSH.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Number Bases (Radixes)/Base2 (binary digits).md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Number Bases (Radixes)/Base8 (octal).md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Windows/Number Bases (Radixes)/Base10 (decimal).md",
@@ -186,13 +193,6 @@
     "Malware Development/Helpers/Implant Templates/Powershell/AMSI Bypass.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/05 - Credential Access and Dumping/Windows/Host/Dump Credentials/02 - Offensive Tools/Scripts/Nishang.md",
     "Command and Control/Sliver/Interactive Shell/Beacons/11 - Process Manipulation.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Network Protocols/Graphical Remote Program/RDP/FreeRDP.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/02 - RPC Lateral Movement/01 - Service Control Manager/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/C2 Frameworks/Havoc.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Domain Persistence/Create Ticket/Golden Ticket.md",
-    "Command and Control/Metasploit/Interactive Shell/Meterpreter/Usage/03 - Internal Reconnaissance.md",
     "Operation Security/Online/Images/VirtualBox/04 - VM VirtualBox Manager Adapter Settings.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Helpers",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Cross Site Request Forgery (CSRF)/Automated Exploitation",
