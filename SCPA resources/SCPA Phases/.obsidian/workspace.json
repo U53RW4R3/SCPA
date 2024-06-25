@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/Manual/Unix Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/Manual/Unix Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/Manual/Unix Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Manual/Unix Shell.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/Manual/Unix Shell.md"
               }
             }
           },
@@ -184,35 +184,35 @@
   },
   "active": "e077e06de32660d2",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/Resource Based Constrained Delegation/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Group Policy Preferences/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Sensitive Files/History/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Saved Credentials/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Password Bruteforce/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Group Policy Preferences/Manual/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Password Spraying/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/Unconstrained Delegation/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/Resource Based Constrained Delegation/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/Kerberoasting/ServicePrincipalName (SPN)/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Credentials/SSH Keys/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Credentials/Search Sensitive Keywords/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Credentials/Password Cracking/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Credentials/Password Cracking/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Credentials/History/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Credentials/History/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Internal Reconnaissance/02 - Files and Directories/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Delivery/Remote Login Exploitation/WinRM/WinRM.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Internal Reconnaissance/01 - Users/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/01 - Users/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/02 - Remote File Access/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Networking/02 - Shares/Manual/Unix Shell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Offensive Tools/Scripts",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Offensive Tools",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/C2 Frameworks/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/C2 Frameworks/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/Offensive Tools/Scripts/PowerSploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/RunAs/Elevate/C2 Frameworks/Sliver.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Group Policy Preferences/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Group Policy Preferences/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Group Policy Preferences/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Sensitive Files/Volume Shadow Copy/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/MSSQL.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Token/C2 Frameworks/Cobalt Strike.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/Password Bruteforce/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Elevate/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Saved Credentials/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Scheduled Tasks/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Scheduled Tasks/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Kernel Exploits.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Insecure GUI Apps.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Token/GetSystem.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Manual/Unix Shell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Scheduled Tasks",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Manual",

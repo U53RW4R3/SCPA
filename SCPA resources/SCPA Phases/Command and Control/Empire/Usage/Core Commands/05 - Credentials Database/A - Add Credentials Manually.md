@@ -34,7 +34,7 @@ Search Tag(s): #empire #command-and-control #help-menu
 ```
 (Empire: usecredential/add) > set credtype <plaintext | hash>
 
-(Empire: usecredential/add) > set domain <domain_name>
+(Empire: usecredential/add) > set domain <domain>
 
 (Empire: usecredential/add) > set username <username>
 

@@ -431,7 +431,7 @@ Module options (post/windows/manage/inject_host):
    IP                        yes       IP address to point domain name to.
    SESSION                   yes       The session to run this module on
 
-msf post(windows/manage/inject_host) > set domain <domain_name>
+msf post(windows/manage/inject_host) > set domain <domain>
 
 msf post(windows/manage/inject_host) > set ip <phishing_server>
 

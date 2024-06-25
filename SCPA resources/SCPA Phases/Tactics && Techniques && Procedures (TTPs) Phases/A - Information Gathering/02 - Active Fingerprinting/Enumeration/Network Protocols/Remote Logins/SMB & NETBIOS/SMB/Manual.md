@@ -31,36 +31,36 @@ $ smbclient --option="client min protocol=core" -U "" //<IP>/<share>
 ```
 $ smbclient.py [<domain>/]<username>:<password>@<IP>
 
-$ smbclient.py -hashes :<nt_hash> [<domain>/]<username>@<IP>
+$ smbclient.py [<domain>/]<username>@<IP> -hashes :<nt_hash>
 ```
 
 ### 1.3 - SMBMap
 
-- Authenticate
+Authentication syntax
 
-`$ smbmap -u "<username>" -p "<password>" -H <IP> [-P <PORT>]`
-
-- Pass the hash
-
-`$ smbmap -u "<username>" -p "<NT>:<LM>" -H <IP> [-P <PORT>]`
+```
+$ smbmap -u "<username>" -p "< <password> | <nt_hash> >" -H <IP> [-P <PORT>]
+```
 
 ### 1.4 - Enum4Linux
 
 TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
 
-`$ enum4linux -a -u "<username>" -p "<password>" <IP>`
+```
+$ enum4linux -a -u "<username>" -p "<password>" <IP>
+```
 
 https://juggernaut-sec.com/ad-recon-msrpc-over-smb/
 
 ### 1.5 - NetExec
 
-- Authenticate
+Authentication syntax
 
-`$ netexec smb <IP> -u "<username>" -p "<password>" [-d <domain_name> | --local-auth]`
+```
+$ netexec smb <IP> -u "<username>" -p "<password>" [-d <domain> | --local-auth]
 
-- Pass The Hash
-
-`$ netexec smb <IP> -u "<username>" -H "<nt_hash>" [-d <domain_name> | --local-auth]`
+$ netexec smb <IP> -u "<username>" -H "<nt_hash>" [-d <domain> | --local-auth]
+```
 
 ### 1.6 - Mount Share
 
@@ -117,9 +117,9 @@ $ enum4linux -a -u "guest" -p "" <IP>
 ### 2.5 - NetExec
 
 ```
-$ netexec smb <IP> -u "" -p "" [-d <domain_name> | --local-auth] --shares
+$ netexec smb <IP> -u "" -p "" [-d <domain> | --local-auth] --shares
 
-$ netexec smb <IP> -u "guest" -p "" [-d <domain_name> | --local-auth] --shares
+$ netexec smb <IP> -u "guest" -p "" [-d <domain> | --local-auth] --shares
 ```
 
 ## 03 - System Volume Information
@@ -127,7 +127,9 @@ $ netexec smb <IP> -u "guest" -p "" [-d <domain_name> | --local-auth] --shares
 ### 3.1 - Samba Suite Utils
 
 ```
-$ smbclient -U "<username>%<password>" //<domain_name/SYSVOL
+$ smbclient -U "[<domain>/]<username>%<password>" //<IP>/SYSVOL
+
+$ smbclient -U "[<domain>/]<username>" -hashes :<nt_hash> //<IP>/SYSVOL
 
 smb: \> ls
 ```

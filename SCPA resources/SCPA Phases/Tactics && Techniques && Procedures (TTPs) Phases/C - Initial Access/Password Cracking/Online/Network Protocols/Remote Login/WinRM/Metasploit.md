@@ -34,7 +34,7 @@ Module options (auxiliary/scanner/winrm/winrm_login):
 
 msf auxiliary(scanner/winrm/winrm_login) > set rhosts <IP>
 
-msf auxiliary(scanner/winrm/winrm_login) > set domain <domain_name>
+msf auxiliary(scanner/winrm/winrm_login) > set domain <domain>
 
 msf auxiliary(scanner/winrm/winrm_login) > set threads 4
 

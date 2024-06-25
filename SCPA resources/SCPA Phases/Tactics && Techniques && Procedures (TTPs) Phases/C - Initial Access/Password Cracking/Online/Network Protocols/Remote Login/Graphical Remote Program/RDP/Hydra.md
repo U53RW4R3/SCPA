@@ -1,5 +1,9 @@
 # Hydra
 
-`$ hydra -U rdp`
+```
+$ hydra -U rdp
+```
 
-`$ hydra -V -l <username> -p <password> rdp://<IP>/<domain_name>`
+```
+$ hydra -V -l <username> -p <password> rdp://<IP>/<domain>
+```

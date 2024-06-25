@@ -55,7 +55,7 @@ beacon> ppid <ppid>
 Spawn new beacon process with under different user credentials as provided.
 
 ```
-beacon> spawnas <domain_name>\<username> <password>
+beacon> spawnas <domain>\<username> <password>
 ```
 
 Specify a path of the new executable program to inject beacon shellcode other than specified in the malleable c2 profile. By default it injects `rundll32.exe` when executing `spawn`.

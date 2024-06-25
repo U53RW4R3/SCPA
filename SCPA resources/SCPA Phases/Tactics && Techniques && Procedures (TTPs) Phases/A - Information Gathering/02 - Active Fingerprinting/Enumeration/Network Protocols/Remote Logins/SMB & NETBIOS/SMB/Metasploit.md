@@ -44,7 +44,7 @@ msf auxiliary(scanner/smb/smb_enumusers) > set smbpass <password | aad3b435b5140
 
 msf auxiliary(scanner/smb/smb_enumusers) > set rhosts <IP>
 
-msf auxiliary(scanner/smb/smb_enumusers) > set smbdomain [<domain_name>]
+msf auxiliary(scanner/smb/smb_enumusers) > set smbdomain [<domain>]
 
 msf auxiliary(scanner/smb/smb_enumusers) > set threads 4
 
@@ -96,7 +96,7 @@ msf auxiliary(scanner/smb/smb_lookupsid) > set smbuser <username>
 
 msf auxiliary(scanner/smb/smb_lookupsid) > set smbpass <password | aad3b435b51404eeaad3b435b51404ee:<nt_hash>>
 
-msf auxiliary(scanner/smb/smb_lookupsid) > set smbdomain [<domain_name>]
+msf auxiliary(scanner/smb/smb_lookupsid) > set smbdomain [<domain>]
 
 msf auxiliary(scanner/smb/smb_lookupsid) > set action <LOCAL | DOMAIN>
 

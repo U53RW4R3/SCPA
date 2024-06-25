@@ -22,7 +22,7 @@ Module options (auxiliary/scanner/winrm/winrm_auth_methods):
 
 msf auxiliary(scanner/winrm/winrm_auth_methods) > set rhosts <IP>
 
-msf auxiliary(scanner/winrm/winrm_auth_methods) > set domain <domain_name>
+msf auxiliary(scanner/winrm/winrm_auth_methods) > set domain <domain>
 
 msf auxiliary(scanner/winrm/winrm_auth_methods) > set threads 8
 
@@ -59,7 +59,7 @@ msf auxiliary(scanner/winrm/winrm_cmd) > set username <username>
 
 msf auxiliary(scanner/winrm/winrm_cmd) > set password <password>
 
-msf auxiliary(scanner/winrm/winrm_cmd) > set domain <domain_name>
+msf auxiliary(scanner/winrm/winrm_cmd) > set domain <domain>
 
 msf auxiliary(scanner/winrm/winrm_cmd) > set rhosts <IP>
 
@@ -103,7 +103,7 @@ msf auxiliary(scanner/winrm/winrm_wql) > set username <username>
 
 msf auxiliary(scanner/winrm/winrm_wql) > set password <password>
 
-msf auxiliary(scanner/winrm/winrm_wql) > set domain <domain_name>
+msf auxiliary(scanner/winrm/winrm_wql) > set domain <domain>
 
 msf auxiliary(scanner/winrm/winrm_wql) > set rhosts <IP>
 

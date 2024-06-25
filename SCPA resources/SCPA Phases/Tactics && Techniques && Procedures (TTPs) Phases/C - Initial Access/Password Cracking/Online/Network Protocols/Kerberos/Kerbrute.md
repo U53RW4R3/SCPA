@@ -60,17 +60,23 @@ Use "kerbrute [command] --help" for more information about a command.
 
 ## 03 - Usage
 
-- Password Spray each domain username accounts from an active directory
+Password Spray each domain username accounts from an active directory.
 
-`$ kerbrute passwordspray [--dc <IP>] -d <domain_name> users.lst "<password>"`
+```
+$ kerbrute passwordspray [--dc <IP>] -d <domain> users.lst "<password>"
+```
 
-- Brute force a username with a password dictionary (not recommended unless it has no lockout policy).
+Brute force a username with a password dictionary (not recommended unless it has no lockout policy).
 
-`$ kerbrute bruteuser [--dc <IP>] -d <domain_name> passwords.lst "<username>"`
+```
+$ kerbrute bruteuser [--dc <IP>] -d <domain> passwords.lst "<username>"
+```
 
-- Brute force with a combo list of usernames and passwords against a domain controller
+Brute force with a combo list of usernames and passwords against a domain controller.
 
-`$ cat combolist.lst | kerbrute [--dc <IP>] -d <domain_name> bruteforce -`
+```
+$ cat combolist.lst | kerbrute [--dc <IP>] -d <domain> bruteforce -
+```
 
 ---
 ## References

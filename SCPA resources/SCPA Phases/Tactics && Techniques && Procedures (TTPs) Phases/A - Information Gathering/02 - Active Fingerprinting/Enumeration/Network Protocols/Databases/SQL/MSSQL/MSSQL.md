@@ -19,16 +19,18 @@ Note: The enumeration process is the same thing when using Windows own native pr
 - Usage of the program
 
 ```
-$ sqsh -S <IP> -D <database> -U [<domain_name>\]<username> -P <password>
+$ sqsh -S <IP> -D <database> -U [<domain>\]<username> -P <password>
 
-$ sqsh -S <IP> -D <database> -U [<domain_name\]<username -P 00000000000000000000000000000000:<nt_hash>
+$ sqsh -S <IP> -D <database> -U [<domain\]<username -P 00000000000000000000000000000000:<nt_hash>
 ```
 
 ### 1.3 - Null Authenication
 
 By default the username is `sa` with null authentication of the MSSQL database server instance
 
-`$ sqsh -S <IP> -U sa -P ""`
+```
+$ sqsh -S <IP> -U sa -P ""
+```
 
 TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
 
@@ -152,7 +154,9 @@ SQL> help
 
 ### 2.2 - Usage
 
-`$ mssqlclient -db <database> -port 1433 -windows-auth <domain_name>/<username>:<password>@<IP>`
+```
+$ mssqlclient -db <database> -port 1433 -windows-auth <domain>/<username>:<password>@<IP>
+```
 
 ### 2.3 - Enable xp_cmdshell
 
