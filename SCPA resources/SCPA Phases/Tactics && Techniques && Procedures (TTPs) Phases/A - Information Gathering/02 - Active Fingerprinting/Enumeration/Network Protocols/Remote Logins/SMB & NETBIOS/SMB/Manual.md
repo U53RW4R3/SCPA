@@ -12,13 +12,13 @@ $ smbclient -U "<username>%<password>" -L //<IP>
 $ smbclient -U "<username>" --password="<password>" -L //<IP>
 ```
 
-- Pass The Hash
+Pass The Hash
 
 ```
 $ smbclient -U "<username>" --pw-nt-hash <nt_hash> -L //<IP>
 ```
 
-- Set protocol
+Set protocol.
 
 ```
 $ smbclient -m smb<1|2|3> -U "" //<IP>/<share>
@@ -42,15 +42,11 @@ Authentication syntax
 $ smbmap -u "<username>" -p "< <password> | <nt_hash> >" -H <IP> [-P <PORT>]
 ```
 
-### 1.4 - Enum4Linux
-
-TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
+### 1.4 - Enum4Linux-NG
 
 ```
-$ enum4linux -a -u "<username>" -p "<password>" <IP>
+$ enum4linux-ng -a -u "<username>" -p "<password>" <IP>
 ```
-
-https://juggernaut-sec.com/ad-recon-msrpc-over-smb/
 
 ### 1.5 - NetExec
 
@@ -106,12 +102,12 @@ $ smbmap -u "" -p "" -H <IP> [-P <PORT>]
 $ smbmap -u "guest" -p "" -H <IP> [-P <PORT>]
 ```
 
-### 2.4 - Enum4Linux
+### 2.4 - Enum4Linux-NG
 
 ```
-$ enum4linux -a -u "" -p "" <IP>
+$ enum4linux-ng -a -u "" -p "" <IP>
 
-$ enum4linux -a -u "guest" -p "" <IP>
+$ enum4linux-ng -a -u "guest" -p "" <IP>
 ```
 
 ### 2.5 - NetExec
@@ -133,3 +129,8 @@ $ smbclient -U "[<domain>/]<username>" -hashes :<nt_hash> //<IP>/SYSVOL
 
 smb: \> ls
 ```
+
+---
+## References
+
+- [Enum4Linux-NG](https://github.com/cddmp/enum4linux-ng)
