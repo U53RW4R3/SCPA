@@ -115,4 +115,4 @@ msf auxiliary(scanner/winrm/winrm_wql) > run
 ---
 ## References
 
-- [WinRM Penetration Testing](https://www.hackingarticles.in/winrm-penetration-testing/)
+- [Hacking Articles: WinRM Penetration Testing](https://www.hackingarticles.in/winrm-penetration-testing/)
