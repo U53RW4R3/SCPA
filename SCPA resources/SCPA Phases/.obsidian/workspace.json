@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e5d0a5cc8882ab96",
+        "id": "0e08402221858c75",
         "type": "tabs",
         "children": [
           {
-            "id": "e077e06de32660d2",
+            "id": "9b37ce95661857db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners/Nmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners/Nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Unix Shell.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners/Nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Unix Shell.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners/Nmap.md"
               }
             }
           },
@@ -158,44 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e077e06de32660d2",
+  "active": "9b37ce95661857db",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Discover Programs/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/List Processes/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/List Processes/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Discover Programs/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/Kerberoasting/ServicePrincipalName (SPN)/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/05 - Credential Access and Dumping/Windows/Active Directory/Volume Shadow Copy/01 - Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/05 - Credential Access and Dumping/Windows/Host/Registry/Hashdump/01 - Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Domain Privilege Escalation/Kerberos/ASREPRoast/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Weak Registry Permissions/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Unquoted Service Paths/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/HTTP/05 - HTTP Enumeration/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Authorization Bypass/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Crawlers and Directory Bruteforce/Robots/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Components with Known Vulnerabilities/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Web Panels/Scanners/Nuclei.md",
+    "Command Line/Operating Systems/Windows/Powershell/Use Cases/Calculate Size.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Checklist.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Manual/02 - UNION Query SQL Injection/01 - Database Reconnaissance.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Internal Reconnaissance/02 - Files and Directories/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Internal Reconnaissance/02 - Files and Directories/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Permission/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Unquoted Service Paths/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Networking/02 - Shares/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/01 - Users/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/WinRM/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Network Protocols/Remote Logins/WinRM/Nmap.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/WMI/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Network Protocols/WinRM.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Create User/Manual/Living off the Land.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Create User/User Accounts Examples.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Create User/Manual/Unix Shell.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Defense Evasion/11 - Anti-Forensics/Windows/Clear Traces/03 - Delete Accounts/Delete Users/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/DLL Hijacking/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Weak Registry Permissions/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Unquoted Service Paths/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Defense Evasion/11 - Anti-Forensics/Windows/Clear Traces/02 - Timestomps/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/System and Kernel Version/Hardware/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Executable/C2 Frameworks/Sliver.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Permission/C2 Frameworks",
+    "Malware Development/Helpers/Implant Templates/Programming Languages",
+    "Malware Development/Helpers/Implant Templates/C2 Frameworks",
+    "Malware Development/Techniques/Persistence/Helpers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Offensive Tools/Binaries",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Offensive Tools",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Manual",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Create User/C2 Frameworks",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Create User/C2 Frameworks/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Create User/Manual",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Networking/01 - IP Address/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Networking/02 - Shares/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/Group Policy Properties/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/02 - Domain Controller/DC/Scanners",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/Internal Reconnaissance/01 - Users/Scanner",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Files and Directories/Manual",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Defense Evasion/02 - Security Solutions/Windows/03 - Offensive Tools/Binaries",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Defense Evasion/02 - Security Solutions/Windows/03 - Offensive Tools",
     "Operation Security/Online/Images/VirtualBox/04 - VM VirtualBox Manager Adapter Settings.png",
     "Untitled.canvas",
     "Cryptography/Symmetric/Algorithms/Whiteboard/XOR/XOR Logical Gate.canvas",

@@ -45,7 +45,7 @@ $ smbmap -u "<username>" -p "< <password> | <nt_hash> >" -H <IP> [-P <PORT>]
 ### 1.4 - Enum4Linux-NG
 
 ```
-$ enum4linux-ng -a -u "<username>" -p "<password>" <IP>
+$ enum4linux-ng -A -u "<username>" -p "<password>" <IP>
 ```
 
 ### 1.5 - NetExec

@@ -114,13 +114,11 @@ Lookup username accounts
 
 `rpcclient $> lsaenumprivsaccount S-1-1-0`
 
-### 1.2 - Impacket
-
-`$ rpcdump.py <IP> -p <135 | 593>`
-
 ### 1.3 - Windows Command Prompt
 
-`C:\> rpcdump [-p <135 | 593>] <IP>`
+```
+C:\> rpcdump [-p <135 | 593>] <IP>
+```
 
 ---
 ## References

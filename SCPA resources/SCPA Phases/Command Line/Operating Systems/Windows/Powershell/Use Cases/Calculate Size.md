@@ -2,15 +2,43 @@
 
 Search Tag(s): #command-line #use-cases #windows
 
-```
-PS C:\> Get-ChildItem -Path \\<IP>\C$\path\to\directory -Recurse -File | Measure-Object -Sum Length | Select-Object Count, Sum
+## 01 - Bytes
 
-PS C:\> Get-ChildItem -Path C:\path\to\directory -Recurse -File | Measure-Object -Sum Length | Select-Object Count, Sum
+```
+PS C:\> Get-ChildItem -Path [<drive_letter>:\]path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum
+
+PS C:\> Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum
+
+PS C:\> Get-ChildItem -Path [<drive_letter>:\]path\to\directory\ -Recurse -File | Measure-Object -Sum Length | Select-Object Count, Sum
+
+PS C:\> Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -File | Measure-Object -Sum Length | Select-Object Count, Sum
+```
+
+## 02 - Kilobytes
+
+```
+PS C:\> (Get-ChildItem -Path [<drive_letter>:\]path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1Kb
+
+PS C:\> (Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1Kb
+```
+
+## 03 - Megabytes
+
+```
+PS C:\> (Get-ChildItem -Path [<drive_letter>:\]path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1Mb
+
+PS C:\> (Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1Mb
+```
+
+## 04 - Gigabytes
+
+```
+PS C:\> (Get-ChildItem -Path [<drive_letter>:\]path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1Gb
+
+PS C:\> (Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1Gb
 ```
 
 ---
 ## References
 
 - [[Windows Powershell Cmdlet References]]
-
-- [PowerShell: How to Get the Folder Size?](https://www.sharepointdiary.com/2021/07/get-folder-size-in-powershell.html)

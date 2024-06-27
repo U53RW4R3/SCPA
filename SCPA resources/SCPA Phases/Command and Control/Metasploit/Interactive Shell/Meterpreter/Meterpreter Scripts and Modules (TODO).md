@@ -221,7 +221,7 @@ run post/windows/gather/netlm_downgrade
 
 run post/windows/gather/credentials/srware
 
-run post/windows/gather/credentials/sso
+
 
 run post/windows/gather/credentials/steam (steam)
 
@@ -290,7 +290,7 @@ run post/windows/manage/hashcarve
 
 run post/windows/manage/pptp_tunnel
 
-run post/windows/manage/wdigest_caching
+
 
 run post/windows/manage/ie_proxypac
 

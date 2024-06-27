@@ -50,7 +50,9 @@ $ snmpwalk -v 2c -c public <IP>:<PORT> | grep hrSWInstalledName | cut -d " " -f 
 
 ## 03 - Samrdump
 
-`$ samrdump SNMP <IP>`
+```
+$ samrdump SNMP <IP>
+```
 
 ## 04 - Onesixtyone
 
