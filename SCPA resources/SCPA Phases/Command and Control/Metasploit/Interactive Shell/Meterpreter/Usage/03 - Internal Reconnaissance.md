@@ -474,13 +474,13 @@ COMMANDS:
 Syntax registry meterpreter command.
 
 ```
-meterpreter > reg <command> [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <registry_value> -t <registry_type>
+meterpreter > reg <command> [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <registry_value> -t <registry_type> [-w <32|64>]
 ```
 
 Enumerate registry key.
 
 ```
-meterpreter > reg enumkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key
+meterpreter > reg enumkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key [-w <32|64>]
 ```
 
 Set registry key value.
@@ -492,7 +492,7 @@ meterpreter > reg setval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\ke
 Query registry key value.
 
 ```
-meterpreter > reg queryval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value>
+meterpreter > reg queryval [-r <target_IP>] -k <hive_name>\\path\\to\\registry\\key -v <value> [-w <32|64>]
 ```
 
 Delete registry key value.
@@ -510,7 +510,7 @@ meterpreter > reg createkey [-r <target_IP>] -k <hive_name>\\path\\to\\registry\
 Query registry keys
 
 ```
-meterpreter > reg queryclass [-r <target_IP>] -k <hive_name>\\path\\to\\registry
+meterpreter > reg queryclass [-r <target_IP>] -k <hive_name>\\path\\to\\registry [-w <32|64>]
 ```
 
 ## 3.5 - Search Files
@@ -538,6 +538,8 @@ meterpreter > search -d [<drive_letter>:]/path/to/directory/ -f confidential*
 
 ---
 ## References
+
+- [Rapid7: Metasploit Framework Meterpreter Registry Command](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter-reg-command.html)
 
 - [Metasploit Unleashed: Interacting Registry](https://www.offsec.com/metasploit-unleashed/interacting-registry/)
 

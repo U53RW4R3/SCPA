@@ -75,7 +75,7 @@ Demon Commands
   ptt                      Command      import Kerberos ticket into a logon session
   purge                    Command      purge a Kerberos ticket
   pwd                      Command      get current directory
-  quser                    Command      Simple implementation of quser.exe usingt the Windows API
+  quser                    Command      Simple implementation of quser.exe using the Windows API
   reg_delete               Command      Deletes the registry key or value
   reg_query                Command      Query a registry value or enumerate a single key
   reg_query_recursive      Command      Recursively enumerate a key starting at path
@@ -122,43 +122,19 @@ Demon Commands
 TODO: Categorize them systematically
 
 ```
-Demon » help token
+Demon » help pivot
 
- - Command       :  token
- - Description   :  token manipulation and impersonation
- - Usage         :  token [subcommand]
- - Example       :  token steal 1337
-
-  Command                        Description
-  ---------                      -------------
-  getuid                         get current uid from token
-  list                           list stolen tokens from token vault
-  steal                          steal token from specified process and save it to token vault
-  impersonate                    impersonate stolen token from specified vault id
-  make                           make token from user credentials
-  privs-get                      try to enable all/specified privileges from current token
-  privs-list                     list all privileges from current token
-  revert                         revert to default process token
-  remove                         remove specified stolen token from token vault
-  clear                          removes every stolen token from the token vault
-
-Demon » help net
-
- - Command       :  net
- - Description   :  network and host enumeration module
+ - Command       :  pivot
+ - Description   :  pivoting module
  - Behavior      :  API Only
- - Usage         :  net [sub command] (args)
- - Example       :  net domain
+ - Usage         :  pivot [sub command]
+ - Example       :  pivot connect SPIDERS-PC agent_6d6e
 
   Command                        Description
   ---------                      -------------
-  domain                         display domain for the current host
-  logons                         lists users logged onto a host
-  sessions                       lists sessions on a host
-  share                          lists shares on a host
-  localgroup                     lists local groups and users in local groups
-  group                          lists groups and users in groups
-  users                          lists users and user information
+  list                           list connected agent pivots
+  connect                        connect to a pivoting agent
+  disconnect                     disconnect from a pivoting agent
 
 Demon » help config
 
@@ -179,20 +155,6 @@ Demon » help config
   inject.spoofaddr               inject code with spoofed thread start addr
   inject.spawn64                 default x64 process to spawn for fork & run operations
   inject.spawn32                 default x86 process to spawn for fork & run operations
-
-Demon » help pivot
-
- - Command       :  pivot
- - Description   :  pivoting module
- - Behavior      :  API Only
- - Usage         :  pivot [sub command]
- - Example       :  pivot connect SPIDERS-PC agent_6d6e
-
-  Command                        Description
-  ---------                      -------------
-  list                           list connected agent pivots
-  connect                        connect to a pivoting agent
-  disconnect                     disconnect from a pivoting agent
 ```
 
 ---

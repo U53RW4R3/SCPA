@@ -24,4 +24,6 @@ TODO: Fill this info
 
 ## 2.2 - Token Impersonation
 
-`meterpreter > rev2self`
+```
+meterpreter > rev2self
+```

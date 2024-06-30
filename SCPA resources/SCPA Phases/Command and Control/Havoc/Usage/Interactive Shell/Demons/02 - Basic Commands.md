@@ -4,17 +4,6 @@ Search Tag(s): #havoc #command-and-control #interactive-shell
 
 ## 2.1 - Check Request
 
-- Help Menu
-
-```
-Demon » help checkin
-
- - Command       :  checkin
- - Description   :  request a checkin request
-```
-
-- Usage
-
 ```
 Demon » checkin
 [*] [47DC3265] Tasked demon send back a checkin request
@@ -50,37 +39,11 @@ Demon » pwd
 
 ## 2.3 - Sleep and Jitter
 
-- Help Menu
-
 ```
-Demon » help sleep
-
- - Command       :  sleep
- - Description   :  sets the delay to sleep
- - Usage         :  sleep [delay] (jitter)
- - Example       :  sleep 10
- - Required Args :  2
+Demon » sleep 10 25
 ```
-
-- Usage
-
-`Demon » sleep 10 25`
 
 ## 2.4 - List Contents
-
-- Help Menu
-
-```
-Demon » help dir
-
- - Command       :  dir
- - Description   :  list specified directory
- - Behavior      :  API Only
- - Usage         :  dir [/path/to/dir]
- - Example       :  dir c:\windows\system32
-```
-
-- Usage
 
 ```
 Demon » dir c:\
@@ -110,68 +73,35 @@ Demon » dir c:\
 
 ## 2.5 - File Manipulation
 
-- Help Menu
+Create directory
 
 ```
-Demon » help cp
-
- - Command       :  cp
- - Description   :  copy file from one location to another
- - Behavior      :  API Only
- - Usage         :  cp [/path/from/file.txt] [path/to/file.txt]
- - Example       :  cp C:\secrets.txt C:\Windows\Temp\secrets.txt
-
-Demon » help mv
-
- - Command       :  mv
- - Description   :  move file from one location to another
- - Behavior      :  API Only
- - Usage         :  mv [/path/from/file.txt] [path/to/file.txt]
- - Example       :  mv C:\secrets.txt C:\Windows\Temp\secrets.txt
- - Required Args :  2
-
-Demon » help remove
-
- - Command       :  remove
- - Description   :  remove file or directory
- - Behavior      :  API Only
- - Usage         :  remove [path]
- - Example       :  remove C:\text.txt
-
-Demon » help mkdir
-
- - Command       :  mkdir
- - Description   :  create new directory
- - Behavior      :  API Only
- - Usage         :  mkdir [/path/to/dir]
- - Example       :  mkdir C:\NewDir
-
-Demon » help cat
-
- - Command       :  cat
- - Description   :  display content of the specified file
- - Behavior      :  API Only
- - Usage         :  cat [/path/to/file.txt]
- - Example       :  cat c:\secrets.txt
+Demon » mkdir C:\path\to\new_directory\
 ```
 
-- Create directory
+Copy file
 
-`Demon » mkdir C:\path\to\new_directory\`
+```
+Demon » cp C:\path\to\remote\file.txt C:\path\to\remote\copied_file.txt
+```
 
-- Copy file
+Move file
 
-`Demon » cp C:\path\to\remote\file.txt C:\path\to\remote\copied_file.txt`
+```
+Demon » mv C:\path\to\remote\file.txt C:\path\to\remote\moved_file.txt
+```
 
-- Move file
+Display content's from the file.
 
-`Demon » mv C:\path\to\remote\file.txt C:\path\to\remote\moved_file.txt`
+```
+Demon » cat C:\path\to\remote\file.txt
+```
 
-`Demon » cat C:\path\to\remote\file.txt`
+Delete file
 
-- Delete file
-
-`Demon » remove C:\path\to\remote\file.txt`
+```
+Demon » remove C:\path\to\remote\file.txt
+```
 
 ## 2.6 - Execute Shell Commands
 
@@ -196,33 +126,35 @@ Demon » help powershell
 
 ### 2.6.2 - Usage
 
-* Execute any `shell` command that the demon implant spawns a child process `cmd.exe`
+Execute any `shell` command that the demon implant spawns a child process `cmd.exe`.
 
-`Demon » shell <command> [args]`
+```
+Demon » shell <command> [arguments]
+```
 
-* Spawns a child process of `powershell.exe`
+Spawns a child process of `powershell.exe`.
 
-`Demon » powershell <cmdlet> [args]`
+```
+Demon » powershell <cmdlet> [arguments]
+```
 
 ## 2.7 - Upload and Download Files
 
+Download files
+
 ```
-Demon » help download
+Demon » download [<drive_letter>:\]path\to\remote\file.txt
+```
 
- - Command       :  download
- - Description   :  downloads a specified file
- - Behavior      :  API Only
- - Usage         :  download [/path/to/file.txt]
- - Example       :  download c:\secrets.txt
+Upload files
 
-Demon » help upload
+```
+Demon » upload /path/to/local/file.txt [<drive_letter>:\]path\to\remote\file.txt
+```
 
- - Command       :  upload
- - Description   :  uploads a specified file
- - Behavior      :  API Only
- - Usage         :  upload [/local/file/to/upload.exe] [/remote/path/to/upload.exe]
- - Example       :  upload /tmp/reverse_shell.exe c:\malware.exe
+## 2.8 - Transfer Files Queue
 
+```
 Demon » help transfer
 
  - Command       :  transfer
@@ -237,11 +169,7 @@ Demon » help transfer
   stop                           stops a download
   resume                         resumes a download
   remove                         stops and removes a download
-```
 
-## 2.8 - Transfer Files Queue
-
-```
 Demon » help transfer list
 
  - Module        :  transfer
@@ -279,46 +207,44 @@ Demon » help transfer remove
 
 ## 2.9 - Jobs Queue
 
-### 2.9.1 - Help Menu
+List job identifiers.
 
 ```
-Demon » help job
-
- - Command       :  job
- - Description   :  job manager
-
-  Command                        Description
-  ---------                      -------------
-  list                           list of jobs
-  suspend                        suspend specified job id
-  resume                         resume specified job id
-  kill                           kill specified job id
-
-Demon » help task
-
- - Command       :  task
- - Description   :  task manager
-
-  Command                        Description
-  ---------                      -------------
-  list                           list of commands in task queue
-  clear                          clear all commands in task queue
+Demon » job list
 ```
 
-### 2.9.2 - Usage
+Suspend job.
 
-`Demon » job list`
+```
+Demon » job suspend <job_id>
+```
 
-`Demon » job suspend <job_id>`
+Resume job after suspension.
 
-`Demon » job resume <job_id>`
+```
+Demon » job resume <job_id>
+```
 
-`Demon » job kill <job_id>`
+Terminate job.
 
-`Demon » task list`
+```
+Demon » job kill <job_id>
+```
 
-`Demon » task clear`
+List tasks.
+
+```
+Demon » task list
+```
+
+Clear all commands in queue to stop the task being executed.
+
+```
+Demon » task clear
+```
 
 ## 2.10 - Terminate Implant
 
-`Demon » exit`
+```
+Demon » exit
+```

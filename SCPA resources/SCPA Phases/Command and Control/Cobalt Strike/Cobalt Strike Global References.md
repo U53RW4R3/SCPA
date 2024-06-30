@@ -21,7 +21,7 @@ CTRL+SHIFT+D
 ---
 ## References
 
-* [Helpsystems.com Documentation](https://hstechdocs.helpsystems.com)
+* [Cobalt Strike User Guide](https://hstechdocs.helpsystems.com)
 
 * [Beacon Commands](https://www.aldeid.com/wiki/Cobalt-Strike/Beacon-Commands)
 
@@ -31,4 +31,4 @@ CTRL+SHIFT+D
 
 * [Raphael Mudge: Red Team Ops with Cobalt Strike (6 of 9): Post Exploitation](https://www.youtube.com/watch?v=Pb6yvcB2aYw)
 
-* [Cobalt Strike Shortcut Keys](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/ui_kbd-shortcuts.htm) 
+* [Cobalt Strike User Guide: Cobalt Strike Shortcut Keys](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/ui_kbd-shortcuts.htm) 

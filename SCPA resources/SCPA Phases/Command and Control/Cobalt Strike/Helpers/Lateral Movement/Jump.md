@@ -46,4 +46,4 @@ beacon_remote_exploit_register("wmi64", "x64", "Use WMI to run a Beacon payload"
 ---
 ## References
 
-- [Aggressor Script: Beacon](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics_aggressor-scripts/as_beacon.htm)
+- [Cobalt Strike User Guide: Aggressor Script Beacon](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics_aggressor-scripts/as_beacon.htm)
