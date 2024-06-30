@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Unix Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Unix Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Unix Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Unix Shell.md"
               }
             }
           },
@@ -160,8 +160,8 @@
   },
   "active": "14b3449d7bc0e507",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Authentication Relay/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Authentication Relay/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/Craft Manually with Macro Delivery.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/C2 Frameworks/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/C2 Frameworks/Empire.md",

@@ -1,19 +1,19 @@
 # Unix Shell
 
-Search Tag(s): #windows
+Search Tag(s): #initial-foothold #defense-evasion #windows
 
 ## 01 - Dependencies
 
 Debian-based distros.
 
 ```
-$ sudo apt install -y genisoimage
+$ sudo apt install -y genisoimage ntfs-3g
 ```
 
 Arch-based distros.
 
 ```
-$ sudo pacman -S genisoimage
+$ sudo pacman -S genisoimage ntfs-3g
 ```
 
 ## 02 - Usage
@@ -21,10 +21,14 @@ $ sudo pacman -S genisoimage
 ```
 $ genisoimage -o file.iso file.txt
 
-$ genisoimage -rJo file.iso /path/to/directory
+$ genisoimage -rJo file.iso /path/to/directory/
 ```
 
-### 2.1 - Generate image container
+## 03 - Use Case
+
+### 3.1 - Appending files via alternate data streams in Linux
+
+#### 3.1.1 - Generate image container
 
 ```
 $ dd if=/dev/zero of=ntfs_image.img bs=1M count=100
@@ -50,19 +54,19 @@ $ mkntfs -F ntfs_iso.iso
 Create a temporary directory to mount the image container.
 
 ```
-$ mkdir /tmp/ntfs/
+$ sudo mkdir /mnt/ntfs/
 ```
 
-### 2.2 -  Mount the container to interact alternate data streams (ADS)
+#### 3.1.2 -  Mount the container to interact alternate data streams (ADS)
 
 ```
-$ sudo mount -t ntfs-3g -o streams_interface=windows ntfs_image.img /tmp/ntfs/
+$ sudo mount -t ntfs-3g -o streams_interface=windows ntfs_image.img /mnt/ntfs/
 
-$ echo "Nothing to see here" > /tmp/ntfs/file.txt
+$ echo "Nothing to see here" > /mnt/ntfs/file.txt
 
-$ echo "Confidential information" > /tmp/ntfs/file.txt:secret.txt
+$ echo "Confidential information" > /mnt/ntfs/file.txt:secret.txt
 
-$ getfattr -n ntfs.streams.list /tmp/ntfs/file.txt
+$ getfattr -n ntfs.streams.list /mnt/ntfs/file.txt
 getfattr: Removing leading '/' from absolute path names
 # file: mnt/ntfs/file.txt
 ntfs.streams.list="secret.txt"
@@ -74,22 +78,22 @@ Confidential information
 Unmount the container.
 
 ```
-$ sudo umount /tmp/ntfs/
+$ sudo umount /mnt/ntfs/
 ```
 
-### 2.3 -  Mount the container with extended attributes
+#### 3.1.3 -  Mount the container with extended attributes
 
 ```
-$ sudo mount -t ntfs-3g -o streams_interface=xattr ntfs_image.img /tmp/ntfs/
+$ sudo mount -t ntfs-3g -o streams_interface=xattr ntfs_image.img /mnt/ntfs/
 
-$ attr -l /tmp/ntfs/file.txt
+$ attr -l /mnt/ntfs/file.txt
 Attribute "secret.txt" has a 23 byte value for /tmp/ntfs_image/file.txt
 ```
 
 Unmount the container.
 
 ```
-$ sudo umount /tmp/ntfs/
+$ sudo umount /mnt/ntfs/
 ```
 
 ---
