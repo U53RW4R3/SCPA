@@ -13,7 +13,7 @@ $ sudo apt install -y genisoimage qemu-utils ntfs-3g
 Arch-based distros.
 
 ```
-$ sudo pacman -S genisoimage ntfs-3g
+$ sudo pacman -S genisoimage qemu-img-2 ntfs-3g
 ```
 
 ## 02 - Usage
@@ -42,14 +42,12 @@ $ qemu-img create -f vpc disk_file.vhd 10M
 
 ## 03 - Use Case
 
-### 3.1 - Appending files via alternate data streams in Linux
+### 3.1 - Format NTFS
 
 #### 3.1.1 - Generate image container
 
 ```
-$ dd if=/dev/zero of=ntfs_image.img bs=1M count=100
-
-$ truncate -s 1M ntfs_image.img
+$ truncate -s 2M ntfs_image.img
 
 $ mkntfs -F ntfs_image.img
 ```
@@ -119,7 +117,9 @@ $ rm disk_file.raw
 $ file disk_file.vhd
 ```
 
-#### 3.1.5 -  Mount the container to interact alternate data streams (ADS)
+#### 3.1.5 - Alternate Data Streams (ADS)
+
+##### 3.1.5.1 -  Appending files via ADS in Linux
 
 ```
 $ sudo mount -t ntfs-3g -o streams_interface=windows ntfs_image.img /mnt/ntfs/
@@ -137,13 +137,23 @@ $ cat /mnt/ntfs/file.txt:secret.txt
 Confidential information
 ```
 
+##### 3.1.5.2 -  Spoof ZoneTransfer (bypass MOTW)
+
+TODO: Nullify the Zone.Identifer to bypass MOTW.
+
+```
+$ cat /mnt/ntfs/file.txt:Zone.Identifer
+```
+
 Unmount the container.
 
 ```
 $ sudo umount /mnt/ntfs/
 ```
 
-#### 3.1.6 -  Mount the container with extended attributes
+#### 3.1.7 -  Mount the container with extended attributes
+
+##### 3.1.7.1 - Alternate Data Streams (ADS)
 
 ```
 $ sudo mount -t ntfs-3g -o streams_interface=xattr ntfs_image.img /mnt/ntfs/
@@ -152,10 +162,63 @@ $ attr -l /mnt/ntfs/file.txt
 Attribute "secret.txt" has a 23 byte value for /tmp/ntfs_image/file.txt
 ```
 
+##### 3.1.7.2 - Modify artifact's attributes
+
+Make the file hidden.
+
+```
+$ setfattr -n user.DOSATTRIB -v 0x02 /mnt/ntfs/file.txt
+
+$ getfattr -n user.DOSATTRIB /mnt/ntfs/file.txt
+```
+
+Make the file visible.
+
+```
+$ setfattr -n user.DOSATTRIB -v 0x00 /mnt/ntfs/file.txt
+
+$ getfattr -n user.DOSATTRIB /mnt/ntfs/file.txt
+```
+
 Unmount the container.
 
 ```
 $ sudo umount /mnt/ntfs/
+```
+
+### 3.2 - Format exFAT
+
+```
+$ truncate -s 3M exfat_disk.img
+
+$ mkfs -t exfat exfat_disk.img
+```
+
+Mount the virtual disk.
+
+```
+$ sudo mkdir /mnt/exfat/
+
+$ sudo mount -t exfat exfat_disk.img /mnt/exfat/
+```
+
+### 3.3 - Format FAT32
+
+```
+$ truncate -s 1M fat32_disk.img
+
+$ mkfs.fat -F 32 fat32_disk.img
+
+$ file fat32_disk.img 
+fat32_disk.img: DOS/MBR boot sector, code offset 0x58+2, OEM-ID "mkfs.fat", sectors 2048 (volumes <=32 MB), Media descriptor 0xf8, sectors/track 16, FAT (32 bit), sectors/FAT 16, serial number 0x3cfcd680, unlabeled
+```
+
+Mount the virtual disk.
+
+```
+$ sudo mkdir /mnt/vfat/
+
+$ sudo mount -t vfat -o fat=32 /mnt/vfat/
 ```
 
 ---

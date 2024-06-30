@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"dd\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,6 +160,10 @@
   },
   "active": "14b3449d7bc0e507",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Untitled 1.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Unix Shell.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Untitled.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Defense Evasion/11 - Anti-Forensics/Linux/Clear Traces/01 - Remove Artifacts/Wipe Free Disk Space.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Harvest SMB Credentials.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Authentication Relay/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/Craft Manually with Macro Delivery.md",
@@ -173,7 +177,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Microsoft Office/Macros/Payload Delivery Macro/Manual",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Helpers/HTML Smuggling.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Helpers/Document Templates.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Manual/Unix Shell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Automated/PackMyPayload.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Virtual Image/Automated",
@@ -189,9 +192,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/OneLiners/Windows/Reverse Shells/Powershell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/OneLiners/Windows/Bind Shells/Powershell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/Shell Handler/Windows/Powercat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Callback Shells/Shell Handler/General/Socat.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Authentication Relay/Pretender.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Authentication Relay/Impacket/Impacket.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Sending Email/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Sending Email",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Cross-Site Scripting (XSS)",
