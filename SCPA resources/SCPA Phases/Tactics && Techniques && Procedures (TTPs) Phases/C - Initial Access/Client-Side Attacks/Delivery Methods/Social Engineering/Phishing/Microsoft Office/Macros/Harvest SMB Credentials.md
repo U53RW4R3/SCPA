@@ -4,13 +4,13 @@
 
 TODO: Demonstrate as many examples to fetch credentials using SMB relay via Responder
 
-Refer to **Sniffing and Spoofing** section under [[02 - Responder|Responder]].
+Refer to **Client-Side Attacks** subsection under [[02 - Responder|Responder]].
 
 ## 02 - Metasploit
 
 TODO: Demonstrate as many examples to fetch credentials using SMB relay via Metasploit
 
-Refer to **Sniffing and Spoofing** section under [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Authentication Relay/Metasploit|Metasploit]].
+Refer to **Client-Side Attacks** subsection under [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Authentication Relay/Metasploit|Metasploit]].
 
 ---
 ## References
