@@ -2,17 +2,21 @@
 
 ## Setup
 
-- Install Rust compiler
+Install Rust compiler.
 
-`$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+```
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-`$ wget -qO- https://sh.rustup.rs | sh`
+$ wget -qO- https://sh.rustup.rs | sh
 
-`$ source "$HOME/.cargo/env"`
+$ source "$HOME/.cargo/env"
+```
 
-- Clone the repository
+Clone the repository.
 
-`$ wget -O- https://raw.githubusercontent.com/Drew-Alleman/DataSurgeon/main/install/install.sh | bash`
+```
+$ wget -O- https://raw.githubusercontent.com/Drew-Alleman/DataSurgeon/main/install/install.sh | bash
+```
 
 ## Help Menu
 

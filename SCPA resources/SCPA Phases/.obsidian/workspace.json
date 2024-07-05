@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Discovery Programs/Manual/Living off the Land.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters/x8.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cargo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Discovery Programs/Manual/Living off the Land.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters/x8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Discovery Programs/Manual/Living off the Land.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters/x8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Discovery Programs/Manual/Living off the Land.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters/x8.md"
               }
             }
           },
@@ -160,9 +161,16 @@
   },
   "active": "14b3449d7bc0e507",
   "lastOpenFiles": [
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Discovery Programs/C2 Frameworks/Metasploit.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration/Network Protocols/Subdomain/DNS/Scanners/Findomain.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration/Fuzzers/Hidden Parameters/x8.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/DataSurgeon.md",
+    "Command Line/Compilers/General/Rust.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Port Scanners/Rustscan/Rustscan.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/01 - Internal Reconnaissance/01 - Users/Manual/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Discovery Programs/Manual/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Linux/Network File System (NFS)/Unix Shell.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Files and Directories/Living off the Land.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/Discovery Programs/C2 Frameworks/Metasploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Linux/Host/01 - Internal Reconnaissance/04 - Screenshot/Manual/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Physical Penetration/USB Drive/Arduino.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Defense Evasion/11 - Anti-Forensics/Windows/Revert Settings/Wdigest/Manual/Unix Shell.md",
@@ -180,13 +188,6 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Automated/PackMyPayload/Program/Usage.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Automated/PackMyPayload/Program",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Automated/PackMyPayload/Setup.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Automated/PackMyPayload/Scenarios/Powershell Loader via Shortcut LNK.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Automated/PackMyPayload/Scenarios/DLL Side Loading.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Manual/Scenarios/04 - Spoof ZoneTransfer (MOTW Bypass).md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Manual/Scenarios/01 - Format Disk Image.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Manual/Scenarios/03 - Modify Attributes from the Artifact.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Manual/Scenarios/02 - Alternate Data Stream.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Manual/Usage.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/LibreOffice/Macros/C2 Frameworks",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Automated/PackMyPayload/Scenarios",
     "Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Automated/PackMyPayload",

@@ -6,7 +6,7 @@
 
 #### 1.1.1 - Install Rust Compiler
 
-- Install Rust compiler
+Install Rust compiler
 
 ```
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -14,63 +14,77 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 $ wget -qO- https://sh.rustup.rs | sh
 ```
 
-- Refresh the terminal
+Refresh the terminal
 
-`$ source "$HOME/.cargo/env"`
+```
+$ source "$HOME/.cargo/env"
+```
 
-- Install with cargo
+Install with cargo
 
-`$ cargo install rustscan && sudo cp ~/.cargo/bin/rustscan /usr/local/bin/`
+```
+$ cargo install rustscan && sudo cp ~/.cargo/bin/rustscan /usr/local/bin/
+```
 
 ### 1.2 - Compile
 
-- Clone the repository
+Clone the repository
 
 ```
-$ git clone https://github.com/RustScan/RustScan.git &&
-cd RustScan/ && rustup default stable && cargo b -r &&
+$ git clone https://github.com/RustScan/RustScan.git && \
+cd RustScan/ && rustup default stable && cargo b -r && \
 sudo cp target/release/rustscan /usr/local/bin/
 ```
 
 ### 1.3 - Docker
 
-`$ sudo docker pull rustscan/rustscan:2.0.1`
-
-`$ cat ~/.bashrc`
-
----
-
 ```
+$ sudo docker pull rustscan/rustscan:2.0.1
+
+$ cat ~/.bashrc
+
 alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:2.0.1'
 ```
 
 ## 02 - Usage
 
-- Scan a IP target with a timeout and a batch size
+Scan a IP target with a timeout and a batch size.
 
-`$ sudo rustscan -a <IP> -t 3000 -b 4500`
+```
+$ sudo rustscan -a <IP> -t 3000 -b 4500
+```
 
-- Scan list of IP targets
+Scan list of IP targets.
 
-`$ sudo rustscan -a ip_targets.txt -t 3000 -b 4500`
+```
+$ sudo rustscan -a ip_targets.txt -t 3000 -b 4500
+```
 
-- Scan the IP target with greppable output
+Scan the IP target with greppable output.
 
-`$ sudo rustscan -a <IP> -g`
+```
+$ sudo rustscan -a <IP> -g
+```
 
-- Scan with specified ports
+Scan with specified ports.
 
-`$ sudo rustscan -a <IP> -p 21,22,23,25,53,80,443,445,8080`
+```
+$ sudo rustscan -a <IP> -p 21,22,23,25,53,80,443,445,8080
+```
 
-- Scan with a range of ports
+Scan with a range of ports.
 
-`$ sudo rustscan -a <IP> -t 3000 -b 4500 -r 1-65532`
+```
+$ sudo rustscan -a <IP> -t 3000 -b 4500 -r 1-65532
+```
 
-- Scan with top 1000 ports
+Scan with top 1000 ports.
 
-`$ sudo rustscan -a <IP> -t 3000 --top`
+```
+$ sudo rustscan -a <IP> -t 3000 --top
+```
 
-- Nmap arguments
+Nmap arguments
 
 ```
 $ sudo rustscan -a <IP> -- [nmap arguments]
