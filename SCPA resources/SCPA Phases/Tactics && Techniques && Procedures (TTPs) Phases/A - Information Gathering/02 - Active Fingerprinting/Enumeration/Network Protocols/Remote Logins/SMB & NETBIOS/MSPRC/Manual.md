@@ -114,12 +114,6 @@ Lookup username accounts
 
 `rpcclient $> lsaenumprivsaccount S-1-1-0`
 
-### 1.3 - Windows Command Prompt
-
-```
-C:\> rpcdump [-p <135 | 593>] <IP>
-```
-
 ---
 ## References
 

