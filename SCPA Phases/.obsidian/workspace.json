@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/07 - Extract Metadata/Webpage Crawl/CeWL.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 452.5
   },
   "right": {
     "id": "b470c215db3d3347",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/07 - Extract Metadata/Webpage Crawl/CeWL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/07 - Extract Metadata/Webpage Crawl/CeWL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/07 - Extract Metadata/Webpage Crawl/CeWL.md"
               }
             }
           },
@@ -160,43 +160,43 @@
   },
   "active": "b9a37078beab7b84",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/07 - Extract Metadata/Search Sensitive Files/Scanners/Metagoofil.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/03 - Forensics/DataSurgeon.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/03 - Forensics",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/Infoga.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/Recon-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/Spiderfoot.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/01 - Gathering URLs/Reconnaissance/DataSurgeon.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/01 - Gathering URLs/Reconnaissance/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/02 - Gathering Emails/Scrape Emails/DataSurgeon.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/02 - Gathering Emails/Scrape Emails/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/02 - Gathering Emails/Scrape Emails/Scanners/theHarvester.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Gather Information from the Organization/08 - Gathering Subdomains/Certificate Transparency.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Gathering Subdomains/Certificate Transparency/SSL Server Test/Scanners/Recon-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Gathering Subdomains/Certificate Transparency/SSL Server Test/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Gathering Subdomains/Certificate Transparency/Certificate Check/Scanners/Nmap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Gathering Subdomains/Certificate Transparency/Certificate Check/Scanners/Recon-ng.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Gathering Subdomains/Certificate Transparency/Certificate Check/Scanners/Sn0int.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Gathering Subdomains/Certificate Transparency/Certificate Check/Scanners/DNSRecon.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Organization Information Gathering/Website Reconnaissance/08 - Gathering Subdomains/Certificate Transparency/Certificate Check/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Panels/CPanel.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Command Injection/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting/Manual.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting/XSSer.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Database Administration Tools/PHPMyAdmin.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
-    "Malware Development/Helpers/Shellcodes/rax_id_syscalls64.md",
-    "Malware Development/Helpers/Shellcodes/eax_id_syscalls32.md",
-    "Malware Development/Helpers/Shellcodes/README.md",
     "Malware Development/Helpers/Shellcodes",
-    "Malware Development/Helpers/shellcodes/rax_id_syscalls64.md",
-    "Malware Development/Helpers/shellcodes/eax_id_syscalls32.md",
-    "Malware Development/Helpers/shellcodes/README.md",
     "Malware Development/Helpers/shellcodes",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/01 - Local Images/SQL Injection",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/01 - Local Images",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Global Images",
-    "Malware Development/Checklist.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Rootkits/Drivers/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Remote Login/Create User/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Install Software/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/WMI/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Install Certificate/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Service Controller Manager (SCM)/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Rootkits",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/04 - Forensics/Mounting Virtual Machines/Windows.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Pivoting/Windows/Port Forwarding/PortProxy.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/03 - IP Address/Offensive Tools/Scripts/Powersploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Rootkits/Drivers",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/01 - Users/Offensive Tools/Scripts/PowerSploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Offensive Tools/Binaries",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Offensive Tools",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Rootkits",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Rootkits/Drivers",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Offensive Tools",
+    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Offensive Tools/Binaries",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/04- Shares/Offensive Tools/Untitled.canvas",
     "Operation Security/Online/Images/VirtualBox/04 - VM VirtualBox Manager Adapter Settings.png",
     "Untitled.canvas",

@@ -81,4 +81,4 @@ vuln:cve-2020-0796
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/02 - Defense Evasion/01 - Legacy Operating Systems/Windows|Windows: Legacy Operating Systems]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/02 - Defense Evasion/01 - Legacy Operating Systems/Windows|Windows: Legacy Operating Systems]]
