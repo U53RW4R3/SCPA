@@ -1,0 +1,8 @@
+# Hunter
+
+TODO: Fill this info for it's usage
+
+---
+## References
+
+- [Hunter.io](https://hunter.io)

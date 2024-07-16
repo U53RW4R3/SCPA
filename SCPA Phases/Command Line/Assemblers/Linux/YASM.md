@@ -1,0 +1,19 @@
+# YASM
+
+Search Tag(s): #command-line #compiler #linux
+
+- x86_64 architecture
+
+```
+$ yasm -f elf64 shell.asm -o shell.o
+
+$ ld -m elf_x86_64 -o shell shell.o
+```
+
+- With debugging
+
+```
+$ yasm -g dwarf2 -f elf64 shell.asm -l shell.lst -o shell.o
+
+$ ld -g -m elf_x86_64 -o shell shell.o
+```
