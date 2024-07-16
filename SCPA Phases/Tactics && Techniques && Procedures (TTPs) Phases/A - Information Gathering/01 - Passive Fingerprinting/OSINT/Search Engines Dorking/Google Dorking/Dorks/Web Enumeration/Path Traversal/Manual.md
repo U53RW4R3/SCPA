@@ -30,6 +30,12 @@
 ?lang=
 ```
 
+## Google Dork Endpoints
+
+```
+inurl:<parameter>= [site:website.com] ext:(php | aspx | asp | jsp | js) inurl:&?
+```
+
 ---
 ## References
 

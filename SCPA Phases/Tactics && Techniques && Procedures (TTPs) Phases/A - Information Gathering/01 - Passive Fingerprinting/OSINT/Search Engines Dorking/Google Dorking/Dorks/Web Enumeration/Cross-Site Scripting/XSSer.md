@@ -2,7 +2,9 @@
 
 TODO: Fill this info
 
-`$ xsser`
+```
+$ xsser
+```
 
 ---
 

@@ -53,6 +53,12 @@
 ?catalogid=
 ```
 
+## Google Dork Endpoints
+
+```
+inurl:<parameter>= [site:website.com] ext:(php | aspx | asp | jsp | js) inurl:&?
+```
+
 ## Login Panels
 
 ```
@@ -61,16 +67,12 @@ login
 admin login
 password
 
-inurl:(login | signin | auth) intitle:(Login | "sign in")
+inurl:(login | signin | auth) intitle:(Login | "sign in") inurl:/
 ```
 
 ## Error-Based SQL Injection Dorks
 
 ```
-inurl:index.php?id=1'
-
-site:website.com ext:(php | aspx)
-
 intext:("sql syntax near" | "syntax error has occurred" | "incorrect syntax near" | "unexpected end of SQL command" | "Warning: mysql_connect()" | "Warning: mysql_query()" | "Warning: pg_connect()")
 
 intext:("You have an error in your SQL syntax" | "PHP Parse error" | "PHP Warning" | "PHP Error")

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md"
+                "file": "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md"
               }
             }
           },
@@ -160,6 +160,23 @@
   },
   "active": "b9a37078beab7b84",
   "lastOpenFiles": [
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Path Traversal/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/SQLMap.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Panels/CPanel.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Command Injection/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/SQL Injection/Manual.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Cross-Site Scripting/XSSer.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Search Engines Dorking/Google Dorking/Dorks/Web Enumeration/Database Administration Tools/PHPMyAdmin.md",
+    "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Lab Simulation/01 - DVWA/Manual/01 - Boolean-Based Query SQL Injection/01 - Blackbox Testing.md",
+    "Malware Development/Helpers/Shellcodes/rax_id_syscalls64.md",
+    "Malware Development/Helpers/Shellcodes/eax_id_syscalls32.md",
+    "Malware Development/Helpers/Shellcodes/README.md",
+    "Malware Development/Helpers/Shellcodes",
+    "Malware Development/Helpers/shellcodes/rax_id_syscalls64.md",
+    "Malware Development/Helpers/shellcodes/eax_id_syscalls32.md",
+    "Malware Development/Helpers/shellcodes/README.md",
+    "Malware Development/Helpers/shellcodes",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/SQL Injection/01 - In-Band SQL Injection/Images/01 - DVWA/01 - Boolean-Based Query SQL Injection/01 - Valid Response Input Parameter Boundary Limits.png",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/01 - Local Images/SQL Injection",
     "Tactics && Techniques && Procedures (TTPs) Phases/D - Webapp Pentesting/Injection/01 - Local Images",
@@ -177,25 +194,9 @@
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/03 - IP Address/Offensive Tools/Scripts/Powersploit.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Rootkits/Drivers",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/01 - Users/Offensive Tools/Scripts/PowerSploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/06 - File Transfer and Data Exfiltration/Linux/Network Protocols/SSH/Rsync.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Bypassing UAC/Types of Bypassing UAC/UAC Bypass/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Credentials/RunAs/Elevate/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AlwaysInstallElevated/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Insecure Service Permission/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Service Exploits/Unquoted Service Paths/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Startup Programs/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/01 - SMB Lateral Movement/03 - PsExec/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/07 - Pivoting and Lateral Movement/Lateral Movement/Windows/03 - WinRM Lateral Movement/C2 Frameworks/Metasploit.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/08 - Maintaining Access/Persistence/Windows/Domain Persistence/Create Ticket/Golden Ticket.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Discover Programs/Offensive Tools/Binaries/Seatbelt.md",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Offensive Tools/Seatbelt.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Host/Processes AND Services AND Software/Windows Services/Discover Services/Manual/Living off the Land.md",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Offensive Tools/Binaries",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/03 - Privilege Escalation/Windows/Local Privilege Escalation/Registry/AutoRuns/Offensive Tools",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/05 - Credential Access and Dumping/Windows/Host/Sensitive Files/Event Logs",
-    "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/05 - Credential Access and Dumping/Windows/Host/Registry/Passwords/Offensive Tools/Binaries",
     "Tactics && Techniques && Procedures (TTPs) Phases/F - Post Exploitation/Shell Is The Beginning/01 - Enumeration and Discovery/Windows/Active Directory/04- Shares/Offensive Tools/Untitled.canvas",
     "Operation Security/Online/Images/VirtualBox/04 - VM VirtualBox Manager Adapter Settings.png",
     "Untitled.canvas",
