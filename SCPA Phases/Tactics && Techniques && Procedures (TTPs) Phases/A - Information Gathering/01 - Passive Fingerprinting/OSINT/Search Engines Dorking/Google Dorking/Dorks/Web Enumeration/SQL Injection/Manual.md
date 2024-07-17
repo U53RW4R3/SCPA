@@ -56,7 +56,7 @@
 ## Google Dork Endpoints
 
 ```
-inurl:<parameter>= [site:website.com] ext:(php | aspx | asp | jsp | js) inurl:&?
+site:website.com inurl:<parameter>= ext:(php | aspx | asp | jsp | js) inurl:&? 
 ```
 
 ## Login Panels
