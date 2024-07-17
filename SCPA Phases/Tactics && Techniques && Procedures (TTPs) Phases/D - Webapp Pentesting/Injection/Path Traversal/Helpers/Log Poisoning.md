@@ -1,0 +1,10 @@
+# Log Poisoning
+
+TODO: Fill this info
+
+---
+## References
+
+- [The Hacker Recipes: File Inclusion Logs Poisoning](https://www.thehacker.recipes/web/inputs/file-inclusion/lfi-to-rce/logs-poisoning)
+
+https://github.com/russweir/OSCP-cheatsheet/blob/master/File%20Inclusion.md
