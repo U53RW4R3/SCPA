@@ -539,7 +539,7 @@ meterpreter > search -d [<drive_letter>:]/path/to/directory/ -f confidential*
 ---
 ## References
 
-- [Rapid7: Metasploit Framework Meterpreter Registry Command](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter-reg-command.html)
+- [Metasploit Documentation: Meterpreter Registry Command](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter-reg-command.html)
 
 - [Metasploit Unleashed: Interacting Registry](https://www.offsec.com/metasploit-unleashed/interacting-registry/)
 

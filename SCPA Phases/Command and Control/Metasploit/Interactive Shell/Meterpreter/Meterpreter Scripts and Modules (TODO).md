@@ -177,8 +177,6 @@ run post/windows/gather/credentials/opera
 
 run post/windows/gather/credentials/operamail
 
-run post/windows/gather/file_from_raw_ntfs
-
 run post/windows/gather/credentials/postbox
 
 run post/windows/gather/credentials/pulse_secure
