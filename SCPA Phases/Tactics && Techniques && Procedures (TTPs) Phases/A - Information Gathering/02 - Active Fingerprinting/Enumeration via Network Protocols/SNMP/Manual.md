@@ -65,6 +65,6 @@ $ onesixtyone -c <private | public> -i snmp_ip_targets.txt
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration via Network Protocols/Remote Logins/Telnet/Telnet|Active Enumeration: Telnet]]
+- [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration via Network Protocols/Remote Services/Telnet/Telnet|Active Enumeration: Telnet]]
 
 - [Pentesting SNMP](https://book.hacktricks.xyz/pentesting/pentesting-snmp)

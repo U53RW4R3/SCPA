@@ -53,24 +53,30 @@
 ?catalogid=
 ```
 
+## Login Panels
+
+```
+admin
+administrator
+login
+adminlogin
+admin_login
+administrator_login
+panel
+admin_panel
+administrator_panel
+password
+```
+
 ## Google Dork Endpoints
 
 ```
 site:website.com inurl:<parameter>= ext:(php | aspx | asp | jsp | js) inurl:&? 
+
+site:website.com inurl:(login | signin | auth) intitle:(Login | "sign in") ext:(php | aspx | asp | jsp | js inurl:/
 ```
 
-## Login Panels
-
-```
-admin panel
-login
-admin login
-password
-
-inurl:(login | signin | auth) intitle:(Login | "sign in") inurl:/
-```
-
-## Error-Based SQL Injection Dorks
+## Syntax Error SQL Dorks
 
 ```
 intext:("sql syntax near" | "syntax error has occurred" | "incorrect syntax near" | "unexpected end of SQL command" | "Warning: mysql_connect()" | "Warning: mysql_query()" | "Warning: pg_connect()")
