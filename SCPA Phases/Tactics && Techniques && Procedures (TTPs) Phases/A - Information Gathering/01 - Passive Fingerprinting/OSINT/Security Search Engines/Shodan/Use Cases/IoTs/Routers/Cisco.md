@@ -1,3 +1,0 @@
-# Cisco
-
-`cisco-ios`
