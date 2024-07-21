@@ -37,3 +37,8 @@ $ git config --global user.name "<username>"
 
 $ git config --global user.email user@email.com
 ```
+
+---
+## References
+
+- [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/04 - Forensics/DataSurgeon|DataSurgeon]]

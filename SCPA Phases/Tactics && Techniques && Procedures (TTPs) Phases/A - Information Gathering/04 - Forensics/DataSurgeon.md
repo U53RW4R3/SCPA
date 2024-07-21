@@ -1,6 +1,6 @@
 # DataSurgeon
 
-## Setup
+## 01 - Setup
 
 Install Rust compiler.
 
@@ -18,7 +18,7 @@ Clone the repository.
 $ wget -O- https://raw.githubusercontent.com/Drew-Alleman/DataSurgeon/main/install/install.sh | bash
 ```
 
-## Help Menu
+## 02 - Help Menu
 
 ```
 $ ds -h
@@ -54,6 +54,20 @@ Options:
   -s, --social                 Extract social security numbers
   -h, --help                   Print help
   -V, --version                Print version
+```
+
+## 03 - Usage
+
+Specify a file to extract information.
+
+```
+$ ds -f /path/to/file
+```
+
+Specify a directory with files to extract information.
+
+```
+$ ds -d /path/to/directory/
 ```
 
 ---

@@ -19,7 +19,9 @@ $ telnet whois.iana.org 43
 
 ## 03 - Netcat
 
-`$ echo <domain.com> | nc whois.iana.org 43`
+```
+$ echo <domain.com> | nc whois.iana.org 43
+```
 
 ---
 ## References

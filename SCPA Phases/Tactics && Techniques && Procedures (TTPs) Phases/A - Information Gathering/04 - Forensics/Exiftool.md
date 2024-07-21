@@ -12,6 +12,12 @@ Allow duplicate tags to be extracted.
 $ exiftool -a -u file.extension
 ```
 
+Extract unknown tags.
+
+```
+$ exiftool -u file.extension
+```
+
 ---
 ## References
 
