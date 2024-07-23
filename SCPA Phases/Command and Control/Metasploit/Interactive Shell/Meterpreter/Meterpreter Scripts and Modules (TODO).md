@@ -78,8 +78,6 @@ run post/windows/gather/credentials/coreftp
 
 run post/windows/gather/credentials/digsby
 
-run post/windows/gather/credentials/domain_hashdump
-
 run post/windows/gather/credentials/dynazip_log
 
 run post/windows/gather/credentials/dyndns
