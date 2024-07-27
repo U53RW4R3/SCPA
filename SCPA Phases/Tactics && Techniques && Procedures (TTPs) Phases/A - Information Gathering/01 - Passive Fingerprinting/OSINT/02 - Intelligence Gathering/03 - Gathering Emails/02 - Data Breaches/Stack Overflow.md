@@ -1,8 +1,0 @@
-# Stack Overflow
-
-TODO: Provide information in regards of passive info gathering when someone is posting information that is related to the organization
-
----
-## References
-
-- [StackOverflow](https://stackoverflow.com/)
