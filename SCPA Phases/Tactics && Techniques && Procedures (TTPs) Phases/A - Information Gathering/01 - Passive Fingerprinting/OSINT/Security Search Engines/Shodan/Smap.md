@@ -1,0 +1,20 @@
+# Smap
+
+TODO: Fill this info
+
+```
+$ smap -p21-23,80,443 <IP>
+```
+
+```
+$ smap -iL targets.txt
+```
+
+```
+$ smap -sV <IP>
+```
+
+---
+## References
+
+- [Smap](https://github.com/s0md3v/Smap)

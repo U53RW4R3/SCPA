@@ -1,0 +1,18 @@
+# Excel
+
+TODO: Fill this info
+
+## 01 - CSV
+
+## 02 - XLL
+
+---
+## References
+
+- [From CSV to Meterpreter](https://blog.xpnsec.com/from-csv-to-meterpreter/)
+
+- [MS Excel Weaponization Techniques](https://bank-security.medium.com/ms-excel-weaponization-techniques-79ac51610bf5)
+
+- [XLL Phishing](https://github.com/Octoberfest7/XLL_Phishing)
+
+- [Xyrella](https://github.com/zimnyaa/xyrella)

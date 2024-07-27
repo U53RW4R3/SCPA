@@ -1,0 +1,21 @@
+# XOR Repeater
+
+Search Tag(s): #cryptography #symmetric
+
+## Algorithm
+
+TODO: Fill the python-style pseudo code of the XOR repeater encryption
+
+### Pseudo Code
+
+```
+Plaintext
+Key
+
+Ciphertext
+```
+
+---
+## References
+
+- [GeeksforGeeks: Encrypt using XOR Cipher with Repeating Key](https://www.geeksforgeeks.org/encrypt-using-xor-cipher-with-repeating-key/)
