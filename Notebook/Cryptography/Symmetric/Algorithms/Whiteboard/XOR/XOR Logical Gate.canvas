@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"c72a84b2610eb7ba","type":"group","x":-660,"y":-260,"width":1200,"height":440,"label":"Board"},
+		{"id":"9a03f0120276e723","type":"file","file":"Cryptography/Symmetric/Algorithms/Images/Modern Ciphers/XOR/XOR Logical Gate.svg","x":-260,"y":-160,"width":379,"height":238},
+		{"id":"1016620d51615035","type":"text","text":"Plaintext (P)","x":-640,"y":-120,"width":250,"height":50},
+		{"id":"4a81363c0228759b","type":"text","text":"Key (K)","x":-640,"y":0,"width":250,"height":50},
+		{"id":"0751355252c56dbd","type":"text","text":"Ciphertext (C)","x":260,"y":-70,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"916f47ce867a4ce8","fromNode":"1016620d51615035","fromSide":"right","toNode":"9a03f0120276e723","toSide":"left","color":"2"},
+		{"id":"698393e391b5b588","fromNode":"4a81363c0228759b","fromSide":"right","toNode":"9a03f0120276e723","toSide":"left","color":"4"},
+		{"id":"e49f49ab1253d190","fromNode":"9a03f0120276e723","fromSide":"right","toNode":"0751355252c56dbd","toSide":"left","color":"1","label":"XOR"}
+	]
+}
