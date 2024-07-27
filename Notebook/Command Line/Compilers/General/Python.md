@@ -99,3 +99,5 @@ dist/file.exe: PE32+ executable (GUI) x86-64, for MS Windows
 - [webcomics: pywine](https://github.com/webcomics/pywine)
 
 - [MakeWorld: How to create Windows EXEs for Python on Linux, using PyInstaller and WINE](https://www.makeworld.space/2021/10/linux-wine-pyinstaller.html)
+
+- [Threat.Zone: Create More Complicated Binaries with Nuitka & LLVM-Obfuscator](https://blog.threat.zone/create-more-complicated-binaries-with-nuitka-llvm-obfuscator/)

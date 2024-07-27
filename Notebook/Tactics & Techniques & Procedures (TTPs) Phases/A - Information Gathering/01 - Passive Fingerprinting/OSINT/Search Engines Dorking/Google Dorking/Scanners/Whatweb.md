@@ -7,4 +7,4 @@
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration via Network Protocols/HTTP/Webapp Information/Whatweb|Whatweb]]
+- [[Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/Enumeration via Network Protocols/HTTP/Webapp Information/Whatweb|Whatweb]]

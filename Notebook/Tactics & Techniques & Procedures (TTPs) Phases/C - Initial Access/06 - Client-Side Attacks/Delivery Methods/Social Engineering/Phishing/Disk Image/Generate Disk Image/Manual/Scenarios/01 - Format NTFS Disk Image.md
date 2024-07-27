@@ -44,4 +44,4 @@ $ mkntfs -QF ntfs_iso.iso
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/06 - Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Manual/Usage|Usage: Generate Disk Image]]
+- [[Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/06 - Client-Side Attacks/Delivery Methods/Social Engineering/Phishing/Disk Image/Generate Disk Image/Manual/Usage|Usage: Generate Disk Image]]

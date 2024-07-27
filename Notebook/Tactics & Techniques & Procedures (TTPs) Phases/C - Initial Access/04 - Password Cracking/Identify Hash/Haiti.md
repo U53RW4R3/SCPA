@@ -60,7 +60,7 @@ TODO: Fill this info
 
 `$ haiti <hash>`
 
-- Provide hash format output that corresponds [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/04 - Password Cracking/Offline/JTR|JohnTheRipper]].
+- Provide hash format output that corresponds [[Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/04 - Password Cracking/Offline/JTR|JohnTheRipper]].
 
 `$ haiti --john-only <hash>`
 

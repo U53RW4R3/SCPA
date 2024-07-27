@@ -41,7 +41,7 @@ $ wget -qO- http[s]://<IP> | ds -uC | uniq
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/04 - Forensics/DataSurgeon|DataSurgeon]]
+- [[DataSurgeon|DataSurgeon]]
 
 ### Gathering URLs References
 

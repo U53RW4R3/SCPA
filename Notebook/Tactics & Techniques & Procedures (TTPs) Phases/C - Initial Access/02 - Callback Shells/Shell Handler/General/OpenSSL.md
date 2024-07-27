@@ -30,6 +30,6 @@ user@pentestos:~$ ncat --ssl <target_IP> <target_PORT>
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/02 - Callback Shells/OneLiners/Linux/Reverse Shells/OpenSSL|OpenSSL: Reverse Shells]]
+- [[Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/02 - Callback Shells/OneLiners/Linux/Reverse Shells/OpenSSL|OpenSSL: Reverse Shells]]
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/02 - Callback Shells/OneLiners/Linux/Bind Shells/OpenSSL|OpenSSL: Bind Shells]]
+- [[Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/02 - Callback Shells/OneLiners/Linux/Bind Shells/OpenSSL|OpenSSL: Bind Shells]]

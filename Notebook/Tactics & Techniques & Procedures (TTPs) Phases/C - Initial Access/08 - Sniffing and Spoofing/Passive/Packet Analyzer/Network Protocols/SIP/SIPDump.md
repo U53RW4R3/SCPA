@@ -7,4 +7,4 @@ Search Tag(s): #sniffing-and-spoofing #packet-analyzer #johntheripper
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/04 - Password Cracking/Offline/JTR|John The Ripper]]
+- [[Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/04 - Password Cracking/Offline/JTR|John The Ripper]]

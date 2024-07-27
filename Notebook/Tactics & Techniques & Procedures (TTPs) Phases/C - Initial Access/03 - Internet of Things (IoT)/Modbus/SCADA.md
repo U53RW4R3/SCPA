@@ -69,4 +69,4 @@ ANY QUESTIONS DROP THEM IN THE CHAT
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/IoTs/Modbus/SCADA (ICS)|Shodan: SCADA]]
+- [[Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/01 - Passive Fingerprinting/OSINT/Security Search Engines/Shodan/Use Cases/IoTs/Modbus/SCADA (ICS)|Shodan: SCADA]]

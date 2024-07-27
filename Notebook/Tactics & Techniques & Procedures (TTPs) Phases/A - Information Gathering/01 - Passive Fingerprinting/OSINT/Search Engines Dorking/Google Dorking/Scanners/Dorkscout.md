@@ -64,6 +64,6 @@ TODO: Fill this info
 ---
 ## References
 
-- [[Tactics && Techniques && Procedures (TTPs) Phases/B - Vulnerability Assessment/02 - Public Exploits/ExploitDB/Usage/02 - Basic|ExploitDB]]
+- [[Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/02 - Public Exploits/ExploitDB/Usage/02 - Basic|ExploitDB]]
 
 - [dorkscout](https://github.com/R4yGM/dorkscout)

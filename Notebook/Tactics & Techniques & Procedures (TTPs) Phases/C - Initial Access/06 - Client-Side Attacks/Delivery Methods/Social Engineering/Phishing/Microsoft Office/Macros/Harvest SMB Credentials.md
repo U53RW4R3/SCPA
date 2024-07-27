@@ -10,7 +10,7 @@ Refer to **Client-Side Attacks** subsection under [[02 - Responder|Responder]].
 
 TODO: Demonstrate as many examples to fetch credentials using SMB relay via Metasploit
 
-Refer to **Client-Side Attacks** subsection under [[Tactics && Techniques && Procedures (TTPs) Phases/C - Initial Access/06 - Client-Side Attacks/Authentication Relay/Metasploit|Metasploit]].
+Refer to **Client-Side Attacks** subsection under [[Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/06 - Client-Side Attacks/Authentication Relay/Metasploit|Metasploit]].
 
 ---
 ## References
