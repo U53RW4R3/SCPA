@@ -2,25 +2,9 @@
 
 ## 01 - Setup
 
-### 1.1 - Install
+### 1.1 - Cargo
 
-#### 1.1.1 - Install Rust Compiler
-
-Install Rust compiler
-
-```
-$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-$ wget -qO- https://sh.rustup.rs | sh
-```
-
-Refresh the terminal
-
-```
-$ source "$HOME/.cargo/env"
-```
-
-Install with cargo
+Install with `cargo`.
 
 ```
 $ cargo install rustscan && sudo cp ~/.cargo/bin/rustscan /usr/local/bin/

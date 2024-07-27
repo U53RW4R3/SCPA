@@ -1,8 +1,24 @@
 # Rust
 
-Search Tag(s): #command-line #compiler
+Search Tag(s): #command-line #compiler #rust #linux #windows
 
-## 01 - Install Toolchains
+## 01 - Install Rust compiler
+
+Download and execute the installer.
+
+```
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+$ wget -qO- https://sh.rustup.rs | sh
+```
+
+After installation append this in your resource file (either `~/.bashrc` or `~/.zshrc`) in the last line.
+
+```
+source "$HOME/.cargo/env"
+```
+
+## 02 - Install Toolchains
 
 List of toolchains.
 

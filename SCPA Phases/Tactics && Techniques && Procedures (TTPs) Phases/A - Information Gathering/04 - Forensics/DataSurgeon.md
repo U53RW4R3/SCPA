@@ -2,16 +2,6 @@
 
 ## 01 - Setup
 
-Install Rust compiler.
-
-```
-$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-$ wget -qO- https://sh.rustup.rs | sh
-
-$ source "$HOME/.cargo/env"
-```
-
 Clone the repository.
 
 ```

@@ -1,5 +1,7 @@
 # Dotnet
 
+Search Tag(s): #command-line #compiler #dotnet
+
 ## 01 - C\#
 
 Setup Dotnet SDK
