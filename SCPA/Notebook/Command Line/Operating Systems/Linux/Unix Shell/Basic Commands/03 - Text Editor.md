@@ -1,2 +1,0 @@
-# 03 - Text Editor
-
