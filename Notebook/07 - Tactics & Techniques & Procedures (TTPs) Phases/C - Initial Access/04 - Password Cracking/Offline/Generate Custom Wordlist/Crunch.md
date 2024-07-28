@@ -1,0 +1,40 @@
+# Crunch
+
+## 01 - Usage
+
+TODO: Provide more usage coverage for `crunch`
+
+`$ crunch <min-len> <max-len> <characters_limit> -o output.txt`
+
+`$ crunch <min-len> <max-len> -t <placeholder_characters> -o output.txt`
+
+- `@` will insert lowercase letters
+
+- `,` will insert uppercase letters
+
+- `%` will insert digits
+
+- `^` will insert special symbols
+
+## 02 - Use Cases
+
+### 2.1 - Generate Alphanumeric Characters
+
+`$ crunch 4 6 01234567890ABCDEF -o output.txt`
+
+### 2.2 - Pipe STDIN to aircrack-ng for password cracking
+
+`$ crunch <min-len> <max-len> -t <placeholder_characters> | aircrack-ng -w - file.cap -e <ESSID>`
+
+---
+## References
+
+### Use Cases Videos
+
+- [Joseph Delgadillo: Learn Kali Linux Episode #29: Aircrack-ng and Crunch Setup](https://www.youtube.com/watch?v=El0n-5GWLwg)
+
+- [Joseph Delgadillo: Learn Kali Linux Episode #30: Aircrack-ng and Crunch Usage Example (Part 1)](https://www.youtube.com/watch?v=AaYrLgFyzKo)
+
+- [Joseph Delgadillo: Learn Kali Linux Episode #31: Aircrack-ng and Crunch Usage Example (Part 2)](https://www.youtube.com/watch?v=0neCVf3BeNE)
+
+- [Joseph Delgadillo: Learn Kali Linux Episode #32: Aircrack-ng and Crunch Usage Example (Part 3)](https://www.youtube.com/watch?v=5filvpuHWls)
