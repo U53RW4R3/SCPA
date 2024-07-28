@@ -3,11 +3,11 @@
 TODO: Fill this info
 
 ```
-user@pentestos:~$ sudo -s
+userware@hackware-os:~$ sudo -s
 
-root@pentestos:~# su postgres
+root@hackware-os:~# su postgres
 
-postgres@pentestos:/home/user$ psql
+postgres@hackware-os:/home/user$ psql
 
 postgres=# CREATE USER <username> WITH PASSWORD '<password>';
 postgres=# CREATE DATABASE <database_name> OWNER <username>;
@@ -16,7 +16,7 @@ exit
 ```
 
 ```
-root@pentestos:~# cat > /opt/metasploit-framework/database.yml << EOF
+root@hackware-os:~# cat > /opt/metasploit-framework/database.yml << EOF
 production:
     adapter: postgresql
     database: <database_template>
@@ -28,7 +28,7 @@ production:
     timeout: 5
 EOF
 
-root@pentestos:~# sh -c "echo export MSF_DATABASE_CONFIG=/opt/metasploit-framework/database.yml >> ~/.bashrc"
+root@hackware-os:~# sh -c "echo export MSF_DATABASE_CONFIG=/opt/metasploit-framework/database.yml >> ~/.bashrc"
 ```
 
 ```

