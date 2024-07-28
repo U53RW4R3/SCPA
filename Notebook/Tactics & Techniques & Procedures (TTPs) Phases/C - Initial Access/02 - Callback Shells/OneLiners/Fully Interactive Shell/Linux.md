@@ -11,25 +11,22 @@ CTRL+Z
 user@pentestos:~$ echo $TERM && tput lines && tput cols
 ```
 
-- In attacker machine for `/bin/bash`
+In attacker machine for `/bin/bash`.
 
 ```
 user@pentestos:~$ stty raw -echo
-user@pentestos:~$ fg
+fg
 ```
 
-- In attacker machine for `/bin/zsh`.
+In attacker machine for `/bin/zsh`.
 
 ```
 user@pentestos:~$ stty raw -echo; fg
+reset
+export SHELL=/bin/bash
 ```
 
-```
-$ reset
-$ export SHELL=/bin/bash
-```
-
-- Display the terminal colors (You can skip this step if the shell is stabilized)
+Display the terminal colors (You can skip this step if the shell is stabilized).
 
 ```
 $ export TERM=xterm-256color
@@ -38,7 +35,7 @@ $ stty rows <num> columns <cols>
 
 ### 1.2 - Script
 
-- This is a universal method for GNU/Linux and Unix-like operating systems
+This is a universal method for GNU/Linux and Unix-like operating systems.
 
 ```
 $ script -qc /bin/bash /dev/null
@@ -47,14 +44,14 @@ CTRL+Z
 user@pentestos:~$ echo $TERM && tput lines && tput cols
 ```
 
-- In attacker machine for `/bin/bash`
+In attacker machine for `/bin/bash`.
 
 ```
 user@pentestos:~$ stty raw -echo
 user@pentestos:~$ fg
 ```
 
-- In attacker machine for `/bin/zsh`
+In attacker machine for `/bin/zsh`.
 
 ```
 user@pentestos:~$ stty raw -echo; fg
@@ -63,7 +60,7 @@ $ reset
 $ export SHELL=/bin/bash
 ```
 
-- Display the terminal colors (You can skip this step if the shell is stablized)
+Display the terminal colors (You can skip this step if the shell is stablized).
 
 ```
 $ export TERM=xterm-256color
@@ -72,13 +69,17 @@ $ stty rows <num> columns <cols>
 
 ### 1.3 - Rlwrap
 
-- Using the GNU readline wrapper with arrow keys. You can use this when using a normal reverse shell for penetrating Windows machine
+Using the GNU readline wrapper with arrow keys. You can use this when using a normal reverse shell for penetrating Windows machine.
 
-`user@pentestos:~$ rlwrap nc <target_IP> <target_PORT>`
+```
+user@pentestos:~$ rlwrap nc <target_IP> <target_PORT>
+```
 
 - `-f .` will make rlwrap use the current history file as a completion word list, and `-r` put all words seen on input and output on the completion list.
 
-`user@pentestos:~$ rlwrap -r -f . nc <target_IP> <target_PORT>`
+```
+user@pentestos:~$ rlwrap -r -f . nc <target_IP> <target_PORT>
+```
 
 ### 1.4 - Expect
 
@@ -92,7 +93,7 @@ spawn sh
 interact
 ```
 
-- Output
+Output
 
 ```
 $ nc -lnvp 1234
