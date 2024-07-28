@@ -43,8 +43,6 @@ $ docker run --rm -it --entrypoint /bin/bash tobix/pywine
 
 ## 02 - Cross Compile Windows
 
-TODO: Make tiny modification in the docker build to pass arguments to compile it.
-
 ### 1.1 - Nuitka
 
 Install `nuitka` and `mfc42.dll`dependency. 
@@ -57,12 +55,14 @@ $ winetricks -q mfc42
 
 You can now cross-compile the python (`.py`) files into windows executable files (`.exe`). Don't worry about the error message `depends.exe`. It should be compiled if you check.
 
+TODO: Figure out to install nuitka in the docker container to compile python scripts.
+
 ```
 $ wine cmd.exe /c nuitka --standalone --onefile file.py
 
 $ wine python -m nuitka --standalone --onefile file.py
 
-$ docker run -v $(pwd):/build tobix/pywine "wine python -m nuitka --standalone --onefile file.py"
+$ docker run -v $(pwd):/tmp tobix/pywine wine python -m nuitka --standalone --onefile /tmp/file.py --output-dir=/tmp/
 
 $ file file.dist/file.exe 
 file.dist/file.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
@@ -81,7 +81,7 @@ You can now cross-compile the python (`.py`) files into windows executable files
 ```
 $ wine pyinstaller -F -w file.py
 
-$ docker run -v $(pwd):/build tobix/pywine "wine pyinstaller -F -w file.py"
+$ docker run -v $(pwd):/tmp tobix/pywine wine pyinstaller -F -w /tmp/file.py --distpath /tmp/dist
 
 $ file dist/file.exe 
 dist/file.exe: PE32+ executable (GUI) x86-64, for MS Windows

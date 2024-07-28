@@ -23,7 +23,7 @@ $ go mod init <module_name>
 Cross compile.
 
 ```
-$ GOOS=windows GOARCH=amd64 go build .
+$ GOOS=windows GOARCH=amd64 go build -ldflags "-s -w" -o implant.exe .
 ```
 
 ---
