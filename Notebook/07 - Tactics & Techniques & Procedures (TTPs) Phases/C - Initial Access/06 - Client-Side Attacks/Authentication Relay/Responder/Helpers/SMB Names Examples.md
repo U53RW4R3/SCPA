@@ -4,7 +4,7 @@ Search Tag(s): #sniffing-and-spoofing #responder #smb #relay #ntlm #helpers
 
 ## 01 - Hosts
 
-- Make sure if none of these share names are included in the network when performing active poisoning
+Make sure if none of these share names are included in the network when performing active poisoning.
 
 ```
 \\admin
@@ -19,31 +19,35 @@ Search Tag(s): #sniffing-and-spoofing #responder #smb #relay #ntlm #helpers
 \\sysadmin
 \\win-desktop
 \\workstation-01
-\\workstation-02
 \\ws1
-\\ws2
 \\ws01
-\\ws02
 \\wks1
-\\wks2
 \\wks01
-\\wks02
 ```
 
 ## 02 - Servers
 
-- Make sure if none of these share names are included in the network when performing active poisoning
+Make sure if none of these share names are included in the network when performing active poisoning.
 
 ```
 \\dc
 \\dc01
+\\dev
 \\developer
 \\fileserver
+\\ftpserver
+\\ftpsrv
 \\ftp-srv
 \\mail
+\\mailserver
+\\mailsrv
 \\mail-srv
+\\rdpserver
 \\rdpsrv
 \\server
+\\smssql
 \\sms-sql
+\\sqlserver
+\\sqlsrv
 \\sql-srv
 ```

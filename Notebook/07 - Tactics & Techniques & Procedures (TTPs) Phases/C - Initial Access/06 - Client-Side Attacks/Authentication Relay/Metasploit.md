@@ -1,6 +1,6 @@
 # Metasploit
 
-## 01 - Exploit module SMB relay
+## 01 - SMB Relay
 
 ^c109ec
 

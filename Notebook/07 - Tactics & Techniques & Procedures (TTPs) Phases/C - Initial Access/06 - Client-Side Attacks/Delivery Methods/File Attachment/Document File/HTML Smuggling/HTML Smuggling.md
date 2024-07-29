@@ -58,9 +58,9 @@ TODO: Provide usage details for BobTheSmuggler
 
 - [BobTheSmuggler](https://github.com/TheCyb3rAlpha/BobTheSmuggler)
 
-- [A Detailed Guide on HTML Smuggling](https://www.hackingarticles.in/a-detailed-guide-on-html-smuggling/)
+- [Hacking Articles: A Detailed Guide on HTML Smuggling](https://www.hackingarticles.in/a-detailed-guide-on-html-smuggling/)
 
-- [GhostInHTML](https://github.com/exploitblizzard/GhostInHTML)
+- [exploitblizzard: GhostInHTML](https://github.com/exploitblizzard/GhostInHTML)
 
 ### HTML Smuggling Templates
 

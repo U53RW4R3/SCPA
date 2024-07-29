@@ -4,19 +4,23 @@ TODO: Fill this info
 
 ## 01 -  Basic Search
 
-`site:*.website.com -site:www.website.com`
+```
+site:*.website.com -site:www.website.com
 
-`filetype:xls site:info.website.com`
+filetype:<file_extension> site:info.website.com
+```
 
 ## 02 - Network Protocols
 
-`inurl:ftp`
+```
+inurl:ftp
 
-`inurl:ldap`
+inurl:ldap
 
-`inurl:smtp`
+inurl:smtp
 
-`inurl:imap`
+inurl:imap
+```
 
 
 ---

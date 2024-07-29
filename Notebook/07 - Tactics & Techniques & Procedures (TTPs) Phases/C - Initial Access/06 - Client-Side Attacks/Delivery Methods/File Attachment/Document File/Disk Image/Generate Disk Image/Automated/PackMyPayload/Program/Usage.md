@@ -79,5 +79,5 @@ $ packmypayload [-p <password>] --out-format <zip | 7z | cab | pdf> [<drive_lett
 Note: Both `.vhd` and `.vhdx` is done exclusively on windows. Try to manually make a new file container manually.
 
 ```
-$ packmypayload [-p <password>] [--vhd-filesystem <fat | fat32 | ntfs>] --out-format <iso | img | vhd | vhdx> file.txt file.<iso | img | vhd | vhdx>
+$ packmypayload [--vhd-filesystem <fat | fat32 | ntfs>] --out-format <iso | img | vhd | vhdx> file.txt file.<iso | img | vhd | vhdx>
 ```

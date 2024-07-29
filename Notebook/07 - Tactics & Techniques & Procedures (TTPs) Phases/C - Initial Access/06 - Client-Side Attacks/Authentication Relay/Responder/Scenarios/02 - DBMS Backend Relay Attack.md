@@ -32,9 +32,11 @@ DROP TABLE test_table;
 2> go
 ```
 
-- Capture hash
+Capture hash
 
-`$ sudo responder -I <interface>`
+```
+$ sudo responder -I <interface>
+```
 
 ---
 ## References
