@@ -120,7 +120,7 @@ C:\> sc start netlogon
 
 - [AD Series: How to Perform Broadcast Attacks Using NTLMRelayx, MiTM6 and Responder](https://raxis.com/blog/ad-series-how-to-perform-broadcast-attacks/)
 
-- [Tryhackme HOLO](https://stimpz0r.com/tryhackme-holo/)
+- [Tryhackme: HOLO](https://stimpz0r.com/tryhackme-holo/)
 
 - [How to Exploit Active Directory ACL Attack Paths Through LDAP Relaying Attacks](https://www.praetorian.com/blog/how-to-exploit-active-directory-acl-attack-paths-through-ldap-relaying-attacks/)
 

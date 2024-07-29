@@ -20,13 +20,13 @@ Module options (auxiliary/client/smtp/emailer):
    VERBOSE                                                                no        Display verbose information
    YAML_CONFIG  /usr/share/metasploit-framework/data/emailer_config.yaml  yes       Full path to YAML Configuration file
 
-msf auxiliary(client/smtp/emailer) > set rhost <attacker.com>
+msf auxiliary(client/smtp/emailer) > set rhost <attacker_mailserver_IP>
 
-msf auxiliary(client/smtp/emailer) > set rhosts <target.com>
+msf auxiliary(client/smtp/emailer) > set rhosts <target_mailserver_IP>
 
-msf auxiliary(client/smtp/emailer) > set mailfrom <sysadmin@target.com>
+msf auxiliary(client/smtp/emailer) > set mailfrom no-reply@attacker.com
 
-msf auxiliary(client/smtp/emailer) > set yaml_config <YAML_file>
+msf auxiliary(client/smtp/emailer) > set yaml_config /path/to/emailer_config.yaml
 
-msf auxiliary(client/smtp/emailer) > run -j
+msf auxiliary(client/smtp/emailer) > run
 ```

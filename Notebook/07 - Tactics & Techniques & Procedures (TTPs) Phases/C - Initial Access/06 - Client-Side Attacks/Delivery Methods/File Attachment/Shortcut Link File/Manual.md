@@ -101,6 +101,8 @@ TODO: Provide use cases if any
 
 - [[01 - Capture Hashes via Spoof SMB Shares|Responder: Capture Hashes via Spoof SMB Shares Scenario]]
 
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/06 - Client-Side Attacks/Authentication Relay/Metasploit|Metasploit: Capture Hashes]]
+
 - [[HTA Web Server|Metasploit: HTA Web Server]]
 
 - [[SMB Delivery|Metasploit: SMB Delivery]]
@@ -108,6 +110,8 @@ TODO: Provide use cases if any
 - [[Web Delivery|Metasploit: Web Delivery]]
 
 - [nobodyatall648: Malicious LNK File Abuse Hotkey Feature](https://github.com/nobodyatall648/Malicious-LNK-File-Abuse-Hotkey-Feature)
+
+- [rvrsh3ll: Create-HotKeyLNK.ps1](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
 
 - [SS64 Shortcut](https://ss64.com/nt/shortcut.html)
 
@@ -119,13 +123,15 @@ TODO: Provide use cases if any
 
 - [Uperesia Booby Trapped Shortcut](https://www.uperesia.com/booby-trapped-shortcut)
 
-- [Pentestlab Blog: Persistence Shortcut Modification](https://pentestlab.blog/2019/10/08/persistence-shortcut-modification/)
-
-- [Windows Persistence Shortcut Modification](https://www.hackingarticles.in/windows-persistence-shortcut-modification-t1547/)
-
 - [Create Shortcut Using VBScript](https://think.unblog.ch/en/create-shortcut-using-vbscript/)
 
-- [Create-HotKeyLNK.ps1](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
+### Pentestlab
+
+- [Pentestlab Blog: Persistence Shortcut Modification](https://pentestlab.blog/2019/10/08/persistence-shortcut-modification/)
+
+### Hacking Articles
+
+- [Hacking Articles: Windows Persistence Shortcut Modification](https://www.hackingarticles.in/windows-persistence-shortcut-modification-t1547/)
 
 ### DMCXBLUE
 
