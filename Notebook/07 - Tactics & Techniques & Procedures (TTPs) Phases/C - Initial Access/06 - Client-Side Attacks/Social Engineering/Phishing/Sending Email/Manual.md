@@ -1,8 +1,39 @@
 # Manual
 
-## 01 - SendEmail
+It is recommended to use `swaks` instead of `sendemail` due to a missing feature to change the mail transfer agent (think of it as an SMTP version of user agent) that can easily detect the specific version.
+
+## 01 - Swaks
 
 ### 1.1 - Syntax
+
+```
+$ swaks [--tls] --server <smtp_server_IP> --to <reciever_email_address> --from <sender_email_address> --header "Subject: <subject_name>" --body "<body_paragraph>" [--add-header "Content-Type: text/html"] [--attach /path/to/file.txt]
+```
+
+Pass the credentials.
+
+```
+$ swaks --auth-user <email> --auth-password <password> --server <smtp_server_IP> [--port <PORT>] --auth plain [--tls] --to <reciever_email_address> --from <sender_email_address> --header "Subject: <subject_name>" --body "<body_paragraph>" [--add-header "Content-Type: text/html"] [--attach /path/to/file.txt]
+```
+
+### 1.2 - Usage
+
+```
+$ swaks --to itdept@victim.com --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server 192.168.8.131
+```
+
+Perform a mass mail attack.
+
+```
+$ while read -r email
+do
+	swaks --to $email --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server 192.168.8.131
+done < emails.txt
+```
+
+## 02 - SendEmail
+
+### 2.1 - Syntax
 
 Syntax usage of the program.
 
@@ -25,7 +56,7 @@ You can pass the credentials for your SMTP mail server.
 $ sendemail -xu <email> -xp <password> -s <smtp_server_IP>[:<PORT>] -f <spoof_email> -t <email_target> -u "<subject>" -m "<message>" -o message-header="From: <fake_name> <<spoof_email>>"
 ```
 
-### 1.2 - Usage
+### 2.2 - Usage
 
 Here's an example just to show you how it works.
 
@@ -48,27 +79,4 @@ For passing the credentials.
 
 ```
 $ sendemail -xu attacker@email.com -xp <password> -s email.com -f sysadmin@microsoft.com -t john@microsoft.com -u "Subject Name" -m "Send me your creds" -o message-header="From: SysAdmin <sysadmin@microsoft.com>"
-```
-
-## 02 - Swaks
-
-### 2.1 - Syntax
-
-```
-$ swaks --to <reciever_email_address> --from <sender_email_address> --header "Subject: test" --body "<body_paragraph>" --server <smtp_server_IP>
-```
-
-### 2.2 - Usage
-
-```
-$ swaks --to itdept@victim.com --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server 192.168.8.131
-```
-
-Perform a mass mail attack.
-
-```
-$ while read -r email
-do
-	swaks --to $email --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server 192.168.8.131
-done < emails.txt
 ```
