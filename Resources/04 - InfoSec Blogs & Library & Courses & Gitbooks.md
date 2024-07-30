@@ -11,6 +11,8 @@
 
 2. Malware Development
     - https://cocomelonc.github.io/
+3. Windowws Post Exploitation
+    - https://attl4s.github.io/
 
 ## Library
 
@@ -30,5 +32,7 @@
 ## Gitbooks && Infosec References
 
 1. https://www.thehacker.recipes/
-2. https://github.com/rmusser01/Infosec_Reference
-3. https://steve-s.gitbook.io/0xtriboulet/
+2. https://steve-s.gitbook.io/0xtriboulet/
+3. https://7h3w4lk3r.gitbook.io/the-hive/
+4. https://github.com/rmusser01/Infosec_Reference
+5. https://steve-s.gitbook.io/0xtriboulet/

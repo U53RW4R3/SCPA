@@ -1,6 +1,6 @@
 # 01 - Help Menu
 
-Search Tag(s): #weevely #command-and-control #webshell #interactive-shell #help-menu
+Search Tag(s): #weevely #webshell #interactive-shell #help-menu
 
 ```
 www-data@172.28.128.8:/var/www/phpMyAdmin $ help
