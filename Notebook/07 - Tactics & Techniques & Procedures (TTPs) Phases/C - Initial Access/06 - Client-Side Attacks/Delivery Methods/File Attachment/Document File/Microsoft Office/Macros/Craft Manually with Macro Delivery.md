@@ -1,5 +1,11 @@
 # Craft Manually with Macro Delivery
 
+TODO: Fill in the info
+
+```
+$ unzip file.doc
+```
+
 ## 01 - Use Cases
 
 Refer to the [[Payload Delivery|payload delivery scripts]] helpers section.

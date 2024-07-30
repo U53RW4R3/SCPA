@@ -13,6 +13,8 @@ TODO: Fill in the information
 
 - [IT-Gorillaz: LNK2Pwn](https://github.com/it-gorillaz/lnk2pwn)
 
+- [dievus: LNKBomb](https://github.com/dievus/lnkbomb)
+
 ### Pentestlab
 
 - [Pentestlab Blog: Persistence Shortcut Modification](https://pentestlab.blog/2019/10/08/persistence-shortcut-modification/)

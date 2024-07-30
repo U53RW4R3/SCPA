@@ -1,5 +1,10 @@
 # Red Team Methodology
 
+## Overview
+
+- https://rcats.dev/rcats/index.php/RCATs
+- https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet
+
 ## Information Gathering
 
 1. Passive Fingerprint

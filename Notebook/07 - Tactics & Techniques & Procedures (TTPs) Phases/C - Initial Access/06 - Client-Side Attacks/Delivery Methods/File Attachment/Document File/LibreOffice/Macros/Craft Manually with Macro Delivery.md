@@ -11,4 +11,6 @@ TODO: Fill this information
 ---
 ## References
 
+- [Exploit Notes: LibreOffice Macros](https://exploit-notes.hdks.org/exploit/malware/libreoffice-macros/)
+
 - [0xdf: Analyzing Document Macros with Yara](https://0xdf.gitlab.io/2019/03/27/analyzing-document-macros-with-yara.html)

@@ -28,11 +28,14 @@
 3. https://freeeducationweb.com
 4. https://www.ecoursefree.com/
 5. https://elhacker.info/Cursos/
+6. https://downloadlynet.ir/
 
 ## Gitbooks && Infosec References
 
-1. https://www.thehacker.recipes/
-2. https://steve-s.gitbook.io/0xtriboulet/
-3. https://7h3w4lk3r.gitbook.io/the-hive/
-4. https://github.com/rmusser01/Infosec_Reference
+1. https://www.thehacker.recipes
+2. https://exploit-notes.hdks.org
+3. https://www.bordergate.co.uk
+4. https://rioasmara.com
 5. https://steve-s.gitbook.io/0xtriboulet/
+6. https://7h3w4lk3r.gitbook.io/the-hive/
+7. https://github.com/rmusser01/Infosec_Reference
