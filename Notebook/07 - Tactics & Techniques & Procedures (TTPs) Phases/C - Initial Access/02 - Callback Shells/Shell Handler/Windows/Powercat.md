@@ -31,4 +31,4 @@ PS C:\> powercat -u -l -p <PORT> -e <powershell.exe | cmd.exe>
 ---
 ## References
 
-- [Powercat](https://github.com/besimorhino/powercat)
+- [besimorhino: Powercat](https://github.com/besimorhino/powercat)

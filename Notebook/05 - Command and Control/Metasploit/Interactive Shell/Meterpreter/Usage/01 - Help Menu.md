@@ -124,60 +124,7 @@ Stdapi: User interface Commands
     setdesktop     Change the meterpreters current desktop
     uictl          Control some of the user interface components
 
-
-Stdapi: Webcam Commands
-=======================
-
-    Command        Description
-    -------        -----------
-    record_mic     Record audio from the default microphone for X seconds
-    webcam_chat    Start a video chat
-    webcam_list    List webcams
-    webcam_snap    Take a snapshot from the specified webcam
-    webcam_stream  Play a video stream from the specified webcam
-
-
-Stdapi: Mic Commands
-====================
-
-    Command       Description
-    -------       -----------
-    listen        listen to a saved audio recording via audio player
-    mic_list      list all microphone interfaces
-    mic_start     start capturing an audio stream from the target mic
-    mic_stop      stop capturing audio
-
-
-Stdapi: Audio Output Commands
-=============================
-
-    Command       Description
-    -------       -----------
-    play          play a waveform audio file (.wav) on the target system
-
-
-Priv: Elevate Commands
-======================
-
-    Command       Description
-    -------       -----------
-    getsystem     Attempt to elevate your privilege to that of local system.
-
-
-Priv: Password database Commands
-================================
-
-    Command       Description
-    -------       -----------
-    hashdump      Dumps the contents of the SAM database
-
-
-Priv: Timestomp Commands
-========================
-
-    Command       Description
-    -------       -----------
-    timestomp     Manipulate file MACE attributes
+..[truncated]..
 ```
 
 ---

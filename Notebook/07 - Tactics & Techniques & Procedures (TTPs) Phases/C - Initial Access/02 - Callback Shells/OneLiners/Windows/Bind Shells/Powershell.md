@@ -20,6 +20,7 @@ Generate encoded bind shell.
 > powercat -l -p <PORT> -e cmd.exe -ge
 ```
 
+---
 ## References
 
 - [Hacktricks Shell Windows](https://book.hacktricks.xyz/shells/shells/windows)

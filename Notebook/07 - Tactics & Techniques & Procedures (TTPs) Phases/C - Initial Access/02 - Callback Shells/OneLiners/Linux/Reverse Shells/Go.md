@@ -7,6 +7,6 @@ $ echo 'package main;import"os/exec";import"net";func main(){c,_:=net.Dial("t
 ---
 ## References
 
-- [Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
 
-- [One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
