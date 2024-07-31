@@ -468,7 +468,7 @@ run post/osx/gather/enum_chicken_vnc_profile
 
 run post/osx/gather/safari_lastsession
 
-run post/osx/capture/keylog_recorder
+
 
 run post/osx/gather/enum_colloquy
 

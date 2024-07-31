@@ -19,11 +19,15 @@ Meterpreter     : x64/windows
 
 * Retrieve UUID
 
-`meterpreter > uuid`
+```
+meterpreter > uuid
+```
 
 * Get current session ID
 
-`meterpreter > machine_id`
+```
+meterpreter > machine_id
+```
 
 * Discover Username
  

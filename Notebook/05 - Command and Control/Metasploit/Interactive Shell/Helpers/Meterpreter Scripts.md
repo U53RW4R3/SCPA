@@ -4,6 +4,19 @@ TODO: Lateral movement such as WMI
 
 https://github.com/darkoperator/Meterpreter-Scripts
 
+## Railgun
+
+```
+meterpreter > irb
+>> session.railgun.known_dll_names
+```
+
+Retrieve functions.
+
+```
+>> session.railgun.kernel32.functions
+```
+
 ---
 ## References
 
