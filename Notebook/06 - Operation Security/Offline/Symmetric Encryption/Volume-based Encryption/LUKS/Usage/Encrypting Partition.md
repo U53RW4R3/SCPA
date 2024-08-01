@@ -10,11 +10,15 @@ $ cryptsetup benchmark
 $ echo "#     Algorithm |       Key |      Encryption |      Decryption";for i in $ciphers ; do cryptsetup benchmark --cipher $i|tail -n 1; done
 ```
 
-`$ cryptsetup --type luks2 -c aes-xts-plain64 -h sha512 -s 512 --pbkdf argon2id --use-urandom -y [--label <label_name>] luksFormat /path/to/container_or_drive`
+```
+$ cryptsetup --type luks2 -c aes-xts-plain64 -h sha512 -s 512 --pbkdf argon2id --use-urandom -y [--label <label_name>] luksFormat /path/to/container_or_drive
+```
 
 - List block devices
 
-`$ lsblk`
+```
+$ lsblk
+```
 
 ---
 ## References
