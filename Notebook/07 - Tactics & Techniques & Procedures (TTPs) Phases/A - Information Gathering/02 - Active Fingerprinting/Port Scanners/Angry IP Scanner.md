@@ -37,7 +37,9 @@ chmod 755 /usr/local/bin/ipscan
 
 - Install a debian package after compiling
 
-`$ sudo dpkg -i build/libs/ipscan_3.9.1-2-g7950484a_amd64.deb`
+```
+$ sudo dpkg -i build/libs/ipscan_3.9.1-2-g7950484a_amd64.deb
+```
 
 ### 1.2 - Windows
 
