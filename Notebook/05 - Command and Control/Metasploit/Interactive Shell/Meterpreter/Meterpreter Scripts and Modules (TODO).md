@@ -520,6 +520,6 @@ run event_manager
 
 run scraper
 
-run winenum
+
 
 https://www.hackers-arise.com/ultimate-list-of-meterpreter-scripts

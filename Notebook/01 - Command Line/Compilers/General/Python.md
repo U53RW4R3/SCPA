@@ -6,7 +6,7 @@ Note: This is subjected to change in the future due to different versions might 
 
 ## 01 - Installer Python Interpreter
 
-### 1.1 - Directly from `wine`
+### 1.1 - Directly from wine
 
 This specific version works with Windows 7 and later. It also contains PIP installer because other python versions doesn't come pre-bundled and it's impossible to install it.
 
@@ -17,7 +17,7 @@ $ wget https://www.python.org/ftp/python/3.8.9/python-3.8.9-amd64.exe
 Run the installer.
 
 ```
-$ wine python-3.8.9-amd64.exe
+$ wine64 python-3.8.9-amd64.exe
 ```
 
 Follow the instructions:
@@ -48,7 +48,7 @@ $ docker run --rm -it --entrypoint /bin/bash tobix/pywine
 Install `nuitka` and `mfc42.dll`dependency. 
 
 ```
-$ wine python -m pip install nuitka
+$ wine64 python -m pip install nuitka
 
 $ winetricks -q mfc42
 ```
@@ -58,11 +58,11 @@ You can now cross-compile the python (`.py`) files into windows executable files
 TODO: Figure out to install nuitka in the docker container to compile python scripts.
 
 ```
-$ wine cmd.exe /c nuitka --standalone --onefile file.py
+$ wine64 cmd.exe /c nuitka --standalone --onefile file.py
 
-$ wine python -m nuitka --standalone --onefile file.py
+$ wine64 python -m nuitka --standalone --onefile file.py
 
-$ docker run -v $(pwd):/tmp tobix/pywine wine python -m nuitka --standalone --onefile /tmp/file.py --output-dir=/tmp/
+$ docker run -v $(pwd):/tmp tobix/pywine wine python -m nuitka --standalone --onefile --output-dir=/tmp/ /tmp/file.py
 
 $ file file.dist/file.exe 
 file.dist/file.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
@@ -73,13 +73,13 @@ file.dist/file.exe: PE32+ executable (console) x86-64 (stripped to external PDB)
 For docker it is already preinstalled so you can skip it.
 
 ```
-$ wine python -m pip install pyinstaller
+$ wine64 python -m pip install pyinstaller
 ```
 
 You can now cross-compile the python (`.py`) files into windows executable files (`.exe`).
 
 ```
-$ wine pyinstaller -F -w file.py
+$ wine64 pyinstaller -F -w file.py
 
 $ docker run -v $(pwd):/tmp tobix/pywine wine pyinstaller -F -w /tmp/file.py --distpath /tmp/dist
 

@@ -43,13 +43,15 @@ $ x86_64-w64-mingw32-gcc implant-x86_64.c -shared -o implant-x86_64.dll
 
 ## 02 - CL
 
-- Compile Windows binaries
+### 2.1 - Native
+
+Compile Windows binaries
 
 ```
 C:\> cl.exe /W4 /EHsc implant.c /link /out:implant.exe
 ```
 
-- Compile Windows Dynamic Linked Library
+Compile Windows Dynamic Linked Library
 
 TODO: Fill this info
 
@@ -57,7 +59,7 @@ TODO: Fill this info
 C:\>
 ```
 
-- Compile Windows binaries with icons
+Compile Windows binaries with icons
 
 ```
 C:\> rc resource.rc
@@ -65,6 +67,20 @@ C:\> rc resource.rc
 C:\> cvtres /machine:x64 /out:resource.o resource.res
 
 C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcimplant.c /link /out:implant.exe /subsystem:console /machine:x64 resource.o
+```
+
+### 2.2 - Wine
+
+Install required dependencies.
+
+```
+$ sudo apt install -y wine64 python3 msitools ca-certificates winbind
+```
+
+Clone the repository.
+
+```
+$ git clone https://github.com/mstorsjo/msvc-wine 
 ```
 
 ---
@@ -87,3 +103,9 @@ C:\> cl.exe /nologo /0x /W0 /GS- /DNDEBUG /Tcimplant.c /link /out:implant.exe /s
 - [Quickpost Compiling EXEs and Resources with Mingw on Kali](https://blog.didierstevens.com/2018/09/17/quickpost-compiling-exes-and-resources-with-mingw-on-kali/)
 
 - [Zig C Compiler Powerful Drop in Replacment GCC Clang](https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html)
+
+### Install MSVC
+
+- [Hackernoon: A C++ Hello World And A Glass Of Wine, Oh My !](https://medium.com/hackernoon/a-c-hello-world-and-a-glass-of-wine-oh-my-263434c0b8ad)
+
+- [Dan Kegel's Web Hostel: Using Microsoft C++ Toolkit on Linux](http://kegel.com/wine/cl-howto.html)
