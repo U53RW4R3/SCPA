@@ -58,11 +58,11 @@ You can now cross-compile the python (`.py`) files into windows executable files
 TODO: Figure out to install nuitka in the docker container to compile python scripts.
 
 ```
-$ wine64 cmd.exe /c nuitka --standalone --onefile file.py
+$ WINEDEBUG=-all wine64 cmd.exe /c nuitka --standalone --onefile file.py
 
-$ wine64 python -m nuitka --standalone --onefile file.py
+$ WINEDEBUG=-all wine64 python -m nuitka --standalone --onefile file.py
 
-$ docker run -v $(pwd):/tmp tobix/pywine wine python -m nuitka --standalone --onefile --output-dir=/tmp/ /tmp/file.py
+$ docker run -v $(pwd):/tmp tobix/pywine WINEDEBUG=-all wine python -m nuitka --standalone --onefile --output-dir=/tmp/ /tmp/file.py
 
 $ file file.dist/file.exe 
 file.dist/file.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
@@ -79,9 +79,9 @@ $ wine64 python -m pip install pyinstaller
 You can now cross-compile the python (`.py`) files into windows executable files (`.exe`).
 
 ```
-$ wine64 pyinstaller -F -w file.py
+$ WINEDEBUG=-all wine64 pyinstaller -F -w file.py
 
-$ docker run -v $(pwd):/tmp tobix/pywine wine pyinstaller -F -w /tmp/file.py --distpath /tmp/dist
+$ docker run -v $(pwd):/tmp tobix/pywine WINEDEBUG=-all wine pyinstaller -F -w /tmp/file.py --distpath /tmp/dist
 
 $ file dist/file.exe 
 dist/file.exe: PE32+ executable (GUI) x86-64, for MS Windows

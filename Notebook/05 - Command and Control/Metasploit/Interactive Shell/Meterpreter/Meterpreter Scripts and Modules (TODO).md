@@ -376,8 +376,6 @@ run post/multi/manage/set_wallpaper
 
 run post/multi/gather/saltstack_salt
 
-run post/multi/manage/shell_to_meterpreter
-
 run post/multi/gather/env
 
 run post/multi/manage/sudo
