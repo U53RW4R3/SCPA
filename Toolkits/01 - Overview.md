@@ -83,3 +83,7 @@
 ## Setup Tools
 
 1. [The PenTesters Framework](https://github.com/trustedsec/ptf/)
+
+## Windows Programs
+
+1. [My Software Free](https://mysoftwarefree.com/)
