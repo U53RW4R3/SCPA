@@ -29,6 +29,6 @@ userware@hackware-os:~$ ncat --ssl <target_IP> <target_PORT>
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xA - Callback Shells/OneLiners/Linux/Reverse Shells/OpenSSL|OpenSSL: Reverse Shells]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xA - Callback Shells/One-Liners/Linux/Reverse Shells/OpenSSL|OpenSSL: Reverse Shells]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xA - Callback Shells/OneLiners/Linux/Bind Shells/OpenSSL|OpenSSL: Bind Shells]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xA - Callback Shells/One-Liners/Linux/Bind Shells/OpenSSL|OpenSSL: Bind Shells]]
