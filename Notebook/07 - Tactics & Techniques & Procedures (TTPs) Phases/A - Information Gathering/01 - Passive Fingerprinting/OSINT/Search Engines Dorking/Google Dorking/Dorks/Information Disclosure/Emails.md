@@ -2,8 +2,12 @@
 
 ## PGP
 
-`intitle:"index of" keys.txt`
+```
+intitle:"index of" keys.txt
+```
 
 ## Ticket.conf
 
-`intitle:"index of" ticket.conf`
+```
+intitle:"index of" ticket.conf
+```

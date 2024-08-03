@@ -1,3 +1,5 @@
 # Wordpress
 
-`inurl:"wp-content/uploads" intext:credential`
+```
+inurl:"wp-content/uploads" intext:credential
+```

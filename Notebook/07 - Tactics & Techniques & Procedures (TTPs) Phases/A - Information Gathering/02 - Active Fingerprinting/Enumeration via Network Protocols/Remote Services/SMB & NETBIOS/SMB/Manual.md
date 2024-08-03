@@ -68,59 +68,7 @@ $ sudo mount -t cifs //<IP>/<share_name> /mnt/smb
 $ sudo mount -t cifs -o "port=<PORT> username=<username>,password=<password>" //<IP>/<share_name> /mnt/smb
 ```
 
-## 02 - Anonymous Login
-
-### 2.1 - Samba Suite Utils
-
-```
-$ smbclient -N -L //<IP>
-
-$ smbclient -u "%" -L //<IP>
-
-$ smbclient -u "guest%" -L //<IP>
-
-$ smbclient -N -L //<IP> -mSMB2
-
-$ smbclient -N -L //<IP> -mSMB3
-```
-
-### 2.2 - Impacket
-
-TODO: Fill this info
-
-```
-$ smbclient.py -no-pass [<domain>/]''@<IP>
-
-$ smbclient.py -no-pass [<domain>/]guest@<IP>
-```
-
-### 2.3 - SMBMap
-
-```
-$ smbmap -u "" -p "" -H <IP> [-P <PORT>]
-
-$ smbmap -u "guest" -p "" -H <IP> [-P <PORT>]
-```
-
-### 2.4 - Enum4Linux-NG
-
-```
-$ enum4linux-ng -a -u "" -p "" <IP>
-
-$ enum4linux-ng -a -u "guest" -p "" <IP>
-```
-
-### 2.5 - NetExec
-
-```
-$ netexec smb <IP> -u "" -p "" [-d <domain> | --local-auth] --shares
-
-$ netexec smb <IP> -u "guest" -p "" [-d <domain> | --local-auth] --shares
-```
-
-## 03 - System Volume Information
-
-### 3.1 - Samba Suite Utils
+## 02 - System Volume Information
 
 ```
 $ smbclient -U "[<domain>/]<username>%<password>" //<IP>/SYSVOL

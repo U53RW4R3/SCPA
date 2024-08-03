@@ -2,7 +2,9 @@
 
 - Retrieve the plugin name for google dork.
 
-`$ whatweb --dorks=<plugin>`
+```
+$ whatweb --dorks=<plugin>
+```
 
 ---
 ## References

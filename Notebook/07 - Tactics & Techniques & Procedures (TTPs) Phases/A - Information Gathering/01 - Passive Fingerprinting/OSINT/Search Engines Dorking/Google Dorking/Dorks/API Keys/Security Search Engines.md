@@ -2,4 +2,6 @@
 
 ## Shodan
 
-`intitle:"index of" .config/shodan/api_key`
+```
+intitle:"index of" .config/shodan/api_key
+```
