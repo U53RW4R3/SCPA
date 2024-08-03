@@ -157,7 +157,7 @@ $ sudo nmap --script firewall-bypass --script-args firewall-bypass.helper="ftp",
 ## 8.2 - Spoof User Agent
 
 ```
-$ sudo nmap -p 80,443 -Pn -n -sC --script-args http.useragent="<User_Agent>" <IP>
+$ sudo nmap -p 80,443 -Pn -n -sC --script-args http.useragent="<user_agent>" <IP>
 ```
 
 ---

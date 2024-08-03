@@ -1,6 +1,6 @@
 # RDP
 
-## 01 - Setup
+## 01 - Linux Setup
 
 Install the X11 RDP server.
 

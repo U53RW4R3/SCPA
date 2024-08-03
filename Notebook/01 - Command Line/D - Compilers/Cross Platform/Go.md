@@ -26,6 +26,12 @@ Cross compile.
 $ GOOS=windows GOARCH=amd64 go build -ldflags "-s -w" -o implant.exe .
 ```
 
+To hide a console window.
+
+```
+$ GOOS=windows GOARCH=amd64 go build -ldflags "-s -w -H windowsgui" -o implant.exe .
+```
+
 ---
 ## References
 
