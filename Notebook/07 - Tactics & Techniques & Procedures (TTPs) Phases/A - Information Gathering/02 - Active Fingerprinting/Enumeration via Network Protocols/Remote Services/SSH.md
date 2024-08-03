@@ -84,4 +84,4 @@ msf auxiliary(scanner/ssh/ssh_version) > run
 
 - [Pentesting SSH](https://book.hacktricks.xyz/pentesting/pentesting-ssh)
 
-- [Kali SSH Configuration](https://www.kali.org/docs/general-use/ssh-configuration/)
+- [Kali Docs: SSH Configuration](https://www.kali.org/docs/general-use/ssh-configuration/)

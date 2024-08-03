@@ -4,9 +4,7 @@
 
 - [Reverse Shell Cheatsheet](https://highon.coffee/blog/reverse-shell-cheat-sheet/)
 
-- [Hacktricks Shells](https://book.hacktricks.xyz/shells/shells)
-
-- [Hacktricks MSFVenom Shells](https://book.hacktricks.xyz/shells/shells/msfvenom)
+- [Hacktricks: Shells](https://book.hacktricks.xyz/shells/shells)
 
 - [Get Reverse Shell via Windows One Liner](https://www.hackingarticles.in/get-reverse-shell-via-windows-one-liner/)
 

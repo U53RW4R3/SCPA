@@ -30,6 +30,6 @@ CipherString = DEFAULT@SECLEVEL=2
 ---
 ## References
 
-- [Kali OpenSSL Configuration](https://www.kali.org/docs/general-use/openssl-configuration/)
+- [Kali Docs: OpenSSL Configuration](https://www.kali.org/docs/general-use/openssl-configuration/)
 
 - [Testing Legacy Systems with Kali Linux](https://medium.com/@oneoasis/testing-legacy-systems-with-latest-kali-linux-50b884bd3ece)
