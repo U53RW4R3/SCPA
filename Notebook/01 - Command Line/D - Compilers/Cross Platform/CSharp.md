@@ -144,16 +144,24 @@ tar xf mono-6.12.0.199.tar.xz && cd mono-6.12.0.199 && \
 
 ### 2.2 - Compile Program
 
+Build a solution project.
+
+```
+$ xbuild file.csproj
+
+$ xbuild file.sln
+```
+
 Compile a `.exe` binary.
 
 ```
-$ msc [-unsafe-] -sdk:<2 | 4 | 4.5> -out:implant.exe Program.cs
+$ mcs [-unsafe-] -sdk:<2 | 4 | 4.5> -out:implant.exe [-recurse:*.cs] Program.cs
 ```
 
 Compile a `.dll` binary.
 
 ```
-$ msc [-unsafe-] -sdk:<2 | 4 | 4.5> -target:library -out:implant.dll [-recurse:*.cs] Program.cs
+$ mcs [-unsafe-] -sdk:<2 | 4 | 4.5> -target:library -out:implant.dll [-recurse:*.cs] Program.cs
 ```
 
 ---

@@ -26,6 +26,13 @@ $ git clone --depth=1 https://github.com/ghostsec420/SCPA.git && cd SCPA \
 git sparse-checkout set Notebook
 ```
 
+Do you want the latest updates? Grab mine instead since most of them is still work in progress continuously.
+
+```
+$ git clone --depth=1 https://github.com/U53RW4R3/SCPA.git && cd SCPA \
+git sparse-checkout set Notebook
+```
+
 ## Legends indicators in digital notebook
 
 ### Parameters
