@@ -4,11 +4,8 @@ Search Tag(s): #command-line #terminal-multiplexer #linux
 
 ## Setup
 
-`$ cat screen_config.conf`
-
----
-
 ```
+$ cat screen_config.conf
 defshell -bash  
 startup_message off  
 multiuser on  
@@ -25,15 +22,35 @@ activity "Activity in %t(%n)"
 
 ## Usage
 
-`$ screen -S <session_name>`
+Create new multiplexer session.
 
-`$ session -ls` -> list the sessions
+```
+$ screen -S <session_name>
+```
 
-`$ session -r <session_name>`
+Detach session for GNU `screen`.
 
-`CTRL-a + c` -> creates a new window
+```
+CTRL-a + CTRL-d
+```
 
-`CTRL-a + CTRL-d` -> detach session for GNU screen
+List the sessions
+
+```
+$ session -ls
+```
+
+Attach multiplexer session.
+
+```
+$ session -r <session_name>
+```
+
+Creates a new window
+
+```
+CTRL-a + c
+```
 
 `CTRL-a + n` -> next window pane
 
@@ -61,7 +78,11 @@ activity "Activity in %t(%n)"
 
 `CTRL-a + \` -> Destroy the screen session
 
-`CTRL-a + ?` -> display help
+Display help.
+
+```
+CTRL-a + ?
+```
 
 ---
 ## References

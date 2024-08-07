@@ -1,16 +1,8 @@
-# 05 - Viewing and Editing Files
+# 05 - Editing Files
 
 Search Tag(s): #command-line #linux
 
-## 5.1 - Less
-
-Read file with ANSI characters.
-
-```
-$ less -r file.txt
-```
-
-## 5.2 - Nano
+## 5.1 - `nano`
 
 TODO: Fill this info
 
@@ -18,7 +10,7 @@ TODO: Fill this info
 $ nano file.txt
 ```
 
-## 5.3 - Vim
+## 5.2 - `vim`
 
 ```
 $ vim file.txt
