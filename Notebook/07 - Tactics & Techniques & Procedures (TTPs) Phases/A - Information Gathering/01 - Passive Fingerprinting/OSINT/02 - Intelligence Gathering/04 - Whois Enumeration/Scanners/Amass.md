@@ -9,4 +9,8 @@ sudo mv ~/go/bin/amass /usr/local/bin
 
 ### Usage
 
-`$ amass intel -whois -d <website.com> -dir whois-output`
+```
+$ amass intel -d <domain.com> -whois
+
+$ amass intel -whois -d <website.com> -dir whois-output
+```

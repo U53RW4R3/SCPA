@@ -1,11 +1,11 @@
 # Amass
 
 ```
-$ amass enum -brute -d <website.com> -w subdomains-wordlists.txt -o subdomains.txt
+$ amass enum -brute -d <website.com> [-trqps 15] -w subdomains-wordlists.txt -o subdomains.txt
 
-$ amass enum -active -df domains.txt -w subdomains-wordlists.txt -o subdomains.txt
+$ amass enum -active -df domains.txt [-trqps 15] -w subdomains-wordlists.txt -o subdomains.txt
 
-$ amass db -df domains.txt -names -o subdomains.txt
+$ amass db -df domains.txt -names [-trqps 15] -o subdomains.txt
 ```
 
 ---

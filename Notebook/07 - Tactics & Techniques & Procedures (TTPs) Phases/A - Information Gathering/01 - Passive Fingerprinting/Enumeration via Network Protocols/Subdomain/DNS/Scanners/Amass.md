@@ -1,20 +1,34 @@
 # Amass
 
-`$ amass intel -d <domain.com>`
+## 01 - Basics
 
-`$ amass intel -d <domain.com> -whois`
+```
+$ amass enum -passive -d <domain.com> [-trqps 15] -dir recon_output
 
-`$ amass intel -org '<organization_name>'`
+$ amass enum -passive -df domains.txt [-trqps 15] -dir recon_output
 
-`$ amass enum -passive -d <domain.com> -o subdomains.txt`
+$ amass enum -passive -df domains.txt [-trqps 15] -o subdomains.txt && awk '{ system("resolveip -s "$1)}' subdomains.txt > ip_targets.txt
+```
 
-`$ amass enum -passive -df domains.txt -o subdomains.txt`
+Track new changes when performing another recon.
 
-`$ amass enum -passive -df domains.txt -o subdomains.txt && awk < subdomains.txt '{ system("resolveip -s "$1)}' > ip_targets.txt`
+```
+$ amass track -dir recon_output -d <domain.com>
+```
 
-`$ amass db -df domains.txt -names -o subdomains.txt`
+Output the results stored in a directory.
 
-`$ sudo amass track -dir domains-dir-output -d <domaim.com -last 2`
+```
+$ amass db -df domains.txt -names -o subdomains.txt
+
+$ amass db -dir recon_output -names -o subdomains.txt
+```
+
+## 02 - Reverse DNS
+
+```
+$ amass intel -ip -cidr <IP>/<CIDR>
+```
 
 ---
 ## References
