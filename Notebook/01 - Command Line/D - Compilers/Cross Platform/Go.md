@@ -32,7 +32,44 @@ To hide a console window.
 $ GOOS=windows GOARCH=amd64 go build -ldflags "-s -w -H windowsgui" -o implant.exe .
 ```
 
+## 03 - Compile binary for IoTs
+
+```
+$ dpkg --add-architecture mips
+
+$ GOOS=linux GOARCH=mipsel go build
+```
+
+TODO: Fill in the rest
+
+```
+$ dpkg --add-architecture powerpc
+$ dpkg --add-architecture ppc64el
+
+$ dpkg --add-architecture i386
+$ GOOS=darwin GOARCH=386 go build test.go
+$ GOOS=windows GOARCH=386 go build test.go
+$ GOOS=linux GOARCH=386 go build test.go
+
+
+> GOOS=darwin GOARCH=amd64 go build test.go
+> GOOS=windows GOARCH=amd64 go build test.go
+> GOOS=linux GOARCH=amd64 go build test.go
+
+
+
+$ dpkg --add-architecture arm64
+$ dpkg --add-architecture armel
+$ dpkg --add-architecture armhf
+
+$ GOOS=darwin GOARCH=arm GOARM=7 go build test.go
+$ GOOS=windows GOARCH=arm GOARM=7 go build test.go
+$ GOOS=linux GOARCH=arm GOARM=7 go build test.go
+``
+
 ---
 ## References
 
 - [Go Language](https://go.dev/dl/)
+
+- [DH1TW: Cross-Compiling Golang (CGO) Projects](https://dh1tw.de/2019/12/cross-compiling-golang-cgo-projects/)

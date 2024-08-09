@@ -43,7 +43,7 @@ msf exploit(multi/handler) > set HttpCookie
 
 - [Anti-Forensics Evading Network Detection with Metasploit](https://sapphirex00.medium.com/c2-antiforensics-evading-network-detection-with-metasploit-b400342f20b1)
 
-- [Quickpost: Metasploit User Agent Strings](https://blog.didierstevens.com/2015/03/16/quickpost-metasploit-user-agent-strings/)
+- [Didier Stevens: Metasploit User Agent Strings](https://blog.didierstevens.com/2015/03/16/quickpost-metasploit-user-agent-strings/)
 
 - [Catching Meterpreter Callbacks](https://github.com/bats3c/shad0w/wiki/Catching-Meterpreter-Callbacks)
 

@@ -43,7 +43,7 @@ Compile C# Project of Windows executable
 > dotnet publish [/path/to/project/] -f net6.0 -r win-x64 -c Release --sc false [-p:AllowUnsafeBlocks=true] -p:PublishSingleFile=true -p:PublishTrimmed=true
 ```
 
-Or you can just use `build`
+Or you can just use `build`.
 
 ```
 > dotnet build [/path/to/project/] -r win-x64 -c Release [-p:AllowUnsafeBlocks=true] -p:PublishSingleFile=true -p:PublishTrimmed=true
