@@ -1,6 +1,14 @@
 # Manual
 
-## 01 - Usage
+## 01 - Banner Grab
+
+```
+$ nc -v <IP> 3306
+
+$ telnet <IP> 3306
+```
+
+## 02 - Usage
 
 ### 1.1 - Authenticate
 

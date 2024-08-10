@@ -2,7 +2,9 @@
 
 ## 01 - Setup
 
-`$ sudo apt install -y cutycapt`
+```
+$ sudo apt install -y cutycapt
+```
 
 ## 02 - Help Menu
 
@@ -53,7 +55,9 @@ TODO: Fill this info
 
 - Take a single screenshot
 
-`$ cutycapt --url=http[s]://<IP> --out=image.png`
+```
+$ cutycapt --url=http[s]://<IP> --out=image.png
+```
 
 ## 04 - Automation Script
 
@@ -62,6 +66,46 @@ TODO: Rewrite the script
 https://gist.github.com/vvasabi/a266fc4e37e372a1ad8c
 
 https://www.hackbook.io/reconnaissance/web-server/directory-and-file-enumeration/enumeration/gocutty
+
+## 05 - Use Cases
+
+### 5.1 - Photos
+
+```
+$ for ip in $(cat nmap-output.gnmap) | grep ":80$\|:443\|:8000\|:8080" | grep -v "Nmap" | awk '{print $2}'); do cutycapt --url=$ip --out=$ip.png;done
+
+$ ls -1 *.png
+10.11.1.10.png
+10.11.1.115.png
+10.11.1.116.png
+10.11.1.128.png
+10.11.1.13.png
+10.11.1.133.png
+10.11.1.14.png
+10.11.1.202.png
+10.11.1.209.png
+10.11.1.217.png
+```
+
+We could examine these files individually but the more attractive choice is to once again put our scripting knowledge to work and see if there is anything else we can automate. This will require not only Bash scripting skills but also basic HTML knowledge:
+
+```bash
+$ cat pngtohtml.sh
+#!/bin/bash
+# Bash script to examine the scan results through HTML.
+
+echo "<HTML><BODY><BR>" > web.html
+
+ls -1 *.png | awk -F : '{ print $1":\n<BR><IMG SRC=\""$1""$2"\" width=600><BR>"}' >> web.html
+
+echo "</BODY></HTML>" >> web.html
+
+$ chmod +x ./pngtohtml.sh
+
+$ ./pngtohtml.sh
+
+$ firefox web.html
+```
 
 ---
 ## References

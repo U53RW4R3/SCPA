@@ -10,7 +10,9 @@ chmod +x GitDorker.py
 
 ## Usage
 
-`$ ./GitDorker.py -d Dorks/<dork_file> -tf tf/TOKENSFILE -q <domain.com> -o output.txt`
+```
+$ ./GitDorker.py -d Dorks/<dork_file> -tf tf/TOKENSFILE -q <domain.com> -o output.txt
+```
 
 ---
 ## References
