@@ -17,3 +17,5 @@
 4. Malware Analysis
     - https://pentestbook.six2dez.com/others/virtualbox
     - https://bazaar.abuse.ch/
+    - https://github.com/Pyran1/MalwareDatabase
+    - [Malware-Sample-Library](https://github.com/mstfknn/malware-sample-library)

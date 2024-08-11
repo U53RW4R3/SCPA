@@ -31,8 +31,8 @@
         - [nuitka-extractor](https://github.com/extremecoders-re/nuitka-extractor)
 
 * Malware Analysis
-    - [Malware-Sample-Library](https://github.com/mstfknn/malware-sample-library)
     - [YARA](https://virustotal.github.io/yara/) && [Github Repo](https://github.com/virustotal/yara)
+    - [oletools](https://github.com/decalage2/oletools)
 
 1. [Valgrind](https://www.valgrind.org) && [Backup](https://gitlab.com/kalilinux/packages/valgrind)
 2. [Binwalk](https://github.com/ReFirmLabs/binwalk)
