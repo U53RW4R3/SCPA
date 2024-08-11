@@ -1,5 +1,7 @@
 # Craft Manually with Macro Delivery
 
+Search Tag(s): #weaponization #client-side-attacks #phishing #T1137
+
 TODO: Fill in the info
 
 ```
@@ -75,12 +77,12 @@ $ sudo python -m http.server 80
 ---
 ## References
 
+- [Red Team Notes: Phishing - Office Macros](https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/t1137-office-vba-macros)
+
 - [Hacktricks: Phishing Files and Documents](https://book.hacktricks.xyz/generic-methodologies-and-resources/phishing-methodology/phishing-documents)
 
 - [Hacking Articles: Multiple Ways to Exploit Windows Systems using Macros](https://www.hackingarticles.in/multiple-ways-to-exploit-windows-systems-using-macros/)
 
 - [Bank Security: MS Excel Weaponization Techniques](https://bank-security.medium.com/ms-excel-weaponization-techniques-79ac51610bf5)
-
-- [War Room: Metasploit Module of the Month Web Delivery](https://warroom.rsmus.com/metasploit-module-of-the-month-web_delivery/)
 
 - [mgeeky: Various Macros-Based RCEs](https://gist.github.com/mgeeky/9dee0ac86c65cdd9cb5a2f64cef51991)

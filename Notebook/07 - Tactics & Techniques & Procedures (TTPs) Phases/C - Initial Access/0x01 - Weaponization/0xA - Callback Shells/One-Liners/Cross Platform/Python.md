@@ -18,6 +18,8 @@ Single quote
 
 ```
 > python -c 'exec "<base64_payload>".decode("base64")'
+
+$ echo "exec('<base64_payload>').decode('base64')) | python"
 ```
 
 Double quote

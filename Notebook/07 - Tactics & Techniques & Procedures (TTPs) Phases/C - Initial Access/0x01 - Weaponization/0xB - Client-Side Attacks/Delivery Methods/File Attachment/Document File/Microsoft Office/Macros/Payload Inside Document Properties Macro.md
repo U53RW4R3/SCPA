@@ -13,4 +13,4 @@ Using **comments** in the **Properties** to include malware URL link to execute 
 
 - [The Art of Creating backdoors and Exploits with Metasploit (Duplicate)](https://www.drchaos.com/post/the-art-of-creating-backdoors-and-exploits-with-metasploit)
 
-- [MS Excel Weaponization Techniques](https://bank-security.medium.com/ms-excel-weaponization-techniques-79ac51610bf5)
+- [Bank Security: MS Excel Weaponization Techniques](https://bank-security.medium.com/ms-excel-weaponization-techniques-79ac51610bf5)

