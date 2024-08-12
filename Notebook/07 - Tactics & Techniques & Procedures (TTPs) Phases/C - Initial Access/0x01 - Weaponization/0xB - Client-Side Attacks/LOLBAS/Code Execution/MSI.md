@@ -1,4 +1,10 @@
-# Draft
+# MSI
+
+## Msiexec
+
+```
+C:\> msiexec /quiet /qn /i implant.msi "C:\path\to\implant.msi"
+```
 
 ```xml
 <?xml version="1.0"?>
@@ -37,3 +43,8 @@
  </Product>
 </Wix>
 ```
+
+---
+## References
+
+- [LOLBAS: Msiexec](https://lolbas-project.github.io/lolbas/Binaries/Msiexec/)
