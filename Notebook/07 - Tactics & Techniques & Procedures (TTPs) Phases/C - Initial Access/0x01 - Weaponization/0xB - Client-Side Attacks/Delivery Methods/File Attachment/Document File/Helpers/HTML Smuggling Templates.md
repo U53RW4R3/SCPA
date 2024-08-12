@@ -1,10 +1,4 @@
-# HTML Smuggling
-
-## 01 - Manual
-
-`$ cat html_smuggling.html`
-
----
+# HTML Smuggling Templates
 
 ```html
 <html>
@@ -44,25 +38,8 @@
 </html>
 ```
 
-`$ sudo python -m http.server 80`
-
-## 02 - Automated
-
-### 2.1 - BobTheSmuggler
-
-TODO: Provide usage details for BobTheSmuggler
-
-
 ---
 ## References
-
-- [BobTheSmuggler](https://github.com/TheCyb3rAlpha/BobTheSmuggler)
-
-- [Hacking Articles: A Detailed Guide on HTML Smuggling](https://www.hackingarticles.in/a-detailed-guide-on-html-smuggling/)
-
-- [exploitblizzard: GhostInHTML](https://github.com/exploitblizzard/GhostInHTML)
-
-### HTML Smuggling Templates
 
 - [raulm0429: HTMLSmuggling](https://github.com/raulm0429/HtmlSmuggling)
 

