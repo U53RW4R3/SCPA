@@ -30,9 +30,9 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [ ] Parse and verify the emails
 - [ ] Check if the domain is spoofable.
 
-### Code Execution
+### LOLBAS
 
-- [ ] Visit [LOLBAS](https://lolbas-project.github.io/lolbas) and [Red Team Notes](https://www.ired.team/offensive-security/code-execution) to change the execution to evade security endpoints.
+- [ ] Check **LOLBAS** section to change the execution methods.
 
 ---
 ## References
