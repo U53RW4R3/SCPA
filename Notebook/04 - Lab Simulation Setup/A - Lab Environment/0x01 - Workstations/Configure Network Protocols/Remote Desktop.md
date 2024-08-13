@@ -1,6 +1,6 @@
-# RDP
+# Remote Desktop
 
-## 01 - Linux Setup
+## RDP
 
 Install the X11 RDP server.
 
@@ -21,4 +21,16 @@ Restart the RDP server.
 
 ```
 $ sudo systemctl restart xrdp
+```
+
+## VNC
+
+```
+$ sudo apt install -y tightvnc
+```
+
+TODO: Fill this info
+
+```
+$ tightvncserver
 ```

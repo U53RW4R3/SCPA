@@ -2,13 +2,13 @@
 
 ## Dependencies
 
-- Ubuntu and Debian-based distros.
+Ubuntu and Debian-based distros.
 
 ```
 $ sudo apt install -y virtualbox virtualbox-guest-additions-iso packer vagrant
 ```
 
-- Arch Linux-based distros.
+Arch Linux-based distros.
 
 ```
 $ sudo pacman -S virtualbox virtualbox-host-modules-arch dkms packer vagrant

@@ -89,7 +89,7 @@ MariaDB [(none)]> ALTER USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
 
 #### Grant user privileges
 
-This will grant the `dvwa@localhost` DB user with least privileges. But skip this step and move on for [[04 - Lab Simulation Setup/Webapps/DVWA/Setup#^14f9b2|granting all privileges]] to have the full experience of SQLi.
+This will grant the `dvwa@localhost` DB user with least privileges. But skip this step and move on for [[04 - Lab Simulation Setup/C - Webapps/DVWA/Setup#^14f9b2|granting all privileges]] to have the full experience of SQLi.
 
 ```
 MariaDB [(none)]> GRANT ALL ON dvwa.* TO dvwa@localhost;
