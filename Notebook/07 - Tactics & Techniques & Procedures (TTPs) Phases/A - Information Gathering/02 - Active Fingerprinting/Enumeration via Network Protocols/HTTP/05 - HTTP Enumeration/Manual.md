@@ -1,6 +1,16 @@
 # Manual
 
-`$ curl --proxy http[s]://<pivot_IP> <target_IP>`
+## 01 - `wget`
+
+```
+$ wget -q --spider -S <URL>
+```
+
+## 02 - cURL
+
+```
+$ curl --proxy http[s]://<pivot_IP> <target_IP>
+```
 
 ---
 ## References

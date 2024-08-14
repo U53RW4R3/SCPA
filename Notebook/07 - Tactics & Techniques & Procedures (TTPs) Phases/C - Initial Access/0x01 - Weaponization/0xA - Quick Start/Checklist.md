@@ -47,14 +47,14 @@ Note: You can be creative by combing multiple files.
 		- [[Word]]
 		- [[Excel]]
 		- [[PowerPoint]]
-- [ ] Trojan Horse
+- [ ] Deploy Implant (Trojan Horse).
 	- [ ] Executable file (`.exe`).
 		- [ ] Custom Dropper
 			- [ ] Disguise it with an icon.
 			- [ ] Append a **RTLO (Right to Left Override)** to make the extension look legitimate.
 		- [ ] Backdoor the executable file
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Backdoored EXEcutable Files/Manual|Manual]]
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Backdoored EXEcutable Files/MSFVenom|MSFVenom]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Backdoor EXEcutable Files/Manual|Manual]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
 			- [[Shellter|Shellter]]
 	- [ ] HTML Application (`.hta`)
 	- [ ] MSI Installer (`.msi`)

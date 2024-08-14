@@ -20,7 +20,7 @@ Extract `.docx` file using `7zip` or `unzip` and modify the contents in `word\_r
 </Relationships>
 ```
 
-Using a URL handle with `ms-word:ofe|u|` scheme can trigger SMB relay authentication.
+Using a URL handle with `ms-word:ofe|u|` scheme can trigger SMB relay.
 
 ```html
 <!DOCTYPE html>
