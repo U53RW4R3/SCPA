@@ -44,14 +44,6 @@ C:\> msiexec /y "C:\path\to\implant.dll"
 C:\> odbcconf /a {REGSVR C:\path\to\implant.dll}
 ```
 
-## MavInject
-
-Inject DLL implant in a process ID.
-
-```
-C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\implant.dll
-```
-
 ---
 ## References
 
@@ -64,8 +56,6 @@ C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\implant.dll
 - [LOLBAS: Msiexec](https://lolbas-project.github.io/lolbas/Binaries/Msiexec/)
 
 - [LOLBAS: Odbcconf](https://lolbas-project.github.io/lolbas/Binaries/Odbcconf/)
-
-- [LOLBAS: Mavinject](https://lolbas-project.github.io/lolbas/Binaries/Mavinject/)
 
 https://lolbas-project.github.io/lolbas/Libraries/Advpack/
 

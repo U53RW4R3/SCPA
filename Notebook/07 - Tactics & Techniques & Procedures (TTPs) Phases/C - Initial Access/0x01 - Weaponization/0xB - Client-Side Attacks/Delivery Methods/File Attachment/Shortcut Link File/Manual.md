@@ -120,11 +120,11 @@ TODO: Provide use cases if any
 
 - [[Web Delivery|Metasploit: Web Delivery]]
 
-- [nobodyatall648: Malicious LNK File Abuse Hotkey Feature](https://github.com/nobodyatall648/Malicious-LNK-File-Abuse-Hotkey-Feature)
-
 - [rvrsh3ll: Create-HotKeyLNK.ps1](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
 
-- [SS64 Shortcut](https://ss64.com/nt/shortcut.html)
+- [nobodyatall648: Malicious LNK File Abuse Hotkey Feature](https://github.com/nobodyatall648/Malicious-LNK-File-Abuse-Hotkey-Feature)
+
+- [SS64: Shortcut](https://ss64.com/nt/shortcut.html)
 
 - [Shellgeek: Create Shortcuts on User Desktop Using Powershell](https://shellgeek.com/create-shortcuts-on-user-desktop-using-powershell/)
 
@@ -135,6 +135,10 @@ TODO: Provide use cases if any
 - [Uperesia Booby Trapped Shortcut](https://www.uperesia.com/booby-trapped-shortcut)
 
 - [Create Shortcut Using VBScript](https://think.unblog.ch/en/create-shortcut-using-vbscript/)
+
+### Bordergate
+
+- [Bordergate: Disguising Client Side Payloads](https://www.bordergate.co.uk/disguising-client-side-payloads/)
 
 ### Pentestlab
 
@@ -159,6 +163,3 @@ TODO: Provide use cases if any
 - [Assume Breach: LNK Phishing Revisited In 2023](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-revisited-in-2023-364daf70a06a)
 
 - [Assume Breach: LNK Phishing In 2023 Revisited…Again](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-in-2023-revisited-again-2b8c885b9836)
-
-### Red Team Notes
-

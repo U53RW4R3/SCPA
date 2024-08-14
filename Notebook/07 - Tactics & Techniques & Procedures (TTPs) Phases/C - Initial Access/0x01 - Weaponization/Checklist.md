@@ -2,7 +2,7 @@
 
 Search Tag(s): #checklist #weaponization #client-side-attacks #phishing #defense-evasion
 
-TODO: Make a cross-reference when making a good checklist for weaponizing when delivery the attack.
+TODO: Make a cross-reference when making a good checklist for weaponizing when delivering the attack.
 
 ## Weaponization
 
@@ -11,30 +11,69 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [[exifLooter]]
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Nmap|Nmap]]
 
-## Phishing
+### Social Engineering Techniques
 
-### Social Engineering Pretext
+#### Phishing Preparation
 
-- Gather emails with the following methods.
-	- Passively browse the website 
-		- [ ] Search for emails to scrape them.
-		- [ ] Search for first and last names to parse them to perform user enumeration with the following.
-			- SMTP Port
-				- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration via Network Protocols/SMTP/Manual|Manual username enumeration]]
-				- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration via Network Protocols/SMTP/Metasploit|Metasploit username enumeration]]
-			- Web mail
-	- [ ] OSINT gathering on social media
-	- [ ] OSINT gathering using google dorking
-		- TODO Fill in the
-	- [ ] Data breaches
-	- [ ] Parse and verify the emails
-- [ ] Check if the domain is spoofable.
+- [ ] For social engineering pretext visit this [[Social Engineering Pretext|section]] to make preparation for your campaign.
+- [ ] Choose which phishing delivery method for the campaign.
+	- [ ] Phishing
+		- Gather emails with the following methods.
+			- Passively browse the website 
+				- [ ] Search for emails to scrape them.
+				- [ ] Search for first and last names to parse them to perform user enumeration with the following.
+					- SMTP Port
+						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration via Network Protocols/SMTP/Manual|Manual username enumeration]]
+						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/02 - Active Fingerprinting/Enumeration via Network Protocols/SMTP/Metasploit|Metasploit username enumeration]]
+					- Web mail
+			- [ ] OSINT gathering on social media
+			- [ ] OSINT gathering using google dorking
+				- TODO Fill in the
+			- [ ] Data breaches
+			- [ ] Parse and verify the emails
+		- [ ] Check if the domain is spoofable.
+	- [ ] Smishing (SMS Phishing)
+	- [ ] Vishing (voice phishing)
 
-### LOLBAS
+#### File Attachment
+
+Note: You can chain multiple files.
 
 - [ ] Check **LOLBAS** section to change the execution methods.
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Document File/HTML Smuggling/Manual|HTML Smuggling]]
+- Office
+	- [ ] Macros
+		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Microsoft Office/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
+		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Document File/LibreOffice/Macros/Craft Manually with Macro Delivery|LibreOffice Macro]]
+	- [ ] [[Word]]
+	- [ ] [[Excel]]
+	- [ ] [[PowerPoint]]
+- [ ] Trojan Horse
+	- [ ] Backdoor the executable file.
+		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Backdoored EXEcutable Files/Manual|Manual]]
+		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Backdoored EXEcutable Files/MSFVenom|MSFVenom]]
+		- [[Shellter|Shellter]]
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Manual|Shortcut Link]]
+- Store files to safeguard from **MOTW (Mark of the Web)**.
+	- [ ] Archive Files
+		- 7Zip
+	- [ ] Disk container
+		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Disk Image/Generate Disk Image/Automated/PackMyPayload/Program/Usage|PackMyPayload]]
+	- [ ] Password protected if using an archive program.
 
----
-## References
+## Physical Penetration
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Manual|Weaponization: Manual Shortcut Link File]]
+### Social Engineering Techniques
+
+#### Evil Twin
+
+- [[Rogue Access Point]]
+
+#### Whaling
+
+- [ ] TODO: Fill in the info
+
+### BadUSB
+
+- [ ] [[Arduino]]
+- [ ] [[Hak5 Devices]]
