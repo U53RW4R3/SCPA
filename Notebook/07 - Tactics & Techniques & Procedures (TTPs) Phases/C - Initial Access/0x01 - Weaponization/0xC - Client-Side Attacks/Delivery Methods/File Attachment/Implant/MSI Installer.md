@@ -2,13 +2,15 @@
 
 ## 01 - Setup
 
+### 1.1 - `msitools`
+
 Install the packages.
 
 ```
 $ sudo apt install -y msitools wixl
 ```
 
-In dotnet
+### 1.2 - DotNET
 
 ```
 $ dotnet tool install --global wix

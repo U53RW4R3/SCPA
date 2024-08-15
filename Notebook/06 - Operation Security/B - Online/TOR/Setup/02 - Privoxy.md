@@ -53,6 +53,8 @@ $ curl https://ipinfo.io
 $ curl https://ifconfig.me
 
 $ curl https://ip.me
+
+$ curl 'https://api.ipify.org?format=json'
 ```
 
 - Check if you're connected to TOR

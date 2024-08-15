@@ -1,4 +1,20 @@
-# Metasploit
+# Scanners
+
+## 01 - Nmap
+
+```
+$ sudo nmap -p 80,443,8000,8080,8443 -Pn -n -sV <IP>
+```
+
+## 02 - Nikto
+
+```
+$ nikto -h <IP> -findonly
+
+$ nikto -h <IP> -Plugins headers
+```
+
+## 03 - Metasploit
 
 ```
 msf > use auxiliary/scanner/http/http_version

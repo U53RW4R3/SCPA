@@ -2,4 +2,6 @@
 
 TODO: Fill this info
 
-`msf > use auxiliary/scanner/http/options`
+```
+msf > use auxiliary/scanner/http/options
+```

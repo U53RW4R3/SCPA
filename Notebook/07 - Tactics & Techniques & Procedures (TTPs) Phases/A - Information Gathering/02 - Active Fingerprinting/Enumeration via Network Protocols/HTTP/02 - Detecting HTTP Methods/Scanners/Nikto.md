@@ -1,3 +1,5 @@
 # Nikto
 
-`$ nikto -h <URL> -Plugins httpoptions`
+```
+$ nikto -h <URL> -Plugins httpoptions
+```

@@ -4,11 +4,15 @@ Search Tag(s): #command-line #networking #linux
 
 - Network overview
 
-`$ nmcli -o`
+```
+$ nmcli -o
+```
 
 - Display network devices in details
 
-`$ nmcli -p device show`
+```
+$ nmcli -p device show
+```
 
 - Check route
 

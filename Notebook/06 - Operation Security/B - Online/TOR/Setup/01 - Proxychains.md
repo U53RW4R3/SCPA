@@ -12,7 +12,7 @@ socks4  127.0.0.1 9050
 socks5  127.0.0.1 9050
 ```
 
-- Lookup IP
+Lookup IP
 
 ```
 $ proxychains curl https://ipinfo.io
@@ -20,9 +20,11 @@ $ proxychains curl https://ipinfo.io
 $ proxychains curl https://ifconfig.me
 
 $ proxychains curl https://ip.me
+
+$ proxychains curl 'https://api.ipify.org?format=json'
 ```
 
-- Check if you're connected to TOR
+Check if you're connected to TOR
 
 ```
 $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."

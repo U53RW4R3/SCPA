@@ -3,7 +3,7 @@
 ## 01 - `wget`
 
 ```
-$ wget -q --spider -S <URL>
+$ wget -q --no-check-certificate --spider -S <URL>
 ```
 
 ## 02 - cURL

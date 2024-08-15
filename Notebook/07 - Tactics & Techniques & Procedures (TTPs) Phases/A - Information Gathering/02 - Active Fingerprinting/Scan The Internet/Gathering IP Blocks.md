@@ -5,7 +5,7 @@
 TODO: Fill this info
 
 ```
-$ wget `curl -s https://db-ip.com/db/download/city | grep -Eo 'https://download.db-ip.com/free/dbip-city-20[0-9]{2}-[0-9]{2}.csv.gz'` && gunzip dbip-city-*.csv.gz && mv dbip-city-* dbip-city-csv
+$ wget $(curl -s https://db-ip.com/db/download/city | grep -Eo 'https://download.db-ip.com/free/dbip-city-20[0-9]{2}-[0-9]{2}.csv.gz') && gunzip dbip-city-*.csv.gz && mv dbip-city-* dbip-city-csv
 ```
 
 ## 02 - All ISP IP Ranges
