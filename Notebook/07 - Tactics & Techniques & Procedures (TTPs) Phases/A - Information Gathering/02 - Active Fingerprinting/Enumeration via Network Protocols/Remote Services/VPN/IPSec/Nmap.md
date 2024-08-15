@@ -1,3 +1,5 @@
 # Nmap
 
-`$ sudo nmap -p 500 -sU --script ike-version <IP>`
+```
+$ sudo nmap -p 500 -Pn -sU --script ike-version <IP>
+```

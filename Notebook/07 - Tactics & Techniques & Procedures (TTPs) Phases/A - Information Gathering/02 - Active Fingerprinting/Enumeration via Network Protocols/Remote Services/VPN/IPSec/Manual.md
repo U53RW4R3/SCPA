@@ -470,6 +470,10 @@ See the ike-scan homepage at http://www.nta-monitor.com/tools/ike-scan/
 
 TODO: Fill this info
 
+```
+$ ike-scan -M <IP>
+```
+
 ---
 ## References
 
