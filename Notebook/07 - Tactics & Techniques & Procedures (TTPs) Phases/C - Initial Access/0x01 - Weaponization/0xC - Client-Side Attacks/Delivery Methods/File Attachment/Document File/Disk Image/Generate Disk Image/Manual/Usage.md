@@ -1,6 +1,6 @@
 # Usage
 
-Search Tag(s): #initial-foothold #defense-evasion #windows
+Search Tag(s): #initial-access #defense-evasion #windows
 
 ## 01 - Dependencies
 

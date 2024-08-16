@@ -1,6 +1,6 @@
 # 02 - Alternate Data Stream
 
-Search Tag(s): #initial-foothold #defense-evasion #windows #use-cases
+Search Tag(s): #initial-access #defense-evasion #windows #use-cases
 
 ## 2.1 -  Appending files via ADS in Linux
 

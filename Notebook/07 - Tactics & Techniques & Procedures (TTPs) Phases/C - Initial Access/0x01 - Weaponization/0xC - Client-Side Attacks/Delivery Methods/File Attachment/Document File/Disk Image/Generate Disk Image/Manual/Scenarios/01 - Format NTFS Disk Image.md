@@ -1,6 +1,6 @@
 # 01 - Format NTFS Disk Image
 
-Search Tag(s): #initial-foothold #windows #use-cases
+Search Tag(s): #initial-access #windows #use-cases
 
 ## 1.1 - Generate image container
 

