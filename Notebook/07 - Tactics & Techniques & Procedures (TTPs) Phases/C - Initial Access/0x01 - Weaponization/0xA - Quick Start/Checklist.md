@@ -15,7 +15,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 
 - [ ] For social engineering pretext visit this [[Social Engineering Pretext|section]] to make preparation for your campaign.
 - [ ] Choose which phishing delivery method for the campaign.
-	- [ ] Phishing
+	- [ ] Phishing via Email
 		- Gather emails with the following methods.
 			- Passively browse the website 
 				- [ ] Search for emails to scrape them.
@@ -30,6 +30,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 			- [ ] Data breaches
 			- [ ] Parse and verify the emails
 		- [ ] Check if the domain is spoofable.
+	- [ ] Phishing via Social Media
 	- [ ] Smishing (SMS Phishing)
 	- [ ] Vishing (voice phishing)
 
@@ -39,14 +40,13 @@ Note: You can be creative by combing multiple files.
 
 - [ ] Check **LOLBAS** section to change the execution methods.
 - [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/HTML Smuggling/Manual|HTML Smuggling]]
-- Office
-	- [ ] Macros
-		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Microsoft Office/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
-		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/LibreOffice/Macros/Craft Manually with Macro Delivery|LibreOffice Macro]]
-	- [ ] Macroless
-		- [[Word]]
-		- [[Excel]]
-		- [[PowerPoint]]
+- [ ] Macros
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Microsoft Office/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/LibreOffice/Macros/Craft Manually with Macro Delivery|LibreOffice Macro]]
+- [ ] Macroless
+	- [[Word|Word OLE Object]]
+	- [[Excel]]
+	- [[PowerPoint]]
 - [ ] Deploy Implant (Trojan Horse).
 	- [ ] Executable file (`.exe`).
 		- [ ] Custom Dropper
@@ -57,15 +57,100 @@ Note: You can be creative by combing multiple files.
 			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
 			- [[Shellter|Shellter]]
 	- [ ] HTML Application (`.hta`)
-	- [ ] MSI Installer (`.msi`)
+	- [ ] Installer
+		- [ ] MSI
+		- [ ] ClickOnce
 - [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Manual|Shortcut Link]] (`.lnk`)
 	- [ ] Decoy file.
-- Store files to safeguard from **MOTW (Mark of the Web)**.
-	- [ ] Archive Files
-		- 7Zip
-	- [ ] Disk container
-		- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Disk Image/Generate Disk Image/Automated/PackMyPayload/Program/Usage|PackMyPayload]]
-	- [ ] Password protected if using an archive program.
+
+#### Bypass MOTW (Mark of the Web)
+
+Note: You can be creative by combing multiple files.
+
+- [ ] Archive Files
+	- 7Zip
+		- [ ] Password protected
+	- CAB
+- [ ] Disk container
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Disk Image/Generate Disk Image/Automated/PackMyPayload/Usage|PackMyPayload]]
+		- [ ] Add archive file.
+			- 7zip
+				- [ ] Password protected.
+			- Zip
+				- [ ] Password protected.
+			- CAB
+			- Tarball
+		- [ ] Spoof file attachment inside the container.
+			- [ ] [[01 - Format NTFS Disk Image|Format NTFS Disk Image]]
+			- [ ] [[02 - Alternate Data Stream|Alternate data stream]] inside Linux.
+			- [ ] [[03 - Spoof ZoneTransfer (MOTW Bypass)|Append fake zonetransfer]] inside linux.
+		- [ ] Archive all files inside a disk container image.
+			- ISO
+			- IMG
+			- VHD
+			- VHDX
+- [ ] Enable and execute VBA macros
+	- [ ] Add archive file.
+		- 7zip
+			- [ ] Password protected.
+		- CAB
+		- Tarball
+	- [ ] Using [[Word|Word OLE Object]] to embed inside a file.
+	- [ ] Using **OneNote** to embed inside a file.
+	- [ ] Using **Adobe Reader** or **Foxit** to embed inside a file.
+	- [ ] Shortcut `.lnk` file.
+		- [ ] Shell Scripting
+			- Batch (`.bat` or `.cmd`)
+			- VBScript (`.vbs`)
+	- [ ] HTML Application (`.hta`) with macros inside using [[Macros Template|DCOM]] method.
+- [ ] Using [[Word|Word OLE Object]] to embed inside a file.
+	- [ ] Add archive file.
+		- 7zip
+			- [ ] Password protected.
+		- Zip
+			- [ ] Password protected.
+		- CAB
+		- Tarball
+	- [ ] Shortcut `.lnk` file.
+	- [ ] HTML Application (`.hta`)
+	- [ ] Installer
+		- [ ] MSI
+		- [ ] ClickOnce
+	- [ ] Shell Scripting
+		- Batch (`.bat` or `.cmd`)
+		- VBScript (`.vbs`)
+- [ ] Using **OneNote** to embed inside a file.
+	- [ ] Add archive file.
+		- 7zip
+			- [ ] Password protected.
+		- Zip
+			- [ ] Password protected.
+		- CAB
+		- Tarball
+	- [ ] Shortcut `.lnk` file.
+	- [ ] HTML Application (`.hta`)
+	- [ ] Installer
+		- [ ] MSI
+		- [ ] ClickOnce
+	- [ ] Shell Scripting
+		- Batch (`.bat` or `.cmd`)
+		- VBScript (`.vbs`)
+- [ ] Using **Adobe Reader** or **Foxit** to embed inside a file.
+	- [ ] Add archive file.
+		- 7zip
+			- [ ] Password protected.
+		- Zip
+			- [ ] Password protected.
+		- CAB
+		- Tarball
+	- [ ] Shortcut `.lnk` file.
+	- [ ] HTML Application (`.hta`)
+	- [ ] Installer
+		- [ ] MSI
+		- [ ] ClickOnce
+	- [ ] Shell Scripting
+		- Batch (`.bat` or `.cmd`)
+		- VBScript (`.vbs`)
 
 ### Physical Penetration
 

@@ -117,7 +117,7 @@ C:\> conhost.exe --headless powershell.exe -noni -nop -ep bypass -file implant.p
 
 - [[Batch|Malware Development: Batch Obfuscation Techniques]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Callback Shells/One-Liners/Windows/Reverse Shells/Powershell|Callback Shells: Powershell]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Callback Shells/One-Liners/Windows/Reverse Shells/PowerShell|Callback Shells: Powershell]]
 
 - [LOLBAS: Cmd](https://lolbas-project.github.io/lolbas/Binaries/Cmd/)
 

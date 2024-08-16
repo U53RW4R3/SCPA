@@ -1,4 +1,4 @@
-# Draft
+# ClickOnce
 
 https://infosecwriteups.com/backdooring-clickonce-net-for-initial-access-a-practical-example-1eb6863c0579
 

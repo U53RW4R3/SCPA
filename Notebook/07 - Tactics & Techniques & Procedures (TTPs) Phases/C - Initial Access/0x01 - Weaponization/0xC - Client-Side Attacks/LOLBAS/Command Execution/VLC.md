@@ -1,6 +1,6 @@
 # VLC
 
-Execute command to perform SMB authentication relay.
+Execute command to perform SMB relay.
 
 ```
 C:\> vlc.exe -q -I smb --smb-user <username> --smb-pwd <password> --smb-domain <domain>

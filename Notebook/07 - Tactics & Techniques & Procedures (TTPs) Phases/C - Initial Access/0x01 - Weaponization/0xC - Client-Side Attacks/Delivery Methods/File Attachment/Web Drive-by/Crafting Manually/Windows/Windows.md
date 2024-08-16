@@ -103,10 +103,12 @@ Invoke-Shellcode -ProcessId $procid -Shellcode @(<ps1_shellcode_format>)
 
 - [[DotNET Execution|Code Execution: MSBuild]]
 
-- [Invoke-ReflectivePEInjection](https://github.com/charnim/Invoke-ReflectivePEInjection.ps1)
+- [charnim: Invoke-ReflectivePEInjection](https://github.com/charnim/Invoke-ReflectivePEInjection.ps1)
 
 - [Red Team Notes: Code Execution](https://www.ired.team/offensive-security/code-execution)
 
+- [Sevagas: Hacking around HTA files](https://blog.sevagas.com/?Hacking-around-HTA-files)
+
 - [Adamn Chester (XPN) YouTube Video: Bypass AV with Invoke-ReflectivePEInjection](https://www.youtube.com/watch?v=byMBx4q-vYo)
 
-- [sRDI](https://github.com/monoxgas/sRDI)
+- [monoxgas: sRDI](https://github.com/monoxgas/sRDI)

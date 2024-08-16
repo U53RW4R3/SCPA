@@ -2,7 +2,25 @@
 
 ## 01 - Spawn TTY Shell
 
-### 1.1 - Python
+### 1.1 - Cross Platform
+
+#### 1.1.1 - Rlwrap
+
+Using the GNU readline wrapper with arrow keys. You can use this when using a normal reverse shell for penetrating Windows machine.
+
+```
+userware@hackware-os:~$ rlwrap nc <target_IP> <target_PORT>
+```
+
+The `-f .` flag will make rlwrap use the current history file as a completion word list, and `-r` put all words seen on input and output on the completion list.
+
+```
+userware@hackware-os:~$ rlwrap -r -f . nc <target_IP> <target_PORT>
+```
+
+### 1.2 - Linux
+
+#### 1.1.1 - Python
 
 ```
 $ python -c 'import pty; pty.spawn("/bin/bash")'
@@ -33,7 +51,7 @@ $ export TERM=xterm-256color
 $ stty rows <num> columns <cols>
 ```
 
-### 1.2 - Script
+#### 1.1.2 - Script
 
 This is a universal method for GNU/Linux and Unix-like operating systems.
 
@@ -67,21 +85,7 @@ $ export TERM=xterm-256color
 $ stty rows <num> columns <cols>
 ```
 
-### 1.3 - Rlwrap
-
-Using the GNU readline wrapper with arrow keys. You can use this when using a normal reverse shell for penetrating Windows machine.
-
-```
-userware@hackware-os:~$ rlwrap nc <target_IP> <target_PORT>
-```
-
-- `-f .` will make rlwrap use the current history file as a completion word list, and `-r` put all words seen on input and output on the completion list.
-
-```
-userware@hackware-os:~$ rlwrap -r -f . nc <target_IP> <target_PORT>
-```
-
-### 1.4 - Expect
+#### 1.1.3 - Expect
 
 Using `expect` to get a TTY
 
@@ -109,8 +113,72 @@ Password:  mypassword
 localhost ~ #
 ```
 
+### 1.3 - Windows
+
+Note: Refer to fully interactive [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Callback Shells/One-Liners/Windows/Reverse Shells/PowerShell#^d57486|powershell]].
+
+#### 1.3.1 - Method One
+
+This will set the terminal size automatically without passing the `rows` and `cols` manually.
+
+```
+userware@hackware-os:~$ stty raw -echo; (stty size; cat) | nc -lvnp <PORT>
+```
+
+#### 1.3.2 - Method Two
+
+When you encounter an problem to ensure that the `cols` and `rows` are set manually.
+
+```
+userware@hackware-os:~$ stty size
+
+userware@hackware-os:~$ nc -lvnp <PORT>
+
+PS C:\> CTRL+Z
+```
+
+In attacker machine for `/bin/bash`.
+
+```
+userware@hackware-os:~$ stty raw -echo
+userware@hackware-os:~$ fg
+```
+
+In attacker machine for `/bin/zsh`.
+
+```
+userware@hackware-os:~$ stty raw -echo; fg
+```
+
+#### 1.3.3 - Method Three - Upgrade
+
+You can also upgrade your current shell to a fully interactive shell. In this case it's important that you set `rows` and `cols` size when calling the `Invoke-ConPtyShell` function.
+
+```
+userware@hackware-os:~$ stty size
+
+userware@hackware-os:~$ nc -lvnp <PORT>
+
+PS C:\> CTRL+Z
+```
+
+In attacker machine for `/bin/bash`.
+
+```
+userware@hackware-os:~$ stty raw -echo
+userware@hackware-os:~$ fg
+```
+
+In attacker machine for `/bin/zsh`.
+
+```
+userware@hackware-os:~$ stty raw -echo; fg
+```
+
 ---
 ## References
+
+- [antonioCoco: ConPtyShell](https://github.com/antonioCoco/ConPtyShell)
 
 - [Hacktricks: Shells Full TTYs](https://book.hacktricks.xyz/shells/shells/full-ttys)
 
