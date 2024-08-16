@@ -8,4 +8,4 @@
 
 - [Get Reverse Shell via Windows One Liner](https://www.hackingarticles.in/get-reverse-shell-via-windows-one-liner/)
 
-- [MSFVenom Reverse Shell Payload Cheatsheet](https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/)
+- [Infinite Logins: MSFVenom Reverse Shell Payload Cheatsheet](https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/)
