@@ -4,7 +4,7 @@ Search Tag(s): #command-line #windows
 
 TODO: Fill in the descriptions for the rest of the environment names.
 
-| Environment Variable                           | Output                                                                                                                                                                                        | Command Alias      | Description                                     |
+| Environment Variable                           | Output                                                                                                                                                                                        | Equivalent Command | Description                                     |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------- |
 | `%ALLUSERSPROFILE%`, `%PROGRAMDATA%`           | `C:\ProgramData`                                                                                                                                                                              | None               |                                                 |
 | `%APPDATA%`                                    | `C:\Users\<username>\AppData\Roaming`                                                                                                                                                         | None               |                                                 |

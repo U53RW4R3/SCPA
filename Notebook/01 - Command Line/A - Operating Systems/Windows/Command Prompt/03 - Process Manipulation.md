@@ -38,7 +38,9 @@ C:\> wmic process where "Name Like '<process.exe>'" call terminate
 
 ## 3.3 - Fork Background Process
 
-`C:\> start /b <command> [args]`
+```
+C:\> start /b <command> [args]
+```
 
 ---
 ## References
