@@ -50,7 +50,7 @@ Mode              Size     Type  Last modified              Name
 040777/rwxrwxrwx  0        dir   2022-04-17 21:03:00 -0400  AppData
 040777/rwxrwxrwx  0        dir   2022-04-17 21:03:00 -0400  Application Data
 040555/r-xr-xr-x  0        dir   2022-04-17 21:03:26 -0400  Contacts
-..[truncated]..
+..[omitted]..
 
 meterpreter > ls c:\\users\\
 Listing: c:\users\

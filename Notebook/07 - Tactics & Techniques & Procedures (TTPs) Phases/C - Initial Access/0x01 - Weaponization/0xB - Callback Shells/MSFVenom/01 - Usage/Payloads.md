@@ -10,7 +10,7 @@ To list scripting payloads.
 
 ```
 $ msfvenom -l payloads | grep "cmd/unix" | awk '{print $1}'
-..[truncated]..
+..[omitted]..
 ```
 
 To list payloads with a specific platform.

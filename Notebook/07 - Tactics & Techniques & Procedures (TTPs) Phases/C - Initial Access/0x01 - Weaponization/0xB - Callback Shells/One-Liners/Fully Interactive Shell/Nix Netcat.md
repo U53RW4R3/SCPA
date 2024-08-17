@@ -187,3 +187,5 @@ userware@hackware-os:~$ stty raw -echo; fg
 - [Pentest Monkey: Post Exploitation Without a TTY](https://pentestmonkey.net/blog/post-exploitation-without-a-tty)
 
 - [Enlace Hacktivista: Stabilizing reverse shells](https://enlacehacktivista.org/index.php?title=Stabilizing_reverse_shells)
+
+- [Ivan IT Learning: Interactive shells for Windows](https://ivanitlearning.wordpress.com/2021/04/27/interactive-shells-for-windows/)

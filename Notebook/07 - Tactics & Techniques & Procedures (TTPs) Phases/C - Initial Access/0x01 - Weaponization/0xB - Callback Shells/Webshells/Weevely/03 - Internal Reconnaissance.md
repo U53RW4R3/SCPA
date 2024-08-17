@@ -28,7 +28,7 @@ Scanning addresses 172.28.128.8-172.28.128.8:89-93
 Scanning addresses 172.28.128.8-172.28.128.8:94-98
 Scanning addresses 172.28.128.8-172.28.128.8:99-103
 Scanning addresses 172.28.128.8-172.28.128.8:104-108
-..[truncated]..
+..[omitted]..
 Scanning addresses 172.28.128.8-172.28.128.8:1004-1008
 Scanning addresses 172.28.128.8-172.28.128.8:1009-1013
 Scanning addresses 172.28.128.8-172.28.128.8:1014-1018

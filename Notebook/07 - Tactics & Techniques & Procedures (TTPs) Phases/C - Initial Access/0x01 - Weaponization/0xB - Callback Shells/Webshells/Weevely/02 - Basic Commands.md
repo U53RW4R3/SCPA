@@ -29,7 +29,7 @@ Documentation.html
 Documentation.txt
 INSTALL
 LICENSE
-..[truncated]..
+..[omitted]..
 user_password.php
 view_create.php
 webapp.php

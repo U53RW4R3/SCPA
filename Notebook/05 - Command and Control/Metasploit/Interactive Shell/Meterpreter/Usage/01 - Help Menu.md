@@ -124,7 +124,7 @@ Stdapi: User interface Commands
     setdesktop     Change the meterpreters current desktop
     uictl          Control some of the user interface components
 
-..[truncated]..
+..[omitted]..
 ```
 
 ---

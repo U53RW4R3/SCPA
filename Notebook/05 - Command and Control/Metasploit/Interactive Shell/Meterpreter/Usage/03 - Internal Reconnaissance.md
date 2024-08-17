@@ -144,7 +144,7 @@ Process List
  1160  672   svchost.exe
  1196  672   svchost.exe
  1364  672   svchost.exe  x64   1        Defalt\Winpwn10  C:\Windows\System32\svchost.exe
-..[truncated]..
+..[omitted]..
 
 meterpreter > ps -s
 Filtering on SYSTEM processes...
@@ -162,7 +162,7 @@ Process List
  980   672   svchost.exe         x64   0        NT AUTHORITY\SYSTEM  C:\Windows\System32\svchost.exe
  1096  672   svchost.exe         x64   0        NT AUTHORITY\SYSTEM  C:\Windows\System32\svchost.exe
  1196  672   svchost.exe         x64   0        NT AUTHORITY\SYSTEM  C:\Windows\System32\svchost.exe
-..[truncated]..
+..[omitted]..
 
 meterpreter > ps -U Winpwn10
 Filtering on user 'Winpwn10'
@@ -179,7 +179,7 @@ Process List
  1472  788   ApplicationFrameHost.exe   x64   1        Defalt\Winpwn10  C:\Windows\System32\ApplicationFrameHost.exe
  2060  788   SystemSettings.exe         x64   1        Defalt\Winpwn10  C:\Windows\ImmersiveControlPanel\SystemSettings.exe
  2164  5748  msedgewebview2.exe         x64   1        Defalt\Winpwn10  C:\Program Files (x86)\Microsoft\EdgeWebView\Application\101.0.1210.39\msedgewebview2.exe
-..[truncated]..
+..[omitted]..
 ```
 
 ### 3.2.2 - Filter Processes

@@ -13,7 +13,7 @@ Edit the configuration file.
 ```
 $ sudo nano /etc/xrdp/xrdp.ini
 [globals]
-..[truncated]..
+..[omitted]..
 address=0.0.0.0
 ```
 

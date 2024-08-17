@@ -1,6 +1,6 @@
 # SMB Relay Phishing
 
-Search Tag(s): #mitm #responder #smb #relay #ntlm #scenarios #phishing
+Search Tag(s): #mitm #responder #smb #relay #ntlm #phishing
 
 TODO: Fill this info
 

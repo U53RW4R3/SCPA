@@ -56,7 +56,7 @@ Multiplayer:
 
 [server] sliver > help
 
-..[truncated]..
+..[omitted]..
 
 Multiplayer:
 ============

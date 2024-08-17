@@ -23,13 +23,13 @@ Configure PHP file.
 
 ```
 $ cat /etc/php/8.2/apache2/php.ini
-..[truncated]..
+..[omitted]..
 allow_url_fopen = On
 allow_url_include = On
-..[truncated]..
+..[omitted]..
 display_errors = On
 display_startup_errors = On
-..[truncated]..
+..[omitted]..
 ```
 
 ## Windows DVWA Setup
@@ -54,7 +54,7 @@ $_DVWA[ 'db_database' ] = 'dvwa';
 $_DVWA[ 'db_user' ]     = 'dvwa';
 $_DVWA[ 'db_password' ] = 'p@ssw0rd';
 $_DVWA[ 'db_port']      = '3306';
-// ..[truncated]..
+// ..[omitted]..
 $_DVWA[ 'default_security_level' ] = 'low';
 ```
 

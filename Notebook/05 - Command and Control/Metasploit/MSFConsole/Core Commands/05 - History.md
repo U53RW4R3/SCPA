@@ -34,7 +34,7 @@ msf > history
 107  options
 108  set lport 53
 109  run username=fox password=pass1234 rhosts=10.0.2.15
-..[truncated]..
+..[omitted]..
 ```
 
 ## 5.3 - Clear Metasploit History Commands

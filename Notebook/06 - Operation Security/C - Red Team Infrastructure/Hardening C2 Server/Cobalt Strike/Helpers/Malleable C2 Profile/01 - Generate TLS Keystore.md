@@ -17,7 +17,7 @@ trike.store -Djavax.net.ssl.keyStorePassword=<password> teamserver $*
 
 ```
 $ openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out public.crt -keyout private.key
-..[truncated]..
+..[omitted]..
 Country Name (2 letter code) [AU]:US
 State or Province Name (full name) [Some-State]:California
 Locality Name (eg, city) []:San Francisco

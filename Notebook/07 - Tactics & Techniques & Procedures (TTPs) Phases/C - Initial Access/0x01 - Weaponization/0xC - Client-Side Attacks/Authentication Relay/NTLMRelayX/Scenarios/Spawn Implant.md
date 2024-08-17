@@ -4,7 +4,7 @@ Modify in the Responder configuration file
 
 ```
 $ sudo nano /etc/responder/Responder.conf
-..[truncated]..
+..[omitted]..
 SMB=OFF
 HTTP=OFF
 ```
