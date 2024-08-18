@@ -4,13 +4,13 @@ Search Tag(s): #sliver #command-and-control #interactive-shell
 
 ## Navigation
 
-* Change Directory
+Change directory
 
 ```
 sliver (IMPLANT_NAME) > cd <directory>
 ```
 
-* Get current working directory
+Get current working directory
 
 ```
 sliver (IMPLANT_NAME) > pwd

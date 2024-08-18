@@ -33,9 +33,11 @@ Sub Commands:
 
 ### 8.1.2 - Usage
 
-- Interact a long beacon or session id string.
+Interact a long beacon or session ID string.
 
-`sliver > use <beacon_or_session_ID>`
+```
+sliver > use <beacon_or_session_ID>
+```
 
 ## 8.2 - Reconfigure Sleep and Jitter
 
