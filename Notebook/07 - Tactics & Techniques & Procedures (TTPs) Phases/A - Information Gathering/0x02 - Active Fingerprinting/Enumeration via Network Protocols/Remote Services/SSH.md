@@ -47,7 +47,7 @@ $ ssh-audit <IP>
 ```
 $ nmap -p 22 --script sshv1 <IP>
 
-$ nmap -p 22 --script ssh-auth-methods <IP>
+$ nmap -p 22 --script ssh-auth-methods --script-args="ssh.user=<username>" <IP>
 
 $ nmap -p 22 --script ssh-2-enum-algos,ssh-hostkey <IP>
 ```
@@ -77,11 +77,21 @@ msf auxiliary(scanner/ssh/ssh_version) > set threads 8
 msf auxiliary(scanner/ssh/ssh_version) > run
 ```
 
+### 4.2 - Username Enumeration
+
+TODO: Write down the CVE of what software version were affected
+
+```
+msf > use auxiliary/scanner/ssh/ssh_enumusers
+```
+
 ---
 ## References
 
 - [SSH-Audit](https://github.com/jtesta/ssh-audit)
 
-- [Pentesting SSH](https://book.hacktricks.xyz/pentesting/pentesting-ssh)
+- [Hacktricks: Pentesting SSH](https://book.hacktricks.xyz/pentesting/pentesting-ssh)
+
+- [Hacking Articles: SSH Penetration Testing](https://www.hackingarticles.in/ssh-penetration-testing-port-22/)
 
 - [Kali Docs: SSH Configuration](https://www.kali.org/docs/general-use/ssh-configuration/)
