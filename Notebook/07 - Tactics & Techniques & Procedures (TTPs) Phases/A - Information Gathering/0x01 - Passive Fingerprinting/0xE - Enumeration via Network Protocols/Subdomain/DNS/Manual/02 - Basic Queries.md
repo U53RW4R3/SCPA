@@ -112,7 +112,9 @@ $ host -t TXT <domain.com>
 
 Retrieve the **Service Record (SRV)** domain.
 
-`> nslookup -type=srv _sip._tcp.<domain.com> <DNS_IP>`
+```
+> nslookup -type=srv _sip._tcp.<domain.com> <DNS_IP>
+```
 
 - Lookup the **IP's SIP server** of the domain
 
@@ -142,7 +144,9 @@ $ host -C <domain.com>
 
 Enumerate the domain's source **Pointer (PTR)** IP address that corresponds to
 
-`$ dig -x <PTR_IP> @<DNS_IP>`
+```
+$ dig -x <PTR_IP> @<DNS_IP>
+```
 
 ## 2.13 - Reverse DNS Lookup
 

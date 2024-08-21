@@ -11,7 +11,9 @@ sudo mv ~/go/bin/qsreplace /usr/local/bin
 
 TODO: Fill this info
 
-`$ cat urls.txt | qsreplace -a`
+```
+$ cat urls.txt | qsreplace -a
+```
 
 ---
 ## References

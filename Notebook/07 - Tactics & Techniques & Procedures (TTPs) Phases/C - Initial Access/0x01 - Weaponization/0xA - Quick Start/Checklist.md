@@ -4,14 +4,20 @@ Search Tag(s): #checklist #weaponization #client-side-attacks #phishing #defense
 
 TODO: Make a cross-reference when making a good checklist for weaponizing when delivering the attack.
 
-## Weaponization
+## Passive Client Information Gathering
 
 - [ ] Scrape metadata from images and documents. Refer to this [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/04 - Forensics/Checklist|checklist]] to narrow down your search results.
 	- [[Exiftool]]
 	- [[exifLooter]]
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Nmap|Nmap]]
 
-### Phishing Preparation
+## Active Client Information Gathering
+
+- [ ] Interact with the targets through communications to gather information.
+	- [ ] Communication via a phone call.
+	- [ ] Communication via a person.
+
+## Phishing Preparation
 
 - [ ] For social engineering pretext visit this [[Social Engineering Pretext|section]] to make preparation for your campaign.
 - [ ] Choose which phishing delivery method for the campaign.
@@ -21,8 +27,8 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 				- [ ] Search for emails to scrape them.
 				- [ ] Search for first and last names to parse them to perform user enumeration with the following.
 					- SMTP Port
-						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Enumeration via Network Protocols/SMTP/Manual|Manual username enumeration]]
-						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Enumeration via Network Protocols/SMTP/Metasploit|Metasploit username enumeration]]
+						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/SMTP/Manual|Manual username enumeration]]
+						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/SMTP/Metasploit|Metasploit username enumeration]]
 					- Web mail
 			- [ ] OSINT gathering on social media
 			- [ ] OSINT gathering using google dorking
@@ -30,15 +36,16 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 			- [ ] Data breaches
 			- [ ] Parse and verify the emails
 		- [ ] Check if the domain is spoofable.
-	- [ ] Phishing via Social Media
+	- [ ] Phishing via Service
+		- Social Media
 	- [ ] Smishing (SMS Phishing)
 	- [ ] Vishing (voice phishing)
 
-### File Attachment
+## File Attachment
 
 Note: You can be creative by combing multiple files.
 
-- [ ] Check **LOLBAS** section to change the execution methods.
+- [ ] Check **Command and Scripting Interpreter** section to change the execution methods.
 - [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/HTML Smuggling/Manual|HTML Smuggling]]
 - [ ] Macros
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Microsoft Office/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
@@ -63,7 +70,7 @@ Note: You can be creative by combing multiple files.
 - [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Manual|Shortcut Link]] (`.lnk`)
 	- [ ] Decoy file.
 
-#### Bypass MOTW (Mark of the Web)
+### Bypass MOTW (Mark of the Web)
 
 Note: You can be creative by combing multiple files.
 
@@ -152,17 +159,17 @@ Note: You can be creative by combing multiple files.
 		- Batch (`.bat` or `.cmd`)
 		- VBScript (`.vbs`)
 
-### Physical Penetration
+## Physical Penetration
 
-#### Evil Twin
+### Evil Twin
 
 - [[Rogue Access Point]]
 
-#### Whaling
+### Whaling
 
 - [ ] TODO: Fill in the info
 
-#### BadUSB
+### BadUSB
 
 - [ ] [[Arduino]]
 - [ ] [[Hak5 Devices]]

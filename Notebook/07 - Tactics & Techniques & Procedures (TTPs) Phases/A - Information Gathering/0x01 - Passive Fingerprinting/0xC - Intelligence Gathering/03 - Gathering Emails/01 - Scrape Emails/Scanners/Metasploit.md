@@ -27,13 +27,3 @@ msf auxiliary(gather/search_email_collector) > set outfile /path/to/file.txt
 
 msf auxiliary(gather/search_email_collector) > run
 ```
-
-TODO: Help me organize these modules to specific categories
-
-Microsoft 365
-
-```
-msf > use auxiliary/gather/office365userenum
-```
-
-https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/gather/office365userenum.md

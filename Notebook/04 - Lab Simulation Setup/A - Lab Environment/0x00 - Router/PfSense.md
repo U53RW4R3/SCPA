@@ -16,11 +16,17 @@ This [link](https://atxfiles.netgate.com/mirror/downloads/pfSense-CE-2.7.0-RELEA
 
 ### Hypervisor Configuration
 
+TODO: Fill in the missing information
+
 ```
 192.168.56.2 - 192.168.56.254
 ```
 
+`<insert_image>`
+
 ### Router Configuration
+
+`<insert_image>`
 
 ## Internet Connection
 

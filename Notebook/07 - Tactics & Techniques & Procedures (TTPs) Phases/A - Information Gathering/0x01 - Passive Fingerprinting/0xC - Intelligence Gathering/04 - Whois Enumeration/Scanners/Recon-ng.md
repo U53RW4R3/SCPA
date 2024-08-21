@@ -47,6 +47,6 @@
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Enumeration via Network Protocols/DNS/01 - Gather Subdomains/Scanners/Recon-ng|DNS Enumeration: Recon-ng]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/DNS/01 - Gather Subdomains/Scanners/Recon-ng|DNS Enumeration: Recon-ng]]
 
 - [ViewDNS.info](https://viewdns.info)

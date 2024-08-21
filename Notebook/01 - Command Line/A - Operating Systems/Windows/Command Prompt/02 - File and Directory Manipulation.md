@@ -6,11 +6,15 @@ Search Tag(s): #command-line #windows
 
 ### 2.1.1 - Create an empty file
 
-`C:\> con file.txt`
+```
+C:\> con file.txt
+```
 
 ### 2.1.2 - Create a directory
 
-`C:\> mkdir new_directory`
+```
+C:\> mkdir new_directory
+```
 
 ### 2.1.3 - Delete directory
 
@@ -36,11 +40,15 @@ TODO: Fill this info
 
 - Set the attributes by flagging it as hidden (`+h`), read only (`+r`), and important system file (`+s`)
 
-`C:\> attrib +h +r +s <file | directory>`
+```
+C:\> attrib +h +r +s <file | directory>
+```
 
 - Clear the attributes the by flagging them hidden (`-h`), read only (`-r`), and important system file (`-s`)
 
-`C:\> attrib -h -r -s <file | directory>`
+```
+C:\> attrib -h -r -s <file | directory>
+```
 
 ---
 ## References

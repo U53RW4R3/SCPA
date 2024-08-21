@@ -6,19 +6,27 @@ Search Tag(s): #command-line #windows
 
 ### 1.1.1 - List files
 
-`C:\> dir`
+```
+C:\> dir
+```
 
-- Find files with a specific extension
+Find files with a specific extension
 
-`C:\> dir /s *.txt`
+```
+C:\> dir /s *.txt
+```
 
 ## 1.2 - Change Directories
 
 ### 1.2.1 - Change directory
 
-`C:\> cd folder`
+```
+C:\> cd folder
+```
 
 ---
 ## References
 
 - [[Windows Command Prompt References]]
+
+- [Hacking Articles: Post Exploitation in Windows using dir Command](https://www.hackingarticles.in/post-exploitation-windows-using-dir-command/)
