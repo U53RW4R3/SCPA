@@ -158,11 +158,17 @@ EXAMPLE USAGE:
 
 TODO: Provide more usage coverage for Whatweb
 
-`$ whatweb -U="<user_agent>" <URL>`
+```
+$ whatweb -U="<user_agent>" <URL>
+```
 
-`$ whatweb -U="<user_agent>" --no-errors --url-prefix http[s]:// <IP>/<CIDR> | tee scan.txt`
+```
+$ whatweb -U="<user_agent>" --no-errors --url-prefix http[s]:// <IP>/<CIDR> | tee scan.txt
+```
 
-`$ whatweb -U="<user_agent>" --no-errors --url-prefix http[s]:// -i urls.txt | tee scan.txt`
+```
+$ whatweb -U="<user_agent>" --no-errors --url-prefix http[s]:// -i urls.txt | tee scan.txt
+```
 
 ---
 ## References

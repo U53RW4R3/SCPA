@@ -229,7 +229,7 @@ run post/windows/gather/resolve_sid
 
 run post/windows/gather/credentials/tlen
 
-run post/windows/gather/reverse_lookup
+
 
 run post/windows/gather/credentials/tortoisesvn
 
@@ -350,7 +350,7 @@ run post/multi/gather/dns_bruteforce
 
 run post/multi/manage/open
 
-run post/multi/gather/dns_reverse_lookup
+
 
 run post/multi/gather/remmina_creds
 
