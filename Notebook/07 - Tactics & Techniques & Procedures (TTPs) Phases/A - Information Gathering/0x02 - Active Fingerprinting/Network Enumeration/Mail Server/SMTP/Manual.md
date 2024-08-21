@@ -106,13 +106,52 @@ EXPN sshd
 
 ### 4.2 - Automated Enumeration
 
-#### 4.2.1 - `smtp-user-enum`
+#### 4.2.1 - Python script
+
+```python
+#!/usr/bin/env python3
+import socket
+import sys
+
+username = sys.argv[1]
+host = sys.argv[2]
+
+if len(sys.argv) != 3:
+    print("Usage: %s <username> <IP>" % sys.argv[0])
+    sys.exit(0)
+
+# Create a socket and connect to the server
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+connect = sock.connect((host, 25))
+
+# Receive the banner
+banner = sock.recv(1024)
+print(banner)
+
+# VRFY a user
+sock.send('VRFY ' + username + '\r\n')
+output = sock.recv(1024)
+print(output)
+
+# Close the socket
+sock.close()
+```
+
+The syntax as it follows.
+
+```
+$ chown 755 vrfy.py
+
+$ ./vrfy.py <username> <IP>
+```
+
+#### 4.2.2 - `smtp-user-enum`
 
 ```
 $ smtp-user-enum -M <MODE> -u <USER> -t <IP>
 ```
 
-#### 4.2.2 - `nmap`
+#### 4.2.3 - `nmap`
 
 ```
 $ nmap -p 25 -Pn --script smtp-commands,smtp-strangeport <IP>
@@ -122,11 +161,13 @@ $ nmap -p 25 -Pn --script smtp-enum-users <IP>
 $ nmap -p 587 -Pn --script smtp-ntlm-info <IP>
 ```
 
-#### 4.2.3 - `patator`
+#### 4.2.4 - `patator`
 
 TODO: Fill this info
 
-`$ patator`
+```
+$ patator
+```
 
 + smtp_vrfy     : Enumerate valid users using SMTP VRFY
 + smtp_rcpt     : Enumerate valid users using SMTP RCPT TO
