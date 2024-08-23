@@ -49,4 +49,6 @@ Currently supported file types include:
 
 ## 8.2 - Usage
 
-`msf > db_import output.xml`
+```
+msf > db_import output.xml
+```

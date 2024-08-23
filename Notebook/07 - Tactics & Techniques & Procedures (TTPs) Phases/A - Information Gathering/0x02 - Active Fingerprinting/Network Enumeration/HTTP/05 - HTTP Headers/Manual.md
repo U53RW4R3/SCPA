@@ -15,7 +15,19 @@ $ curl --proxy http[s]://<pivot_IP> <target_IP>
 ## 03 - `httpie`
 
 ```
-$ http <URL>
+$ http -F --headers <URL>
+```
+
+Output only the response headers.
+
+```
+$ http [-F] -p h <URL>
+```
+
+Output only the request headers.
+
+```
+$ http -F -p H <URL>
 ```
 
 ---

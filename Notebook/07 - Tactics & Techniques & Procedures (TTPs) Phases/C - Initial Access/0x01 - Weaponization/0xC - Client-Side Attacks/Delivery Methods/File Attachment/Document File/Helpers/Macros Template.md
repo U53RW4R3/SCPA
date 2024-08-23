@@ -168,6 +168,8 @@ TODO: Fill this info
 ---
 ## References
 
+- [Offensive Security: Weaponizing and Abusing Hidden Functionalities Contained in Office Document Properties](https://www.offsec.com/blog/macro-weaponization/)
+
 - [sevagas: Advanced_Initial_access_in_2024_OffensiveX](https://github.com/sevagas/Advanced_Initial_access_in_2024_OffensiveX/blob/main/breach_the_gates_extended.pdf)
 
 - [War Room: Metasploit Module of the Month Web Delivery](https://warroom.rsmus.com/metasploit-module-of-the-month-web_delivery/)

@@ -48,6 +48,20 @@ $ smbmap -u "<username>" -p "< <password> | <nt_hash> >" -H <IP> [-P <PORT>]
 $ enum4linux-ng -A -u "<username>" -p "<password>" <IP>
 ```
 
+Pass the Hash
+
+```
+$ enum4linux-ng -A -u "<username>" -H <nt_hash> <IP>
+```
+
+Pass the Ticket
+
+```
+$ export KRB5CCNAME=/path/to/file.ccache
+
+$ enum4linux-ng -A -u "<username>" -K <IP>
+```
+
 ### 1.5 - NetExec
 
 Authentication syntax

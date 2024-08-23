@@ -9,9 +9,13 @@ sudo mv ~/go/bin/waybackurls /usr/local/bin
 
 ## 02 - Usage
 
-`$ waybackurls <website.com> > urls.txt`
+```
+$ waybackurls <website.com> > urls.txt
+```
 
-`$ cat domains.txt | waybackurls > urls.txt`
+```
+$ cat domains.txt | waybackurls > urls.txt
+```
 
 ---
 ## References

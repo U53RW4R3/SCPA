@@ -113,7 +113,7 @@ C:\> conhost.exe --headless powershell.exe -noni -nop -ep bypass -file implant.p
 ---
 ## References
 
-- [[03 - Malware Development/Helpers/Evasion/Obfuscation Techniques/Cross Platform/PowerShell||Malware Development: PowerShell Obfuscation Techniques]]
+- [[03 - Malware Development/Global Helpers/Evasion/Obfuscation Techniques/Cross Platform/PowerShell||Malware Development: PowerShell Obfuscation Techniques]]
 
 - [[Batch|Malware Development: Batch Obfuscation Techniques]]
 

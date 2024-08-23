@@ -10,7 +10,7 @@ $ dnsrecon -d <domain.com>
 
 TODO: Provide more coverage of Fierce
 
-### 01 - Python Version
+### Python Version
 
 ```
 $ fierce --domain <domain.com> --dns-servers <nameserver_IP_1>,<nameserver_IP_2>
@@ -52,7 +52,7 @@ Extract IP addresses via regex statement.
 $ awk -F ". " '{print $3}' output.txt | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | sort -u ip_targets.txt
 ```
 
-### 02 - Perl Version
+### Perl Version
 
 ```
 $ fierce -dns <domain.com>

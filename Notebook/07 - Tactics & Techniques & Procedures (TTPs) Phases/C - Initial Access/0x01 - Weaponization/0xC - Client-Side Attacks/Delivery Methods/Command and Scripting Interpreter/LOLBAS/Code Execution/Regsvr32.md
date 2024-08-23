@@ -1,5 +1,11 @@
 # Regsvr32
 
+Execute DLL implant.
+
+```
+C:\> regsvr32.exe /s implant.dll
+```
+
 Execute command to perform SMB authentication relay.
 
 ```
