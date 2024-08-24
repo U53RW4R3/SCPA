@@ -1,10 +1,12 @@
 # TFTP
 
-## 01 - Nmap
+## 01 - Enumeration
 
-`$ sudo nmap -p 69 -sUV -n -Pn --script tftp-enum <IP>`
+```
+$ sudo nmap -p 69 -sUV -n -Pn --script tftp-enum <IP>
+```
 
-## 02 - Metasploit
+## 02 - Bruteforce Filenames
 
 ```
 msf > use auxiliary/scanner/tftp/tftpbrute

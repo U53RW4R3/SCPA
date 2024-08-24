@@ -2,6 +2,8 @@
 
 TODO: Lateral movement such as WMI
 
+https://securitycafe.ro/2015/04/06/writing-a-metasploit-post-exploitation-module/
+
 https://github.com/darkoperator/Meterpreter-Scripts
 
 ## Railgun
