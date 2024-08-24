@@ -1,4 +1,4 @@
-# Enumeration
+# Cloud Enumeration
 
 TODO: Provide steps for enumeration to escalate for initial foothold with the permissions
 

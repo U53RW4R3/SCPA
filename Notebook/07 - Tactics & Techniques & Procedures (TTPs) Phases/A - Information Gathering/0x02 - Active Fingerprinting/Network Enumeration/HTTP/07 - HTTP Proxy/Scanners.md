@@ -25,7 +25,7 @@ msf > use auxiliary/scanner/http/squid_pivot_scanning
 
 - [[ProxyTunnel]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Server-Side Attack/Authorization Bypass/Scanners/Nmap|Nmap: Authorization Bypass]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Server-Side Attack/Authorization Bypass/HTTP Error Code Bypass/Scanners/Nmap|Nmap: Authorization Bypass]]
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners/Nmap|Nmap: HTTP Basic Authentication]]
 

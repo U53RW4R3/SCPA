@@ -82,11 +82,15 @@ Search Tag(s): #command-and-control #empire
 
 ##### 2.3.1.2 - Batch
 
-`(Empire) > usestager windows/launcher_bat`
+```
+(Empire) > usestager windows/launcher_bat
+```
 
 ##### 2.3.1.3 - HTA
 
-`(Empire) > usestager windows/launcher_hta`
+```
+(Empire) > usestager windows/launcher_hta
+```
 
 ##### 2.3.1.4 - EXE
 
@@ -102,37 +106,49 @@ CSharp payload
 
 TODO: Fill this info
 
-`(Empire) > usestager windows/launcher_lnk`
+```
+(Empire) > usestager windows/launcher_lnk
+```
 
 ##### 2.3.1.6 - VBS
 
 TODO: Fill this info
 
-`(Empire) > usestager windows/launcher_vbs`
+```
+(Empire) > usestager windows/launcher_vbs
+```
 
 ##### 2.3.1.7 - SCT
 
 TODO: Fill this info
 
-`(Empire) > usestager windows/launcher_sct`
+```
+(Empire) > usestager windows/launcher_sct
+```
 
 ##### 2.3.1.8 - WMIC
 
 TODO: Fill this info
 
-`(Empire) > usestager windows/wmic`
+```
+(Empire) > usestager windows/wmic
+```
 
 ##### 2.3.1.9 - DLL
 
 TODO: Fill this info
 
-`(Empire) > usestager windows/dll`
+```
+(Empire) > usestager windows/dll
+```
 
 ##### 2.3.1.10 - XML
 
 TODO: Fill this info
 
-`(Empire) > usestager windows/launcher_xml`
+```
+(Empire) > usestager windows/launcher_xml
+```
 
 #### 2.3.2 - OSX
 
@@ -140,7 +156,9 @@ TODO: Fill this info
 
 TODO: Fill this info
 
-`(Empire) > usestager osx/shellcode`
+```
+(Empire) > usestager osx/shellcode
+```
 
 #### 2.3.3 - Multi
 
@@ -148,4 +166,6 @@ TODO: Fill this info
 
 TODO: Fill this info
 
-`(Empire) > usestager multi/bash`
+```
+(Empire) > usestager multi/bash
+```

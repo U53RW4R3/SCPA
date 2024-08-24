@@ -53,6 +53,12 @@ C:\> start /b <command> [args]
 
 - [[Windows Command Prompt References]]
 
+- [LOFLCAB: tasklist](https://lofl-project.github.io/loflcab/Binaries/tasklist/)
+
+- [LOFLCAB: taskkill](https://lofl-project.github.io/loflcab/Binaries/taskkill/)
+
+- [LOFLCAB: WMIC](https://lofl-project.github.io/loflcab/Binaries/wmic/)
+
 - [Hacking Articles: Post Exploitation Using WMIC (System Command)](https://www.hackingarticles.in/post-exploitation-using-wmic-system-command/)
 
 - [Malicious.link: Get Process List](https://room362.com/posts/2020/get-process-list/)
