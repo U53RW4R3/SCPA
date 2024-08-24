@@ -6,17 +6,27 @@ TODO: Fill this information
 
 ## 01 - Apache2
 
-`$ sudo a2enmod rewrite`
+```
+$ sudo a2enmod rewrite
 
-`$ cat /etc/apache2/sites-available/redirect.conf`
+$ cat /etc/apache2/sites-available/redirect.conf
+```
 
-- For Debian/Ubuntu
+For Debian/Ubuntu
 
-`/etc/apache2/apache2.conf` or `/etc/apache2/sites-available/000-default.conf`
+```
+/etc/apache2/apache2.conf
 
-- For CentOS/RHEL
+/etc/apache2/sites-available/000-default.conf
+```
 
-`/etc/httpd/conf/httpd.conf` or `/etc/httpd/conf.d/proxy.conf`
+For CentOS/RHEL
+
+```
+/etc/httpd/conf/httpd.conf
+
+/etc/httpd/conf.d/proxy.conf
+```
 
 ```
 <VirtualHost *:80>
@@ -95,11 +105,13 @@ server {
 }
 ```
 
-`$ sudo ln -s /etc/nginx/sites-available/cobaltstrike_redirect /etc/nginx/sites-enabled/`
+```
+$ sudo ln -s /etc/nginx/sites-available/cobaltstrike_redirect /etc/nginx/sites-enabled/
 
-`$ sudo nginx -t`
+$ sudo nginx -t
 
-`$ sudo service nginx restart`
+$ sudo service nginx restart
+```
 
 Once you've setup the redirectors properly. Refer to the [[Setting Up Redirectors and Firewall Rules|section for setting up a firewall rule to apply it]].
 
@@ -117,3 +129,5 @@ Once you've setup the redirectors properly. Refer to the [[Setting Up Redirector
 - [HTTPS Payload and C2 Redirectors](https://bluescreenofjeff.com/2018-04-12-https-payload-and-c2-redirectors/)
 
 - [Red Team Insights on HTTPS Domain Fronting Google Hosts Using Cobalt Strike](https://www.cyberark.com/resources/threat-research-blog/red-team-insights-on-https-domain-fronting-google-hosts-using-cobalt-strike)
+
+- [RedOps:  Cobalt Strike - CDN / Reverse Proxy Setup](https://redops.at/en/blog/cobalt-strike-cdn-reverse-proxy-setup)

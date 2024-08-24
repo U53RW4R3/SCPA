@@ -4,17 +4,21 @@ Search Tag(s): #red-team-infrastructure #cobalt-strike #detection
 
 ## 01 - Shodan
 
-`product:"Cobalt Strike Beacon"`
+```
+product:"Cobalt Strike Beacon"
+```
 
 ## 02 - JARM
 
-`$ git clone https://github.com/salesforce/jarm.git`
+```
+$ git clone https://github.com/salesforce/jarm.git
 
-`$ cd jarm/`
+$ cd jarm/
 
-`$ python jarm.py <C2_IP> -p 80`
+$ python jarm.py <C2_IP> -p 80
 
-`$ python jarm.py <C2_IP> -p 443`
+$ python jarm.py <C2_IP> -p 443
+```
 
 ---
 ## References
