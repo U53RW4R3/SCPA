@@ -4,11 +4,13 @@ Search Tag(s): #red-team-infrastructure #sliver #detection
 
 ## 01 - Shodan
 
-`ssl:multiplayer ssl:operators`
+```
+ssl:multiplayer ssl:operators
+```
 
 ## 02 - JARM
 
-- To scan for MTLS listener.
+To scan for MTLS listener.
 
 ```
 $ git clone https://github.com/salesforce/jarm.git
@@ -18,7 +20,7 @@ $ cd jarm/
 $ python jarm.py <C2_IP> -p 8888
 ```
 
- - To scan for HTTP/HTTPS listener.
+To scan for HTTP/HTTPS listener.
 
 ```
 $ python jarm.py <C2_IP> -p 443

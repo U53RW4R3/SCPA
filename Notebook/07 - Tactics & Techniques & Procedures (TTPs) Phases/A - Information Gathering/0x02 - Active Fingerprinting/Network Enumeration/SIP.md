@@ -4,9 +4,15 @@
 
 TODO: write more about manual SIP enumeration
 
-`$ svmap <IP>/<CIDR>`
+```
+$ svmap <IP>/<CIDR> -v
 
-`$ sipvicious`
+$ svmap <start_IP>-<end_IP> -v
+```
+
+```
+$ sipvicious
+```
 
 ## 02 - Metasploit
 

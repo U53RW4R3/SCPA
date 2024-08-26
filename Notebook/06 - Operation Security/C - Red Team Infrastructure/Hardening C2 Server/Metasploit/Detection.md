@@ -4,7 +4,9 @@ Search Tag(s): #red-team-infrastructure #metasploit-framework #detection
 
 ## 01 - Shodan
 
-`ssl:"MetasploitSelfSignedCA"`
+```
+ssl:"MetasploitSelfSignedCA"
+```
 
 ## 02 - Censys
 
@@ -14,15 +16,17 @@ services.software.product=`Metasploit`
 
 ## 03 - JARM
 
-`$ git clone https://github.com/salesforce/jarm.git`
+```
+$ git clone https://github.com/salesforce/jarm.git
 
-`$ cd jarm/`
+$ cd jarm/
 
-`$ python jarm.py <C2_IP> -p 4444`
+$ python jarm.py <C2_IP> -p 4444
 
-`$ python jarm.py <C2_IP> -p 443`
+$ python jarm.py <C2_IP> -p 443
 
-`$ python jarm.py <C2_IP> -p 80`
+$ python jarm.py <C2_IP> -p 80
+```
 
 ---
 ## References

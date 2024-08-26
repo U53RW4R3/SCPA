@@ -10,4 +10,6 @@ $ pwncat-cs reconnect://<username>@<host_id>
 
 ## 3.2 - List Implants
 
-`$ pwncat-cs --list`
+```
+$ pwncat-cs --list
+```

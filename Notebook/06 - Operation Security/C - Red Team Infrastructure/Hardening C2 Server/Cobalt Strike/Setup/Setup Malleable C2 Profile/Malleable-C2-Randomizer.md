@@ -1,5 +1,7 @@
 # Malleable-C2-Randomizer
 
+TODO: Show the steps to randomize an existing malleable c2 profile
+
 ---
 ## References
 

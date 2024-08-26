@@ -49,6 +49,14 @@ Currently supported file types include:
 
 ## 8.2 - Usage
 
+Outputting `nmap` scan results as XML.
+
+```
+$ sudo nmap --top-ports 1000 -Pn -n -sV -T4 -oX output.xml <IP>
+```
+
+Importing XML output.
+
 ```
 msf > db_import output.xml
 ```

@@ -10,7 +10,7 @@ $ pwncat-cs -m <linux | windows> [IP]:<PORT>
 
 ## 2.2 - Bind Callback Shell
 
-- Regular bind shells
+Regular bind shells
 
 ```
 $ pwncat-cs -m <linux | windows> connect://<target_IP>:<target_PORT>
@@ -20,7 +20,7 @@ $ pwncat-cs -m <linux | windows> <target_IP>:<target_PORT>
 $ pwncat-cs -m <linux | windows> <target_IP> <target_PORT>
 ```
 
-- Connect via SSH
+Connect via SSH
 
 ```
 $ pwncat-cs [ssh://]<username>:<password>@<target_IP>:<target_PORT>
