@@ -1,6 +1,6 @@
 # Checklist
 
-Search Tag(s): #checklist #weaponization #client-side-attacks #phishing #defense-evasion
+Search Tag(s): #checklist #initial-access #weaponization #client-side-attacks #phishing #defense-evasion
 
 TODO: Make a cross-reference when making a good checklist for weaponizing when delivering the attack.
 

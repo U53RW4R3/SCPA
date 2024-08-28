@@ -10,7 +10,7 @@ $ nc -v <IP> 3306
 $ telnet <IP> 3306
 ```
 
-### 1.1.2 - Metasploit
+### 1.2 - Metasploit
 
 ```
 msf > use auxiliary/scanner/mysql/mysql_version

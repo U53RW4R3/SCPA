@@ -51,7 +51,9 @@ Output options:
 
 ## 02 - Usage
 
-`$ fping -angq <IP>/<CIDR>`
+```
+$ fping -angq <IP>/<CIDR>
+```
 
 ---
 ## References

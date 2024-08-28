@@ -10,6 +10,8 @@ $ nmap -p 80,443,3128,8000,8080,8443 -Pn -n --script http-open-proxy --script-ar
 
 ## 02 - Metasploit
 
+TODO: Show the steps
+
 ```
 msf > use auxiliary/scanner/http/open_proxy
 ```

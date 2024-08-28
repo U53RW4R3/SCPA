@@ -4,6 +4,8 @@ Search Tag(s): #red-team-infrastructure
 
 TODO: Fill this info
 
+https://morningstarsecurity.com/research/urlcrazy
+
 ---
 ## References
 

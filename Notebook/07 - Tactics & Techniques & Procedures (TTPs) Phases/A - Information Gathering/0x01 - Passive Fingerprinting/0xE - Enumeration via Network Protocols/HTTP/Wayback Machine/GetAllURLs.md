@@ -40,14 +40,28 @@ TODO: Fill this info
 $ gau <URL_1> <URL_2> <URL_n> --o urls-output.txt
 ```
 
-`$ cat domains.txt | gau`
+```
+$ cat domains.txt | gau
+```
 
 ```
-$ printf example.com | gau
+$ printf <domain.tld> | gau
+```
+
+```
 $ cat domains.txt | gau --threads 5
-$ gau example.com google.com
-$ gau --o example-urls.txt example.com
-$ gau --blacklist png,jpg,gif example.com
+```
+
+```
+$ gau <domain.tld_1> <domain.tld_n>
+```
+
+```
+$ gau --o example-urls.txt <domain.tld>
+```
+
+```
+$ gau --blacklist png,jpg,gif <domain.tld>
 ```
 
 ## 04 - Use Cases

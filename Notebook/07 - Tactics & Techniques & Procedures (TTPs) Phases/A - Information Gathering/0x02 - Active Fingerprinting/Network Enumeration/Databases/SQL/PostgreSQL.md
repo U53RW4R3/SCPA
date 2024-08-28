@@ -34,29 +34,20 @@ msf auxiliary(scanner/postgres/postgres_version) > run postgres://<username>:<pa
 
 ## 02 - Authenticate
 
-- Local
-
 ```
-$ psql -U <username>
+$ psql [-h <IP>] [-p <PORT>] [-d <database>] -U <username>
 
-$ psql -U <username> -W
+$ psql [-h <IP>] [-p <PORT>] [-d <database>] -U <username> -W
+
+$ psql postgresql://<username>:<password>@<IP>:<PORT>[/<database_name>]
 ```
-
-- Remote
-
-```
-$ psql -h <IP> -U <username> -W
-
-$ psql postgresql://<username>:<password>@<IP>:<PORT>/<database_name>
-```
-
 
 ---
 ## References
 
-- [A Penetration Testers guide to PostgreSQL](https://medium.com/@cryptocracker99/a-penetration-testers-guide-to-postgresql-d78954921ee9)
+- [david hayter: A Penetration Testers guide to PostgreSQL](https://medium.com/@cryptocracker99/a-penetration-testers-guide-to-postgresql-d78954921ee9)
 
-- [Ultimate guide PostgreSQL Pentesting](https://medium.com/@lordhorcrux_/ultimate-guide-postgresql-pentesting-989055d5551e)
+- [Shlok Yadav: Ultimate Guide - PostgreSQL Pentesting](https://medium.com/@lordhorcrux_/ultimate-guide-postgresql-pentesting-989055d5551e)
 
 - [Hacking Articles: Pentration Testing on PostgreSQL 5432](https://www.hackingarticles.in/penetration-testing-on-postgresql-5432/)
 

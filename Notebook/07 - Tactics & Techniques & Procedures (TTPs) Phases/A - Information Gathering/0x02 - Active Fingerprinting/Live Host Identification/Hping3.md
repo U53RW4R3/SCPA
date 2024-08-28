@@ -95,9 +95,11 @@ ARS packet description (new, unstable)
 
 ## 02 - Usage
 
-- Spoof source IP
+Spoof source IP
 
-`$ sudo hping3 <target_IP> -a <source_IP>`
+```
+$ sudo hping3 <target_IP> -a <source_IP>
+```
 
 ---
 ## References

@@ -6,31 +6,9 @@
 $ sudo nmap -p 69 -sUV -n -Pn --script tftp-enum <IP>
 ```
 
-## 02 - Bruteforce Filenames
-
-```
-msf > use auxiliary/scanner/tftp/tftpbrute
-
-msf auxiliary(scanner/tftp/tftpbrute) > options
-
-Module options (auxiliary/scanner/tftp/tftpbrute):
-
-   Name        Current Setting                                          Required  Description
-   ----        ---------------                                          --------  -----------
-   CHOST                                                                no        The local client address
-   DICTIONARY  /usr/share/metasploit-framework/data/wordlists/tftp.txt  yes       The list of filenames
-   RHOSTS                                                               yes       The target address range or CIDR identifier
-   RPORT       69                                                       yes       The target port
-   THREADS     1                                                        yes       The number of concurrent threads
-
-msf auxiliary(scanner/tftp/tftpbrute) > set rhosts <IP>
-
-msf auxiliary(scanner/tftp/tftpbrute) > set threads 8
-
-msf auxiliary(scanner/tftp/tftpbrute) > run
-```
-
 ---
 ## References
 
-- [https://book.hacktricks.xyz/pentesting/69-udp-tftp](https://book.hacktricks.xyz/pentesting/69-udp-tftp)
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Protocols/File Server/TFTP|Vulnerability Assessment: TFTP]]
+
+- [Hacktricks: 69/UDP TFTP/Bittorrent-tracker](https://book.hacktricks.xyz/pentesting/69-udp-tftp)

@@ -1,9 +1,25 @@
 # FFuF
 
-TODO: Fill this info
+## 01 - Setup
 
-## 01 - Help Menu
+```
+$ go install github.com/ffuf/ffuf/v2@latest && \
+sudo mv ~/go/bin/ffuf /usr/local/bin/
+```
 
-## 02 - Usage
+## 02 - Help Menu
 
-`$ ffuf -u http[s]://<IP>/FUZZ -w wordlist.txt -t 5`
+```
+$ ffuf -h
+```
+
+## 03 - Usage
+
+```
+$ ffuf -u http[s]://<IP>/FUZZ -w wordlist.txt -t 5
+```
+
+---
+## References
+
+- [FFuF](https://github.com/ffuf/ffuf)

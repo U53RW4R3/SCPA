@@ -2,6 +2,8 @@
 
 ## 01 - Metasploit
 
+TODO: Show the steps
+
 HTTP Strict Transport Security (HSTS) Detection
 
 ```

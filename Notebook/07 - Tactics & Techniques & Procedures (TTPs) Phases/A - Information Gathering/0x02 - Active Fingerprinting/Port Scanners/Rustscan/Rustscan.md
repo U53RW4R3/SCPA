@@ -79,6 +79,8 @@ $ sudo rustscan -a <IP> -- -Pn -n -sVC
 ---
 ## References
 
+- [[03 - Malware Development/Global Helpers/Programs/Compilers/Cross Platform/Rust|Compilers: Rust]]
+
 - [Rustscan Installation Guide](https://github.com/RustScan/RustScan/wiki/Installation-Guide)
 
 - [Rustscan Docker Hub](https://hub.docker.com/r/rustscan/rustscan)

@@ -11,5 +11,5 @@ $ echo "<website.com>" | nc -vn <IP> <PORT>
 ## 02 - Nmap
 
 ```
-$ nmap -p 43 -Pn -sCV <IP>
+$ sudo nmap -p 43 -Pn -sCV <IP>
 ```

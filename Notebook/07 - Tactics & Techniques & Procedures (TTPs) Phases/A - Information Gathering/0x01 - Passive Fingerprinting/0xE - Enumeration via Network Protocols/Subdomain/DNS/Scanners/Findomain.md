@@ -133,8 +133,19 @@ OPTIONS:
 
 TODO: Provide more usage coverage of findomain
 
-`$ findomain -t <domain.com>`
+```
+$ findomain -t <domain.com>
+```
 
-`$ findomain -f domains.txt`
+```
+$ findomain -f domains.txt
+```
 
-`$ findomain -f domains.txt -r -o output-resolved.txt`
+```
+$ findomain -f domains.txt -r -o output-resolved.txt
+```
+
+---
+## References
+
+- [[03 - Malware Development/Global Helpers/Programs/Compilers/Cross Platform/Rust|Compilers: Rust]]

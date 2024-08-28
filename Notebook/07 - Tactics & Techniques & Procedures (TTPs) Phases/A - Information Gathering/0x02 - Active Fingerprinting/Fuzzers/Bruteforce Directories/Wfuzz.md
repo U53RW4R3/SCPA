@@ -1,10 +1,20 @@
 # Wfuzz
 
+## 01 - Setup
+
 TODO: Fill this info
 
-## 01 - Usage
+## 02 - Help Menu
 
-`$ wfuzz --hc 404`
+```
+$ wfuzz -h
+```
+
+## 03 - Usage
+
+```
+$ wfuzz --hc 404
+```
 
 ---
 ## References

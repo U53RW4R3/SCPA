@@ -4,7 +4,7 @@
 
 ### Install Dependencies
 
-- In Debian/Ubuntu-based distros
+In Debian/Ubuntu-based distros
 
 ```
 $ sudo apt install -y python3-setuptools python3-requests python3-dicttoxml
@@ -50,9 +50,13 @@ options:
 
 TODO: Fill this info and I got this covered - Userware
 
-`$ arjun -u "<URL>" -oT hidden-endpoints-output.txt`
+```
+$ arjun -u "<URL>" -oT hidden-endpoints-output.txt
+```
 
-`$ arjun -i urls.txt -oT hidden-endpoints-output.txt`
+```
+$ arjun -i urls.txt -oT hidden-endpoints-output.txt
+```
 
 
 ---

@@ -7,6 +7,8 @@ SecLists/Discovery/Web-Content/burp-parameter-names.txt
 ---
 ## References
 
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Fuzzers/Bruteforce Directories/FFuF|FFuF]]
+
 - [Phrack.me: FFuf cheatsheet](https://www.phrack.me/tools/2022/07/06/Ffuf-cheatsheet.html)
 
 - [SecLists: Parameters Bruteforce](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/burp-parameter-names.txt)
