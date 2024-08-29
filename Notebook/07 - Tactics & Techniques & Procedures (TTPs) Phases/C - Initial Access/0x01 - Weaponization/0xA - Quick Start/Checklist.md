@@ -72,7 +72,7 @@ Note: You can be creative by combing multiple files.
 
 ### Bypass MOTW (Mark of the Web)
 
-Note: You can be creative by combing multiple files.
+Note: You can be creative by combing multiple files. Use polyglot to your advantage.
 
 - [ ] Archive Files
 	- 7Zip

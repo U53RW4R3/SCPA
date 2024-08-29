@@ -66,6 +66,7 @@ panel
 admin_panel
 administrator_panel
 password
+signin
 ```
 
 ## Google Dork Endpoints
