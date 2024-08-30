@@ -1,10 +1,12 @@
 # Censys Usage
 
-Note: The maximum pages is 100 when you're using a free version.
+
+> [!NOTE]
+> The maximum pages is 100 when you're using a free version.
 
 ## 01 - Usage Queries
 
-- Country Code
+Country Code.
 
 ```
 location.country= `Russia`

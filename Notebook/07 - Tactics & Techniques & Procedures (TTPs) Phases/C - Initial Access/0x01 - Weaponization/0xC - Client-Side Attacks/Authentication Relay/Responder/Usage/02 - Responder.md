@@ -32,7 +32,9 @@ $ sudo responder -I <interface> -Pdwv
 
 Block SMB traffic on the attacker's machine to poison NTLMv2-SSP responses via WebDAV/HTTP.
 
-Note: You don't have to block the ports unless you're evading some IDS to identify you for performing MITM poisoning
+
+> [!NOTE]
+> You don't have to block the ports unless you're evading some IDS to identify you for performing MITM poisoning.
 
 ```
 $ sudo iptables -A INPUT -p udp --dport 137 -j DROP

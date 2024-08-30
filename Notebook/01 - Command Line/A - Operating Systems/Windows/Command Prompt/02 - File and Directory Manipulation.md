@@ -26,7 +26,9 @@ C:\> rmdir folder
 
 ## 2.2 - Text Editor
 
-Note: Press **CTRL + Z** to end the file
+
+> [!NOTE]
+> Press **CTRL + Z** to end the file.
 
 ```
 C:\> copy con file.txt

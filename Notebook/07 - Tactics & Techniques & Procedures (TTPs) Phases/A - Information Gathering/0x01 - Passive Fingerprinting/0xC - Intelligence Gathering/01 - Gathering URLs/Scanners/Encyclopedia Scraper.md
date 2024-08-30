@@ -1,6 +1,7 @@
 # Encyclopedia Scraper
 
-Note: This only works for wikipedia. Improvements and suggestions are highly encouraged.
+> [!NOTE]
+> This only works for wikipedia. Improvements and suggestions are highly encouraged.
 
 ```bash
 #!/bin/bash

@@ -1,11 +1,17 @@
 # 07 - Miscellaneous
 
-Aggressive scan
+## 7.1 - Aggressive scan
 
-Note: This is equivalent to these switches `nmap -O -sVC --traceroute <IP>`.
+
+> [!NOTE]
+> This is an equivalent to these switches `nmap -O -sVC --traceroute <IP>`.
 
 ```
 $ sudo nmap -A <IP>
+```
 
+List the network interfaces.
+
+```
 $ nmap --iflist
 ```

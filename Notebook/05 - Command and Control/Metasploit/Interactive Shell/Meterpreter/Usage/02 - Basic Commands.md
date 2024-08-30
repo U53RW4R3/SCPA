@@ -131,7 +131,8 @@ Usage: rmdir dir1 dir2 dir3 ...
 
 ### 2.3.6 - Create/Edit the file
 
-Note: the default editor is `vim` if it's missing it'll switch to `nano` instead
+> [!NOTE]
+> The default editor is `vim` if it's missing it'll switch to `nano` instead.
 
 ```
 meterpreter > edit

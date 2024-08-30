@@ -38,7 +38,9 @@ Sub AutoOpen()
 End Sub
 ```
 
-Note: The TargetPath has a limit of 260 characters long
+
+> [!NOTE] Shortcut `.lnk` Character Limit
+> The TargetPath has a limit of 260 characters long
 
 `$ cat pwsh_cmds.txt`
 

@@ -43,7 +43,8 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 
 ## File Attachment
 
-Note: You can be creative by combing multiple files.
+> [!NOTE]
+> You can be creative by combing multiple files.
 
 - [ ] Check **Command and Scripting Interpreter** section to change the execution methods.
 - [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/HTML Smuggling/Manual|HTML Smuggling]]
@@ -72,7 +73,8 @@ Note: You can be creative by combing multiple files.
 
 ### Bypass MOTW (Mark of the Web)
 
-Note: You can be creative by combing multiple files. Use polyglot to your advantage.
+> [!NOTE]
+> You can be creative by combing multiple files. Use polyglot to your advantage.
 
 - [ ] Archive Files
 	- 7Zip

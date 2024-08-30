@@ -63,7 +63,8 @@ Flags:
 
 ### 8.2.2 - Usage
 
-- Note: `s` are measuring units that represents as seconds.
+> [!NOTE] Seconds Unit
+> `s` are measuring units that represents as seconds.
 
 ```
 sliver (IMPLANT_NAME) > reconfig -i <sleep_seconds>s -j <integer>s

