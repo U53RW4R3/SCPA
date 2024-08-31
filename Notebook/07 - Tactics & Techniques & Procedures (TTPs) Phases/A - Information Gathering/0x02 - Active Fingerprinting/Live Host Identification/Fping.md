@@ -59,3 +59,5 @@ $ fping -angq <IP>/<CIDR>
 ## References
 
 - [Fping](https://www.fping.org)
+
+- [InfoSecWarrior: Offensive Pentesting Host - Ping](https://github.com/InfoSecWarrior/Offensive-Pentesting-Host/blob/main/Network%20Scanning/Ping/README.md)

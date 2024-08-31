@@ -8,6 +8,13 @@ $ wget --mirror --convert-links --adjust-extension --page-requisites --no-parent
 $ wget -mkEp -np -U "<user_agent>" <URL>
 ```
 
+```
+$ wget --directory-prefix=/root/Desktop/ --header="Accept: text/html" 
+--user-agent="(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6" 
+--domains test.com -e robots=off --recursive --no-clobber --page-requisites --html-extension 
+--convert-links -R gif,jpg,png,css,pdf,mp3,wmv <URL>
+```
+
 ---
 ## References
 

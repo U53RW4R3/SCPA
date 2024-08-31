@@ -100,13 +100,15 @@ DEBUG:
 
 ## 03 - Usage
 
-`$ naabu -host <IP> -o port-scanned-output.txt`
+```
+$ naabu -host <IP> -o port-scanned-output.txt
 
-`$ naabu -list ip_targets.txt -o port-scanned-output.txt`
+$ naabu -list ip_targets.txt -o port-scanned-output.txt
 
-`$ echo <ASN_ID> | naabu -p80,443`
+$ echo <ASN_ID> | naabu -p80,443
 
-`$ naabu -host <IP> -nmap-cli 'nmap -sC -oA initial'`
+$ naabu -host <IP> -nmap-cli 'nmap -sC -oA initial'
+```
 
 ## 04 - Troubleshoot
 
@@ -123,4 +125,11 @@ compilation terminated.
 
 Install this package and the issue should be resolved.
 
-`$ sudo apt install libpcap-dev`
+```
+$ sudo apt install libpcap-dev
+```
+
+---
+## References
+
+- [InfoSecWarrior: Offensive Pentesting Host - Naabu](https://github.com/InfoSecWarrior/Offensive-Pentesting-Host/blob/main/Network%20Scanning/NAABU.md)

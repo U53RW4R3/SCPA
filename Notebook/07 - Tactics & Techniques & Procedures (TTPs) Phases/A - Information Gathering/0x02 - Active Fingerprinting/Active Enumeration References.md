@@ -2,14 +2,19 @@
 
 ## OS Fingerprinting TTL Table
 
-| Operating System | TTL |
-| ---------------- | --- |
-| Linux/Mac OSX    | 64  |
-| Windows          | 128 |
-| Solaris/Cisco    | 225 |
-| Routers          | 255 |
+| Operating System | ICMP |
+| ---------------- | ---- |
+| Android          | 64   |
+| Linux            | 64   |
+| Mac OSX          | 64   |
+| Solaris          | 64   |
+| Windows          | 128  |
+| Cisco            | 254  |
+| NetBSD           | 255  |
+| OpenBSD          | 255  |
+| Routers          | 255  |
 
-- [Offensive Pentesting Host](https://github.com/armourinfosec/Offensive-Pentesting-Host)
+- [InfoSecWarrior: Offensive Pentesting Host](https://github.com/InfoSecWarrior/Offensive-Pentesting-Host)
 
 - [Rapid7: Metasploit URI Support](https://www.rapid7.com/blog/post/2021/09/23/metasploit-uri-support/)
 

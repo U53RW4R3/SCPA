@@ -63,7 +63,9 @@ SEE (https://github.com/robertdavidgraham/masscan) FOR MORE HELP
 
 TODO: Provide more usage coverage for masscan
 
-`$ sudo masscan -p 80,443 --rate 1000 <IP>/<CIDR>`
+```
+$ sudo masscan -p 80,443 --rate 1000 <IP>/<CIDR>
+```
 
 ### Exclude IP addresses
 
@@ -88,6 +90,8 @@ $ sudo masscan -p 80,443 --open-only -Pn -sS --rate 10000 -S 8.8.8.8 --excludefi
 - [Masscan](https://github.com/robertdavidgraham/masscan)
 
 - [Enlace Hacktivista: Initial Access Tactics, techniques and procedures](https://enlacehacktivista.org/index.php?title=Initial_Access_Tactics,_techniques_and_procedures)
+
+- [InfoSecWarrior: Offensive Pentesting Host - Masscan](https://github.com/InfoSecWarrior/Offensive-Pentesting-Host/blob/main/Network%20Scanning/MASSCAN.md)
 
 - [Sickcodes: ARIN Reserved IPv4 Address CIDR Blocks](https://gist.github.com/sickcodes/5e72643852e301aac84cf34a0348ef09)
 
