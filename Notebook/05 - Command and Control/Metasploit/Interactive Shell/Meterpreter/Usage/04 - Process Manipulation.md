@@ -79,3 +79,8 @@ meterpreter > irb
 ```
 meterpreter > pkill <process_name>
 ```
+
+---
+## References
+
+- [Pentestlab Blog: Parent PID Spoofing](https://pentestlab.blog/2020/02/24/parent-pid-spoofing/)

