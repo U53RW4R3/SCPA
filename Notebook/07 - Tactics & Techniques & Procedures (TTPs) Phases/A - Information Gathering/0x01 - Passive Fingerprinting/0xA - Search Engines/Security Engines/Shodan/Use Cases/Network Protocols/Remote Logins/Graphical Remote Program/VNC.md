@@ -14,4 +14,6 @@ RFB 003.008 authentication disabled
 port:5900,5901 has_screenshot:true
 
 product:VNC has_screenshot:true
+
+port:5900,5901 product:VNC has_screenshot:true
 ```

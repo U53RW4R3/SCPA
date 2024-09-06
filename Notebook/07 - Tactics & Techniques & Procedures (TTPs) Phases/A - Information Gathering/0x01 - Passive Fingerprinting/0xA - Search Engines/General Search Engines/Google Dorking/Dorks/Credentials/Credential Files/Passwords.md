@@ -1,5 +1,27 @@
 # Passwords
 
-- Mail Server
+## Files
 
-`passwords site:mail.website.com`
+```
+userpass.txt
+creds.txt
+share.passwd
+cloud.passwd
+ftp.passwd
+```
+
+## Generic
+
+```
+intitle:index.of "<filename>.txt"
+
+intitle:"index of" share.passwd OR cloud.passwd OR ftp.passwd - public
+
+intitle:"index of" share.passwd OR cloud.passwd OR ftp.passwd - public
+```
+
+## Mail Server
+
+```
+passwords site:mail.<domain>.<tld>
+```

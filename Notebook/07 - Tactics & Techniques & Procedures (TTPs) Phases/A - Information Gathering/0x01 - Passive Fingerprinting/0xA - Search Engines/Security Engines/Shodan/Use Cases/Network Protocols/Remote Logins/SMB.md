@@ -24,7 +24,9 @@ port:445 os:"windows 7"
 
 #### Windows XP
 
-`os:"windows xp"`
+```
+os:"windows xp"
+```
 
 ### Windows Server
 
@@ -81,4 +83,6 @@ vuln:cve-2020-0796
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x01 - Defense Evasion/01 - Legacy Operating Systems/Windows|Windows: Legacy Operating Systems]]
+### Post Exploitation
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x01 - Defense Evasion/01 - Legacy Operating Systems/Windows|Defense Evasion: Legacy Windows Operating Systems]]

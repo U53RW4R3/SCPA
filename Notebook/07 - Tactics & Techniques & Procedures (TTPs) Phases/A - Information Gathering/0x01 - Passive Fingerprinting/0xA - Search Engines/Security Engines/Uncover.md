@@ -9,13 +9,15 @@ sudo mv ~/go/bin/uncover /usr/local/bin
 
 ## Usage
 
-`$ uncover -q 'inurl:main.php Welcome to phpMyAdmin'`
+```
+$ uncover -q 'inurl:main.php Welcome to phpMyAdmin'
 
-`$ uncover -q dorks.txt`
+$ uncover -q dorks.txt
 
-`$ echo elasticsearch | uncover -e shodan`
+$ echo elasticsearch | uncover -e shodan
 
-`$ echo cisco | uncover -e censys`
+$ echo cisco | uncover -e censys
+```
 
 ---
 ## References

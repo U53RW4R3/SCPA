@@ -1,3 +1,5 @@
 # Generic
 
-`"default password"`
+```
+"default password"
+```

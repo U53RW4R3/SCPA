@@ -1,3 +1,5 @@
 # Nikto
 
-`$ nikto -h <URL> -Plugins ssl`
+```
+$ nikto -host <URL> -Display V -Plugins ssl
+```

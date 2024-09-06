@@ -1,3 +1,5 @@
 # Telnet
 
-`device:printer port:23`
+```
+device:printer port:23
+```

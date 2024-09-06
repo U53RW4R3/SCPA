@@ -1,5 +1,6 @@
 # Censys Usage
 
+Search Tag(s): #information-gathering #search-engine #censys
 
 > [!NOTE]
 > The maximum pages is 100 when you're using a free version.

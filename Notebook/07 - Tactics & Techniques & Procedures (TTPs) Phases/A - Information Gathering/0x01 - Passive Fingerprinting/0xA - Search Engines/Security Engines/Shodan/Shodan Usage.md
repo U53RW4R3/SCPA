@@ -2,81 +2,95 @@
 
 ## Usage Queries
 
-`HTTP Strict-Transport-Security`
+```
+port:<PORT>
 
-`Apache`
+hostname:<hostname>
 
-`product:<product_name>`
+os:<operating_system>
 
-`hostname:<website.com>`
+product:<product_name>
 
-`os:<operating_system>`
+org:<organization_name>
 
-`port:<PORT>`
+asn:<asn_ID>
 
-`org:<organization_name>`
+city:"<city_name>"
 
-`asn:<asn_ID>`
+postal:"<postal_code>"
 
-`city:"<city_name>"`
+country:"<country_code>"
 
-`postal:"<postal_code>"`
+title:"<title>"
 
-`country:"<country_code>"`
+geo:<longitudes>,<latitudes>
 
-`title:"<title>"`
+net:<IP>/<CIDR>
 
-`geo:<longitudes>,<latitudes>`
+tag:"<tag_name>"
 
-`net:<IP>/<CIDR>`
+vuln:"<cve_ID_number>"
 
-`tag:"<tag_name>"`
+before:"<mm/dd/yy>"
 
-`vuln:"<cve_ID_number>"`
-
-`before:"<mm/dd/yy>"`
-
-`after:"<mm/dd/yy>"`
+after:"<mm/dd/yy>"
+```
 
 ## CLI Usage
 
-- How many credits you have left
+How many credits you have left
 
-`$ shodan info`
+```
+$ shodan info
+```
 
-- Perform query search
+Perform query search.
 
-`$ shodan search <shodan_query>`
+```
+$ shodan search <shodan_query>
+```
 
-- Download results from the search query
+Download results from the search query
 
-`$ shodan download output.json.gz <shodan_query>`
+```
+$ shodan download output.json.gz <shodan_query>
+```
 
-- Parse the fields after downloading a compressed json file
+Parse the fields after downloading a compressed JSON file.
 
-`$ shodan parse --fields ip_str,port,org,hostnames,has_vuln:true -O output.txt output.json.gz`
+```
+$ shodan parse --fields ip_str,port,org,hostnames,has_vuln:true -O output.txt output.json.gz
+```
 
 - Must be all caps to fingerprint the domain
 
-`$ shodan domain <DOMAIN.COM>`
+```
+$ shodan domain <DOMAIN>.<TLD>
+```
 
-- Shodan perform query on the target
+Shodan perform query on the target.
 
-`$ shodan host <IP>`
+```
+$ shodan host <IP>
+```
 
-- Receive the amount results in sum total
+Receive the amount results in sum total
 
-`$ shodan count <shodan_query>`
+```
+$ shodan count <shodan_query>
+```
 
-- Check if the IP is a honeypot
+Check if the IP is a honeypot
 
-`$ shodan honeyscore <IP>`
+```
+$ shodan honeyscore <IP>
+```
 
-- Display the statics of the internet for example "samba"
+Display the statics of the internet
 
-`$ shodan stats <shodan_query>`
-
-- Alerts
+```
+$ shodan stats <shodan_query>
+```
 
 ---
 ## References

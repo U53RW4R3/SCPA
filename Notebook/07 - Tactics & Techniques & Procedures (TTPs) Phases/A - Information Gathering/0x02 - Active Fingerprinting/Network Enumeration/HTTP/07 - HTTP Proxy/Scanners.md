@@ -33,6 +33,6 @@ msf > use auxiliary/scanner/http/squid_pivot_scanning
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Components with Known Vulnerabilities/Scanners/Nmap|Nmap: Components with Known Vulnerabilities]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners/Nmap|Nmap: Web Applications Forensics]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Web Applications Forensics/Scanners|Nmap: Web Applications Forensics]]
 
 - [Hacktricks: Pentesting Squid](https://book.hacktricks.xyz/network-services-pentesting/3128-pentesting-squid)

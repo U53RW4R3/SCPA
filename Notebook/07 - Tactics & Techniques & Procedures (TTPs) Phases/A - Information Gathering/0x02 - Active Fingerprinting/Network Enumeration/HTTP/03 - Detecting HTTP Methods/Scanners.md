@@ -9,7 +9,7 @@ $ nuclei -u <URL> -t ~/nuclei-templates -id options-method
 ## 02 - Nikto
 
 ```
-$ nikto -h <URL> -Plugins httpoptions
+$ nikto -host <URL> -Plugins httpoptions
 ```
 
 ## 03 - Nmap
