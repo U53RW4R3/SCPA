@@ -4,7 +4,9 @@ TODO: Fill this info for usage and help menu
 
 ## Usage
 
-`$ h8mail`
+```
+$ h8mail
+```
 
 ---
 ## References

@@ -1,24 +1,14 @@
-# Social Media
+# Scanners
 
-## 01 - Manual
-
-TODO: Provide real life examples when using social media platforms that correlates with [[OSINT Framework]].
-
-### Facebook
-
-### Instagram
-
-### Twitter
-
-## 02 - Sherlock
+## 01 - Sherlock
 
 ```
-$ sherlock
+$ sherlock <username_1> <username_n> --nsfw --print-found
 ```
 
-## 03 - Recon-ng
+## 02 - Recon-ng
 
-- **`profiler` recon-ng module**
+`profiler` recon-ng module
 
 ```
 [recon-ng][default] > marketplace install recon/profiles-profiles/profiler
