@@ -2,6 +2,8 @@
 
 TODO: Fill out the checklist
 
+https://inteltechniques.com/tools/
+
 https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/people-investigations
 
 https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/government-information
