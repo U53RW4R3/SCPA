@@ -1,5 +1,7 @@
 # CouchDB
 
-`product:"CouchDB"`
+```
+product:"CouchDB"
 
-`port:5984 server:"CouchDB/2.1.0"`
+port:5984 server:"CouchDB/2.1.0"
+```
