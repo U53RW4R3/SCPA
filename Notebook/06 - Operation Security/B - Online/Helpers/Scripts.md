@@ -20,7 +20,7 @@ function check_socat() {
 function usage() {
     read -d '' help << EOF
 Usage:
-    $(basename ${0}) [-v <verbosity>] -l <local_PORT> [-m <proxy_method>] [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT>
+    $(basename ${0}) [-v <verbosity>] -l <local_PORT> [-m <proxy_method>] [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT> [-f]
 Flags:
     -v, --verbose                   Increase verbosity in socat. Avaliable values: 1,2,3,4.
 								    Use up to 4 times; 2 are recommended.
@@ -34,6 +34,7 @@ Flags:
                                     not specified)
     -r, --remote                    The remote IP address to bind
     -b, --bindport                  The remote port to bind
+    -f, --fork                      Fork the process in the background
     -h, --help                      Display help menu
 EOF
 
@@ -80,6 +81,10 @@ function main() {
             -b | --bindport)
                 REMOTE_PORT=${2}
                 shift 2
+                ;;
+            -f | --fork)
+	            BACKGROUND=1
+                shift
                 ;;
             -h | --help)
                 usage
@@ -157,7 +162,12 @@ function main() {
 		SOCAT+=" -dddd"
 	fi
 
-	nohup ${SOCAT} tcp4-listen:${LISTENER},reuseaddr,fork "${proxy_address_head}" </dev/null >/dev/null 2>&1 &
+	if [[ ${BACKGROUND} -eq 1 ]]
+	then
+		nohup ${SOCAT} tcp4-listen:${LISTENER},reuseaddr,fork "${proxy_address_head}" </dev/null >/dev/null 2>&1 &
+	else
+		${SOCAT} tcp4-listen:${LISTENER},reuseaddr,fork "${proxy_address_head}"
+	fi
 }
 
 main "${@}"
@@ -189,9 +199,11 @@ You can set socks proxy IP address and/or port to pivot. Including to choose 3 p
 $ ./proxybind.sh -l <local_PORT> -m <socks4 | socks4a | connect> -s <SOCKS_server_IP> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
-Once you're finished kill socat process.
+You can fork it in the background. Once you're finished kill socat process.
 
 ```
+$ ./proxybind.sh -v 2 -l <local_PORT> -r <remote_IP> -b <remote_PORT> -f
+
 $ pkill socat
 ```
 
