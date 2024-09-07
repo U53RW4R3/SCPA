@@ -10,17 +10,18 @@ cd scoop && \
 go build scoop.go
 ```
 
-- Fetch SOCKS Proxy servers
+Fetch SOCKS Proxy servers
 
-`$ ./scrape && ./scoop`
+```
+$ ./scrape && ./scoop
+```
 
 ### 1.2 - Use Proxychains
 
-`$ cat socks5.conf`
-
----
+A configuration file template to setup `proxychains-ng`.
 
 ```
+$ cat > socks5.conf << EOF
 strict_chain  
 proxy_dns  
 tcp_read_time_out 15000  
@@ -28,17 +29,19 @@ tcp_connect_time_out 8000
 localnet 127.0.0.1/255.255.255.255  
 [ProxyList]  
 socks5  127.0.0.1 9999 user pass
+EOF
 ```
 
-`$ proxychains -f socks5.conf curl https://ipinfo.io`
+Specify the configuration file to use `proxychains-ng`.
+
+```
+$ proxychains -f socks5.conf curl https://ipinfo.io
+```
 
 ### 1.3 - Use Privoxy
 
-`$ cat /etc/privoxy/config`
-
----
-
 ```
+$ cat > privoxy_config << EOF
 user-manual /usr/share/doc/privoxy/user-manual/
 confdir /etc/privoxy
 logdir /var/log/privoxy
@@ -64,9 +67,14 @@ keep-alive-timeout 5
 tolerate-pipelining 1
 socket-timeout 300
 forward-socks5  /       user:pass@127.0.0.1:9999  .
+EOF
 ```
 
-`$ privoxy /etc/privoxy/config`
+Specify the configuration file to use `privoxy`.
+
+```
+$ privoxy /etc/privoxy/config
+```
 
 Refer to [[Terminal Setup]] section to configure a bash resource file
 
@@ -81,11 +89,8 @@ port: 8118
 
 TODO: Merge them together for the script and add an option for sqlmap
 
-`$ cat socks5.conf`
-
----
-
 ```
+$ cat > socks5.conf << EOF
 strict_chain
 proxy_dns
 tcp_read_time_out 15000
@@ -95,19 +100,15 @@ localnet 127.0.0.1/255.255.255.255
 socks4  <IP> <PORT>
 socks5  <IP> <PORT> [username] [password]
 http    <IP> <PORT> [username] [password]
+EOF
 ```
 
 Refer to [[Proxychains|proxychains]] under Pivoting SOCKS proxy section
 
-
-
 ## 03 - Privoxy
 
-`$ cat /etc/privoxy/config`
-
----
-
 ```
+$ cat > /etc/privoxy/config << EOF
 user-manual /usr/share/doc/privoxy/user-manual/
 confdir /etc/privoxy
 logdir /var/log/privoxy
@@ -133,9 +134,10 @@ keep-alive-timeout 5
 tolerate-pipelining 1
 socket-timeout 300
 forward-socks5  /   <username>:<password>@<IP>:<PORT>  .
-```
+EOF
 
-`$ privoxy /etc/privoxy/config`
+$ privoxy /etc/privoxy/config
+```
 
 Refer to [[Terminal Setup]] section to configure a bash resource file
 
@@ -146,7 +148,11 @@ server: localhost
 port: 8118
 ```
 
-`$ curl https://ipinfo.io`
+Then check the IP address.
+
+```
+$ curl https://ipinfo.io
+```
 
 ---
 ## References

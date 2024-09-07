@@ -1,14 +1,9 @@
 # Terminal Setup
 
-Terminals like **KDE** and **XFCE** doesn't work well in contrast GNOME and MATE that uses a GUI program to setup proxies through the network. Yet this is the solution that I found on ArchWiki.
-
-Copy and append this at the end of the line. It also works with another unix shells like **zsh** and a few others.
-
-`$ cat ~/.bashrc`
-
----
+Terminals like **KDE** and **XFCE** doesn't work well in contrast GNOME and MATE that uses a GUI program to setup proxies through the network. Yet this is the solution that I found on ArchWiki. Copy and append this at the end of the line. It also works with another unix shell prompts like `/bin/zsh` and a few others.
 
 ```bash
+$ cat >> ~/.bashrc << EOF
 function proxy_on() {  
     export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
 
@@ -52,11 +47,16 @@ function proxy_off() {
           HTTP_PROXY HTTPS_PROXY FTP_PROXY RSYNC_PROXY
     echo -e "Proxy environment variable removed."
 }
+EOF
 ```
 
-`$ source ~/.bashrc`
+Refresh the terminal.
+
+```
+$ source ~/.bashrc
+```
 
 ---
 ## References
 
-- [Proxy Server](https://wiki.archlinux.org/title/Proxy_server)
+- [Wiki Arch Linux: Proxy Server](https://wiki.archlinux.org/title/Proxy_server)

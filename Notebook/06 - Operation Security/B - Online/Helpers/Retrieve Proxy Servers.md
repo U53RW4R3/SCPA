@@ -2,7 +2,7 @@
 
 ## 01 - Download Public Proxies
 
-- SOCKS4
+SOCKS4
 
 ```
 $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=<country_code>
@@ -10,13 +10,13 @@ $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&coun
 $ curl https://api.openproxylist.xyz/socks4.txt
 ```
 
-- SOCKS4A
+SOCKS4A
 
 ```
 $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4a&country=<country_code>
 ```
 
-- SOCKS5
+SOCKS5
 
 ```
 $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&country=<country_code>
@@ -24,7 +24,7 @@ $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&coun
 $ curl https://api.openproxylist.xyz/socks5.txt
 ```
 
-- HTTP
+HTTP
 
 ```
 $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&country=<country_code>
@@ -34,153 +34,16 @@ $ curl https://api.openproxylist.xyz/http.txt
 
 ## 02 - ScanSSH
 
-`$ sudo apt install -y scanssh`
+```
+$ sudo apt install -y scanssh
+```
+
+Create a temporary array then execute `scanssh` to begin scanning.
 
 ```
 $ readarray -t proxies < proxies.txt
 
 $ sudo scanssh -p -s <socks4 | socks5 | http-proxy> ${proxies[@]} | tee proxies.txt
-```
-
-## 03 - Formatter
-
-### 3.1 - Proxychains
-
-Refer to [[01 - Command Line/A - Operating Systems/Linux/Use Cases/Networking/Basic|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
-
-```bash
-#!/bin/bash
-
-PROXY="${1}"
-FILE="${2}"
-USERNAME="${3}"
-PASSWORD="${4}"
-
-IPV4_REGEX="\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"
-
-function scan() {
-	local ip=()
-    local port=()
-    local temp=""
-
-	# TODO: Some programs like proxychains accepts numeric IP addresses except privoxy
-	# $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "${IPV4_REGEX}" | sort -u)
-
-	# TODO: add a flag for -s, --scan <icmp | tcp> when using with /dev/tcp/<IP>/<PORT>
-    while read -r line
-    do
-	    # temp=$(echo "${line}" | grep -Eo "${IPV4_REGEX}")
-        temp=$(echo "${line}" | cut -d ":" -f 1)
-
-        if [[ $(ping -c 1 "${temp}" | grep "bytes from") ]]
-        then
-            ip+=("${temp}")
-            port+=($(echo "${line}" | cut -d ":" -f 2))
-        fi
-    done < "${FILE}"
-}
-
-function format() {
-    local ip=()
-    local port=()
-    local temp=""
-
-	# TODO: add a flag for -s, --scan <icmp | tcp> when using with /dev/tcp/<IP>/<PORT>
-    while read -r line
-    do
-	    # temp=$(echo "${line}" | grep -Eo "${IPV4_REGEX}")
-        temp=$(echo "${line}" | cut -d ":" -f 1)
-
-        if [[ $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "${IPV4_REGEX}" | sort -u) ]]
-        then
-            ip+=("${temp}")
-            port+=($(echo "${line}" | cut -d ":" -f 2))
-        fi
-    done < "${FILE}"
-    
-    for ((i=0; i<${#ip[@]}; i++))
-    do
-        if [[ ${PROXY,,} = "socks4" ]]
-        then
-            echo "${PROXY,,} ${ip[$i]} ${port[$i]}"
-        elif [[ ${PROXY,,} = "socks5" ]]
-        then
-            echo "${PROXY,,} ${ip[$i]} ${port[$i]} ${USERNAME} ${PASSWORD}"
-        elif [[ ${PROXY,,} = "http" ]]
-        then
-            echo "${PROXY,,} ${ip[$i]} ${port[$i]} ${USERNAME} ${PASSWORD}"
-        fi
-    done
-}
-
-function usage() {
-    echo "Usage: $0 <SOCKS4 | SOCKS5 | HTTP> ips.txt <username> <password>"
-}
-
-# TODO: Make flag switches
-
-if [ $# -lt 2 ] || [ $PROXY = "-h" ]
-then
-       usage
-       exit 1
-fi
-
-format
-```
-
-### 3.2 - Privoxy
-
-```bash
-#!/bin/bash
-
-# Name it as privoxy-formatter.sh
-
-PROXY="${1}"
-FILE="${2}"
-USERNAME="${3}"
-PASSWORD="${4}"
-
-function usage() {
-    echo "Usage: $0 <SOCKS4 | SOCKS5 | HTTP> ips.txt <username> <password>"
-}
-
-function format() {
-    local ip=()
-    local port=()
-    local temp=""
-
-    while read -r line
-    do
-        temp=$(echo "${line}" | cut -d ":" -f 1)
-        
-        if [[ $(ping -c 1 "${temp}" | grep "bytes from" | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b") ]]
-        then
-            ip+=("${temp}")
-            port+=($(echo "${line}" | cut -d ":" -f 2))
-        fi
-    done < "${FILE}"
-    
-    for ((i=0; i<${#ip[@]}; i++))
-    do
-        if [[ ${PROXY,,} = "socks4" ]]
-        then
-            echo "forward-socks4a   /       ${ip[$i]}:${port[$i]}   ."
-        elif [[ ${PROXY,,} = "socks5" ]]
-        then
-            echo "forward-socks5    /       ${USERNAME}:${PASSWORD}@${ip[$i]}:${port[$i]}   ."
-        fi
-    done
-}
-
-# TODO: Make flag switches
-
-if [ $# -lt 2 ] || [ $PROXY = "-h" ]
-then
-       usage
-       exit 1
-fi
-
-format
 ```
 
 ## 04 - Network Mapper
