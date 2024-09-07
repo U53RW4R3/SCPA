@@ -2,7 +2,9 @@
 
 ## 01 - cURL
 
-`$ curl -sL --socks 127.0.0.1:9050 --socks5-hostname 127.0.0.1:9050 http://<onion_URL>`
+```
+$ curl -sL --socks 127.0.0.1:9050 --socks5-hostname 127.0.0.1:9050 http://<onion_URL>
+```
 
 ## 02 - Socat
 
