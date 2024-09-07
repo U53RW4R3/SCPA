@@ -15,9 +15,13 @@ function check_dependencies() {
 function usage() {
     read -d '' help << EOF
 Usage:
-    $(basename ${0}) -l <local_PORT> [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT>
+    $(basename ${0}) -l <local_PORT> [-t <proxy_method>] [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT>
 Flags:
     -l, --listener                  Create a listening local port
+    -t, --type                      Specify a proxy method. "socks4a" is set by default if
+								    not specified. Other avaliable options are: "socks4", and
+								    "connect"
+
     -s, --server                    IP address of the SOCKS4A proxy server (127.0.0.1 is set by
                                     default if not specified)
 
@@ -34,6 +38,8 @@ EOF
 }
 
 function main() {
+	local proxy_address_head=""
+
     check_dependencies
 
     if [[ ${#} -eq 0 ]]
@@ -46,6 +52,10 @@ function main() {
         case ${1} in
             -l | --listener)
                 LISTENER=${2}
+                shift 2
+                ;;
+            -m | --method)
+                PROXY_METHOD="${2,,}"
                 shift 2
                 ;;
             -s | --server)
@@ -80,6 +90,15 @@ function main() {
         exit 1
     fi
 
+    if [[ -z "${PROXY_METHOD}" ]]
+    then
+        PROXY_METHOD="socks4a"
+    elif [[ "${PROXY_METHOD}" != "socks4" && "${PROXY_METHOD}" != "socks4a" && "${PROXY_METHOD}" != "connect" ]]
+    then
+	    echo "Unknown Proxy server method! Avaliable options: socks4, socks4a, and connect"
+	    exit 1
+    fi
+
     # If input was empty. Set to localhost by default.
     if [[ -z "${PROXY_SERVER_IP}" ]]
     then
@@ -98,7 +117,18 @@ function main() {
         exit 1
     fi
 
-    socat TCP4-LISTEN:"${LISTENER}",reuseaddr,fork SOCKS4A:"${PROXY_SERVER_IP}":"${REMOTE_IP}":"${REMOTE_PORT}",socksport="${PROXY_SERVER_PORT}" & > /dev/null
+    if [[ "${PROXY_METHOD}" == "socks4a" ]]
+    then
+	    proxy_address_head="SOCKS4A:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},socksport=${PROXY_SERVER_PORT}"
+    elif [[ "${PROXY_METHOD}" == "socks4" ]]
+    then
+	    proxy_address_head="SOCKS4:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},socksport=${PROXY_SERVER_PORT}"
+    elif [[ "${PROXY_METHOD}" == "connect" ]]
+    then
+	    proxy_address_head="PROXY:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},proxyport=${PROXY_SERVER_PORT}"
+    fi
+
+	socat TCP4-LISTEN:"${LISTENER}",reuseaddr,fork "${proxy_address_head}" & > /dev/null
 }
 
 main "${@}"
@@ -118,7 +148,7 @@ It'll set to localhost and TOR port (9050) to pivot to the target.
 $ ./proxybind.sh -l <local_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
-You can set a custom SOCKS4A port.
+You can set a custom socks port.
 
 ```
 $ ./proxybind.sh -l <local_PORT> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
