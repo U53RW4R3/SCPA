@@ -98,7 +98,7 @@ function main() {
         exit 1
     fi
 
-    socat TCP4-LISTEN:"${LISTENER}",fork SOCKS4A:"${PROXY_SERVER_IP}":"${REMOTE_IP}":"${REMOTE_PORT}",socksport="${PROXY_SERVER_PORT}" & > /dev/null
+    socat TCP4-LISTEN:"${LISTENER}",reuseaddr,fork SOCKS4A:"${PROXY_SERVER_IP}":"${REMOTE_IP}":"${REMOTE_PORT}",socksport="${PROXY_SERVER_PORT}" & > /dev/null
 }
 
 main "${@}"
