@@ -1,6 +1,6 @@
 # ADB (Android Debug Bridge)
 
-## Nmap
+## Network Mapper
 
 ```
 $ nmap -p 5555 -Pn -sV <IP>

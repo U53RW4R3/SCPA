@@ -8,7 +8,7 @@
 $ nc -nv <IP> 23
 ```
 
-## 02 - Nmap
+## 02 - Network Mapper
 
 ```
 $ nmap -p 23 -n -sV -Pn --script telnet-encryption <IP>

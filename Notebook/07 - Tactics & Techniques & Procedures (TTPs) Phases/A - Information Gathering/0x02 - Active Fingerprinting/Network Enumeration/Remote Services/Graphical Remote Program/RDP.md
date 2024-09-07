@@ -31,7 +31,7 @@ msf auxiliary(scanner/rdp/rdp_scanner) > set rdp_client_name <client_name>
 msf auxiliary(scanner/rdp/rdp_scanner) > run -j
 ```
 
-## 02 - Nmap
+## 02 - Network Mapper
 
 ```
 $ nmap -p 3389 -Pn -sV --script rdp-enum-encryption <IP>

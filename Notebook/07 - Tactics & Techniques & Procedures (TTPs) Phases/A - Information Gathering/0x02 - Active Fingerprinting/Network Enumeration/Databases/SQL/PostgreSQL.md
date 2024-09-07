@@ -2,7 +2,7 @@
 
 ## 01 - Banner Grab
 
-### 1.1 - Nmap
+### 1.1 - Network Mapper
 
 ```
 $ nmap -p 5432 -Pn -n -sV --script banner <IP>

@@ -44,13 +44,13 @@ rpcclient $> lsaenumacctrights S-1-1-0
 rpcclient $> lsalookupprivvalue SeCreateTokenPrivilege
 ```
 
-- LSA Query Security Objects
+LSA Query Security Objects
 
 ```
 rpcclient $> lsaquerysecobj
 ```
 
-## 02 - Nmap
+## 02 - Network Mapper
 
 ```
 $ nmap -p 135,445,593 -Pn --script msrpc-enum <IP>

@@ -1,5 +1,7 @@
 # Finger
 
+Search Tag(s): #information-gathering #active-reconnaissance #network-protocols #network-mapper #metasploit-framework
+
 ## 01 - Banner Grab
 
 ```
@@ -28,7 +30,7 @@ $ finger-user-enum.pl -u <username> -t <IP>
 $ finger-user-enum.pl -U users.lst -T ip_targets.txt
 ```
 
-### 2.3 - Nmap
+### 2.3 - Network Mapper
 
 ```
 $ sudo nmap -p 79 -Pn -n -sV --script finger <IP>

@@ -1,5 +1,7 @@
 # Scanners
 
+Search Tag(s): #information-gathering #active-reconnaissance #network-protocols #network-mapper
+
 ## DNSRecon
 
 ```
@@ -111,7 +113,7 @@ $ sublist3r2 -d website.com -b -t 64 -o subdomains.txt
 $ knockpy <domain.com>
 ```
 
-## Nmap
+## Network Mapper
 
 ```
 $ nmap -p 53 --script dns-zone-transfer --script-args="dns-zone.transfer.domain=<domain.com>" <nameserver_IP>

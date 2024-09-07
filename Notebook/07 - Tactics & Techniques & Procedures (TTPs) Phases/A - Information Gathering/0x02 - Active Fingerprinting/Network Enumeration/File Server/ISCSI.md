@@ -8,7 +8,7 @@ $ sudo apt-get install open-iscsi
 
 ## 02 - Discovery Targets
 
-### 2.1 - Nmap
+### 2.1 - Network Mapper
 
 ```
 $ nmap -p 3260 -Pn -n -sV --script iscsi-info <IP>

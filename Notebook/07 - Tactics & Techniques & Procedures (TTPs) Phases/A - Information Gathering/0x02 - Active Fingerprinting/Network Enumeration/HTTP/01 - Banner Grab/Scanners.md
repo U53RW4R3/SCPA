@@ -1,6 +1,6 @@
 # Scanners
 
-## 01 - Nmap
+## 01 - Network Mapper
 
 ```
 $ sudo nmap -p 80,443,8000,8080,8443 -Pn -n -sV <IP>

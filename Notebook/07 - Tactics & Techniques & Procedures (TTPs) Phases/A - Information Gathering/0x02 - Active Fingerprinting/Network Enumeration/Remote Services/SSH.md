@@ -42,7 +42,7 @@ $ ssh -v <username>@<IP> /bin/bash
 $ ssh-audit <IP>
 ```
 
-## 03 - Nmap
+## 03 - Network Mapper
 
 ```
 $ nmap -p 22 --script sshv1 <IP>

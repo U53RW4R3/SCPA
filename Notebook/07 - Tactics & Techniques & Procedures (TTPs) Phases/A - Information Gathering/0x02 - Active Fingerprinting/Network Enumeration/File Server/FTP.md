@@ -1,5 +1,7 @@
 # FTP
 
+Search Tag(s): #information-gathering #active-reconnaissance #network-protocols #network-mapper #metasploit-framework
+
 ## 01 - Banner Grab
 
 ### 1.1 - Manual
@@ -16,7 +18,7 @@ Retrieve a certificate if any
 $ openssl s_client -connect <IP>:21 -starttls ftp
 ```
 
-### 1.2 - Nmap
+### 1.2 - Network Mapper
 
 ```
 $ nmap -p 21 -sV --script ftp-syst <IP>

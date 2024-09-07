@@ -1,6 +1,6 @@
 # DHCP
 
-Search Tag(s): #active-reconnaissance #network-protocols #dhcp #nmap
+Search Tag(s): #active-reconnaissance #network-protocols #dhcp #network-mapper
 
 ```
 $ sudo nmap -sU -p 67 --script dhcp-discover <IP>

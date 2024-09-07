@@ -32,7 +32,7 @@ $ dnsrecon -d <domain> -t crt
 [sn0int][default][kpcyrd/ctlogs] > run
 ```
 
-### Nmap
+### Network Mapper
 
 ```
 $ nmap -Pn --script hostmap-crtsh --script-args 'hostmap-crtsh.prefix=hostmap-' <IP>

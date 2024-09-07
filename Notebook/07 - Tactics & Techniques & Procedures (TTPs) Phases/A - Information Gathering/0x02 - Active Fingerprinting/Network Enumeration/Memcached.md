@@ -23,7 +23,7 @@ $ telnet <IP> 11211
 version
 ```
 
-### 2.2 - Nmap
+### 2.2 - Network Mapper
 
 ```
 $ sudo nmap -p 11211 -Pn -n -sV <IP>

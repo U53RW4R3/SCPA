@@ -1,8 +1,8 @@
 # UPNP
 
-Search Tag(s): #active-reconnaissance #network-protocols #upnp #nmap
+Search Tag(s): #active-reconnaissance #network-protocols #upnp #network-mapper
 
-## 01 - Nmap
+## 01 - Network Mapper
 
 ```
 $ sudo nmap -p 1900 -sU --script upnp-info <IP>

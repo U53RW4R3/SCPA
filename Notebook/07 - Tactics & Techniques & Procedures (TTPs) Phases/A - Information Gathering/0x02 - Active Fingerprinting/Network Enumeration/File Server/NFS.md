@@ -32,7 +32,7 @@ Unmount the shared folder once the infiltration has been and clean up the logs
 $ sudo umount /mnt/nfs
 ```
 
-## 02 - Nmap
+## 02 - Network Mapper
 
 ```
 $ nmap -p 111,2049 -sV --script nfs-ls,nfs-showmount,nfs-statfs,rpc-info <IP>
