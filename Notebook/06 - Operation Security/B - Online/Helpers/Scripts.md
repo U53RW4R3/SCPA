@@ -20,19 +20,18 @@ function check_socat() {
 function usage() {
     read -d '' help << EOF
 Usage:
-    $(basename ${0}) -l <local_PORT> [-m <proxy_method>] [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT>
+    $(basename ${0}) [-v <verbosity>] -l <local_PORT> [-m <proxy_method>] [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT>
 Flags:
+    -v, --verbose                   Increase verbosity in socat. Avaliable values: 1,2,3,4.
+								    Use up to 4 times; 2 are recommended.
     -l, --listener                  Create a listening local port
     -m, --method                    Specify a proxy method. "socks4a" is set by default if
 								    not specified. Other avaliable options are: "socks4", and
 								    "connect"
-
     -s, --server                    IP address of the SOCKS4A proxy server (127.0.0.1 is set by
                                     default if not specified)
-
     -p, --port                      Port of the SOCKS4A proxy server (9050 is set by default if
                                     not specified)
-
     -r, --remote                    The remote IP address to bind
     -b, --bindport                  The remote port to bind
     -h, --help                      Display help menu
@@ -54,6 +53,10 @@ function main() {
     while [[ ${#} -gt 0 ]]
     do
         case ${1} in
+            -v | --verbose)
+                VERBOSE=${2}
+                shift 2
+                ;;
             -l | --listener)
                 LISTENER=${2}
                 shift 2
@@ -111,7 +114,7 @@ function main() {
 	    exit 1
     fi
 
-    # If input was empty. Set to localhost by default.
+    # Set to localhost by default.
     if [[ -z "${PROXY_SERVER_IP}" ]]
     then
         PROXY_SERVER_IP="127.0.0.1"
@@ -131,16 +134,30 @@ function main() {
 
     if [[ "${PROXY_METHOD}" == "socks4a" ]]
     then
-	    proxy_address_head="SOCKS4A:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},socksport=${PROXY_SERVER_PORT}"
+	    proxy_address_head="socks4a:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},socksport=${PROXY_SERVER_PORT}"
     elif [[ "${PROXY_METHOD}" == "socks4" ]]
     then
-	    proxy_address_head="SOCKS4:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},socksport=${PROXY_SERVER_PORT}"
+	    proxy_address_head="socks4:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},socksport=${PROXY_SERVER_PORT}"
     elif [[ "${PROXY_METHOD}" == "connect" ]]
     then
-	    proxy_address_head="PROXY:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},proxyport=${PROXY_SERVER_PORT}"
+	    proxy_address_head="proxy:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},proxyport=${PROXY_SERVER_PORT}"
     fi
 
-	"${SOCAT}" TCP4-LISTEN:"${LISTENER}",reuseaddr,fork "${proxy_address_head}" & > /dev/null
+	if [[ ${VERBOSE} -eq 1 ]]
+	then
+		SOCAT+="-d"
+	elif [[ ${VERBOSE} -eq 2 ]]
+	then
+		SOCAT+="-dd"
+	elif [[ ${VERBOSE} -eq 3 ]]
+	then
+		SOCAT+="-ddd"
+	elif [[ ${VERBOSE} -eq 4 ]]
+	then
+		SOCAT+="-dddd"
+	fi
+
+	"${SOCAT}" tcp4-listen:"${LISTENER}",reuseaddr,fork "${proxy_address_head}" & > /dev/null
 }
 
 main "${@}"
@@ -154,10 +171,10 @@ Make it executable.
 $ chmod 755 proxybind.sh
 ```
 
-It'll set to localhost and TOR port (9050) to pivot to the target.
+It'll set to localhost and TOR port (9050) to pivot to the target. To confirm it works increase the verbosity to 2.
 
 ```
-$ ./proxybind.sh -l <local_PORT> -r <remote_IP> -b <remote_PORT>
+$ ./proxybind.sh -v 2 -l <local_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
 You can set a custom socks port.
@@ -166,10 +183,10 @@ You can set a custom socks port.
 $ ./proxybind.sh -l <local_PORT> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
-You can set socks proxy IP address and/or port to pivot.
+You can set socks proxy IP address and/or port to pivot. Including to choose 3 proxy server methods.
 
 ```
-$ ./proxybind.sh -l <local_PORT> -s <SOCKS_server_IP> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
+$ ./proxybind.sh -l <local_PORT> -m <socks4 | socks4a | connect> -s <SOCKS_server_IP> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
 ## 02 - Formatter
