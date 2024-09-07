@@ -145,19 +145,19 @@ function main() {
 
 	if [[ ${VERBOSE} -eq 1 ]]
 	then
-		SOCAT+="-d"
+		SOCAT+=" -d"
 	elif [[ ${VERBOSE} -eq 2 ]]
 	then
-		SOCAT+="-dd"
+		SOCAT+=" -dd"
 	elif [[ ${VERBOSE} -eq 3 ]]
 	then
-		SOCAT+="-ddd"
+		SOCAT+=" -ddd"
 	elif [[ ${VERBOSE} -eq 4 ]]
 	then
-		SOCAT+="-dddd"
+		SOCAT+=" -dddd"
 	fi
 
-	"${SOCAT}" tcp4-listen:"${LISTENER}",reuseaddr,fork "${proxy_address_head}" & > /dev/null
+	nohup ${SOCAT} tcp4-listen:${LISTENER},reuseaddr,fork "${proxy_address_head}" </dev/null >/dev/null 2>&1 &
 }
 
 main "${@}"
@@ -187,6 +187,12 @@ You can set socks proxy IP address and/or port to pivot. Including to choose 3 p
 
 ```
 $ ./proxybind.sh -l <local_PORT> -m <socks4 | socks4a | connect> -s <SOCKS_server_IP> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
+```
+
+Once you're finished kill socat process.
+
+```
+$ pkill socat
 ```
 
 ## 02 - Formatter
