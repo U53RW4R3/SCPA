@@ -4,21 +4,26 @@
 
 ```bash
 #!/bin/bash
-function check_dependencies() {
-    if [[ -z $(which socat) ]]
-    then
-        echo "socat isn't installed!"
-        exit 0
-    fi
+function check_socat() {
+	local paths=("/usr/bin/socat" "/bin/socat" "/usr/local/bin/socat")
+
+	for path in "${paths[@]}"
+	do
+	    if [[ -e "${path}" ]]
+	    then
+            echo "${path}"
+	        break
+	    fi
+	done
 }
 
 function usage() {
     read -d '' help << EOF
 Usage:
-    $(basename ${0}) -l <local_PORT> [-t <proxy_method>] [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT>
+    $(basename ${0}) -l <local_PORT> [-m <proxy_method>] [-s <proxy_IP>] [-p <proxy_PORT>] -r <remote_IP> -b <remote_PORT>
 Flags:
     -l, --listener                  Create a listening local port
-    -t, --type                      Specify a proxy method. "socks4a" is set by default if
+    -m, --method                    Specify a proxy method. "socks4a" is set by default if
 								    not specified. Other avaliable options are: "socks4", and
 								    "connect"
 
@@ -38,9 +43,8 @@ EOF
 }
 
 function main() {
-	local proxy_address_head=""
-
-    check_dependencies
+	local proxy_address_head
+    local SOCAT
 
     if [[ ${#} -eq 0 ]]
     then
@@ -83,6 +87,14 @@ function main() {
                 ;;
         esac
     done
+
+    if [[ -n $(check_socat) ]]
+    then
+        SOCAT=$(check_socat)
+    else
+        echo "socat isn't installed!"
+        exit 1
+    fi
 
     if [[ -z "${LISTENER}" ]]
     then
@@ -128,7 +140,7 @@ function main() {
 	    proxy_address_head="PROXY:${PROXY_SERVER_IP}:${REMOTE_IP}:${REMOTE_PORT},proxyport=${PROXY_SERVER_PORT}"
     fi
 
-	socat TCP4-LISTEN:"${LISTENER}",reuseaddr,fork "${proxy_address_head}" & > /dev/null
+	"${SOCAT}" TCP4-LISTEN:"${LISTENER}",reuseaddr,fork "${proxy_address_head}" & > /dev/null
 }
 
 main "${@}"
