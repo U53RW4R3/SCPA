@@ -53,13 +53,17 @@ Flags:
 
 TODO: Fill this info
 
-- Install a list of google dorks from exploit-db
+Install a list of google dorks from exploit-db
 
-`$ dorkscout install --output-dir /path/to/new/directory`
+```
+$ dorkscout install --output-dir /path/to/new/directory
+```
 
-- Use a specific dork to gather URLs
+Use a specific dork to gather URLs
 
-`$ dorkscout scan -d="/path/to/new/directory/Web Server Detection.dorkscout"`
+```
+$ dorkscout scan -d="/path/to/new/directory/Web Server Detection.dorkscout"
+```
 
 ---
 ## References

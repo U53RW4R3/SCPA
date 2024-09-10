@@ -11,7 +11,7 @@ $ curl -sL --socks 127.0.0.1:9050 --socks5-hostname 127.0.0.1:9050 http://<onion
 The syntax as it follows.
 
 ```
-$ socat TCP4-LISTEN:<local_port>,reuseaddr,fork SOCKS4A:127.0.0.1:<onion_hostname>:80,socksport=9050
+$ socat TCP4-LISTEN:<local_PORT>,reuseaddr,fork SOCKS4A:127.0.0.1:<onion_hostname>:80,socksport=9050
 ```
 
 You can use the script to make your life easier.
@@ -21,7 +21,7 @@ You can use the script to make your life easier.
 Just specify the listening port.
 
 ```
-$ ./proxybind.sh -v 2 -l <local_PORT> -r <onion_hostname> -b 80
+$ ./pivotbind.sh -v 2 -l <local_PORT> -r <onion_hostname> -b 80
 ```
 
 Then interact the web server using `curl` to check if it works.

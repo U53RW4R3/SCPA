@@ -1,3 +1,6 @@
 # Apache Tomcat
 
-`intitle:"Apache Tomcat" "Error Report"`
+```
+intitle:"Apache Tomcat"
+intitle:"Apache Tomcat" "Error Report"
+```
