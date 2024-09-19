@@ -1,5 +1,11 @@
 # VPN Appliances
 
+## Citrix
+
+```
+intitle:"Citrix Access Gateway" "To continue logon, use a Web browser that supports JavaScript or enable JavaScript in your current browser."
+```
+
 ## Fortinet
 
 ```
@@ -7,6 +13,37 @@ intitle:please login inurl:remote/login intext:FortiToken
 intitle:please login inurl:remote/login intext:FortiClient
 intext:Please Login SSL VPN inurl:remote/login intext:FortiClient
 intext:Please Login SSL VPN inurl:remote/login intext:FortiToken
+intitle:"Please Login" "Warning: this page requires Javascript. To correctly view, please enable it in your browser."
+```
+
+## Huawei
+
+```
+intitle:"Web Admin login" "Password" "Huawei Technologies Co., Ltd."
+```
+
+## NetGear
+
+```
+
+```
+
+## NetShelter
+
+```
+
+```
+
+## Phion/Barracuda
+
+```
+
+```
+
+## Sonicwall
+
+```
+intitle:"SonicWALL GMS Login" "User" "Password"
 ```
 
 ---

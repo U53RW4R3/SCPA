@@ -16,6 +16,14 @@ ftp.passwd
 filetype:env "DB_PASSWORD"
 ```
 
+## HTPasswd
+
+```
+inurl:htpasswd ext:txt
+filetype:htpasswd htpasswd
+filetype:htpasswd inurl:htpasswd
+```
+
 ## Generic
 
 ```

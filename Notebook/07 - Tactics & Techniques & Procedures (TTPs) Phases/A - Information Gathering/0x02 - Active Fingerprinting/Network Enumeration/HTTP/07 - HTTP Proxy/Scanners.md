@@ -1,6 +1,12 @@
 # Scanners
 
-## 01 - Network Mapper
+## 01 - Whatweb
+
+```
+$ whatweb -p Proxy-Agent,Proxy-Authenticate <URL>
+```
+
+## 02 - Network Mapper
 
 Discover open HTTP proxy.
 
@@ -8,7 +14,7 @@ Discover open HTTP proxy.
 $ nmap -p 80,443,3128,8000,8080,8443 -Pn -n --script http-open-proxy --script-args proxy.url=<URL>,proxy.pattern=<pattern> <IP>
 ```
 
-## 02 - Metasploit
+## 03 - Metasploit
 
 TODO: Show the steps
 
