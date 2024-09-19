@@ -9,6 +9,8 @@ run post/multi/gather/run_console_rc_file
 
 run post/multi/gather/multi_command
 
+run post/multi/manage/multi_post
+
 meterpreter > run multi_console_command
 ```
 

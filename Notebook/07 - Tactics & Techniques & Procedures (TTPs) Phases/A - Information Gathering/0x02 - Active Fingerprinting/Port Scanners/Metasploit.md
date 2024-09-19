@@ -1,8 +1,11 @@
 # Metasploit
 
-## 01 - Basics
+## 01 - Port Scanner Types
 
-- TCP Connect
+
+### 1.1 - TCP Connect
+
+^3c41bb
 
 ```
 msf > use auxiliary/scanner/portscan/tcp
@@ -24,10 +27,20 @@ Module options (auxiliary/scanner/portscan/tcp):
 
 View the full module info with the info, or info -d command.
 
-msf auxiliary(scanner/portscan/tcp) >
+msf auxiliary(scanner/portscan/tcp) > set rhosts <IP>
+
+msf auxiliary(scanner/portscan/tcp) > set threads <int>
+
+msf auxiliary(scanner/portscan/tcp) > set delay <milliseconds>
+
+msf auxiliary(scanner/portscan/tcp) > set jitter <int>
+
+msf auxiliary(scanner/portscan/tcp) > run
 ```
 
-- TCP ACK Firewall Scanner
+^7ae5a4
+
+### 1.2 - TCP ACK Firewall Scanner
 
 ```
 msf > use auxiliary/scanner/portscan/ack
@@ -51,10 +64,22 @@ Module options (auxiliary/scanner/portscan/ack):
 
 View the full module info with the info, or info -d command.
 
-msf auxiliary(scanner/portscan/ack) >
+msf auxiliary(scanner/portscan/ack) > set rhosts <IP>
+
+msf auxiliary(scanner/portscan/ack) > set threads <int>
+
+msf auxiliary(scanner/portscan/ack) > set delay <milliseconds>
+
+msf auxiliary(scanner/portscan/ack) > set jitter <int>
+
+msf auxiliary(scanner/portscan/ack) > run
 ```
 
-- TCP SYN
+^def6fd
+
+### 1.3 - TCP SYN
+
+^9f5c8c
 
 ```
 msf > use auxiliary/scanner/portscan/syn
@@ -78,10 +103,20 @@ Module options (auxiliary/scanner/portscan/syn):
 
 View the full module info with the info, or info -d command.
 
-msf auxiliary(scanner/portscan/syn) >
+msf auxiliary(scanner/portscan/syn) > set rhosts <IP>
+
+msf auxiliary(scanner/portscan/syn) > set threads <int>
+
+msf auxiliary(scanner/portscan/syn) > set delay <milliseconds>
+
+msf auxiliary(scanner/portscan/syn) > set jitter <int>
+
+msf auxiliary(scanner/portscan/syn) > run
 ```
 
-- Xmas Scan
+^0ff76c
+
+### 1.4 - Xmas Scan
 
 ```
 msf > use auxiliary/scanner/portscan/xmas
@@ -105,10 +140,18 @@ Module options (auxiliary/scanner/portscan/xmas):
 
 View the full module info with the info, or info -d command.
 
-msf auxiliary(scanner/portscan/xmas) >
+msf auxiliary(scanner/portscan/xmas) > set rhosts <IP>
+
+msf auxiliary(scanner/portscan/xmas) > set threads <int>
+
+msf auxiliary(scanner/portscan/xmas) > set delay <milliseconds>
+
+msf auxiliary(scanner/portscan/xmas) > set jitter <int>
+
+msf auxiliary(scanner/portscan/xmas) > run
 ```
 
-- UDP Amplification Scanner
+### 1.5 - UDP Amplification Scanner
 
 ```
 msf > use auxiliary/scanner/udp/udp_amplification
@@ -131,7 +174,7 @@ View the full module info with the info, or info -d command.
 msf auxiliary(scanner/udp/udp_amplification) >
 ```
 
-- Portmapper Amplification Scanner
+### 1.6 - Portmapper Amplification Scanner
 
 ```
 msf > use auxiliary/scanner/portmap/portmap_amp
@@ -155,7 +198,7 @@ msf auxiliary(scanner/portmap/portmap_amp) >
 
 ## 02 - Evasion
 
-- Idle Zombie Scan
+### 2.1 - Idle Zombie Scan
 
 ```
 msf > use auxiliary/scanner/ip/ipidseq

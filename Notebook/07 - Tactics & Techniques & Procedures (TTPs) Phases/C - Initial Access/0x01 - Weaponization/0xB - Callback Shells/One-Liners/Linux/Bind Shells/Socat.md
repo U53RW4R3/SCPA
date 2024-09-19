@@ -41,3 +41,8 @@ $ msfvenom -p cmd/unix/bind_socat_udp lport=<PORT>
 ```
 $ msfvenom -p cmd/unix/bind_socat_sctp lport=<PORT>
 ```
+
+---
+## References
+
+- [GTFOBins: Socat](https://gtfobins.github.io/gtfobins/socat/)

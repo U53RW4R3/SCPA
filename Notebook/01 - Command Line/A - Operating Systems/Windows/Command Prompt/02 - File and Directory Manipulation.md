@@ -14,6 +14,8 @@ C:\> con file.txt
 
 ```
 C:\> mkdir new_directory
+
+C:\> md new_directory
 ```
 
 ### 2.1.3 - Delete directory

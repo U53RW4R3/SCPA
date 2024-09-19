@@ -1,5 +1,7 @@
 # 07 - Miscellaneous
 
+Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+
 ## 7.1 - Aggressive scan
 
 

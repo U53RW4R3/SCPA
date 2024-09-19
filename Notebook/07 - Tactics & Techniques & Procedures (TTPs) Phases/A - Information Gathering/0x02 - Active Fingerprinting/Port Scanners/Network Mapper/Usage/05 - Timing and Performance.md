@@ -1,10 +1,10 @@
 # 05 - Timing and Performance
 
+Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+
 Timing scan
 
-```
-$ nmap -T<0-5> <IP>
-```
+
 
 ---
 ## References

@@ -1,12 +1,14 @@
 # 09 - Output File Formats
 
+Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+
 Normal output format
 
 ```
 $ sudo nmap -oN initial.nmap <IP>
 ```
 
-- 1337 5P34K 0U7PU7 F0rM47
+1337 5P34K 0U7PU7 F0rM47
 
 ```
 $ sudo nmap -oS initial.nmap <IP>

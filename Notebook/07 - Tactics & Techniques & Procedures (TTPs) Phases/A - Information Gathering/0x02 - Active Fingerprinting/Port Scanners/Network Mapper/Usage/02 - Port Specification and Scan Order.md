@@ -1,5 +1,7 @@
 # 02 - Port Specification and Scan Order
 
+Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+
 Specify port(s) to scan.
 
 ```
@@ -26,6 +28,18 @@ Show open ports
 
 ```
 $ nmap --open <IP>
+```
+
+Print more information during a scan
+
+```
+$ nmap -v <IP>
+```
+
+Increase more verbosity
+
+```
+$ nmap -vv <IP>
 ```
 
 ---

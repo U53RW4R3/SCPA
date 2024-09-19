@@ -1,5 +1,7 @@
 # 08 - Evasion
 
+Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+
 ## 8.1 - Bypass Firewalls and IDS
 
 ### 8.1.1 - Disable ICMP and ARP
@@ -128,7 +130,27 @@ $ nmap -b <username>:<password>@<FTP_server_IP> <target_IP>
 $ nmap -v -p 21,22,80,443,445 -Pn -b <username>:<password>@<FTP_server_IP> <target_IP>/<CIDR>
 ```
 
-### 8.1.5 -  Rate Limit
+### 8.1.5 -  NSE Script
+
+```
+$ sudo nmap --script firewall-bypass --script-args firewall-bypass.helper="ftp",firewall-bypass.targetport=<PORT> <target_IP>
+```
+
+## 8.2 - Spoof User Agent
+
+```
+$ sudo nmap -p 80,443 -Pn -n -sC --script-args http.useragent="<user_agent>" <IP>
+```
+
+## 8.3 - Timing and Performance
+
+### 8.3.1 - Time Intervals
+
+```
+$ nmap -T<0-5> <IP>
+```
+
+### 8.3.2 -  Rate Limit
 
 ```
 $ nmap --host-timeout 10ms <IP>
@@ -146,18 +168,6 @@ $ nmap --min-parallelism 2 --max-parallelism 2 <IP>
 $ nmap --min-rtt-timeout 5ms --max-rtt-timeout 50ms <IP>
 
 $ nmap --initial-rtt-timeout 50ms <IP>
-```
-
-### 8.1.6 -  NSE Script
-
-```
-$ sudo nmap --script firewall-bypass --script-args firewall-bypass.helper="ftp",firewall-bypass.targetport=<PORT> <target_IP>
-```
-
-## 8.2 - Spoof User Agent
-
-```
-$ sudo nmap -p 80,443 -Pn -n -sC --script-args http.useragent="<user_agent>" <IP>
 ```
 
 ---

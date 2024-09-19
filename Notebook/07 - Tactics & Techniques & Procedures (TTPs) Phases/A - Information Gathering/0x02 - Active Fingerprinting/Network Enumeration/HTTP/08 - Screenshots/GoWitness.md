@@ -47,7 +47,19 @@ Use "gowitness [command] --help" for more information about a command.
 TODO: Fill this info
 
 ```
+$ gowitness single -P /path/to/directory/ --no-http
+```
+
+```
+$ gowitness scan -P /path/to/directory/ --no-http
+```
+
+```
 $ gowitness file -f urls.txt -P /path/to/directory/ --no-http
+```
+
+```
+$ gowitness nmap -P /path/to/directory/ --no-http
 ```
 
 ---

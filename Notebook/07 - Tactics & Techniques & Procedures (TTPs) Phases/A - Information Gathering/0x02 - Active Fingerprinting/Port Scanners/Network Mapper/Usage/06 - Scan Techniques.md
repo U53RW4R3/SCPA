@@ -1,5 +1,7 @@
 # 06 - Scan Techniques
 
+Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+
 ## 6.1 - TCP
 
 TCP Connect Scan

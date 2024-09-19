@@ -22,6 +22,8 @@ C:\> dir /s *.txt
 
 ```
 C:\> cd folder
+
+C:\> chdir folder
 ```
 
 ---

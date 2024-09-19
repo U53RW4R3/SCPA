@@ -15,7 +15,7 @@ Note: Using root privileges to bind a listener to ports below 1024.
 ```
 $ socat file:`tty`,raw,echo=0 tcp-listen:<PORT>
 
-$ socat -d -d TCP4-LISTEN:443 STDOUT
+$ socat -d -d tcp4-listen:443 STDOUT
 ```
 
 ## 02 - Bind Shell Handler

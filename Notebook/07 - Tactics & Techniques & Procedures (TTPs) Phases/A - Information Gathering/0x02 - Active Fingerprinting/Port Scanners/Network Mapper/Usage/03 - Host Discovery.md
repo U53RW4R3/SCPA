@@ -1,5 +1,7 @@
 # 03 - Host Discovery
 
+Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+
 ## 3.1 - IP Range and List
 
 Range of IP targets to scan.

