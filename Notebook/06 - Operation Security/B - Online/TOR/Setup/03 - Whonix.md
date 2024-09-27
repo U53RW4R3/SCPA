@@ -54,3 +54,5 @@ Here's an image as an example.
 - [IPInfo](https://ipinfo.io)
 
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
+
+- [IP API](https://ip-api.com)

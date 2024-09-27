@@ -4,7 +4,15 @@ Search Tag(s): #information-gathering #active-reconnaissance #network-protocols 
 
 TODO: Re-arrange from this section to post exploitation under **Enumeration and Discovery**
 
-## 01 - MSSQL Information
+## 01 - Situational Awareness
+
+```
+$ nmap --script broadcast-ms-sql-discover
+
+$ nmap --script broadcast-ms-sql-discover,ms-sql-info [--script-args=newtargets]
+```
+
+## 02 - MSSQL Information
 
 ```
 $ nmap -p 1433 -Pn --script ms-sql-info <IP>

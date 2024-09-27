@@ -70,7 +70,9 @@ $ sudo systemctl start mysql
 
 Setup MySQL server and leave root password empty.
 
-`$ sudo mysql_secure_installation`
+```
+$ sudo mysql_secure_installation
+```
 
 Create Database and `dvwa@localhost` DB user account.
 

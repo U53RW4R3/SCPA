@@ -35,4 +35,6 @@ $ curl -s -L --data "<website.com>" https://2ip.me/en/services/information-servi
 
 - [IPDeny IP Blocks](https://www.ipdeny.com/ipblocks/)
 
-- [Country IP Blocks](https://github.com/herrbischoff/country-ip-blocks)
+- [Country IP Blocks](https://www.countryipblocks.net/acl.php)
+
+- [herrbischoff: Country IP Blocks](https://github.com/herrbischoff/country-ip-blocks)

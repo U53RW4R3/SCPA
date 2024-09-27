@@ -45,3 +45,5 @@ Replace `function_name()` with the actual WinAPI method to invoke it.
 - [r00t-3xp10it: Metasploit API CheatSheet](https://github.com/r00t-3xp10it/hacking-material-books/blob/master/metasploit-RC%5BERB%5D/metasploit-API/my-API-Cheat-sheet.md)
 
 - [RubyFu: API and Extensions](https://rubyfu.net/module-0x5-or-exploitation-kung-fu/metasploit/meterpreter/api-and-extensions)
+
+- [TrustedSec: Metasploit Scripting](https://trustedsec.com/blog/metasploit-scripting)

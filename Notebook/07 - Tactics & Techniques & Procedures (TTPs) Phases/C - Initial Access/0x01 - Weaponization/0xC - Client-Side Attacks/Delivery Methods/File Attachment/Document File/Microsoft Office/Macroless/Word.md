@@ -25,6 +25,12 @@ TODO: Fill this information
 ---
 ## References
 
+### Github
+
+- [TrustedSec: auto_SettingContent-ms](https://github.com/trustedsec/auto_SettingContent-ms)
+
+### Red Team Notes
+
 - [Red Team Notes: Phishing OLE Object LNK](https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-ole-+-lnk)
 
 - [Red Team Notes: Embedded HTML Forms](https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-embedded-html-forms)

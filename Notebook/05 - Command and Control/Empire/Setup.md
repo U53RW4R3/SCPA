@@ -16,7 +16,9 @@ sudo ./setup/install.sh
 
 ### 2.1 - Debian-based distros
 
-`$ /opt/post-exploitation/Empire/setup/cert.sh`
+```
+$ /opt/post-exploitation/Empire/setup/cert.sh
+```
 
 ### 2.2 - In Kali Linux
 
