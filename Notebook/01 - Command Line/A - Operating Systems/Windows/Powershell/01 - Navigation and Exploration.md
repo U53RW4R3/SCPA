@@ -8,6 +8,8 @@ Search Tag(s): #command-line #windows
 
 ```
 PS C:\> Get-ChildItem
+
+PS C:\> Get-ChildItem | Format-Wide -Property Name -Column 1
 ```
 
 ## 2.1 - Change Directories
