@@ -4,17 +4,19 @@ Search Tag(s): #operation-security #spoofing #command-line #linux
 
 ## 01 - Manual
 
-- `ip` command
+`ip` command
 
 ```
- $ sudo ip link set dev <interface> down && \
- sudo ip link set dev <interface> address $(openssl rand -hex 6 | sed 's/../&:/g;s/:$//') && \
- sudo ip link set dev <interface> up
+$ sudo ip link set dev <interface> down && \
+sudo ip link set dev <interface> address $(openssl rand -hex 6 | sed 's/../&:/g;s/:$//') && \
+sudo ip link set dev <interface> up
 ```
 
-- `ifconfig` command
+`ifconfig` command
 
-`$ sudo ifconfig <interface> hw ether $(openssl rand -hex 6 | sed 's/../&:/g;s/:$//')`
+```
+$ sudo ifconfig <interface> hw ether $(openssl rand -hex 6 | sed 's/../&:/g;s/:$//')
+```
 
 ## 02 - Macchanger
 
@@ -42,17 +44,21 @@ Report bugs to https://github.com/alobbs/macchanger/issues
 
 ### 2.2 - Usage
 
-- Change the MAC Address randomly
+Change the MAC Address randomly
 
-`$ sudo macchanger -r <interface>`
+```
+$ sudo macchanger -r <interface>
+```
 
-- Set the MAC Address manually
+Set the MAC Address manually
 
-`$ sudo macchanger -r <interface> -m ab:cd:ef:12:34:56`
+```
+$ sudo macchanger -r <interface> -m ab:cd:ef:12:34:56
+```
 
 ### 2.3 - Use Case
 
-- Setup a cronjob when rebooting the machine.
+Setup a cronjob when rebooting the machine.
 
 ```
 $ sudo crontab -e

