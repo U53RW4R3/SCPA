@@ -4,12 +4,6 @@ https://github.com/rapid7/metasploit-framework/tree/master/documentation (refer 
 
 ## Windows Gather Modules
 
-https://www.yeahhub.com/steal-windows-product-key-remotely-metasploit-framework/
-
-```
-meterpreter > run post/windows/gather/enum_ms_product_keys
-```
-
 run post/windows/manage/powershell/load_script
 
 run post/windows/manage/powershell/build_net_code

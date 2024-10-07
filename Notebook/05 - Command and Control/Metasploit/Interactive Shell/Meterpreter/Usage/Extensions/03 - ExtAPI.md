@@ -16,16 +16,7 @@ Extapi: Window Management Commands
     -------       -----------
     window_enum   Enumerate all current open windows
 
-
-Extapi: Service Management Commands
-===================================
-
-    Command          Description
-    -------          -----------
-    service_control  Control a single service (start/pause/resume/stop/restart)
-    service_enum     Enumerate all registered Windows services
-    service_query    Query more detail about a specific Windows service
-
+..[omitted]..
 
 Extapi: Clipboard Management Commands
 =====================================

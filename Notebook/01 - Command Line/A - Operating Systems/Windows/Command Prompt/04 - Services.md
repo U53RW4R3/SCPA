@@ -7,19 +7,19 @@ Search Tag(s): #command-line #windows
 ### 4.1.1 - Net
 
 ```
-C:\> net start <service_name>
+C:\> net.exe start <service_name>
 ```
 
 ### 4.1.2 - SCM (Service Control Management)
 
 ```
-C:\> sc [\\<IP>] start <servicesvc>
+C:\> sc.exe [\\<IP>] start <servicesvc>
 ```
 
 ### 4.1.3 - WMIC (Windows Management Instrumentation Command Line)
 
 ```
-C:\> wmic [/node:<IP>] [/user:<username> /password:<password>] service <service_name> call startservice
+C:\> wmic.exe [/node:<IP>] [/user:<username> /password:<password>] service <service_name> call startservice
 ```
 
 ## 4.2 - Stop Service
@@ -27,13 +27,13 @@ C:\> wmic [/node:<IP>] [/user:<username> /password:<password>] service <service_
 ### 4.2.1 - Net
 
 ```
-C:\> net stop <service_name>
+C:\> net.exe stop <service_name>
 ```
 
 ### 4.2.1 - SCM (Service Control Management)
 
 ```
-C:\> sc [\\<IP>] stop <servicesvc>
+C:\> sc.exe [\\<IP>] stop <servicesvc>
 ```
 
 ---

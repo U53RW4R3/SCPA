@@ -3,5 +3,5 @@
 TODO: Fill this info
 
 ```
-C:\> wmic <alias> /format:list
+C:\> wmic.exe <alias> /format:list
 ```
