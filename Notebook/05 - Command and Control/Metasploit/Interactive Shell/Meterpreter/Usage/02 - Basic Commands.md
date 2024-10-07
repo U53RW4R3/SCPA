@@ -215,7 +215,11 @@ OPTIONS:
     -l   List active channels.
     -r   Read from the given channel.
     -w   Write to the given channel.
+```
 
+List active channels.
+
+```
 meterpreter > channel -l
 
     Id  Class  Type
@@ -232,7 +236,50 @@ meterpreter > channel -l
     17  3      stdapi_process
     18  3      stdapi_process
     19  3      stdapi_process
+```
 
+Spawn the command prompt then interact it manually using `channel`.
+
+```
+meterpreter > execute -Hcf cmd.exe
+
+meterpreter > channel -i <channel_ID>
+```
+
+Spawn the command prompt.
+
+```
+meterpreter > execute -Hcf cmd.exe
+```
+
+Then insert commands to a specific `channel` ID.
+
+```
+meterpreter > channel -w <channel_ID>
+Enter data followed by a '.' on a empty line:
+
+whoami.exe
+ping.exe -n 1 127.0.0.1
+.
+[*] Wrote <bytes> bytes to channel <channel_ID>
+```
+
+Then print the output instead of doing it interactively.
+
+```
+meterpreter > channel -r <channel_ID>
+Read <bytes> bytes from <channel_ID>:
+```
+
+Terminate a specific channel ID.
+
+```
+meterpreter > channel -k <channel_ID>
+```
+
+Terminate all channels.
+
+```
 meterpreter > channel -K
 Killing all channels...
 Killed all channels.

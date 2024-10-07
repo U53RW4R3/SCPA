@@ -4,7 +4,7 @@ Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
 ## 3.1 - System
 
-* Show hardware information of the host
+Show hardware information of the host
 
 ```
 meterpreter > sysinfo
@@ -17,7 +17,7 @@ Logged On Users : 2
 Meterpreter     : x64/windows
 ```
 
-* Retrieve UUID
+Retrieve UUID
 
 ```
 meterpreter > uuid
@@ -27,13 +27,6 @@ Get current session ID
 
 ```
 meterpreter > machine_id
-```
-
-Discover SID
-
-```
-meterpreter > getsid
-Server SID: S-1-5-21-2079428845-521281716-553417191-1001
 ```
 
 Retrieve Privileges
@@ -212,7 +205,7 @@ meterpreter > pgrep -l -f <process_name>
 
 ## 3.3 - Networking
 
-* Help Menu
+Help Menu
 
 ```
 Stdapi: Networking Commands
@@ -230,7 +223,7 @@ Stdapi: Networking Commands
     route         View and modify the routing table
 ```
 
-* IP Address
+IP Address
 
 ```
 meterpreter > ipconfig
