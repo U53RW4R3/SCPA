@@ -6,6 +6,12 @@ TODO: Fill in the rest of the environment variables
 $LANG
 $LANGUAGE
 
+$ locale -a
+
+$ cat /etc/locale.gen
+
+$ cat /etc/locale.alias
+
 $PPID
 
 $SECONDS

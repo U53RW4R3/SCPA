@@ -28,6 +28,8 @@ $ ip address | awk '$1 == "inet" && $3 == "brd" { sub (/\/.*/,""); print $2 }'
 $ ip address | awk -- '$1 == "inet" && $3 == "brd" { split($2,a,"/"); print a[1]; }'
 
 $ ip address | egrep '^ *inet' | grep brd | awk -- '{ print $2; }' | sed -e 's:/[0-9]*$::'
+
+$ awk '/32 host/ { print f } {f=$2}' /proc/net/fib_trie | sort -u
 ```
 
 ## Retrieve Netblocks
@@ -42,6 +44,8 @@ $ grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}' file.txt
 
 ```
 $ ip address | awk '/ether/{print $2}'
+
+$ cat /sys/class/net/<interface>/address
 ```
 
 ## IP/CIDR Formatting

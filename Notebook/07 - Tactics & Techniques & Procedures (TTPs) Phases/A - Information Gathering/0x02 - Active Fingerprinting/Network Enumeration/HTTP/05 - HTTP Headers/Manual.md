@@ -3,13 +3,13 @@
 ## 01 - `wget`
 
 ```
-$ wget -q --no-check-certificate --spider -S <URL>
+$ wget -qS --spider [--no-check-certificate] <URL>
 ```
 
 ## 02 - cURL
 
 ```
-$ curl -k <URL>
+$ curl [-k] <URL>
 ```
 
 ## 03 - `httpie`
