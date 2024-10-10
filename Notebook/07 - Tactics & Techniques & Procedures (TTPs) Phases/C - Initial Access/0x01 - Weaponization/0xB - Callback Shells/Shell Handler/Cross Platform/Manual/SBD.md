@@ -21,4 +21,4 @@ $ sbd -lnvp <target_IP> <target_PORT>
 ---
 ## References
 
-- [SBD: Usage](https://www.kali.org/tools/sbd/)
+- [Kali.org Tools: SBD](https://www.kali.org/tools/sbd/)

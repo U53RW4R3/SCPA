@@ -58,9 +58,17 @@ $ sudo macchanger -r <interface> -m ab:cd:ef:12:34:56
 
 ### 2.3 - Use Case
 
+#### 2.3.1 - Schedule Task
+
 Setup a cronjob when rebooting the machine.
 
 ```
 $ sudo crontab -e
 @reboot macchanger -r <interface>
 ```
+
+#### 2.3.2 - Impersonate Device
+
+TODO: Fill this info with a specific backlink.
+
+You can bypass filters...
