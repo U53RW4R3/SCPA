@@ -101,7 +101,7 @@ msf auxiliary(gather/search_email_collector) > run
 
 - [[User Agents]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xD - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
 
 - [theHarvester](https://github.com/laramies/theHarvester)
 

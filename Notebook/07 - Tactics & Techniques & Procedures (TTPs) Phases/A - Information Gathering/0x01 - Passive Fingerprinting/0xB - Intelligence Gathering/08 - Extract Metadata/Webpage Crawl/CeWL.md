@@ -11,4 +11,4 @@ $ cewl -u "<user_agent>" -d <int> -na --meta-temp-dir /path/to/directory <URL>
 
 - [[User Agents]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xD - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
