@@ -5,6 +5,7 @@
 1. C
     - https://markburgess.org/CTutorial/C-Tut-4.02.pdf
     - https://www.tenouk.com/cnwin32tutorials.html
+    - https://www.installsetupconfig.com/win32programming/
     - https://github.com/h0mbre/Learning-C
 2. C++
     - https://www.functionx.com/cpp/index.htm

@@ -11,4 +11,6 @@ C:\> vlc.exe -q smb://<username>:<password>@<IP>
 ---
 ## References
 
-[[02 - Responder|Responder]]
+- [[02 - Responder|Responder]]
+
+ [LOLAPPS (Living Off The Land Applications)](https://lolapps-project.github.io/)
