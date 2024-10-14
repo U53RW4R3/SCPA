@@ -43,9 +43,13 @@ Here's an image as an example.
 ---
 ## References
 
+- [Whonix](https://www.whonix.org/)
+
 - [VEEXH: How To Safely Access The Darknet For Threat Research](https://medium.com/the-sleuth-sheet/how-to-safely-access-the-darknet-for-threat-research-89047bfc3cbb)
 
 - [Check TOR](https://check.torproject.org/)
+
+### Lookup IP
 
 - [Ifconfig.me](https://ifconfig.me/)
 

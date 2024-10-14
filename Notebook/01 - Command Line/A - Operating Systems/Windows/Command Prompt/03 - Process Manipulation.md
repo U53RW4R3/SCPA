@@ -6,15 +6,27 @@ Search Tag(s): #command-line #windows
 
 ### 3.1.1 - Display Processes
 
+Display verbose information of the processes.
+
 ```
 C:\> tasklist.exe /v
 
-C:\> tasklist.exe /svc
-
-C:\> tasklist.exe /fi "imagename eq <process.exe>"
-
 C:\> wmic.exe process list full
+```
 
+Display the services associated with the processes.
+
+```
+C:\> tasklist.exe /svc
+```
+
+Filter a specific process name.
+
+```
+C:\> tasklist.exe /fi "imagename eq <process.exe>"
+```
+
+```
 C:\> wmic.exe process list brief
 
 C:\> wmic.exe PATH Win32_Process GET Caption, Processid, Commandline
@@ -34,9 +46,15 @@ C:\> wmic.exe PROCESS CALL CREATE "<process>.exe"
 
 ### 3.3.1 - Kill Process
 
+Terminate the process with process identifier (PID).
+
 ```
 C:\> taskkill.exe /pid <PID> /f
+```
 
+Terminate the process with a name.
+
+```
 C:\> taskkill.exe /im <process.exe> /f
 
 C:\> wmic.exe PROCESS WHERE "Name LIKE '<process.exe>'" CALL Terminate
@@ -45,7 +63,7 @@ C:\> wmic.exe PROCESS WHERE "Name LIKE '<process.exe>'" CALL Terminate
 ## 3.4 - Fork Background Process
 
 ```
-C:\> start /b <command> [args]
+C:\> start.exe /b <command> [arguments]
 ```
 
 ---

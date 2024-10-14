@@ -33,7 +33,7 @@ C:\> type \\snare\share
 
 C:\> dir \\snare\share
 
-C:\> net view \\snare
+C:\> net.exe view \\snare
 
 C:\> MpCmdRun.exe -Scan -ScanType 3 -File \\snare\share\file.txt
 ```

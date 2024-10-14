@@ -11,3 +11,8 @@ site:(pastebin.com | ghostbin.com | ghostbin.co | paste2.org | pastehtml.com | s
 ```
 target OR dump OR combo OR password OR leak OR breach OR databreach OR credential OR steal
 ```
+
+---
+## References
+
+- [lorien: Awesome Pastebins](https://github.com/lorien/awesome-pastebins)

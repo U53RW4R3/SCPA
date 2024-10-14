@@ -2,28 +2,28 @@
 
 Search Tag(s): #command-line #windows
 
-|Commands|Networking|
-|---|---|
-|[`cd` \| `chdir`]|`ipconfig`|
-|`dir`|`route`|
-|[`type` \| `more`]|`arp`|
-|[`copy` \| `xcopy`]|`ping`|
-|[`type nul` \| `copy nul`]|`tracert`|
-|[`mv` \| `move`]|`nslookup`|
-|[`ren` \| `rename`]|`certutil`|
-|[`del` \| `erase`]|`bitsadmin`|
-|[`md` \| `mkdir`]|`curl`|
-|`rmdir`|`nslookup`|
-|`pwd`||
-|`whoami`||
-|`cls`||
-|`history`||
-|`doskey`||
-|`echo`||
-|`tasklist`||
-|`taskkill`||
-|`findstr`||
-|`systeminfo`||
+| Commands                   | Networking      |
+| -------------------------- | --------------- |
+| [`cd` \| `chdir`]          | `ipconfig.exe`  |
+| `dir`                      | `route.exe`     |
+| [`type` \| `more`]         | `arp.exe`       |
+| [`copy` \| `xcopy`]        | `ping.exe`      |
+| [`type nul` \| `copy nul`] | `tracert.exe`   |
+| [`mv` \| `move`]           | `nslookup.exe`  |
+| [`ren` \| `rename`]        | `CertUtil.exe`  |
+| [`del` \| `erase`]         | `bitsadmin.exe` |
+| [`md` \| `mkdir`]          | `curl.exe`      |
+| `rmdir`                    | `nslookup.exe`  |
+| `pwd`                      |                 |
+| `whoami.exe`               |                 |
+| `cls`                      |                 |
+| `history`                  |                 |
+| `doskey`                   |                 |
+| `echo`                     |                 |
+| `tasklist.exe`             |                 |
+| `taskkill.exe`             |                 |
+| `findstr`                  |                 |
+| `systeminfo.exe`           |                 |
 
 ---
 ## References
