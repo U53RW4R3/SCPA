@@ -21,8 +21,14 @@ Grep the results of a console command (similar to Linux grep command)
     -h, --help                       Help banner.
 ```
 
-Match the string `psexec` while search for `smb` modules.
+Match the string `psexec` while `search` for `smb` modules.
 
 ```
 msf > grep psexec search smb
+```
+
+Exclude matches of `DoS` and `local` while `search` for `tomcat` then filter `exploit` modules.
+
+```
+msf > grep -v DoS grep -v local search type:exploit name:tomcat
 ```

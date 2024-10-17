@@ -28,8 +28,6 @@ run post/windows/escalate/droplnk
 
 
 
-run post/windows/gather/enum_av_excluded (find exclusions in Windows Defender and other few AVs)
-
 run post/windows/gather/enum_artifacts (detect malware)
 
 run post/multi/gather/check_malware
