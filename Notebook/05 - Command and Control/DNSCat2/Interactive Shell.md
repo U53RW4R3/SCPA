@@ -9,11 +9,3 @@ TODO: Provide a usage example with dnscat2
 ```
 command (<PLATFORM>) 1> help
 ```
-
-```
-dnscat2> session -i <session_ID>
-```
-
-```
-dnscat2> kill <session_ID>
-```

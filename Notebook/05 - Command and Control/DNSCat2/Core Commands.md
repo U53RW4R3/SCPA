@@ -35,6 +35,14 @@ $ sudo ./dnscat2.rb --dns server=<DNS_server_IP>,port=53
 dnscat2> set security=open
 ```
 
+```
+dnscat2> session -i <session_ID>
+```
+
+```
+dnscat2> kill <session_ID>
+```
+
 ---
 ## References
 
