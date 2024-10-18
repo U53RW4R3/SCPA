@@ -1,6 +1,10 @@
+---
+author(s):
+  - Userware
+  - Sebastian Dante Alexander
+tags:
+---
 # {{title}}
-
-Search Tag(s): \<insert tags>
 
 ---
 ## References

@@ -125,4 +125,4 @@ $ sudo nmap -sn --script ip-forwarding --script-args='target=<website.com>' <IP>
 
 - [Network Mapper usage tips](https://miloserdov.org/?p=3639)
 
-- [Network Mapper NSEDocs: Script resolveall](https://nmap.org/nsedoc/scripts/resolveall.html)
+- [Network Mapper NSEDocs: resolveall Script](https://nmap.org/nsedoc/scripts/resolveall.html)

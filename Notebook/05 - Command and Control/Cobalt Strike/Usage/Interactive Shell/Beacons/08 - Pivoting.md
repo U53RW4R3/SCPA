@@ -1,6 +1,6 @@
 # 08 - Pivoting
 
-Search Tag(s): #command-and-control #post-exploitation #lateral-movement #pivoting #cobalt-strike
+Search Tag(s): #command-and-control #post-exploitation #pivot #lateral-movement #cobalt-strike
 
 Link SMB beacon from the windows target.
 

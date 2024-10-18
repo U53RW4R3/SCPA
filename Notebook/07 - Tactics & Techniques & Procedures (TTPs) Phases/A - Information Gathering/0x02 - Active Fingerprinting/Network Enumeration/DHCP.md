@@ -12,8 +12,15 @@ These NSE scripts discovers the local network unless you want to scan the target
 $ sudo nmap --script broadcast-dhcp-discover [IP]
 ```
 
+^a89979
+
 Scan IPv6 DHCP broadcast
 
 ```
 $ sudo nmap -6 --script broadcast-dhcp6-discover [IP]
 ```
+
+---
+## References
+
+- [[Denial of Service|Vulnerability Assessment: DHCP Denial of Service]]
