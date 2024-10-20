@@ -3,13 +3,13 @@
 Search Tag(s): #active-reconnaissance #network-protocols #dhcp #network-mapper
 
 ```
-$ sudo nmap -sU -p 67 --script dhcp-discover <IP>
+$ sudo nmap -sU -p 67 --script dhcp-discover <DHCP_server_IP>
 ```
 
 These NSE scripts discovers the local network unless you want to scan the target externally.
 
 ```
-$ sudo nmap --script broadcast-dhcp-discover [IP]
+$ sudo nmap --script broadcast-dhcp-discover [DHCP_server_IP]
 ```
 
 ^a89979
@@ -17,7 +17,7 @@ $ sudo nmap --script broadcast-dhcp-discover [IP]
 Scan IPv6 DHCP broadcast
 
 ```
-$ sudo nmap -6 --script broadcast-dhcp6-discover [IP]
+$ sudo nmap -6 --script broadcast-dhcp6-discover [DHCP_server_IP]
 ```
 
 ---

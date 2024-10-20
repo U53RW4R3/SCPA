@@ -129,8 +129,3 @@ Mines in <country_name>
 
 List of <country_name> defense contractors
 ```
-
----
-## References
-
-- [[Gathering URLs References]]
