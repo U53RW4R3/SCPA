@@ -1,23 +1,37 @@
+---
+author(s):
+  - Userware
+tags:
+  - regex
+---
 # 01 - Charsets
 
-Search Tag(s): #regex
+**Match all of the following characters:** c, o, g
 
-- **Match all of the following characters:** c, o, g
+```
+[cog]
+```
 
-`[cog]`
+**Match all of the following words:** cat, fat, hat
 
-- **Match all of the following words:** cat, fat, hat
+```
+[cfh]at
+```
 
-`[cfh]at`
+**Match all of the following words:** Cat, cat, Hat, hat
 
-- **Match all of the following words:** Cat, cat, Hat, hat
+```
+[CcHh]at
+```
 
-`[CcHh]at`
+**Match all of the following filenames:** File1, File2, file3, file4, file5, File7, file9
 
-- **Match all of the following filenames:** File1, File2, file3, file4, file5, File7, file9
+```
+[Ff]ile[1-9]
+```
 
-`[Ff]ile[1-9]`
+**Match all of the filenames of question 4, except** "File7"
 
-- **Match all of the filenames of question 4, except** "File7"
-
-`[Ff]ile[^7]`
+```
+[Ff]ile[^7]
+```

@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # 03 - Alternate Data Streams
-
-Search Tag(s): #command-line #windows
 
 ```
 PS C:\> Get-Item -Path C:\path\to\directory\* -Stream *

@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # Windows Command Prompt Table References
-
-Search Tag(s): #command-line #windows
 
 | Commands                   | Networking      |
 | -------------------------- | --------------- |
@@ -28,8 +33,12 @@ Search Tag(s): #command-line #windows
 ---
 ## References
 
-- [https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754340(v=ws.11)](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754340(v=ws.11))
+### LOFLCAB
 
-- [Introduction to Alternate Data Streams](https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/)
+- [LOFLCAB: WMIC](https://lofl-project.github.io/loflcab/Binaries/wmic/)
+
+### MalwareBytes
+
+- [MalwareBytes: Introduction to Alternate Data Streams](https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/)
 
 - [File Types](https://www.bencteux.fr/posts/filetypes/)

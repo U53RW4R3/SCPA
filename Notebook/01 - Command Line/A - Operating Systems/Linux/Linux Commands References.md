@@ -1,12 +1,17 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - linux
+---
 # Linux Commands Table References
-
-Search Tag(s): #command-line #linux
 
 | Basic Commands  | Networking                      |
 | --------------- | ------------------------------- |
 | `cd`            | [`wget` \| `curl`]              |
-| [`ls` \| `dir`] | [`ifconfig` \| `ip address`]    |
-| `cat`           | [`route` \| `ip route`]         |
+| [`ls` \| `dir`] | [`ip address` \| `ifconfig`]    |
+| `cat`           | [`ip route` \| `route`]         |
 | `cp`            | `arp`                           |
 | `touch`         | `ping`                          |
 | `mv`            | `traceroute`                    |

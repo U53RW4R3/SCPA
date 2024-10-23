@@ -1,3 +1,8 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # OTP
-
-Search Tag(s): #cryptography #symmetric

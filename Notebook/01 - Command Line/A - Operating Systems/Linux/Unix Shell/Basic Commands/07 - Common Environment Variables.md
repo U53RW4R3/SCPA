@@ -1,3 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - linux
+---
 # 07 - Common Environment Variables
 
 TODO: Fill in the rest of the environment variables

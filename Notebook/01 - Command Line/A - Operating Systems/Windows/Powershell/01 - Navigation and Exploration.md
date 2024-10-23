@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # 01 - Navigation and Exploration
-
-Search Tag(s): #command-line #windows
 
 ## 1.1 - List Files and Directories
 

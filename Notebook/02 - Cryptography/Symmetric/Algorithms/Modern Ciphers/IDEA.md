@@ -1,3 +1,8 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # IDEA
-
-Search Tag(s): #cryptography #symmetric

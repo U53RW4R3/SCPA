@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - use-cases
+  - linux
+---
 # Alternative Concatenation Commands
-
-Search Tag(s): #command-line #use-cases #linux
 
 First we'll take the number of lines.
 

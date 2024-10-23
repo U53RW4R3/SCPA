@@ -1,6 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - phishing
+  - T1137
+---
 # Craft Manually with Macro Delivery
-
-Search Tag(s): #weaponization #client-side-attacks #phishing #T1137
 
 TODO: Fill in the info
 

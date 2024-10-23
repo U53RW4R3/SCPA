@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - networking
+  - linux
+---
 # IP Address
-
-Search Tag(s): #command-line #networking #linux
 
 Network overview
 

@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # Windows Powershell Cmdlet Table References
-
-Search Tag(s): #command-line #windows
 
 | Commands                         | Aliases                                               |
 | -------------------------------- | ----------------------------------------------------- |
@@ -51,3 +56,10 @@ Search Tag(s): #command-line #windows
 | `Get-SmbMapping`                 |                                                       |
 | `Remove-SmbMapping`              | (equivalent to `net use /delete` in CMD)              |
 | `Get-SmbConnection`              | (equivalent to `net share` in CMD)                    |
+
+---
+## References
+
+### LOFLCAB
+
+- [LOFLCAB: Get-ChildItem](https://lofl-project.github.io/loflcab/Cmdlets/Get-ChildItem/)

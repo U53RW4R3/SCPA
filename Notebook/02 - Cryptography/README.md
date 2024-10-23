@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # Description
-
-Search Tag(s): #cryptography #symmetric
 
 TODO: I got this whenever I have free time - Userware
 

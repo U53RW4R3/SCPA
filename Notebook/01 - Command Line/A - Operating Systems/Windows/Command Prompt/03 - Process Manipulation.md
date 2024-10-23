@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # 03 - Process Manipulation
-
-Search Tag(s): #command-line #windows
 
 ## 3.1 - List Processes
 

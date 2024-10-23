@@ -1,4 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - asymmetric
+---
 # RSA
+
+## Great Common Divisor
 
 ---
 ## References

@@ -1,3 +1,8 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # ARIA
-
-Search Tag(s): #cryptography #symmetric

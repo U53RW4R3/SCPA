@@ -1,24 +1,36 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - networking
+  - linux
+---
 # UncomplicatedFirewall (UFW)
-
-Search Tag(s): #command-line #networking #linux
 
 TODO: Fill this info
 
 ## 01 - Create Rules
 
-- SSH inbound rule connection
+SSH inbound rule connection
 
-`$ sudo ufw allow ssh`
+```
+$ sudo ufw allow ssh
 
-`$ sudo ufw allow 22/tcp`
+$ sudo ufw allow 22/tcp
+```
 
 ## 02 - Modify Rules
 
-`$ sudo ufw`
+```
+$ sudo ufw
+```
 
 ## 03 - Delete Rules
 
-`$ sudo ufw`
+```
+$ sudo ufw
+```
 
 ---
 ## References

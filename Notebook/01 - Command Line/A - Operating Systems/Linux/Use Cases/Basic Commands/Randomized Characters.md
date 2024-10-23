@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - use-cases
+  - linux
+---
 # Randomized Characters
-
-Search Tag(s): #command-line #use-cases #linux
 
 ```
 $ echo $RANDOM | md5sum | head -c 20; echo;

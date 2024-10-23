@@ -1,3 +1,8 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # BlowFish
-
-Search Tag(s): #cryptography #symmetric

@@ -1,6 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - regex
+---
 # 02 - Wildcards and optional characters
-
-Search Tag(s): #regex
 
 | Character     | Legend                                                                     |
 | ------------- | -------------------------------------------------------------------------- |
@@ -8,26 +12,38 @@ Search Tag(s): #regex
 | `[a-zA-Z0-9]` | Range of characters you want to specify                                    |
 | `[^0-9]`      | Specify the range of characters to be excluded                             |
 
-- **Match all of the following words:** Cat, fat, hat, rat
+**Match all of the following words:** Cat, fat, hat, rat
 
-`.at`
+```
+.at
+```
 
-- **Match all of the following words:** Cat, cats
+**Match all of the following words:** Cat, cats
 
-`[Cc]ats?`
+```
+[Cc]ats?
+```
 
-- **Match the following domain name:** cat.xyz
+**Match the following domain name:** cat.xyz
 
-`cat\.xyz`
+```
+cat\.xyz
+```
 
-- **Match all of the following domain names:** cat.xyz, cats.xyz, hats.xyz
+**Match all of the following domain names:** cat.xyz, cats.xyz, hats.xyz
 
-`[ch]ats?\.xyz`
+```
+[ch]ats?\.xyz
+```
 
-- **Match every 4-letter string that doesn't end in any letter from n to z**
+**Match every 4-letter string that doesn't end in any letter from n to z**
 
-`...[^n-z]`
+```
+...[^n-z]
+```
 
-- **Match** bat, bats, hat, hats, **but not rat or rats**
+**Match** bat, bats, hat, hats, **but not rat or rats**
 
-`[^r]ats?`
+```
+[^r]ats?
+```

@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - linux
+---
 # 05 - Editing Files
-
-Search Tag(s): #command-line #linux
 
 ## 5.1 - `nano`
 

@@ -1,6 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - networking
+  - linux
+---
 # 02 - Modify Rules
 
-Search Tag(s): #command-line #networking #linux
+TODO: Fill this info
 
 ```
 $ sudo iptables

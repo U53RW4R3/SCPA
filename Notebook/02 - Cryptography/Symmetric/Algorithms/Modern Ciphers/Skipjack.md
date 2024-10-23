@@ -1,3 +1,8 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # Skipjack
-
-Search Tag(s): #cryptography #symmetric

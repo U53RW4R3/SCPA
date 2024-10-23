@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # Formula
-
-Search Tag(s): #cryptography #symmetric
 
 ## Encryption
 

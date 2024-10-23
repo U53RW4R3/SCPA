@@ -1,6 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - regex
+---
 # 04 - Starts with/ends with, groups, and either/or
-
-Search Tag(s): #regex
 
 `^` - begins with a line
 
@@ -10,38 +14,55 @@ Search Tag(s): #regex
 
 `(spam){n}` - Repetition
 
-- Match every string that starts with **"Password:" followed by any 10 characters excluding "0"**
+Match every string that starts with **"Password:" followed by any 10 characters excluding "0"**
 
-`Password:[^0]{10}`
+```
+Password:[^0]{10}
+```
 
-- Match **"username: " in the beginning of a line** (note the space!)
+Match **"username: " in the beginning of a line** (note the space!)
 
-`^username:\s`
+```
+^username:\s
+```
 
-- Match every line that doesn't start with a digit
+Match every line that doesn't start with a digit
 
-`^\D`
+```
+^\D
+```
 
-- Match this string at the end of a line: **EOF$**
+Match this string at the end of a line: **EOF$**
 
-`EOF\$$`
+```
+EOF\$$
+```
 
-- Match all of the following sentences:
+Match all of the following sentences:
 
-1. I use nano
+```
+I use nano
+I use vim
+```
 
-2. I use vim
+```
+I use (nano|vim)
+```
 
-`I use (nano|vim)`
+Match all lines that start with $, followed by any single digit, followed by $, followed by one or more non-whitespace characters
 
-- Match all lines that start with $, followed by any single digit, followed by $, followed by one or more non-whitespace characters
+```
+\$\d\$\S+
+```
 
-`\$\d\$\S+`
+Match every possible IPv4 IP address
 
-- Match every possible IPv4 IP address
+```
+(\d{1,3}\.){3}\d{1,3}
+```
 
-`(\d{1,3}\.){3}\d{1,3}`
+Match all of these emails while also adding the username and the domain name (not the TLD) in separate groups (use \w): `info@website.com`, `username@domain.com`, `example@email.com`
 
-- Match all of these emails while also adding the username and the domain name (not the TLD) in separate groups (use \w): `info@website.com`, `username@domain.com`, `example@email.com`
-
-`(\w+)@(\w+)\.com`
+```
+(\w+)@(\w+)\.com
+```

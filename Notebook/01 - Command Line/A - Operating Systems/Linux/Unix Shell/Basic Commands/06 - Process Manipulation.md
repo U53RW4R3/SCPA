@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - linux
+---
 # 06 - Process Manipulation
-
-Search Tag(s): #command-line #linux
 
 ## 6.1 - List Process
 

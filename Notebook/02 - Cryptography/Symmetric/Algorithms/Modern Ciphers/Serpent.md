@@ -1,3 +1,8 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # Serpent
-
-Search Tag(s): #cryptography #symmetric

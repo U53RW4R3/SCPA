@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - use-cases
+  - windows
+---
 # Base64
-
-Search Tag(s): #command-line #use-cases #windows
 
 ## Encode a string
 

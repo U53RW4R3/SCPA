@@ -1,3 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - cryptography
+  - linux
+---
 # 04 - Certificates
 
 ## 4.1 - Check Remote Certificates

@@ -1,8 +1,15 @@
-# Basic
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - networking
+  - use-cases
+  - linux
+---
+# Parse IP Addresses
 
-Search Tag(s): #command-line #networking #use-cases #linux
-
-## Retrieve private IPv4 address
+## Retrieve IPv4 Address
 
 TODO: Rearrange them
 
@@ -10,11 +17,19 @@ TODO: Rearrange them
 $ ifconfig | grep "inet" | grep "broadcast" | awk '{print $2}'
 
 $ ifconfig -a | awk '/(inet)(.*)broadcast/ {print $2}'
+```
 
+```
 $ ifconfig | grep -v 127.0.0.1 | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | awk '{print $2}'
 
-$ ip address | grep -v 127.0.0.1 | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
+$ ip address | grep -v 127.0.0.1 | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"
 
+$ ip address | grep -v 127.0.0.1 | grep -Eo "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
+```
+
+Ping sweep
+
+```
 $ while read -r line; do ping -c 1 $line | grep "bytes from" | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"; done < ips.txt | tee output.txt
 ```
 

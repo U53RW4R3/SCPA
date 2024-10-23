@@ -1,3 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - linux
+---
 # 04 - Text Manipulation
 
 ## 4.1 - Sed

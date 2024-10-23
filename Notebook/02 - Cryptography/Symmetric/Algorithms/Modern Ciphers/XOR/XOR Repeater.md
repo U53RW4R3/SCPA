@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # XOR Repeater
-
-Search Tag(s): #cryptography #symmetric
 
 ## Algorithm
 

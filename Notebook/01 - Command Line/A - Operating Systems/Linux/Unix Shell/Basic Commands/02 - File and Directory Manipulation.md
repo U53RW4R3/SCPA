@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - linux
+---
 # 02 - File and Directory Manipulation
-
-Search Tag(s): #command-line #linux
 
 ## 2.1 - Touch
 

@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - cryptography
+  - symmetric
+---
 # Description
-
-Search Tag(s): #cryptography #symmetric
 
 Symmetric-key algorithm that uses the same key for encryption and decryption...
 

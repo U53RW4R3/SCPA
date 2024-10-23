@@ -1,3 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # 06 - Windows Management Instrument
 
 TODO: Fill this info

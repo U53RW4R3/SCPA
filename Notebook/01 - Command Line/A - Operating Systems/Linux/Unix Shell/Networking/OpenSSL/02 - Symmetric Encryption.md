@@ -1,3 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - cryptography
+  - linux
+---
 # 02 - Symmetric Encryption
 
 ## 2.1 - List Cipher Names

@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - terminal-multiplexer
+  - linux
+---
 # Screen
-
-Search Tag(s): #command-line #terminal-multiplexer #linux
 
 ## Setup
 

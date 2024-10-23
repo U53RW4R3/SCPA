@@ -64,7 +64,7 @@ Enable the default network adapter.
 
 #### 3.1.2.2 - Graphical User Interface
 
-Depending on your **DE (Desktop Environment)** on GNU/Linux search for anything related to **Network Configuration Settings.**
+Depending on your **DE (Desktop Environment)** on GNU/Linux search for anything related to **Network Configuration Settings**.
 
 ![[01 - Advanced Network Configuration XFCE.png]]
 

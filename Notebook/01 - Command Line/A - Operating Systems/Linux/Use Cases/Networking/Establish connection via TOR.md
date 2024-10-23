@@ -1,3 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - networking
+  - use-cases
+  - linux
+---
 # Establish connection via TOR
 
 ## 01 - cURL

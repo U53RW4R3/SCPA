@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - use-cases
+  - windows
+---
 # Calculate the size of the data
-
-Search Tag(s): #command-line #use-cases #windows
 
 ## 01 - Bytes
 
@@ -40,5 +46,7 @@ PS C:\> (Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -Fi
 
 ---
 ## References
+
+### Backlinks
 
 - [[Windows Powershell Cmdlet References]]

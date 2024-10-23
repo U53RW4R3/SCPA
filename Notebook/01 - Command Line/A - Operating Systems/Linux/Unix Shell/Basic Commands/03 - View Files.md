@@ -1,3 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - linux
+---
 # 03 - View Files
 
 ## 3.1 - View File Contents

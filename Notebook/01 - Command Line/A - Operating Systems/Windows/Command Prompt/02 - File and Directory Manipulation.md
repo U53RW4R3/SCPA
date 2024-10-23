@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # 02 - File and Directory Manipulation
-
-Search Tag(s): #command-line #windows
 
 ## 2.1 - Create Files and Directories
 

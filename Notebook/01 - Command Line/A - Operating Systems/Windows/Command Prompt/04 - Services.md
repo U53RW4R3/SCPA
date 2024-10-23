@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - windows
+---
 # 04 - Services
-
-Search Tag(s): #command-line #windows
 
 ## 4.1 - Start Service
 
@@ -10,13 +15,13 @@ Search Tag(s): #command-line #windows
 C:\> net.exe start <service_name>
 ```
 
-### 4.1.2 - SCM (Service Control Management)
+### 4.1.2 - Service Control Management
 
 ```
 C:\> sc.exe [\\<IP>] start <servicesvc>
 ```
 
-### 4.1.3 - WMIC (Windows Management Instrumentation Command Line)
+### 4.1.3 - Windows Management Instrumentation Command
 
 ```
 C:\> wmic.exe [/node:<IP>] [/user:<username> /password:<password>] service <service_name> call startservice
@@ -30,7 +35,7 @@ C:\> wmic.exe [/node:<IP>] [/user:<username> /password:<password>] service <serv
 C:\> net.exe stop <service_name>
 ```
 
-### 4.2.1 - SCM (Service Control Management)
+### 4.2.1 - Service Control Management
 
 ```
 C:\> sc.exe [\\<IP>] stop <servicesvc>

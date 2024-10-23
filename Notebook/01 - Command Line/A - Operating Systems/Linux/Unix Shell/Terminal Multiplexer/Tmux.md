@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - terminal-multiplexer
+  - linux
+---
 # Tmux
-
-Search Tag(s): #command-line #terminal-multiplexer #linux
 
 ## Setup
 
@@ -10,11 +16,8 @@ $ sudo apt install -y xclip
 $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-`$ cat ~/.tmux.conf`
-
----
-
 ```
+$ cat > ~/.tmux.conf << EOF
 set -g allow-rename off
 set -g history-limit 50000
 set -g default-terminal "screen-256color"
@@ -36,17 +39,22 @@ run-shell /opt/tmux-logging/logging.tmux
 set -g @plugin 'tmux-plugins/tmux-logging'
 
 run '~/.tmux/plugins/tpm/tpm'
-```
+EOF
 
-`$ tmux source ~/.tmux.conf`
+$ tmux source ~/.tmux.conf
+```
 
 To reload tmux source
 
-`CTRL-b + SHIFT + I`
+```
+CTRL-b + SHIFT + I
+```
 
 To save terminal raw output with commands
 
-`CTRL-b + SHIFT + ALT + P`
+```
+CTRL-b + SHIFT + ALT + P
+```
 
 ## Usage
 

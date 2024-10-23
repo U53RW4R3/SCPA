@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - command-line
+  - bsd
+---
 # File and Directory Manipulation
-
-Search Tag(s): #command-line #bsd
 
 TODO: Fill this info
 
