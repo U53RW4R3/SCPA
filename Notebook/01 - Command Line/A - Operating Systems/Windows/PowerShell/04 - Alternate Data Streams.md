@@ -5,7 +5,7 @@ tags:
   - command-line
   - windows
 ---
-# 03 - Alternate Data Streams
+# 04 - Alternate Data Streams
 
 ```
 PS C:\> Get-Item -Path C:\path\to\directory\* -Stream *

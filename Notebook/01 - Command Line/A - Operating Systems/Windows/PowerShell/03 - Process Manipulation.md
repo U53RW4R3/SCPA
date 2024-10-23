@@ -7,9 +7,9 @@ tags:
 ---
 # 03 - Process Manipulation
 
-## 2.1 - List Processes
+## 3.1 - List Processes
 
-### 2.1.1 - Display Processes
+### 3.1.1 - Display Processes
 
 ```
 PS C:\> Get-Process
@@ -21,13 +21,13 @@ PS C:\> Get-CimInstance -ClassName Win32_Process | Select-Object CommandLine
 PS C:\> Get-WmiObject -ClassName Win32_Process 
 ```
 
-## 2.2 - Terminate Processes
+## 3.2 - Terminate Processes
 
 ```
 PS C:\> Stop-Process notepad.exe
 ```
 
-## 2.3 - Fork Background Process
+## 3.3 - Fork Background Process
 
 ```
 PS C:\> Start-Process [-FilePath] <command> -NoNewWindow -ArgumentList ("arg_1","arg_2","arg_n") [-WorkingDirectory C:\path\to\directory]
@@ -36,8 +36,14 @@ PS C:\> Start-Process [-FilePath] <command> -NoNewWindow -ArgumentList ("arg_1",
 ---
 ## References
 
+### Backlinks
+
 - [[Windows Powershell Cmdlet References]]
 
+### LOFLCAB
+
 - [LOFLCAB: Get-Process](https://lofl-project.github.io/loflcab/Cmdlets/Get-Process/)
+
+### Mubix
 
 - [Malicious.link: Get Process List](https://room362.com/posts/2020/get-process-list/)
