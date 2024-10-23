@@ -1,17 +1,27 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - havoc
+---
 # Setup
 
 Search Tag(s): #red-team-infrastructure #havoc
 
-### 1.1 - Firewall Rules
+## 01 - Firewall Rules
 
 ```
 # mkdir /etc/iptables
-# iptables -I INPUT 1 -p tcp -s 0.0.0.0/0 --dport 40056 -j DROP
-# iptables -I INPUT 1 -p tcp -s 127.0.0.1 --dport 40056 -j ACCEPT
-# iptables-save > /etc/iptables/rules.v4
+
+iptables -I INPUT 1 -p tcp -s 0.0.0.0/0 --dport 40056 -j DROP
+
+iptables -I INPUT 1 -p tcp -s 127.0.0.1 --dport 40056 -j ACCEPT
+
+iptables-save > /etc/iptables/rules.v4
 ```
 
-- A script to autorun after reboot. Run this as root (without `sudo`)
+A script to autorun after reboot. Run this as root (without `sudo`).
 
 ```bash
 cat << EOF > /etc/rc.local
@@ -40,7 +50,7 @@ $ sudo chmod 755 /etc/rc.local
 $ sudo systemctl start rc-local
 ```
 
-### 1.2 - Domain Fronting
+## 02 - Domain Fronting
 
 TODO: Provide an example usage for Havoc C2
 

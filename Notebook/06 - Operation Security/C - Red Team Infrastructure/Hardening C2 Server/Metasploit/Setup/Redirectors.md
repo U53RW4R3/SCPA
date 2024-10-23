@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - metasploit-framework
+  - redirectors
+---
 # Redirectors
-
-Search Tag(s): #red-team-infrastructure #metasploit-framework #redirectors
 
 ## 01 - Apache2
 

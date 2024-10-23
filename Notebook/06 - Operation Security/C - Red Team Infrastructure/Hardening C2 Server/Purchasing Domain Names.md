@@ -1,16 +1,40 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+---
 # Purchasing Domain Names
 
-Search Tag(s): #red-team-infrastructure
+## Domain/Subdomain Takeover
 
 TODO: Fill this info
 
-https://morningstarsecurity.com/research/urlcrazy
+[[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/03 - Domain or Subdomain Takeover/README]]
+
+## Typosquatting
+
+```
+$ urlcrazy <domain>.<tld>
+
+$ urlcrazy -p <domain>.<tld>
+```
 
 ---
 ## References
+
+### Github
+
+- [urbanadventurer: URLCrazy](https://github.com/urbanadventurer/urlcrazy)
+
+- [DNSTwist](https://github.com/elceef/dnstwist)
+
+- [URLInsane](https://github.com/rangertaha/urlinsane)
 
 - [LOTS Project](https://lots-project.com)
 
 - [Expired Domains](https://www.expireddomains.net/expired-domains/)
 
-- [Bypassing Next-Gen Firewalls](https://henpeebin.com/kevin/blog/bypassing-firewalls.html)
+- [DNSTwist: Phishing Domain Scanner](https://dnstwist.it)
+
+- [kevin@blog: Bypassing Next-Gen Firewalls](https://henpeebin.com/kevin/blog/bypassing-firewalls.html)

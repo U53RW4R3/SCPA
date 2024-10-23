@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - cobalt-strike
+---
 # SourcePoint
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike
 
 ## 01 - Help Menu
 

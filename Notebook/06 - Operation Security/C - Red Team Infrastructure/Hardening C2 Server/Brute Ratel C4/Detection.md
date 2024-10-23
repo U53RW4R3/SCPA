@@ -1,11 +1,23 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - brute-ratel-c4
+  - detection
+---
 # Detection
 
-Search Tag(s): #red-team-infrastructure #brute-ratel-c4 #detection
+## Shodan
 
-`http.html_hash:-1957161625 product:"Brute Ratel C4"`
+```
+http.html_hash:-1957161625 product:"Brute Ratel C4"
+```
 
 ---
 ## References
+
+### Github
 
 - [drb-ra: C2IntelFeeds](https://github.com/drb-ra/C2IntelFeeds)
 

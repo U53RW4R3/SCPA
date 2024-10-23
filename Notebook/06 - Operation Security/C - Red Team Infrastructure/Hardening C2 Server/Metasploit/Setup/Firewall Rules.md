@@ -1,12 +1,21 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - metasploit-framework
+  - firewall-rules
+---
 # Firewall Rules
-
-Search Tag(s): #red-team-infrastructure #metasploit-framework #firewall-rules
 
 ```
 # mkdir /etc/iptables
-# iptables -I INPUT 1 -p tcp -s 0.0.0.0/0 --dport 5432 -j DROP
-# iptables -I INPUT 1 -p tcp -s 127.0.0.1 --dport 5432 -j ACCEPT
-# iptables-save > /etc/iptables/rules.v4
+
+iptables -I INPUT 1 -p tcp -s 0.0.0.0/0 --dport 5432 -j DROP
+
+iptables -I INPUT 1 -p tcp -s 127.0.0.1 --dport 5432 -j ACCEPT
+
+iptables-save > /etc/iptables/rules.v4
 ```
 
 - A script to autorun after reboot. Run this as root (without `sudo`).

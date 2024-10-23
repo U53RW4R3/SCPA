@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - helpers
+  - red-team-infrastructure
+  - cobalt-strike
+---
 # 03 - Network Protocol Code Block
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike #helpers
 
 ## 3.1 - HTTP Block
 

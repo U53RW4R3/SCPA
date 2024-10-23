@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - helpers
+  - red-team-infrastructure
+  - cobalt-strike
+---
 # 04 - Payload Staging
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike #helpers
 
 ## 4.1 - Stage Block
 

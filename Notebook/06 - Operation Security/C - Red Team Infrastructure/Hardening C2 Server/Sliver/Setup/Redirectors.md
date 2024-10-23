@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - sliver
+  - redirectors
+---
 # Redirectors
-
-Search Tag(s): #red-team-infrastructure #sliver #redirectors
 
 TODO: Fill this information
 

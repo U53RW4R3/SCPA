@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - empire
+---
 # Web Proxy
-
-Search Tag(s): #red-team-infrastructure #empire
 
 ## 01 - HTTP_HOP
 

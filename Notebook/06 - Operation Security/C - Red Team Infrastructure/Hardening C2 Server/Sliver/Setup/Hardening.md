@@ -1,16 +1,23 @@
-# Hardening
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - sliver
+  - firewall-rules
+---
 
-Search Tag(s): #red-team-infrastructure #sliver #firewall-rules
+# Hardening
 
 ## 01 - Teamserver
 
-`$ sudo systemctl stop sliver`
-
-`$ cat /root/.sliver/configs/server.json`
-
----
+```
+$ sudo systemctl stop sliver
+```
 
 ```json
+$ cat /root/.sliver/configs/server.json
+
 {
     "daemon_mode": true,
     "daemon": {
@@ -30,9 +37,11 @@ Search Tag(s): #red-team-infrastructure #sliver #firewall-rules
     "go_proxy": ""
 ```
 
-`$ sudo systemctl daemon-reload`
+```
+$ sudo systemctl daemon-reload
 
-`$ sudo systemctl start sliver`
+$ sudo systemctl start sliver
+```
 
 ## 02 - Firewall Rules
 

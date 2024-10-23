@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - sliver
+  - detection
+---
 # Sliver
-
-Search Tag(s): #red-team-infrastructure #sliver #detection
 
 ## 01 - Shodan
 

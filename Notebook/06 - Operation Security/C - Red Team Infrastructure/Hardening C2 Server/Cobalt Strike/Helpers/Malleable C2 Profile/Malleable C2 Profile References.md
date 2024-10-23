@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - helpers
+  - red-team-infrastructure
+  - cobalt-strike
+---
 # Malleable C2 Profile References
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike #helpers
 
 ## Cobalt Strike User Guide
 

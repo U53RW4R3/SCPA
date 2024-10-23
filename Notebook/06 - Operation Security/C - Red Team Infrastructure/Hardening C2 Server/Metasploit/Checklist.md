@@ -1,3 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - checklist
+  - red-team-infrastructure
+  - metasploit-framework
+---
 # Checklist
 
 TODO: Provide a checklist when setting up metasploit framework

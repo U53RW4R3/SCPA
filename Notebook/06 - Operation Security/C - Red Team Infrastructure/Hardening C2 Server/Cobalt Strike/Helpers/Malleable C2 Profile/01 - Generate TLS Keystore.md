@@ -1,10 +1,16 @@
+---
+author(s):
+  - Userware
+tags:
+  - helpers
+  - red-team-infrastructure
+  - cobalt-strike
+---
 # 01 - Generate TLS Keystore
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike #helpers
 
 ## 1.1 - Java Keytool
 
-- Modify in `teamserver` bash script.
+Modify in `teamserver` bash script.
 
 ```
 $ keytool -keystore ./cobaltstrike.store -storepass <password> -keypass <password> -genkey -keyalg RSA -alias <alias_name> -dname "CN=www.website.com, OU=Company Inc., O=Company Name, L=San Francisco, S=California, C=US"

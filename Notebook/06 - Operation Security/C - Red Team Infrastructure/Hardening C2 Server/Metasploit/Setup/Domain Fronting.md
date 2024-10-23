@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - metasploit-framework
+  - domain-fronting
+---
 # Domain Fronting
-
-Search Tag(s): #red-team-infrastructure #metasploit-framework #domain-fronting
 
 ## 01 - Shell Handler
 

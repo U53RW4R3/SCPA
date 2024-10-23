@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - metasploit-framework
+  - detection
+---
 # Detection
-
-Search Tag(s): #red-team-infrastructure #metasploit-framework #detection
 
 ## 01 - Shodan
 

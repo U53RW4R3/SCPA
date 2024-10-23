@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - checklist
+  - red-team-infrastructure
+  - sliver
+---
 # Checklist
-
-Search Tag(s): #red-team-infrastructure #sliver
 
 TODO: Provide a checklist when setting up sliver c2
 

@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - checklist
+  - red-team-infrastructure
+  - cobalt-strike
+---
 # Checklist
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike
 
 TODO: Provide a checklist when setting up cobalt strike c2
 

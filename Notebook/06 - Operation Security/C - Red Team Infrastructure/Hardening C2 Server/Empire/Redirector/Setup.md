@@ -1,3 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - empire
+---
 # Setup
 
 TODO: Provide a usage example redirector for Empire

@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - helpers
+  - red-team-infrastructure
+  - cobalt-strike
+---
 # 02 - Basics
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike #helpers
 
 ## 2.1 - Global Options
 

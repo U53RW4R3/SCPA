@@ -1,15 +1,24 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - cobalt-strike
+  - firewall-rules
+---
 # Firewall Rules
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike #firewall-rules
 
 ```
 # mkdir /etc/iptables
+
 # iptables -I INPUT 1 -p tcp -s 0.0.0.0/0 --dport 50050 -j DROP
+
 # iptables -I INPUT 1 -p tcp -s 127.0.0.1 --dport 50050 -j ACCEPT
+
 # iptables-save > /etc/iptables/rules.v4
 ```
 
-- A script to autorun after reboot. Run this as root (without `sudo`).
+A script to autorun after reboot. Run this as root (without `sudo`).
 
 ```bash
 cat << EOF > /etc/rc.local
@@ -32,7 +41,7 @@ exit 0
 EOF
 ```
 
-- Change permission and start the service.
+Change permission and start the service.
 
 ```
 $ sudo chmod 755 /etc/rc.local

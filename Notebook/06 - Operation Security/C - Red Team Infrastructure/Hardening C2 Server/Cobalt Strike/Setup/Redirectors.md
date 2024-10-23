@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - cobalt-strike
+  - redirectors
+---
 # Redirectors
-
-Search Tag(s): #red-team-infrastructure #cobalt-strike #redirectors
 
 TODO: Fill this information
 

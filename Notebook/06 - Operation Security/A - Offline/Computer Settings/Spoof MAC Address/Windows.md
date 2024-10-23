@@ -8,7 +8,7 @@ Search Tag(s): #operation-security #spoofing #command-line #windows
 > The script requires administrative privileges.
 
 
-```powershell
+```
 PS C:\> Get-NetAdapter
 
 PS C:\> .\New-MACaddress.ps1 -interfaceindexnumber <int>
