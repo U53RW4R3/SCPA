@@ -178,31 +178,31 @@ main "${@}"
 Make it executable.
 
 ```
-$ chmod 755 pivotbind.sh
+$ chmod 755 pivotbinder.sh
 ```
 
 It'll set to localhost and TOR port (9050) to pivot to the target. To confirm it works increase the verbosity to 2.
 
 ```
-$ ./pivotbind.sh -v 2 -l <local_PORT> -r <remote_IP> -b <remote_PORT>
+$ ./pivotbinder.sh -v 2 -l <local_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
 You can set a custom socks port.
 
 ```
-$ ./pivotbind.sh -l <local_PORT> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
+$ ./pivotbinder.sh -l <local_PORT> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
 You can set socks proxy IP address and/or port to pivot. Including to choose 3 proxy server methods.
 
 ```
-$ ./pivotbind.sh -l <local_PORT> -m <socks4 | socks4a | connect> -s <SOCKS_server_IP> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
+$ ./pivotbinder.sh -l <local_PORT> -m <socks4 | socks4a | connect> -s <SOCKS_server_IP> -p <SOCKS_server_PORT> -r <remote_IP> -b <remote_PORT>
 ```
 
 You can fork it in the background. Once you're finished kill socat process.
 
 ```
-$ ./pivotbind.sh -v 2 -l <local_PORT> -r <remote_IP> -b <remote_PORT> -f
+$ ./pivotbinder.sh -v 2 -l <local_PORT> -r <remote_IP> -b <remote_PORT> -f
 
 $ pkill socat
 ```

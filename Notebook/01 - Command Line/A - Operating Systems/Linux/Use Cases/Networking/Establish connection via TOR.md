@@ -30,7 +30,7 @@ You can use the script to make your life easier.
 Just specify the listening port.
 
 ```
-$ ./pivotbind.sh -v 2 -l <local_PORT> -r <onion_hostname> -b 80
+$ ./pivotbinder.sh -v 2 -l <local_PORT> -r <onion_hostname> -b 80
 ```
 
 Then interact the web server using `curl` to check if it works.
