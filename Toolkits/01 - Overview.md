@@ -78,8 +78,8 @@
 ## Note Taking
 
 1. [Obsidian](https://obsidian.md/download)
-2. [Cherrytree](https://www.giuspen.com/cherrytree/)
-3. [Trilium](https://github.com/zadam/trilium)
+2. [Trilium](https://github.com/zadam/trilium)
+3. [Cherrytree](https://www.giuspen.com/cherrytree/)
 4. [Logseq](https://logseq.com)
 5. [Notion](https://www.notion.so/)
 

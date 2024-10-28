@@ -68,13 +68,17 @@ C:\> wmic.exe PROCESS WHERE "Name LIKE '<process.exe>'" CALL Terminate
 ## 3.4 - Fork Background Process
 
 ```
-C:\> start.exe /b <command> [arguments]
+C:\> start /b <command> [arguments]
 ```
 
 ---
 ## References
 
+### Backlinks
+
 - [[Windows Command Prompt References]]
+
+### LOFLCAB
 
 - [LOFLCAB: tasklist](https://lofl-project.github.io/loflcab/Binaries/tasklist/)
 
@@ -82,6 +86,10 @@ C:\> start.exe /b <command> [arguments]
 
 - [LOFLCAB: WMIC](https://lofl-project.github.io/loflcab/Binaries/wmic/)
 
+### Hacking Articles
+
 - [Hacking Articles: Post Exploitation Using WMIC (System Command)](https://www.hackingarticles.in/post-exploitation-using-wmic-system-command/)
+
+### Mubix
 
 - [Malicious.link: Get Process List](https://room362.com/posts/2020/get-process-list/)

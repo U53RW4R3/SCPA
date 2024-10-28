@@ -7,28 +7,26 @@ tags:
 ---
 # Windows Command Prompt Table References
 
-| Commands                   | Networking      |
-| -------------------------- | --------------- |
-| [`cd` \| `chdir`]          | `ipconfig.exe`  |
-| `dir`                      | `route.exe`     |
-| [`type` \| `more`]         | `arp.exe`       |
-| [`copy` \| `xcopy`]        | `ping.exe`      |
-| [`type nul` \| `copy nul`] | `tracert.exe`   |
-| [`mv` \| `move`]           | `nslookup.exe`  |
-| [`ren` \| `rename`]        | `CertUtil.exe`  |
-| [`del` \| `erase`]         | `bitsadmin.exe` |
-| [`md` \| `mkdir`]          | `curl.exe`      |
-| `rmdir`                    | `nslookup.exe`  |
-| `pwd`                      |                 |
-| `whoami.exe`               |                 |
-| `cls`                      |                 |
-| `history`                  |                 |
-| `doskey`                   |                 |
-| `echo`                     |                 |
-| `tasklist.exe`             |                 |
-| `taskkill.exe`             |                 |
-| `findstr`                  |                 |
-| `systeminfo.exe`           |                 |
+| Commands                         | Networking      |
+| -------------------------------- | --------------- |
+| [`cd` \| `chdir`]                | `ipconfig.exe`  |
+| `dir`                            | `route.exe`     |
+| [`type` \| `more`]               | `arp.exe`       |
+| [`copy` \| `xcopy`]              | `ping.exe`      |
+| [`type nul` \| `copy nul`]       | `tracert.exe`   |
+| [`mv` \| `move`]                 | `nslookup.exe`  |
+| [`ren` \| `rename`]              | `CertUtil.exe`  |
+| [`del` \| `erase`]               | `bitsadmin.exe` |
+| [`md` \| `mkdir`]                | `curl.exe`      |
+| [`rd` \| `rmdir`]                | `nslookup.exe`  |
+| `whoami.exe`                     |                 |
+| `cls`                            |                 |
+| `doskey.exe`                     |                 |
+| `echo`                           |                 |
+| `tasklist.exe`                   |                 |
+| [`taskkill.exe` \| `tskill.exe`] |                 |
+| `findstr.exe`                    |                 |
+| `systeminfo.exe`                 |                 |
 
 ---
 ## References
@@ -41,4 +39,10 @@ tags:
 
 - [MalwareBytes: Introduction to Alternate Data Streams](https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/)
 
-- [File Types](https://www.bencteux.fr/posts/filetypes/)
+### Jeffrey Bencteux
+
+- [Jeffrey Bencteux: File Types](https://www.bencteux.fr/posts/filetypes/)
+
+### Rob van der Woude
+
+- [Rob van der Woude: Useful commands for Windows administrators](https://www.robvanderwoude.com/ntadmincommands.php)

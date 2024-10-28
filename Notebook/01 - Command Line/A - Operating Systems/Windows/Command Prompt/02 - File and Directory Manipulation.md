@@ -47,13 +47,13 @@ Another line.^Z
 
 TODO: Fill this info
 
-- Set the attributes by flagging it as hidden (`+h`), read only (`+r`), and important system file (`+s`)
+Set the attributes by flagging it as hidden (`+h`), read only (`+r`), and important system file (`+s`)
 
 ```
 C:\> attrib +h +r +s <file | directory>
 ```
 
-- Clear the attributes the by flagging them hidden (`-h`), read only (`-r`), and important system file (`-s`)
+Clear the attributes the by flagging them hidden (`-h`), read only (`-r`), and important system file (`-s`)
 
 ```
 C:\> attrib -h -r -s <file | directory>

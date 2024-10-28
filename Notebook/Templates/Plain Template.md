@@ -2,7 +2,8 @@
 author(s):
   - Userware
   - Sebastian Dante Alexander
-tags:
+tags: 
+credits:
 ---
 # {{title}}
 

