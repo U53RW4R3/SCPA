@@ -127,5 +127,14 @@ Foreign exchange companies
 Mining in <country_name>
 Mines in <country_name>
 
+Space and aerospace exploration and research
 List of <country_name> defense contractors
+
+Government records and communications agencies
+Government auditing and internal affairs
+Personnel management
+
+Law enforcement
+
+Environmental policy
 ```

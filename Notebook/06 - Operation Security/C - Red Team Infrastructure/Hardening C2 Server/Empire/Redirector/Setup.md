@@ -18,7 +18,7 @@ TODO: Provide a usage example redirector for Empire
 
 - [SecurityNik: Beginning Powershell Empire Attack](https://www.securitynik.com/2022/02/beginning-powershell-empire-attack-in.html)
 
-- [Red-Team-Infrastructure-Wiki](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki)
+- [bluscreenofjeff: Red-Team-Infrastructure-Wiki](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki)
 
 - [Github Gist Native Windows User Agents Malicious](https://gist.github.com/GossiTheDog/77527a34cdecb0ad840910c0beb8ba41)
 
