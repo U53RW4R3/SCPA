@@ -10,7 +10,7 @@ tags:
 
 TODO: Fill this info
 
-[[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/03 - Domain or Subdomain Takeover/README]]
+[[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/03 - Subdomain Takeover/README]]
 
 ## Typosquatting
 

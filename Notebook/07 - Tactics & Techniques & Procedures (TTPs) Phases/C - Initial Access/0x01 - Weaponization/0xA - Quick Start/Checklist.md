@@ -10,6 +10,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [[Exiftool]]
 	- [[exifLooter]]
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Network Mapper|Network Mapper]]
+- [ ] Look for job requirements of what technology the target(s) using that can be weaponized.
 
 ## Active Client Information Gathering
 
@@ -32,7 +33,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 					- Web mail
 			- [ ] OSINT gathering on social media
 			- [ ] OSINT gathering using google dorking
-				- TODO Fill in the
+				- TODO Fill in the bullet points/checkboxes
 			- [ ] Data breaches
 			- [ ] Parse and verify the emails
 		- [ ] Check if the domain is spoofable.

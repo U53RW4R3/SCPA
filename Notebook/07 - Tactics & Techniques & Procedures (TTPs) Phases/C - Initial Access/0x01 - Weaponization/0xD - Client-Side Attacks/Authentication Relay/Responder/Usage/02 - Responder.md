@@ -56,7 +56,7 @@ $ sudo responder -I <interface> -Pdv
 Windows target.
 
 ```
-C:\> certutil -urlcache -split -f https://google.com file.txt
+C:\> CertUtil.exe -urlcache -split -f https://google.com file.txt
 
 PS C:\> Invoke-WebRequest -Uri https://google.com -OutFile file.txt
 ```

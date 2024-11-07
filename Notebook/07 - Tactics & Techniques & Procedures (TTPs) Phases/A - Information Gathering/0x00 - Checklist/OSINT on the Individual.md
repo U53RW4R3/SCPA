@@ -10,22 +10,22 @@ https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/government-in
 
 https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/gaming
 
-- People
-	- [ ] Names
-	- [ ] Email Addresses
-	- [ ] Aliases
-		- [ ] Name Aliases
-	- [ ] Country
-		- [ ] State
-		- [ ] City
-		- [ ] Timezone
-	- Social Media Intelligence
-		- [ ] X (formely Twitter)
-		- [ ] Meta
-			- [ ] Facebook
-			- [ ] Instagram
-			- [ ] Thread
-			- [ ] Whatsapp
-		- [ ] Snapchat
-		- [ ] TikTok
-		- [ ] Tinder
+- [ ] Names
+- [ ] Email Addresses
+- [ ] Aliases
+	- [ ] Name Aliases
+- [ ] People
+- [ ] Country
+	- [ ] State
+	- [ ] City
+	- [ ] Timezone
+- Social Media Intelligence
+	- [ ] X (formely Twitter)
+	- [ ] Meta
+		- [ ] Facebook
+		- [ ] Instagram
+		- [ ] Thread
+		- [ ] Whatsapp
+	- [ ] Snapchat
+	- [ ] TikTok
+	- [ ] Tinder
