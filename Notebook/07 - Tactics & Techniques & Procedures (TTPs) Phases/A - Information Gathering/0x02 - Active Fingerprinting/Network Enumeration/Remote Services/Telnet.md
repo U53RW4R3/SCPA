@@ -1,22 +1,20 @@
 # Telnet
 
-## 01 - Manual
+## 01 - Banner Grab
 
-### 1.1 - Banner Grab
+### 1.1 - Manual
 
 ```
 $ nc -nv <IP> 23
 ```
 
-## 02 - Network Mapper
+### 1.2 - Network Mapper
 
 ```
-$ nmap -p 23 -n -sV -Pn --script telnet-encryption <IP>
-
-$ nmap -p 23 -n -sV -Pn --script telnet-ntlm-info <IP>
+$ nmap -p 23 -n -Pn -sV <IP>
 ```
 
-## 03 - Metasploit
+### 1.3 - Metasploit
 
 ```
 msf > use auxiliary/scanner/telnet/telnet_version
@@ -39,6 +37,18 @@ msf auxiliary(scanner/telnet/telnet_version) > set rhosts <IP>
 msf auxiliary(scanner/telnet/telnet_version) > set threads 8
 
 msf auxiliary(scanner/telnet/telnet_version) > run
+```
+
+## 02 - RDP Encryption Algorithm
+
+```
+$ nmap -p 23 -n -Pn --script telnet-encryption <IP>
+```
+
+## 03 - NTLM Information
+
+```
+$ nmap -p 23 -n -Pn --script telnet-ntlm-info <IP>
 ```
 
 ---
