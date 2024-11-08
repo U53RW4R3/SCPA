@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - help-menu
+  - sliver
+  - command-and-control
+---
 # 01 - Help Menu
-
-Search Tag(s): #sliver #command-and-control #help-menu
 
 ```
 sliver > help

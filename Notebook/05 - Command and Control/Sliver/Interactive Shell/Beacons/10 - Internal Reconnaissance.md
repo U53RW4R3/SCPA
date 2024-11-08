@@ -22,7 +22,9 @@ sliver (IMPLANT_NAME) > ps -h
 
 ### IP Address
 
-`sliver (IMPLANT_NAME) > ifconfig [-A]`
+```
+sliver (IMPLANT_NAME) > ifconfig [-A]
+```
 
 ### Netstat
 
