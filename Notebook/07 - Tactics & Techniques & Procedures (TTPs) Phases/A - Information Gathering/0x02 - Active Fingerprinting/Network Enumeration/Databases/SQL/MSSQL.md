@@ -25,6 +25,28 @@ $ sqsh -S <IP> -D <database> -U [<domain>\]<username> -P <password>
 $ sqsh -S <IP> -D <database> -U [<domain\]<username -P 00000000000000000000000000000000:<nt_hash>
 ```
 
+## 02 - Impacket
+
+### 2.1 - Help Menu
+
+```
+$ mssqlclient.py -h
+
+SQL> help
+```
+
+### 2.2 - Usage
+
+```
+$ mssqlclient -db <database> -port 1433 -windows-auth <domain>/<username>:<password>@<IP>
+```
+
+### 2.3 - Enable `xp_cmdshell`
+
+```
+SQL> enable_xp_cmdshell
+```
+
 ---
 ## References
 
