@@ -119,44 +119,6 @@ Demon Commands
   wmi_query                Command      Run a wmi query and display results in CSV format
 ```
 
-TODO: Categorize them systematically
-
-```
-Demon » help pivot
-
- - Command       :  pivot
- - Description   :  pivoting module
- - Behavior      :  API Only
- - Usage         :  pivot [sub command]
- - Example       :  pivot connect SPIDERS-PC agent_6d6e
-
-  Command                        Description
-  ---------                      -------------
-  list                           list connected agent pivots
-  connect                        connect to a pivoting agent
-  disconnect                     disconnect from a pivoting agent
-
-Demon » help config
-
- - Command       :  config
- - Description   :  configure the behaviour of the demon session
- - Usage         :  config [config.flag]
- - Example       :  config inject.spawn64 C:\Windows\System32\rundll32.exe
-
-  Command                        Description
-  ---------                      -------------
-  implant.verbose                enable/disable implant verbose logging (process creation, memory allocation, thread execution etc.)
-  implant.sleep-obf.start-addr   set custom thread start addr at sleep obfuscation
-  implant.sleep-obf.technique    set custom thread start addr at sleep obfuscation
-  implant.coffee.veh             enable/disable VEH for object file loading
-  implant.coffee.threaded        enable/disable threading while executing object files
-  memory.alloc                   memory allocation behaviour
-  memory.execute                 memory executing behaviour (remote/local thread)
-  inject.spoofaddr               inject code with spoofed thread start addr
-  inject.spawn64                 default x64 process to spawn for fork & run operations
-  inject.spawn32                 default x86 process to spawn for fork & run operations
-```
-
 ---
 ## References
 

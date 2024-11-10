@@ -17,4 +17,6 @@ Espia Commands
 
 ## 1.2 - WireTap
 
-`meterpreter > screengrab -h`
+```
+meterpreter > screengrab -h
+```

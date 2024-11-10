@@ -32,7 +32,54 @@ $ curl https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&coun
 $ curl https://api.openproxylist.xyz/http.txt
 ```
 
-## 02 - ScanSSH
+## 02 - ProxyFor
+
+### 2.1 - Setup
+
+#### 2.1.1 - Download Pre-compiled Binary
+
+```
+$ wget https://github.com/0xsha/ProxyFor/releases/download/v1.0.2/ProxyFor_1.0.2_Linux_x86_64.tar.gz && \
+tar xzf ProxyFor_1.0.2_Linux_x86_64.tar.gz && rm ProxyFor_1.0.2_Linux_x86_64.tar.gz && \
+sudo cp ProxyFor /usr/local/bin/
+```
+
+#### 2.1.2 - Compile
+
+```
+$ go install github.com/0xsha/ProxyFor@latest && \
+sudo mv ~/go/bin/ProxyFor /usr/local/bin/
+```
+
+### 2.2 - Help Menu
+
+```
+$ ProxyFor -h
+usage: ProxyChecker [-h|--help] [-t|--threads <integer>] [-r|--response
+                    <integer>] -p|--path "<value>" [-d|--domain "<value>"]
+                    [-o|--output "<value>"] [-T|--timeout <integer>]
+
+                    Checks for valid proxies and write valid ones in file
+
+Arguments:
+
+  -h  --help      Print help information
+  -t  --threads   Number of threads. Default: 40
+  -r  --response  expected HTTP response code. Default: 200
+  -p  --path      path to proxy.txt)
+  -d  --domain    Domain to check proxies against it. Default:
+                  https://httpbin.org/ip
+  -o  --output    Output file. Default: out.txt
+  -T  --timeout   timeout in seconds. Default: 10
+```
+
+### 2.3 - Usage
+
+```
+$ ProxyFor -p proxylist.txt -d https://google.com -o live_proxies.txt
+```
+
+## 03 - ScanSSH
 
 ```
 $ sudo apt install -y scanssh

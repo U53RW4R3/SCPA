@@ -48,10 +48,10 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 > You can be creative by combing multiple files.
 
 - [ ] Check **Command and Scripting Interpreter** section to change the execution methods.
-- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/HTML Smuggling/Manual|HTML Smuggling]]
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/HTML Smuggling/Manual|HTML Smuggling]]
 - [ ] Macros
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Microsoft Office/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/LibreOffice/Macros/Craft Manually with Macro Delivery|LibreOffice Macro]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Microsoft Office/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/LibreOffice/Macros/Craft Manually with Macro Delivery|LibreOffice Macro]]
 - [ ] Macroless
 	- [[Word|Word OLE Object]]
 	- [[Excel]]
@@ -62,14 +62,14 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 			- [ ] Disguise it with an icon.
 			- [ ] Append a **RTLO (Right to Left Override)** to make the extension look legitimate.
 		- [ ] Backdoor the executable file
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Backdoor EXEcutable Files/Manual|Manual]]
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/Manual|Manual]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
 			- [[Shellter|Shellter]]
 	- [ ] HTML Application (`.hta`)
 	- [ ] Installer
 		- [ ] MSI
 		- [ ] ClickOnce
-- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Manual|Shortcut Link]] (`.lnk`)
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Manual|Shortcut Link]] (`.lnk`)
 	- [ ] Decoy file.
 
 ### Bypass MOTW (Mark of the Web)
@@ -82,7 +82,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 		- [ ] Password protected
 	- CAB
 - [ ] Disk container
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Disk Image/Generate Disk Image/Automated/PackMyPayload/Usage|PackMyPayload]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/Disk Image/Generate Disk Image/Automated/PackMyPayload/Usage|PackMyPayload]]
 		- [ ] Add archive file.
 			- 7zip
 				- [ ] Password protected.

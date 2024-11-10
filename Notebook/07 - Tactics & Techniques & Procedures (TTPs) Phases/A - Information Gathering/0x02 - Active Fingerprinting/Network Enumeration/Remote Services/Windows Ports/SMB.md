@@ -5,7 +5,9 @@ tags:
   - information-gathering
   - active-reconnaissance
   - network-protocols
+  - smb
   - network-mapper
+  - metasploit-framework
 ---
 # SMB
 

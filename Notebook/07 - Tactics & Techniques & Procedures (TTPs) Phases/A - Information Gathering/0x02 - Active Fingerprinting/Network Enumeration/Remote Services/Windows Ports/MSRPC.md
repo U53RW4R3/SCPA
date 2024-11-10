@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - msrpc
+  - network-mapper
+---
 # MSRPC
 
 > [!INFO]
@@ -5,7 +15,7 @@
 
 ## 01 - Manual
 
-Authenticating with NetBIOS protocol
+Authenticating with **MSRPC** protocol
 
 ```
 $ rpcclient -U <username>%<password> <IP>
@@ -35,11 +45,15 @@ Enumerating LSA Group Privileges
 
 ```
 rpcclient $> lsaenumsid
+```
 
+```
 rpcclient $> lookupsids <SID>
 
 rpcclient $> lookupsids S-1-1-0
+```
 
+```
 rpcclient $> lsaenumacctrights <SID>
 
 rpcclient $> lsaenumacctrights S-1-1-0
@@ -60,7 +74,7 @@ $ nmap -p 135 -Pn -n <IP>
 ```
 
 ```
-$ nmap -p 445 -Pn -n --script msrpc-enum <IP>
+$ nmap -p 135 -Pn -n --script msrpc-enum <IP>
 ```
 
 ---

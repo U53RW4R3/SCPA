@@ -1,3 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - ssh
+  - network-mapper
+  - metasploit-framework
+---
 # SSH
 
 ## 01 - Manual
@@ -72,6 +83,8 @@ Module options (auxiliary/scanner/ssh/ssh_version):
 
 msf auxiliary(scanner/ssh/ssh_version) > set rhosts <IP>
 
+msf auxiliary(scanner/ssh/ssh_version) > set rport <PORT>
+
 msf auxiliary(scanner/ssh/ssh_version) > set threads 8
 
 msf auxiliary(scanner/ssh/ssh_version) > run
@@ -83,6 +96,10 @@ TODO: Write down the CVE of what software version were affected
 
 ```
 msf > use auxiliary/scanner/ssh/ssh_enumusers
+
+msf auxiliary(scanner/ssh/ssh_enumusers) > set rhosts <IP>
+
+run
 ```
 
 ---

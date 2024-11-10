@@ -1,3 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - snmp
+  - network-mapper
+  - metasploit-framework
+---
 # SNMP
 
 ## 01 - Manual

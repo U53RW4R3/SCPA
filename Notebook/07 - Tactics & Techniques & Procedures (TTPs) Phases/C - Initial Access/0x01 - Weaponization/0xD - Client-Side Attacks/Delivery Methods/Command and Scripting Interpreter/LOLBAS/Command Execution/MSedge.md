@@ -1,3 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - living-off-the-land
+  - T1218-015
+  - windows
+---
 # MSedge
 
 ```
@@ -6,6 +17,8 @@ C:\> msedge.exe --disable-gpu-sandbox --gpu-launcher="C:\Windows\system32\cmd.ex
 
 ---
 ## References
+
+### LOLBAS
 
 - [LOLBAS: MSedge](https://lolbas-project.github.io/lolbas/Binaries/Msedge/)
 

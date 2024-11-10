@@ -1,6 +1,16 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - sniffing-and-spoofing
+  - weaponization
+  - client-side-attacks
+  - network-protocols
+  - smb
+  - scenarios
+---
 # 01 - Capture Hashes via Spoof SMB Shares
-
-Search Tag(s): #mitm #responder #smb #relay #ntlm #scenarios
 
 ## 1.1 - Attacker
 

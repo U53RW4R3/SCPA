@@ -1,6 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - upnp
+  - network-mapper
+---
 # UPNP
-
-Search Tag(s): #active-reconnaissance #network-protocols #upnp #network-mapper
 
 ## 01 - Network Mapper
 

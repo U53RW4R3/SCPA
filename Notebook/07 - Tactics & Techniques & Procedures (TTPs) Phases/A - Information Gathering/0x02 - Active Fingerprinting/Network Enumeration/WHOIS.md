@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - whois
+  - network-mapper
+---
 # WHOIS
 
 ## 01 - Manual

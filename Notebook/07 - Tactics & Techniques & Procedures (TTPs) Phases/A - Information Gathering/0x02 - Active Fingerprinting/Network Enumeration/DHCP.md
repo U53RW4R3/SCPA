@@ -1,6 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - dhcp
+  - network-mapper
+---
 # DHCP
-
-Search Tag(s): #active-reconnaissance #network-protocols #dhcp #network-mapper
 
 ```
 $ sudo nmap -sU -p 67 --script dhcp-discover <DHCP_server_IP>

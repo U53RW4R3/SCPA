@@ -5,7 +5,9 @@ tags:
   - information-gathering
   - active-reconnaissance
   - network-protocols
+  - winrm
   - network-mapper
+  - metasploit-framework
 ---
 # WinRM
 
@@ -116,17 +118,13 @@ msf auxiliary(scanner/winrm/winrm_wql) > set wql <query>
 
 msf auxiliary(scanner/winrm/winrm_wql) > set namespace <namespace>
 
-msf auxiliary(scanner/winrm/winrm_wql) > set username <username>
-
-msf auxiliary(scanner/winrm/winrm_wql) > set password <password>
-
 msf auxiliary(scanner/winrm/winrm_wql) > set domain <domain>
 
 msf auxiliary(scanner/winrm/winrm_wql) > set rhosts <IP>
 
 msf auxiliary(scanner/winrm/winrm_wql) > set rport <PORT>
 
-msf auxiliary(scanner/winrm/winrm_wql) > run
+msf auxiliary(scanner/winrm/winrm_wql) > run username=<username> password=<password>
 ```
 
 ---

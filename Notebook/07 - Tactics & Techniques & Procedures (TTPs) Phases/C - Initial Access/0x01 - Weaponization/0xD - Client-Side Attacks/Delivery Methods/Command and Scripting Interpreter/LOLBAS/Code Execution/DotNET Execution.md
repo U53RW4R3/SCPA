@@ -33,6 +33,10 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\experiments\installUtil
 
 - [LOLBAS: Ilasm](https://lolbas-project.github.io/lolbas/Binaries/Ilasm/)
 
+### Hacktricks
+
+- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/windows)
+
 ### Red Team Notes
 
 - [Red Team Notes: InstallUtil](https://www.ired.team/offensive-security/code-execution/t1118-installutil)

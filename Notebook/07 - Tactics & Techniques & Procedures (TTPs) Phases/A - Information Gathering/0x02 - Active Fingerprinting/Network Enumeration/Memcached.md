@@ -1,3 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - memcached
+  - network-mapper
+  - metasploit-framework
+---
 # Memcached
 
 ## 01 - Setup
@@ -57,7 +68,8 @@ $ memcdump --server=<IP> [--username=<password> --password=<password>]
 #### 5.1.2 - Metasploit
 
 ```
-msf > use auxiliary/gather/memcached_extractor
+msf > use auxiliary/gather/memcached_extractors
+
 msf auxiliary(gather/memcached_extractor) > options
 
 Module options (auxiliary/gather/memcached_extractor):
@@ -70,7 +82,7 @@ Module options (auxiliary/gather/memcached_extractor):
 
 msf auxiliary(gather/memcached_extractor) > set rhosts <IP>
 
-msf auxiliary(gather/memcached_extractor) > set threads <int>
+msf auxiliary(gather/memcached_extractor) > set threads <threads>
 
 msf auxiliary(gather/memcached_extractor) > run
 ```

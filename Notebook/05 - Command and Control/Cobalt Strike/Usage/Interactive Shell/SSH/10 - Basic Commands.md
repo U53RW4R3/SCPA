@@ -5,7 +5,7 @@ Search Tag(s): #help-menu #command-and-control #cobalt-strike #privilege-escalat
 ## 9.1 - Execute Shell Commands
 
 ```
-ssh> shell <command> [args]
+ssh> shell <command> [arguments]
 ```
 
 ## 9.2 - Execute Elevated Shell Commands

@@ -1,3 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - telnet
+  - network-mapper
+  - metasploit-framework
+---
 # Telnet
 
 ## 01 - Banner Grab
