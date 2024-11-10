@@ -130,6 +130,14 @@ $ sudo mount -t cifs //<IP>/<share_name> /mnt/smb
 $ sudo mount -t cifs -o "port=<PORT> username=<username>,password=<password>" //<IP>/<share_name> /mnt/smb
 ```
 
+## 06 - RPC Endpoints
+
+```
+$ nmap -p 445 -Pn -n --script msrpc-enum <IP>
+```
+
+^4eb6e0
+
 ---
 ## References
 

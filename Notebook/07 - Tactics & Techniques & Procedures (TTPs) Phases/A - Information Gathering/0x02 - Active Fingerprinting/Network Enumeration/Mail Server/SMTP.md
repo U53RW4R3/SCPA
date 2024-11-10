@@ -1,3 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - smtp
+  - network-mapper
+  - metasploit-framework
+---
 # SMTP
 
 ## 01 - Banner Grab

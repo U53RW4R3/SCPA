@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-reconnaissance
+  - network-protocols
+  - sip
+  - metasploit-framework
+---
 # SIP
 
 ## 01 - Manual
