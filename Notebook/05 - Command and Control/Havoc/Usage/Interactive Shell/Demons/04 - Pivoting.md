@@ -1,4 +1,4 @@
-# 05 - Lateral Movement
+# 04 - Pivoting
 
 ```
 Demon » help pivot

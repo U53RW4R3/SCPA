@@ -90,15 +90,7 @@ Executes unmanaged powershell command. Make sure to change the process when usin
 beacon> powerpick <cmdlet> [args]
 ```
 
-## 4.6 - Execute Program
-
-Run .NET binary through a temporary process when running `spawnto` beacon command otherwise it defaults back to `rundll32.dll`
-
-```
-beacon> execute-assembly /path/to/compiled_dotnet_tool.exe [arguments]
-```
-
-## 4.7 - Upload and Download Files
+## 4.6 - Upload and Download Files
 
 Upload file
 

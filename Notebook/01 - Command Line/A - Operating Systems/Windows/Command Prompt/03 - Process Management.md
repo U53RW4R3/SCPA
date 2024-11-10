@@ -5,7 +5,7 @@ tags:
   - command-line
   - windows
 ---
-# 03 - Process Manipulation
+# 03 - Process Management
 
 ## 3.1 - List Processes
 

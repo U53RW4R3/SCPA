@@ -5,7 +5,7 @@ tags:
   - command-line
   - linux
 ---
-# 06 - Process Manipulation
+# 06 - Process Management
 
 ## 6.1 - List Process
 

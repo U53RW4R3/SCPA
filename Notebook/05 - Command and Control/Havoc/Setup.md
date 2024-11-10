@@ -6,15 +6,11 @@ Search Tag(s): #havoc #command-and-control
 
 ### 1.1 - Install Dependencies
 
-#### 1.1.1 - Arch-based distros
+Install the required dependencies according to your package manager.
 
 ```
 $ sudo pacman -S git gcc base-devel cmake fontconfig glu gtest spdlog boost boost-libs ncurses gdbm openssl readline libffi sqlite bzip2 mesa qt5-base qt5-websockets python3 go nasm mingw-w64-gcc
-```
 
-#### 1.1.2 - Debian-based distros
-
-```
 $ sudo apt install -y git build-essential apt-utils cmake libfontconfig1 libglu1-mesa-dev libgtest-dev libspdlog-dev libboost-all-dev libncurses5-dev libgdbm-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev mesa-common-dev qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libqt5websockets5 libqt5websockets5-dev qtdeclarative5-dev golang-go qtbase5-dev libqt5websockets5-dev libspdlog-dev python3-dev libboost-all-dev mingw-w64 nasm
 ```
 
@@ -28,11 +24,14 @@ $ sudo chown $USER:$(id -gn $USER) -R /opt/post-exploitation/Havoc
 
 ### 1.3 - Compile the client
 
-`$ cd /opt/post-exploitation/Havoc/ && make client-build`
+```
+$ cd /opt/post-exploitation/Havoc/ && make client-build
+```
 
 ### 1.4 - Compile the teamserver
 
-Note: Please be patient while it's downloading custom compilers.
+> [!NOTE]
+> Please be patient while it's downloading custom compilers.
 
 ```
 $ cd /opt/post-exploitation/Havoc/teamserver && \
@@ -44,10 +43,6 @@ cd .. && make ts-build
 ## 02 - Teamserver and Client
 
 ### 2.1 - Setup Malleable C2 Profile
-
-`$ cat profile-template.yaotl`
-
----
 
 ```
 Teamserver {
@@ -132,7 +127,7 @@ Demon {
 }
 ```
 
-* Run the teamserver
+Run the teamserver
 
 ```
 $ cd /opt/post-exploitation/Havoc/
@@ -140,7 +135,7 @@ $ cd /opt/post-exploitation/Havoc/
 $ sudo ./havoc server --profile profiles/havoc.yaotl
 ```
 
-* Run the client
+Run the client
 
 ```
 $ cd /opt/post-exploitation/Havoc/
@@ -154,12 +149,12 @@ $ ./havoc client
 
 **Kali Linux** and probably other pentest distros like **Parrot OS** may have a problem with the QT framework settings that has hardcoded font. It's an easy fix so here are the steps.
 
-* Search **Qt5 Settings**.
+Search **Qt5 Settings**.
 
 ![[01 - Qt5 Settings.png]]
 
-* Go to **Fonts** then change the **General** fonts
+Go to **Fonts** then change the **General** fonts
 
 ![[02 - Qt5 Fonts Configuration.png]]
 
-* You're good to go user!
+You're good to go user!
