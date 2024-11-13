@@ -5,7 +5,7 @@ tags:
   - command-line
   - windows
 ---
-# Windows Powershell Cmdlet Table References
+# Windows PowerShell Cmdlet Table References
 
 | Commands                         | Aliases                                               |
 | -------------------------------- | ----------------------------------------------------- |

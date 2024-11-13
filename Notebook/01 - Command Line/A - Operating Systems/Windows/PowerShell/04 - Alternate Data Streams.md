@@ -18,4 +18,4 @@ PS C:\> Get-Content -Path C:\path\to\file.txt -Stream secret.txt
 ---
 ## References
 
-- [[Windows Powershell Cmdlet References]]
+- [[Windows PowerShell Cmdlet References]]

@@ -28,4 +28,4 @@ PS:\> Set-Location .\directory\
 ---
 ## References
 
-- [[Windows Powershell Cmdlet References]]
+- [[Windows PowerShell Cmdlet References]]

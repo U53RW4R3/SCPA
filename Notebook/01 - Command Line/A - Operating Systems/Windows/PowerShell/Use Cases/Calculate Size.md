@@ -49,4 +49,4 @@ PS C:\> (Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -Fi
 
 ### Backlinks
 
-- [[Windows Powershell Cmdlet References]]
+- [[Windows PowerShell Cmdlet References]]

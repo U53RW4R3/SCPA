@@ -1,7 +1,5 @@
 # FingerprintJS
 
-https://developers.whatismybrowser.com
-
 ```php
 <?php
 $data = "Client IP Address: " . $_SERVER['REMOTE_ADDR'] . "\n";

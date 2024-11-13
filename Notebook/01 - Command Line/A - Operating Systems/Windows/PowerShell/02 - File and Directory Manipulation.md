@@ -34,4 +34,4 @@ PS C:\> Remove-Item -Force -Recursive .\directory\
 ---
 ## References
 
-- [[Windows Powershell Cmdlet References]]
+- [[Windows PowerShell Cmdlet References]]

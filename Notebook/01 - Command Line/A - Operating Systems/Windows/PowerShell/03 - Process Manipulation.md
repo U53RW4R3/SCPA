@@ -38,7 +38,7 @@ PS C:\> Start-Process [-FilePath] <command> -NoNewWindow -ArgumentList ("arg_1",
 
 ### Backlinks
 
-- [[Windows Powershell Cmdlet References]]
+- [[Windows PowerShell Cmdlet References]]
 
 ### LOFLCAB
 

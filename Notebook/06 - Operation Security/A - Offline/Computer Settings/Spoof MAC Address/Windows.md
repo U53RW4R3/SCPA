@@ -2,7 +2,7 @@
 
 Search Tag(s): #operation-security #spoofing #command-line #windows
 
-## 01 - Powershell
+## 01 - PowerShell
 
 > [!NOTE]
 > The script requires administrative privileges.

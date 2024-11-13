@@ -85,4 +85,4 @@ vuln:cve-2020-0796
 
 ### Post Exploitation
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x01 - Defense Evasion/01 - Legacy Operating Systems/Windows|Defense Evasion: Legacy Windows Operating Systems]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x01 - Defense Evasion/02 - Legacy Operating Systems/Windows|Defense Evasion: Legacy Windows Operating Systems]]

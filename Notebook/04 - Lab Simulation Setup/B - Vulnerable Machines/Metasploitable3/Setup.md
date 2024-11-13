@@ -2,15 +2,11 @@
 
 ## Dependencies
 
-Ubuntu and Debian-based distros.
+Install dependencies according to your package manager.
 
 ```
 $ sudo apt install -y virtualbox virtualbox-guest-additions-iso packer vagrant
-```
 
-Arch Linux-based distros.
-
-```
 $ sudo pacman -S virtualbox virtualbox-host-modules-arch dkms packer vagrant
 ```
 
@@ -57,10 +53,18 @@ $ git clone https://github.com/rapid7/metasploitable3.git
 Run the script to build the virtual machines.
 
 ```
-$ cd metasploitable3 && ./build.sh ubuntu1404 && ./biuld.sh windows2008
+$ cd metasploitable3 && ./build.sh ubuntu1404 && ./build.sh windows2008
 ```
 
-### DNS Hosts Addresses
+## Post Installation
+
+```
+C:\> slmgr.exe /rearm
+```
+
+TODO: insert image of installing virtualbox guest addition ISO.
+
+## DNS Hosts Addresses
 
 Map the metasploitable3 IPv4 address as a DNS reference.
 

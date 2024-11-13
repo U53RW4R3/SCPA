@@ -129,28 +129,40 @@ Search Tag(s): #empire #command-and-control #interactive-shell #help-menu
 ---
 ## References
 
-* [SecurityNik: Beginning Powershell Empire Attack](https://www.securitynik.com/2022/02/beginning-powershell-empire-attack-in.html)
+### SecurityNik
 
-* [HackMag: Powershell Empire Modules](https://hackmag.com/security/powershell-empire/)
+- [SecurityNik: Beginning Powershell Empire Attack](https://www.securitynik.com/2022/02/beginning-powershell-empire-attack-in.html)
 
-* [Hacking Articles: Empire For Pentester Active Directory Enumeration](https://www.hackingarticles.in/empire-for-pentester-active-directory-enumeration/)
+### HackMag
 
-* [Hacking Articles: Powershell Empire For Pentester Mimikatz Module](https://www.hackingarticles.in/powershell-empire-for-pentester-mimikatz-module/)
+- [HackMag: Powershell Empire Modules](https://hackmag.com/security/powershell-empire/)
 
-* [Hacking Articles: OSX Exploitation with Powershell Empire](https://www.hackingarticles.in/osx-exploitation-with-powershell-empire/)
+### Hacking Articles
 
-* [Hacking Articles: Hacking with Empire Powershell Post Exploitation Agent](https://www.hackingarticles.in/hacking-with-empire-powershell-post-exploitation-agent/)
+- [Hacking Articles: Empire For Pentester Active Directory Enumeration](https://www.hackingarticles.in/empire-for-pentester-active-directory-enumeration/)
 
-* [Hacking Articles: Data Exfiltration Using Powershell Empire](https://www.hackingarticles.in/data-exfiltration-using-powershell-empire/)
+- [Hacking Articles: Powershell Empire For Pentester Mimikatz Module](https://www.hackingarticles.in/powershell-empire-for-pentester-mimikatz-module/)
 
-* [HoldMyBeer: Part 2 Intro to Threat Hunting Understanding the Attacker Mindset with Powershell Empire and the Mandiant Attack Lifecycle](https://holdmybeersecurity.com/2020/01/23/part-2-intro-to-threat-hunting-understanding-the-attacker-mindset-with-powershell-empire-and-the-mandiant-attack-lifecycle/)
+- [Hacking Articles: OSX Exploitation with Powershell Empire](https://www.hackingarticles.in/osx-exploitation-with-powershell-empire/)
 
-* [SnapLabs: Command and Control with Powershell Empire part 1](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt1)
+- [Hacking Articles: Hacking with Empire Powershell Post Exploitation Agent](https://www.hackingarticles.in/hacking-with-empire-powershell-post-exploitation-agent/)
 
-* [SnapLabs: Command and Control with Powershell Empire part 2](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt2)
+- [Hacking Articles: Data Exfiltration Using Powershell Empire](https://www.hackingarticles.in/data-exfiltration-using-powershell-empire/)
 
-* [SnapLabs: Command and Control with Powershell Empire part 3](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt3)
+### HoldMyBeer
 
-* [SnapLabs: Lateral Movement Methods and Good Practices](https://www.snaplabs.io/insights/lateral-movement-methods-and-good-practices)
+- [HoldMyBeer: Part 2 Intro to Threat Hunting Understanding the Attacker Mindset with Powershell Empire and the Mandiant Attack Lifecycle](https://holdmybeersecurity.com/2020/01/23/part-2-intro-to-threat-hunting-understanding-the-attacker-mindset-with-powershell-empire-and-the-mandiant-attack-lifecycle/)
 
-* [Empire Module Library](https://www.infosecmatter.com/empire-module-library/)
+### SnapLabs
+
+- [SnapLabs: Command and Control with Powershell Empire part 1](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt1)
+
+- [SnapLabs: Command and Control with Powershell Empire part 2](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt2)
+
+- [SnapLabs: Command and Control with Powershell Empire part 3](https://www.snaplabs.io/insights/command-and-control-with-powershell-empire-pt3)
+
+- [SnapLabs: Lateral Movement Methods and Good Practices](https://www.snaplabs.io/insights/lateral-movement-methods-and-good-practices)
+
+### Infosec Matters
+
+- [Empire Module Library](https://www.infosecmatter.com/empire-module-library/)

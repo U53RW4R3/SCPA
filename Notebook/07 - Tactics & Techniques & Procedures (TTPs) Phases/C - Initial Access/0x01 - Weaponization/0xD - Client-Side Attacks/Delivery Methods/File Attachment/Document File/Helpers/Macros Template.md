@@ -29,7 +29,7 @@ Sub Payload()
 End Sub
 ```
 
-Powershell one-liners, Web-Drive By, harvest SMB credentials, etc.
+PowerShell one-liners, Web-Drive By, harvest SMB credentials, etc.
 
 ```vbscript
 Public Function Payload() As Variant
