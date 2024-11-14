@@ -71,6 +71,48 @@ Demon » dir c:\
               dir      02/10/2022 58:56:12   Windows
 ```
 
+TODO: cover each flags on what it does
+
+```
+/b -> List only
+```
+
+List only the files.
+
+```
+Demon » dir [<drive_letter>:]\path\to\directory\ /f
+```
+
+List only the directories.
+
+```
+Demon » dir [<drive_letter>:]\path\to\directory\ /d
+```
+
+Recursive through sub directories
+
+```
+Demon » dir [<drive_letter>:]\path\to\directory\ /s
+```
+
+Starts a specific string in a filename
+
+```
+Demon » dir [<drive_letter>:]\path\to\directory\ /starts document
+```
+
+Ends a specific string in a filename
+
+```
+Demon » dir [<drive_letter>:]\path\to\directory\ /ends .txt
+```
+
+Contains a specific string in a filename
+
+```
+Demon » dir [<drive_letter>:]\path\to\directory\ /contains pass
+```
+
 ## 2.5 - File Manipulation
 
 Create directory
