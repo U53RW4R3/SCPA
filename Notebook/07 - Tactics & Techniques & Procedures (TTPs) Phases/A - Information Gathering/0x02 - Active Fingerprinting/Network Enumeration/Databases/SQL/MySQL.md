@@ -10,7 +10,13 @@ $ nc -v <IP> 3306
 $ telnet <IP> 3306
 ```
 
-### 1.2 - Metasploit
+### 1.2 - Network Mapper
+
+```
+$ nmap -p 3306 -Pn -n -sV <IP>
+```
+
+### 1.3 - Metasploit
 
 ```
 msf > use auxiliary/scanner/mysql/mysql_version
@@ -35,8 +41,10 @@ msf auxiliary(scanner/mysql/mysql_version) > run
 ## 02 - MySQL Information
 
 ```
-$ nmap -p 3306 -sV --script mysql-info <IP>
+$ nmap -p 3306 -Pn -n --script mysql-info <IP>
 ```
+
+^902dcf
 
 ## 03 - Authentication
 

