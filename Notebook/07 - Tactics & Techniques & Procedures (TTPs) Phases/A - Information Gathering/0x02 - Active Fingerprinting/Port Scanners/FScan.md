@@ -2,7 +2,7 @@
 
 ## 01 - Setup
 
-### Download pre-compiled binary
+### Download Pre-compiled Binary
 
 #### Linux
 
