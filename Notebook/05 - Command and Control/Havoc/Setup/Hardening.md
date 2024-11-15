@@ -5,7 +5,7 @@ tags:
   - red-team-infrastructure
   - havoc
 ---
-# Setup
+# Hardening
 
 Search Tag(s): #red-team-infrastructure #havoc
 

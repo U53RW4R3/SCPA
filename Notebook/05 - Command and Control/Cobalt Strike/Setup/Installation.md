@@ -1,4 +1,4 @@
-# Setup
+# Installation
 
 Search Tag(s): #cobalt-strike #command-and-control
 

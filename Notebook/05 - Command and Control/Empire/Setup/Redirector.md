@@ -5,7 +5,7 @@ tags:
   - red-team-infrastructure
   - empire
 ---
-# Setup
+# Redirector
 
 TODO: Provide a usage example redirector for Empire
 

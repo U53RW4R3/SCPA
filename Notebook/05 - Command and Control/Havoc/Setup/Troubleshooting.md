@@ -1,10 +1,8 @@
-# Reset Teamserver Database
+# Troubleshooting
 
 Search Tag(s): #havoc #command-and-control
 
-`$ cat reset-teamserver.sh`
-
----
+##  Reset Teamserver Database
 
 ```bash
 #!/bin/sh
@@ -16,4 +14,8 @@ echo "Clearing the Database"
 sqlite3 /opt/post-exploitation/Havoc/data/teamserver.db "DELETE FROM TS_Agents;"
 
 echo "Agents cleared"
+```
+
+```
+$ ./reset-teamserver.sh
 ```

@@ -1,4 +1,4 @@
-# Setup
+# Installation
 
 Search Tag(s): #metasploit-framework #command-and-control
 

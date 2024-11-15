@@ -1,30 +1,23 @@
-# Setup
+# Installation
 
 Search Tag(s): #sliver #command-and-control
 
 ## Dependencies
 
-### 01 - Arch-based distros
-
-```
-$ sudo pacman -S go mingw-w64-binutils mingw-w64-gcc curl
-```
-
-### 02 - RHL-based distros
-
-```
-$ sudo dnf -y install gnupg curl gcc gcc-c++ make mingw64-gcc
-```
-
-### 03 - Debian-based distros
+Install the required dependencies according to your package manager.
 
 ```
 $ sudo apt install -yqq gpg curl build-essential mingw-w64 binutils-mingw-w64 g++-mingw-w64
+
+$ sudo dnf -y install gnupg curl gcc gcc-c++ make mingw64-gcc
+
+$ sudo pacman -S go mingw-w64-binutils mingw-w64-gcc curl
 ```
 
-## Install
+## Install Sliver
 
-Note: you can use this script to update sliver C2 if the `update` builtin command doesn't work
+> [!NOTE] Updating Sliver C2
+> You can use this script to update sliver C2 if the `update` builtin command doesn't work sometimes due to huge size of binaries.
 
 ```
 $ wget -qO- https://sliver.sh/install | sudo bash
