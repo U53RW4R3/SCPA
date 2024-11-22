@@ -39,7 +39,7 @@ $ packmypayload [--vhd-filesystem <fat | fat32 | ntfs>] --hide [<drive_letter>:]
 Then copy the ISO File to your attacker machine and start a web server to simulate the spear phishing attack then finally you'll see **MOTW (Mark of the Web)** has not contaminated the `.lnk` shortcut file.
 
 ```
-$ sudo python -m http.server 80
+$ sudo python -m http.server [-d /path/to/directory/] 80
 ```
 
 ---

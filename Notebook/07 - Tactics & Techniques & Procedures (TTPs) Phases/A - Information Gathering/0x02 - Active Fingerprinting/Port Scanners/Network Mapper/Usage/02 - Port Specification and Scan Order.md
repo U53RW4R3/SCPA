@@ -45,4 +45,4 @@ $ nmap -vv <IP>
 ---
 ## References
 
-- [Network Mapper usage tips](https://miloserdov.org/?p=3639)
+- [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)

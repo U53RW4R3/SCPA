@@ -81,7 +81,7 @@ attrib +h $shortcutPath
 ```
 
 ```
-$ sudo python -m http.server 80
+$ sudo python -m http.server [-d /path/to/directory/] 80
 ```
 
 ---

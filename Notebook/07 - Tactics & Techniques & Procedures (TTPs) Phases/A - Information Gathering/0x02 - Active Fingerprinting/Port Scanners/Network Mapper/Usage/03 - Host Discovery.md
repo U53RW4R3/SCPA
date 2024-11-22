@@ -123,6 +123,10 @@ $ sudo nmap -sn --script ip-forwarding --script-args='target=<website.com>' <IP>
 ---
 ## References
 
-- [Network Mapper usage tips](https://miloserdov.org/?p=3639)
+### Ethical hacking and penetration testing
+
+- [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)
+
+### Network Mapper
 
 - [Network Mapper NSEDocs: resolveall Script](https://nmap.org/nsedoc/scripts/resolveall.html)

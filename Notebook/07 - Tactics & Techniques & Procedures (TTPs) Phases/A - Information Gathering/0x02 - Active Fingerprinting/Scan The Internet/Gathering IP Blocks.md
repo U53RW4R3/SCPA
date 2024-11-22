@@ -19,9 +19,13 @@ $ curl -s -L --data "<website.com>" https://2ip.me/en/services/information-servi
 ---
 ## References
 
+### Ethical hacking and penetration testing
+
 - [Ethical hacking and penetration testing: IP addresses databases of organizations and geographical places (continents, countries, provinces and cities)](https://miloserdov.org/?p=4156)
 
 - [Ethical hacking and penetration testing: How to collect Location, Country or ISP IP Ranges](https://miloserdov.org/?p=17)
+
+### Lookup IP Blocks
 
 - [w-e-b.site](https://w-e-b.site/)
 
@@ -38,3 +42,7 @@ $ curl -s -L --data "<website.com>" https://2ip.me/en/services/information-servi
 - [Country IP Blocks](https://www.countryipblocks.net/acl.php)
 
 - [herrbischoff: Country IP Blocks](https://github.com/herrbischoff/country-ip-blocks)
+
+- [kaeferjaeger: IP Ranges](https://kaeferjaeger.gay/?dir=ip-ranges)
+
+- [kaeferjaeger: CDN Ranges](https://kaeferjaeger.gay/?dir=cdn-ranges)

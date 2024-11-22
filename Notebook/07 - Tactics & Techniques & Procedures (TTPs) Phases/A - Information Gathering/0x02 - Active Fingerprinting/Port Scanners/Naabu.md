@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - port-scanners
+  - naabu
+  - network-mapper
+---
 # Naabu
 
 ## 01 - Setup

@@ -7,8 +7,6 @@ tags:
 ---
 # Hardening
 
-Search Tag(s): #red-team-infrastructure #havoc
-
 ## 01 - Firewall Rules
 
 ```

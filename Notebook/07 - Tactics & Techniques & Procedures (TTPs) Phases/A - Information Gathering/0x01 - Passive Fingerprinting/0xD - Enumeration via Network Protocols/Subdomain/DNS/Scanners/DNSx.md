@@ -82,9 +82,11 @@ CONFIGURATIONS:
 
 TODO: Provide more coverage about `dnsx`
 
-`$ echo <domain.com> | dnsx`
+```
+$ echo <domain>.<tld> | dnsx
 
-`$ dnsx -l subdomains.txt -o live-subdomains-output.txt`
+$ dnsx -l subdomains.txt -o live-subdomains-output.txt
+```
 
 ## 04 - Use Cases
 

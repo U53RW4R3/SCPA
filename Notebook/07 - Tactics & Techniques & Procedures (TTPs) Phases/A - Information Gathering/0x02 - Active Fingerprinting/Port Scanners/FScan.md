@@ -1,24 +1,36 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - port-scanners
+  - fscan
+---
 # FScan
 
 ## 01 - Setup
 
-### Download Pre-compiled Binary
+### 1.1 - Download Pre-compiled Binary
 
-#### Linux
+#### 1.1.1 - Linux
 
 ```
-$ wget [--https-only] https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan && chmod 755 fscan
+$ wget [--https-only] https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan && \
+chmod 755 fscan
 
-$ curl -ko fscan https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan && chmod 755 fscan
+$ curl -ko fscan https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan && \
+chmod 755 fscan
 ```
 
 Download pre-compiled `fscan` binary in embedded devices.
 
 ```
-$ wget --no-check-certificate -O fscan https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan_mipsle && chmod 755 fscan
+$ wget --no-check-certificate -O fscan https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan_mipsle && \
+chmod 755 fscan
 ```
 
-#### Windows
+#### 1.1.2 - Windows
 
 Download it via command prompt.
 
@@ -34,23 +46,23 @@ Download it via cmdlet.
 PS C:\> Invoke-WebRequest https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan.exe -OutFile fscan.exe
 ```
 
-### Cross Compile
+### 1.2 - Cross Compile
 
-#### Linux
+#### 1.2.1 - Linux
 
 ```
 $ git clone https://github.com/shadow1ng/fscan && \
 cd fscan && go build -ldflags="-s -w " -trimpath -o fscan main.go && \
-sudo cp fscan /usr/local/bin/ && sudo chmod 755 /usr/local/bin/fscan
+sudo cp fscan /usr/local/bin/
 ```
 
 For embedded devices.
 
 ```
-$ GOOS=windows GOARCH=mipsle go build -ldflags="-s -w " -trimpath -o fscan main.go
+$ GOARCH=mipsle go build -ldflags="-s -w " -trimpath -o fscan main.go
 ```
 
-#### Windows
+#### 1.2.2 - Windows
 
 ```
 $ GOOS=windows GOARCH=amd64 go build -ldflags="-s -w " -trimpath -o fscan.exe main.go

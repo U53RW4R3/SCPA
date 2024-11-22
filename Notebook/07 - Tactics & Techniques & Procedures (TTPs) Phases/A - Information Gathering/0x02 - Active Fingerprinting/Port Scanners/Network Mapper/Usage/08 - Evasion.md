@@ -173,9 +173,15 @@ $ nmap --initial-rtt-timeout 50ms <IP>
 ---
 ## References
 
+### Backlinks
+
 - [[User Agents]]
 
+### Network Mapper
+
 - [Network Mapper: Bypass Firewalls and IDS](https://nmap.org/book/man-bypass-firewalls-ids.html)
+
+### Hacktricks
 
 - [Hacktricks: FTP Bounce Attack](https://book.hacktricks.xyz/pentesting/pentesting-ftp/ftp-bounce-attack)
 
@@ -185,4 +191,6 @@ $ nmap --initial-rtt-timeout 50ms <IP>
 
 - [Firewall Bypassing Techniques with Nmap and Hping3](https://dzone.com/articles/firewall-bypassing-techniques-with-nmap-and-hping3)
 
-- [Network Mapper usage tips](https://miloserdov.org/?p=3639)
+### Ethical hacking and penetration testing
+
+- [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)

@@ -19,6 +19,10 @@ $ sudo nmap -sn -PE -n --min-hostgroup 1024 --min-parallelism 1024 -oX output.xm
 ---
 ## References
 
-- [Nmap Book: Scan a Larget Network for a Certain Open TCP Port](https://nmap.org/book/solution-find-open-port.html)
+### Network Mapper
 
-- [Network Mapper usage tips](https://miloserdov.org/?p=3639)
+- [Nmap Book: Scan a Largest Network for a Certain Open TCP Port](https://nmap.org/book/solution-find-open-port.html)
+
+### Ethical hacking and penetration testing
+
+- [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)

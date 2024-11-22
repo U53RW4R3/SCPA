@@ -3,7 +3,7 @@
 Grab a [[HTML Smuggling Templates|basic template]] to host a payload.
 
 ```
-$ sudo python -m http.server 80
+$ sudo python -m http.server [-d /path/to/directory/] 80
 ```
 
 ---

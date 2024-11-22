@@ -2,9 +2,17 @@
 
 Search Tag(s): #havoc #command-and-control
 
-## 01 - Compile and Execute
+## 01 - Package Manager
 
-### 1.1 - Install Dependencies
+Install Havoc according to your package manager.
+
+```
+$ yay -S havoc-c2-git
+```
+
+## 02 - Compile
+
+### 2.1 - Install Dependencies
 
 Install the required dependencies according to your package manager.
 
@@ -14,7 +22,7 @@ $ sudo pacman -S git gcc base-devel cmake fontconfig glu gtest spdlog boost boos
 $ sudo apt install -y git build-essential apt-utils cmake libfontconfig1 libglu1-mesa-dev libgtest-dev libspdlog-dev libboost-all-dev libncurses5-dev libgdbm-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev mesa-common-dev qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libqt5websockets5 libqt5websockets5-dev qtdeclarative5-dev golang-go qtbase5-dev libqt5websockets5-dev libspdlog-dev python3-dev libboost-all-dev mingw-w64 nasm
 ```
 
-### 1.2 - Clone the repository
+### 2.2 - Clone the repository
 
 ```
 $ sudo git clone [--branch dev] https://github.com/HavocFramework/Havoc.git /opt/post-exploitation/Havoc
@@ -22,13 +30,13 @@ $ sudo git clone [--branch dev] https://github.com/HavocFramework/Havoc.git /opt
 $ sudo chown $USER:$(id -gn $USER) -R /opt/post-exploitation/Havoc
 ```
 
-### 1.3 - Compile the client
+### 2.3 - Compile the client
 
 ```
 $ cd /opt/post-exploitation/Havoc/ && make client-build
 ```
 
-### 1.4 - Compile the teamserver
+### 2.4 - Compile the teamserver
 
 > [!NOTE]
 > Please be patient while it's downloading custom compilers.
@@ -40,9 +48,9 @@ go mod download github.com/ugorji/go && \
 cd .. && make ts-build
 ```
 
-## 02 - Teamserver and Client
+## 02 - Teamserver
 
-### 2.1 - Setup Malleable C2 Profile
+Create a malleable c2 profile for the teamserver.
 
 ```
 Teamserver {
@@ -135,7 +143,7 @@ $ cd /opt/post-exploitation/Havoc/
 $ sudo ./havoc server --profile profiles/havoc.yaotl
 ```
 
-Run the client
+## 03 - Operator
 
 ```
 $ cd /opt/post-exploitation/Havoc/
@@ -143,9 +151,9 @@ $ cd /opt/post-exploitation/Havoc/
 $ ./havoc client
 ```
 
-## 03 - Troubleshooting
+## 04 - Troubleshooting
 
-### 3.1 - Set custom QT fonts
+### 4.1 - Set custom QT fonts
 
 **Kali Linux** and probably other pentest distros like **Parrot OS** may have a problem with the QT framework settings that has hardcoded font. It's an easy fix so here are the steps.
 
@@ -158,3 +166,21 @@ Go to **Fonts** then change the **General** fonts
 ![[02 - Qt5 Fonts Configuration.png]]
 
 You're good to go user!
+
+### 4.2 - Reset Teamserver Database
+
+```bash
+#!/bin/sh
+echo "Stopping the Havoc TeamServer"
+pid=$(ps aux | grep "havoc server" | grep -v grep | awk '{print $2}')
+kill "$pid"
+
+echo "Clearing the Database"
+sqlite3 /opt/post-exploitation/Havoc/data/teamserver.db "DELETE FROM TS_Agents;"
+
+echo "Agents cleared"
+```
+
+```
+$ ./reset-teamserver.sh
+```

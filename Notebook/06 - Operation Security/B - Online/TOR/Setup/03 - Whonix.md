@@ -118,3 +118,5 @@ Here's an image as an example.
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
 
 - [IP API](https://ip-api.com)
+
+- [IPv4.cat](https://about.ipv4.cat/)
