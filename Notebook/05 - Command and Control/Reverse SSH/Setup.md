@@ -1,22 +1,20 @@
-# Reverse SSH
+# Setup
 
-## Setup
-
-### Generate SSH Key
+## Generate SSH Key
 
 ```
 $ ssh-keygen -qt rsa -b 4096 -f id_rsa -C '' -N ''
 ```
 
-### Server
+## Server
 
-#### Docker Setup
+### Docker Setup
 
 ```
 $ docker run -p 3232:2222 -e EXTERNAL_ADDRESS=<C2_IP>:3232 -e SEED_AUTHORIZED_KEYS="$(cat ~/.ssh/id_ed25519.pub)" -v ./data:/data reversessh/reverse_ssh
 ```
 
-#### Compile From Source
+### Compile From Source
 
 TODO: Fill in this info
 

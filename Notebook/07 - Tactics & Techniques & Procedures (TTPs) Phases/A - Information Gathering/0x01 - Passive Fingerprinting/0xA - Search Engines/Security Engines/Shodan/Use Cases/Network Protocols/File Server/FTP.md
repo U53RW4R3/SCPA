@@ -22,7 +22,9 @@ port:21 User logged in product:"Microsoft ftpd"
 
 ## Default Passwords
 
-`"default password" port:21`
+```
+"default password" port:21
+```
 
 ## RCE
 

@@ -1,13 +1,11 @@
 # Quick Scan
 
-## theHarvester
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Gathering URLs/Scanners/theHarvester|theHarvester]]
 
 ```
-$ theHarvester -l 1500 -d <domain.com | organization_name> -b bing,yahoo,duckduckgo
+$ theHarvester -l 1500 -d <domain.com | organization_name> -b baidu,bing,duckduckgo,yahoo,linkedin -f output.json
 
-$ theHarvester -d <domain.com | organization_name> -l 800 -b google,bing,yahoo,duckduckgo,twitter,linkedin,sublist3r,dnsdumpster
-
-$ theHarvester -d DigiNinja -b google,bing,linkedin,duckduckgo -f digininja.xml
+$ theHarvester -l 1500 -d <domain.com | organization_name> -b baidu,bing,bingapi,duckduckgo,yahoo,twitter,linkedin -f output.json
 ```
 
 ## Whatweb
@@ -99,10 +97,12 @@ msf auxiliary(gather/search_email_collector) > run
 ---
 ## References
 
+### Backlinks
+
 - [[User Agents]]
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
 
-- [theHarvester](https://github.com/laramies/theHarvester)
+### Hacking Articles
 
 - [Hacking Articles: A Detailed Guide on Cewl](https://www.hackingarticles.in/a-detailed-guide-on-cewl/)

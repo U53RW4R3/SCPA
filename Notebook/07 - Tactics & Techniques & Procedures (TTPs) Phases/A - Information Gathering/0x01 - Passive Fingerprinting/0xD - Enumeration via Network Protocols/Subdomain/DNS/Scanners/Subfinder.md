@@ -73,20 +73,35 @@ TODO: Fill this info
 
 ## Usage
 
-`$ subfinder -d <domain.com>`
+```
+$ subfinder -d <domain>.<tld>
 
-`$ subfinder -dL domains.txt`
+$ subfinder -dL domains.txt
+```
 
 List the available sources that are used for collecting subdomains.
 
-`$ subfinder -ls`
+```
+$ subfinder -ls
+```
 
-Specify suddomain values
+Specify subdomain values
 
-`$ subfinder -dL domains.txt -s alienvault,anubis,crtsh,dnsdumpster,hackertarget,rapiddns,securitytrails,sitedossier`
+```
+$ subfinder -dL domains.txt -s alienvault,anubis,crtsh,dnsdumpster,hackertarget,rapiddns,securitytrails,sitedossier
+```
 
 ## Use Cases
 
 ### Active Subdomains
 
-`$ subfinder -silent -dL domains.txt | dnsx -silent -o live-subdomains-output.txt`
+```
+$ subfinder -silent -dL domains.txt | dnsx -silent -o live-subdomains-output.txt
+```
+
+---
+## References
+
+### InternalAllTheThings
+
+- [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)

@@ -148,4 +148,10 @@ $ findomain -f domains.txt -r -o output-resolved.txt
 ---
 ## References
 
+### Backlinks
+
 - [[03 - Malware Development/Global Helpers/Programs/Compilers/Cross Platform/Rust|Compilers: Rust]]
+
+### InternalAllTheThings
+
+- [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)

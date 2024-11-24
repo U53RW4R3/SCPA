@@ -142,6 +142,7 @@
     7. [SharPyShell](https://github.com/antonioCoco/SharPyShell)
     8. [PHPBash](https://github.com/Arrexel/phpbash)
     9. [Blackarch Webshells](https://github.com/BlackArch/webshells) || [PHP-Webshells](https://github.com/JohnTroony/php-webshells) || [WWolf-PHP-Webshell](https://github.com/WhiteWinterWolf/wwwolf-php-webshell) && [Description of WWolf](https://www.whitewinterwolf.com/tags/php-webshell/)
+    10. [DFShell](https://github.com/D3Ext/DFShell)
 
 1. [windows-binaries (Gitlab Repo)](https://gitlab.com/kalilinux/packages/windows-binaries) || [Github Repo](https://github.com/BlackArch/windows-binaries)
 2. [Mitmproxy](https://mitmproxy.org/) -> [Blog Post](https://mullikine.github.io/posts/using-mitmproxy-with-proxychains-to-inspect-http-traffic/) (Using mitmproxy with proxychains to inspect http traffic)

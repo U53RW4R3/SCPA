@@ -34,3 +34,10 @@ Module options (auxiliary/gather/enum_dns):
 
 msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserver_IP_2>,<nameserver_IP_n>] domain=<website.com>
 ```
+
+---
+## References
+
+### InternalAllTheThings
+
+- [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)

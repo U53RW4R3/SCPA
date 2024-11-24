@@ -2,6 +2,12 @@
 
 TODO: Provide a short description for it with real use cases
 
+## h8mail
+
+```
+$ h8mail -u "https://pastebin.com/raw/<URI>" "list_of_urls.txt"
+```
+
 ---
 ## References
 

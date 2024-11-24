@@ -1,6 +1,4 @@
-# HTTP
-
-## Microsoft IIS
+# Microsoft IIS
 
 ```
 "Server: Microsoft-IIS/0.0"

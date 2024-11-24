@@ -13,14 +13,6 @@
         - [OSINTFramework](https://osintframework.com)
         - https://cipher387.github.io/osint_stuff_tool_collection/
         - https://github.com/nayanamana/et_tu_brute_thewebconf_22
-2. Active Fingerprint
-    + Port Scanning
-        - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Network%20Discovery.md
-    + Enumeration
-        - HTTP Enumeration
-            - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Subdomains%20Enumeration.md
-        - SMB Enumeration
-            - [A Little Guide to SMB Enumeration](https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/)
 
 ## Password Attacks
 
@@ -51,11 +43,7 @@
 
 ## WebApp Hacking
 
-1. Overview
-    - https://github.com/R0B1NL1N/WebHacking101
-2. OWASP
-    - https://shahrukhathar.info/local-file-inclusion-lfi-cheat-sheet/
-3. Pentest-Ground
+1. Pentest-Ground
     - https://pentest-ground.com/
 
 ## Post Exploitation
@@ -63,13 +51,10 @@
 1. Overview
     - https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
     - https://github.com/RoseSecurity/Red-Teaming-TTPs
-    - https://pentestwiki.org/post-exploitation/
     - https://blog.certcube.com/osep-preparation-methodology-learning-track/
     - https://github.com/0xOverflow/RedTeam-Physical-Tools
     - https://github.com/marcosValle/awesome-windows-red-team
-    - http://pwnwiki.io
-    - https://www.ired.team && https://github.com/mantvydasb/RedTeam-Tactics-and-Techniques
-    - https://github.com/TheParmak/conti-leaks-englished
+    - https://www.ired.team
     - https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/
     - https://lots-project.com/
     - https://www.expireddomains.net/expired-domains/
@@ -81,24 +66,14 @@
     - https://redteamtechniques.github.io/Windows%20&%20AD%20Hacking/
 3. Post Exploitation
     + Overview
-        * Linux
-            - 
         * Windows
             - https://github.com/emilyanncr/Windows-Post-Exploitation
         * https://github.com/center-for-threat-informed-defense/adversary_emulation_library
     + MindMap
         * https://www.xmind.net/m/QsNUEz/
         * https://github.com/umuttosun/OSCP-MindMap/
-    + Initial Foothold
-        * Windows
-            - https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes
-            - https://redteamzone.com/EternalBlue/
-        * https://filesec.io/
     + Privilege Escalation
-        * https://pentestwiki.org/privilege-escalation-in-windows-and-linux/
         * Linux
-            - https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
-            - https://blog.certcube.com/linux-privilege-escalation-part-tools-techniques/
             - https://payatu.com/guide-linux-privilege-escalation
             - https://int0x33.medium.com/day-44-linux-capabilities-privilege-escalation-via-openssl-with-selinux-enabled-and-enforced-74d2bec02099
         * Windows
@@ -132,20 +107,11 @@
             -
         * WebApps
             - https://serverpilot.io/docs/where-to-find-your-database-credentials-in-joomla/
-4. Living off the Land (LotL)
-    + Linux
-        * [GTFOBins](https://gtfobins.github.io)
-    + Windows
-        * [LOLBAS](https://lolbas-project.github.io/)
-5. Bring Your Own Island (BYOL)
+4. Bring Your Own Island (BYOL)
     + Mandiant
         * https://www.mandiant.com/resources/blog/live-off-the-land-an-overview-of-unc1945
-6. Defense Evasion
+5. Defense Evasion
     + Metasploit
         * SSL Impersonation
             - https://github.com/blumirabrian/endpoint-detection-methology
             - https://cyberstruggle.org/symantec-end-point-protection-bypass-meterpreter-pivoting/
-    + Empire
-        * https://flikk.blog/2022/01/25/modifying-empire-payloads-to-avoid-detection/
-    + Anti-Forensics
-        * https://pentestwiki.org/covering-tracks/

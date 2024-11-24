@@ -15,17 +15,25 @@ deactivate
 
 TODO: Provide more usage coverage for sublist3r2
 
-`$ source ~/environments/sublist3r2/bin/activate`
+```
+$ source ~/environments/sublist3r2/bin/activate
 
-`$ sublist3r2 -d <domain.com> -b -t 64 -o subdomains.txt`
+$ sublist3r2 -d <domain.com> -b -t 64 -o subdomains.txt
 
-`$ sublist3r2 -d <domain.com> -o subdomains.txt`
+$ sublist3r2 -d <domain.com> -o subdomains.txt
 
-`$ sublist3r2 -d <domain.com> -t 20 -p 21,22,80,110,443,445,3306,3389 -o subdomains.txt`
+$ sublist3r2 -d <domain.com> -t 20 -p 21,22,80,110,443,445,3306,3389 -o subdomains.txt
 
-`$ sublist3r2 -e google,yahoo,virustotal -d <domain.com> -o subdomains.txt`
+$ sublist3r2 -e google,yahoo,virustotal -d <domain.com> -o subdomains.txt
+```
 
 ---
 ## References
 
+### Github
+
 - [Sublist3r2](https://github.com/RoninNakomoto/Sublist3r2.git)
+
+### InternalAllTheThings
+
+- [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)

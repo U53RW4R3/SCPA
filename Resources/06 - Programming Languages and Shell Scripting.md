@@ -17,7 +17,7 @@
 4. Python
 5. Go
 6. Ruby
-    - https://rubyfu.net
+    - [RubyFu](https://rubyfu.net)
 7. Perl
 8. PHP
 9. Javascript
@@ -32,6 +32,6 @@
     - [BashGuide](https://mywiki.wooledge.org/BashGuide)
     - [Bash Scripting Cheatsheet](https://devhints.io/bash)
 2. Powershell
-    - https://www.infosecmatter.com/pure-powershell-infosec-cheatsheet/
+    - [InfoSec Matter: Pure PowerShell Infosec Cheatsheet](https://www.infosecmatter.com/pure-powershell-infosec-cheatsheet/)
     - [at-ps](https://github.com/specterops/at-ps)
     - [Red Team Recipe: Powershell Tips & Tricks(RTC0024)](https://redteamrecipe.com/powershell-tips-tricks/)

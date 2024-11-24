@@ -10,7 +10,7 @@
 7. [Log-Killer](https://github.com/Rizer0/Log-killer)
 8. [ExifCleaner](https://exifcleaner.com)
 9. [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner)
-10. [Go-CoverMyAss](https://github.com/sundowndev/go-covermyass) (Written in Golang) || [CoverMyAss](https://github.com/sundowndev/covermyass) (Originally made in Bash script and a great start for anti-forensics techniques against Unix-Like OS)
+10. [CoverMyAss](https://github.com/sundowndev/covermyass)
 11. [ClearLogs (Github Repo)](https://github.com/maldevel/clearlogs) && [Sourceforge Repo](https://sourceforge.net/projects/clearlogs/)
 12. [SRM (Secure ReMove)](https://sourceforge.net/projects/srm/)
 13. [LLC (Linux Log Cleaner)](https://github.com/Macr0phag3/LLC)

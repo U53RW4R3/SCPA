@@ -1,16 +1,18 @@
 # Information Gathering
 
 * DNS Analysis
-    1. [DNSenum](https://github.com/fwaeytens/dnsenum)
-    2. [DNSMap](https://code.google.com/archive/p/dnsmap/) && [Backup](https://github.com/resurrecting-open-source-projects/dnsmap)
-    3. [DNSRecon](https://github.com/darkoperator/dnsrecon)
-    4. [DNSTracer](https://www.mavetju.org/unix/dnstracer.php)
-    5. [DNSWalk](http://sourceforge.net/projects/dnswalk/)
-    6. [Fierce](https://github.com/davidpepper/fierce-domain-scanner) && [Fierce written in Python](https://github.com/mschwager/fierce)
-    7. [URLCrazy](http://www.morningstarsecurity.com/research/urlcrazy)
-    8. [MassDNS](https://github.com/blechschmidt/massdns)
-    9. [ShuffleDNS](https://github.com/projectdiscovery/shuffledns)
-    10. [DNSx](https://github.com/projectdiscovery/dnsx)
+    2. [DNSRecon](https://github.com/darkoperator/dnsrecon)
+    3. [DNSTracer](https://www.mavetju.org/unix/dnstracer.php)
+    4. [DNSWalk](http://sourceforge.net/projects/dnswalk/)
+    5. [Fierce](https://github.com/davidpepper/fierce-domain-scanner) && [Fierce written in Python](https://github.com/mschwager/fierce)
+    6. [URLCrazy](http://www.morningstarsecurity.com/research/urlcrazy)
+    7. [MassDNS](https://github.com/blechschmidt/massdns)
+    8. [ShuffleDNS](https://github.com/projectdiscovery/shuffledns)
+    9. [DNSx](https://github.com/projectdiscovery/dnsx)
+
+* HTTP Analysis
+    1. [HTTPx](https://github.com/projectdiscovery/httpx)
+    2. [WhatWeb](https://www.morningstarsecurity.com/research/whatweb)
 
 * IDS/IPS Identification
     1. [Firewalk](http://packetfactory.openwall.net/projects/firewalk/)

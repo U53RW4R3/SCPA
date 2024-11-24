@@ -91,3 +91,10 @@ $ dnsx -l subdomains.txt -o live-subdomains-output.txt
 ## 04 - Use Cases
 
 TODO: Provide use cases related to `dnsx`
+
+---
+## References
+
+### InternalAllTheThings
+
+- [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)

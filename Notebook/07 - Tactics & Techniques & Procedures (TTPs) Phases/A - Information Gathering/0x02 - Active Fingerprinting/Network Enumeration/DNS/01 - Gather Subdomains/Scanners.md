@@ -107,6 +107,12 @@ $ source ~/environments/sublist3r2/bin/activate
 $ sublist3r2 -d website.com -b -t 64 -o subdomains.txt
 ```
 
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Gathering URLs/Scanners/theHarvester|theHarvester]]
+
+```
+$ theHarvester -n -c -l 1000 -d <domain.tld | organization_name> -b bufferoverun,certspotter,crtsh,dnsdumpster,hackertarget
+```
+
 ## Knockpy
 
 ```
@@ -131,7 +137,7 @@ $ nmap -sL --dns-servers <dns_server_1>,<dns_server_2>,<dns_server_n> <IP>/<CIDR
 
 ## Metasploit
 
-- Metasploit auxiliary module DNS Amplification Scanner
+Metasploit auxiliary module DNS Amplification Scanner
 
 ```
 msf > use auxiliary/scanner/dns/dns_amp

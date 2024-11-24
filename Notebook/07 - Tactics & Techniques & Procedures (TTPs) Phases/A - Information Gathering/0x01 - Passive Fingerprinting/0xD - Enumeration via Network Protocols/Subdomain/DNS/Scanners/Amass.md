@@ -38,3 +38,7 @@ $ amass intel -ip -cidr <IP>/<CIDR>
 - [Amass User Guide](https://github.com/OWASP/Amass/wiki/User-Guide)
 
 - [Amass Quick Tutorial Example Usage](https://allabouttesting.org/owasp-amass-quick-tutorial-example-usage/)
+
+### InternalAllTheThings
+
+- [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)
