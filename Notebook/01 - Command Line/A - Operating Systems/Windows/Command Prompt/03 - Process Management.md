@@ -47,25 +47,7 @@ C:\> wmic.exe PATH Win32_Process GET Caption,Name,OSName,ExecutablePath,ProcessI
 C:\> wmic.exe PROCESS CALL CREATE "<process>.exe"
 ```
 
-## 3.3 - Terminate Processes
-
-### 3.3.1 - Kill Process
-
-Terminate the process with process identifier (PID).
-
-```
-C:\> taskkill.exe /pid <PID> /f
-```
-
-Terminate the process with a name.
-
-```
-C:\> taskkill.exe /im <process.exe> /f
-
-C:\> wmic.exe PROCESS WHERE "Name LIKE '<process.exe>'" CALL Terminate
-```
-
-## 3.4 - Fork Background Process
+## 3.3 - Fork Background Process
 
 ```
 C:\> start /b <command> [arguments]
@@ -77,18 +59,6 @@ C:\> start /b <command> [arguments]
 ### Backlinks
 
 - [[Windows Command Prompt References]]
-
-### LOFLCAB
-
-- [LOFLCAB: tasklist](https://lofl-project.github.io/loflcab/Binaries/tasklist/)
-
-- [LOFLCAB: taskkill](https://lofl-project.github.io/loflcab/Binaries/taskkill/)
-
-- [LOFLCAB: WMIC](https://lofl-project.github.io/loflcab/Binaries/wmic/)
-
-### Hacking Articles
-
-- [Hacking Articles: Post Exploitation Using WMIC (System Command)](https://www.hackingarticles.in/post-exploitation-using-wmic-system-command/)
 
 ### Mubix
 

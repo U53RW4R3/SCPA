@@ -23,15 +23,7 @@ $ ps aux --forest
 $ pgrep <program>
 ```
 
-## 6.2 - Terminating Process
-
-```
-$ kill -9 <pid>
-
-$ pkill -9 <program>
-```
-
-## 6.3 - Fork Background Process
+## 6.2 - Fork Background Process
 
 ```
 $ <command> [arguments] &

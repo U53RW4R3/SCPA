@@ -19,7 +19,7 @@ $ sudo umount /mnt/ntfs/
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x01 - Defense Evasion/10 - Hide Artifacts/Alternate Data Streams (ADS)/Living off the Land|Windows: Hide Artifacts]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x01 - Defense Evasion/12 - Hide Artifacts/Alternate Data Streams (ADS)/Living off the Land|Windows: Hide Artifacts]]
 
 - [Red Canary: Mark-of-the-Web Bypass](https://redcanary.com/threat-detection-report/techniques/mark-of-the-web-bypass/)
 

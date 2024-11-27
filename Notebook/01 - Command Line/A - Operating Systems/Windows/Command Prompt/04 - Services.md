@@ -44,6 +44,10 @@ C:\> sc.exe [\\<IP>] stop <servicesvc>
 ---
 ## References
 
+### Backlinks
+
 - [[Windows Command Prompt References]]
+
+### LOFLCAB
 
 - [LOFLCAB: WMIC](https://lofl-project.github.io/loflcab/Binaries/wmic/)

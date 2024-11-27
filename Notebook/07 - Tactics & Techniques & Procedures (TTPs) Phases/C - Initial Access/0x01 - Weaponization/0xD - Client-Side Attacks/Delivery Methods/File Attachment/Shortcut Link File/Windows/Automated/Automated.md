@@ -5,6 +5,8 @@ TODO: Fill in the information
 ---
 ## References
 
+- [xct: hashgrab](https://github.com/xct/hashgrab)
+
 - [strayge: pylnk](https://github.com/strayge/pylnk)
 
 - [XP1: Wine-menu-shortcut](https://github.com/XP1/Wine-menu-shortcut)
