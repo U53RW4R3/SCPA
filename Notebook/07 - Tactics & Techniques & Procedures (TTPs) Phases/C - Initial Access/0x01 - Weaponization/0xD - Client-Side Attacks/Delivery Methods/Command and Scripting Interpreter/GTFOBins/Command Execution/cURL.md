@@ -33,3 +33,8 @@ TODO: Fill this info
 ```
 $ gcc
 ```
+
+---
+## References
+
+- [GTFOArgs: curl](https://gtfoargs.github.io/gtfoargs/curl/)

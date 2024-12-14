@@ -26,7 +26,7 @@ $ curl -g -X 'GET' \
 ### 2.1 - Retrieve IP Addresses
 
 ```
-$ grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" censys-output.json | sort -u > ip_targets.txt
+$ grep -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}" censys-output.json | sort -u > ip_targets.txt
 ```
 
 ---

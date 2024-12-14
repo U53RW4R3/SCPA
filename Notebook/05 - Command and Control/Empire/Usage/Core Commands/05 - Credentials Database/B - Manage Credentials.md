@@ -21,7 +21,7 @@ Search Tag(s): #empire #command-and-control #help-menu
 
 ## 02 - Usage
 
-* List the credentials
+List the credentials
 
 ```
 (Empire: usecredential/add) > list
@@ -33,7 +33,7 @@ Search Tag(s): #empire #command-and-control #help-menu
 └────┴───────────┴────────┴───────────────┴──────────────┴───────────────┴─────┴────┴───────┘
 ```
 
-* Remove credential
+Remove credential
 
 ```
 (Empire: credentials) > remove 1

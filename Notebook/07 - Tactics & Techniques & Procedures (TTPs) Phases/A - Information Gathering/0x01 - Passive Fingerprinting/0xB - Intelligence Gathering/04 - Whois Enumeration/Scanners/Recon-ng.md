@@ -1,21 +1,5 @@
 # Recon-ng
 
-- `viewdns_reverse_whois` recon-ng module
-
-```
-[recon-ng][default] > marketplace install recon/companies-domains/viewdns_reverse_whois
-
-[recon-ng][default] > modules load recon/companies-domains/viewdns_reverse_whois
-
-[recon-ng][default][viewdns_reverse_whois] > options set SOURCE <domain.com>
-
-[recon-ng][default][viewdns_reverse_whois] > options set SOURCE query SELECT DISTINCT host FROM hosts WHERE host IS NOT NULL
-
-[recon-ng][default][viewdns_reverse_whois] > run
-
-[recon-ng][default][viewdns_reverse_whois] > back
-```
-
 - `whois_miner` recon-ng module
 
 ```

@@ -11,6 +11,7 @@ intitle:"Brother" intext:"View Configuration" intext:"Brother Industries, Ltd."
 
 ```
 intitle:"Remote UI" intitle:"Top Page" intitle:Canon
+inurl:8000 intext::"Copyright CANON INC. 2012"
 ```
 
 ## Dell
@@ -30,4 +31,17 @@ intitle:"EpsonNet (Config|WebAssist) Rev"
 ```
 inurl:hp/device/this.LCDispatcher
 intitle:"HP Officejet" inurl:index.htm
+"HP LaserJet" inurl:"SSI/index.htm"
+```
+
+## Oki
+
+```
+inurl:/index.htm intext:"Oki Data Corporation"
+```
+
+## Tektronics
+
+```
+intext:"Copyright (c) Tektronix, Inc." "printer status"
 ```

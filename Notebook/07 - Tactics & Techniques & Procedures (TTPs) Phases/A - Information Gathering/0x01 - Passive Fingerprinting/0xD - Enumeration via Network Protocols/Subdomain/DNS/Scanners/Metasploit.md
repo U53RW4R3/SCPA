@@ -32,7 +32,7 @@ Module options (auxiliary/gather/enum_dns):
    THREADS      1                                                            no        Threads for ENUM_BRT
    WORDLIST     /usr/share/metasploit-framework/data/wordlists/namelist.txt  no        Wordlist of subdomains
 
-msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserver_IP_2>,<nameserver_IP_n>] domain=<website.com>
+msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserver_IP_2>,<nameserver_IP_n>] domain=<domain>.<tld>
 ```
 
 ---

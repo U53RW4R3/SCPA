@@ -24,7 +24,7 @@ $ ldapdomaindump <IP> [-r <domain_controller_IP>] -u '<domain>\<username>' -p '<
 > TLD (Top Level Domain) looks like this `.com`, `.net`, etc.
 
 ```
-$ ldapsearch -x ldap://<domain_controller_IP> -D '<DOMAIN>\<username>' -w '<password>' -b "[DC=<subdomain>,]DC=<domain>,DC=<tdl>"
+$ ldapsearch -x -D '<DOMAIN>\<username>' -w '<password>' -b "[DC=<subdomain>,]DC=<domain>,DC=<tdl>" -H ldap://<domain_controller_IP>
 ```
 
 ---

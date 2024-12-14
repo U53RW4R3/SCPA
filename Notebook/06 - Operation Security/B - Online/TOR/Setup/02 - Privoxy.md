@@ -1,10 +1,7 @@
 # 02 - Privoxy
 
-`$ cat /etc/privoxy/config`
-
----
-
 ```
+$ sudo cat > /etc/privoxy/config << EOF
 user-manual /usr/share/doc/privoxy/user-manual/
 confdir /etc/privoxy
 logdir /var/log/privoxy
@@ -32,9 +29,10 @@ socket-timeout 300
 forward-socks4  /   127.0.0.1:9050  .
 forward-socks4a /   127.0.0.1:9050  .
 forward-socks5  /   127.0.0.1:9050  .
-```
+EOF
 
-`$ privoxy /etc/privoxy/config`
+$ privoxy /etc/privoxy/config
+```
 
 Refer to [[Terminal Setup]] section to configure a bash resource file
 
@@ -45,7 +43,7 @@ server: localhost
 port: 8118
 ```
 
-- Lookup IP
+Lookup IP
 
 ```
 $ curl https://ipinfo.io
@@ -57,7 +55,7 @@ $ curl https://ip.me
 $ curl 'https://api.ipify.org?format=json'
 ```
 
-- Check if you're connected to TOR
+Check if you're connected to TOR
 
 ```
 $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."

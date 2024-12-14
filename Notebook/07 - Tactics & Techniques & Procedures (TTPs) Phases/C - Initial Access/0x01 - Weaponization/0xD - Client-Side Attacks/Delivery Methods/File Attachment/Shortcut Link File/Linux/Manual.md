@@ -11,6 +11,12 @@ credits:
 ---
 # Manual
 
+TODO:
+
+shortcut to application (.desktop extension)
+link to resource (.desktop extension)
+submenu (.directory extension)
+
 ## Fake Document
 
 ```
@@ -37,3 +43,7 @@ EOF
 ### Null Byte
 
 - [Null Byte: Pop a Reverse Shell with a Video File by Exploiting Popular Linux File Managers](https://null-byte.wonderhowto.com/how-to/pop-reverse-shell-with-video-file-by-exploiting-popular-linux-file-managers-0196078)
+
+### Vicarius
+
+- [Vicarius: Phishing Linux Users with Zero Detection!](https://www.vicarius.io/vsociety/posts/phishing-linux-users-with-zero-detection)

@@ -221,7 +221,7 @@ FILE="${2}"
 USERNAME="${3}"
 PASSWORD="${4}"
 
-IPV4_REGEX="\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"
+IPV4_REGEX="([0-9]{1,3}\.){3}[0-9]{1,3}"
 
 function scan() {
 	local ip=()

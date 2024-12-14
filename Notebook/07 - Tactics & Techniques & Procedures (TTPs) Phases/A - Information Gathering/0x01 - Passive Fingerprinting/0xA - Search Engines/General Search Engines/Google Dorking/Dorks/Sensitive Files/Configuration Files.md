@@ -6,6 +6,12 @@
 ext:(xml | conf | cnf | reg | inf | rdp | cfg | txt | ora | ini | env)
 ```
 
+## Firewall Rules
+
+```
+filetype:conf inurl:firewall -intitle:cvs
+```
+
 ## Kerberos
 
 ```

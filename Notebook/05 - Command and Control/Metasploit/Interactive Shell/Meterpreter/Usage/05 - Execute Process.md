@@ -43,4 +43,4 @@ meterpreter > execute -Hicf ./implant
 ---
 ## References
 
-* [Metasploit for Pentester Migrate](https://www.hackingarticles.in/metasploit-for-pentester-migrate/)
+- [Hacking Articles: Metasploit for Pentester Migrate](https://www.hackingarticles.in/metasploit-for-pentester-migrate/)

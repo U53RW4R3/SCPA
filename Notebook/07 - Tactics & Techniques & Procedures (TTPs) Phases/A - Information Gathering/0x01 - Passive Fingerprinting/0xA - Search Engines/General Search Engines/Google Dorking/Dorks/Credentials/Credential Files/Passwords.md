@@ -1,5 +1,20 @@
 # Passwords
 
+## Database
+
+```
+filetype:properties inurl:db intext:password
+```
+
+## Environment Files
+
+```
+filetype:env "DB_USERNAME"
+filetype:env=v "DB_PASSWORD"
+
+ext:ini intext:env.ini
+```
+
 ## Files
 
 ```
@@ -10,18 +25,10 @@ cloud.passwd
 ftp.passwd
 ```
 
-## Environment Files
+## Frontpage
 
 ```
-filetype:env "DB_PASSWORD"
-```
-
-## HTPasswd
-
-```
-inurl:htpasswd ext:txt
-filetype:htpasswd htpasswd
-filetype:htpasswd inurl:htpasswd
+intext:" -FrontPage-" ext:pwd inurl:(service | authors | administrators | users)
 ```
 
 ## Generic
@@ -32,6 +39,20 @@ intitle:index.of "<filename>.txt"
 intitle:"index of" share.passwd OR cloud.passwd OR ftp.passwd - public
 
 intitle:"index of" share.passwd OR cloud.passwd OR ftp.passwd - public
+```
+
+Windows registry files
+
+```
+filetype:reg reg +intext:"defaultusername" +intext:"defaultpassword"
+```
+
+## HTPasswd
+
+```
+inurl:htpasswd ext:txt
+filetype:htpasswd htpasswd
+filetype:htpasswd inurl:htpasswd
 ```
 
 ## Mail Server

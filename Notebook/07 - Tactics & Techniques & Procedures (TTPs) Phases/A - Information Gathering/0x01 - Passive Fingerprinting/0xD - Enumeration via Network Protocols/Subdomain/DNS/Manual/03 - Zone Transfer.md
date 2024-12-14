@@ -41,3 +41,14 @@ Enumerate DNS subdomains via zonetransfer via `host`.
 ```
 $ host -l <domain.com> <dns_nameserver>
 ```
+
+---
+## References
+
+### Backlinks
+
+- [[References DNS Records]]
+
+### Hacktricks
+
+- [Hacktricks: Pentesting DNS](https://book.hacktricks.xyz/pentesting/pentesting-dns)

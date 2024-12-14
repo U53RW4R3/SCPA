@@ -4,7 +4,7 @@ Search Tag(s): #metasploit-framework #command-and-control #interactive-shell
 
 ## 4.1 - Migrate to Another Process
 
-* Setting up listener to auto migrate to another process
+Setting up listener to auto migrate to another process.
 
 ```
 msf exploit(multi/handler) > set lhost 10.0.2.4

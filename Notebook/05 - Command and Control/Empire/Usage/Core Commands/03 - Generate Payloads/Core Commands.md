@@ -10,7 +10,7 @@ Search Tag(s): #command-and-control #empire
 
 ##### 2.3.1.1 - Shellcode
 
-* UseStager
+UseStager
 
 ```
 (Empire) > usestager windows/shellcode
@@ -71,7 +71,7 @@ Search Tag(s): #command-and-control #empire
 [+] launcher.bin written to /var/lib/powershell-empire/empire/client/generated-stagers/launcher.bin
 ```
 
-* MSFVenom
+It uses MSFVenom to setup staging payloads.
 
 ```
 (Empire) > usestager windows/reverseshell
@@ -96,11 +96,11 @@ Search Tag(s): #command-and-control #empire
 
 TODO: Fill this info
 
-* UseStager
+UseStager
 
 CSharp payload
 
-* MSFVenom
+MSFVenom
 
 ##### 2.3.1.5 - LNK
 

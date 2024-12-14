@@ -69,7 +69,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [ ] Installer
 		- [ ] MSI
 		- [ ] ClickOnce
-- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Manual|Shortcut Link]] (`.lnk`)
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Living off the Land|Shortcut Link]] (`.lnk`)
 	- [ ] Decoy file.
 
 ### Bypass MOTW (Mark of the Web)
@@ -112,7 +112,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 		- [ ] Shell Scripting
 			- Batch (`.bat` or `.cmd`)
 			- VBScript (`.vbs`)
-	- [ ] HTML Application (`.hta`) with macros inside using [[Macros Template|DCOM]] method.
+	- [ ] HTML Application (`.hta`) with macros inside using [[Microsoft Office Macros Template|DCOM]] method.
 - [ ] Using [[Word|Word OLE Object]] to embed inside a file.
 	- [ ] Add archive file.
 		- 7zip

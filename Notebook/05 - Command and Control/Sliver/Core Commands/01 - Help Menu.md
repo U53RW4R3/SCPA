@@ -75,4 +75,4 @@ Multiplayer:
 ---
 ## References
 
-* [Sliver](https://github.com/BishopFox/sliver/wiki)
+- [Sliver](https://github.com/BishopFox/sliver/wiki)

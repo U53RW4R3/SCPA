@@ -18,7 +18,7 @@ $ unzip file.doc
 
 ## 01 - Use Cases
 
-Refer to the [[Macros Template|payload delivery scripts]] helpers section.
+Refer to the [[Microsoft Office Macros Template|payload delivery scripts]] helpers section.
 
 ### 1.1 - VBA Macro
 

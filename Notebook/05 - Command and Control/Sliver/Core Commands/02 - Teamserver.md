@@ -25,7 +25,7 @@ Flags:
 
 ### 2.1.2 - Usage
 
-* Reload and start the daemon `sliver.service`
+ Reload and start the daemon `sliver.service`
 
 ```
 $ sudo systemctl daemon-reload
@@ -80,7 +80,7 @@ Flags:
 
 #### 2.2.1.2 - Usage
 
-* Generate operator configuration file
+Generate operator configuration file
 
 ```
 $ sudo /root/sliver-server operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/
@@ -88,7 +88,7 @@ $ sudo /root/sliver-server operator -l <IP> -p <PORT> -n <operator_name> -s /pat
 [server] sliver > new-operator -l <IP> -p <PORT> -n <operator_name> -s /path/to/directory/
 ```
 
-* Import configuration file with sliver client
+Import configuration file with sliver client
 
 ```
 $ sudo chown $USER:$USER file.cfg
@@ -117,10 +117,14 @@ Flags:
 
 #### 2.2.2.2 - Usage
 
-`[server] sliver > kick-operator -n <operator_name>`
+```
+[server] sliver > kick-operator -n <operator_name>
+```
 
 ### 2.2.3 - List Operators
 
-* List operators to check which one is online or offline
+List operators to check which one is online or offline
 
-`sliver > operators`
+```
+sliver > operators
+```

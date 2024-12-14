@@ -306,13 +306,13 @@ meterpreter > secure
 
 TODO: Fill this info
 
-* Windows
+Windows
 
 ```
 meterpreter > shell
 ```
 
-* Linux
+Linux
 
 ```
 meterpreter > shell -t

@@ -10,6 +10,22 @@ tags:
 ---
 # Desktop Files
 
+## Common Files Locations
+
+### Directory Entries
+
+```
+/usr/share/desktop-directories/
+~/.local/share/desktop-directories/
+```
+
+### Desktop Entries
+
+```
+/usr/share/applications/
+~/.local/share/applications/
+```
+
 ## Libreoffice Files
 
 ```

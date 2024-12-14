@@ -55,6 +55,12 @@ intitle:"Login - Splunk" "If you've forgotten your username or password, please 
 
 ```
 
+## Graphite
+
+```
+inurl:8080/dashboard intitle:Graphite Dashboard
+```
+
 ## XAMPP
 
 ```
@@ -66,4 +72,5 @@ intitle:"Login - Splunk" "If you've forgotten your username or password, please 
 ```
 "Zabbix * Copyright * by SIA Zabbix"
 inurl:"tr_status.php?sid=" intitle:"refreshed every"
+inurl:8080/dashboard.php
 ```

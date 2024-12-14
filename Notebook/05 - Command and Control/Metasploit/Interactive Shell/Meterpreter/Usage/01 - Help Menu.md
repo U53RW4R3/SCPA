@@ -126,16 +126,3 @@ Stdapi: User interface Commands
 
 ..[omitted]..
 ```
-
----
-## References
-
-* [Penetration Testing in SMB Protocol Using Metasploit](https://www.hackingarticles.in/penetration-testing-in-smb-protocol-using-metasploit/)
-
-* [Metasploit Command](https://thehacktoday.com/metasploit-commands/)
-
-* [MSF Pentest Route](https://tyeyeah.github.io/2020/03/17/2020-03-17-MSF-Pentest-Route/)
-
-* [Metasploit Cheatsheet](https://hackersonlineclub.com/metasploit-tutorial-metasploit-cheatsheet/)
-
-* [Hacking Windows with Meterpreter](https://www.coengoedegebure.com/hacking-windows-with-meterpreter/)

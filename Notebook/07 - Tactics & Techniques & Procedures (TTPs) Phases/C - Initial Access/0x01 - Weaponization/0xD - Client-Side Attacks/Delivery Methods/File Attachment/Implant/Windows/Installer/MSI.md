@@ -187,3 +187,8 @@ Writing implant.msi...
  </Product>
 </Wix>
 ```
+
+---
+## References
+
+- [mgeeky: MSI Shenanigans. Part 1 - Offensive Capabilities Overview](https://mgeeky.tech/msi-shenanigans-part-1/)

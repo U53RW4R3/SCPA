@@ -1,6 +1,6 @@
 # Hh
 
-Install [Pascal|pascal] compiler according to your distribution package manager first then download the script in your system.
+Install [[Pascal|pascal]] compiler according to your distribution package manager first then download the script in your system.
 
 ```
 $ sudo wget -qO /usr/bin/local/get-chm https://raw.githubusercontent.com/infosecn1nja/red-team-scripts/main/gen-chm.py && \

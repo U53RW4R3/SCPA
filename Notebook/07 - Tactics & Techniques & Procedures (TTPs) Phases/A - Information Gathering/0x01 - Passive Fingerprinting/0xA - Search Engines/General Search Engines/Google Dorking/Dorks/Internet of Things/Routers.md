@@ -1,5 +1,11 @@
 # Routers
 
+## D-Link
+
+```
+intitle:"D-LINK" inurl:Login.html
+```
+
 ## DD-WRT
 
 ```
@@ -11,6 +17,7 @@ intitle:"DD-WRT" intitle:build intitle:Info "DD-WRT Control Panel"
 ```
 intitle:"mikrotik routeros > administration" "Winbox is the graphical configuration application for RouterOS."
 intitle:"RouterOS router configuration page" "RouterOS" "You have connected to a router"
+-github -site:mikrotik.com intext:"Please log on use the mikrotik hotspot service" intitle:"mikrotik hotspot >login"
 ```
 
 ## NetGear

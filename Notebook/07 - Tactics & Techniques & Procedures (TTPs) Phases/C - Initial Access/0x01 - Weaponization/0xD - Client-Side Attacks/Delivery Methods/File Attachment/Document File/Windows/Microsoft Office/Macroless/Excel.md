@@ -26,3 +26,5 @@ TODO: Fill this info
 - [XLL Phishing](https://github.com/Octoberfest7/XLL_Phishing)
 
 - [Xyrella](https://github.com/zimnyaa/xyrella)
+
+- [WithSecure: Add-In Opportunities for Office Persistence](https://labs.withsecure.com/publications/add-in-opportunities-for-office-persistence/)

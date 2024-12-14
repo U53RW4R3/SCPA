@@ -1,8 +1,16 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - passive-fingerprinting
+  - networking
+  - network-protocols
+  - dns
+---
 # References DNS Records
 
-Search Tag(s): #networking #network-protocols #dns
-
-### Commonly used record types
+## Commonly used record types
 
 | Field | Description                                  | Value                            |
 | ----- | -------------------------------------------- | -------------------------------- |
@@ -20,7 +28,7 @@ Search Tag(s): #networking #network-protocols #dns
 | GID   | Specifies a group identifier of a group name |                                  |
 | UID   | Specifies the user identifier                |                                  |
 
-### Records types used for DNSSEC
+## Records types used for DNSSEC
 
 | Field      | Description                   | Value |
 | ---------- | ----------------------------- | ----- |
@@ -31,7 +39,7 @@ Search Tag(s): #networking #network-protocols #dns
 | NSEC3PARAM | NSEC3 Parameters              |       |
 | RRSIG      | RRset Signature               |       |
 
-### Less commonly used record types
+## Less commonly used record types
 
 | Field | Description                             | Value |
 | ----- | --------------------------------------- | ----- |

@@ -35,3 +35,8 @@ TODO: Fill this info
 ```
 $ gcc
 ```
+
+---
+## References
+
+- [GTFOArgs: wget](https://gtfoargs.github.io/gtfoargs/wget/)

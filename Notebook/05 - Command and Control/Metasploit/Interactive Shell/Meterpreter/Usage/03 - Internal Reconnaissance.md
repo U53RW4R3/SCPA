@@ -250,7 +250,7 @@ IPv6 Address : fe80::60ca:62c2:b4fd:807a
 IPv6 Netmask : ffff:ffff:ffff:ffff::
 ```
 
-* Netstat
+Network statistics.
 
 ```
 meterpreter > netstat
@@ -307,7 +307,7 @@ Connection list
     udp6   fe80::60ca:62c2:b4fd:807a:63857  :::*                             0     0      7044/svchost.exe
 ```
 
-* ARP
+ARP
 
 ```
 meterpreter > arp
@@ -330,7 +330,7 @@ ARP cache
     255.255.255.255  ff:ff:ff:ff:ff:ff  12
 ```
 
-* Route
+Route
 
 ```
 meterpreter > route -h
@@ -384,7 +384,7 @@ Proxy Bypass    :
 
 ## 3.4 - Registry
 
-* Help Menu
+Help Menu
 
 ```
 meterpreter > reg -h
@@ -472,7 +472,7 @@ OPTIONS:
     -r   Recursively search sub directories. (Default: true)
 ```
 
-* Basic Commands
+Basic Commands
 
 ```
 meterpreter > search -d [<drive_letter>:]/path/to/directory/ -f confidential*

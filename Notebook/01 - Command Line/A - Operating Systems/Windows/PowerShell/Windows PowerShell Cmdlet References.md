@@ -18,7 +18,7 @@ tags:
 | `Rename-Item`                    | [`ren` \| `rni`]                                      |
 | `Remove-Item`                    | [`del` \| `erase` \| `rd` \| `ri` \| `rm` \| `rmdir`] |
 | `Get-Location`                   | [`gl` \| `pwd`]                                       |
-| `Get-Acl`                        | (equivalent to `icacls` in CMD)                       |
+| `Get-Acl`                        | (equivalent to `icacls.exe` in CMD)                   |
 | `Invoke-Command`                 | `icm`                                                 |
 | `Invoke-WmiMethod`               | `iwmi`                                                |
 | `Invoke-Expression`              | `iex`                                                 |
@@ -35,27 +35,27 @@ tags:
 | `Start-Service`                  | `sasv`                                                |
 | `Stop-Service`                   | `spsv`                                                |
 | `Select-Object`                  | `select`                                              |
-| `Select-String`                  | `sls` (equivalent to `findstr` in CMD)                |
+| `Select-String`                  | `sls` (equivalent to `findstr.exe` in CMD)            |
 | `Get-CimInstance`                | `gcim`                                                |
-| `Get-ComputerInfo`               | `gin` (equivalent to "systeminfo" in CMD)             |
+| `Get-ComputerInfo`               | `gin` (equivalent to "`systeminfo.exe`" in CMD)       |
 | `Import-Module`                  | `ipmo`                                                |
 | `Get-Module`                     | `gmo`                                                 |
 | `New-Module`                     | `nmo`                                                 |
 | `Remove-Module`                  | `rmo`                                                 |
 | `Tee-Object`                     | `tee`                                                 |
-| `Get-NetIPConfiguration`         | `gip` (equivalent to `ipconfig` in CMD)               |
+| `Get-NetIPConfiguration`         | `gip` (equivalent to `ipconfig.exe` in CMD)           |
 | `Get-NetIPAddress`               |                                                       |
-| `Get-NetRoute`                   | (equivalent to `route print` in CMD)                  |
-| `Test-Connection -Count <int>`   | (equivalent to `ping -c <int>` in CMD)                |
-| `Test-NetConnection -TraceRoute` | (equivalent to `tracert` in CMD)                      |
-| `Resolve-Dnsname`                | (equivalent to `nslookup` in CMD)                     |
+| `Get-NetRoute`                   | (equivalent to `route.exe print` in CMD)              |
+| `Test-Connection -Count <int>`   | (equivalent to `ping.exe -c <int>` in CMD)            |
+| `Test-NetConnection -TraceRoute` | (equivalent to `tracert.exe` in CMD)                  |
+| `Resolve-Dnsname`                | (equivalent to `nslookup.exe` in CMD)                 |
 | `Get-PSDrive`                    | `gdr`                                                 |
 | `New-PSDrive`                    | [`ndr` \| `mount`]                                    |
 | `Remove-PSDrive`                 | `rdr`                                                 |
-| `New-SmbMapping`                 | (equivalent to `net use` in CMD)                      |
+| `New-SmbMapping`                 | (equivalent to `net.exe use` in CMD)                  |
 | `Get-SmbMapping`                 |                                                       |
-| `Remove-SmbMapping`              | (equivalent to `net use /delete` in CMD)              |
-| `Get-SmbConnection`              | (equivalent to `net share` in CMD)                    |
+| `Remove-SmbMapping`              | (equivalent to `net.exe use /delete` in CMD)          |
+| `Get-SmbConnection`              | (equivalent to `net.exe share` in CMD)                |
 
 ---
 ## References

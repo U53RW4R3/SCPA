@@ -6,29 +6,29 @@ TODO: Fill this info
 
 ## 01 - Shortcut Keys
 
-- Find search bar
+Find search bar
 
 CTRL+F
 
-* Clear the beacon screen console
+Clear the beacon screen console
 
 CTRL+K
 
-- Close all tabs except interacting with the current tab
+Close all tabs except interacting with the current tab
 
 CTRL+SHIFT+D
 
 ---
 ## References
 
-* [Cobalt Strike User Guide](https://hstechdocs.helpsystems.com)
+- [Cobalt Strike User Guide](https://hstechdocs.helpsystems.com)
 
-* [Beacon Commands](https://www.aldeid.com/wiki/Cobalt-Strike/Beacon-Commands)
+- [Beacon Commands](https://www.aldeid.com/wiki/Cobalt-Strike/Beacon-Commands)
 
 - [S1ckB0y1337: Cobalt Strike Cheatsheet](https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet)
 
-* [Cobalt Arsenal](https://github.com/mgeeky/cobalt-arsenal)
+- [mgeeky: Cobalt Arsenal](https://github.com/mgeeky/cobalt-arsenal)
 
-* [Raphael Mudge: Red Team Ops with Cobalt Strike (6 of 9): Post Exploitation](https://www.youtube.com/watch?v=Pb6yvcB2aYw)
+- [Raphael Mudge: Red Team Ops with Cobalt Strike (6 of 9): Post Exploitation](https://www.youtube.com/watch?v=Pb6yvcB2aYw)
 
-* [Cobalt Strike User Guide: Cobalt Strike Shortcut Keys](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/ui_kbd-shortcuts.htm) 
+- [Cobalt Strike User Guide: Cobalt Strike Shortcut Keys](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/ui_kbd-shortcuts.htm)

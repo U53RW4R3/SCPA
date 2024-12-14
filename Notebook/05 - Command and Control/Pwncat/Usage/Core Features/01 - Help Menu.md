@@ -35,4 +35,4 @@ options:
 ---
 ## References
 
-* [Calebstewart Pwncat](https://github.com/calebstewart/pwncat)
+- [Calebstewart Pwncat](https://github.com/calebstewart/pwncat)

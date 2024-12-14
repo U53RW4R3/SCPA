@@ -31,4 +31,6 @@ inurl:imap
 
 - [GBHackers: Latest Google Dorks List](https://gbhackers.com/latest-google-dorks-list/)
 
-- [Google Dorking Wordpress](https://secure.wphackedhelp.com/blog/google-dorking-wordpress/)
+- [WPHackedHelp Blog: Google Dorking Wordpress](https://secure.wphackedhelp.com/blog/google-dorking-wordpress/)
+
+- [Recorded Future: Google Dorks - Top Tips and Tricks for Advanced Search Intelligence](https://www.recordedfuture.com/threat-intelligence-101/threat-analysis-techniques/google-dorks)

