@@ -12,6 +12,8 @@ $ curl -A <user_agent> -s "https://bgp.he.net/search?search\[search\]=<query>&co
 
 ```
 $ curl -s https://stat.ripe.net/data/announced-prefixes/data.json?resource=<asn_ID> | jq -r '.data.prefixes[].prefix' > ip_target_ranges.txt
+
+$ whois -h riswhois.ripe.net <IP>
 ```
 
 ## IPInfo
@@ -34,6 +36,8 @@ ASN ID.
 
 ```
 $ whois -h asn.shadowserver.org 'prefix <ASN_ID>'
+
+$ curl -s https://api.shadowserver.org/net/asn?prefix=<ASN_ID> | jq -r '.[]'
 
 $ curl -s https://api.shadowserver.org/net/asn?prefix=<ASN_ID> | jq | grep -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}"
 

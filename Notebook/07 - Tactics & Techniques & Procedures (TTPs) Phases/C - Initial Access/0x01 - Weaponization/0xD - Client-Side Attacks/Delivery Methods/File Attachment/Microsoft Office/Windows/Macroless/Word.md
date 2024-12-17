@@ -38,3 +38,7 @@ TODO: Fill this information
 - [Red Team Notes: Embedded Internet Explorer](https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-embedded-internet-explorer)
 
 - [Red Team Notes: Phishing DDE](https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/t1173-dde)
+
+### Null Byte
+
+- [Null Byte: How to Execute Code in a Microsoft Word Document Without Security Warnings](https://null-byte.wonderhowto.com/how-to/execute-code-microsoft-word-document-without-security-warnings-0180495/)

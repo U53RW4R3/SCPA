@@ -8,8 +8,13 @@ https://github.com/<username>/<git_repo>/commit/<commit_id>
 https://github.com/<username>/<git_repo>/commit/<commit_id>.patch
 ```
 
-## OPSEC Consideration
+When you've cloned the source repository. You can check the logs to search for emails.
 
+```
+$ git log
+```
+
+## OPSEC Consideration
 
 > [!NOTE]
 > They don't have to be real.

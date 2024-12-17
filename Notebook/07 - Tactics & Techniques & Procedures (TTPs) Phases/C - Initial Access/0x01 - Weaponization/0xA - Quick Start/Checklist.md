@@ -50,7 +50,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 - [ ] Check **Command and Scripting Interpreter** section to change the execution methods.
 - [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/HTML Smuggling/Manual|HTML Smuggling]]
 - [ ] Macros
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Microsoft Office/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macros/Craft Manually with Macro Delivery|Microsoft Office]]
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/LibreOffice/Macros/Craft Manually with Macro Delivery|LibreOffice Macro]]
 - [ ] Macroless
 	- [[Word|Word OLE Object]]

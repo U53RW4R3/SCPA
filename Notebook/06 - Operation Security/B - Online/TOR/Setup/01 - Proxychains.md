@@ -39,6 +39,8 @@ $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Cong
 
 - [Ifconfig.me](https://ifconfig.me/)
 
+- [Ifcfg.me](https://ifcfg.me)
+
 - [IP.me](https://ip.me/)
 
 - [IPInfo](https://ipinfo.io)

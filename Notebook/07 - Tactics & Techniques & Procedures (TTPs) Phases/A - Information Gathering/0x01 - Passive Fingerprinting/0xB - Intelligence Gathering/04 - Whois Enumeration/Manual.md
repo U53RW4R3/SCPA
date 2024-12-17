@@ -18,12 +18,20 @@ $ whois -h whois.cymru.com "-v <IP>"
 
 ### 1.2 - Shadowserver
 
-Retrieve the ASN name and ID.
-
 ```
 $ curl -s https://api.shadowserver.org/net/asn?origin=<IP> | jq
+```
+
+Retrieve the ASN ID.
+
+```
+$ curl -s https://api.shadowserver.org/net/asn?origin=<IP> | jq '.[0].asn'
+
+$ curl -s https://api.shadowserver.org/net/asn?origin=<IP> | jq '.[0].asn_name'
 
 $ whois -h asn.shadowserver.org 'origin <IP>'
+
+$ whois -h asn.shadowserver.org 'origin <IP>' | grep -Eo "AS[0-9]+"
 ```
 
 Retrieve the IP with CIDR and ASN ID along with it's peers.
@@ -44,6 +52,8 @@ $ telnet whois.iana.org 43
 ## 03 - Netcat
 
 ```
+$ nc whois.iana.org 43 <<< "<domain>.<tld>"
+
 $ echo <domain.com> | nc whois.iana.org 43
 ```
 
