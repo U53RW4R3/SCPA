@@ -14,24 +14,7 @@ When you've cloned the source repository. You can check the logs to search for e
 $ git log
 ```
 
-## OPSEC Consideration
-
-> [!NOTE]
-> They don't have to be real.
-
-```
-$ git config --global user.name "<username>"
-
-$ git config --global user.email user@email.com
-```
-
 ---
 ## References
 
 - [[DataSurgeon|DataSurgeon]]
-
-### OPSEC
-
-- [Github Email Settings](https://github.com/settings/emails)
-
-- [Gitlab Profile](https://gitlab.com/-/profile)
