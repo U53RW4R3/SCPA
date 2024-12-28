@@ -55,6 +55,10 @@ Output options:
 $ fping -angq <IP>/<CIDR>
 ```
 
+```
+$ fping -g <IP>/<CIDR> 2>/dev/null | grep -v "is unreachable"
+```
+
 ---
 ## References
 

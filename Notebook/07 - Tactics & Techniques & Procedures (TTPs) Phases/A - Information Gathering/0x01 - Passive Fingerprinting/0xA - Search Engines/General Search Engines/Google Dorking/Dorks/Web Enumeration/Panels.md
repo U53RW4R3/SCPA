@@ -1,12 +1,5 @@
 # Panels
 
-## Apache Tomcat
-
-```
-intitle:"Apache Tomcat"
-intitle:"Apache Tomcat" "Error Report"
-```
-
 ## Cacti
 
 ```
@@ -19,16 +12,16 @@ inurl:"cacti/graph_view.php?action="
 intitle:"ColdFusion Administrator Login"
 ```
 
+## Graphite
+
+```
+inurl:8080/dashboard intitle:Graphite Dashboard
+```
+
 ## JBoss
 
 ```
 intitle:"Welcome to JBoss AS"
-```
-
-## Jenkins
-
-```
-intitle:"Jenkins" "Remember me on this computer" "Jenkins ver"
 ```
 
 ## Plesk
@@ -47,24 +40,6 @@ intitle:"Default Parallels Plesk Panel Page"
 
 ```
 intitle:"Login - Splunk" "If you've forgotten your username or password, please contact your Splunk"
-```
-
-## Glassfish
-
-```
-
-```
-
-## Graphite
-
-```
-inurl:8080/dashboard intitle:Graphite Dashboard
-```
-
-## XAMPP
-
-```
-"You have successfully installed XAMPP on this system!" intitle:"XAMPP Version"
 ```
 
 ## Zabbix

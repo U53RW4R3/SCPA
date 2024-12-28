@@ -2,11 +2,8 @@
 
 * AV Evasion:
     + Windows
-        1. [Veil](https://github.com/Veil-Framework/Veil)
-        2. [TheFatRat](https://github.com/Screetsec/TheFatRat)
         3. [Phantom-Evasion](https://github.com/oddcod3/Phantom-Evasion)
         4. [Shellter](https://www.shellterproject.com)
-        5. [Unicorn](https://github.com/trustedsec/unicorn) (some distros like Kali Linux renamed the AV tool into `magic-unicorn`)
         6. [SharpShooter](https://github.com/mdsecactivebreach/SharpShooter)
         7. [GadgetToJScript](https://github.com/med0x2e/GadgetToJScript)
         8. [Encrypter-Metaspoit (bf_xor)](https://github.com/Sogeti-Pentest/Encrypter-Metasploit)

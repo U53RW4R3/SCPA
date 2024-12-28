@@ -11,6 +11,7 @@ intitle:"index of" keys.txt
 ```
 filetype:xls username password email
 ext:(xls | xlsx | xlsm | ods) username password email
+site:<domain>.<tld> filetype:xls inurl:"email.xls"
 ```
 
 ## Ticket.conf

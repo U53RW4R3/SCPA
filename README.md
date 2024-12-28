@@ -44,12 +44,23 @@ git sparse-checkout set Notebook
 
 ### Terminal Prompts
 
-- `>` -> Universal terminal prompt (i.e. `> <command>`)
+#### Cross Platform
+
+`>` -> Universal terminal prompt (i.e. `> <command>`)
+
+#### Unix Shell
+
 - `$` -> Non-elevated user privileges unix-like shell prompt (i.e. `user@hostname:~$ <command>`)
 - `#` -> Elevated user privileges unix-like shell prompt (i.e. `root@hostname:~# <command>`)
+
+#### PowerShell
+
 - `PS />` -> PowerShell Linux console prompt (i.e. `PS /home/USERNAME> <command>`)
-- `<drive_letter>:\>` -> Windows command prompt (i.e. `C:\> <command>`)
 - `PS <drive_letter>:\>` -> Powershell console prompt (i.e. `PS C:\> <cmdlet>`)
+
+#### Windows
+
+`<drive_letter>:\>` -> Windows command prompt (i.e. `C:\> <command>`)
 
 # WORK TO DO
 
@@ -68,3 +79,22 @@ git sparse-checkout set Notebook
 - [ ] **Exploit development** section
 - [ ] **Writing Reports** section (maybe)
 - [ ] Include MITRE ATT&CK techniques References
+
+---
+## References
+
+- [Hacktricks](https://book.hacktricks.xyz/)
+
+- [Payloads All The Things](https://swisskyrepo.github.io/PayloadsAllTheThings/)
+
+- [Internal All The Things](https://swisskyrepo.github.io/InternalAllTheThings/)
+
+- [Red Team Notes](https://www.ired.team)
+
+- [The Hacker Recipes: The Hacker Tools](https://tools.thehacker.recipes/)
+
+- [DMCXBlue: Red Team Notes](https://dmcxblue.gitbook.io/red-team-notes)
+
+- [N7W Era Infrastructure Penetration Testing Notes](https://infra.newerasec.com)
+
+- [Persistence Info](https://persistence-info.github.io/)

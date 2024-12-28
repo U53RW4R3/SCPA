@@ -47,7 +47,7 @@ C:\> dir \\snare\share
 
 C:\> net.exe view \\snare
 
-C:\> MpCmdRun.exe -Scan -ScanType 3 -File \\snare\share\file.txt
+C:\> "C:\Program Files\Windows Defender\MpCmdRun.exe" -Scan -ScanType 3 -File \\snare\share\file.txt
 ```
 
 TODO: Check the rest

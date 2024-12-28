@@ -49,6 +49,10 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
 
 - [Red Team Notes: Using MSBuild to Execute Shellcode in C#](https://www.ired.team/offensive-security/code-execution/using-msbuild-to-execute-shellcode-in-c)
 
+### Hacking Articles
+
+- [Hacking Articles: Windows Exploitation - MSBuild](https://www.hackingarticles.in/windows-exploitation-msbuild/)
+
 ### Github
 
 - [khr0x40sh: WhiteListEvasion](https://github.com/khr0x40sh/WhiteListEvasion)
@@ -60,3 +64,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
 ### arno0x0x
 
 - [arno0x0x: Windows oneliners to download remote payload and execute arbitrary code](https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/)
+
+### Black Hills Information Security
+
+- [Black Hills Information Security: Black Hills Information Security](https://www.blackhillsinfosec.com/how-to-bypass-application-whitelisting-av/)

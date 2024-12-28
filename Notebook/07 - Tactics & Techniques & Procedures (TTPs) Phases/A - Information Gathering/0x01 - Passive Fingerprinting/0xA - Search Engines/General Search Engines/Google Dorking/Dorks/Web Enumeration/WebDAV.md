@@ -1,5 +1,5 @@
 # WebDAV
 
 ```
-inurl:webdav site:com
+inurl:webdav site:<domain>.<tld>
 ```
