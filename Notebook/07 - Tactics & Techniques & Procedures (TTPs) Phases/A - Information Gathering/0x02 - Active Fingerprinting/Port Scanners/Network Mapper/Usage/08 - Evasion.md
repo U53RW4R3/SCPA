@@ -175,7 +175,7 @@ $ nmap --initial-rtt-timeout 50ms <IP>
 
 ### Backlinks
 
-- [[User Agents]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]
 
 ### Network Mapper
 

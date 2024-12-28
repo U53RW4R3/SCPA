@@ -18,7 +18,7 @@ $ wget --directory-prefix=/root/Desktop/ --header="Accept: text/html"
 ---
 ## References
 
-- [[User Agents]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]
 
 - [Recipe for a Successful Phishing Campaign Part 1](https://infosecwriteups.com/recipe-for-a-successful-phishing-campaign-part-1-2-dc23d927ec55)
 

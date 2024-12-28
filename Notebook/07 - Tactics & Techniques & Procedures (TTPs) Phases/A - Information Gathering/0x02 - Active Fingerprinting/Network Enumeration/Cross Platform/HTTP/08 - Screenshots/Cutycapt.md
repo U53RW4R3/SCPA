@@ -110,6 +110,6 @@ $ firefox web.html
 ---
 ## References
 
-- [[User Agents]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]
 
 - [CutyCapt](https://github.com/hoehrmann/CutyCapt)
