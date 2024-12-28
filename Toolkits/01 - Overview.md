@@ -33,8 +33,9 @@
     18. [JavaVulnerableLab](https://github.com/CSPF-Founder/JavaVulnerableLab)
 
     + Pentester Lab
-        1. [Web for Pentester](https://pentesterlab.com/exercises/web_for_pentester/attachments)
+        1. [Web for Pentester](https://pentesterlab.com/exercises/web_for_pentester)
         2. [From SQL Injection to Shell: PostgreSQL edition](https://pentesterlab.com/exercises/from_sqli_to_shell_pg_edition/attachments)
+        3. [Web for Pentester II](https://pentesterlab.com/exercises/web-for-pentester-II)
 
     + Docker Images
         1. [VulnerableWordpress](https://github.com/wpscanteam/VulnerableWordpress)
