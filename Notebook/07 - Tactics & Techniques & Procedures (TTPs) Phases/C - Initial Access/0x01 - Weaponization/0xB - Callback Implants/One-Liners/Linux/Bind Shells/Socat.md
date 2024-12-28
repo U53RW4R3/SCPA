@@ -15,7 +15,7 @@ TODO: Generate an msfvenom for UDP bind shell socat
 ```
 $ socat
 ```
-\
+
 ### 1.3 - TLS Method
 
 Note: Only generated TLS certificates in a compromised system.

