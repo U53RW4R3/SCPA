@@ -1,10 +1,8 @@
-# Word
+# Manual
 
 ## 01 - OLE Object
 
-### 1.1 - Crafting Manually
-
-TODO: Fill this information
+TODO: Include screenshots
 
 In Microsoft Word it has a OLE Object that serves as an alternative to macros. Go to **Insert** > **Object** > **Create From File**. Choose the file you've created which is the payload of batch script such as `implant.bat`.
 
@@ -14,13 +12,17 @@ Now right click on the crafted OLE Object. **Go to Packager Shell Object Object*
 
 A few improvements that can be made to deceive the victim. Instead of naming `payload.bat` or `launch.bat`. Give it a less obvious file name such as `Sales.bat` or something that is depending on the context of your social engineering vector.
 
-#### 1.1.1 - Shortcut Link
+### 1.1 - Shortcut Link
+
+TODO: Fill this information
+
+```
+
+```
 
 ## 02 - DDE
 
-### 2.1 - Crafting Manually
-
-TODO: Fill this information
+In Microsoft Word to insert the payload press **CTRL+F9** then copy the payload between the curly brackets (`{ }`).
 
 ---
 ## References

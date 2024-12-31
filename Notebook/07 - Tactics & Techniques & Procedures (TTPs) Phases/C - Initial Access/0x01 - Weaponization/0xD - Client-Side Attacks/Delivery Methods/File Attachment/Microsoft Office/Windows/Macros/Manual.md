@@ -8,7 +8,7 @@ tags:
   - phishing
   - T1137
 ---
-# Craft Manually with Macro Delivery
+# Manual
 
 TODO: Fill in the info
 
@@ -87,6 +87,58 @@ $ sudo python -m http.server [-d /path/to/directory/] 80
 ---
 ## References
 
+### Filesec
+
+#### Word
+
+- [Filesec: `.asd`](https://filesec.io/asd)
+
+- [Filesec: `.doc`](https://filesec.io/doc)
+
+- [Filesec: `.docm`](https://filesec.io/docm)
+
+- [Filesec: `.dot`](https://filesec.io/dot)
+
+- [Filesec: `.wbk`](https://filesec.io/wbk)
+
+### Excel
+
+- [Filesec: `.xls`](https://filesec.io/xls)
+
+- [Filesec: `.xlsb`](https://filesec.io/xlsb)
+
+- [Filesec: `.xlsm`](https://filesec.io/xlsm)
+
+- [Filesec: `.xlm`](https://filesec.io/xlm)
+
+- [Filesec: `.xlam`](https://filesec.io/xlam)
+
+- [Filesec: `.xlt`](https://filesec.io/xlt)
+
+- [Filesec: `.xltm`](https://filesec.io/xltm)
+
+- [Filesec: `.slk`](https://filesec.io/slk)
+
+#### PowerPoint
+
+- [Filesec: `.pot`](https://filesec.io/pot)
+
+- [Filesec: `.potm`](https://filesec.io/potm)
+
+- [Filesec: `.pps`](https://filesec.io/pps)
+
+- [Filesec: `ppsm`](https://filesec.io/ppsm)
+
+- [Filesec: `.ppt`](https://filesec.io/ppt)
+
+- [Filesec: `pptm`](https://filesec.io/pptm)
+
+- [Filesec: `.sldm`](https://filesec.io/sldm)
+
+#### Publisher
+
+- [Filesec: `.pub`](https://filesec.io/pub)
+
 ### Red Team Notes
 
 - [Red Team Notes: Phishing - Office Macros](https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/t1137-office-vba-macros)
@@ -106,3 +158,9 @@ $ sudo python -m http.server [-d /path/to/directory/] 80
 ### mgeeky
 
 - [mgeeky: Various Macros-Based RCEs](https://gist.github.com/mgeeky/9dee0ac86c65cdd9cb5a2f64cef51991)
+
+### Black Hills Information Security
+
+- [Black Hills Information Security: Click to Enable Content](https://www.blackhillsinfosec.com/click-to-enable-content/)
+
+- [Black Hills Information Security: Phishing with PowerPoint](https://www.blackhillsinfosec.com/phishing-with-powerpoint/)

