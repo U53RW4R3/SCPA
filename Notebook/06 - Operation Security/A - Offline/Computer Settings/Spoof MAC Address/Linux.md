@@ -25,6 +25,8 @@ sudo ip link set dev <interface> up
 $ sudo ifconfig <interface> hw ether $(openssl rand -hex 6 | sed 's/../&:/g;s/:$//')
 ```
 
+TODO: Develop a script that contains more features.
+
 ## 02 - Macchanger
 
 ### 2.1 - Help Menu
@@ -78,4 +80,8 @@ $ sudo crontab -e
 
 TODO: Fill this info with a specific backlink.
 
-You can bypass filters...
+You can bypass a login portal by impersonating the router's mac addresses as the gateway.
+
+```
+$ sudo macchanger -m <mac_address> <interface>
+```

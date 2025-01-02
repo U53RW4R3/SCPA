@@ -20,6 +20,12 @@ $ urlcrazy <domain>.<tld>
 $ urlcrazy -p <domain>.<tld>
 ```
 
+## Domain Hunter
+
+```
+$ domainhunter
+```
+
 ---
 ## References
 
@@ -27,14 +33,24 @@ $ urlcrazy -p <domain>.<tld>
 
 - [urbanadventurer: URLCrazy](https://github.com/urbanadventurer/urlcrazy)
 
+- [threatexpress: domainhunter](https://github.com/threatexpress/domainhunter)
+
 - [DNSTwist](https://github.com/elceef/dnstwist)
 
 - [URLInsane](https://github.com/rangertaha/urlinsane)
 
+### LOTS
+
 - [LOTS Project](https://lots-project.com)
+
+### Expired Domains
 
 - [Expired Domains](https://www.expireddomains.net/expired-domains/)
 
+### DNSTwist
+
 - [DNSTwist: Phishing Domain Scanner](https://dnstwist.it)
+
+### Kevin
 
 - [kevin@blog: Bypassing Next-Gen Firewalls](https://henpeebin.com/kevin/blog/bypassing-firewalls.html)

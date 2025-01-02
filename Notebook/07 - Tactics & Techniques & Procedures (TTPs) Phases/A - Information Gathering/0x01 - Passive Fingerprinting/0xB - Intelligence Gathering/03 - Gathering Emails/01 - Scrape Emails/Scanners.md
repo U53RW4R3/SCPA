@@ -14,7 +14,7 @@ $ theHarvester -l 1500 -d <domain.com | organization_name> -b brave,baidu,bing,b
 $ whatweb -v <URL>
 ```
 
-## CeWL
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
 
 ```
 $ cewl -u <user_agent> -ne --email_file emails.txt http[s]://<IP>
@@ -44,24 +44,10 @@ TODO: Convert this to `sn0int`
 [recon-ng][default][whois_pocs] > back
 ```
 
-- `pgp_search` recon-ng module
-
-```
-[recon-ng][default] > marketplace install recon/domains-contacts/pgp_search
-
-[recon-ng][default] > modules load recon/domains-contacts/pgp_search
-
-[recon-ng][default][pgp_search] > options set SOURCE <domain.com>
-
-[recon-ng][default][pgp_search] > run
-
-[recon-ng][default][pgp_search] > back
-```
-
 ## Spiderfoot
 
 ```
-$ ./sf.py -m sfp_emailformat,sfp_pgp,sfp_duckduckgo,sfp_grep_app -s <domain.com> -F "Affiliate - Email Address"
+$ ./sf.py -m sfp_emailformat,sfp_duckduckgo,sfp_grep_app -s <domain.com> -F "Affiliate - Email Address"
 ```
 
 ## Metasploit
@@ -94,14 +80,18 @@ msf auxiliary(gather/search_email_collector) > set outfile /path/to/file.txt
 msf auxiliary(gather/search_email_collector) > run
 ```
 
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Gathering URLs/Scanners/Phonebook|Phonebook]]
+
+```
+$ phonebook -e <domain>.<tld> -o emails.txt
+```
+
 ---
 ## References
 
 ### Backlinks
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]
-
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
 
 ### Hacking Articles
 

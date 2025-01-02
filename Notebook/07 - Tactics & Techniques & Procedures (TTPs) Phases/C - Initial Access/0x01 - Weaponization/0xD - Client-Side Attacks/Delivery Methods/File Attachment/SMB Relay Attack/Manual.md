@@ -9,7 +9,7 @@
 </html>
 ```
 
-## 02 - Microsoft Office
+## 02 - Microsoft Office subDoc
 
 Extract `.docx` file using `7zip` or `unzip` and modify the contents in `word\_rels\settings.xml.rels`.
 
@@ -145,6 +145,10 @@ Name it with `.asx` extension.
 ---
 ## References
 
+### Rhino Security Labs
+
+- [Rhino Security Labs: Abusing Microsoft Word Features for Phishing - "subDoc"](https://rhinosecuritylabs.com/research/abusing-microsoft-word-features-phishing-subdoc/)
+
 ### Securify
 
 - [Securify: Living off the Land Stealing NetNTLM Hashes](https://www.securify.nl/blog/living-off-the-land-stealing-netntlm-hashes/)
@@ -162,5 +166,7 @@ Name it with `.asx` extension.
 - [1337red: Using A SCF File to Gather Hashes](https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/)
 
 ### Pentest Lab
+
+- [Pentestlab Blog: Microsoft Office - NTLM Hashes via Frameset](https://pentestlab.blog/2017/12/18/microsoft-office-ntlm-hashes-via-frameset/)
 
 - [Pentestlab Blog: SMB Share SCF File Attacks](https://pentestlab.blog/2017/12/13/smb-share-scf-file-attacks/)

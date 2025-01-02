@@ -324,8 +324,6 @@ run post/multi/gather/netrc_creds
 run post/multi/manage/dbvis_query
 
 
-run post/multi/gather/chrome_cookies
-
 run post/multi/gather/pgpass_creds
 
 run post/multi/manage/hsts_eraser
