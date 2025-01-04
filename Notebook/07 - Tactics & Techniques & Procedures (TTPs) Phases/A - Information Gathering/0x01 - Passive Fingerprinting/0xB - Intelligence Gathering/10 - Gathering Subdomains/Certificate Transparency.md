@@ -7,7 +7,9 @@
 Certificate Transparency (CT) Logs
 
 ```
-$ curl -s -s "https://crt.sh/?cn=<domain>.<tld>&output=json" | jq -r '.[].name_value' | sort -u
+$ curl -s "https://crt.sh/?cn=<domain>.<tld>&output=json" | jq -r '.[].name_value' | sort -u
+
+$ curl -s "https://crt.sh/?o=<organization_name>&output=json" | jq -r '.[].common_name' | sort -u
 ```
 
 TLS bufferover
