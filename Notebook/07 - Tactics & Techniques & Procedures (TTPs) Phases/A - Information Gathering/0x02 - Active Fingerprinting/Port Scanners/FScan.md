@@ -19,7 +19,7 @@ tags:
 $ wget [--https-only] https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan && \
 chmod 755 fscan
 
-$ curl -ko fscan https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan && \
+$ curl -kO https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan && \
 chmod 755 fscan
 ```
 

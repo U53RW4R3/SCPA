@@ -18,6 +18,6 @@ $ nmap --script pcom-discovery [--script-args='pcom-discover.aggressive=true'] -
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xD - Network Enumeration/Shodan IoTs/Operation Technology/Unitronic PLC|OSINT: Unitronic PLC]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xD - Network Enumeration/IoTs/Operation Technology/Unitronic PLC|OSINT: Unitronic PLC]]
 
 - [selmux: ICS-Security - PCOM Discovery NSE Script](https://github.com/selmux/ICS-Security/blob/main/Nmap%20ICS-OT%20Scripts/cldrn/pcom-discover.nse)

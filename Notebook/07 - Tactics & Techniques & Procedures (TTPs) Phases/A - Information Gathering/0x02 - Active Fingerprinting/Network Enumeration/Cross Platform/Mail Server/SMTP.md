@@ -292,6 +292,12 @@ msf auxiliary(scanner/smtp/smtp_relay) > exploit -j
 ---
 ## References
 
+### Hacktricks
+
 - [Hacktricks: Pentesting SMTP](https://book.hacktricks.xyz/pentesting/pentesting-smtp)
 
 - [Hacktricks: SMTP Commands](https://book.hacktricks.xyz/pentesting/pentesting-smtp/smtp-commands)
+
+### Black Hills Information Security
+
+- [Black Hills Information Security: How to Test for Open Mail Relays](https://www.blackhillsinfosec.com/how-to-test-for-open-mail-relays/)

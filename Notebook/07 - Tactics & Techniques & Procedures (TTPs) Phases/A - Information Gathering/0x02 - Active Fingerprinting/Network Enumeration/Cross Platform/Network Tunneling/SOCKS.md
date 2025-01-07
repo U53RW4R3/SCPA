@@ -29,6 +29,16 @@ $ nmap -p 1080 -Pn -n --script socks-open-proxy --script-args proxy.url=<host>,p
 ---
 ## References
 
+### Backlinks
+
+- [[Retrieve Proxy Servers]]
+
 - [[Proxychains]]
+
+### Network Mapper
+
+- [Network Mapper NSEDocs: socks-open-proxy Script](https://nmap.org/nsedoc/scripts/socks-open-proxy.html)
+
+### Hacktricks
 
 - [Hacktricks: 1080 - Pentesting Socks](https://book.hacktricks.xyz/network-services-pentesting/1080-pentesting-socks)

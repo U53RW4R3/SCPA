@@ -55,7 +55,6 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 - [ ] Macroless
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]]
 	- [[Excel]]
-	- [[PowerPoint]]
 - [ ] Deploy Implant (Trojan Horse).
 	- [ ] Executable file (`.exe`).
 		- [ ] Custom Dropper
@@ -166,7 +165,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 
 ### Evil Twin
 
-- [[Rogue Access Point]]
+- [[EAPHammer]]
 
 ### Whaling
 

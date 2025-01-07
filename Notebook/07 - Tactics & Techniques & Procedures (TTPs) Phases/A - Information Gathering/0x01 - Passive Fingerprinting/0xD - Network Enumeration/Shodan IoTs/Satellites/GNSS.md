@@ -1,5 +1,0 @@
-# GNSS
-
-```
-SOURCETABLE 200
-```

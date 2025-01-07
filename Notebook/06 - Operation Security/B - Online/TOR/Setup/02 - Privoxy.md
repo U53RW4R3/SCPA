@@ -72,6 +72,8 @@ $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browse
 
 - [IPInfo](https://ipinfo.io)
 
+- [IPAPI](https://ipapi.co)
+
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
 
 - [IP API](https://ip-api.com)

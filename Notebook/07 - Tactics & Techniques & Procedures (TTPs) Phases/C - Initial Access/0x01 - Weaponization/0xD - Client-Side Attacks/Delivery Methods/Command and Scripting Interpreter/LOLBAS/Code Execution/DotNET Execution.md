@@ -67,4 +67,4 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
 
 ### Black Hills Information Security
 
-- [Black Hills Information Security: Black Hills Information Security](https://www.blackhillsinfosec.com/how-to-bypass-application-whitelisting-av/)
+- [Black Hills Information Security: How to Bypass Application Whitelisting & AV](https://www.blackhillsinfosec.com/how-to-bypass-application-whitelisting-av/)

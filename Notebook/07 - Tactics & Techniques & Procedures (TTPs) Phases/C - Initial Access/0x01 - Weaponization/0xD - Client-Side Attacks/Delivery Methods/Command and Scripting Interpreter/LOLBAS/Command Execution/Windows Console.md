@@ -12,6 +12,9 @@ tags:
 
 ## Command Prompt
 
+> [!INFO] [Character Maximum Limit](https://learn.microsoft.com/en-us/troubleshoot/windows-client/shell-experience/command-line-string-limitation)
+> The maximum length of the string that you can use at the command prompt is 8191 characters.
+
 Execute commands.
 
 ```

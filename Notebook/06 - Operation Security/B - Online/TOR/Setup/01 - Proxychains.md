@@ -45,6 +45,8 @@ $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Cong
 
 - [IPInfo](https://ipinfo.io)
 
+- [IPAPI](https://ipapi.co)
+
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
 
 - [IP API](https://ip-api.com)

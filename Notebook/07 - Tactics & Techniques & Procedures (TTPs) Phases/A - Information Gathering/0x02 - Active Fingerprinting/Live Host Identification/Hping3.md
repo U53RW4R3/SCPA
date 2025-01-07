@@ -101,6 +101,32 @@ Spoof source IP
 $ sudo hping3 <target_IP> -a <source_IP>
 ```
 
+TCP SYN Packets
+
+```
+# hping3 -S -p 53 <IP>
+```
+
+Sending ICMP Echo Requests
+
+```
+# hping3 -1 <IP>
+```
+
+UDP Packets
+
+```
+# hping3 -2 -p 53 <IP>
+```
+
+Discovering network gateway using traceroute.
+
+```
+# hping3 -T -V -1 <IP>
+```
+
+https://denizhalil.com/2024/03/18/mastering-hping3-guide-network-security/
+
 ---
 ## References
 

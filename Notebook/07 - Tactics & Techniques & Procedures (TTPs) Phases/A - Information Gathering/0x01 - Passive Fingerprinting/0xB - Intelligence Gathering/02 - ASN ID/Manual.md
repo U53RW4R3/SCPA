@@ -30,6 +30,12 @@ Google dork.
 site:ipinfo.io "<organization_name>"
 ```
 
+## IPAPI
+
+```
+$ curl -s https://ipapi.co/<IP>/json/' | jq -r .asn
+```
+
 ## Shadowserver
 
 ASN ID.
@@ -66,6 +72,10 @@ $ nc asn.shadowserver.org 43 < ips.txt > asn.txt
 ### IPInfo
 
 - [IPInfo: Developers](https://ipinfo.io/developers)
+
+### IPAPI
+
+- [IPAPI](https://ipapi.co)
 
 ### ShadowServer
 
