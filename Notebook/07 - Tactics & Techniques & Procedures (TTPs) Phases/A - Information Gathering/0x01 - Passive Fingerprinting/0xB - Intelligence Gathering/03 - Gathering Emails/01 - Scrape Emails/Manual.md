@@ -26,6 +26,10 @@ $ wget -qO- http[s]://<IP> | ds -eC | uniq
 
 - [[DataSurgeon|DataSurgeon]]
 
+### Hacktricks
+
+- [Hacktricks: Useful Linux Commands](https://book.hacktricks.wiki/en/linux-hardening/useful-linux-commands.html)
+
 ### Websites
 
 - [Aware Online: E-mail Search Tool](https://www.aware-online.com/osint-tools/e-mail-search-tool/)

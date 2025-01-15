@@ -11,7 +11,7 @@ $ wget -qO- http[s]://<IP> | grep "title\|href" | sed -e 's/^[[:space::]]*//'
 ```
 
 > [!NOTE]
-> Some websites I've discovered that they couldn't work with `curl` or `wget` in this save the webpage contents (**Right Click -> Save Page As...**) on any web browser of your choice and save it as html file then use the `grep` command to parse it.
+> Some websites I've discovered that they couldn't work with `curl` or `wget` by requesting an HTTP to read the contents. Another way is to save the webpage contents (**Right Click -> Save Page As...**) on any web browser of your choice and save it as `.html` file then use the `grep` command to parse it.
 
 ```
 $ grep -Eo "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?" file.html | awk -F "/" '{print $3}' | sort -u > urls.txt
@@ -19,6 +19,12 @@ $ grep -Eo "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?" file.html | awk -F "/" 
 $ grep -Eo "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?" file.html | cut -d "/" -f 3 | sort -u > urls.txt"
 
 $ grep "title\|href" file.html | sed -e 's/^[[:space::]]*//'
+```
+
+For extracting HTTPS, FTP and other URL format use
+
+```
+$ grep -E '(((https|ftp|gopher)|mailto)[.:][^ >"	]*|www.[-a-z0-9.]+)[^ .,;	>">):]' file.html > urls.txt
 ```
 
 Scrape javascript files of URLs.
@@ -42,9 +48,13 @@ $ wget -qO- http[s]://<IP> | ds -uC | uniq
 ---
 ## References
 
-### Github
+### Backlinks
 
 - [[DataSurgeon|DataSurgeon]]
+
+### Hacktricks
+
+- [Hacktricks: Useful Linux Commands](https://book.hacktricks.wiki/en/linux-hardening/useful-linux-commands.html)
 
 ### Websites
 

@@ -31,4 +31,10 @@ $ sudo nmap -6 --script broadcast-dhcp6-discover [DHCP_server_IP]
 ---
 ## References
 
+## Backlinks
+
 - [[Denial of Service|Vulnerability Assessment: DHCP Denial of Service]]
+
+### The Hacker Recipes
+
+- [The Hacker Recipes: DHCP](https://www.thehacker.recipes/ad/recon/dhcp)

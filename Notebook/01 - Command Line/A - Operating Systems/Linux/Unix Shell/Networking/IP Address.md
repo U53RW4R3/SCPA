@@ -41,8 +41,3 @@ Print network manager configuration.
 ```
 $ NetworkManager --print-config
 ```
-
----
-## References
-
-- [[Linux Commands References]]

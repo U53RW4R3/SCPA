@@ -5,7 +5,7 @@ Search Tag(s): #information-gathering #passive-reconnaissance #network-protocols
 TODO: Fill this info
 
 ```
-$ sudo nmap -p 53 -sSU --script dns-nsid <domain.com>
+$ sudo nmap -p 53 -sSU --script dns-nsid <domain>.<tld>
 ```
 
 ```

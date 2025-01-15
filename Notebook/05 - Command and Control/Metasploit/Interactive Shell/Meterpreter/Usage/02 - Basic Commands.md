@@ -191,10 +191,21 @@ OPTIONS:
 meterpreter > load <extension>
 ```
 
-## 2.6 - Execute module
+## 2.6 - Modules
+
+> [!INFO]
+> Only post exploitation and local exploit to reveal available options and execute.
+
+What options are required to execute the module.
 
 ```
-meterpreter > run <post_module/meterpreter_script>
+meterpreter > info <post_module | local_exploit_module>
+```
+
+Run post exploitation module.
+
+```
+meterpreter > run <post_module | local_exploit_module>
 ```
 
 ## 2.7 - Channels

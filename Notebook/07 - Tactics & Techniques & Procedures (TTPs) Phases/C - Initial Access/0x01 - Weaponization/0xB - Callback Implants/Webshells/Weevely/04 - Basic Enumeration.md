@@ -53,7 +53,7 @@ The remote script execution triggers an error 500, check script and payload inte
 ## 4.4 - SUID and SGID
 
 ```
-audit_suidsgid
+www-data@172.28.128.8:/var/www/dvwa/vulnerabilities $ audit_suidsgid
 ```
 
 ## 4.5 - Audit Filesystem
@@ -97,7 +97,7 @@ Search writable files in / folder
 ## 4.6 - PHP Config
 
 ```
-audit_phpconf
+www-data@172.28.128.8:/var/www/dvwa/vulnerabilities $ audit_phpconf
 ```
 
 :file_grep                    Print lines matching a pattern in multiple files.

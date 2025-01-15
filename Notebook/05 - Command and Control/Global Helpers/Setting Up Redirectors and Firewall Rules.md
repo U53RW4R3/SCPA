@@ -6,7 +6,7 @@ Search Tag(s): #red-team-infrastructure #redirectors #firewall-rules
 
 ### 1.1 - Socat
 
-- Linux redirector
+Linux redirector
 
 ```
 root@redirector:~# socat TCP4-LISTEN:<redirector_PORT>,fork TCP4:<bind_C2_IP>:443 &
@@ -24,7 +24,7 @@ root@redirector:~# iptables -P FORWARD ACCEPT
 root@redirector:~# sysctl net.ipv4.ip_forward=1
 ```
 
-- Command and Control
+Command and Control
 
 ```
 root@c2server:~# iptables -A INPUT -p tcp -s <redirector_IP> --dport 443 -j ACCEPT

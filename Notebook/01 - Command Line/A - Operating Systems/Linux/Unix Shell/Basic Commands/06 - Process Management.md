@@ -28,3 +28,27 @@ $ pgrep <program>
 ```
 $ <command> [arguments] &
 ```
+
+List background jobs.
+
+```
+$ jobs
+```
+
+Check running background jobs.
+
+```
+$ bg [job_id_1] [job_id_n]
+```
+
+Interact with background process.
+
+```
+$ fg [job_id]
+```
+
+Terminate the latest job.
+
+```
+$ kill %1
+```

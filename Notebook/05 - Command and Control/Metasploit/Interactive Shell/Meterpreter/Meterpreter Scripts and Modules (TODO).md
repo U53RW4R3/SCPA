@@ -224,8 +224,6 @@ run post/windows/gather/credentials/total_commander
 
 run post/windows/gather/credentials/trillian
 
-run post/windows/gather/tcpnetstat
-
 
 
 run post/windows/gather/credentials/windows_sam_hivenightmare

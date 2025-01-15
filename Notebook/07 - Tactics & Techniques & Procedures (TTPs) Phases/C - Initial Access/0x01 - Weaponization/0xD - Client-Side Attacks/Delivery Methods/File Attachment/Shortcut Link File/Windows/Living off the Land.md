@@ -121,17 +121,13 @@ C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand
 
 - [nobodyatall648: Malicious LNK File Abuse Hotkey Feature](https://github.com/nobodyatall648/Malicious-LNK-File-Abuse-Hotkey-Feature)
 
-- [SS64: Shortcut](https://ss64.com/nt/shortcut.html)
-
-- [Shellgeek: Create Shortcuts on User Desktop Using Powershell](https://shellgeek.com/create-shortcuts-on-user-desktop-using-powershell/)
+### Hull1
 
 - [Hull1.com: Customize Shortcut Icon](https://www.hull1.com/scriptit/2020/08/15/customize-shortcut-icon.html)
 
-- [Simontimms: Creating a Shortcut](https://blog.simontimms.com/2021/05/10/creating-a-shortcut/)
+### Uperesia
 
-- [Uperesia Booby Trapped Shortcut](https://www.uperesia.com/booby-trapped-shortcut)
-
-- [Create Shortcut Using VBScript](https://think.unblog.ch/en/create-shortcut-using-vbscript/)
+- [Uperesia: Booby Trap a Shortcut with a Backdoor](https://www.uperesia.com/booby-trapped-shortcut)
 
 ### Bordergate
 
@@ -168,3 +164,7 @@ C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand
 ### B4ckdoor
 
 - [b4ckdoor: Is Macro Phishing Dead in 2024? — A Scheduled Task for Initial Access and Persistence using macro by Abusing Shortcut Files and SSH](https://b4ckdoor.medium.com/is-macro-phishing-dead-in-2024-56b7b4473a29)
+
+### BadOption
+
+- [BadOption: ZipLink - Combine Zips and Lnk for fun and profit](https://badoption.eu/blog/2023/09/28/ZipLink.html)

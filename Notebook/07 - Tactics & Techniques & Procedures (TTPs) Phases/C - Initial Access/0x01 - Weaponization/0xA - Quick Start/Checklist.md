@@ -1,6 +1,15 @@
+---
+author(s):
+  - Userware
+tags:
+  - checklist
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - phishing
+  - defense-evasion
+---
 # Checklist
-
-Search Tag(s): #checklist #initial-access #weaponization #client-side-attacks #phishing #defense-evasion
 
 TODO: Make a cross-reference when making a good checklist for weaponizing when delivering the attack.
 
@@ -10,7 +19,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [[Exiftool]]
 	- [[exifLooter]]
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Network Mapper|Network Mapper]]
-- [ ] Look for job requirements of what technology the target(s) using that can be weaponized.
+- [ ] Look for job requirements of what technology that the target(s) using that can be weaponized.
 
 ## Active Client Information Gathering
 

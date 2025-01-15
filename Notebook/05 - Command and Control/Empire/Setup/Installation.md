@@ -22,4 +22,6 @@ $ /opt/post-exploitation/Empire/setup/cert.sh
 
 ### 2.2 - In Kali Linux
 
-`$ /usr/share/powershell-empire/setup/cert.sh`
+```
+$ /usr/share/powershell-empire/setup/cert.sh
+```

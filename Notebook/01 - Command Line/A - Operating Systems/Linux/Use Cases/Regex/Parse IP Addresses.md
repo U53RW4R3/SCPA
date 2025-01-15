@@ -4,6 +4,7 @@ author(s):
 tags:
   - command-line
   - networking
+  - regex
   - use-cases
   - linux
 ---
@@ -20,7 +21,7 @@ $ ifconfig -a | awk '/(inet)(.*)broadcast/ {print $2}'
 ```
 
 ```
-$ ifcong | grep -v 127.0.0.1 | grep -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}" | awk '{print $2}'
+$ ifconfig | grep -v 127.0.0.1 | grep -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}" | awk '{print $2}'
 
 $ ifconfig | grep -v 127.0.0.1 | grep -Eo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | awk '{print $2}'
 
@@ -74,7 +75,7 @@ $ cat /sys/class/net/<interface>/address
 ### Perl
 
 ```perl
-!/usr/bin/perl -w
+#!/usr/bin/perl -w
 
 use strict;
 
@@ -179,8 +180,10 @@ $ ./list2cidr.sh <CIDR> ips.txt
 ---
 ## References
 
-- [[Linux Commands References]]
+### Hacktricks
 
-- [Regex Find IP Addresses File Grep](https://www.shellhacks.com/regex-find-ip-addresses-file-grep/)
+- [Hacktricks: Useful Linux Commands](https://book.hacktricks.wiki/en/linux-hardening/useful-linux-commands.html)
 
-- [Convert List of IP Into Fixed CIDR Form](https://unix.stackexchange.com/questions/671839/convert-list-of-ip-into-fixed-cidr-form)
+### StackExchange
+
+- [StackExchange: Convert List of IP Into Fixed CIDR Form](https://unix.stackexchange.com/questions/671839/convert-list-of-ip-into-fixed-cidr-form)
