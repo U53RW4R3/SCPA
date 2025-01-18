@@ -30,8 +30,8 @@ $TERM
 | -------------------- | ------------------------------------------------------------------------------------------ | ------------------------- | ----------------------------------------------- |
 | `$PWD`               | Prints the current working directory.                                                      | `pwd`                     | Variable name of the current working directory. |
 | `$BASH_COMMAND`      | Returns exact command line used to start current unix-like shell prompt session.           | None                      |                                                 |
-| `$HOSTNAME`          | `<hostname>`                                                                               | `hostname` and `uname -n` | Variable name of the computer name.             |
-| `$SHELL`             | `/bin/bash`                                                                                | None                      | Variable name of the current unix-like shell.   |
+| `$HOSTNAME`          | Prints the computer name.                                                                  | `hostname` and `uname -n` | Variable name of the computer name.             |
+| `$SHELL`             | Prints the current unix shell prompt.                                                      | None                      | Variable name of the current unix-like shell.   |
 | `$DATE`              | Prints the current date.                                                                   | `date`                    | Variable name of the current date.              |
 | `$OSTYPE`            | `linux-gnu`                                                                                | `uname -o`                | Variable name of the operating system type.     |
 | `$PATH`              | `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games` | None                      | Variable name of the path environment.          |
@@ -47,3 +47,10 @@ $TERM
 | `$HOME`              | `/home/$USER`                                                                              | None                      |                                                 |
 | `$RANDOM`            |                                                                                            | None                      |                                                 |
 | `$SRANDOM`           |                                                                                            | None                      |                                                 |
+
+---
+## References
+
+### Wikipedia
+
+- [Wikipedia: Environment Variable](https://en.wikipedia.org/wiki/Environment_variable)

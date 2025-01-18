@@ -39,7 +39,6 @@ TODO: Fill the checklist for gathering metadata
 | `.pptx`   |
 | `.odp`    |
 
-
 ## Sensitive Information
 
 - Personal Information

@@ -103,6 +103,10 @@ Here's an image as an example.
 
 - [Jerome: Force VirtualBox VMs to use Tor](https://fr33tux.org/post/redirect-vm-to-tor/)
 
+### Shell is Coming
+
+- [Shell is Coming:  TOR + 2nd VPN - An additional layer of anonymity](https://www.shelliscoming.com/2013/07/tor-2nd-vpn-additional-layer-of.html)
+
 ### Check TOR Circuit
 
 - [Check TOR](https://check.torproject.org/)

@@ -11,9 +11,9 @@ tags:
 ---
 # SSH
 
-## 01 - Manual
+## 01 - Banner Grab
 
-### 1.1 - Banner Grab
+### 1.1 - Manual
 
 #### 1.1.1 - Ncat
 
@@ -27,45 +27,7 @@ $ echo "EXIT" | ncat -nv <IP> 22
 $ echo "EXIT" | telnet <IP> 22
 ```
 
-### 1.2 - Configuration Files
-
-```
-$ cat /etc/ssh/sshd_config
-
-$ cat /etc/ssh/ssh_host*
-
-$ cat /home/$USER/.ssh/config
-```
-
-### 1.3 - SFTP Command Execution
-
-Once you have the SSH credentials to authenticate
-
-```
-$ ssh -v <username>@<IP> "<command>"
-
-$ ssh -v <username>@<IP> /bin/bash
-```
-
-## 02 - SSH-Audit
-
-```
-$ ssh-audit <IP>
-```
-
-## 03 - Network Mapper
-
-```
-$ nmap -p 22 --script sshv1 <IP>
-
-$ nmap -p 22 --script ssh-auth-methods --script-args="ssh.user=<username>" <IP>
-
-$ nmap -p 22 --script ssh-2-enum-algos,ssh-hostkey <IP>
-```
-
-## 04 - Metasploit
-
-### 4.1 - Banner Grab
+### 1.2 - Metasploit
 
 ```
 msf > use auxiliary/scanner/ssh/ssh_version
@@ -90,25 +52,55 @@ msf auxiliary(scanner/ssh/ssh_version) > set threads 8
 msf auxiliary(scanner/ssh/ssh_version) > run
 ```
 
-### 4.2 - Username Enumeration
+## 02 - SSH Authentication Methods
 
-TODO: Write down the CVE of what software version were affected
+Check what SSH authentication methods are available. If it has a `password` authentication method is enabled then start [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Network Protocols/Remote Services/SSH|brute forcing]].
 
 ```
-msf > use auxiliary/scanner/ssh/ssh_enumusers
+$ nmap -p 22 --script ssh-auth-methods --script-args="ssh.user=<username>" <IP>
+```
 
-msf auxiliary(scanner/ssh/ssh_enumusers) > set rhosts <IP>
+## 03 - Known Host Keys
 
-run
+```
+$ nmap -p 22 --script ssh-hostkey --script-args ssh_hostkey=full <IP>
+
+$ nmap -p 22 --script ssh-hostkey --script-args ssh_hostkey=all <IP>
+
+$ nmap -p 22 --script ssh-hostkey --script-args ssh_hostkey='visual bubble' <IP>
+```
+
+## 04 - Algorithms
+
+```
+$ nmap -p 22 --script ssh2-enum-algos <IP>
+```
+
+## 05 - Automated
+
+```
+$ ssh-audit <IP>
 ```
 
 ---
 ## References
 
+### Backlinks
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Protocols/Remote Services/SSH|Vulnerability Assessment: SSH]]
+
+### Github
+
 - [SSH-Audit](https://github.com/jtesta/ssh-audit)
+
+### Hacktricks
 
 - [Hacktricks: Pentesting SSH](https://book.hacktricks.xyz/pentesting/pentesting-ssh)
 
+### Hacking Articles
+
 - [Hacking Articles: SSH Penetration Testing](https://www.hackingarticles.in/ssh-penetration-testing-port-22/)
+
+### Kali Documentation
 
 - [Kali Docs: SSH Configuration](https://www.kali.org/docs/general-use/ssh-configuration/)

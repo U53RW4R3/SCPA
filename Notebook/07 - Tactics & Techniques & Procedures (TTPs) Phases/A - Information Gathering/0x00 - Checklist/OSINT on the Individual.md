@@ -10,16 +10,48 @@ https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/government-in
 
 https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/gaming
 
-- [ ] Names
-- [ ] Email Addresses
+## Basic Information
+
+- [ ] Full Name
+	- [ ] First Name
+	- [ ] Surname
+	- [ ] Last Name
+- [ ] Language
+- [ ] Religion
+- [ ] Ethnicity/Race
+- [ ] Interests
+	- [ ] Hobbies
 - [ ] Aliases
 	- [ ] Name Aliases
-- [ ] People
-- [ ] Country
-	- [ ] State
-	- [ ] City
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/04 - Forensics/Checklist|Files Metadata]]
+	- [ ] Photos
+	- [ ] Documents
+- [ ] Affiliated People
+	- [ ] Friends
+	- [ ] Family
+	- [ ] Co-workers
+	- [ ] Acquaintances
+- [ ] Location
 	- [ ] Timezone
-- Social Media Intelligence
+	- [ ] Country
+		- [ ] State
+		- [ ] City
+	- [ ] Geolocation
+	- [ ] Physical Address
+- [ ] Owns a registered domain name.
+- [ ] Owns a registered IP address.
+
+## Accounts
+
+- Email Addresses
+	- [ ] Gmail
+	- [ ] Yahoo
+	- [ ] Microsoft
+		- [ ] Hotmail
+		- [ ] Outlook
+	- [ ] Tutanota
+	- [ ] Proton
+- Social Media Networking
 	- [ ] X (formely Twitter)
 	- [ ] Meta
 		- [ ] Facebook

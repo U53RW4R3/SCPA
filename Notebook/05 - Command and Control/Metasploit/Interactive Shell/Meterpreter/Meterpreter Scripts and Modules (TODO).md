@@ -269,11 +269,9 @@ run post/windows/manage/forward_pageant
 
 run post/windows/manage/hashcarve
 
-run post/windows/manage/pptp_tunnel
 
 
 
-run post/windows/manage/ie_proxypac
 
 run post/windows/manage/priv_migrate
 

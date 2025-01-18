@@ -77,7 +77,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [ ] Installer
 		- [ ] MSI
 		- [ ] ClickOnce
-- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Living off the Land|Shortcut Link]] (`.lnk`)
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Manual/Living off the Land|Shortcut Link]] (`.lnk`)
 	- [ ] Decoy file.
 
 ### Bypass MOTW (Mark of the Web)
@@ -90,7 +90,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 		- [ ] Password protected
 	- CAB
 - [ ] Disk container
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/Disk Image/Generate Disk Image/Automated/PackMyPayload/Usage|PackMyPayload]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Disk Image/Generate Disk Image/Offensive Tools/PackMyPayload/Usage|PackMyPayload]]
 		- [ ] Add archive file.
 			- 7zip
 				- [ ] Password protected.

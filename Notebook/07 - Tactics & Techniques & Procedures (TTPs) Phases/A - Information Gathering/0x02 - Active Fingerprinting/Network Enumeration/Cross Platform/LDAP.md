@@ -30,6 +30,10 @@ $ ldapsearch -x -D '<DOMAIN>\<username>' -w '<password>' -b "[DC=<subdomain>,]DC
 ---
 ## References
 
+### Hacktricks
+
 - [Hacktricks: Pentesting LDAP](https://book.hacktricks.xyz/pentesting/pentesting-ldap)
+
+### Rapid7
 
 - [Rapid7: Metasploit Framework - LDAP Auxiliary Module](https://docs.metasploit.com/docs/pentesting/metasploit-guide-ldap.html)
