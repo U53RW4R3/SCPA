@@ -60,7 +60,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 - [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/HTML Smuggling/Manual|HTML Smuggling]]
 - [ ] Macros
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macros/Manual|Microsoft Office]]
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/LibreOffice/Macros/Craft Manually with Macro Delivery|LibreOffice Macro]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/LibreOffice/Manual|LibreOffice Macro]]
 - [ ] Macroless
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]]
 	- [[Excel]]
@@ -120,7 +120,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 		- [ ] Shell Scripting
 			- Batch (`.bat` or `.cmd`)
 			- VBScript (`.vbs`)
-	- [ ] HTML Application (`.hta`) with macros inside using [[Microsoft Office Macros Template|DCOM]] method.
+	- [ ] HTML Application (`.hta`) with macros inside using [[Microsoft Office Macros|DCOM]] method.
 - [ ] Using [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]] to embed inside a file.
 	- [ ] Add archive file.
 		- 7zip

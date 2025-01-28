@@ -2,9 +2,7 @@
 
 ## 01 - Windows
 
-Install the Visual C++ Build Tools.
-
-- https://visualstudio.microsoft.com/visual-cpp-build-tools
+Install the [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools).
 
 Turn off aliases for Python
 

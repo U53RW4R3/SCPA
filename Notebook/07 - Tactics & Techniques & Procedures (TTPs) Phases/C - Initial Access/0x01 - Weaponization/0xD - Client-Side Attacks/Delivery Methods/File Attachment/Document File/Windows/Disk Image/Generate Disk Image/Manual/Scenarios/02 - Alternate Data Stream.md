@@ -1,6 +1,15 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - defense-evasion
+  - scenarios
+  - windows
+---
 # 02 - Alternate Data Stream
-
-Search Tag(s): #initial-access #defense-evasion #windows #use-cases
 
 ## 2.1 -  Appending files via ADS in Linux
 

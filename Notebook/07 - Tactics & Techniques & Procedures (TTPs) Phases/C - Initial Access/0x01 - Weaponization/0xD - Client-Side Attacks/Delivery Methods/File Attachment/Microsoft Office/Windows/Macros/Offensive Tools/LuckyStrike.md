@@ -17,4 +17,6 @@ TODO: Showcase LuckyStrike usage by generating a macro
 
 - [Lab 3 LuckyStrike Macro Generator](https://pythonforcybersecurity.com/lessons/lab-3-luckystrike-macro-generator/)
 
+### Hacking Articles
+
 - [Hacking Articles: Multiple Ways to Exploit Windows Systems using Macros](https://www.hackingarticles.in/multiple-ways-to-exploit-windows-systems-using-macros/)

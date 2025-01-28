@@ -5,7 +5,7 @@ tags:
   - initial-access
   - weaponization
   - client-side-attacks
-  - use-cases
+  - scenarios
   - windows
 ---
 # 01 - Format NTFS Disk Image

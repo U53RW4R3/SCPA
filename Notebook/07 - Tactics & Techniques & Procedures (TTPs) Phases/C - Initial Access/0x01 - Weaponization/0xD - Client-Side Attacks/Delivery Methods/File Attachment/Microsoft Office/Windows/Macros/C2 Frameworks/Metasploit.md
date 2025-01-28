@@ -35,6 +35,14 @@ msf exploit(windows/fileformat/office_word_hta) > run
 ---
 ## References
 
+### Rapid7
+
 - [Rapid7: Metasploit Framework - Exploit FileFormat Office Word Macro](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/exploit/multi/fileformat/office_word_macro.md)
+
+### Hacking Articles
+
+- [Hacking Articles: Multiple Ways to Exploit Windows Systems using Macros](https://www.hackingarticles.in/multiple-ways-to-exploit-windows-systems-using-macros/)
+
+### Network Intelligence
 
 - [Network Intelligence: Getting System Access Using Malicious Word File](https://networkintelligence.ai/getting-system-access-using-malicious-word-file/)

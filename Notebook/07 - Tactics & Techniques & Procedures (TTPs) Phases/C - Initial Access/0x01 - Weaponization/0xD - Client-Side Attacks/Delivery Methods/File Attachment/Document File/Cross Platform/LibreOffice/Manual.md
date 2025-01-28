@@ -1,12 +1,8 @@
-# Craft Manually with Macro Delivery
+# Manual
 
 TODO: Fill this information
 
-## 01 - Crafting Manually
-
-## 02 - Automated
-
-### 2.1 - Metasploit
+Refer to the [[Office Macros|libreoffice macros]] malware development section.
 
 ---
 ## References

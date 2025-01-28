@@ -2,7 +2,7 @@
 
 ## R2L OverRide Character
 
-Hit the copy button on the right side of the text box. Yes it is there it is an invisible character.
+Hit the copy button on the right side of the text box. Once it is copied paste it with the invisible character.
 
 ```
 ‮

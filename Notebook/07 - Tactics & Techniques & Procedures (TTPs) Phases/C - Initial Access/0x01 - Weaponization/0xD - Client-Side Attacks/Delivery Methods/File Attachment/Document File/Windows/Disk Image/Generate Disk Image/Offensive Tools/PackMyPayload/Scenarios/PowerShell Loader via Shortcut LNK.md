@@ -45,6 +45,6 @@ $ sudo python -m http.server [-d /path/to/directory/] 80
 ---
 ## References
 
-### Mitigation
+### Mubix
 
 - [Malicious.link: Blocking ISO mounting](https://room362.com/posts/2022/blocking-iso-mounting/)
