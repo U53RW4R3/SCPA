@@ -47,4 +47,6 @@ $ nuclei -l ip_targets.txt -t ~/nuclei-templates -id mongodb-info-enum
 ---
 ## References
 
-- [Hacktricks: Pentesting MongoDB](https://book.hacktricks.xyz/network-services-pentesting/27017-27018-mongodb)
+### Hacktricks
+
+- [Hacktricks: Pentesting MongoDB](https://book.hacktricks.wiki/en/network-services-pentesting/27017-27018-mongodb.html)

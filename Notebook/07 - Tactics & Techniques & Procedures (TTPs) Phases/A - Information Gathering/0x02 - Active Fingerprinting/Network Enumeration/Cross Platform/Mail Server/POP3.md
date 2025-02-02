@@ -58,4 +58,6 @@ msf auxiliary(scanner/pop3/pop3_version) > run -j
 ---
 ## References
 
-- [Hacktricks: Pentesting POP](https://book.hacktricks.xyz/pentesting/pentesting-pop)
+### Hacktricks
+
+- [Hacktricks: Pentesting POP](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-pop.html)

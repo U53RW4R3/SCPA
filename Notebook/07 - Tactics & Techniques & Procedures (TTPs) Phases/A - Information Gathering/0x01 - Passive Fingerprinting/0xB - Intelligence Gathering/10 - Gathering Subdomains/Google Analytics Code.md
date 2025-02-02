@@ -16,6 +16,10 @@ pub-[0-9]{16}
 
 - [Aware Online: Investigating the source code of a website](https://www.aware-online.com/en/osint-tutorials/investigating-the-source-code-of-a-website/)
 
+### Sidxparab
+
+- [Sidxparab: Vertical Enumeration](https://sidxparab.gitbook.io/subdomain-enumeration-guide/types/vertical-enumeration)
+
 ### DNSlytics
 
 - [DNSlytics](https://search.dnslytics.com/tools)

@@ -155,3 +155,7 @@ $ findomain -f domains.txt -r -o output-resolved.txt
 ### InternalAllTheThings
 
 - [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)
+
+### Sidxparab
+
+- [Sidxparab: Vertical Enumeration](https://sidxparab.gitbook.io/subdomain-enumeration-guide/types/vertical-enumeration)

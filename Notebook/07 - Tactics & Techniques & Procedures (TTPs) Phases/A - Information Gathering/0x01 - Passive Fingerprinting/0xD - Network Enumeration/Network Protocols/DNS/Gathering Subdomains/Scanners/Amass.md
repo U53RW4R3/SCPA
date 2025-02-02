@@ -33,12 +33,16 @@ $ amass intel -ip -cidr <IP>/<CIDR>
 ---
 ## References
 
+### Github
+
 - [Amass Tutorial](https://github.com/OWASP/Amass/wiki/Tutorial)
 
 - [Amass User Guide](https://github.com/OWASP/Amass/wiki/User-Guide)
 
-- [Amass Quick Tutorial Example Usage](https://allabouttesting.org/owasp-amass-quick-tutorial-example-usage/)
-
 ### InternalAllTheThings
 
 - [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)
+
+### Sidxparab
+
+- [Sidxparab: Vertical Enumeration](https://sidxparab.gitbook.io/subdomain-enumeration-guide/types/vertical-enumeration)

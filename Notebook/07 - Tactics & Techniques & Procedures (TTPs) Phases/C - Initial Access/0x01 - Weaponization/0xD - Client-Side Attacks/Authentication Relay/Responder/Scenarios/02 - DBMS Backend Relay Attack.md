@@ -65,6 +65,10 @@ $ sudo responder -I <interface>
 ---
 ## References
 
-- [Pwning a Shell via MSSQL DBMS](https://owasp.org/www-chapter-ghana/assets/slides/Pwning_a_shell_via_MSSQL_DBMS.pdf)
+### OWASP
 
-- [Pentesting MSSQL Microsoft SQL Server](https://book.hacktricks.xyz/pentesting/pentesting-mssql-microsoft-sql-server)
+- [OWASP: Pwning a Shell via MSSQL DBMS](https://owasp.org/www-chapter-ghana/assets/slides/Pwning_a_shell_via_MSSQL_DBMS.pdf)
+
+### Hacktricks
+
+- [Hacktricks: Pentesting MSSQL Microsoft SQL Server](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-mssql-microsoft-sql-server/index.html)

@@ -41,3 +41,7 @@ msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserve
 ### InternalAllTheThings
 
 - [InternalAllTheThings: Web Attack Surface](https://swisskyrepo.github.io/InternalAllTheThings/redteam/access/web-attack-surface/)
+
+### Sidxparab
+
+- [Sidxparab: Vertical Enumeration](https://sidxparab.gitbook.io/subdomain-enumeration-guide/types/vertical-enumeration)

@@ -15,4 +15,10 @@ $ cat subdomains.txt | xargs -P 10 -I {} host {} | grep "has address" | awk "{pr
 ---
 ## References
 
-- [Hacktricks: Pentesting DNS](https://book.hacktricks.xyz/pentesting/pentesting-dns)
+### Hacktricks
+
+- [Hacktricks: Pentesting DNS](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-dns.html)
+
+### Sidxparab
+
+- [Sidxparab: Vertical Enumeration](https://sidxparab.gitbook.io/subdomain-enumeration-guide/types/vertical-enumeration)

@@ -93,7 +93,7 @@ msf > use auxiliary/scanner/printer/printer_delete_file
 
 ### Hacktricks
 
-- [Hacktricks: Pentesting Raw Printing (JetDirect, AppSocket, PDL-datastream)](https://book.hacktricks.xyz/network-services-pentesting/9100-pjl)
+- [Hacktricks: Pentesting Raw Printing (JetDirect, AppSocket, PDL-datastream)](https://book.hacktricks.wiki/en/network-services-pentesting/9100-pjl.html)
 
 ### Network Mapper NSE Docs
 

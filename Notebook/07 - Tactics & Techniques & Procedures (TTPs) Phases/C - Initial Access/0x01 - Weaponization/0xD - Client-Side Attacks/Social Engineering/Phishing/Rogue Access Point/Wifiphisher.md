@@ -11,7 +11,7 @@ TODO: Provide more usage coverage for Wifiphisher with use cases
 
 ### Hacktricks
 
-- [Hacktricks: Pentesting Wi-Fi](https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-wifi)
+- [Hacktricks: Pentesting Wi-Fi](https://book.hacktricks.wiki/en/generic-methodologies-and-resources/pentesting-wifi.html)
 
 ### Black Hills Information Security
 

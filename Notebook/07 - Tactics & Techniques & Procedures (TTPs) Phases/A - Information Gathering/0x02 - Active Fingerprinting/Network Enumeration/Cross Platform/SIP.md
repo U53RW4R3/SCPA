@@ -3,7 +3,7 @@ author(s):
   - Userware
 tags:
   - information-gathering
-  - active-reconnaissance
+  - active-fingerprinting
   - network-protocols
   - sip
   - metasploit-framework

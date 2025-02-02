@@ -294,9 +294,9 @@ msf auxiliary(scanner/smtp/smtp_relay) > exploit -j
 
 ### Hacktricks
 
-- [Hacktricks: Pentesting SMTP](https://book.hacktricks.xyz/pentesting/pentesting-smtp)
+- [Hacktricks: Pentesting SMTP](https://book.hacktricks.wiki/en/pentesting/pentesting-smtp.html)
 
-- [Hacktricks: SMTP Commands](https://book.hacktricks.xyz/pentesting/pentesting-smtp/smtp-commands)
+- [Hacktricks: SMTP Commands](https://book.hacktricks.wiki/en/pentesting/pentesting-smtp/smtp-commands.html)
 
 ### Black Hills Information Security
 

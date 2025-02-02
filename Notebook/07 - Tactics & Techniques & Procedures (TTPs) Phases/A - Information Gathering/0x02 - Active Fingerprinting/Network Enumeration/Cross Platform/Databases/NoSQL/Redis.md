@@ -31,4 +31,6 @@ msf auxiliary(scanner/redis/redis_server) > options
 ---
 ## References
 
- - [Hacktricks: Pentesting Redis](https://book.hacktricks.xyz/network-services-pentesting/6379-pentesting-redis)
+### Hacktricks
+
+ - [Hacktricks: Pentesting Redis](https://book.hacktricks.wiki/en/network-services-pentesting/6379-pentesting-redis.html)

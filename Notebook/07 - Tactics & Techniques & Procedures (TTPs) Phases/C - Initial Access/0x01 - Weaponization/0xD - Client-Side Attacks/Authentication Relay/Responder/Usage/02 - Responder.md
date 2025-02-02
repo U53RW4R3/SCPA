@@ -1,6 +1,17 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - exploitation
+  - weaponization
+  - sniffing-and-spoofing
+  - client-side-attacks
+  - authentication-relay
+  - network-protocols
+  - smb
+---
 # 02 - Responder
-
-Search Tag(s): #mitm #responder #smb #relay #ntlm
 
 ## 2.1 - Basics
 
@@ -70,11 +81,17 @@ $ sudo responder -I <interface> -A
 ---
 ## References
 
+### Backlinks
+
 - [Responder](https://github.com/lgandx/Responder)
 
-- [Hacktricks: Spoofing LLMNR, NBT-NS, mDNS/DNS and WPAD and Relay Attacks](https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-network/spoofing-llmnr-nbt-ns-mdns-dns-and-wpad-and-relay-attacks)
+### Laurent Gaffie
 
-- [Responders DHCP Poisoner](https://g-laurent.blogspot.com/2021/08/responders-dhcp-poisoner.html)
+- [Laurent Gaffie: Responders DHCP Poisoner](https://g-laurent.blogspot.com/2021/08/responders-dhcp-poisoner.html)
+
+### Hacktricks
+
+- [Hacktricks: Spoofing LLMNR, NBT-NS, mDNS/DNS and WPAD and Relay Attacks](https://book.hacktricks.wiki/en/generic-methodologies-and-resources/pentesting-network/spoofing-llmnr-nbt-ns-mdns-dns-and-wpad-and-relay-attacks.html)
 
 ### Hacking Articles
 

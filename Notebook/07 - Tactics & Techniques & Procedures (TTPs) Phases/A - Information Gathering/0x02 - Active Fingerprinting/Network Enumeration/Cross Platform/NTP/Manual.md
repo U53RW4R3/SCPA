@@ -25,4 +25,6 @@ $ ntpdc -c sysinfo <IP>
 ---
 ## References
 
-- [Hacktricks: Pentesting NTP](https://book.hacktricks.xyz/pentesting/pentesting-ntp)
+### Hacktricks
+
+- [Hacktricks: Pentesting NTP](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-ntp.html)

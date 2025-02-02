@@ -145,7 +145,7 @@ $ sudo python -m http.server [-d /path/to/directory/] 80
 
 ### Hacktricks
 
-- [Hacktricks: Phishing Files and Documents](https://book.hacktricks.xyz/generic-methodologies-and-resources/phishing-methodology/phishing-documents)
+- [Hacktricks: Phishing Files and Documents](https://book.hacktricks.wiki/en/generic-methodologies-and-resources/phishing-methodology/phishing-documents.html)
 
 ### Hacking Articles
 

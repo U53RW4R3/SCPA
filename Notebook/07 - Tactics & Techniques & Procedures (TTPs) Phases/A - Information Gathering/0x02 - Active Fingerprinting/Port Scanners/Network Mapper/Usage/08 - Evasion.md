@@ -120,20 +120,22 @@ Scan a target with a zombie source IP
 $ sudo nmap -sI <zombie_IP> <target_IP>
 ```
 
-### 8.1.4 -  FTP Bounce
-
-Using a FTP server as a proxy server to scan the target
+### 8.1.4 - Randomize Hosts
 
 ```
-$ nmap -b <username>:<password>@<FTP_server_IP> <target_IP>
-
-$ nmap -v -p 21,22,80,443,445 -Pn -b <username>:<password>@<FTP_server_IP> <target_IP>/<CIDR>
+$ nmap --randomize-hosts <target_IP>
 ```
 
 ### 8.1.5 -  NSE Script
 
 ```
 $ sudo nmap --script firewall-bypass --script-args firewall-bypass.helper="ftp",firewall-bypass.targetport=<PORT> <target_IP>
+```
+
+Using `firewalk` NSE script.
+
+```
+$ sudo nmap --script firewalk --traceroute <target_IP>
 ```
 
 ## 8.2 - Spoof User Agent
@@ -180,16 +182,6 @@ $ nmap --initial-rtt-timeout 50ms <IP>
 ### Network Mapper
 
 - [Network Mapper: Bypass Firewalls and IDS](https://nmap.org/book/man-bypass-firewalls-ids.html)
-
-### Hacktricks
-
-- [Hacktricks: FTP Bounce Attack](https://book.hacktricks.xyz/pentesting/pentesting-ftp/ftp-bounce-attack)
-
-- [Top 10 Firewall and IDS Evasion Techniques](https://medium.com/@IamLucif3r/top-10-firewall-ids-evasion-techniques-cb1e1cc06f24)
-
-- [Network Mapper Firewall Evasion Techniques](https://www.dimz-it.com/berkas/Nmap_Firewall_Evasion_Techniques.pdf)
-
-- [Firewall Bypassing Techniques with Nmap and Hping3](https://dzone.com/articles/firewall-bypassing-techniques-with-nmap-and-hping3)
 
 ### Ethical hacking and penetration testing
 

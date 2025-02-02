@@ -15,7 +15,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 
 ## Passive Client Information Gathering
 
-- [ ] Scrape metadata from images and documents. Refer to this [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/04 - Forensics/Checklist|checklist]] to narrow down your search results.
+- [ ] Scrape metadata from images and documents. Refer to this [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x04 - Forensics/Checklist|checklist]] to narrow down your search results.
 	- [[Exiftool]]
 	- [[exifLooter]]
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Network Mapper|Network Mapper]]
@@ -37,12 +37,11 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 				- [ ] Search for emails to scrape them.
 				- [ ] Search for first and last names to parse them to perform user enumeration with the following.
 					- SMTP Port
-						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/Cross Platform/Mail Server/SMTP|Manual username enumeration]]
-						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/Mail Server/SMTP/Metasploit|Metasploit username enumeration]]
+						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/Cross Platform/Mail Server/SMTP|Username enumeration]]
 					- Web mail
 			- [ ] OSINT gathering on social media
 			- [ ] OSINT gathering using google dorking
-				- TODO Fill in the bullet points/checkboxes
+				- TODO: Fill in the bullet points/checkboxes
 			- [ ] Data breaches
 			- [ ] Parse and verify the emails
 		- [ ] Check if the domain is spoofable.

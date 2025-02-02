@@ -65,4 +65,6 @@ $ nmap -p 23 -n -Pn --script telnet-ntlm-info <IP>
 ---
 ## References
 
-- [Pentesting Telnet](https://book.hacktricks.xyz/pentesting/pentesting-telnet)
+### Hacktricks
+
+- [Pentesting Telnet](https://book.hacktricks.wiki/en/pentesting/pentesting-telnet.html)

@@ -3,7 +3,7 @@ author(s):
   - Userware
 tags:
   - information-gathering
-  - active-reconnaissance
+  - active-fingerprinting
   - network-protocols
   - snmp
   - network-mapper
@@ -78,6 +78,6 @@ msf auxiliary(scanner/snmp/snmp_enum) > run
 ---
 ## References
 
-- [Hacktricks: Pentesting SNMP](https://book.hacktricks.xyz/pentesting/pentesting-snmp)
+### Hacktricks
 
-- [RangeForce: Enumerating with Nmap](https://materials.rangeforce.com/tutorial/2020/01/30/Enumerating-with-Nmap/)
+- [Hacktricks: Pentesting SNMP](https://book.hacktricks.wiki/en/pentesting/pentesting-snmp.html)

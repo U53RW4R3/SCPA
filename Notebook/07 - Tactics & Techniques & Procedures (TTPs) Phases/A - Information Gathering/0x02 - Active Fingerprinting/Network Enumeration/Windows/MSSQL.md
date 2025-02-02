@@ -50,10 +50,18 @@ SQL> enable_xp_cmdshell
 ---
 ## References
 
+### SS64
+
 - [SS64: SQLCMD](https://ss64.com/sql/sqlcmd.html)
+
+### Microsoft
 
 - [Microsoft Documentation: Invoke-SQLCMD](https://learn.microsoft.com/en-us/powershell/module/sqlserver/invoke-sqlcmd?view=sqlserver-ps)
 
-- [Hacktricks: Pentesting MSSQL Microsoft SQL Server](https://book.hacktricks.xyz/pentesting/pentesting-mssql-microsoft-sql-server)
+### Hacktricks
+
+- [Hacktricks: Pentesting MSSQL Microsoft SQL Server](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-mssql-microsoft-sql-server/index.html)
+
+### Hacking Articles
 
 - [Hacking Articles: MSSQL for Pentester Command Execution with XP_Cmdshell](https://www.hackingarticles.in/mssql-for-pentester-command-execution-with-xp_cmdshell/)

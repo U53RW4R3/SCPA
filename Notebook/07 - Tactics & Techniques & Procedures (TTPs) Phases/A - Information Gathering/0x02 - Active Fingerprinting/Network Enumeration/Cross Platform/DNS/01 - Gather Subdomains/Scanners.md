@@ -107,7 +107,7 @@ $ source ~/environments/sublist3r2/bin/activate
 $ sublist3r2 -d website.com -b -t 64 -o subdomains.txt
 ```
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Gathering URLs/Scanners/theHarvester|theHarvester]]
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Scanners/theHarvester|theHarvester]]
 
 ```
 $ theHarvester -n -c -l 1000 -d <domain.tld | organization_name> -b bufferoverun,certspotter,crtsh,dnsdumpster,hackertarget
@@ -168,6 +168,12 @@ msf auxiliary(scanner/dns/dns_amp) > run threads=8 batchsize=<int> domainname=<d
 
 ---
 ## References
+
+### Backlinks
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/Cross Platform/DNS/01 - Gather Subdomains/Manual]]
+
+### Github
 
 - [Fierce](https://github.com/mschwager/fierce)
 

@@ -162,14 +162,18 @@ msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserve
 ---
 ## References
 
+### Backlinks
+
 - [[Domains]]
 
-- [Amass Tutorial](https://github.com/OWASP/Amass/wiki/Tutorial)
-
-- [Amass User Guide](https://github.com/OWASP/Amass/wiki/User-Guide)
-
-- [Amass Quick Tutorial Example Usage](https://allabouttesting.org/owasp-amass-quick-tutorial-example-usage/)
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/Cross Platform/DNS/02 - Subdomain Bruteforce/Manual]]
 
 ### Wordlist
 
 - [Assetnote Wordlists: Best DNS Wordlist](https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt)
+
+### Github
+
+- [Amass Tutorial](https://github.com/OWASP/Amass/wiki/Tutorial)
+
+- [Amass User Guide](https://github.com/OWASP/Amass/wiki/User-Guide)

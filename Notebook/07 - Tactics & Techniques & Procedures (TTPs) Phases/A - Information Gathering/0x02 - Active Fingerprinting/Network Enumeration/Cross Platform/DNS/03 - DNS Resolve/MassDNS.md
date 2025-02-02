@@ -2,6 +2,11 @@
 
 TODO: Fill this info
 
-https://github.com/blechschmidt/massdns
+---
+## References
 
-https://github.com/trickest/resolvers
+### Github
+
+- [MassDNS](https://github.com/blechschmidt/massdns)
+
+- [Resolvers](https://github.com/trickest/resolvers)

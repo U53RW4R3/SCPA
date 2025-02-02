@@ -102,6 +102,10 @@ $ memccat --server=<IP> [--username=<password> --password=<password>] <key_name_
 ---
 ## References
 
-- [Hacktricks: Pentesting Memcache](https://book.hacktricks.xyz/network-services-pentesting/11211-memcache)
+### Backlinks
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Protocols/Remote Services/Memcached|Vulnerability Assessment: Memcached]]
+
+### Hacktricks
+
+- [Hacktricks: Pentesting Memcache](https://book.hacktricks.wiki/en/network-services-pentesting/11211-memcache/memcache-commands.html)

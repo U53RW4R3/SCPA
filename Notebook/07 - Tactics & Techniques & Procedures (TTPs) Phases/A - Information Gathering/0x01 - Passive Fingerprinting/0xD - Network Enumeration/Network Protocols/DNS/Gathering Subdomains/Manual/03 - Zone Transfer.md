@@ -51,4 +51,4 @@ $ host -l <domain.com> <dns_nameserver>
 
 ### Hacktricks
 
-- [Hacktricks: Pentesting DNS](https://book.hacktricks.xyz/pentesting/pentesting-dns)
+- [Hacktricks: Pentesting DNS](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-dns.html)

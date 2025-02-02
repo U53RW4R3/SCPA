@@ -65,4 +65,6 @@ $ iscsiadm -m node --targetname="<target_node>" -p <IP>:3260 -u
 ---
 ## References
 
-- [Hacktricks: 3260 Pentesting ISCSI](https://book.hacktricks.xyz/network-services-pentesting/3260-pentesting-iscsi)
+### Hacktricks
+
+- [Hacktricks: 3260 Pentesting ISCSI](https://book.hacktricks.wiki/en/network-services-pentesting/3260-pentesting-iscsi.html)

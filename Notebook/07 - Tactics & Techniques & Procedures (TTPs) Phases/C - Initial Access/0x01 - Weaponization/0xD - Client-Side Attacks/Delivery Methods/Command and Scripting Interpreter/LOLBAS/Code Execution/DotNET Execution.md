@@ -41,7 +41,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
 
 ### Hacktricks
 
-- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/windows)
+- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/windows.html)
 
 ### Red Team Notes
 

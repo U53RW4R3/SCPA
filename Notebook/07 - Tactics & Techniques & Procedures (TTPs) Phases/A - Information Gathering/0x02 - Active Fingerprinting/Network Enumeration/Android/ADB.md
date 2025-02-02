@@ -32,8 +32,12 @@ $ adb devices -l
 ---
 ## References
 
-- [Hacktricks: Android Debug Bridge](https://book.hacktricks.xyz/network-services-pentesting/5555-android-debug-bridge)
+### Hacktricks
 
-- [Hacktricks: ADB Commands](https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/adb-commands)
+- [Hacktricks: Android Debug Bridge](https://book.hacktricks.wiki/en/network-services-pentesting/5555-android-debug-bridge.html)
+
+- [Hacktricks: ADB Commands](https://book.hacktricks.wiki/en/mobile-pentesting/android-app-pentesting/adb-commands.html)
+
+### Hacking Articles
 
 - [Hacking Articles: Android Pentest Lab Setup & ADB Command Cheatsheet](https://www.hackingarticles.in/android-pentest-lab-setup-adb-command-cheatsheet/)

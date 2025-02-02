@@ -33,4 +33,4 @@ $ dig RRSIG <domain.com> +short @<DNS_IP>
 
 ### Hacktricks
 
-- [Hacktricks: Pentesting DNS](https://book.hacktricks.xyz/pentesting/pentesting-dns)
+- [Hacktricks: Pentesting DNS](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-dns.html)

@@ -9,6 +9,10 @@ $ sudo -u $USER tar -xvf implant.tar --to-command /bin/bash
 ---
 ## References
 
-- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
+### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+
+### Hacktricks
+
+- [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/shells/shells/linux.html)

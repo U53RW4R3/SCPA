@@ -19,10 +19,18 @@ $ sudo ntlmrelayx.py -ip 127.0.0.1
 ---
 ## References
 
+### Github
+
 - [Arno0x: DivertTCPconn](https://github.com/Arno0x/DivertTCPconn)
+
+### DiabloHorn
 
 - [DiabloHorn: Remote NTLM relaying through meterpreter on Windows port 445](https://diablohorn.com/2018/08/25/remote-ntlm-relaying-through-meterpreter-on-windows-port-445/)
 
+### Rasta Mouse
+
 - [Rasta Mouse: NTLM Relaying via Cobalt Strike](https://rastamouse.me/ntlm-relaying-via-cobalt-strike/)
+
+### Pentester's Promiscous Notebook
 
 - [Pentester's Promiscous Notebook: NTLM Relay](https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/ntlm/ntlm-relay)

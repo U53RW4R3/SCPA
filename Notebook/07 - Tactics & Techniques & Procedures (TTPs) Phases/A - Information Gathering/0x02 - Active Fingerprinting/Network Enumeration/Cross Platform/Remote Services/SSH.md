@@ -95,11 +95,15 @@ $ ssh-audit <IP>
 
 ### Hacktricks
 
-- [Hacktricks: Pentesting SSH](https://book.hacktricks.xyz/pentesting/pentesting-ssh)
+- [Hacktricks: Pentesting SSH](https://book.hacktricks.wiki/en/pentesting/pentesting-ssh.html)
 
 ### Hacking Articles
 
 - [Hacking Articles: SSH Penetration Testing](https://www.hackingarticles.in/ssh-penetration-testing-port-22/)
+
+### 0xffsec
+
+- [0xffsec: SSH Legacy Key Exchange Algorithm](https://0xffsec.com/handbook/notes/ssh-legacy-key-exchange/)
 
 ### Kali Documentation
 

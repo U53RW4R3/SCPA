@@ -477,4 +477,6 @@ $ ike-scan -M <IP>
 ---
 ## References
 
-- [Hacktricks: Pentesting IPsec/IKE VPN](https://book.hacktricks.xyz/network-services-pentesting/ipsec-ike-vpn-pentesting)
+### Hacktricks
+
+- [Hacktricks: Pentesting IPsec/IKE VPN](https://book.hacktricks.wiki/en/network-services-pentesting/ipsec-ike-vpn-pentesting.html)

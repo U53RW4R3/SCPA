@@ -15,3 +15,10 @@ TODO: Fill this info
 
 [sn0int][default][kpcyrd/hackertarget-subdomains] > run
 ```
+
+---
+## References
+
+### Sidxparab
+
+- [Sidxparab: Vertical Enumeration](https://sidxparab.gitbook.io/subdomain-enumeration-guide/types/vertical-enumeration)

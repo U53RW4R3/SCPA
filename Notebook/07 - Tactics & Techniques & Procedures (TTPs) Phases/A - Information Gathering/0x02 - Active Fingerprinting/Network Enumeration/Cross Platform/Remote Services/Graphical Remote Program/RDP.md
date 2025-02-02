@@ -54,4 +54,4 @@ $ nmap -p 3389 -Pn -sV --script rdp-ntlm-info <IP>
 ---
 ## References
 
-- [Hacktricks: Pentesting RDP](https://book.hacktricks.xyz/pentesting/pentesting-rdp)
+- [Hacktricks: Pentesting RDP](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-rdp.html)

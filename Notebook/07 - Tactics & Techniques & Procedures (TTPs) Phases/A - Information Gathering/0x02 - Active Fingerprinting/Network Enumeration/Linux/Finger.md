@@ -69,6 +69,10 @@ msf auxiliary(scanner/finger/finger_users) > run
 ---
 ## References
 
-- [Hacktricks: Pentesting Finger](https://book.hacktricks.xyz/pentesting/pentesting-finger)
+### Hacktricks
+
+- [Hacktricks: Pentesting Finger](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-finger.html)
+
+### Pentest Monkey
 
 - [PentestMonkey: Finger-User-Enum](https://pentestmonkey.net/tools/user-enumeration/finger-user-enum)

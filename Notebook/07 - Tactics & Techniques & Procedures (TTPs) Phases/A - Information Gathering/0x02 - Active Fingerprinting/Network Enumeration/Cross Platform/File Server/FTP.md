@@ -87,6 +87,8 @@ lftp :~> set ssl:verify-certificate no
 lftp :~> connect <IP>
 lftp <IP>:~> login
 Usage: login <user|URL> [<pass>]
+
+$ lftp [-p <PORT>] -e "set ssl:verify-certificate false" -u "<username>,<password>" <IP>
 ```
 
 ## 03 - Basic Commands
@@ -118,8 +120,10 @@ ftp> <exit | quit | bye>
 ---
 ## References
 
-- [Hacktricks: Pentesting FTP](https://book.hacktricks.xyz/pentesting/pentesting-ftp)
+### Backlinks
 
-- [Hacktricks: Pentesting FTP Bounce Attack](https://book.hacktricks.xyz/pentesting/pentesting-ftp/ftp-bounce-attack)
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Protocols/File Server/FTP]]
 
-- [Hacktricks: Pentesting FTP Download 2OFTP File](https://book.hacktricks.xyz/pentesting/pentesting-ftp/ftp-bounce-download-2oftp-file)
+### Hacktricks
+
+- [Hacktricks: Pentesting FTP](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-ftp/index.html)

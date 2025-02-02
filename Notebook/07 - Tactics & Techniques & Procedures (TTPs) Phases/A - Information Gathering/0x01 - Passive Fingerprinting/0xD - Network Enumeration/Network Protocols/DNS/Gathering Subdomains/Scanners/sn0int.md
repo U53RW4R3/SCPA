@@ -7,3 +7,10 @@
 
 [sn0int][default][kpcyrd/dns-ns] > run
 ```
+
+---
+## References
+
+### Sidxparab
+
+- [Sidxparab: Vertical Enumeration](https://sidxparab.gitbook.io/subdomain-enumeration-guide/types/vertical-enumeration)

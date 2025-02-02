@@ -62,7 +62,11 @@ $ nmap -p 135 -Pn -n <IP>
 
 ### Hacktricks
 
-- [Hacktricks: 135 Pentesting MSPRC](https://book.hacktricks.xyz/pentesting/135-pentesting-msrpc)
+- [Hacktricks: Pentesting MSPRC](https://book.hacktricks.wiki/en/network-services-pentesting/135-pentesting-msrpc.html)
+
+### Hacking Articles
+
+- [Hacking Articles: Active Directory Enumeration RPCClient](https://www.hackingarticles.in/active-directory-enumeration-rpcclient/)
 
 ### 0xffsec
 

@@ -178,14 +178,26 @@ userware@hackware-os:~$ stty raw -echo; fg
 ---
 ## References
 
+### Github
+
 - [antonioCoco: ConPtyShell](https://github.com/antonioCoco/ConPtyShell)
 
-- [Hacktricks: Shells Full TTYs](https://book.hacktricks.xyz/shells/shells/full-ttys)
+### Hacktricks
+
+- [Hacktricks: Shells Full TTYs](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/full-ttys.html)
+
+### ROPNOP
 
 - [ROPNOP: Upgrading Simple Shells to Fully Interactive TTYs](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
 
+### Pentest Monkey
+
 - [Pentest Monkey: Post Exploitation Without a TTY](https://pentestmonkey.net/blog/post-exploitation-without-a-tty)
 
+### Enlace Hacktivista
+
 - [Enlace Hacktivista: Stabilizing reverse shells](https://enlacehacktivista.org/index.php?title=Stabilizing_reverse_shells)
+
+### Ivan IT Learning
 
 - [Ivan IT Learning: Interactive shells for Windows](https://ivanitlearning.wordpress.com/2021/04/27/interactive-shells-for-windows/)

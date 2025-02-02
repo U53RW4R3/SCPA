@@ -1,5 +1,7 @@
 # Intel on the Organization
 
+TODO: Fill out the checklist
+
 https://inteltechniques.com/tools/
 
 ## Infrastructure
@@ -39,7 +41,7 @@ https://inteltechniques.com/tools/
 	- [ ] Family
 	- [ ] Co-workers
 	- [ ] Acquaintances
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/04 - Forensics/Checklist|Files Metadata]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x04 - Forensics/Checklist|Files Metadata]]
 	- [ ] Photos
 	- [ ] Documents
 - [ ] Look for job requirements

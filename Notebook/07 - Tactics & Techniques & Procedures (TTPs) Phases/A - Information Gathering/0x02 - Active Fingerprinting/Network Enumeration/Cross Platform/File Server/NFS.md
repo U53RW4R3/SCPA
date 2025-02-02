@@ -70,8 +70,8 @@ msf auxiliary(scanner/nfs/nfsmount) > run
 ---
 ## References
 
-- [Hacktricks: Pentesting Portmapper](https://book.hacktricks.xyz/network-services-pentesting/pentesting-rpcbind)
+### Hacktricks
 
-- [Hacktricks: Pentesting NFS Service](https://book.hacktricks.xyz/network-services-pentesting/nfs-service-pentesting)
+- [Hacktricks: Pentesting Portmapper](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-rpcbind.html)
 
-- [RangeForce: Enumerating with Nmap](https://materials.rangeforce.com/tutorial/2020/01/30/Enumerating-with-Nmap/)
+- [Hacktricks: Pentesting NFS Service](https://book.hacktricks.wiki/en/network-services-pentesting/nfs-service-pentesting.html)
