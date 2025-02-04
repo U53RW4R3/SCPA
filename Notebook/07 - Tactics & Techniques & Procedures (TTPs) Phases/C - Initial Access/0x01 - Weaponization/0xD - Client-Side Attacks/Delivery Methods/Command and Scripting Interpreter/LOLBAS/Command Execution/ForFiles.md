@@ -28,3 +28,7 @@ C:\> forfiles.exe /p C:\Windows\System32\ /m notepad.exe /c implant.exe
 ### LOLBAS
 
 - [LOLBAS: Forfiles](https://lolbas-project.github.io/lolbas/Binaries/Forfiles/)
+
+### Red Team Notes
+
+- [Red Team Notes: Forfiles Indirect Command Execution](https://www.ired.team/offensive-security/code-execution/t1202-forfiles-indirect-command-execution)

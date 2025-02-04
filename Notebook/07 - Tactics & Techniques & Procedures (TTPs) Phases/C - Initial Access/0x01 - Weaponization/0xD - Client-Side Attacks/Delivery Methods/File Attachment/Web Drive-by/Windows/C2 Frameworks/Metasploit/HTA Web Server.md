@@ -46,3 +46,10 @@ msf exploit(windows/misc/hta_server) > set srvport <server_PORT>
 
 msf exploit(windows/misc/hta_server) > run -j
 ```
+
+---
+## References
+
+### Backlinks
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Web Drive-by/Windows/Manual/Living off the Land]]

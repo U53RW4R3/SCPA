@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - offensive-tools
+  - windows
+---
 # PowerSploit
 
 ## 01 - Reflective DLL Injection
@@ -79,8 +89,12 @@ Invoke-Shellcode -ProcessId $procid -Shellcode @(<ps1_shellcode_format>)
 ---
 ## References
 
+### Github
+
 - [charnim: Invoke-ReflectivePEInjection](https://github.com/charnim/Invoke-ReflectivePEInjection.ps1)
 
-- [Adamn Chester (XPN) YouTube Video: Bypass AV with Invoke-ReflectivePEInjection](https://www.youtube.com/watch?v=byMBx4q-vYo)
-
 - [monoxgas: sRDI](https://github.com/monoxgas/sRDI)
+
+### XPNSec
+
+- [XPNSec: Bypass AV with Invoke-ReflectivePEInjection](https://www.youtube.com/watch?v=byMBx4q-vYo)

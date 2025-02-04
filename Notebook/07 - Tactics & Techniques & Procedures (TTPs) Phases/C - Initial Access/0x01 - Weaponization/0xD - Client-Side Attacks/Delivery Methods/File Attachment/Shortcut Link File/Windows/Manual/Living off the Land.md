@@ -113,7 +113,7 @@ C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand
 
 - [[SMB Delivery|Metasploit: SMB Delivery]]
 
-- [[Web Delivery|Metasploit: Web Delivery]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Web Drive-by/Linux/C2 Frameworks|Metasploit: Web Delivery]]
 
 ### Github
 

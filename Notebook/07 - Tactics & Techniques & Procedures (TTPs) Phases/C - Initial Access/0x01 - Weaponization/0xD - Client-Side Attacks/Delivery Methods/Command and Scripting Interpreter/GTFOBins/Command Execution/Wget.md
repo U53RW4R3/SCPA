@@ -41,4 +41,10 @@ $ gcc
 ---
 ## References
 
+### GTFOArgs
+
 - [GTFOArgs: wget](https://gtfoargs.github.io/gtfoargs/wget/)
+
+### DMCXBlue
+
+- [DMCXBlue: Attachments - Scripting Files](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1566-phishing/phishing-spearphishing-attachment/attachments-scripting-files)

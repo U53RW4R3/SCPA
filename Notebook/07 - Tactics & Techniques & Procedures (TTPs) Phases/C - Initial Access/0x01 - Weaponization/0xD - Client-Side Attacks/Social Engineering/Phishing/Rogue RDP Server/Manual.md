@@ -9,7 +9,7 @@
 
 ### Backlinks
 
-- [[Autostart Locations]]
+- [[03 - Malware Development/Global Helpers/Persistence/Windows/Autostart Locations]]
 
 ### Github
 

@@ -44,6 +44,10 @@ EOF
 
 - [Null Byte: Pop a Reverse Shell with a Video File by Exploiting Popular Linux File Managers](https://null-byte.wonderhowto.com/how-to/pop-reverse-shell-with-video-file-by-exploiting-popular-linux-file-managers-0196078)
 
+### DMCXBlue
+
+- [DMCXBlue: Attachments - Desktop Files](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1566-phishing/phishing-spearphishing-attachment/attachments-desktop-files)
+
 ### Vicarius
 
 - [Vicarius: Phishing Linux Users with Zero Detection!](https://www.vicarius.io/vsociety/posts/phishing-linux-users-with-zero-detection)

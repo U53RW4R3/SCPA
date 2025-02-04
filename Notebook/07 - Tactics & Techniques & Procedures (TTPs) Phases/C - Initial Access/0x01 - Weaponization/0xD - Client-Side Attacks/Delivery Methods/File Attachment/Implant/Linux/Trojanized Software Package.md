@@ -144,6 +144,10 @@ TODO: Fill in the steps for the AUR package.
 
 - [[Package File Templates]]
 
+### DMCXBlue
+
+- [DMCXBlue: Installer Packages](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/persistence/t1546-event-triggered-execution/installer-packages)
+
 ### Metasploit Unleashed
 
 - [Metasploit Unleashed: Binary Linux Trojan](https://www.offsec.com/metasploit-unleashed/binary-linux-trojan/)
