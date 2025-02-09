@@ -2,13 +2,19 @@
 
 TODO: Provide more use cases
 
-## 1.1 - Quick Scan with OS Detection
+## 1.1 - Quick Hosts Discovery
+
+```
+$ nmap -sn -T4 -oG - <IP>/<CIDR> | grep "Status: Up" | cut -f 2 -d ' ' > hosts.txt
+```
+
+## 1.2 - Quick Scan with OS Detection
 
 ```
 $ sudo nmap [-Pn] -n -sV --version-light -F -O --min-hostgroup 96 -T4 <IP>/<CIDR>
 ```
 
-## 1.2 - Quick Scan of large networks in Nmap
+## 1.3 - Quick Scan of large networks in Nmap
 
 ```
 $ sudo nmap -n -F --min-hostgroup 96 -T4 <IP>/<CIDR>

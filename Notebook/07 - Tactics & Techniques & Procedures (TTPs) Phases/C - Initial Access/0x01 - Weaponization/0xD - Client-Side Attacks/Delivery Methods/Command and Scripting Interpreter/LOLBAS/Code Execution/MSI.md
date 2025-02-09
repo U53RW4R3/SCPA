@@ -15,4 +15,6 @@ C:\> msiexec /quiet /qn /i implant.msi "C:\path\to\implant.msi"
 ---
 ## References
 
+### LOLBAS
+
 - [LOLBAS: Msiexec](https://lolbas-project.github.io/lolbas/Binaries/Msiexec/)

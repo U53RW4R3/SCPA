@@ -1,6 +1,6 @@
 # Manual
 
-## 4.1 - Grep.app
+## 01 - Grep.app
 
 TODO: Fill this info
 
@@ -11,6 +11,10 @@ emails
 ---
 ## References
 
-- [Grep.app](https://grep.app/)
+### Backlinks
 
 - [[GitDorker]]
+
+### Grep
+
+- [Grep.app](https://grep.app/)

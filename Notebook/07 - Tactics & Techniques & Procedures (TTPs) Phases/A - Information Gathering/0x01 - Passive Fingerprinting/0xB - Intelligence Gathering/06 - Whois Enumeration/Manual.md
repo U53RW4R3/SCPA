@@ -16,6 +16,18 @@ $ whois -a -T inetnum <organization_name>
 $ whois -h whois.cymru.com "-v <IP>"
 ```
 
+Scanning a bulk of IP addresses.
+
+```
+$ cat > ips.txt << EOF
+begin
+68.22.187.5
+207.229.165.18
+end
+
+$ nc whois.cymru.com 43 < ips.txt | sort -n > ASN_ID.txt
+```
+
 ### 1.2 - Shadowserver
 
 ```
@@ -66,4 +78,14 @@ $ echo <domain.com> | nc whois.iana.org 43
 ---
 ## References
 
+### Qazeer
+
+- [Qazeer: External Recon](https://notes.qazeer.io/general/external_recon)
+
+### Hacker Target
+
 - [Hacker Target: Whois Lookup](https://hackertarget.com/whois-lookup/)
+
+### Cymru
+
+- [Cymru: IP ASN Mapping](https://www.team-cymru.com/ip-asn-mapping)

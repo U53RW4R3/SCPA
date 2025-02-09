@@ -229,74 +229,27 @@ $ httpx -l urls.txt -mr 'AmazonS3' -o live-aws-s3-buckets.txt
 $ httpx -l urls.txt -server -mr 'AmazonS3|Google Cloud|Azure Cloud|Terraform' -o live-cloud-urls.txt
 ```
 
-### Fuzz API paths
-
-```
-$ httpx -l urls.txt -path wordlist.txt -o live-api-urls.txt
-```
-
-Refer to [[API Endpoint Wordlist#^aa6137|swagger wordlist]].
-
-```
-$ httpx -l urls.txt -path wordlist-swagger.txt -mr 'password|token|API key|authorization'
-```
-
 ### Gather Endpoints
 
 ```
 $ subfinder -dL domains.txt | dnsx | waybackurl | uro | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | httpx -silent -o active-url-endpoints.txt
 ```
 
-### SQL Injection
-
-First we'll run the python script to replace the GET paramater id values by simply placing SQL statement to produce an error.
-
-`$ cat fuzz-endpoints.py`
-
----
-
-```python
-#!/usr/bin/env python
-import sys
-import re
-
-# Read URLs from the file
-with open(sys.argv[1], 'r') as file:
-    urls = file.readlines()
-
-# Regular expression pattern to match parameter values
-pattern = r'(?<=[?&])([^=&]+)=([^&\n]+)'
-
-payload = "'"
-
-# Process and print modified URLs
-modified_urls = []
-for url in urls:
-    matches = re.finditer(pattern, url)
-    for match in matches:
-        parameter = match.group(1)
-        value = match.group(2)
-        modified_url = url.replace(f'{parameter}={value}', f'{parameter}=' + f'{payload}')
-        modified_urls.append(modified_url.strip())
-
-print('\n'.join(modified_urls))
-```
-
-`$ ./fuzz-parameters.py urls.txt | sort -u > fuzz-urls.txt`
-
-Then we'll run httpx to fuzz to find active URLs and potential SQL Injection vulnerability.
-
-```
-$ httpx -l fuzz-urls.txt -o sqli-fuzz-output.txt -probe -sc -mr "(SQL syntax.*?MySQL|Warning.*?\\Wmysqli?_|check the manual that (corresponds to|fits) your MySQL server version|Unknown column '[^ ]+' in 'field list'|MySqlClient\\.|Pdo[./_\\\\]Mysql|MySqlException|SQLSTATE[\\d+]: Syntax error or access violation|check the manual that (corresponds to|fits) your MariaDB server version)"
-```
-
 ---
 ## References
 
+### Github
+
 - [HTTPx](https://github.com/projectdiscovery/httpx)
+
+### Mozilla
+
+- [Mozilla: HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+### Hacking Articles
 
 - [Hacking Articles: A detailed Guide on HTTPx](https://www.hackingarticles.in/a-detailed-guide-on-httpx/)
 
-- [Enlace Hacktivista: Initial Access Tactics, techniques and procedures](https://enlacehacktivista.org/index.php?title=Initial_Access_Tactics,_techniques_and_procedures)
+### Enlace Hacktivista
 
-- [Mozilla: HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [Enlace Hacktivista: Initial Access Tactics, techniques and procedures](https://enlacehacktivista.org/index.php?title=Initial_Access_Tactics,_techniques_and_procedures)

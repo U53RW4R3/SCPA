@@ -50,6 +50,25 @@ $ curl -s https://api.shadowserver.org/net/asn?prefix=<ASN_ID> | jq | grep -Eo "
 $ nc asn.shadowserver.org 43 < ips.txt > asn.txt
 ```
 
+## Cymru
+
+```
+$ whois -h whois.cymru.com "-v <ASN_ID>"
+```
+
+Scanning a bulk of ASN IDs.
+
+```
+$ cat > asns.txt << EOF
+begin
+verbose
+as23028
+as<ID>
+end
+
+$ nc whois.cymru.com 43 < asns.txt > output.txt
+```
+
 ## RADb
 
 ```
@@ -90,6 +109,10 @@ $ whois -h whois.radb.net -- '-i origin <ASN_ID>' | grep -Eo "([0-9.]+){4}/[0-9]
 ### ShadowServer
 
 - [ShadowServer](https://www.shadowserver.org/)
+
+### Cymru
+
+- [Cymru: IP ASN Mapping](https://www.team-cymru.com/ip-asn-mapping)
 
 ### ASNLookup
 

