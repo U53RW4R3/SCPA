@@ -1,3 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - passive-fingerprinting
+---
 # Scanners
 
 ## 01 - PhoneInfoga

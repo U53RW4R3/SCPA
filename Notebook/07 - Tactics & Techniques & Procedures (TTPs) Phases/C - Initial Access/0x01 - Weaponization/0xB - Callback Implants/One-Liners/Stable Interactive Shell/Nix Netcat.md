@@ -4,8 +4,6 @@
 
 ### 1.1 - Cross Platform
 
-#### 1.1.1 - Rlwrap
-
 Using the GNU readline wrapper with arrow keys. You can use this when using a normal reverse shell for penetrating Windows machine.
 
 ```
@@ -113,7 +111,15 @@ Password:  mypassword
 localhost ~ #
 ```
 
-### 1.3 - Windows
+### 1.3 - BSD
+
+#### 1.3.1 - Script
+
+```
+$ exec script -q /dev/null /bin/bash
+```
+
+### 1.4 - Windows
 
 Note: Refer to fully interactive [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Callback Implants/One-Liners/Windows/Reverse Shells/PowerShell#^d57486|powershell]].
 
@@ -179,6 +185,8 @@ userware@hackware-os:~$ stty raw -echo; fg
 ## References
 
 ### Github
+
+- [hackerschoice: THC's favourite Tips, Tricks & Hacks (Cheat Sheet)](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)
 
 - [antonioCoco: ConPtyShell](https://github.com/antonioCoco/ConPtyShell)
 

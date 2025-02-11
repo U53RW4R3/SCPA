@@ -1,6 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - network-protocols
+  - network-mapper
+---
 # PCOM
-
-Search Tag(s): #information-gathering #network-protocols #network-mapper
 
 Download the NSE script and update the local database.
 

@@ -5,7 +5,7 @@
 Clone the repository.
 
 ```
-$ wget -O- https://raw.githubusercontent.com/Drew-Alleman/DataSurgeon/main/install/install.sh | bash
+$ wget -qO- https://raw.githubusercontent.com/Drew-Alleman/DataSurgeon/main/install/install.sh | bash
 ```
 
 ## 02 - Help Menu

