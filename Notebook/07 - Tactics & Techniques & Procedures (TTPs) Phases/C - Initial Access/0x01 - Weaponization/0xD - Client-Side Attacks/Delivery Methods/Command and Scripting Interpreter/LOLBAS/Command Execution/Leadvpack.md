@@ -1,5 +1,5 @@
 # Leadvpack
 
-https://lolbas-project.github.io/lolbas/Libraries/Advpack/
+- [LOLBAS: leadvpack](https://lolbas-project.github.io/lolbas/Libraries/Ieadvpack/)
 
-https://lolbas-project.github.io/lolbas/Libraries/Ieadvpack/
+- [LOLBAS: advpack](https://lolbas-project.github.io/lolbas/Libraries/Advpack/)

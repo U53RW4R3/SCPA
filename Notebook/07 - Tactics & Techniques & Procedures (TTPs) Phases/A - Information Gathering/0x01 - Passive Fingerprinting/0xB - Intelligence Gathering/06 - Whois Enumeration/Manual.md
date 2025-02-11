@@ -10,7 +10,13 @@ $ whois -I <domain.com>
 $ whois -a -T inetnum <organization_name>
 ```
 
-### 1.1 - Cymru
+### 1.1 - APNIC
+
+```
+$ whois -h whois.apnic.net <organization_name>
+```
+
+### 1.2 - Cymru
 
 ```
 $ whois -h whois.cymru.com "-v <IP>"
@@ -28,7 +34,7 @@ end
 $ nc whois.cymru.com 43 < ips.txt | sort -n > ASN_ID.txt
 ```
 
-### 1.2 - Shadowserver
+### 1.3 - Shadowserver
 
 ```
 $ curl -s https://api.shadowserver.org/net/asn?origin=<IP> | jq
@@ -54,10 +60,10 @@ $ curl -s https://api.shadowserver.org/net/asn?peer=<IP> | jq
 $ whois -h asn.shadowserver.org 'peer <IP> verbose'
 ```
 
-### 1.3 - RADb
+### 1.4 - RADb
 
 ```
-$ whois -h whois.radb.net -- '-i origin AS714'
+$ whois -h whois.radb.net -- '-i origin <ASN_ID>'
 ```
 
 ## 02 - Telnet
@@ -85,6 +91,10 @@ $ echo <domain.com> | nc whois.iana.org 43
 ### Hacker Target
 
 - [Hacker Target: Whois Lookup](https://hackertarget.com/whois-lookup/)
+
+### APNIC
+
+- [APNIC](https://www.apnic.net/)
 
 ### Cymru
 

