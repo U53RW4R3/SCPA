@@ -1,6 +1,13 @@
-# 02 - Port Specification and Scan Order
-
-Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - port-scanners
+  - network-mapper
+---
+# 01 - Port Specification and Scan Order
 
 Specify port(s) to scan.
 
@@ -30,13 +37,13 @@ Show open ports
 $ nmap --open <IP>
 ```
 
-Print more information during a scan
+Print more information during a scan.
 
 ```
 $ nmap -v <IP>
 ```
 
-Increase more verbosity
+Increase more verbosity.
 
 ```
 $ nmap -vv <IP>
@@ -44,5 +51,7 @@ $ nmap -vv <IP>
 
 ---
 ## References
+
+### Ethical hacking and penetration testing
 
 - [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)

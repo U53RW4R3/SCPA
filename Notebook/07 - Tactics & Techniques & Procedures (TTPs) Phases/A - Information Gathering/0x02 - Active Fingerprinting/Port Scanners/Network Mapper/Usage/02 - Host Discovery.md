@@ -1,8 +1,15 @@
-# 03 - Host Discovery
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - port-scanners
+  - network-mapper
+---
+# 02 - Host Discovery
 
-Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
-
-## 3.1 - IP Range and List
+## 2.1 - IP Range and List
 
 Range of IP targets to scan.
 
@@ -30,7 +37,7 @@ $ nmap -sL <IP>/<CIDR>
 $ nmap -sL 192.168.1.0/24
 ```
 
-## 3.2 - ICMP Scan
+## 2.2 - ICMP Scan
 
 Ping Sweep
 
@@ -58,13 +65,13 @@ Address Mask Scan
 $ sudo nmap -PM -sn <IP>/<CIDR>
 ```
 
-## 3.3 - ARP Scan
+## 2.3 - ARP Scan
 
 ```
 $ sudo nmap -PR -sn <IP>/<CIDR>
 ```
 
-## 3.4 - TCP Scan
+## 2.4 - TCP Scan
 
 TCP SYN Ping Scan
 
@@ -78,13 +85,13 @@ TCP ACK Ping Scan
 $ sudo nmap -sn -PA 22,80,443 <IP>/<CIDR>
 ```
 
-## 3.5 - UDP Scan
+## 2.5 - UDP Scan
 
 ```
 $ sudo nmap -sn -PU53,88,161,162 <IP>/<CIDR>
 ```
 
-## 3.6 - DNS Lookup
+## 2.6 - DNS Lookup
 
 No Reverse-DNS Lookup
 
@@ -95,16 +102,16 @@ $ nmap -n <IP>/<CIDR>
 Reverse-DNS lookup
 
 ```
-$ nmap -R <IP>/<CIDR>
+$ nmap -R --dns-servers <dns_nameserver_IP> <IP>/<CIDR>
 ```
 
-## 3.7 - Traceroute
+## 2.7 - Traceroute
 
 ```
 $ sudo nmap --traceroute -sn -PE <IP>
 ```
 
-## 3.8 - Resolve IP Addresses
+## 2.8 - Resolve IP Addresses
 
 TODO: Test this NSE script
 
@@ -114,19 +121,27 @@ $ nmap --resolve-all <IP>
 $ nmap --script resolveall --script-args=newtargets,resolveall.hosts={<host1>, ...} <IP>
 ```
 
-## 3.9 - ICMP Forwarding Enabled
+## 2.9 - ICMP Forwarding Enabled
 
 ```
 $ sudo nmap -sn --script ip-forwarding --script-args='target=<website.com>' <IP>
 ```
 
+## 2.10 - Ignore TCP Reset (RST) Replies
+
+Sometimes firewalls will spoof the scanner with TCP reset replies as proof that the host is online. Specifying this flag will speed up the scanning process.
+
+```
+$ nmap --discovery-ignore-rst <IP>/<CIDR>
+```
+
 ---
 ## References
-
-### Ethical hacking and penetration testing
-
-- [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)
 
 ### Network Mapper
 
 - [Network Mapper NSEDocs: resolveall Script](https://nmap.org/nsedoc/scripts/resolveall.html)
+
+### Ethical hacking and penetration testing
+
+- [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)

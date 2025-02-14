@@ -1,10 +1,17 @@
-# 08 - Evasion
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - port-scanners
+  - network-mapper
+---
+# 05 - Evasion
 
-Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
+## 5.1 - Bypass Firewalls and IDS
 
-## 8.1 - Bypass Firewalls and IDS
-
-### 8.1.1 - Disable ICMP and ARP
+### 5.1.1 - Disable ICMP and ARP
 
 Disable ICMP scans to ensure the target is online.
 
@@ -18,7 +25,7 @@ Disable ARP pings.
 $ nmap --disable-arp-ping <IP>
 ```
 
-### 8.1.2 - Forge Packets
+### 5.1.2 - Forge Packets
 
 Fragment Packets
 
@@ -64,9 +71,9 @@ Send forged packets
 $ nmap --badsum <IP>
 ```
 
-### 8.1.3 -  Spoofing
+### 5.1.3 -  Spoofing
 
-#### 8.1.3.1 - Decoys
+#### 5.1.3.1 - Decoys
 
 Using SOCKS proxies to disguise ourselves.
 
@@ -104,7 +111,7 @@ Exploit misconfigured firewall rules with a source port
 $ sudo nmap -g <PORT> <IP>
 ```
 
-#### 8.1.3.2 - Idle Zombie Scan
+#### 5.1.3.2 - Idle Zombie Scan
 
 ^72346e
 
@@ -120,13 +127,13 @@ Scan a target with a zombie source IP
 $ sudo nmap -sI <zombie_IP> <target_IP>
 ```
 
-### 8.1.4 - Randomize Hosts
+### 5.1.4 - Randomize Hosts
 
 ```
 $ nmap --randomize-hosts <target_IP>
 ```
 
-### 8.1.5 -  NSE Script
+### 5.1.5 -  NSE Script
 
 ```
 $ sudo nmap --script firewall-bypass --script-args firewall-bypass.helper="ftp",firewall-bypass.targetport=<PORT> <target_IP>
@@ -138,21 +145,21 @@ Using `firewalk` NSE script.
 $ sudo nmap --script firewalk --traceroute <target_IP>
 ```
 
-## 8.2 - Spoof User Agent
+## 5.2 - Spoof User Agent
 
 ```
-$ sudo nmap -p 80,443 -Pn -n -sC --script-args http.useragent="<user_agent>" <IP>
+$ sudo nmap -p 80,443,8000,8080,8443 -Pn -n -sC --script-args http.useragent="<user_agent>" <IP>
 ```
 
-## 8.3 - Timing and Performance
+## 5.3 - Timing and Performance
 
-### 8.3.1 - Time Intervals
+### 5.3.1 - Time Intervals
 
 ```
 $ nmap -T<0-5> <IP>
 ```
 
-### 8.3.2 -  Rate Limit
+### 5.3.2 -  Rate Limit
 
 ```
 $ nmap --host-timeout 10ms <IP>
@@ -182,6 +189,10 @@ $ nmap --initial-rtt-timeout 50ms <IP>
 ### Network Mapper
 
 - [Network Mapper: Bypass Firewalls and IDS](https://nmap.org/book/man-bypass-firewalls-ids.html)
+
+### Hacking Articles
+
+- [Hacking Articles: Network Mapper Scan with Timing Parameters](https://www.hackingarticles.in/nmap-scan-with-timing-parameters/)
 
 ### Ethical hacking and penetration testing
 

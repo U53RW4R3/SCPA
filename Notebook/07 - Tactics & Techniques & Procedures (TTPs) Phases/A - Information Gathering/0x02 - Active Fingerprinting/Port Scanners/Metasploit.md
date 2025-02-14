@@ -236,4 +236,4 @@ msf auxiliary(scanner/ip/ipidseq) > run
 
 ### Evasion
 
-- [[08 - Evasion#^72346e|Network Mapper: Zombie Scan]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Port Scanners/Network Mapper/Usage/05 - Evasion#^72346e|Network Mapper: Zombie Scan]]

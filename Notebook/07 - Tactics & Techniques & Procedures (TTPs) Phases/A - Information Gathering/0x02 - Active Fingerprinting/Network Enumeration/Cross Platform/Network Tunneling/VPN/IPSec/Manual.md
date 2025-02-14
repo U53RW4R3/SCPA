@@ -474,6 +474,14 @@ TODO: Fill this info
 $ ike-scan -M <IP>
 ```
 
+```
+# ike-scan -A <IP>
+```
+
+```
+# ike-scan -A <IP> -n <id> -P<shared_key>
+```
+
 ---
 ## References
 

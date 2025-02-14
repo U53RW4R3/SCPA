@@ -1,8 +1,15 @@
-# 06 - Scan Techniques
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - port-scanners
+  - network-mapper
+---
+# 03 - Scan Techniques
 
-Search Tags(s): #active-reconnaissance #port-scanners #network-mapper
-
-## 6.1 - TCP
+## 3.1 - TCP
 
 TCP Connect Scan
 
@@ -16,7 +23,7 @@ Syn "Half-open" Scan (Stealth Mode)
 $ sudo nmap -sS <IP>
 ```
 
-## 6.2 - UDP
+## 3.2 - UDP
 
 UDP Scan
 
@@ -24,7 +31,7 @@ UDP Scan
 $ sudo nmap -sU <IP>
 ```
 
-## 6.3 - Other Scan Types
+## 3.3 - Other Scan Types
 
 TCP Null Scan
 
@@ -62,7 +69,7 @@ Maimon Scan
 $ sudo nmap -sM <IP>
 ```
 
-## 6.4 - Version Detection
+## 3.4 - Version Detection
 
 Detect operating system
 
@@ -79,7 +86,7 @@ $ sudo nmap -sV <IP>
 $ sudo nmap -sV --version-all <IP>
 ```
 
-## 6.5 - Firewall Detection
+## 3.5 - Firewall Detection
 
 Best against towards stateful firewalls.
 
@@ -95,5 +102,7 @@ $ nmap -sn -n -PA <PORT> <IP>
 
 ---
 ## References
+
+### Ethical hacking and penetration testing
 
 - [Ethical hacking and penetration testing: Network Mapper usage tips](https://miloserdov.org/?p=3639)
