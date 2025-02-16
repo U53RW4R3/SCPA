@@ -29,8 +29,8 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 
 ## Phishing Preparation
 
-- [ ] For social engineering pretext visit this [[Social Engineering Pretext|section]] to make preparation for your campaign.
-- [ ] Choose which phishing delivery method for the campaign.
+- [ ] For social engineering pretext visit this [[Social Engineering Pretext|section]] to make preparation for the campaign.
+- Choose which phishing delivery method for the campaign.
 	- [ ] Phishing via Email
 		- Gather emails with the following methods.
 			- Passively browse the website 
@@ -53,30 +53,32 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 ## File Attachment
 
 > [!NOTE]
-> You can be creative by combing multiple files.
+> You can be creative by combining multiple files.
 
 - [ ] Check **Command and Scripting Interpreter** section to change the execution methods.
-- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/HTML Smuggling/Manual|HTML Smuggling]]
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/HTML Smuggling/Manual|HTML Smuggling]]
 - [ ] Macros
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macros/Manual|Microsoft Office]]
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/LibreOffice/Manual|LibreOffice Macro]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macros/Manual|Microsoft Office]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/LibreOffice/Manual|LibreOffice Macro]]
 - [ ] Macroless
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]]
 	- [[Excel]]
 - [ ] Deploy Implant (Trojan Horse).
-	- [ ] Executable file (`.exe`).
-		- [ ] Custom Dropper
-			- [ ] Disguise it with an icon.
-			- [ ] Append a [[Implants Helpers|RTLO (Right to Left Override)]] to make the extension look legitimate.
+	- [ ] Disguise it with an icon.
+	- [[Spoof Implants|Double File Extension]]
+	- [ ] Append a [[Spoof Implants|RTLO (Right to Left Override)]] to make the extension look legitimate.
+	- [ ] Mac OSX application (`.app`) or [[AppleScript|applescript]].
+		- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/OSX/Helpers/Spoof Implants|Space After Filename]]
+	- [ ] Windows Executable file (`.exe`).
 		- [ ] Backdoor the executable file
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/Manual|Manual]]
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/Manual|Manual]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
 			- [[Shellter|Shellter]]
 	- [ ] HTML Application (`.hta`)
 	- [ ] Installer
 		- [ ] MSI
 		- [ ] ClickOnce
-- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Manual/Living off the Land|Shortcut Link]] (`.lnk`)
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Manual/Living off the Land|Shortcut Link]] (`.lnk`)
 	- [ ] Decoy file.
 
 ### Bypass MOTW (Mark of the Web)
@@ -89,7 +91,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 		- [ ] Password protected
 	- CAB
 - [ ] Disk container
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Disk Image/Generate Disk Image/Offensive Tools/PackMyPayload/Usage|PackMyPayload]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Disk Image/Generate Disk Image/Offensive Tools/PackMyPayload/Usage|PackMyPayload]]
 		- [ ] Add archive file.
 			- 7zip
 				- [ ] Password protected.
@@ -112,7 +114,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 			- [ ] Password protected.
 		- CAB
 		- Tarball
-	- [ ] Using [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]] to embed inside a file.
+	- [ ] Using [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]] to embed inside a file.
 	- [ ] Using **OneNote** to embed inside a file.
 	- [ ] Using **Adobe Reader** or **Foxit** to embed inside a file.
 	- [ ] Shortcut `.lnk` file.
@@ -120,7 +122,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 			- Batch (`.bat` or `.cmd`)
 			- VBScript (`.vbs`)
 	- [ ] HTML Application (`.hta`) with macros inside using [[Microsoft Office Macros|DCOM]] method.
-- [ ] Using [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]] to embed inside a file.
+- [ ] Using [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]] to embed inside a file.
 	- [ ] Add archive file.
 		- 7zip
 			- [ ] Password protected.
@@ -168,6 +170,10 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [ ] Shell Scripting
 		- Batch (`.bat` or `.cmd`)
 		- VBScript (`.vbs`)
+
+### Package Manager
+
+- [ ] Trojanize [[Package File Templates|software package]] in Linux.
 
 ## Physical Penetration
 

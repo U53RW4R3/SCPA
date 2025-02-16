@@ -48,4 +48,4 @@ $ wget -U "<user_agent>" -q -S <IP>
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x03 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]

@@ -31,7 +31,7 @@ msf > use auxiliary/scanner/http/squid_pivot_scanning
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x03 - Bypass Webapp Security/Web Application Firewall (WAF)/Helpers/User Agents]]
 
 - [[ProxyTunnel]]
 
@@ -39,9 +39,9 @@ msf > use auxiliary/scanner/http/squid_pivot_scanning
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners|Network Mapper: HTTP Basic Authentication]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x01 - Components with Known Vulnerabilities/Helpers/Scanners|Network Mapper: Components with Known Vulnerabilities]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Components with Known Vulnerabilities/Helpers/Scanners|Network Mapper: Components with Known Vulnerabilities]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x04 - Sensitive Data Exposure/Web Content Discovery/Helpers/Scanners|Network Mapper: Web Applications Forensics]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x05 - Sensitive Data Exposure/Web Content Discovery/Helpers/Scanners|Network Mapper: Web Applications Forensics]]
 
 ### Hacktricks
 
