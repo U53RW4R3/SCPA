@@ -1,10 +1,14 @@
-# Setup
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - command-and-control
+  - empire
+---
+# Installation
 
-Search Tag(s): #empire #command-and-control
-
-## 01 - Install
-
-### 1.1 - Manual Installation
+## 01 - Install Empire
 
 ```
 $ sudo git clone --recursive https://github.com/BC-SECURITY/Empire.git /opt/post-exploitation/Empire && \

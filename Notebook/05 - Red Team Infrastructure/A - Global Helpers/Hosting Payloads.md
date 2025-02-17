@@ -1,3 +1,10 @@
+---
+author(s):
+  - Userware
+tags:
+  - helpers
+  - red-team-infrastructure
+---
 # Hosting Payloads
 
 ```
@@ -39,5 +46,7 @@ server {
 
 ---
 ## References
+
+### Source Repositories
 
 - [jivoi: Serving Random Payloads with NGINX](https://gist.github.com/jivoi/a33ace2e25515a31aa2ffbae246d98c9)

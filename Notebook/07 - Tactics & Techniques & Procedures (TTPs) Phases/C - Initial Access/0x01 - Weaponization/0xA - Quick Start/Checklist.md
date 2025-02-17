@@ -68,7 +68,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [[Spoof Implants|Double File Extension]]
 	- [ ] Append a [[Spoof Implants|RTLO (Right to Left Override)]] to make the extension look legitimate.
 	- [ ] Mac OSX application (`.app`) or [[AppleScript|applescript]].
-		- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xD - Client-Side Attacks/Delivery Methods/File Attachment/Implant/OSX/Helpers/Spoof Implants|Space After Filename]]
+		- [ ] [[Spoof Implants|Space After Filename]]
 	- [ ] Windows Executable file (`.exe`).
 		- [ ] Backdoor the executable file
 			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/Manual|Manual]]

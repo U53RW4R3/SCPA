@@ -2,6 +2,7 @@
 author(s):
   - Userware
 tags:
+  - helpers
   - red-team-infrastructure
 ---
 # Purchasing Domain Names

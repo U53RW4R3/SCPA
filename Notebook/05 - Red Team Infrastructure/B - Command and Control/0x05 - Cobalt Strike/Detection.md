@@ -14,34 +14,12 @@ tags:
 product:"Cobalt Strike Beacon"
 ```
 
-## 02 - JARM
-
-```
-$ git clone https://github.com/salesforce/jarm.git
-
-$ cd jarm/
-
-$ python jarm.py <C2_IP> -p 80
-
-$ python jarm.py <C2_IP> -p 443
-```
-
 ---
 ## References
 
-### Github
+### Michael Koczwara
 
-- [drb-ra: C2IntelFeeds](https://github.com/drb-ra/C2IntelFeeds)
-
-- [JARM](https://github.com/salesforce/jarm)
-
-- [C2 JARM](https://github.com/cedowens/C2-JARM)
-
-- [C2 Tracker](https://github.com/montysecurity/C2-Tracker)
-
-- [JARM Randomizer](https://github.com/netskopeoss/jarm_randomizer)
-
-- [Hunting C2 with Shodan](https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f)
+- [Michael Koczwara: Hunting C2 with Shodan](https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f)
 
 - [Spoofing JARM Signatures I Am The Cobalt Strike Server Now](https://grimminck.medium.com/spoofing-jarm-signatures-i-am-the-cobalt-strike-server-now-a27bd549fc6b)
 

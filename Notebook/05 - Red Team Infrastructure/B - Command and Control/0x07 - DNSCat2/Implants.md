@@ -1,6 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - command-and-control
+  - interactive-shell
+  - dnscat2
+---
 # Implants
-
-Search Tag(s): #dnscat2 #command-and-control #interactive-shell
 
 TODO: Provide a usage example with dnscat2
 

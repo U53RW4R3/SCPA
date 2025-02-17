@@ -1,10 +1,15 @@
+---
+author(s):
+  - Userware
+tags:
+  - red-team-infrastructure
+  - redirectors
+---
 # Setting Up Redirectors and Firewall Rules
-
-Search Tag(s): #red-team-infrastructure #redirectors #firewall-rules
 
 ## 01 - Linux
 
-### 1.1 - Socat
+### 1.1 - `socat`
 
 Linux redirector
 
@@ -38,9 +43,9 @@ root@c2server:~# iptables -A OUTPUT -p tcp --dport 443 -j DROP
 
 ## 02 - Windows
 
-### 2.1 - Netsh
+### 2.1 - `netsh.exe`
 
-- Windows redirector
+Windows redirector
 
 ```
 C:\> netsh interface portproxy add v4tov4 listenport=<redirector_PORT> listenaddress=<redirector_IP> connectport=<bind_C2_PORT> connectaddress=<bind_C2_IP>
@@ -48,7 +53,7 @@ C:\> netsh interface portproxy add v4tov4 listenport=<redirector_PORT> listenadd
 C:\> netsh advfirewall firewall add rule name="Relay Port <PORT>" dir=in action=allow protocol=tcp localport=<redirector_PORT>
 ```
 
-- Command and Control
+Command and Control
 
 ```
 root@c2server:~# iptables -A INPUT -p tcp -s <redirector_IP> --dport <redirector_PORT> -j ACCEPT

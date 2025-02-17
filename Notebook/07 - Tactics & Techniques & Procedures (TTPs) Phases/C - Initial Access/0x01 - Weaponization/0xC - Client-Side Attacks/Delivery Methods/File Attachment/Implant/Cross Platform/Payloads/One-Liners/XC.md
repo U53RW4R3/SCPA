@@ -17,6 +17,6 @@ $ rlwrap xc -l -p <PORT>
 ---
 ## References
 
-### Github
+### Source Repositories
 
 - [xct: `xc`](https://github.com/xct/xc)

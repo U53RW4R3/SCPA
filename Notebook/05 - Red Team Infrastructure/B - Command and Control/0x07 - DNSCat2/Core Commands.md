@@ -1,6 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - help-menu
+  - red-team-infrastructure
+  - command-and-control
+  - interactive-shell
+  - dnscat2
+---
 # Core Commands
-
-Search Tag(s): #help-menu #dnscat2 #command-and-control #interactive-shell
 
 TODO: Provide a usage example with dnscat2
 

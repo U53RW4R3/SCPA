@@ -1,6 +1,11 @@
+---
+author(s):
+  - Userware
+tags:
+  - helpers
+  - red-team-infrastructure
+---
 # Issue TLS Certificate
-
-Search Tag(s): #red-team-infrastructure
 
 TODO: Fill this info
 

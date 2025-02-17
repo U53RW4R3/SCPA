@@ -2,7 +2,12 @@
 
 ## 01 - Setup
 
+> [!TIP]
+> You can make an automated script to deploy a trojan horse or backdoor during the initial access and maintaining access.
+
 ### 1.1 - Package Manager
+
+#### 1.1.1 - Debian-Based
 
 Install directly in the system.
 
@@ -21,7 +26,17 @@ $ dpkg -x cryptcat_*.deb work
 Then you can just execute the program as it was portable.
 
 ```
-$ work/usr/bin/cryptcat_ -h
+$ work/usr/bin/cryptcat -h
+```
+
+#### 1.1.2 - Arch Linux Based
+
+You can just download the `.tar.xz` file and extract it.
+
+```
+$ wget https://mirror.archstrike.org/x86_64/archstrike/cryptcat-1.2.1-4-any.pkg.tar.xz
+
+$ tar xJf cryptcat-*-any.pkg.tar.xz
 ```
 
 ### 1.2 - Universal Installation

