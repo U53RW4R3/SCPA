@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - cross-platform
+  - python
+---
 # Python
 
 ## 01 - Bind Shell

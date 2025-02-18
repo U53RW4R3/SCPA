@@ -38,7 +38,7 @@ EOF
 
 ### Backlinks
 
-- [[Desktop Files|Helpers: Desktop Files]]
+- [[Helpers|Helpers: Desktop Entries]]
 
 ### Null Byte
 

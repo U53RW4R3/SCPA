@@ -1,10 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - cross-platform
+  - xc
+---
 # XC
-
-## Setup
-
-```
-
-```
 
 ## Usage
 
@@ -17,6 +21,6 @@ $ rlwrap xc -l -p <PORT>
 ---
 ## References
 
-### Source Repositories
+### Backlinks
 
-- [xct: `xc`](https://github.com/xct/xc)
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Shell Handler/Cross Platform/Manual/XC]]

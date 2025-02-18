@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - cross-platform
+  - rustcat
+---
 # Rustcat
 
 ## 01 - Setup

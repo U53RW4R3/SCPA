@@ -2,11 +2,17 @@
 
 ## Double File Extension
 
-Viewing file extension is disabled by default.
+Viewing file extension is disabled by default. In Windows operating system:
 
 ```
-filename.doc.lnk
-filename.txt.exe
+filename.<extension>.lnk
+filename.<extension>.exe
+```
+
+In Linux.
+
+```
+filename.<extension>.desktop
 ```
 
 ## Space After Filename
@@ -25,6 +31,10 @@ Hit the copy button on the right side of the text box. Once it is copied paste i
 
 ---
 ## References
+
+### Backlinks
+
+- [[Helpers]]
 
 ### Jakoby
 

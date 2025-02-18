@@ -1,3 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - cross-platform
+  - socat
+---
 # Socat
 
 Checking a remote connection with verbosed debug.
@@ -6,7 +15,8 @@ Checking a remote connection with verbosed debug.
 $ socat -dddd - tcp4:<remote_IP>:<remote_PORT>
 ```
 
-Note: Using root privileges to bind a listener to ports below 1024.
+> [!NOTE]
+> Using root privileges to bind a listener to ports below 1024.
 
 ## 01 - Reverse Shell Handler
 
@@ -39,6 +49,6 @@ $ socat - OPENSSL:<target_IP>:<target_PORT>,verify=0
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Linux/Payloads/One-Liners/Reverse Shells/Socat|Socat: Reverse Shell]]
+### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Linux/Payloads/One-Liners/Bind Shells/Socat|Socat: Bind Shell]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Cross Platform/Payloads/One-Liners/Socat]]

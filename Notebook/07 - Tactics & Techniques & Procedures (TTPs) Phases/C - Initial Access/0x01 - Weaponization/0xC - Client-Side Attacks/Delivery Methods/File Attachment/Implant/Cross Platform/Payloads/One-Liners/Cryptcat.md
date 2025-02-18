@@ -1,3 +1,13 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - cross-platform
+  - cryptcat
+---
 # Cryptcat
 
 ## 01 - Setup
@@ -43,7 +53,7 @@ $ tar xJf cryptcat-*-any.pkg.tar.xz
 
 #### 1.2.1 - Linux
 
-Install directly in the system.
+TODO: Install directly in the system.
 
 ```
 

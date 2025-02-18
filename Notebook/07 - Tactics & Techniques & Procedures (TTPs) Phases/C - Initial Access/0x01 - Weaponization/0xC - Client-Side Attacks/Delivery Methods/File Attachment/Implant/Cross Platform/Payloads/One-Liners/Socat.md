@@ -6,6 +6,7 @@ tags:
   - weaponization
   - client-side-attacks
   - cross-platform
+  - socat
 ---
 # Socat
 

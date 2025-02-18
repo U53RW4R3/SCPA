@@ -1,3 +1,12 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - weaponization
+  - cross-platform
+  - openssl
+---
 # OpenSSL
 
 ## 01 - Reverse Shell Handler
