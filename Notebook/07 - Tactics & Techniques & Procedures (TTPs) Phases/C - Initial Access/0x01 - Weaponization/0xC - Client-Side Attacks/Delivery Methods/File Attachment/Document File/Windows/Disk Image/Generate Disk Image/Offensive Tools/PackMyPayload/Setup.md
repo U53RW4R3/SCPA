@@ -29,10 +29,7 @@ Install the dependencies.
 ```
 $ sudo apt install -y python3-py7zr python3-pycdlib python3-colorama
 
-$ pip3 install zipfile2
-pip3 install pyminizip
-pip3 install cabarchive
-pip3 install pypdf2
+$ pip3 install zipfile2 pyminizip cabarchive pypdf2
 ```
 
 Clone the repository

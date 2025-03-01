@@ -71,11 +71,11 @@ EOF
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Payloads/One-Liners/Reverse Shells/Python|One-Liners: Windows Python Reverse Shells]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Windows/Payloads/One-Liners/Reverse Shells/Python|One-Liners: Windows Python Reverse Shells]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Linux/Payloads/One-Liners/Reverse Shells/Python|One-Liners: Linux Python Reverse Shells]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Linux/Payloads/One-Liners/Reverse Shells/Python|One-Liners: Linux Python Reverse Shells]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Linux/Payloads/One-Liners/Bind Shells/Python|One-Liners: Linux Python Bind Shells]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Linux/Payloads/One-Liners/Bind Shells/Python|One-Liners: Linux Python Bind Shells]]
 
 ### don't code me on that
 

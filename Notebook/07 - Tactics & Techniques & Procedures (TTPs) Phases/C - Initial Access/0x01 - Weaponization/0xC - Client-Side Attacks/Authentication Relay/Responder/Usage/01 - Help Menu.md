@@ -1,6 +1,18 @@
+---
+author(s):
+  - Userware
+tags:
+  - help-menu
+  - initial-access
+  - exploitation
+  - weaponization
+  - sniffing-and-spoofing
+  - client-side-attacks
+  - authentication-relay
+  - network-protocols
+  - smb
+---
 # 01 - Help Menu
-
-Search Tag(s): #mitm #responder #smb #relay #ntlm #help-menu
 
 ## 1.1 - Responder
 
@@ -65,7 +77,7 @@ Options:
   -v, --verbose         Increase verbosity.
 ```
 
-## 1.1 - MultiRelay
+## 1.2 - MultiRelay
 
 ```
 $ ./MultiRelay.py -h

@@ -71,8 +71,8 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 		- [ ] [[Spoof Implants|Space After Filename]]
 	- [ ] Windows Executable file (`.exe`).
 		- [ ] Backdoor the executable file
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/Manual|Manual]]
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Windows/Backdoor EXEcutable Files/Manual|Manual]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
 			- [[Shellter|Shellter]]
 	- [ ] HTML Application (`.hta`)
 	- [ ] Installer

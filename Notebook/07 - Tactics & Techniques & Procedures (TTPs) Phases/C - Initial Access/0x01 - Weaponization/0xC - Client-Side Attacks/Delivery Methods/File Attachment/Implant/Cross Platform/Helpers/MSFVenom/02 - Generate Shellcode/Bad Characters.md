@@ -1,6 +1,6 @@
 # Bad Characters
 
-When removing bad characters `msfvenom` will warn you by throwing an error that in case if the shellcode have problems try to use with [[Encoders|enoders]] to get around it. Here are the some specific payloads that I've played around with and this is the result I get:
+When removing bad characters `msfvenom` will warn you by throwing an error that in case if the shellcode have problems try to use with [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Cross Platform/Helpers/MSFVenom/01 - Usage/Encoders|enoders]] to get around it. Here are the some specific payloads that I've played around with and this is the result I get:
 
 ## Linux
 

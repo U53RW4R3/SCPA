@@ -69,6 +69,23 @@ end
 $ nc whois.cymru.com 43 < asns.txt > output.txt
 ```
 
+A short script to automate recon.
+
+```bash
+asn() {
+  [[ -n $1 ]] && { echo -e "begin\nverbose\n${1}\nend" | nc whois.cymru.com 43 | tail -n +2; return; }
+  (echo -e 'begin\nverbose'; cat -; echo end) | nc whois.cymru.com 43 | tail -n +2
+}
+```
+
+The usage of the script as it follows.
+
+```
+$ asn <IP>
+
+$ asn < ips.txt
+```
+
 ## RADb
 
 ```
@@ -77,6 +94,10 @@ $ whois -h whois.radb.net -- '-i origin <ASN_ID>' | grep -Eo "([0-9.]+){4}/[0-9]
 
 ---
 ## References
+
+### Source Repository
+
+- [hackerschoice: THC's favourite Tips, Tricks & Hacks (Cheat Sheet)](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)
 
 ### Sidxparab
 

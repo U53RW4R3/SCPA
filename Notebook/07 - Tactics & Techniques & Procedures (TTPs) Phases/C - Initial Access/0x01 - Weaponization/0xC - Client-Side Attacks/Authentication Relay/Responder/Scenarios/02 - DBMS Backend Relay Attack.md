@@ -1,6 +1,16 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - sniffing-and-spoofing
+  - weaponization
+  - client-side-attacks
+  - scenarios
+  - network-protocols
+  - smb
+---
 # 02 - DBMS Backend Relay Attack
-
-Search Tag(s): #mitm #responder #smb #relay #ntlm #sql #sql-injection #scenarios
 
 ## 2.1 - MySQL
 

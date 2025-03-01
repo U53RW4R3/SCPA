@@ -13,6 +13,26 @@ tags:
 
 ## 2.1 -  Appending files via ADS in Linux
 
+### 2.1.1 - Using `wine`
+
+```
+$ echo "Nothing to see here" > file.txt
+
+$ wine64 cmd.exe /c "echo Confidential information > file.txt:secret.txt"
+```
+
+View the contents inside the file via ADS.
+
+```
+$ cat file.txt:secret.txt
+
+$ wine64 cmd.exe /c type file.txt:secret.txt
+
+$ wine64 cmd.exe /c more file.txt:secret.txt
+```
+
+### 2.1.2 - Inside Formatted Container
+
 Mount the NTFS container file to enable by handling ADS (`-o streams_interface=windows`).
 
 ```

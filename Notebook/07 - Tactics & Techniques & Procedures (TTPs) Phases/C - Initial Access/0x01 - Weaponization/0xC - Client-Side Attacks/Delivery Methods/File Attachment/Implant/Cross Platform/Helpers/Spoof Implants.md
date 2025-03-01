@@ -2,6 +2,9 @@
 
 ## Double File Extension
 
+> [!TIP] Spoof File Extension
+> Use unicode characters to replace characters that resembles the ASCII character. For example, for `.pdf` we replace the `d` letter to `ḋ` by search code `U+1E0B`.
+
 Viewing file extension is disabled by default. In Windows operating system:
 
 ```
@@ -21,7 +24,7 @@ filename.<extension>.desktop
 filename.jpg<whitespace>
 ```
 
-## R2L OverRide Character
+## R2L Override Character
 
 Hit the copy button on the right side of the text box. Once it is copied paste it with the invisible character.
 
@@ -35,6 +38,10 @@ Hit the copy button on the right side of the text box. Once it is copied paste i
 ### Backlinks
 
 - [[Helpers]]
+
+### Wikipedia
+
+- [Wikpedia: List of Unicode characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 
 ### Jakoby
 

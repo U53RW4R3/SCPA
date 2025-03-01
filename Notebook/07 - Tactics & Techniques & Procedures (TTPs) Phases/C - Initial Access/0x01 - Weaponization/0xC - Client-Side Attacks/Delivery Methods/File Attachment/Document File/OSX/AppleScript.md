@@ -2,8 +2,16 @@
 
 TODO: Write it step by step (refer to the link)
 
+```
+$ msfvenom -f osx-app
+```
+
 ---
 ## References
+
+### Backlinks
+
+- [[Spoof Implants|Helpers: Spoof Implants]]
 
 ### Filesec
 

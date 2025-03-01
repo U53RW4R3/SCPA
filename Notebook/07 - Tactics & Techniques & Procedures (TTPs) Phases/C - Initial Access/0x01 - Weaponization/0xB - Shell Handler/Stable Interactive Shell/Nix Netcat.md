@@ -121,7 +121,7 @@ $ exec script -q /dev/null /bin/bash
 
 ### 1.4 - Windows
 
-Note: Refer to fully interactive [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Windows/Payloads/One-Liners/Reverse Shells/PowerShell#^d57486|powershell]].
+Note: Refer to fully interactive [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Windows/Payloads/One-Liners/Reverse Shells/PowerShell#^d57486|powershell]].
 
 #### 1.3.1 - Method One
 
@@ -184,7 +184,7 @@ userware@hackware-os:~$ stty raw -echo; fg
 ---
 ## References
 
-### Github
+### Source Repository
 
 - [hackerschoice: THC's favourite Tips, Tricks & Hacks (Cheat Sheet)](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)
 

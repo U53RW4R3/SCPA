@@ -1,6 +1,17 @@
+---
+author(s):
+  - Userware
+tags:
+  - initial-access
+  - exploitation
+  - weaponization
+  - sniffing-and-spoofing
+  - client-side-attacks
+  - authentication-relay
+  - network-protocols
+  - smb
+---
 # 03 - MultiRelay
-
-Search Tag(s): #mitm #responder #smb #relay #ntlm
 
 ## 3.1 - Usage
 

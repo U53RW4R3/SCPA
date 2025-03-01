@@ -68,15 +68,17 @@ Supported container/archive formats:
 
 ## 02 - Archive files
 
-Note: Only `.zip` and `.7z` has password protection feature.
+> [!INFO]
+> Only `.zip` and `.7z` has password protection feature.
 
 ```
 $ packmypayload [-p <password>] --out-format <zip | 7z | cab | pdf> [<drive_letter>:]\path\to\directory\ archive.<zip | 7z | cab | pdf>
 ```
 
-## 03 - Pack files inside disk file
+## 03 - Pack files inside a disk file
 
-Note: Both `.vhd` and `.vhdx` is done exclusively on windows. Try to manually make a new file container manually.
+> [!INFO]
+> Both `.vhd` and `.vhdx` is done exclusively on windows.
 
 ```
 $ packmypayload [--vhd-filesystem <fat | fat32 | ntfs>] --out-format <iso | img | vhd | vhdx> file.txt file.<iso | img | vhd | vhdx>

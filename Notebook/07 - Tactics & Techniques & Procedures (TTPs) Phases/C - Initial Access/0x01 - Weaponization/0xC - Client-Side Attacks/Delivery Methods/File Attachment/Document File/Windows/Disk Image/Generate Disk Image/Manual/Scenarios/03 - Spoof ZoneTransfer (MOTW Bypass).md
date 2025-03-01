@@ -16,7 +16,7 @@ $ echo -e "[ZoneTransfer]\nZoneId=0" > /mnt/ntfs/implant.exe:Zone.Identifer
 
 $ echo -e "[ZoneTransfer]\nZoneId=1" > /mnt/ntfs/implant.exe:Zone.Identifer
 
-$ echo -e "[ZoneTransfer]\nZoneId=2" > /mnt/ntfs/implant.exe:Zone.Identifer
+$ echo -e "[ZoneTransfer]\nZoneId=2\nReferrerUrl=https://learn.microsoft.com\nHostUrl=https://download.sysinternals.com/files/PsExec.exe" > /mnt/ntfs/implant.exe:Zone.Identifer
 ```
 
 Unmount the container.
@@ -27,6 +27,8 @@ $ sudo umount /mnt/ntfs/
 
 ---
 ## References
+
+### Backlinks
 
 - [[Alternate Data Streams|Windows: Hide Artifacts]]
 
