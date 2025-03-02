@@ -36,10 +36,6 @@ PS C:\> Start-Process [-FilePath] <command> -NoNewWindow -ArgumentList ("arg_1",
 ---
 ## References
 
-### Backlinks
-
-- [[Windows PowerShell Cmdlet References]]
-
 ### LOFLCAB
 
 - [LOFLCAB: Get-Process](https://lofl-project.github.io/loflcab/Cmdlets/Get-Process/)

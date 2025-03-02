@@ -30,8 +30,3 @@ PS C:\> Remove-Item -Force -Recursive .\directory\
 ```
 PS C:\> Remove-Item -Force -Recursive .\directory\
 ```
-
----
-## References
-
-- [[Windows PowerShell Cmdlet References]]

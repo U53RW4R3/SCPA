@@ -43,10 +43,3 @@ PS C:\> (Get-ChildItem -Path [<drive_letter>:\]path\to\directory\ -Recurse -File
 
 PS C:\> (Get-ChildItem -Path \\<IP>\<share_name>\path\to\directory\ -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1Gb
 ```
-
----
-## References
-
-### Backlinks
-
-- [[Windows PowerShell Cmdlet References]]

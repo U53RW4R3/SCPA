@@ -5,9 +5,9 @@ tags:
   - command-line
   - windows
 ---
-# 07 - Power Management
+# 06 - Power Management
 
-## 7.1 - Shutdown Computer
+## 6.1 - Shutdown Computer
 
 Turn off the computer in an instant.
 
@@ -15,7 +15,7 @@ Turn off the computer in an instant.
 C:\> shutdown.exe /t 0 /s
 ```
 
-## 8.2 - Restart Computer
+## 6.2 - Restart Computer
 
 ```
 C:\> shutdown.exe /t 0 /r

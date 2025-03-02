@@ -5,9 +5,9 @@ tags:
   - command-line
   - linux
 ---
-# 08 - Power Management
+# 07 - Power Management
 
-## 8.1 - Shutdown Computer
+## 7.1 - Shutdown Computer
 
 Turn off the computer in an instant.
 
@@ -19,7 +19,7 @@ $ poweroff
 $ systemctl poweroff -i
 ```
 
-## 8.2 - Restart Computer
+## 7.2 - Restart Computer
 
 ```
 $ reboot
@@ -27,13 +27,13 @@ $ reboot
 $ systemctl -i reboot
 ```
 
-## 8.3 - Suspend Computer
+## 7.3 - Suspend Computer
 
 ```
 $ systemctl suspend
 ```
 
-## 8.4 - Hibernate Mode
+## 7.4 - Hibernate Mode
 
 ```
 $ systemctl hibernate

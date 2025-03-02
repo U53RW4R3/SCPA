@@ -5,7 +5,7 @@ tags:
   - command-line
   - windows
 ---
-# 06 - Windows Management Instrument
+# 05 - Windows Management Instrument
 
 TODO: Fill this info
 

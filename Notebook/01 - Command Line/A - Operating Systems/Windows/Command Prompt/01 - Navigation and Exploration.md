@@ -35,6 +35,4 @@ C:\> chdir folder
 ---
 ## References
 
-- [[Windows Command Prompt References]]
-
 - [Hacking Articles: Post Exploitation in Windows using dir Command](https://www.hackingarticles.in/post-exploitation-windows-using-dir-command/)

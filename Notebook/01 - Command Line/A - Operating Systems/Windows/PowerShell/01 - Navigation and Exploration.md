@@ -24,8 +24,3 @@ PS C:\> Get-ChildItem | Format-Wide -Property Name -Column 1
 ```
 PS:\> Set-Location .\directory\
 ```
-
----
-## References
-
-- [[Windows PowerShell Cmdlet References]]

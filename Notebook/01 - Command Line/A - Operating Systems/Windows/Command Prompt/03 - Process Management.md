@@ -56,10 +56,6 @@ C:\> start /b <command> [arguments]
 ---
 ## References
 
-### Backlinks
-
-- [[Windows Command Prompt References]]
-
 ### Mubix
 
 - [Malicious.link: Get Process List](https://room362.com/posts/2020/get-process-list/)

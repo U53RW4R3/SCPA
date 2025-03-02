@@ -62,6 +62,4 @@ C:\> attrib -h -r -s <file | directory>
 ---
 ## References
 
-- [[Windows Command Prompt References]]
-
 - [SS64: Con](https://ss64.com/nt/con.html)
