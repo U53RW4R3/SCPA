@@ -37,7 +37,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 				- [ ] Search for emails to scrape them.
 				- [ ] Search for first and last names to parse them to perform user enumeration with the following.
 					- SMTP Port
-						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Enumeration/Cross Platform/Mail Server/SMTP|Username enumeration]]
+						- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Ports/Cross Platform/Mail Server/SMTP|Username enumeration]]
 					- Web mail
 			- [ ] OSINT gathering on social media
 			- [ ] OSINT gathering using google dorking

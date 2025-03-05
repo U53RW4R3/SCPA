@@ -31,19 +31,7 @@ C:\> rd folder
 C:\> rmdir folder
 ```
 
-## 2.2 - Text Editor
-
-
-> [!NOTE]
-> Press **CTRL + Z** to end the file.
-
-```
-C:\> copy con file.txt
-This is a text file
-Another line.^Z
-```
-
-## 2.3 - File and Directory Attribution
+## 2.2 - File and Directory Attribution
 
 TODO: Fill this info
 
@@ -58,8 +46,3 @@ Clear the attributes the by flagging them hidden (`-h`), read only (`-r`), and i
 ```
 C:\> attrib -h -r -s <file | directory>
 ```
-
----
-## References
-
-- [SS64: Con](https://ss64.com/nt/con.html)

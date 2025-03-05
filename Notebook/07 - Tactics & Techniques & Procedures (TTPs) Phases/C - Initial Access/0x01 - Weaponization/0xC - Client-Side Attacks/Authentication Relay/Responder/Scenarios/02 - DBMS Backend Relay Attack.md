@@ -82,3 +82,7 @@ $ sudo responder -I <interface>
 ### Hacktricks
 
 - [Hacktricks: Pentesting MSSQL Microsoft SQL Server](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-mssql-microsoft-sql-server/index.html)
+
+### Osanda
+
+- [Osanda: MySQL Out-of-Band Hacking](https://osandamalith.com/2017/02/03/mysql-out-of-band-hacking/)

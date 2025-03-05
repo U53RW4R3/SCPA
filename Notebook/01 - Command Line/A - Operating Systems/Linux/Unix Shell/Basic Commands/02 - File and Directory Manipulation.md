@@ -7,9 +7,7 @@ tags:
 ---
 # 02 - File and Directory Manipulation
 
-## 2.1 - Touch
-
-### 2.1.1 - Create an empty file
+## 2.1 - Create an Empty File
 
 ```
 $ touch file.txt
@@ -22,7 +20,6 @@ TODO: Fill this info with table reference
 ```
 $ chmod <[i]iii> file.txt
 ```
-
 
 For SSH files.
 
@@ -45,5 +42,7 @@ $ chgrp <group> file.txt
 
 ---
 ## References
+
+### Linux Handbook
 
 - [Linux Handbook: Fix Permission denied (publickey) SSH Error in Linux](https://linuxhandbook.com/fix-permission-denied-publickey/)

@@ -124,8 +124,3 @@ $ cd ~
 
 $ cd /home/$USER/
 ```
-
----
-## References
-
-- [Basic Linux Navigation and File Management](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management#navigation-and-exploration)

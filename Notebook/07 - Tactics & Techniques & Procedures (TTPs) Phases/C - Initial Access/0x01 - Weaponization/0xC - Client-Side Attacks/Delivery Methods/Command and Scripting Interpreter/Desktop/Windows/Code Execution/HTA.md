@@ -84,6 +84,8 @@ C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\implant.hta
 
 ### LOLBAS
 
+- [LOLBAS: Mshta](https://lolbas-project.github.io/lolbas/Binaries/Mshta/)
+
 - [LOLBAS: Rundll32](https://lolbas-project.github.io/lolbas/Binaries/Rundll32/)
 
 ### Red Team Notes
