@@ -48,9 +48,9 @@ root@c2server:~# iptables -A OUTPUT -p tcp --dport 443 -j DROP
 Windows redirector
 
 ```
-C:\> netsh interface portproxy add v4tov4 listenport=<redirector_PORT> listenaddress=<redirector_IP> connectport=<bind_C2_PORT> connectaddress=<bind_C2_IP>
+C:\> netsh.exe interface portproxy add v4tov4 listenport=<redirector_PORT> listenaddress=<redirector_IP> connectport=<bind_C2_PORT> connectaddress=<bind_C2_IP>
 
-C:\> netsh advfirewall firewall add rule name="Relay Port <PORT>" dir=in action=allow protocol=tcp localport=<redirector_PORT>
+C:\> netsh.exe advfirewall firewall add rule name="Relay Port <PORT>" dir=in action=allow protocol=tcp localport=<redirector_PORT>
 ```
 
 Command and Control

@@ -69,6 +69,10 @@ $js = 'var js = new ActiveXObject("WScript.Shell");js.Run("<commands>");'
 
 - [[DLL Execution]]
 
+### Source Repositories
+
+- [khr0x40sh: WhiteListEvasion](https://github.com/khr0x40sh/WhiteListEvasion)
+
 ### LOLBAS
 
 - [LOLBAS: MSBuild](https://lolbas-project.github.io/lolbas/Binaries/Msbuild/)
@@ -93,9 +97,9 @@ $js = 'var js = new ActiveXObject("WScript.Shell");js.Run("<commands>");'
 
 - [Hacking Articles: Windows Exploitation - MSBuild](https://www.hackingarticles.in/windows-exploitation-msbuild/)
 
-### Github
+### DMCXBlue
 
-- [khr0x40sh: WhiteListEvasion](https://github.com/khr0x40sh/WhiteListEvasion)
+- [DMCXBlue: Compile After Delivery](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/defense-evasion/t0127-obfuscated-files-or-information/compile-after-delivery)
 
 ### Secarma
 
