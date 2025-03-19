@@ -38,7 +38,7 @@ EOF
 
 ### Backlinks
 
-- [[Helpers|Helpers: Desktop Entries]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut Link File/Linux/Helpers|Helpers: Desktop Entries]]
 
 ### Null Byte
 

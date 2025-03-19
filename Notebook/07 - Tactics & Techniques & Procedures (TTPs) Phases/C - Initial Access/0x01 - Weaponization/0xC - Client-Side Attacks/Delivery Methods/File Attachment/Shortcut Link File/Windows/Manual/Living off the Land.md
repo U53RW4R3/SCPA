@@ -45,11 +45,11 @@ $Shortcut.Save()
 ### 3.1 - Hidden file
 
 ```
-$ wine64 attrib.exe +h implant.ps1
+$ wine attrib.exe +h implant.ps1
 
-$ wine64 attrib.exe
+$ wine attrib.exe
 
-$ wine64 cmd.exe /c dir /a:h
+$ wine cmd.exe /c dir /a:h
 ```
 
 ```

@@ -144,7 +144,13 @@ $ sudo mkdir /mnt/smb
 
 $ sudo mount -t cifs //<IP>/<share_name> /mnt/smb
 
-$ sudo mount -t cifs -o "port=<PORT> username=<username>,password=<password>" //<IP>/<share_name> /mnt/smb
+$ sudo mount -t cifs -o "[port=<PORT>] username=<username>,password=<password>" //<IP>/<share_name> /mnt/smb
+```
+
+When authenticating a samba unix server.
+
+```
+$ sudo mount -t cifs -o "[port=<PORT>] vers=1.0,user=root,uid=0,gid" //<IP>/<share_name> /mnt/smb
 ```
 
 ## 06 - RPC Endpoints

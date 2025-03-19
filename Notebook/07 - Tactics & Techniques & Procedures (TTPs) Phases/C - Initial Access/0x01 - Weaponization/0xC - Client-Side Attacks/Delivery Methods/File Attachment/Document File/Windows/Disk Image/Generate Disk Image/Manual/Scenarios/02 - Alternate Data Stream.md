@@ -18,7 +18,7 @@ tags:
 ```
 $ echo "Nothing to see here" > file.txt
 
-$ wine64 cmd.exe /c "echo Confidential information > file.txt:secret.txt"
+$ wine cmd.exe /c "echo Confidential information > file.txt:secret.txt"
 ```
 
 View the contents inside the file via ADS.
@@ -26,9 +26,9 @@ View the contents inside the file via ADS.
 ```
 $ cat file.txt:secret.txt
 
-$ wine64 cmd.exe /c type file.txt:secret.txt
+$ wine cmd.exe /c type file.txt:secret.txt
 
-$ wine64 cmd.exe /c more file.txt:secret.txt
+$ wine cmd.exe /c more file.txt:secret.txt
 ```
 
 ### 2.1.2 - Inside Formatted Container

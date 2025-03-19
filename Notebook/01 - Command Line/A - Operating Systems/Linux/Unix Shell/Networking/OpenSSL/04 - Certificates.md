@@ -8,16 +8,6 @@ tags:
 ---
 # 04 - Certificates
 
-## 4.1 - Check Remote Certificates
-
-TODO: Rearrange under Active Fingerprinting
-
-### 4.1.3 - XMPP Server
-
-```
-$ openssl s_client -showcerts -starttls xmpp -connect chat.example.com:5222
-```
-
 ## 4.1 - Present Client Certificate
 
 ```

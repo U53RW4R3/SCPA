@@ -5,6 +5,8 @@ TODO: Provide more use cases
 ## 1.1 - Quick Hosts Discovery
 
 ```
+$ nmap -sn <IP>/<CIDR> | grep "Nmap" | grep -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}" > hosts.txt
+
 $ nmap -sn -T4 -oG - <IP>/<CIDR> | grep "Status: Up" | cut -f 2 -d ' ' > hosts.txt
 ```
 

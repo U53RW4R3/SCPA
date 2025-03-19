@@ -328,3 +328,17 @@ Linux
 ```
 meterpreter > shell -t
 ```
+
+```
+msf > use post/multi/manage/open
+
+msf > use post/multi/general/close
+```
+
+```
+msf > use post/multi/general/execute
+
+msf post(multi/general/execute) > set command <commands>
+
+msf post(multi/general/execute) > run session=<session_ID>
+```

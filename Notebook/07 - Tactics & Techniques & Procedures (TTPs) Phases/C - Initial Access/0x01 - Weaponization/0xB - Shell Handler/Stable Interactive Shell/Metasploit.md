@@ -38,3 +38,21 @@ msf post(multi/manage/system_session) > set lport <PORT>
 
 msf post(multi/manage/system_session) > run
 ```
+
+## 03 - Troubleshooting
+
+Fix backspace.
+
+```
+$ echo 'stty erase ^H' >> ~/.bashrc
+
+$ echo 'stty erase ^H' >> ~/.zshrc
+```
+
+Reset resource file.
+
+```
+$ source ~./bashrc
+
+$ source ~./zshrc
+```

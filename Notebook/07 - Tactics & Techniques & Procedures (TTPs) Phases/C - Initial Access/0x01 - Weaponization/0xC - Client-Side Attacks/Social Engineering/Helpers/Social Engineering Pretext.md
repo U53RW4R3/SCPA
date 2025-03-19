@@ -5,7 +5,7 @@ TODO: Provide social engineering pretext depending on the context
 ---
 ## References
 
-### Github
+### Source Repositories
 
 - [L4bF0x: PhishingPretexts](https://github.com/L4bF0x/PhishingPretexts)
 

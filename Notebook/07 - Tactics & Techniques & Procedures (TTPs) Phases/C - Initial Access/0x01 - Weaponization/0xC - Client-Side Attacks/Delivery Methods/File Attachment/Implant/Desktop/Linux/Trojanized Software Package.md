@@ -43,7 +43,7 @@ userware@hackware-os:/tmp/tmp.N7WqUfqiWd$ mkdir work/DEBIAN
 > [!IMPORTANT]
 > Do not skip this step.
 > > [!TIP]
-> > To copy the contents in `control` file then execute either `dpkg-deb -I file.deb` or `apt-cache show <package>` as reference.
+> > To copy the contents in `control` file then execute either `dpkg-deb -I file.deb control` or `apt-cache show <package>` as reference.
 
 In the `DEBIAN` directory, create a text file named `control` with the contents.
 

@@ -10,7 +10,5 @@ tags:
 ## 4.1 - Remove ANSI Characters
 
 ```
-$ sudo apt install -y ansifilter
-
-$ ansifilter -i file.txt -o striped_ansi.txt
+$ sed -e '\''s/\x1b\[[0-9;]*m//g'\'
 ```

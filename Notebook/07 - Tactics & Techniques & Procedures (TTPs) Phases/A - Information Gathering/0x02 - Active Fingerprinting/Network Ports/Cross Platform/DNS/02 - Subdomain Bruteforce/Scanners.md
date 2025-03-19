@@ -96,13 +96,13 @@ $ for domain in $(cat domains.txt); do dnsx -silent -d FUZZ.$domain -w wordlist.
 ## Ffuf
 
 ```
-$ ffuf -u https://FUZZ.domain.com/ -w subdomains.txt -p 1 -f 301,401,403
+$ ffuf -u https://FUZZ.domain.tld/ -w subdomains.txt -p 1 -f 301,401,403
 ```
 
 ## Knockpy
 
 ```
-$ knockpy <domain.com> -t 30 -w subdomains.txt -w SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+$ knockpy domain.tld -t 30 -w subdomains.txt -w SecLists/Discovery/DNS/subdomains-top1million-5000.txt
 ```
 
 ## Recon-ng

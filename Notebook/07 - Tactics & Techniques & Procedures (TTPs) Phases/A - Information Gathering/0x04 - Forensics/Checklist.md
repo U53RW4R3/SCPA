@@ -8,36 +8,27 @@ TODO: Fill the checklist for gathering metadata
 
 - [ ] Extract metadata from images using [[Exiftool|exiftool]], or [[exifLooter|exiflooter]]. Here's a table with the following image format extensions.
 
-| Images  |
-| ------- |
-| `.jpeg` |
-| `.jpg`  |
-| `.png`  |
-| `.tiff` |
-| `.heic` |
+| File Formats   | Description |
+| -------------- | ----------- |
+| `.jpeg`,`.jpg` |             |
+| `.png`         |             |
+| `.tiff`        |             |
+| `.heic`        |             |
 
 ### Documents
 
 - [ ] Extract metadata from images using [[Exiftool|exiftool]], or [[DataSurgeon|datasurgeon]]. Here's a table with the following image format extensions.
+- [ ] [[Extract Malicious Documents]]
 
-| Documents |
-| --------- |
-| `.pdf`    |
-| `.doc`    |
-| `.docx`   |
-| `.docm`   |
-| `.dot`    |
-| `.rtf`    |
-| `.odt`    |
-| `.xls`    |
-| `.xlsx`   |
-| `.xlsm`   |
-| `.xlsb`   |
-| `.csv`    |
-| `.ods`    |
-| `.ppt`    |
-| `.pptx`   |
-| `.odp`    |
+| File Formats                     | Description |
+| -------------------------------- | ----------- |
+| `.pdf`                           |             |
+| `.rtf`                           |             |
+| `.doc`, `.docx`, `.docm`, `.dot` |             |
+| `.xls`,`.xlsx`,`.xlsm`,`.xlsb`   |             |
+| `.ppt`,`.pptx`                   |             |
+| `.csv`                           |             |
+| `.odt`,`.ods`,`.odp`             |             |
 
 ## Sensitive Information
 

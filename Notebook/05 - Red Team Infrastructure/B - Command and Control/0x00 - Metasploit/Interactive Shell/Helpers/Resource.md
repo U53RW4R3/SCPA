@@ -29,6 +29,8 @@ exploit -j
 <ruby>
 ```
 
+Save the initial commands that were executed to a file.
+
 ```
 msf > makerc
 ```

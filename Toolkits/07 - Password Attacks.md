@@ -1,25 +1,22 @@
 # Password Attacks
 
-* Local Attacks
+* Boot Attacks
     1. [chntpw](https://pogostick.net/~pnh/ntpasswd/)
     2. [cmospwd](http://www.cgsecurity.org/wiki/CmosPwd)
     3. [Ophcrack](http://ophcrack.sourceforge.net)
-    4. [samdump2](http://sourceforge.net/projects/ophcrack/files/samdump2/)
     
 * Offline Attacks
     1. [fcrackzip](http://oldhome.schmorp.de/marc/fcrackzip.html)
     2. [JohnTheRipper](https://www.openwall.com/john) && [Github Repo](https://github.com/magnumripper/JohnTheRipper)
     3. [PDFCrack](http://pdfcrack.sourceforge.net)
-    4. [RainbowCrack](http://project-rainbowcrack.com)
-    5. [RarCrack](http://rarcrack.sourceforge.net)
-    5. [rcracki_mt](http://rcracki.sourceforge.net)
-    6. [sipcrack](http://www.remote-exploit.org/codes_sipcrack.html)
-    7. [sucrack](http://labs.portcullis.co.uk/application/sucrack)
-    8. [truecrack](http://code.google.com/p/truecrack/)
-    9. [Hashcat](https://hashcat.net/wiki/)
-    10. [stegbrute](https://r4yan.cf/stegbrute/) && [Github Repo](https://github.com/R4yGM/stegbrute)
-    11. [creddump](https://github.com/moyix/creddump)
-    
+    3. [RarCrack](http://rarcrack.sourceforge.net)
+    4. [rcracki_mt](http://rcracki.sourceforge.net)
+    5. [sipcrack](http://www.remote-exploit.org/codes_sipcrack.html)
+    6. [sucrack](http://labs.portcullis.co.uk/application/sucrack)
+    7. [truecrack](http://code.google.com/p/truecrack/)
+    8. [Hashcat](https://hashcat.net/wiki/)
+    9. [stegbrute](https://r4yan.cf/stegbrute/) && [Github Repo](https://github.com/R4yGM/stegbrute)
+
 * Online Attacks
     1. [Mass Bruter](https://github.com/opabravo/mass-bruter)
     2. [BruteSpray](https://github.com/x90skysn3k/brutespray)
@@ -44,7 +41,7 @@
     7. [Wordlistctl](https://github.com/BlackArch/wordlistctl)
     8. [PentesterSpecialDict](https://github.com/ppbibo/PentesterSpecialDict)
     9. [CUPP](https://github.com/Mebus/cupp)
-    
+
 1. [FindMyHash](https://code.google.com/archive/p/findmyhash/)
 2. [HashID](https://github.com/psypanda/hashID)
 3. [Hash-Identifier](https://github.com/blackploit/hash-identifier)

@@ -224,8 +224,6 @@ run post/windows/gather/credentials/total_commander
 
 run post/windows/gather/credentials/trillian
 
-
-
 run post/windows/gather/credentials/windows_sam_hivenightmare
 
 run post/windows/gather/word_unc_injector
@@ -247,20 +245,9 @@ run post/windows/manage/rpcapd_start
 run post/windows/manage/dell_memory_protect
 
 
-
 run post/windows/manage/nbd_server
 
-
-
-
-
 run post/windows/manage/enable_support_account
-
-
-
-
-
-
 
 
 run post/windows/manage/forward_pageant
@@ -274,8 +261,6 @@ run post/windows/manage/hashcarve
 
 
 run post/windows/manage/priv_migrate
-
-run post/windows/manage/webcam
 
 run post/windows/manage/pxeexploit
 
@@ -291,15 +276,9 @@ run post/multi/gather/aws_keys
 
 run post/multi/gather/jboss_gather
 
-run post/multi/manage/open
 
-run post/multi/general/close
 
 run post/multi/escalate/cups_root_file_read
-
-
-
-run post/multi/general/execute
 
 run post/multi/gather/lastpass_creds
 
@@ -331,11 +310,6 @@ run post/multi/gather/pidgin_cred
 
 
 run post/multi/gather/dns_bruteforce
-
-
-
-
-
 
 
 run post/multi/gather/dns_srv_lookup
@@ -464,8 +438,6 @@ run post/osx/gather/enum_messages
 
 run post/osx/gather/apfs_encrypted_volume_passwd
 
-
-
 run post/osx/gather/autologin_password
 
 run post/osx/gather/gitignore
@@ -473,10 +445,6 @@ run post/osx/gather/gitignore
 
 
 run post/osx/gather/enum_adium
-
-
-
-
 
 run post/osx/gather/enum_airport
 

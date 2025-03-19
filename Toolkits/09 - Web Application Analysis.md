@@ -4,7 +4,7 @@
     1. [plecost](https://github.com/iniqua/plecost)
     2. [wafw00f](https://github.com/sandrogauci/wafw00f)
     3. [Awesome-WAF](https://github.com/0xInfection/Awesome-WAF) (Using it as a reference to understand what kind of WAF you're up against)
-    
+
 * Web Application Proxies
     1. [Owasp-zap](https://www.zaproxy.org/download)
     2. [BurpSuite](https://portswigger.net/burp/download.html)

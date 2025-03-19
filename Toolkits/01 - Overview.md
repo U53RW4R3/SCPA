@@ -31,13 +31,11 @@
     16. [OWASP Broken Web Applications Project](https://sourceforge.net/projects/owaspbwa/)
     17. [DVFU (Damn Vulnerable File Upload)](https://github.com/LunaM00n/File-Upload-Lab)
     18. [JavaVulnerableLab](https://github.com/CSPF-Founder/JavaVulnerableLab)
-
-    + Pentester Lab
+    19 Pentester Lab
         1. [Web for Pentester](https://pentesterlab.com/exercises/web_for_pentester)
         2. [From SQL Injection to Shell: PostgreSQL edition](https://pentesterlab.com/exercises/from_sqli_to_shell_pg_edition/attachments)
         3. [Web for Pentester II](https://pentesterlab.com/exercises/web-for-pentester-II)
-
-    + Docker Images
+    20. Docker Images
         1. [VulnerableWordpress](https://github.com/wpscanteam/VulnerableWordpress)
         2. [Pentest_lab](https://github.com/oliverwiegers/pentest_lab)
         3. [Pentestlab](https://github.com/eystsen/pentestlab)

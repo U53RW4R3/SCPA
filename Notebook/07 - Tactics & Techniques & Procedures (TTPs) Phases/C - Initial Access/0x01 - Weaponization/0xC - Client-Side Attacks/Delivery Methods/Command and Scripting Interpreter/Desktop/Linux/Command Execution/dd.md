@@ -1,6 +1,6 @@
 # dd
 
-## 01 - Fileless code execution
+## 01 - Fileless Code Execution
 
 Generate a shellcode implant.
 
@@ -34,4 +34,6 @@ $ echo -en "<shellcode>" | setarch x86_64 -R dd of=/proc/self/mem bs=1 seek=$(( 
 ---
 ## References
 
-- [Sektor7 Blog: ](https://blog.sektor7.net/#!res/2018/pure-in-memory-linux.md)
+### Sektor7
+
+- [Sektor7: Pure In-Memory (Shell)Code Injection In Linux Userland](https://blog.sektor7.net/#!res/2018/pure-in-memory-linux.md)
