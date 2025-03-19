@@ -29,6 +29,8 @@ $ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/
 Check if you're connected to TOR.
 
 ```
+$ curl -s https://check.torproject.org/api/ip | jq -r .IsTor
+
 $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
 ```
 

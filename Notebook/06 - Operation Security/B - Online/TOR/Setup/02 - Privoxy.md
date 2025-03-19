@@ -58,6 +58,8 @@ $ curl 'https://api.ipify.org?format=json'
 Check if you're connected to TOR
 
 ```
+$ curl -s https://check.torproject.org/api/ip | jq -r .IsTor
+
 $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
 ```
 

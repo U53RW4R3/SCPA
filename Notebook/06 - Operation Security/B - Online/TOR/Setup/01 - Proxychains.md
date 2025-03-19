@@ -27,6 +27,8 @@ $ proxychains curl 'https://api.ipify.org?format=json'
 Check if you're connected to TOR
 
 ```
+$ proxychains -f tor.conf curl -s https://check.torproject.org/api/ip | jq -r .IsTor
+
 $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
 ```
 
