@@ -14,6 +14,8 @@ When you've cloned the source repository. You can check the logs to search for e
 $ git log
 
 $ git log -p
+
+$ git log --stat
 ```
 
 Enumerate the available branches of the source repository.

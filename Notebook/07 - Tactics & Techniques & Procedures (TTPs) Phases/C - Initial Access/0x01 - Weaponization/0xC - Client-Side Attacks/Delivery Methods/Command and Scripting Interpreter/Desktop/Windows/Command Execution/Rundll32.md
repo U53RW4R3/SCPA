@@ -13,7 +13,7 @@ tags:
 ## 01 - Common Files
 
 ```
-C:\Windows\system32\cmd.exe
+C:\Windows\System32\cmd.exe
 C:\Windows\SysWOW64\cmd.exe
 ```
 

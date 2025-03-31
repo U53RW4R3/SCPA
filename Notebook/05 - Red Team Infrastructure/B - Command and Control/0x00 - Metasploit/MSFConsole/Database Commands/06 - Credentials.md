@@ -109,7 +109,7 @@ Example, deleting:
 
 TODO: Fill this info
 
-- List the credentials
+List the credentials
 
 ```
 msf > creds

@@ -11,7 +11,7 @@
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/NTLM Relay Attack/Manual]]
 
-### Github
+### Source Repositories
 
 - [zyn3rgy: ClickonceHunter](https://github.com/zyn3rgy/ClickonceHunter) (search for ClickOnce .NET `.application` files)
 

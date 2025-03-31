@@ -7,15 +7,15 @@
 Certificate Transparency (CT) Logs
 
 ```
-$ curl -s "https://crt.sh/?cn=<domain>.<tld>&output=json" | jq -r '.[].name_value' | sort -u
+$ curl -s "https://crt.sh/?cn=<domain.tld>&output=json" | jq -r '.[].name_value' | sort -uo subdomains.txt
 
-$ curl -s "https://crt.sh/?o=<organization_name>&output=json" | jq -r '.[].common_name' | sort -u
+$ curl -s "https://crt.sh/?o=<organization_name>&output=json" | jq -r '.[].common_name' | sort -uo subdomains.txt
 ```
 
 TLS bufferover
 
 ```
-$ curl 'https://tls.bufferover.run/dns?q=.<domain>.<tld>' -H 'x-api-key: <tls.bufferover.run_API_key>' | jq -r .Results[] | cut -d ',' -f5 | sort -u
+$ curl 'https://tls.bufferover.run/dns?q=.<domain>.<tld>' -H 'x-api-key: <tls.bufferover.run_API_key>' | jq -r .Results[] | cut -d ',' -f5 | sort -uo subdomains.txt
 ```
 
 ### DNSRecon
@@ -47,13 +47,13 @@ $ nmap -sn --script hostmap-crtsh <IP>
 ### Manual
 
 ```
-$ curl -s "https://api.certspotter.com/v1/issuances?domain=<domain>.<tld>&include_subdomains=true&expand=dns_names" | jq -r '.[].dns_names[]' | sort -u
+$ curl -s "https://api.certspotter.com/v1/issuances?domain=<domain>.<tld>&include_subdomains=true&expand=dns_names" | jq -r '.[].dns_names[]' | sort -uo subdomains.txt
 ```
 
 Provide certificate issuer.
 
 ```
-$ curl -s "https://api.certspotter.com/v1/issuances?domain=<domain.com>&include_subdomains=true&expand=dns_names&expand=issuer" | jq -r '.[].dns_names[]' | sort -u
+$ curl -s "https://api.certspotter.com/v1/issuances?domain=<domain.com>&include_subdomains=true&expand=dns_names&expand=issuer" | jq -r '.[].dns_names[]' | sort -uo subdomains.txt
 ```
 
 ### Recon-ng

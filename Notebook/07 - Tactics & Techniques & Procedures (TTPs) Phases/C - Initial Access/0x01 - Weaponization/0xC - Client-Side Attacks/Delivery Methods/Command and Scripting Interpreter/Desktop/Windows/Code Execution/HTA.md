@@ -55,6 +55,12 @@ This is a de-obfuscated format of `hta-psh` in `msfvenom`. Refer to this [[03 - 
 
 ### 3.1 - `mshta.exe`
 
+```
+C:\> mshta.exe vbscript:Execute("MsgBox(""Would you like to update Windows?"", 64, ""Example"")(window.close)")
+
+C:\> mshta.exe javascript:alert("Please Install Required Update")
+```
+
 To execute the implant.
 
 ```
@@ -116,6 +122,10 @@ C:\> mshta.exe %CD%\hidden_implant.extensions
 ### Red Team Notes
 
 - [Red Team Notes: MSHTA](https://www.ired.team/offensive-security/code-execution/t1170-mshta-code-execution)
+
+### DMCXBlue
+
+- [DMCXBlue: MSHTA](https://dmcxblue.gitbook.io/red-team-notes/execution/mshta)
 
 ### Sevagas
 

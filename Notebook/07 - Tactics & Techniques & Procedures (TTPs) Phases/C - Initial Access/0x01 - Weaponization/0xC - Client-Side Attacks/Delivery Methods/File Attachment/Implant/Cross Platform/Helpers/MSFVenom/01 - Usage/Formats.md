@@ -63,6 +63,7 @@ Framework Transform Formats [--format <value>]
     nim
     nimlang
     num
+    octal
     perl
     pl
     powershell
@@ -77,4 +78,5 @@ Framework Transform Formats [--format <value>]
     sh
     vbapplication
     vbscript
+    zig
 ```

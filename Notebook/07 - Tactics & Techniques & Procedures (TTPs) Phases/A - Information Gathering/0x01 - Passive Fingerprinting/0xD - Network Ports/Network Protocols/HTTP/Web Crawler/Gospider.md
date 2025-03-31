@@ -70,7 +70,7 @@ $ gospider -S urls.txt -c 10 -d 5 --subs --blacklist ".(jpg|jpeg|gif|css|tif|tif
 ### 4.1 - Filter endpoints
 
 ```
-$ cat output/* | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | urless | sort -u
+$ cat output/* | grep -Po "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?(?:\?|\&)(?<key>[\w]+)(?:\=|\&?)(?<value>[\w+,.-]*)" | urless | sort -uo endpoints.txt
 ```
 
 ---

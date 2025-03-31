@@ -1,8 +1,5 @@
 # Encyclopedia Scraper
 
-> [!NOTE]
-> This only works for wikipedia. Improvements and suggestions are highly encouraged.
-
 ```bash
 #!/bin/bash
 
@@ -22,10 +19,10 @@ function process_url() {
     grep -Eo "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?" "${directory_destination}raw.html" | awk -F "/" '{print $3}' | sort -u >> "${directory_destination}raw_urls.txt"
 
     # Sort the URLs
-    sort -u "${directory_destination}raw_urls.txt" > "${directory_destination}unique_urls.txt"
+    sort -u "${directory_destination}raw_urls.txt" -o "${directory_destination}unique_urls.txt"
 
     # Download content of extracted URLs
-    wget -i "${directory_destination}unique_urls.txt" -qO- | grep -Eo "https?://[^/]+" | grep -Eo "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?" | sort -u > "${directory_destination}urls.txt"
+    wget -i "${directory_destination}unique_urls.txt" -qO- | grep -Eo "https?://[^/]+" | grep -Eo "https?://[a-zA-Z0-9./?=_-]*(:[[:digit:]]+)?" | sort -uo "${directory_destination}urls.txt"
 
     # Clean up
     rm "${directory_destination}raw.html"
@@ -88,55 +85,4 @@ $ ./encyclopedia-scraper.sh https://en.wikipedia.com/ Results_Directory
 
 Here are the list of targets for the scraper. Just copy the URL and paste it in the bash script.
 
-```
-List of companies of <country_name>
-List of multinational companies with research and development centres in <country_name>
-List of <country_name> companies listed on the Nasdaq
-Companies of <country_name> by industry
-
-Power Grids
-Oil and Gas Pipelines
-Space and aerospace exploration and research
-
-Law enforcement
-Government records and communications agencies
-Government auditing and internal affairs
-List of <country_name> defense contractors
-
-List of lighthouses in <country_name>
-List of airlines of <country_name>
-List of airports in <country_name>
-List of casinos in the <country_name>
-
-Logistics companies of the <country_name>
-Shipping companies of <country_name>
-List of automobile manufacturers of <country_name>
-
-Transport companies of <country_name>
-Bus companies of <country_name>
-List of cargo airlines
-
-List of fast food restaurant in <country_name>
-List of restaurant chains in <country_name>
-
-List of internet service providers in <country_name>
-List of <country_name> telephone companies
-Telecommunications in <country_name>
-VPS Providers
-Web Hosting Providers
-Data Centers
-
-Computer companies of <country_name>
-List of computer system manufacturers
-List of computer hardware manufacturers
-<country_name> computer hardware manufacturers
-
-Foreign exchange companies
-
-Mining in <country_name>
-Mines in <country_name>
-
-Personnel management
-
-Environmental policy
-```
+![[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Manual#^ec8b00]]

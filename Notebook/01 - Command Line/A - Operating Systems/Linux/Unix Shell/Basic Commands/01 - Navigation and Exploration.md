@@ -95,7 +95,7 @@ Find files that have been modified with the last 2 hours (120 minutes).
 $ find /usr/bin -type f -mmin -120
 ```
 
-# Change Directories
+# 1.3 - Change Directories
 
 Specify path to change directory.
 

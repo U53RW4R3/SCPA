@@ -3,7 +3,6 @@
 * Boot Attacks
     1. [chntpw](https://pogostick.net/~pnh/ntpasswd/)
     2. [cmospwd](http://www.cgsecurity.org/wiki/CmosPwd)
-    3. [Ophcrack](http://ophcrack.sourceforge.net)
     
 * Offline Attacks
     1. [fcrackzip](http://oldhome.schmorp.de/marc/fcrackzip.html)
@@ -18,18 +17,17 @@
     9. [stegbrute](https://r4yan.cf/stegbrute/) && [Github Repo](https://github.com/R4yGM/stegbrute)
 
 * Online Attacks
-    1. [Mass Bruter](https://github.com/opabravo/mass-bruter)
-    2. [BruteSpray](https://github.com/x90skysn3k/brutespray)
-    3. [Changeme](https://github.com/ztgrace/changeme)
-    4. [THC-Hydra](https://github.com/vanhauser-thc/thc-hydra)
-    5. [Medusa](http://www.foofus.net/jmk/medusa/medusa.html)
-    6. [Ncrack](https://nmap.org/ncrack/)
-    7. [onesixtyone](http://labs.portcullis.co.uk/application/onesixtyone/)
-    8. [Patator](https://github.com/lanjelot/patator)
-    9. [THC-PPTP-Bruter](http://www.thc.org)
-    10. [Crowbar](https://github.com/galkan/crowbar)
-    11. [CloudBrute](https://github.com/0xsha/CloudBrute)
-    12. [TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
+    1. [THC-Hydra](https://github.com/vanhauser-thc/thc-hydra)
+    2. [Medusa](http://www.foofus.net/jmk/medusa/medusa.html)
+    3. [Mass Bruter](https://github.com/opabravo/mass-bruter)
+    4. [BruteSpray](https://github.com/x90skysn3k/brutespray)
+    5. [Changeme](https://github.com/ztgrace/changeme)
+    6. [onesixtyone](http://labs.portcullis.co.uk/application/onesixtyone/)
+    7. [Patator](https://github.com/lanjelot/patator)
+    8. [THC-PPTP-Bruter](http://www.thc.org)
+    9. [Crowbar](https://github.com/galkan/crowbar)
+    10. [CloudBrute](https://github.com/0xsha/CloudBrute)
+    11. [TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
 
 * Password Profiling & Wordlists
     1. [Cewl](http://www.digininja.org/projects/cewl.php)

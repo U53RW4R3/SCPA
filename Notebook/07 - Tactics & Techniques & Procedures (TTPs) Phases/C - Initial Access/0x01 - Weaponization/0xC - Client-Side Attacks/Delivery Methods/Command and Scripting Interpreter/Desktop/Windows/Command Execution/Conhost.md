@@ -13,7 +13,7 @@ tags:
 ## 01 - Common Files
 
 ```
-C:\Windows\system32\conhost.exe
+C:\Windows\System32\conhost.exe
 C:\Windows\SysWOW64\conhost.exe
 ```
 

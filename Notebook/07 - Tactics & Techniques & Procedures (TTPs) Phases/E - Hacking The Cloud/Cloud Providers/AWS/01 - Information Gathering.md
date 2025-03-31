@@ -11,7 +11,7 @@ $ sudo apt install -y awscli
 ```
 $ httpx -l urls.txt -mr 'AmazonS3' -o live-aws-s3-buckets.txt
 
-$ awk -F "/" '{print "s3://"$3}' live-aws-s3-buckets.txt | sort -u > s3-buckets.txt
+$ awk -F "/" '{print "s3://"$3}' live-aws-s3-buckets.txt | sort -uo s3-buckets.txt
 ```
 
 ## Nuclei Scanner

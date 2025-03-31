@@ -36,3 +36,10 @@ $ reset
 ```
 
 ^153cb6
+
+---
+## References
+
+### Microsoft
+
+- [Microsoft: ComputerName](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-computername)

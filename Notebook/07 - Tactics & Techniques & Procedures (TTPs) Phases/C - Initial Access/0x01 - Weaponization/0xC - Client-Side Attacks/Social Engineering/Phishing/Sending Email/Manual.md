@@ -19,16 +19,24 @@ $ swaks --auth-user <email> --auth-password <password> --server <smtp_server_IP>
 ### 1.2 - Usage
 
 ```
-$ swaks --to itdept@victim.com --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server 192.168.8.131
+$ swaks -t itdept@victim.com --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server 192.168.8.131
 ```
 
 Perform a mass mail attack.
 
-```
-$ while read -r email
+```bash
+#!/bin/bash
+while read -r email
 do
-	swaks --to $email --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server 192.168.8.131
-done < emails.txt
+	swaks -t "${email}" --from techsupport@bestcomputers.com --header "Subject: test" --body "Please click the link <attacker_URL>" --server "${2}"
+	[[ ${?} -ne 0 ]] && echo "${email}"
+done < ${1}
+```
+
+The syntax as it follows.
+
+```
+$ ./mass_mail.sh emails.txt 192.168.8.131
 ```
 
 ## 02 - SendEmail

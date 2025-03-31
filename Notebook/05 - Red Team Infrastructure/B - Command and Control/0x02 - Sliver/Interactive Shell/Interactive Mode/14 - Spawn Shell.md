@@ -26,9 +26,9 @@ Flags:
 #### 14.2.1 - Windows
 
 ```
-sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\system32\\cmd.exe"
+sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\System32\\cmd.exe"
 
-sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\system32\\WindowsPowershell\\v1.0\\powershell.exe"
+sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell.exe"
 
 sliver (IMPLANT_NAME) > shell -s "C:\\Windows\\SysWOW64\\WindowsPowershell\\v1.0\\powershell.exe"
 ```
