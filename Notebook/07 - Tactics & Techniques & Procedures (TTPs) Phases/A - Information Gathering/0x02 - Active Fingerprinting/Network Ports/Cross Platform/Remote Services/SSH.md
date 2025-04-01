@@ -54,7 +54,7 @@ msf auxiliary(scanner/ssh/ssh_version) > run
 
 ## 02 - SSH Authentication Methods
 
-Check what SSH authentication methods are available. If it has a `password` authentication method is enabled then start [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Network Protocols/Remote Services/SSH|brute forcing]].
+Check what SSH authentication methods are available. If it has a `password` authentication method is enabled then start [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Ports/Remote Services/TODO Sort it/SSH|brute forcing]].
 
 ```
 $ nmap -p 22 --script ssh-auth-methods --script-args="ssh.user=<username>" <IP>

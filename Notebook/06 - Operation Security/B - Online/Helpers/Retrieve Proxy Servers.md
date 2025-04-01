@@ -108,7 +108,7 @@ $ nmap -p 1080 -Pn -n -sS --max-retries 1 --min-parallelism 700 --open -T4 --scr
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Ports/Cross Platform/Network Tunneling/SOCKS]]
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Network Protocols/Remote Services/SOCKS|Password Cracking: SOCKS]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Ports/Remote Services/SOCKS|Password Cracking: SOCKS]]
 
 ### Hunt for Open Proxies
 
