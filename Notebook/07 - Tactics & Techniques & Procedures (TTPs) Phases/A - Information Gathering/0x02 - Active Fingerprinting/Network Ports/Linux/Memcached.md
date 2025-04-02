@@ -104,7 +104,7 @@ $ memccat --server=<IP> [--username=<password> --password=<password>] <key_name_
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Ports/Remote Services/Memcached|Vulnerability Assessment: Memcached]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/03 - Network Ports/Remote Services/Memcached|Vulnerability Assessment: Memcached]]
 
 ### Hacktricks
 

@@ -122,7 +122,7 @@ ftp> <exit | quit | bye>
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Ports/File Server/FTP]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/03 - Network Ports/File Server/FTP]]
 
 ### Hacktricks
 

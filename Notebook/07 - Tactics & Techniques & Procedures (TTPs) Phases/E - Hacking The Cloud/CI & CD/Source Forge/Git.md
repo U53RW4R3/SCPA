@@ -20,9 +20,9 @@ https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules
 ---
 ## References
 
-### Red Team Recipe
+### Red Team Guides
 
-- [RedTeamRecipe: 25 Methods for Pipeline Attacks](https://blog.redteamguides.com/25-methods-for-pipeline-attacksrtc0011)
+- [Red Team Guides: 25 Methods for Pipeline Attacks](https://blog.redteamguides.com/25-methods-for-pipeline-attacksrtc0011)
 
 ### OPSEC
 

@@ -68,7 +68,7 @@ $ openssl s_client -showcerts -starttls imap -connect <IP>:139
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Ports/Mail Server/IMAP]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/03 - Network Ports/Mail Server/IMAP]]
 
 ### Hacktricks
 

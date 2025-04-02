@@ -87,7 +87,7 @@ $ ssh-audit <IP>
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Ports/Remote Services/SSH|Vulnerability Assessment: SSH]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/03 - Network Ports/Remote Services/SSH|Vulnerability Assessment: SSH]]
 
 ### Github
 

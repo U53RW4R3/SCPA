@@ -55,4 +55,4 @@ $ mpv rtsp://[<username>:<password>@]<IP>[:<PORT>]
 ---
 ## References
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/04 - Vulnerable Network Ports/RTSP|Vulnerability Assessment: RTSP]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/03 - Network Ports/RTSP|Vulnerability Assessment: RTSP]]
