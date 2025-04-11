@@ -4,7 +4,9 @@ TODO: Fill this info
 
 ## 01 - Banner Grab
 
-### 1.1 - Redis CLI
+### 1.1 - Manual
+
+#### 1.1.1 - Redis CLI
 
 ```
 $ sudo apt install -y redis-tools
@@ -12,15 +14,19 @@ $ sudo apt install -y redis-tools
 $ redis-cli -h <IP>
 ```
 
-### 1.2 - Netcat
+#### 1.1.2 - Netcat
 
 ```
 $ nc -vn <IP> 6379
 ```
 
+### 1.2 - Network Mapper
+
 ```
 $ nmap -p 6379 -Pn -n -sV --script 6379 <IP>
 ```
+
+### 1.3 - Metasploit
 
 ```
 msf > use auxiliary/scanner/redis/redis_server

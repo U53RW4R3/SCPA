@@ -101,9 +101,10 @@ NTLM supported
 334 TlRMTVNTUAACAAAACgAKADgAAAAFgooCBqqVKFrKPCMAAAAAAAAAAEgASABCAAAABgOAJQAAAA9JAEkAUwAwADEAAgAKAEkASQBTADAAMQABAAoASQBJAFMAMAAxAAQACgBJAEkAUwAwADEAAwAKAEkASQBTADAAMQAHAAgAHwMI0VPy1QEAAAAA
 ```
 
-## 04 - Username Bruteforce Enumeration
+## 04 - Username Brute Force Enumeration
 
-Note: Authenticating with SMTP protocols is not often required
+> [!NOTE]
+> Authenticating with SMTP protocols often not required.
 
 ### 4.1 - Manual Enumeration
 

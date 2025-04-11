@@ -51,6 +51,14 @@ msf auxiliary(scanner/sip/enumerator) > set rhosts <IP>/<CIDR>
 msf auxiliary(scanner/sip/enumerator) > run
 ```
 
+```
+auxiliary/scanner/sip/enumerator_tcp
+```
+
+```
+auxiliary/scanner/sip/sipdroid_ext_enum
+```
+
 ---
 ## References
 

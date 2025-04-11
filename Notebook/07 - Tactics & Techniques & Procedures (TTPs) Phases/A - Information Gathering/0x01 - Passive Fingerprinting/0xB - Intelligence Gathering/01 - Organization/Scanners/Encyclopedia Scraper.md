@@ -85,4 +85,4 @@ $ ./encyclopedia-scraper.sh https://en.wikipedia.com/ Results_Directory
 
 Here are the list of targets for the scraper. Just copy the URL and paste it in the bash script.
 
-![[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Manual#^ec8b00]]
+![[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization/Manual#^ec8b00]]

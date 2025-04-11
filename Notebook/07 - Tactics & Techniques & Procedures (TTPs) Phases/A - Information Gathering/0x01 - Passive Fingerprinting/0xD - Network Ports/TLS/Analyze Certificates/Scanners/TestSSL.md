@@ -128,15 +128,13 @@ Options requiring a value can also be called with '=' e.g. testssl.sh -t=smtp --
 ## 02 - Usage
 
 ```
-$ testssl <URL>
+$ testssl <IP> -oL output.txt <<< yes
 ```
 
 Scan multiple IP addresses
 
 ```
-$ testssl -iL ip_targets.txt
-
-$ testssl -U <URL>
+$ testssl -iL ip_targets.txt -oL output.txt <<< yes
 ```
 
 ---

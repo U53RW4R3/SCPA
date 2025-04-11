@@ -1,4 +1,4 @@
-# DotNET Execution
+# DotNET
 
 ## MSBuild
 

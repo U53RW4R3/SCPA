@@ -66,6 +66,8 @@ msf > use auxiliary/scanner/printer/printer_list_volumes
 msf > use auxiliary/scanner/printer/printer_version_info
 ```
 
+TODO: Re-arrange them to **File Transfer and Data Exfiltration** section
+
 ```
 @PJL FSDOWNLOAD       #Useful to download a file
 

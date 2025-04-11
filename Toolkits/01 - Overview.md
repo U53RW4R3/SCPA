@@ -23,23 +23,26 @@
     8. [Railsgoat](https://github.com/OWASP/railsgoat)
     9. [DVWS (Damn Vulnerable Web Sockets)](https://github.com/interference-security/DVWS)
     10. [WebGoat](https://github.com/WebGoat/WebGoat)
-    11. [IoTGoat](https://github.com/OWASP/IoTGoat)
-    12. [XVWA (Xtreme Vulnerable Web Application)](https://github.com/s4n7h0/xvwa)
-    13. [Damn Vulnerable Web Services](https://github.com/snoopysecurity/dvws-node)
-    14. [Vulnerawa](https://github.com/hackercoolmagz/Vulnerawa)
-    15. [WampServer](https://sourceforge.net/projects/wampserver/)
-    16. [OWASP Broken Web Applications Project](https://sourceforge.net/projects/owaspbwa/)
-    17. [DVFU (Damn Vulnerable File Upload)](https://github.com/LunaM00n/File-Upload-Lab)
-    18. [JavaVulnerableLab](https://github.com/CSPF-Founder/JavaVulnerableLab)
-    19 Pentester Lab
+    11. [XVWA (Xtreme Vulnerable Web Application)](https://github.com/s4n7h0/xvwa)
+    12. [Damn Vulnerable Web Services](https://github.com/snoopysecurity/dvws-node)
+    13. [Vulnerawa](https://github.com/hackercoolmagz/Vulnerawa)
+    14. [WampServer](https://sourceforge.net/projects/wampserver/)
+    15. [OWASP Broken Web Applications Project](https://sourceforge.net/projects/owaspbwa/)
+    16. [DVFU (Damn Vulnerable File Upload)](https://github.com/LunaM00n/File-Upload-Lab)
+    17. [JavaVulnerableLab](https://github.com/CSPF-Founder/JavaVulnerableLab)
+    18. Pentester Lab
         1. [Web for Pentester](https://pentesterlab.com/exercises/web_for_pentester)
         2. [From SQL Injection to Shell: PostgreSQL edition](https://pentesterlab.com/exercises/from_sqli_to_shell_pg_edition/attachments)
         3. [Web for Pentester II](https://pentesterlab.com/exercises/web-for-pentester-II)
-    20. Docker Images
+    19. Docker Images
         1. [VulnerableWordpress](https://github.com/wpscanteam/VulnerableWordpress)
         2. [Pentest_lab](https://github.com/oliverwiegers/pentest_lab)
         3. [Pentestlab](https://github.com/eystsen/pentestlab)
 
+* IoT Lab
+    1. [IoTGoat](https://github.com/OWASP/IoTGoat)
+    2. [Damn Vulnerable ARM Router (DVAR)](https://www.vulnhub.com/entry/damn-vulnerable-arm-router-dvar-tinysploitarm,224/)
+        
 * Host Machine
     1. [Vulnerable Machine](https://bobloblaw321.wixsite.com/website/post/the-making-of-a-vulnerable-machine-blob-blog)
     2. [Windows VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
@@ -55,6 +58,9 @@
     1. [AD-lab (Active Directory Lab)](https://github.com/alebov/AD-lab)
     2. [vulnerable-AD](https://github.com/WazeHell/vulnerable-AD)
 
+* Containers
+    1. [Vulnerable Docker VM](https://notsosecure.com/vulnerable-docker-vm)
+    
 * Memory Forensics
     1. [MemLabs](https://github.com/stuxnet999/MemLabs)
 

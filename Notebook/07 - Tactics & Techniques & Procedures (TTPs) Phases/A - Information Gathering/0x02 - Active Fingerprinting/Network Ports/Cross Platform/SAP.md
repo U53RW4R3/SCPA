@@ -141,7 +141,7 @@ msf > use auxiliary/scanner/sap/sap_mgmt_con_getprocesslist
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xD - Network Ports/Network Protocols/SAP]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xD - Network Ports/SAP]]
 
 ### Hacktricks
 

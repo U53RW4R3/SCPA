@@ -107,7 +107,7 @@ $ source ~/environments/sublist3r2/bin/activate
 $ sublist3r2 -d website.com -b -t 64 -o subdomains.txt
 ```
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Scanners/theHarvester|theHarvester]]
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization/Scanners/theHarvester|theHarvester]]
 
 ```
 $ theHarvester -n -c -l 1000 -d <domain.tld | organization_name> -b bufferoverun,certspotter,crtsh,dnsdumpster,hackertarget

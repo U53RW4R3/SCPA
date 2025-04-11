@@ -1,5 +1,7 @@
 # Metasploit
 
+## Lookup Name
+
 ```
 msf > use auxiliary/gather/corpwatch_lookup_name
 
@@ -19,4 +21,12 @@ msf auxiliary(gather/corpwatch_lookup_name) > set company_name <organization_nam
 msf auxiliary(gather/corpwatch_lookup_name) > set limit <int>
 
 msf auxiliary(gather/corpwatch_lookup_name) > run
+```
+
+## Lookup ID
+
+```
+msf > use auxiliary/gather/corpwatch_lookup_id
+
+msf auxiliary(gather/corpwatch_lookup_id) > options
 ```

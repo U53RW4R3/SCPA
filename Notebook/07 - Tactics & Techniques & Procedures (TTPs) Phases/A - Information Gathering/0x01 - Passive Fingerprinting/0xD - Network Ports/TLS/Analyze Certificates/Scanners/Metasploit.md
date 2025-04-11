@@ -73,28 +73,3 @@ msf auxiliary(scanner/ssl/ssl_version) > set rhosts <target_IP>
 
 msf auxiliary(scanner/ssl/ssl_version) > run
 ```
-
-## 03 - SSL Vulnerabilities
-
-```
-msf > use auxiliary/gather/ssllabs_scan
-
-msf auxiliary(gather/ssllabs_scan) > options 
-
-Module options (auxiliary/gather/ssllabs_scan):
-
-   Name            Current Setting  Required  Description
-   ----            ---------------  --------  -----------
-   DELAY           5                yes       The delay in seconds between  API requests
-   GRADE           false            yes       Output only the hostname: grade
-   HOSTNAME                         yes       The target hostname
-   IGNOREMISMATCH  true             yes       Proceed with assessments even when the server certificate doesn't match the assessment hostname
-   USECACHE        true             yes       Use cached results (if available), else force live scan
-
-
-View the full module info with the info, or info -d command.
-
-msf auxiliary(gather/ssllabs_scan) > set hostname <website.com>
-
-msf auxiliary(gather/ssllabs_scan) > run
-```

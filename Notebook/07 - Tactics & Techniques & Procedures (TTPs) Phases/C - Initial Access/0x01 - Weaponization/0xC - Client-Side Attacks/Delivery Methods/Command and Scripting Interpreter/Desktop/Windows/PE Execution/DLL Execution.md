@@ -196,7 +196,7 @@ C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\implant.dll
 
 - [[DLL Injection]]
 
-- [[DotNET Execution]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/DotNET]]
 
 - [[HTA]]
 

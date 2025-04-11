@@ -106,7 +106,7 @@ $ CloudRecon scrape -i ip_range.txt | tee tls-dns-certificate-output.txt
 [sn0int][default][kpcyrd/tls-san-scan] > run
 ```
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xD - Network Ports/Network Protocols/TLS/Analyze Certificates/Scanners/SSLScan|SSLScan]]
+## [[SSLScan|SSLScan]]
 
 ```
 $ sslscan --show-certificate <URL> | tee tls-dns-certificate-output.txt
@@ -114,7 +114,7 @@ $ sslscan --show-certificate <URL> | tee tls-dns-certificate-output.txt
 $ grep "Altnames:" tls-dns-certificate-output.txt | grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z0-9-]{2,})+' | sort -u > subdomains-output.txt
 ```
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xD - Network Ports/Network Protocols/TLS/Analyze Certificates/Scanners/SSLyze|SSLyze]]
+## [[SSLyze|SSLyze]]
 
 ```
 $ sslyze --certinfo <IP> | tee tls-dns-certificate-output.txt
@@ -125,12 +125,12 @@ $ grep "SubjAltName - DNS Names" tls-dns-certificate-output.txt | grep -oP '(?!-
 ## [[TestSSL|TestSSL]]
 
 ```
-$ testssl --quiet -S -iL ip_targets.txt -oL tls-dns-certificate-output.txt
+$ testssl --quiet -S -iL ip_targets.txt -oL tls-dns-certificate-output.txt <<< yes
 
 $ grep -oP '(?!-)[A-Za-z0-9-]{1,63}(?<!-)(\.[A-Za-z0-9-]{2,})+' tls-dns-certificate-output.txt | sort -u > subdomains-output.txt
 ```
 
-### [[TLSx|TLSx]]
+## [[TLSx|TLSx]]
 
 ```
 $ tlsx -l ip_targets.txt -san -o tls-dns-certificates.txt

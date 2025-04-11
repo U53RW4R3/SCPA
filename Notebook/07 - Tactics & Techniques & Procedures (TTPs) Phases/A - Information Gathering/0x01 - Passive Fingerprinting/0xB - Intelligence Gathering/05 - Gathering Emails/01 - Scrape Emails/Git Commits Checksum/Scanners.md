@@ -1,6 +1,6 @@
 # Scanners
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Scanners/theHarvester|theHarvester]]
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization/Scanners/theHarvester|theHarvester]]
 
 ```
 $ theHarvester -l 1500 -d <domain.com | organization_name> -b github-code -f output.json

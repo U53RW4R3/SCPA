@@ -40,7 +40,7 @@ version
 $ sudo nmap -p 11211 -Pn -n -sV <IP>
 ```
 
-## 03 - Enumerate incoming connections
+## 03 - Enumerate Incoming Connections
 
 ```
 $ nmap -p 11211 -Pn -n --script memcached-info <IP>

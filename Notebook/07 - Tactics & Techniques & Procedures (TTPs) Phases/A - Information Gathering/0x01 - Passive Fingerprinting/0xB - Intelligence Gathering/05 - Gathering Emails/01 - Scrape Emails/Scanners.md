@@ -1,6 +1,6 @@
 # Scanners
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Scanners/theHarvester|theHarvester]]
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization/Scanners/theHarvester|theHarvester]]
 
 ```
 $ theHarvester -l 1500 -d <domain.com | organization_name> -b brave,baidu,bing,duckduckgo,yahoo,linkedin -f output.json
@@ -80,7 +80,7 @@ msf auxiliary(gather/search_email_collector) > set outfile /path/to/file.txt
 msf auxiliary(gather/search_email_collector) > run
 ```
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Scanners/Phonebook|Phonebook]]
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization/Scanners/Phonebook|Phonebook]]
 
 ```
 $ phonebook -e <domain>.<tld> -o emails.txt

@@ -2,7 +2,7 @@
 
 TODO: Fill this info for it's usage
 
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization Information Gathering/Scanners/theHarvester|theHarvester]]
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization/Scanners/theHarvester|theHarvester]]
 
 ```
 $ theHarvester -l 1000 -d <domain.tld | organization_name> -b hunter
