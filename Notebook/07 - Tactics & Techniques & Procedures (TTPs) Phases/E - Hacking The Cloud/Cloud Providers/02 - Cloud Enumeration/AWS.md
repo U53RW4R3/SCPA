@@ -1,4 +1,4 @@
-# Cloud Enumeration
+# AWS
 
 TODO: Provide steps for enumeration to escalate for initial foothold with the permissions
 
@@ -8,10 +8,9 @@ TODO: Provide steps for enumeration to escalate for initial foothold with the pe
 - Write ACP - Write Access Control Policies to bucket
 - Full Control - All above permissions
 
-`$ aws s3 --no-sign-request --recursive ls s3://<s3_bucket_IP>`
-
-`$ aws s3 --no-sign-request --recursive ls s3://<s3_bucket_IP>`
-
+```
+$ aws s3 --no-sign-request --recursive ls s3://<s3_bucket_IP>
+```
 
 ```
 $ aws s3api get-bucket-acl --bucket <s3_bucket_IP>

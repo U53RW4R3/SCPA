@@ -144,7 +144,7 @@ $ sudo mkdir /mnt/smb
 
 $ sudo mount -t cifs //<IP>/<share_name> /mnt/smb
 
-$ sudo mount -t cifs -o "[port=<PORT>] username=<username>,password=<password>" //<IP>/<share_name> /mnt/smb
+$ sudo mount -t cifs -o "[port=<PORT>] username=<username>,password=<password>,rw" //<IP>/<share_name> /mnt/smb
 ```
 
 When authenticating a samba unix server.

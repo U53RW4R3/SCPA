@@ -289,4 +289,6 @@ The _**Plaintext (P)**_ is 5 decimal base 10.
 ---
 ## References
 
+### Wikipedia
+
 - [Wikipedia: XOR Cipher](https://en.wikipedia.org/wiki/XOR_cipher)

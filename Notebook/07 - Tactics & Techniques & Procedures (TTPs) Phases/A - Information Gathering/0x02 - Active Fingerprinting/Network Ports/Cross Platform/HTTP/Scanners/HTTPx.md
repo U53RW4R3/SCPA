@@ -219,16 +219,6 @@ Outlook
 $ httpx -silent -l urls.txt -s -sd -location | awk '/owa/ {print substr($1,9) }' > outlook-web-application-output.txt
 ```
 
-### Cloud Providers
-
-Amazon S3 buckets
-
-```
-$ httpx -l urls.txt -mr 'AmazonS3' -o live-aws-s3-buckets.txt
-
-$ httpx -l urls.txt -server -mr 'AmazonS3|Google Cloud|Azure Cloud|Terraform' -o live-cloud-urls.txt
-```
-
 ### Gather Endpoints
 
 ```

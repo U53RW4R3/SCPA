@@ -45,8 +45,14 @@ print "Decrypted text: " + decrypt
 ---
 ## References
 
+### Codementor
+
 - [Codementor: Deciphering Single-byte XOR Ciphertext](https://www.codementor.io/@arpitbhayani/deciphering-single-byte-xor-ciphertext-17mtwlzh30)
 
+### GeeksForGeeks
+
 - [GeeksForGeeks: XOR Encryption by Shifting Plaintext](https://www.geeksforgeeks.org/xor-encryption-shifting-plaintext/)
+
+### Adeolu Olabode Afolabi
 
 - [Adeolu Olabode Afolabi: Improve Data Security Using Modified XOR Encryption Algorithm](https://www.researchgate.net/publication/270588628_AN_APPROACH_TO_IMPROVE_DATA_SECURITY_USING_MODIFIED_XOR_ENCRYPTION_ALGORITHM)

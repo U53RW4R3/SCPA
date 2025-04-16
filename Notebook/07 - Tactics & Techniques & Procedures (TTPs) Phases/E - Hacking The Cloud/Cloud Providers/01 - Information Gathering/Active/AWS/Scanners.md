@@ -1,23 +1,33 @@
-# Information Gathering
+# Scanners
 
-- Install the native AWS tool to perform enumeration later on.
+Install the native AWS tool to perform enumeration later on.
 
 ```
 $ sudo apt install -y awscli
 ```
 
-- Use `httpx` to detect the AWS S3 technologies with `-server` to find it
+## `httpx`
 
 ```
-$ httpx -l urls.txt -mr 'AmazonS3' -o live-aws-s3-buckets.txt
+$ httpx -silent -l urls.txt -p https:443 -server -mr 'AmazonS3' -o live-s3-buckets.txt
 
-$ awk -F "/" '{print "s3://"$3}' live-aws-s3-buckets.txt | sort -uo s3-buckets.txt
+$ awk -F "/" '{print "s3://"$3}' live-s3-buckets.txt | sort -uo s3-buckets-output.txt
 ```
 
-## Nuclei Scanner
+## Nuclei
+
+Use `nuclei` to detect the AWS S3 technologies with a nuclei template.
 
 ```
-$ nuclei -l live-aws-s3-buckets.txt -t ~/nuclei-templates -id aws-bucket-takeover -o accessible-aws-s3-buckets-output.txt
+$ nuclei -l urls.txt -t ~/nuclei-templates -id s3-detect -o s3-buckets-output.txt
+```
+
+Scan for S3 buckets takeover.
+
+```
+$ nuclei -l live-aws-s3-buckets.txt -t ~/nuclei-templates -id aws-bucket-takeover -o accessible-s3-buckets-output.txt
+
+$ httpx -silent -l urls.txt -mr 'AmazonS3' | nuclei -t ~/nuclei-templates -id aws-bucket-takeover -o accessible-s3-buckets-output.txt
 ```
 
 ## Automation Script
@@ -72,12 +82,14 @@ $ ./sweep-s3-buckets.sh s3-buckets.txt
 ---
 ## References
 
-https://buckets.grayhatwarfare.com/
+### Source Repositories
 
-https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/
+- [nahamsec: lazys3](https://github.com/nahamsec/lazys3)
 
-https://github.com/nahamsec/lazys3
+- [sa7mon: S3Scanner](https://github.com/sa7mon/S3Scanner)
 
-https://github.com/sa7mon/S3Scanner
+- [jordanpotti: cloudscraper](https://github.com/jordanpotti/cloudscraper)
 
-https://github.com/jordanpotti/cloudscraper (huge TODO)
+### HackingTheCloud
+
+- [HackingTheCloud](https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/)

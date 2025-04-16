@@ -9,7 +9,7 @@
 * Overview
     1. [Metasploitable3](https://github.com/rapid7/metasploitable3)
     2. [Metasploitable2](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/) && [Setting Up Metasploitable2](https://docs.rapid7.com/metasploit/metasploitable-2)
-    3. [LAMPSecurity Training ](https://sourceforge.net/projects/lampsecurity/)
+    3. [LAMPSecurity Training](https://sourceforge.net/projects/lampsecurity/)
     4. [Web Security Dojo](https://www.mavensecurity.com/resources/web-security-dojo) && [WebSecurityDojo ISO](https://sourceforge.net/projects/websecuritydojo/) && [Presentation](https://owasp.org/www-pdf-archive/Slides-WebSecurityDojo.pdf)
 
 * Webapp Lab
@@ -42,7 +42,10 @@
 * IoT Lab
     1. [IoTGoat](https://github.com/OWASP/IoTGoat)
     2. [Damn Vulnerable ARM Router (DVAR)](https://www.vulnhub.com/entry/damn-vulnerable-arm-router-dvar-tinysploitarm,224/)
-        
+
+* Cloud
+    1. [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat)
+
 * Host Machine
     1. [Vulnerable Machine](https://bobloblaw321.wixsite.com/website/post/the-making-of-a-vulnerable-machine-blob-blog)
     2. [Windows VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)

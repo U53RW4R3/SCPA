@@ -1,5 +1,13 @@
 # README
 
+## `httpx`
+
+```
+$ httpx -silent -l urls.txt -p https:443 -server -mr 'Azure Cloud' -o live-azure.txt
+
+$ awk -F "/" '{print "s3://"$3}' live-azure.txt | sort -uo azure-output.txt
+```
+
 ```
 auxiliary/scanner/http/azure_ad_login
 ```
@@ -45,4 +53,13 @@ Get-MsolRole
 Get-MsolRole | ForEach { "`n`n" ; "-" * 30 ; $_.Name ; "-" * 30 ; Get-MsolRoleMember -RoleObjectId $_.ObjectId | ForEach { $_.DisplayName } }
 ```
 
-https://securitycafe.ro/2022/04/29/pentesting-azure-recon-techniques/
+---
+## References
+
+### HackingTheCloud
+
+- [HackingTheCloud](https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/)
+
+### Security Cafe
+
+- [Security Cafe: Pentesting Azure - RECON Techniques](https://securitycafe.ro/2022/04/29/pentesting-azure-recon-techniques/)

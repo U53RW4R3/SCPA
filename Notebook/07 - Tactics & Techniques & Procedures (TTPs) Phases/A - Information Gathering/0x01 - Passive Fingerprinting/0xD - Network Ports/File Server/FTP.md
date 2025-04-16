@@ -22,6 +22,18 @@ port:21 230 Any password will work
 port:21 User logged in product:"Microsoft ftpd"
 ```
 
+Github
+
+```
+/ftp:\/\/.*:.*@.*domain\.tld/
+ftp_host=
+FTP_LOGIN=
+FTP_PASSWORD=
+FTP_PW=
+FTP_USER=
+ftp_username=
+```
+
 ## Default Passwords
 
 Shodan
