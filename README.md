@@ -13,9 +13,13 @@
 
 The **SCPA (Sophicated Cyber Penetration Attacks)** is for hackers wanting a straight guidance with many sections involves in offensive operations. It outlines in a systematic approach, because there are so many resources that are being broadcast on the internet. I've compiled it together which contains sources have been re-applied providing use cases and scenarios in many ways.
 
-## `> whoami && cat about_SCPA_project.txt`
+## `> whoarewe && cat about_SCPA_project.txt`
 
-I'm Userware and I've started this project due to my experience that contains tactics, techniques and procedures (TTP) and I've collected a lot of information just to summarize it all in one. I find it a waste that nobody would go through this effort especially for beginners who are still starting out. This knowledge will serve you well in your journey.
+Sebastian Dante Alexander: I'm Sebastian
+
+Userware: and I'm Userware
+
+We've started this project due to our experiences that contains tactics, techniques and procedures (TTP) and we've collected a lot of information just to summarize it all in one. We find it a waste that nobody would go through this effort especially for beginners who barely started. This knowledge will serve you well in your journey.
 
 ## Download digital notebook
 
