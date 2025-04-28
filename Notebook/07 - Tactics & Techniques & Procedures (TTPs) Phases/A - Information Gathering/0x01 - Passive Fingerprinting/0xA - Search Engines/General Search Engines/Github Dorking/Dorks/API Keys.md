@@ -3,8 +3,6 @@
 ```
 "access_key"
 "access_token"
-
-
 "api_key"
 "API_KEY"
 "API_KEY_IP"
@@ -15,6 +13,7 @@
 "apidocs"
 "apikey"
 "apiSecret"
+
 "app_key"
 "app_secret"
 "appkey"

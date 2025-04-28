@@ -71,7 +71,7 @@ $ GOOS=windows GOARCH=amd64 go build -ldflags="-s -w " -trimpath -o fscan.exe ma
 ## 02 - Help Menu
 
 ```
-$ fscan
+> fscan
 
    ___                              _    
   / _ \     ___  ___ _ __ __ _  ___| | __ 
@@ -186,10 +186,16 @@ Usage of fscan:
 TODO: Fill in the info
 
 ```
-$ fscan -h <IP>
+> fscan -h <IP>
+```
+
+```
+> fscan -h <IP> -br 4
 ```
 
 ---
 ## References
+
+### Source Repositories
 
 - [FScan](https://github.com/shadow1ng/fscan)

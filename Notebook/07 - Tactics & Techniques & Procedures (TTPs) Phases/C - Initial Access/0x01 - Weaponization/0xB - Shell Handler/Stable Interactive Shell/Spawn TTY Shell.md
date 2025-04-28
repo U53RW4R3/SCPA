@@ -138,7 +138,7 @@ $ exec script -q /dev/null /bin/bash
 ## 04 - Windows
 
 > [!NOTE]
-> Refer to fully interactive [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Command Execution/PowerShell#^56e959|PowerShell]].
+> Refer to fully interactive [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/PowerShell#^56e959|PowerShell]].
 
 ### 4.1 - Method One
 

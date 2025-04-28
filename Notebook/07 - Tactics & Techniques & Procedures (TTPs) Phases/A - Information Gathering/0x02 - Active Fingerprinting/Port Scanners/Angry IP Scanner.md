@@ -56,34 +56,9 @@ Clone the repository then compile the source into an executable `.jar` file.
 C:\> git clone https://github.com/angryip/ipscan.git && .\gradle win64
 ```
 
-## 02 - Help Menu
+## 02 - Usage
 
-```
-$ ipscan -h        
-Pass the following arguments:
-[options] <feeder> <exporter>
-
-Where <feeder> is one of:
--f:range <Start IP> <End IP>
--f:random <Base IP> <IP Mask> <Count>
--f:file <File>
-
-<exporter> is one of:
--o filename.txt         Text file (txt)
--o filename.csv         Comma-separated file (csv)
--o filename.xml         XML file (xml)
--o filename.lst         IP:Port list (lst)
--o filename.sql         SQL file (sql)
-
-And possible [options] are (grouping allowed):
--s      start scanning automatically
--q      quit after exporting the results
--a      append to the file, do not overwrite
-```
-
-## 03 - Usage
-
-> [!NOTE]
+> [!INFO]
 > Angry IP Scanner will probe SMB ports then label them as file servers.
 
 Scan IP range.
@@ -101,6 +76,10 @@ $ ipscan -sq -f:file ip_targets.txt -o live-hosts-output.txt
 ---
 ## References
 
+### Source Repositories
+
 - [Angry IP Scanner](https://angryip.org/)
+
+### Aldeid
 
 - [Aldeid: Angry IP Scanner](https://www.aldeid.com/wiki/Angry-IPScan)

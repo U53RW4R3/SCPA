@@ -18,7 +18,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 - [ ] Scrape metadata from images and documents. Refer to this [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x04 - Forensics/Checklist|checklist]] to narrow down your search results.
 	- [[Exiftool]]
 	- [[exifLooter]]
-	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Network Mapper|Network Mapper]]
+	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Network Scanners/Network Mapper|Network Mapper]]
 - [ ] Look for job requirements of what technology that the target(s) using that can be weaponized.
 
 ## Active Client Information Gathering
@@ -63,16 +63,16 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 - [ ] Macroless
 	- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]]
 	- [[Excel]]
-- [ ] Deploy Implant (Trojan Horse).
+- [ ] Deploy Payload (Trojan Horse).
 	- [ ] Disguise it with an icon.
-	- [[Spoof Implants|Double File Extension]]
-	- [ ] Append a [[Spoof Implants|RTLO (Right to Left Override)]] to make the extension look legitimate.
+	- [[Spoof Payloads|Double File Extension]]
+	- [ ] Append a [[Spoof Payloads|RTLO (Right to Left Override)]] to make the extension look legitimate.
 	- [ ] Mac OSX application (`.app`) or [[AppleScript|applescript]].
-		- [ ] [[Spoof Implants|Space After Filename]]
+		- [ ] [[Spoof Payloads|Space After Filename]]
 	- [ ] Windows Executable file (`.exe`).
 		- [ ] Backdoor the executable file
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Windows/Backdoor EXEcutable Files/Manual|Manual]]
-			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Desktop/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Payloads/Desktop/Windows/Backdoor EXEcutable Files/Manual|Manual]]
+			- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Payloads/Desktop/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
 			- [[Shellter|Shellter]]
 	- [ ] HTML Application (`.hta`)
 	- [ ] Installer

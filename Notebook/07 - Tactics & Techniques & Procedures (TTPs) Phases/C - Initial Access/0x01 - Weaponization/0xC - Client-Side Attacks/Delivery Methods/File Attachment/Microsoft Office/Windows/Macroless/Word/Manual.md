@@ -4,7 +4,7 @@
 
 TODO: Include screenshots
 
-In Microsoft Word it has a OLE Object that serves as an alternative to macros. Go to **Insert** > **Object** > **Create From File**. Choose the file you've created which is the payload of batch script such as `implant.bat`.
+In Microsoft Word it has a OLE Object that serves as an alternative to macros. Go to **Insert** > **Object** > **Create From File**. Choose the file you've created which is the payload of batch script such as `payload.bat`.
 
 Then click **Display as icon** then click on **Browse** to choose any custom icon. If your windows architecture system is 64-bit. Browse all the way to `C:\Program Files\Microsoft Office\Office16\` then choose any of the icons that ends with a"`.EXE` (I choose `EXCEL.EXE` in my case) then after you've chose the icon of your choice rename the caption to `ReadMe.xlsx` or `Report Sales.xlsx`.
 

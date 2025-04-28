@@ -8,7 +8,7 @@ $ pwncat-cs [reconnect://]<username>@<target_IP>
 $ pwncat-cs reconnect://<username>@<host_id>
 ```
 
-## 3.2 - List Implants
+## 3.2 - List Active Implants
 
 ```
 $ pwncat-cs --list

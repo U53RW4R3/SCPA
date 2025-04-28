@@ -95,6 +95,12 @@ _  __  /__  /__  ___/_  __ `__ \  __ `/__  __ \
 TODO: Fill this info
 
 ```
+> dismap -i <IP> -p 21-23
+
+> dismap -i <IP> -p 135,445
+```
+
+```
 > dismap -i <IP>/<CIDR>
 ```
 
@@ -108,7 +114,19 @@ TODO: Fill this info
 > dismap -u <scheme>://<IP>[:<PORT>]/ -m <protocol>
 ```
 
+```
+> dismap -f ips.txt
+```
+
+```
+> dismap --type tcp --proxy socks5://<pivot_IP>:<pivot_PORT> -i <IP>
+
+> dismap --type tcp --proxy http://<pivot_IP>:<pivot_PORT> -i <IP>
+```
+
 ---
 ## References
+
+### Source Repositories
 
 - [Dismap](https://github.com/zhzyker/dismap)

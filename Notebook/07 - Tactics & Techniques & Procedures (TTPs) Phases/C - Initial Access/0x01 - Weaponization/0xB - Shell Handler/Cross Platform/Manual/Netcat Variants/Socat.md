@@ -65,4 +65,4 @@ $ socat - OPENSSL:<target_IP>:<target_PORT>,verify=0
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Implant/Cross Platform/Payloads/One-Liners/Netcat Variants/Socat]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Payloads/Cross Platform/One-Liners/Netcat Variants/Socat]]

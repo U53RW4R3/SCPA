@@ -150,7 +150,7 @@ $ findomain -f domains.txt -r -o output-resolved.txt
 
 ### Backlinks
 
-- [[03 - Malware Development/Global Helpers/Programs/Compilers/Cross Platform/Rust|Compilers: Rust]]
+- [[03 - Malware Development/Global Helpers/Compilers/Cross Platform/Rust|Compilers: Rust]]
 
 ### InternalAllTheThings
 

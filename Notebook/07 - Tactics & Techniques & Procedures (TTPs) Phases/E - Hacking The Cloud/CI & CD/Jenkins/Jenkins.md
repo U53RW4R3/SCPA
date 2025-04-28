@@ -40,12 +40,26 @@ auxiliary/gather/jenkins_cred_recovery
 ---
 ## References
 
+### Source Repositories
+
+- [gquere: Pwn Jenkins](https://github.com/gquere/pwn_jenkins)
+
+### Hacktricks
+
 - [Hacktricks: Jenkins](https://cloud.hacktricks.xyz/pentesting-ci-cd/jenkins-security)
+
+### Hacking Articles
 
 - [Hacking Articles: Jenkins Penetration Testing](https://www.hackingarticles.in/jenkins-penetration-testing/)
 
-- [Pwn Jenkins](https://github.com/gquere/pwn_jenkins)
+### Highon Coffee
 
 - [Highon Coffee: Jenkins RCE via Unauthenticated API](https://highon.coffee/blog/jenkins-api-unauthenticated-rce-exploit/)
 
-- [Double Pivoting both Metasploit and Manual Pivoting](https://www.hdysec.com/double-pivoting-both-metasploit-and-manual/)
+### HDYSec
+
+- [HDYSec: Double Pivoting both Metasploit and Manual Pivoting](https://web.archive.org/web/20240226150345/https://www.hdysec.com/double-pivoting-both-metasploit-and-manual/)
+
+### TrustedSec
+
+- [TrustedSec: Offensively Groovy](https://trustedsec.com/blog/offensively-groovy)

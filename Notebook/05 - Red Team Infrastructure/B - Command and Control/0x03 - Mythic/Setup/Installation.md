@@ -22,7 +22,7 @@ $ git clone https://github.com/its-a-feature/Mythic
 $ sudo ./install_docker_ubuntu.sh
 ```
 
-Install Mythic agents
+## 02 - Mythic Agents
 
 ```
 $ sudo ./mythic-cli install github https://github.com/MythicAgents/Apollo
@@ -32,12 +32,20 @@ sudo ./mythic-cli install github https://github.com/MythicAgents/Athena
 sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
 ```
 
-Profile setup
+## 03 - Mythic Profiles
 
 ```
 sudo ./mythic-cli install github https://github.com/MythicC2Profiles/http
 ```
 
+## 04 - Login Admin
+
 ```
 $ mythic-cli config get MYTHIC_ADMIN_PASSWORD
+```
+
+## 05 - Create User(s)
+
+```
+
 ```

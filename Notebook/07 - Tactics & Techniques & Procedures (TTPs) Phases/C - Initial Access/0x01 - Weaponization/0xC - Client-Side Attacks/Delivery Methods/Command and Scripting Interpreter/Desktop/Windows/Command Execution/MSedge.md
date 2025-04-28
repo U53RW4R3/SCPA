@@ -12,7 +12,7 @@ tags:
 # MSedge
 
 ```
-C:\> msedge.exe --disable-gpu-sandbox --gpu-launcher="C:\Windows\System32\cmd.exe /c C:\path\to\implant.exe && ping.exe -n 1 localhost"
+C:\> msedge.exe --disable-gpu-sandbox --gpu-launcher="C:\Windows\System32\cmd.exe /c C:\path\to\payload.exe && ping.exe -n 1 localhost"
 ```
 
 ---

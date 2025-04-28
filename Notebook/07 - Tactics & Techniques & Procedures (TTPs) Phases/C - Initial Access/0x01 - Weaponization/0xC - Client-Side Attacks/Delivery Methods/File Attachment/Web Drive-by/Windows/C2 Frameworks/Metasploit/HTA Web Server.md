@@ -61,7 +61,7 @@ msf exploit(windows/misc/hta_server) > set sslcipher [DHE-RSA-AES256-SHA | ADH]
 msf exploit(windows/misc/hta_server) > set sslcert /path/to/certificate.pem
 ```
 
-Then launch the implant.
+Then launch the payload.
 
 ```
 msf exploit(windows/misc/hta_server) > run -j

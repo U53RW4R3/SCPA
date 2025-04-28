@@ -17,7 +17,7 @@ C:\Windows\System32\conhost.exe
 C:\Windows\SysWOW64\conhost.exe
 ```
 
-## 02 - Execute Implants
+## 02 - Execute Payloads
 
 > [!INFO] [[Command Prompt|Character Maximum Limit]]
 > The maximum length of characters in a string is 8192 characters when executing through a command prompt.
@@ -34,12 +34,12 @@ When executing through [[Command Prompt|command prompt]].
 C:\> conhost.exe --headless cmd.exe /c <commands>
 ```
 
-When executing through [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Command Execution/PowerShell|PowerShell]].
+When executing through [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/PowerShell|PowerShell]].
 
 ```
 C:\> conhost.exe --headless powershell.exe -nop -NonI -Nologo -w hidden -enc <base64_encoded>
 
-C:\> conhost.exe --headless powershell.exe -noni -nop -ep bypass -file implant.ps1
+C:\> conhost.exe --headless powershell.exe -noni -nop -ep bypass -file payload.ps1
 ```
 
 ---

@@ -76,68 +76,6 @@ It uses `msfvenom` to setup staging payloads.
 [*] Set Listener to http_80
 ```
 
-### 1.2 - Batch
-
-```
-(Empire) > usestager windows/launcher_bat
-```
-
-### 1.3 - HTA
-
-```
-(Empire) > usestager windows/launcher_hta
-```
-
-### 1.4 - EXE
-
-TODO: Fill this info
-
-UseStager
-
-CSharp payload
-
-MSFVenom
-
-### 1.5 - LNK
-
-TODO: Fill this info
-
-```
-(Empire) > usestager windows/launcher_lnk
-```
-
-### 1.6 - VBS
-
-TODO: Fill this info
-
-```
-(Empire) > usestager windows/launcher_vbs
-```
-
-### 1.7 - SCT
-
-TODO: Fill this info
-
-```
-(Empire) > usestager windows/launcher_sct
-```
-
-### 1.8 - WMIC
-
-TODO: Fill this info
-
-```
-(Empire) > usestager windows/wmic
-```
-
-### 1.9 - DLL
-
-TODO: Fill this info
-
-```
-(Empire) > usestager windows/dll
-```
-
 ### 1.10 - XML
 
 TODO: Fill this info

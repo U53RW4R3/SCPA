@@ -11,7 +11,7 @@ $ msfvenom -f osx-app
 
 ### Backlinks
 
-- [[Spoof Implants|Helpers: Spoof Implants]]
+- [[Spoof Payloads|Helpers: Spoof Payloads]]
 
 ### Filesec
 

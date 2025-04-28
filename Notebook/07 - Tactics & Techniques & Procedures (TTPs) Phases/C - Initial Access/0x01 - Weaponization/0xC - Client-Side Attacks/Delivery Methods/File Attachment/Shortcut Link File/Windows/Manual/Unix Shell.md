@@ -19,11 +19,11 @@ TODO: Fill in the information
 ## 02 - Usage
 
 ```
-$ pylnk3 c C:\Windows\System32\cmd.exe implant.lnk -a "/c implant.exe" -ii <index_number> -m Minimized -d "<description>"
+$ pylnk3 c C:\Windows\System32\cmd.exe payload.lnk -a "/c payload.exe" -ii <index_number> -m Minimized -d "<description>"
 ```
 
 ```
-$ pylnk3 c C:\Windows\System32\cmd.exe implant.lnk -a "/c implant.exe" -i /path/to/file.ext -m Minimized -d "<description>"
+$ pylnk3 c C:\Windows\System32\cmd.exe payload.lnk -a "/c payload.exe" -i /path/to/file.ext -m Minimized -d "<description>"
 ```
 
 ---

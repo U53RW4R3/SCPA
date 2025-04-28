@@ -1,7 +1,7 @@
 # Pcalua
 
 ```
-C:\> pcalua.exe -a implant.exe
+C:\> pcalua.exe -a payload.exe
 ```
 
 ---

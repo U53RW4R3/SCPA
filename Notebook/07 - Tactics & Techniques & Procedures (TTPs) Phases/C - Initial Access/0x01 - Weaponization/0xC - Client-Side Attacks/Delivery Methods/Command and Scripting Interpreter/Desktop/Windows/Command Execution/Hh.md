@@ -7,10 +7,10 @@ $ sudo wget -qO /usr/bin/local/get-chm https://raw.githubusercontent.com/infosec
 sudo chmod 755 /usr/bin/local/get-chm
 ```
 
-Insert commands to create a `.chm` implant.
+Insert commands to create a `.chm` payload.
 
 ```
-$ get-chm -c "<commands>" -o implant.chm
+$ get-chm -c "<commands>" -o payload.chm
 ```
 
 ---

