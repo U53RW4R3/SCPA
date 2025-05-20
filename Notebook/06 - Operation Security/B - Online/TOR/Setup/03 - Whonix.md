@@ -126,3 +126,5 @@ Here's an image as an example.
 - [IP API](https://ip-api.com)
 
 - [IPv4.cat](https://about.ipv4.cat/)
+
+- [IP Echo Service](https://ipecho.net)

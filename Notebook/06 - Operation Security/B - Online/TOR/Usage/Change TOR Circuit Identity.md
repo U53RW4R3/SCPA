@@ -24,20 +24,26 @@ $ curl --socks5 127.0.0.1:9050 https://ip.me
 $ curl --socks5 127.0.0.1:9050 https://ipinfo.io
 
 $ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/
+
+$ curl --socsk5 127.0.0.1:9050 https://ipecho.net/plain
 ```
 
 Check if you're connected to TOR.
 
 ```
-$ curl -s https://check.torproject.org/api/ip | jq -r .IsTor
+$ curl -s --socks5 127.0.0.1:9050 https://check.torproject.org/api/ip | jq -r .IsTor
 
-$ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
+$ curl -s --socks5 127.0.0.1:9050 https://check.torproject.org | grep -m 1 "Congratulations. This browser is configured to use Tor."
 ```
 
 ---
 ## References
 
+### Check TOR Circuit
+
 - [Check TOR](https://check.torproject.org/)
+
+### Lookup IP
 
 - [Ifconfig.me](https://ifconfig.me/)
 
@@ -45,6 +51,12 @@ $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browse
 
 - [IPInfo](https://ipinfo.io)
 
+- [IPAPI](https://ipapi.co)
+
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
 
 - [IP API](https://ip-api.com)
+
+- [IPv4.cat](https://about.ipv4.cat/)
+
+- [IP Echo Service](https://ipecho.net)

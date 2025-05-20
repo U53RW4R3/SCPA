@@ -211,7 +211,7 @@ $ pkill socat
 
 ### 2.1 - Proxychains
 
-Refer to [[Parse IP Addresses|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
+Refer to [[CIDR Formatting|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
 
 ```bash
 #!/bin/bash

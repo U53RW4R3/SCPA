@@ -38,6 +38,8 @@ $ nc whois.cymru.com 43 < ips.txt | sort -n > ASN_ID.txt
 
 ```
 $ curl -s https://api.shadowserver.org/net/asn?origin=<IP> | jq
+
+$ curl -s https://api.shadowserver.org/net/asn?origin=<IP> | python -m json.tool
 ```
 
 Retrieve the ASN ID.
@@ -56,6 +58,8 @@ Retrieve the IP with CIDR and ASN ID along with it's peers.
 
 ```
 $ curl -s https://api.shadowserver.org/net/asn?peer=<IP> | jq
+
+$ curl -s https://api.shadowserver.org/net/asn?peer=<IP> | python -m json.tool
 
 $ whois -h asn.shadowserver.org 'peer <IP> verbose'
 ```

@@ -1,5 +1,7 @@
 # Programming Languages and Shell Scripting
 
+- https://zetcode.com/all/
+
 ## Programming Languages
 
 1. C

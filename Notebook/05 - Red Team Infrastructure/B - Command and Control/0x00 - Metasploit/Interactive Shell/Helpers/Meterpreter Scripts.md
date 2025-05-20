@@ -61,3 +61,7 @@ Replace `function_name()` with the actual WinAPI method to invoke it.
 ### TrustedSec
 
 - [TrustedSec: Metasploit Scripting](https://trustedsec.com/blog/metasploit-scripting)
+
+### Osanda
+
+- [Osanda: Accessing the Windows API Directly](https://osandamalith.com/2015/02/19/accessing-the-windows-api-directly/)

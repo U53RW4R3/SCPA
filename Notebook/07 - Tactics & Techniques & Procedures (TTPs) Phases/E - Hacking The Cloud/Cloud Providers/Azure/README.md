@@ -1,5 +1,11 @@
 # README
 
+## Spiderfoot
+
+```
+$ ./sf.py -m sfp_azureblobstorage -s domain.tld -q
+```
+
 ## `httpx`
 
 ```

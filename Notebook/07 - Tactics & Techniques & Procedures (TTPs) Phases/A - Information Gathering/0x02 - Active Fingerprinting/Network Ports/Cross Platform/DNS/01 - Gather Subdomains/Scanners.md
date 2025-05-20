@@ -1,6 +1,14 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - network-ports
+  - dns
+  - network-mapper
+---
 # Scanners
-
-Search Tag(s): #information-gathering #active-reconnaissance #network-protocols #network-mapper
 
 ## DNSRecon
 
@@ -84,27 +92,6 @@ TODO: Convert it to `sn0int`
 [recon-ng][default] > modules load recon/netblocks-hosts/reverse_resolve
 
 [recon-ng][default][reverse_resolve] > run
-```
-
-## Sublist3r2
-
-### Setup
-
-```
-$ git clone https://github.com/RoninNakomoto/Sublist3r2.git && \
-python3 -m venv ~/environments/sublist3r2 && \
-source ~/environments/sublist3r2/bin/activate && \
-python -m pip install --upgrade pip && \
-cd ~/sublist3r2/ && pip install -r requirements.txt && \
-deactivate
-```
-
-### Usage
-
-```
-$ source ~/environments/sublist3r2/bin/activate
-
-$ sublist3r2 -d website.com -b -t 64 -o subdomains.txt
 ```
 
 ## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x01 - Passive Fingerprinting/0xB - Intelligence Gathering/01 - Organization/Scanners/theHarvester|theHarvester]]

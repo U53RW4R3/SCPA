@@ -88,6 +88,17 @@ Then execute it
 C:\> java.exe -jar hidden_payload.html
 ```
 
+## 04 - Compile After Delivery
+
+> [!INFO]
+> Once the source code (`filename.java`) has been compiled. It'll create a class file (`filename.class`) that can be executed with just the `filename`.
+
+```
+> javac payload.java
+
+> java payload
+```
+
 ---
 ## References
 

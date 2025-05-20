@@ -8,16 +8,22 @@ $ theHarvester -l 1500 -d <domain.com | organization_name> -b brave,baidu,bing,d
 $ theHarvester -l 1500 -d <domain.com | organization_name> -b brave,baidu,bing,bingapi,duckduckgo,yahoo,twitter,linkedin -f output.json
 ```
 
+## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
+
+```
+$ cewl -u <user_agent> -d 8 -ne --email_file emails.txt <URL>
+```
+
+Spidering other URLs under the same domain.
+
+```
+$ cewl -u <user_agent> -d 8 -one --email_file emails.txt <URL>
+```
+
 ## Whatweb
 
 ```
 $ whatweb -v <URL>
-```
-
-## [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x00 - Exploitation/0xC - Password Cracking/Online/Generate Custom Wordlist/CeWL|CeWL]]
-
-```
-$ cewl -u <user_agent> -ne --email_file emails.txt http[s]://<IP>
 ```
 
 ## Nuclei

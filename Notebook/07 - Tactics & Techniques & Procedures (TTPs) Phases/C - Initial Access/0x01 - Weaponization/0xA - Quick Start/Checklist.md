@@ -187,5 +187,5 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 
 ### BadUSB
 
-- [ ] [[Arduino]]
-- [ ] [[Hak5 Devices]]
+- [ ] [[01 - BadUSB]]
+- [ ] [[02 - Bash Bunny]]

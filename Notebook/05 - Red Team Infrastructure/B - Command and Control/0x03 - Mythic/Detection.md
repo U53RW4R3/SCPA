@@ -10,9 +10,9 @@ SSL certificate - Issuer: O=Mythic
 ## Shodan
 
 ```
-product:"Mythic"
+product:"Mythic" port:7443
 
-ssl:"Mythic"
+ssl:"Mythic" port:7443
 ```
 
 ## Censys

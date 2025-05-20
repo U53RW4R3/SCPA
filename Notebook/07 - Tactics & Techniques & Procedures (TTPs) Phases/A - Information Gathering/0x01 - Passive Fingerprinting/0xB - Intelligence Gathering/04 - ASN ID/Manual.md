@@ -22,6 +22,8 @@ $ whois -h riswhois.ripe.net <IP>
 $ curl -s https://ipinfo.io/<IP>
 
 $ curl -s ipinfo.io/<IP>/json | jq
+
+$ curl -s ipinfo.io/<IP>/json | python -m json.tool
 ```
 
 Google dork.
@@ -46,6 +48,8 @@ $ whois -h asn.shadowserver.org 'prefix <ASN_ID>'
 $ curl -s https://api.shadowserver.org/net/asn?prefix=<ASN_ID> | jq -r '.[]'
 
 $ curl -s https://api.shadowserver.org/net/asn?prefix=<ASN_ID> | jq | grep -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}"
+
+$ curl -s https://api.shadowserver.org/net/asn?prefix=<ASN_ID> | python -m json.tool | grep -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}"
 
 $ nc asn.shadowserver.org 43 < ips.txt > asn.txt
 ```

@@ -1,5 +1,11 @@
 # Scanners
 
+## Spiderfoot
+
+```
+$ ./sf.py -m sfp_s3bucket -s domain.tld -q
+```
+
 ## `katana`
 
 ```

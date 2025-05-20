@@ -164,7 +164,7 @@ $ nmap -p 445 -Pn -n --script msrpc-enum <IP>
 ---
 ## References
 
-### Github
+### Source Repositories
 
 - [Enum4Linux-NG](https://github.com/cddmp/enum4linux-ng)
 

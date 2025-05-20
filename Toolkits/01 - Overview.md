@@ -8,9 +8,8 @@
 
 * Overview
     1. [Metasploitable3](https://github.com/rapid7/metasploitable3)
-    2. [Metasploitable2](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/) && [Setting Up Metasploitable2](https://docs.rapid7.com/metasploit/metasploitable-2)
-    3. [LAMPSecurity Training](https://sourceforge.net/projects/lampsecurity/)
-    4. [Web Security Dojo](https://www.mavensecurity.com/resources/web-security-dojo) && [WebSecurityDojo ISO](https://sourceforge.net/projects/websecuritydojo/) && [Presentation](https://owasp.org/www-pdf-archive/Slides-WebSecurityDojo.pdf)
+    2. [LAMPSecurity Training](https://sourceforge.net/projects/lampsecurity/)
+    3. [Web Security Dojo](https://www.mavensecurity.com/resources/web-security-dojo) && [WebSecurityDojo ISO](https://sourceforge.net/projects/websecuritydojo/) && [Presentation](https://owasp.org/www-pdf-archive/Slides-WebSecurityDojo.pdf)
 
 * Webapp Lab
     1. [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA)
@@ -39,6 +38,9 @@
         2. [Pentest_lab](https://github.com/oliverwiegers/pentest_lab)
         3. [Pentestlab](https://github.com/eystsen/pentestlab)
 
+* Wireless Lab
+    - [WiFiChallengeLab](https://github.com/r4ulcl/WiFiChallengeLab-docker)
+        
 * IoT Lab
     1. [IoTGoat](https://github.com/OWASP/IoTGoat)
     2. [Damn Vulnerable ARM Router (DVAR)](https://www.vulnhub.com/entry/damn-vulnerable-arm-router-dvar-tinysploitarm,224/)

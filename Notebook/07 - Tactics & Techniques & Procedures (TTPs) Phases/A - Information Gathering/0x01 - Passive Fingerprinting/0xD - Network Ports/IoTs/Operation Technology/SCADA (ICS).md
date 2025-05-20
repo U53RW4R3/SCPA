@@ -23,3 +23,11 @@ port:4800 "Moxa NPort" Status: Authentication enabled
 ```
 protocols:"502/modbus"
 ```
+
+### Moxa NPort
+
+```
+host.services.port=4800 and "Moxa NPort"
+
+host.services.port=4800 and "Moxa NPort" Status: Authentication enabled
+```

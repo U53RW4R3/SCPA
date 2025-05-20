@@ -1,11 +1,10 @@
 # Information Gathering
 
 * DNS Analysis
-    6. [DNSTracer](https://www.mavetju.org/unix/dnstracer.php)
-    7. [DNSWalk](https://www.kali.org/tools/dnswalk/) 
-    8. [URLCrazy](http://www.morningstarsecurity.com/research/urlcrazy)
-    9. [MassDNS](https://github.com/blechschmidt/massdns)
-    10. [ShuffleDNS](https://github.com/projectdiscovery/shuffledns)
+    1. [DNSTracer](https://www.mavetju.org/unix/dnstracer.php)
+    2. [DNSWalk](https://www.kali.org/tools/dnswalk/) 
+    3. [MassDNS](https://github.com/blechschmidt/massdns)
+    4. [ShuffleDNS](https://github.com/projectdiscovery/shuffledns)
 
 * IDS/IPS Identification
     1. [Firewalk](http://packetfactory.openwall.net/projects/firewalk/)
@@ -17,7 +16,6 @@
     2. [Etherape](http://etherape.sourceforge.net)
 
     4. [GoScan](https://github.com/marco-lancini/goscan)
-    5. [Zmap](https://zmap.io)
 
     8. [sx](https://github.com/v-byte-cpu/sx)
     8. [fscan](https://github.com/shadow1ng/fscan)

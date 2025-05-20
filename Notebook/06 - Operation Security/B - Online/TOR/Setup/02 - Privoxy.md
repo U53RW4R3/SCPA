@@ -53,6 +53,8 @@ $ curl https://ifconfig.me
 $ curl https://ip.me
 
 $ curl 'https://api.ipify.org?format=json'
+
+$ curl https://ipecho.net/plain
 ```
 
 Check if you're connected to TOR
@@ -66,7 +68,11 @@ $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browse
 ---
 ## References
 
+### Check TOR Circuit
+
 - [Check TOR](https://check.torproject.org/)
+
+### Lookup IP
 
 - [Ifconfig.me](https://ifconfig.me/)
 
@@ -79,3 +85,7 @@ $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browse
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
 
 - [IP API](https://ip-api.com)
+
+- [IPv4.cat](https://about.ipv4.cat/)
+
+- [IP Echo Service](https://ipecho.net)

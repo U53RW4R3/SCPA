@@ -22,6 +22,8 @@ $ proxychains curl https://ifconfig.me
 $ proxychains curl https://ip.me
 
 $ proxychains curl 'https://api.ipify.org?format=json'
+
+$ proxychains curl https://ipecho.net/plain
 ```
 
 Check if you're connected to TOR
@@ -35,13 +37,17 @@ $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Cong
 ---
 ## References
 
+### Backlinks
+
 - [[Proxychains|Pivoting SOCKS Proxy with proxychains]]
+
+### Check TOR Circuit
 
 - [Check TOR](https://check.torproject.org/)
 
-- [Ifconfig.me](https://ifconfig.me/)
+### Lookup IP
 
-- [Ifcfg.me](https://ifcfg.me)
+- [Ifconfig.me](https://ifconfig.me/)
 
 - [IP.me](https://ip.me/)
 
@@ -52,3 +58,7 @@ $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Cong
 - [Amazon AWS IP Lookup](https://checkip.amazonaws.com)
 
 - [IP API](https://ip-api.com)
+
+- [IPv4.cat](https://about.ipv4.cat/)
+
+- [IP Echo Service](https://ipecho.net)

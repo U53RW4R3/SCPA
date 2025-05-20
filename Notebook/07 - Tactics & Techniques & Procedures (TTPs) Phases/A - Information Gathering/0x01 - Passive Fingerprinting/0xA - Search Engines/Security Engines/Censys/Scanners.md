@@ -1,6 +1,6 @@
 # Scanners
 
-## Censys search auxiliary module
+## Metasploit
 
 ```
 msf > use auxiliary/gather/censys_search

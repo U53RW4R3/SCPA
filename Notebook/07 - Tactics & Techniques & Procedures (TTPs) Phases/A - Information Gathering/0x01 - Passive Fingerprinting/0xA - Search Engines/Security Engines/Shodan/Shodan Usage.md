@@ -62,10 +62,10 @@ Parse the fields after downloading a compressed JSON file.
 $ shodan parse --fields ip_str,port,org,hostnames,has_vuln:true -O output.txt output.json.gz
 ```
 
-- Must be all caps to fingerprint the domain
+Dump all of the DNS records when performing recon of the domain.
 
 ```
-$ shodan domain <DOMAIN>.<TLD>
+$ shodan domain domain.tld
 ```
 
 Shodan perform query on the target.
