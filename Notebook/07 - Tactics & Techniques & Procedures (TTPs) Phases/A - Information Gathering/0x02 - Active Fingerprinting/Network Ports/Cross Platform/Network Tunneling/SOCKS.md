@@ -31,7 +31,7 @@ $ nmap -p 1080 -Pn -n --script socks-open-proxy --script-args proxy.url=<host>,p
 
 ### Backlinks
 
-- [[Retrieve Proxy Servers]]
+- [[01 - Scrape Proxies]]
 
 - [[Proxychains]]
 

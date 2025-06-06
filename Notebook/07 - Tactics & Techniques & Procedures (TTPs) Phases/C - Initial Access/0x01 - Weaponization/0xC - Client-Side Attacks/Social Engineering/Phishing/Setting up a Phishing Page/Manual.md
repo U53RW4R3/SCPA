@@ -24,6 +24,6 @@ $ wget --directory-prefix=/root/Desktop/ --header="Accept: text/html"
 
 ### Infosec Writeups
 
-- [Recipe for a Successful Phishing Campaign Part 1](https://infosecwriteups.com/recipe-for-a-successful-phishing-campaign-part-1-2-dc23d927ec55)
+- [Infosec Writeups: Recipe for a Successful Phishing Campaign Part 1](https://infosecwriteups.com/recipe-for-a-successful-phishing-campaign-part-1-2-dc23d927ec55)
 
-- [Recipe for a Successful Phishing Campaign Part 2](https://infosecwriteups.com/recipe-for-a-successful-phishing-campaign-part-2-2-68552806dcba)
+- [Infosec Writeups: Recipe for a Successful Phishing Campaign Part 2](https://infosecwriteups.com/recipe-for-a-successful-phishing-campaign-part-2-2-68552806dcba)

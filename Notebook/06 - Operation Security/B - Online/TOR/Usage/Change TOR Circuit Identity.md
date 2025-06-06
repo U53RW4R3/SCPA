@@ -17,15 +17,19 @@ $ printf 'AUTHENTICATE "<password>"\r\nSIGNAL NEWNYM\r\n' | nc 127.0.0.1 9051
 Lookup IP.
 
 ```
-$ curl --socks5 127.0.0.1:9050 https://iconfig.me
+$ curl -s --socks5 127.0.0.1:9050 https://iconfig.me
 
-$ curl --socks5 127.0.0.1:9050 https://ip.me
+$ curl -s --socks5 127.0.0.1:9050 https://ip.me
 
-$ curl --socks5 127.0.0.1:9050 https://ipinfo.io
+$ curl -s --socks5 127.0.0.1:9050 https://ipinfo.io
 
-$ curl --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/
+$ curl -s --socks5 127.0.0.1:9050 https://checkip.amazonaws.com/
 
-$ curl --socsk5 127.0.0.1:9050 https://ipecho.net/plain
+$ curl -s --socks5 127.0.0.1:9050 https://ipecho.net/plain
+
+$ curl -s --socks5 127.0.0.1:9050 https://ipv4.icanhazip.com
+
+curl -s --socks5 127.0.0.1:9050 https://httpbin.org/ip | jq -r .origin
 ```
 
 Check if you're connected to TOR.
@@ -60,3 +64,7 @@ $ curl -s --socks5 127.0.0.1:9050 https://check.torproject.org | grep -m 1 "Cong
 - [IPv4.cat](https://about.ipv4.cat/)
 
 - [IP Echo Service](https://ipecho.net)
+
+- [ICanHazIP](https://icanhazip.com)
+
+- [HTTPBin](https://httpbin.org)

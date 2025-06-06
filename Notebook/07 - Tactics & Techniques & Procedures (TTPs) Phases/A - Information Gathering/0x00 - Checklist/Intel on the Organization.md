@@ -45,3 +45,8 @@ https://inteltechniques.com/tools/
 	- [ ] Photos
 	- [ ] Documents
 - [ ] Look for job requirements
+
+## Network Ports
+
+- [ ] Check for SMB Ports
+	- [ ] Kerberoasting

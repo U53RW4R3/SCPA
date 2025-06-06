@@ -10,6 +10,9 @@ tags:
 ---
 # PowerShell
 
+> [!INFO] [Line Maximum Limit](https://devblogs.microsoft.com/scripting/increase-powershell-command-history-to-the-max-almost/)
+> The maximum length of lines is total of 32768 when executing through Windows PowerShell or Windows Terminal.
+
 ## 01 - Base64 Encoded
 
 Encode the string of commands.
@@ -257,9 +260,9 @@ PS C:\> Resolve-DnsName -LlmnrOnly Snare 2> $Null
 
 ### Backlinks
 
-- [[03 - Malware Development/Global Helpers/Evasion/Obfuscation Techniques/Cross Platform/PowerShell||Malware Development: PowerShell Obfuscation Techniques]]
+- [[03 - Malware Development/Techniques/Evasion/Obfuscation/Obfuscation Techniques/Modify File/Cross Platform/PowerShell||Malware Development: PowerShell Obfuscation Techniques]]
 
-- [[03 - Malware Development/Global Helpers/Evasion/Obfuscation Techniques/Windows/Batch|Malware Development: Batch Obfuscation Techniques]]
+- [[03 - Malware Development/Techniques/Evasion/Obfuscation/Obfuscation Techniques/String Manipulation/Windows/Batch|Malware Development: Batch Obfuscation Techniques]]
 
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Shell Handler/Windows/Powercat]]
 

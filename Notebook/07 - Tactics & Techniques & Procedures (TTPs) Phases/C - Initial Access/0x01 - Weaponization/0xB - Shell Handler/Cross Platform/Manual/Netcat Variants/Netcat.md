@@ -15,7 +15,8 @@ tags:
 $ nc -lnvp <PORT>
 ```
 
-Any listening ports ranging between **1-1023** must be ran as `root`.
+> [!INFO] Elevated Privileges Required
+> Any listening ports ranging between **1-1023** must be ran as `root`.
 
 ```
 $ sudo nc -lnvp 80

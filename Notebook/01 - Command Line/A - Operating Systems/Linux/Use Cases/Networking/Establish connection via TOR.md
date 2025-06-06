@@ -25,7 +25,7 @@ $ socat TCP4-LISTEN:<local_PORT>,reuseaddr,fork SOCKS4A:127.0.0.1:<onion_hostnam
 
 You can use the script to make your life easier.
 
-![[06 - Operation Security/B - Online/Helpers/Scripts#^9aa75c|Socat bash script]]
+![[03 - Helpers#^9aa75c|Socat bash script]]
 
 Just specify the listening port.
 

@@ -19,3 +19,10 @@ $ sudo ./teamserver <IP> <password> /path/to/malleable_c2.profile
 
 $ ./cobaltstrike.sh
 ```
+
+---
+## References
+
+### Cobalt Strike
+
+- [Cobalt Strike: Manage Cobalt Strike with Services](https://www.cobaltstrike.com/blog/manage-cobalt-strike-with-services)

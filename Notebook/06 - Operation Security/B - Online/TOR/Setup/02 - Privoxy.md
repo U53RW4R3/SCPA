@@ -1,7 +1,21 @@
 # 02 - Privoxy
 
+## 2.1 - Setup
+
+Install it according to your package manager.
+
 ```
-$ sudo cat > /etc/privoxy/config << EOF
+$ sudo apt install -y privoxy
+
+$ sudo dnf install -y privoxy
+
+$ sudo pacman -S --noconfirm privoxy
+```
+
+Basic configuration file for `privoxy`.
+
+```
+$ cat > tor.conf << EOF
 user-manual /usr/share/doc/privoxy/user-manual/
 confdir /etc/privoxy
 logdir /var/log/privoxy
@@ -30,8 +44,18 @@ forward-socks4  /   127.0.0.1:9050  .
 forward-socks4a /   127.0.0.1:9050  .
 forward-socks5  /   127.0.0.1:9050  .
 EOF
+```
 
-$ privoxy /etc/privoxy/config
+Test the configuration file.
+
+```
+$ privoxy --test-config tor.conf
+```
+
+Apply `privoxy` configuration settings.
+
+```
+$ privoxy tor.conf
 ```
 
 Refer to [[Terminal Setup]] section to configure a bash resource file
@@ -43,18 +67,22 @@ server: localhost
 port: 8118
 ```
 
-Lookup IP
+## 2.2 - Lookup IP
 
 ```
-$ curl https://ipinfo.io
+$ curl -s https://ipinfo.io
 
-$ curl https://ifconfig.me
+$ curl -s https://ifconfig.me
 
-$ curl https://ip.me
+$ curl -s https://ip.me
 
-$ curl 'https://api.ipify.org?format=json'
+$ curl -s 'https://api.ipify.org?format=json'
 
-$ curl https://ipecho.net/plain
+$ curl -s https://ipecho.net/plain
+
+$ curl -s https://ipv4.icanhazip.com
+
+$ curl -s https://httpbin.org/ip | jq -r .origin
 ```
 
 Check if you're connected to TOR
@@ -89,3 +117,7 @@ $ curl -s https://check.torproject.org | grep -m 1 "Congratulations. This browse
 - [IPv4.cat](https://about.ipv4.cat/)
 
 - [IP Echo Service](https://ipecho.net)
+
+- [ICanHazIP](https://icanhazip.com)
+
+- [HTTPBin](https://httpbin.org)

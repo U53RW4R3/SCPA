@@ -14,7 +14,7 @@
 * Webapp Lab
     1. [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA)
     2. [Juice Shop](https://github.com/bkimminich/juice-shop)
-    3. [bWAPP](https://sourceforge.net/projects/bwapp/files/bee-box/) && [Sourceforge](https://sourceforge.net/projects/bwapp/files/bWAPP/)
+    3. [bWAPP](https://sourceforge.net/projects/bwapp/files/bee-box/) && [Source Repository](https://sourceforge.net/projects/bwapp/files/bWAPP/)
     4. [SecureBank](https://github.com/ssrdio/SecureBank)
     5. [Damn Vulnerable WordPress](https://github.com/vavkamil/dvwp)
     6. [Commix-Testbed](https://github.com/commixproject/commix-testbed)
@@ -65,7 +65,8 @@
 
 * Containers
     1. [Vulnerable Docker VM](https://notsosecure.com/vulnerable-docker-vm)
-    
+    2. [Vulhub](https://vulhub.org) && [Source Repository](https://github.com/vulhub/vulhub)
+
 * Memory Forensics
     1. [MemLabs](https://github.com/stuxnet999/MemLabs)
 
@@ -87,14 +88,10 @@
 
 ## Note Taking
 
-1. [Obsidian](https://obsidian.md/download)
-2. [Trilium](https://github.com/zadam/trilium)
-3. [Cherrytree](https://www.giuspen.com/cherrytree/)
-4. [Logseq](https://logseq.com)
-
-## Setup Tools
-
-1. [The PenTesters Framework](https://github.com/trustedsec/ptf/)
+1. [Zettlr](https://www.zettlr.com)
+2. [Obsidian](https://obsidian.md/download)
+3. [Trilium](https://github.com/zadam/trilium)
+4. [Cherrytree](https://www.giuspen.com/cherrytree/) 
 
 ## Windows Programs
 

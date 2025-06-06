@@ -2,7 +2,7 @@
 
 ## 01 - TOR Config Files
 
-It is found system wide in `/etc/tor/torrc` and the other location `/usr/local/etc/torrc.d/50_user.conf` is for [[03 - Whonix|whonix]] gateway.
+It is found system wide in `/etc/tor/torrc` and the other location `/usr/local/etc/torrc.d/50_user.conf` is for [[04 - Whonix|whonix]] gateway.
 
 ## 02 - Change Static IP and/or country code
 

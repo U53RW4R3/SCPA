@@ -67,6 +67,12 @@ $ dnsrecon -d <domain> -t brt --threads 8
 $ dnsrecon -d <domain> -t brt --threads 8 -D wordlist.txt
 ```
 
+## DNSEnum
+
+```
+
+```
+
 ## Fierce
 
 ```
@@ -107,7 +113,7 @@ $ knockpy domain.tld -t 30 -w subdomains.txt -w SecLists/Discovery/DNS/subdomain
 
 ## Recon-ng
 
-- `brute_hosts` recon-ng module
+`brute_hosts` recon-ng module
  
 ```
 [recon-ng][default] > marketplace install recon/domains-hosts/brute_hosts
@@ -172,7 +178,7 @@ msf auxiliary(gather/enum_dns) > run threads=10 [ns=<nameserver_IP_1>,<nameserve
 
 - [Assetnote Wordlists: Best DNS Wordlist](https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt)
 
-### Github
+### Source Repositories
 
 - [Amass Tutorial](https://github.com/OWASP/Amass/wiki/Tutorial)
 

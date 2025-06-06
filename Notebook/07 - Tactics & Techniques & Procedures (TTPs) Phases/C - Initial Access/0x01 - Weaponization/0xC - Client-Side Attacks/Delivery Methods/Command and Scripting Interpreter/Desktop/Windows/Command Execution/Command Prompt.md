@@ -20,7 +20,7 @@ C:\Windows\SysWOW64\cmd.exe
 ## 02 - Execute Payloads
 
 > [!INFO] [Character Maximum Limit](https://learn.microsoft.com/en-us/troubleshoot/windows-client/shell-experience/command-line-string-limitation)
-> The maximum length of characters in a string is 8192 characters when executing through a command prompt.
+> The maximum length of characters is a total of 8192 when executing through a command prompt.
 
 Execute commands.
 
@@ -71,7 +71,7 @@ find.exe, findstr.exe, [x]copy, move, replace.exe, del, rename and many more!
 
 ### Backlinks
 
-- [[03 - Malware Development/Global Helpers/Evasion/Obfuscation Techniques/Windows/Batch|Malware Development: Batch Obfuscation Techniques]]
+- [[03 - Malware Development/Techniques/Evasion/Obfuscation/Obfuscation Techniques/String Manipulation/Windows/Batch|Malware Development: Batch Obfuscation Techniques]]
 
 ### LOLBAS
 

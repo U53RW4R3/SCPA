@@ -1,5 +1,19 @@
 # 01 - Proxychains
 
+## 1.1 - Setup
+
+Install it according to your package manager.
+
+```
+$ sudo apt install -y proxychains4
+
+$ sudo dnf install -y proxychains-ng
+
+$ sudo pacman -S --noconfirm proxychains-ng
+```
+
+Basic configuration file for `proxychains`.
+
 ```
 $ cat tor.conf
 strict_chain
@@ -12,18 +26,22 @@ socks4  127.0.0.1 9050
 socks5  127.0.0.1 9050
 ```
 
-Lookup IP
+## 1.2 - Lookup IP
 
 ```
-$ proxychains curl https://ipinfo.io
+$ proxychains -f tor.conf curl -s https://ipinfo.io
 
-$ proxychains curl https://ifconfig.me
+$ proxychains -f tor.conf curl -s https://ifconfig.me
 
-$ proxychains curl https://ip.me
+$ proxychains -f tor.conf curl -s https://ip.me
 
-$ proxychains curl 'https://api.ipify.org?format=json'
+$ proxychains -f tor.conf curl -s 'https://api.ipify.org?format=json' | jq
 
-$ proxychains curl https://ipecho.net/plain
+$ proxychains -f tor.conf curl -s https://ipecho.net/plain
+
+$ proxychains -f tor.conf curl -s https://ipv4.icanhazip.com
+
+$ proxychains -f tor.conf curl -s https://httpbin.org/ip | jq -r .origin
 ```
 
 Check if you're connected to TOR
@@ -39,7 +57,7 @@ $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Cong
 
 ### Backlinks
 
-- [[Proxychains|Pivoting SOCKS Proxy with proxychains]]
+- [[Proxychains|Post Exploitation: Proxychains]]
 
 ### Check TOR Circuit
 
@@ -62,3 +80,7 @@ $ proxychains -f tor.conf curl -s https://check.torproject.org | grep -m 1 "Cong
 - [IPv4.cat](https://about.ipv4.cat/)
 
 - [IP Echo Service](https://ipecho.net)
+
+- [ICanHazIP](https://icanhazip.com)
+
+- [HTTPBin](https://httpbin.org)

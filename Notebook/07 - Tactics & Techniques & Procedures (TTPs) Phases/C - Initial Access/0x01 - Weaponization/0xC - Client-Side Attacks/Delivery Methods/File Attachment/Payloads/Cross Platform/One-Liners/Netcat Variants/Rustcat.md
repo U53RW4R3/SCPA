@@ -40,7 +40,7 @@ $ curl -so rcat https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-
 ### 1.3 - Windows
 
 ```
-C:\> CertUtil.exe -urlcache -split -f https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-win-x86_64.exe rcat.exe
+C:\> certutil.exe -urlcache -split -f https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-win-x86_64.exe rcat.exe
 
 C:\> curl.exe -o rcat.exe https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-win-x86_64.exe
 ```

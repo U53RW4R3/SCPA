@@ -28,7 +28,7 @@ sudo chmod 755 /usr/local/bin/dismap
 Download the binary in command prompt.
 
 ```
-C:\> CertUtil.exe -urlcache -split -f https://github.com/zhzyker/dismap/releases/download/v0.4/dismap-0.4-windows-amd64.exe dismap.exe
+C:\> certutil.exe -urlcache -split -f https://github.com/zhzyker/dismap/releases/download/v0.4/dismap-0.4-windows-amd64.exe dismap.exe
 
 C:\> curl.exe -o dismap.exe https://github.com/zhzyker/dismap/releases/download/v0.4/dismap-0.4-windows-amd64.exe
 ```

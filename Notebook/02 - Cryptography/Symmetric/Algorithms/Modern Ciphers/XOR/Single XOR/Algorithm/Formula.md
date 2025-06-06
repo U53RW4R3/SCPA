@@ -19,14 +19,12 @@ $C \oplus K = P$
 
 ^cbf7ed
 
-[[XOR Logical Gate.canvas|Whiteboard: XOR Logical Gate]]
-
 | _Plaintext (P)_ | _Key_ | _Ciphertext (C)_ |
-|---------------|-----|----------------|
-|      0        |  0  |      0         |
-|      0        |  1  |      1         |
-|      1        |  0  |      1         |
-|      1        |  1  |      0         |
+| --------------- | ----- | ---------------- |
+| 0               | 0     | 0                |
+| 0               | 1     | 1                |
+| 1               | 0     | 1                |
+| 1               | 1     | 0                |
 
 ## Compute
 

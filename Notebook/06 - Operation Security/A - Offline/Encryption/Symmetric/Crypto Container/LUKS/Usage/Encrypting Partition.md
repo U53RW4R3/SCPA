@@ -23,8 +23,14 @@ $ lsblk
 ---
 ## References
 
-- [Kali Docs: Raspberry Pi - Full Disk Encryption](https://www.kali.org/docs/arm/raspberry-pi-with-luks-full-disk-encryption-2/)
+### Source Repositories
 
 - [Kali RPI LUKS Crypt](https://github.com/tothi/kali-rpi-luks-crypt)
 
-- [OffSec: Kali Linux on a Raspberry Pi (A/B+/2) with Disk Encryption](https://www.offsec.com/kali-linux/raspberry-pi-luks-disk-encryption/)
+### Kali Documentation
+
+- [Kali Docs: Raspberry Pi - Full Disk Encryption](https://www.kali.org/docs/arm/raspberry-pi-with-luks-full-disk-encryption-2/)
+
+### Offensive Security
+
+- [Offensive Security: Kali Linux on a Raspberry Pi (A/B+/2) with Disk Encryption](https://www.offsec.com/kali-linux/raspberry-pi-luks-disk-encryption/)
