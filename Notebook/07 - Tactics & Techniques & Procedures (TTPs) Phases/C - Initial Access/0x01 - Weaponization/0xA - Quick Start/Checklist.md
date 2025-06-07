@@ -78,7 +78,7 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 	- [ ] Installer
 		- [ ] MSI
 		- [ ] ClickOnce
-- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Windows/Manual/Living off the Land|Shortcut Link]] (`.lnk`)
+- [ ] [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Windows/Manual|Shortcut Link]] (`.lnk`)
 	- [ ] Decoy file.
 
 ### Bypass MOTW (Mark of the Web)

