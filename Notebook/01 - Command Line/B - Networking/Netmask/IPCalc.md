@@ -76,8 +76,14 @@ TODO: Fill this info
 ---
 ## References
 
-- [IPCalc Source Repository](https://gitlab.com/ipcalc/ipcalc)
+## Source Repository
 
-- [IPCalc Website](https://jodies.de/ipcalc)
+- [IPCalc](https://gitlab.com/ipcalc/ipcalc)
 
-- [Subnet Cheatsheet Subnet Mask](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
+## IPCalc
+
+- [IPCalc](https://jodies.de/ipcalc)
+
+## Free Code Camp
+
+- [Free Code Camp: Subnet Cheatsheet Subnet Mask](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)

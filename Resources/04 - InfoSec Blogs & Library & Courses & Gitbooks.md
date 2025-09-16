@@ -8,9 +8,10 @@
     - https://m0chan.github.io
     - https://flangvik.com
     - [Hackware (English translated)](https://miloserdov.org) && [Hackware (Russian)](https://hackware.ru)
-
 2. Malware Development
     - https://cocomelonc.github.io/
+    - https://aff-wg.org
+    - https://tradecraftgarden.org
 3. Windowws Post Exploitation
     - https://attl4s.github.io/
 

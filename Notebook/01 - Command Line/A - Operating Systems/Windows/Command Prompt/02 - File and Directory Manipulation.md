@@ -13,6 +13,8 @@ tags:
 
 ```
 C:\> con file.txt
+
+C:\> copy NUL file.txt
 ```
 
 ### 2.1.2 - Create a directory

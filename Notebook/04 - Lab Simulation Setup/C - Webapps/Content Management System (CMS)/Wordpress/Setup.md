@@ -44,7 +44,7 @@ TODO: Setup PHPMyAdmin for linux and make note of it as optional and setup XAMPP
 ---
 ## References
 
-- [[04 - Lab Simulation Setup/A - Lab Environment/0x02 - Servers/Configure Network Protocols/Cross Platform/MySQL|Setup: MySQL]]
+- [[04 - Lab Simulation Setup/A - Lab Environment/0x03 - Servers/Configure Network Protocols/Cross Platform/MySQL|Setup: MySQL]]
 
 https://bitbelle.wordpress.com/portfolio/set-up-a-wordpress-pentesting-lab/
 

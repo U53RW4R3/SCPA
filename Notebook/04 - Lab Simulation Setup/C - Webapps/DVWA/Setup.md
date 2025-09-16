@@ -4,6 +4,14 @@ Search Tag(s): #lab #dvwa #webapp-pentesting
 
 ## Linux DVWA Setup
 
+### Automated
+
+```
+$ sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/IamCarron/DVWA-Script/main/Install-DVWA.sh)"
+```
+
+### Manual
+
 Install dependencies.
 
 ```

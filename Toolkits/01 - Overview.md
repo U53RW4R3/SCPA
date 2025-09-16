@@ -10,6 +10,7 @@
     1. [Metasploitable3](https://github.com/rapid7/metasploitable3)
     2. [LAMPSecurity Training](https://sourceforge.net/projects/lampsecurity/)
     3. [Web Security Dojo](https://www.mavensecurity.com/resources/web-security-dojo) && [WebSecurityDojo ISO](https://sourceforge.net/projects/websecuritydojo/) && [Presentation](https://owasp.org/www-pdf-archive/Slides-WebSecurityDojo.pdf)
+    4. [OWASP Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/)
 
 * Webapp Lab
     1. [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA)
@@ -37,6 +38,10 @@
         1. [VulnerableWordpress](https://github.com/wpscanteam/VulnerableWordpress)
         2. [Pentest_lab](https://github.com/oliverwiegers/pentest_lab)
         3. [Pentestlab](https://github.com/eystsen/pentestlab)
+    20. API
+        1. [APISec University](https://www.apisecuniversity.com/)
+	21. LLM
+		1. [AI Goat](https://github.com/dhammon/ai-goat)
 
 * Wireless Lab
     - [WiFiChallengeLab](https://github.com/r4ulcl/WiFiChallengeLab-docker)

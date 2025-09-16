@@ -16,7 +16,6 @@ Allow established connections.
 # iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
 ```
 
-
 ### 1.1 - Incoming Traffic
 
 ```
@@ -28,6 +27,8 @@ iptables -A OUTPUT -o lo -j ACCEPT
 #### SSH
 
 ```
+# iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+
 # iptables -A INPUT -s 10.10.10.10/24 -p tcp -m tcp --dport 22 -j ACCEPT
 ```
 
@@ -51,16 +52,6 @@ iptables -A OUTPUT -p udp -m udp --dport 53 -j ACCEPT
 
 # iptables -A INPUT -p tcp -m tcp --sport 53 -j ACCEPT
 iptables -A OUTPUT -p tcp -m tcp --dport 53 -j ACCEPT
-```
-
-## Revert Settings
-
-Revert back default policies.
-
-```
-# iptables -P INPUT DROP
-iptables -P FORWARD ACCEPT
-iptables -P OUTPUT ACCEPT
 ```
 
 ---

@@ -2,61 +2,37 @@
 
 ## Dependencies
 
-Install dependencies according to your package manager.
+First you need a hypervisor. I recommend installing [[00 - Getting Started/B - Hypervisors/VirtualBox|VirtualBox]] then install dependencies according to your package manager.
 
 ```
-$ sudo apt install -y virtualbox virtualbox-guest-additions-iso packer vagrant
+$ sudo apt install -y packer vagrant
 
-$ sudo pacman -S virtualbox virtualbox-host-modules-arch dkms packer vagrant
-```
-
-## Setup VirtualBox
-
-Load virtualbox modules.
-
-```
-$ sudo modprobe vboxdrv
-```
-
-Add `vboxusers` group.
-
-```
-$ sudo usermod -aG vboxusers $USER
-```
-
-Install vagrant plugin.
-
-```
-$ VAGRANT_DISABLE_STRICT_DEPENDENCY_ENFORCEMENT=1 vagrant plugin install vagrant-reload
-```
-
-If you're using virtualbox run this. Otherwise skip to the next line for virt-manager.
-
-```
-$ VAGRANT_DISABLE_STRICT_DEPENDENCY_ENFORCEMENT=1 vagrant plugin install vagrant-vbguest
-```
-
-For virt-manager.
-
-```
-$ VAGRANT_DISABLE_STRICT_DEPENDENCY_ENFORCEMENT=1 vagrant plugin install vagrant-libvirt
+$ sudo pacman -S --noconfirm packer vagrant
 ```
 
 ## Setup Metasploitable3
 
-Clone the repository.
+TODO: Include images to import it.
+
+Download the [torrent](https://archive.org/details/metasploitable3-master_win2k8_1569441065179_55164) to download **Windows Server 2008 R2**.
 
 ```
-$ git clone https://github.com/rapid7/metasploitable3.git
+$ aria2c https://archive.org/download/metasploitable3-master_win2k8_1569441065179_55164/metasploitable3-master_win2k8_1569441065179_55164_archive.torrent
+
+$ aria2c -T metasploitable3-master_win2k8_1569441065179_55164_archive.torrent
 ```
 
-Run the script to build the virtual machines.
+TODO: configure the specs https://www.youtube.com/watch?v=3_GIeegR0fY
+
+Download `Metasploitable3-ub1404.ova`
 
 ```
-$ cd metasploitable3 && ./build.sh ubuntu1404 && ./build.sh windows2008
+$ aria2c "https://cyfuture.dl.sourceforge.net/project/metasploitable3-ub1404upgraded/Metasploitable3-ub1404.ova?viasf=1"
 ```
 
 ## Post Installation
+
+Manage the software licensing in Windows Server 2008 R2.
 
 ```
 C:\> slmgr.exe /rearm
@@ -76,8 +52,8 @@ $ sudo nano /etc/hosts
 ---
 ## References
 
-- [Rapid7: Metasploitable3](https://github.com/rapid7/metasploitable3)
+### Source Repositories
 
-- [Metasploitable3 ISO Image](https://sourceforge.net/projects/metasploitable3-ub1404upgraded/)
+- [Metasploitable3 Windows Server 2008 R2](https://archive.org/details/metasploitable3-master_win2k8_1569441065179_55164)
 
-- [Liberty Shell: Metasploitable 3 Install](https://liberty-shell.com/sec/2018/07/08/install-ms3/)
+- [Metasploitable3 Ubuntu 14.04](https://sourceforge.net/projects/metasploitable3-ub1404upgraded/files/)
