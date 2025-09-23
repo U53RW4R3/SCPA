@@ -76,7 +76,7 @@ $ cryptcat
 
 ### Backlinks
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x00 - Enumeration and Discovery/Desktop/Linux/Host/0xE - Discover Programs/Manual/Living off the Land|Enumeration and Discovery: Discover Programs]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x00 - Discovery/Desktop/Linux/Host/0xE - Discover Programs/Manual/Living off the Land|Enumeration and Discovery: Discover Programs]]
 
 - [[DEB|File Transfer and Data Exfiltration: Linux Package Manager DEB]]
 

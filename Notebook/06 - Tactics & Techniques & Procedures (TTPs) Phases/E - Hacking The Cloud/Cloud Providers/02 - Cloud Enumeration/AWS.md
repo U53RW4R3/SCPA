@@ -21,12 +21,18 @@ $ aws s3api get-bucket-policy --bucket <s3_bucket_IP>
 ---
 ## References
 
+### Amazon
+
 https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/managing-acls.html
 
+### Virtue Security
+
 https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/
 
 https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/
+
+### Sys Dig
 
 https://sysdig.com/blog/scarleteel-2-0/

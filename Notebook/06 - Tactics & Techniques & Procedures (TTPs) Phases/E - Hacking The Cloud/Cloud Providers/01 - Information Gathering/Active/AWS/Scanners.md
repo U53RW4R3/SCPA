@@ -32,10 +32,6 @@ $ httpx -silent -l urls.txt -mr 'AmazonS3' | nuclei -t ~/nuclei-templates -id aw
 
 ## Automation Script
 
-`$ cat sweep-s3-buckets.sh`
-
----
-
 ```bash
 #!/bin/bash
 
@@ -74,6 +70,8 @@ do
     fi
 done < "$1"
 ```
+
+The following syntax
 
 ```
 $ ./sweep-s3-buckets.sh s3-buckets.txt

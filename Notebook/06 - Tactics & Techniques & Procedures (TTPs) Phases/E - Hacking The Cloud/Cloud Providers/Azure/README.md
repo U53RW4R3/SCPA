@@ -15,10 +15,10 @@ $ awk -F "/" '{print "s3://"$3}' live-azure.txt | sort -uo azure-output.txt
 ```
 
 ```
-auxiliary/scanner/http/azure_ad_login
+msf > use auxiliary/scanner/http/azure_ad_login
 ```
 
-```
+```powershell
 # Import the Azure AD PowerShell module:
 Import-Module -Name Azure
 # List the cmdlets provided by the module (750+):

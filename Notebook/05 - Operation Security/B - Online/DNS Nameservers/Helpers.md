@@ -121,3 +121,7 @@
 ### Martin
 
 - [Martin: DNS Services](https://book.martiandefense.llc/digital-privacy-and-hygiene/dns-services)
+
+### Mullvad
+
+- [Mullvad: DNS over HTTPS and DNS over TLS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)

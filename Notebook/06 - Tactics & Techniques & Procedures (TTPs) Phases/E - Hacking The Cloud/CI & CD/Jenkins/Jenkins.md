@@ -34,7 +34,7 @@ set rport <target_PORT>
 ```
 msf > use post/multi/gather/jenkins_gather
 
-auxiliary/gather/jenkins_cred_recovery
+msf > use auxiliary/gather/jenkins_cred_recovery
 ```
 
 ---

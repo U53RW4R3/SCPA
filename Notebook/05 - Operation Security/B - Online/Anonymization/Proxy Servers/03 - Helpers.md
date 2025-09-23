@@ -211,7 +211,7 @@ $ pkill socat
 
 ### 3.2.1 - Proxychains
 
-Refer to [[CIDR Formatting|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
+Refer to [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x00 - Discovery/Cross Platform/Networking/Scan Network/Network Scanner/Malware Development/CIDR Formatting|ping sweep one liners]] to grab active proxy servers then pass it to the script that will format for proxychains
 
 ```bash
 #!/bin/bash

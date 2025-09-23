@@ -1,18 +1,7 @@
 # Git
 
-## OPSEC Consideration
-
-> [!NOTE]
-> They don't have to be real.
-
 ```
-$ git config --global user.name "<username>"
-
-$ git config --global user.email user@email.com
-```
-
-```
-auxiliary/scanner/ssh/ssh_enum_git_keys
+msf > use auxiliary/scanner/ssh/ssh_enum_git_keys
 ```
 
 https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/scanner/ssh/ssh_enum_git_keys.md
@@ -20,12 +9,10 @@ https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules
 ---
 ## References
 
+### Backlinks
+
+- [[05 - Operation Security/B - Online/Source Repositories/Git]]
+
 ### Red Team Guides
 
 - [Red Team Guides: 25 Methods for Pipeline Attacks](https://blog.redteamguides.com/25-methods-for-pipeline-attacksrtc0011)
-
-### OPSEC
-
-- [Github Email Settings](https://github.com/settings/emails)
-
-- [Gitlab Profile](https://gitlab.com/-/profile)

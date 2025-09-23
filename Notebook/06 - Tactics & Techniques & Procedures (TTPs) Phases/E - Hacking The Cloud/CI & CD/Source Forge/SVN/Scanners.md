@@ -1,7 +1,9 @@
 # Scanners
 
 ```
-auxiliary/scanner/http/svn_scanner
+msf > use auxiliary/scanner/http/svn_scanner
+```
 
-auxiliary/scanner/http/svn_wcdb_scanner
+```
+msf > use auxiliary/scanner/http/svn_wcdb_scanner
 ```

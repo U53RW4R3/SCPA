@@ -9,7 +9,7 @@
 
 ### Backlinks
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x08 - Maintaining Access/Malware Development/Helpers/Persistence/Windows/Autostart Locations]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x07 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Startup/Malware Development/Helpers]]
 
 ### Github
 

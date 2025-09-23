@@ -19,9 +19,9 @@ $ transmission-create --anonymize -o payload.torrent payload.bat
 
 ### Backlinks
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x08 - Maintaining Access/Malware Development/Helpers/Persistence/Linux/Autostart Locations]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x07 - Maintaining Access/Persistence/Linux/Backdoors/Bash Profiles/Linux/Helpers]]
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x08 - Maintaining Access/Malware Development/Helpers/Persistence/Windows/Autostart Locations]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/F - Post Exploitation/0x07 - Maintaining Access/Persistence/Windows/Host Persistence/Backdoors/Startup/Malware Development/Helpers]]
 
 ### Null Byte
 

