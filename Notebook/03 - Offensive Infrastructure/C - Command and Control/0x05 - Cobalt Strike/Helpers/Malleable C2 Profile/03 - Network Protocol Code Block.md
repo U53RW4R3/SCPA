@@ -12,7 +12,7 @@ tags:
 
 ### 3.1.1 - HTTP Config
 
-- Just to take care of the default HTTP settings.
+Just to take care of the default HTTP settings.
 
 ```
 http-config {

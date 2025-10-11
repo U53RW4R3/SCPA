@@ -134,8 +134,3 @@ List operators to check which one is online or offline
 ```
 sliver > operators
 ```
-
----
-## References
-
-- [Sliver](https://github.com/BishopFox/sliver/wiki)

@@ -23,14 +23,14 @@ We've started this project due to our experiences that contains tactics, techniq
 
 ## Download digital notebook
 
-Grab a copy to specify a directory using `git` then use [obsidian](https://obsidian.md/) to open the directory.
+Sebastian Dante Alexander: Grab a copy to specify a directory using `git` then use [obsidian](https://obsidian.md/) to open the directory.
 
 ```
 $ git clone --depth=1 https://github.com/ghostsec420/SCPA.git && cd SCPA \
 git sparse-checkout set Notebook
 ```
 
-Do you want the latest updates? Grab mine instead since most of them is still work in progress continuously.
+Userware: Do you want the latest updates? Grab mine instead since most of them is still work in progress continuously.
 
 ```
 $ git clone --depth=1 https://github.com/U53RW4R3/SCPA.git && cd SCPA \

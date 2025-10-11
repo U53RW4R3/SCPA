@@ -29,7 +29,7 @@ Sliver:
   chmod              Change permissions on a file or directory
   chown              Change owner on a file or directory
   chtimes            Change access and modification times on a file (timestomp)
-  close              Close an interactive session without killing the remote process
+
   download           Download a file
   execute            Execute a program on the remote system
   execute-shellcode  Executes the given shellcode in the sliver process
@@ -53,8 +53,7 @@ Sliver:
   portfwd            In-band TCP port forwarding
   procdump           Dump process memory
   ps                 List remote processes
-  pwd                Print working directory
-  reconfig           Reconfigure the active beacon/session
+
   rename             Rename the active beacon/session
   rm                 Remove a file or directory
   rportfwd           reverse port forwardings

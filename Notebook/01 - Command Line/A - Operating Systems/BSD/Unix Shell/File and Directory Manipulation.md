@@ -11,6 +11,10 @@ TODO: Fill this info
 
 ## File Attribution
 
+```
+$ chflags
+```
+
 ---
 ## References
 

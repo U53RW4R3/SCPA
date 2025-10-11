@@ -44,7 +44,7 @@ set jitter    "30"; # Default jitter factor (0 - 99%)
 
 ### 2.1.2 - Code Signing Certificate
 
-- Refer to [[01 - Generate TLS Keystore|generate TLS keystore]].
+Refer to [[01 - Generate TLS Keystore|generate TLS keystore]].
 
 ```
 code-signer {

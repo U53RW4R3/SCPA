@@ -54,7 +54,7 @@ go mod download github.com/ugorji/go && \
 cd .. && make ts-build
 ```
 
-## 02 - Teamserver
+## 03 - Teamserver
 
 Create a malleable c2 profile for the teamserver.
 
@@ -149,7 +149,7 @@ $ cd /opt/post-exploitation/Havoc/
 $ sudo ./havoc server --profile profiles/havoc.yaotl
 ```
 
-## 03 - Operator
+## 04 - Operator
 
 ```
 $ cd /opt/post-exploitation/Havoc/
@@ -157,9 +157,9 @@ $ cd /opt/post-exploitation/Havoc/
 $ ./havoc client
 ```
 
-## 04 - Troubleshooting
+## 05 - Troubleshooting
 
-### 4.1 - Set custom QT fonts
+### 5.1 - Set custom QT fonts
 
 **Kali Linux** and probably other pentest distros like **Parrot OS** may have a problem with the QT framework settings that has hardcoded font. It's an easy fix so here are the steps.
 
@@ -173,7 +173,7 @@ Go to **Fonts** then change the **General** fonts
 
 You're good to go user!
 
-### 4.2 - Reset Teamserver Database
+### 5.2 - Reset Teamserver Database
 
 ```bash
 #!/bin/sh

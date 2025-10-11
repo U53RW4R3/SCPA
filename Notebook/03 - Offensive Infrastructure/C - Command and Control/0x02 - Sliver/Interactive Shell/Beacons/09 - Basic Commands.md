@@ -2,20 +2,6 @@
 
 Search Tag(s): #sliver #command-and-control #interactive-shell
 
-## Navigation
-
-Change directory
-
-```
-sliver (IMPLANT_NAME) > cd <directory>
-```
-
-Get current working directory
-
-```
-sliver (IMPLANT_NAME) > pwd
-```
-
 ## List Contents
 
 ### Help Menu
@@ -75,21 +61,7 @@ sliver (IMPLANT_NAME) > ls [drive_letter:/]path/to/remote/directory/
 
 ## File Manipulation
 
-```
-sliver (IMPLANT_NAME) > cp
-```
 
-```
-sliver (IMPLANT_NAME) > mv
-```
-
-```
-sliver (IMPLANT_NAME) > cat
-```
-
-```
-sliver (IMPLANT_NAME) > mkdir
-```
 
 chown
 chmod

@@ -37,7 +37,7 @@ msf > use auxiliary/scanner/http/squid_pivot_scanning
 
 - [[06 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Access control/Server-Side Attack/Authorization Bypass/HTTP Error Code Bypass/Scanners/Network Mapper|Network Mapper: Authorization Bypass]]
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Basic Authentication/Scanners|Network Mapper: HTTP Basic Authentication]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/Broken Authentication/Bruteforce Login/HTTP Forms/Scanners|Network Mapper: HTTP Basic Authentication]]
 
 - [[06 - Tactics & Techniques & Procedures (TTPs) Phases/D - Webapp Pentesting/0x02 - Components with Known Vulnerabilities/Helpers/Scanners|Network Mapper: Components with Known Vulnerabilities]]
 

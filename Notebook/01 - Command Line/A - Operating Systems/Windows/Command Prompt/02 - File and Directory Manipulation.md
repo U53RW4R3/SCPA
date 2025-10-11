@@ -15,6 +15,10 @@ tags:
 C:\> con file.txt
 
 C:\> copy NUL file.txt
+
+C:\> . > file.txt 2>nul
+
+C:\> fsutil.exe file createnew file.txt 10
 ```
 
 ### 2.1.2 - Create a directory

@@ -2,6 +2,8 @@
 
 TODO: Provide resource scripts to automate the process in metasploit
 
+## Meterpreter
+
 ```
 run post/multi/gather/run_console_rc_file
 
@@ -12,13 +14,13 @@ run post/multi/manage/multi_post
 meterpreter > run multi_console_command
 ```
 
-```
+```rb
 <ruby>
 run_single("exploit -j -z")
 </ruby>
 ```
 
-```
+```rb
 <ruby>
 use exploit/multi/handler
 set payload <payload_module>
@@ -33,6 +35,32 @@ Save the initial commands that were executed to a file.
 
 ```
 msf > makerc
+```
+
+## Meta Shell
+
+```
+resource /path/to/local/resource_1.rc /path/to/local/resource_n.rc
+```
+
+## 08 - Interactive Ruby Shell
+
+```
+irb
+```
+
+## 09 - Debug Current Session
+
+### Meterpreter
+
+```
+meterpreter > pry
+```
+
+### Meta Shell
+
+```
+pry
 ```
 
 ---

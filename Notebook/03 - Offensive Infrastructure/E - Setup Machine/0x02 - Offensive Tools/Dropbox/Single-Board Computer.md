@@ -5,6 +5,7 @@
 | Vendor    | Model                                  |
 | --------- | -------------------------------------- |
 | Raspberry | Raspberry Pi 4 Model B                 |
+| Raspberry | Raspberry Pi Zero 2W                   |
 | Banana Pi | Banana-Pi M5                           |
 | Orange Pi | Orange-Pi 5                            |
 | Orange Pi | Orange-Pi 3 LTS                        |

@@ -1,11 +1,21 @@
 # MQTT
 
+TODO: Fill in this info
+
 ```
-auxiliary/scanner/mqtt/connect
+$ curl mqtt://<IP>
+```
+
+```
+msf > use auxiliary/scanner/mqtt/connect
 ```
 
 ---
 ## References
+
+### cURL
+
+- [cURL: MQTT](https://curl.se/docs/tutorial.html)
 
 ### Hacktricks
 

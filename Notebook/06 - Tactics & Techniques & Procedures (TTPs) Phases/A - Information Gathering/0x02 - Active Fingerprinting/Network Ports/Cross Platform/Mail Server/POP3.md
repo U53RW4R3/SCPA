@@ -55,6 +55,15 @@ msf auxiliary(scanner/pop3/pop3_version) > set threads 4
 msf auxiliary(scanner/pop3/pop3_version) > run -j
 ```
 
+## 02 - Enumeration
+
+> [!INFO]
+> Once authenticated.
+
+```
+list
+```
+
 ---
 ## References
 

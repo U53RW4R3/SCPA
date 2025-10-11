@@ -1,6 +1,4 @@
-# Smap
-
-TODO: Fill this info
+# [[03 - Offensive Infrastructure/E - Setup Machine/0x02 - Offensive Tools/Reconnaissance/OSINT/Smap|Smap]]
 
 ## Scan Single Target
 
@@ -25,8 +23,3 @@ $ smap -iL targets.txt
 ```
 $ smap -sV <IP>
 ```
-
----
-## References
-
-- [Smap](https://github.com/s0md3v/Smap)

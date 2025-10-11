@@ -32,7 +32,9 @@ C:\> tasklist.exe /fi "imagename eq <process.exe>"
 ```
 
 ```
-C:\> wmic.exe process list brief
+C:\> wmic.exe Process LIST BRIEF
+
+C:\> wmic.exe Process WHERE "name='<process_name>'" GET ProcessId
 
 C:\> wmic.exe PATH Win32_Process GET Caption, Processid, Commandline
 

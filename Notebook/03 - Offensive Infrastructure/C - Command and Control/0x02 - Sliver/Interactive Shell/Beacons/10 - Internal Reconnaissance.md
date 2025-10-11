@@ -2,6 +2,7 @@
 
 Search Tag(s): #sliver #command-and-control #interactive-shell
 
+```
 whoami
 
 getprivs
@@ -11,6 +12,7 @@ getuid
 getpid
 
 getgid
+```
 
 ## Process Enumeration
 
@@ -50,7 +52,3 @@ Flags:
   -t, --timeout int    command timeout in seconds (default: 60)
   -u, --udp            display information about UDP sockets
 ```
-
-- Usage
-
-registry

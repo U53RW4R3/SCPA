@@ -51,7 +51,24 @@ $ nmap -p 3389 -Pn -sV --script rdp-enum-encryption <IP>
 $ nmap -p 3389 -Pn -sV --script rdp-ntlm-info <IP>
 ```
 
+## 04 - Status Code Table Reference
+
+| Status Code                                                                                                                                                                              | Description                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Authentication only, exit status `0`.                                                                                                                                                    | Successful authentication with RDP permissions.                           |
+| `ERRCONNECT_AUTHENTICATION_FAILED [0x00020006]`<br>`ERRCONNECT_AUTHENTICATION_FAILED [0x00020009]`<br>`ERRCONNECT_LOGON_FAILURE [0x00020009]`<br>`ERRCONNECT_LOGON_FAILURE [0x00020014]` | Authentication failure due to invalid credentials.                        |
+| `ERRCONNECT_SECURITY_NEGO_FAILED [0x0002000C]`                                                                                                                                           | Security negotiation failed, often due to incompatible security settings. |
+| `ERRCONNECT_PASSWORD_EXPIRED [0x0002000E]`<br>`ERRCONNECT_PASSWORD_CERTAINLY_EXPIRED [0x0002000F]`<br>`ERRCONNECT_PASSWORD_MUST_CHANGE [0x00020013]`                                     | Password expired.                                                         |
+| `ERRCONNECT_ACCOUNT_LOCKED_OUT`                                                                                                                                                          | User account locked out.                                                  |
+| `ERRCONNECT_ACCOUNT_DISABLED [0x00020012]`                                                                                                                                               | User account disabled.                                                    |
+| `ERRCONNECT_ACCOUNT_EXPIRED [0x00020019]`                                                                                                                                                | User account expired.                                                     |
+| `ERRCONNECT_DNS_NAME_NOT_FOUND`                                                                                                                                                          | DNS nameserver absent.                                                    |
+| `ERRINFO_SERVER_INSUFFICIENT_PRIVILEGES [0x00000009]`                                                                                                                                    | Successful authentication yet lacks RDP permissions.                      |
+| `ERRCONNECT_CONNECT_TRANSPORT_FAILED [0x0002000D]`                                                                                                                                       | Successful authentication yet connect transport layer failed.             |
+
 ---
 ## References
+
+### Hacktricks
 
 - [Hacktricks: Pentesting RDP](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-rdp.html)

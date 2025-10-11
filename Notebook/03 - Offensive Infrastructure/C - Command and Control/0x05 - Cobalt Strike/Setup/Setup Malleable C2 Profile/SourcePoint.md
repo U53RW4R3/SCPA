@@ -171,9 +171,15 @@ $ ./SourcePoint -Host <C2_IP> -Datajitter "<seconds>" -Sleep "<seconds>" -Jitter
 ---
 ## References
 
-### Helpers
+### Backlinks
 
 - [[Malleable C2 Profile References]]
+
+### Source Repositories
+
+- [Tylous: SourcePoint](https://github.com/Tylous/SourcePoint)
+
+### Helpers
 
 - [WhiteKnightLabs: Unleashing the Unseen: Harnessing the Power of Cobalt Strike Profiles for EDR Evasion](https://whiteknightlabs.com/2023/05/23/unleashing-the-unseen-harnessing-the-power-of-cobalt-strike-profiles-for-edr-evasion/)
 
@@ -186,7 +192,3 @@ $ ./SourcePoint -Host <C2_IP> -Datajitter "<seconds>" -Sleep "<seconds>" -Jitter
 - [The DFIR Report: Cobalt Strike, a Defender's Guide](https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/)
 
 - [The DFIR Report: Cobalt Strike, a Defender's Guide - Part 2](https://thedfirreport.com/2022/01/24/cobalt-strike-a-defenders-guide-part-2/)
-
-### Tools
-
-- [Tylous: SourcePoint](https://github.com/Tylous/SourcePoint)

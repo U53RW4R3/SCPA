@@ -6,31 +6,23 @@ author(s):
 
 ## Desktop
 
-TODO: Specify the hardware with a set of presets based on the user's requirements.
-
 ### Minimum Specs
 
-asdf
+- **CPU:** AMD Ryzen 3 or Intel Core i3.
+- **RAM:** 8GB.
+- **Storage:** 500GB.
+- **GPU:** Integrated CPU.
 
-### Maximum Specs
+### Recommended Specs
 
-asdf
-
-### Low Specs
-
-asdf
-
-### Medium Specs
-
-asdf
-
-### High Specs
-
-asdf
+- **CPU:** Intel Core i5 or AMD Ryzen 5 (quad-core).
+- **RAM:** 32GB DDR4.
+- **Storage:** 1TB.
+- **GPU:** NVIDIA RTX or AMD Radeon RX series.
 
 ## Laptop
 
-### Screen
+### Screen Size
 
 > [!NOTE] Author's Note
 > I had to look up the watch dogs series of what **Marcus Holloway** (**retr0**) uses his laptop ;)

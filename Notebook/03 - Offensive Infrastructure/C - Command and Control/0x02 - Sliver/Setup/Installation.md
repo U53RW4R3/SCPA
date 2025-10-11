@@ -69,3 +69,8 @@ sudo chmod 755 /root/sliver-client_linux /root/sliver-server /usr/local/bin/sliv
 sudo systemctl daemon-reload && \
 sudo systemctl start sliver
 ```
+
+---
+## References
+
+- [Sliver](https://github.com/BishopFox/sliver/wiki)

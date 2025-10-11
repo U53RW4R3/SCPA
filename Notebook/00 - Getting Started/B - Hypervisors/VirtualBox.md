@@ -22,7 +22,6 @@ Add user to the `vboxusers` group.
 $ sudo usermod -aG vboxusers $USER
 ```
 
-
 ## Arch-based Distros
 
 ### Manjaro

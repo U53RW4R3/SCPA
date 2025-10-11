@@ -1,7 +1,5 @@
 # Metasploit Modules
 
-TODO: Lateral movement such as WMI
-
 ## Railgun
 
 ```

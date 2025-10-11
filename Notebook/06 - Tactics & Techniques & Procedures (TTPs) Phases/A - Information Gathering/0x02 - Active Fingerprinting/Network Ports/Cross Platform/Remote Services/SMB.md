@@ -4,7 +4,7 @@ author(s):
 tags:
   - information-gathering
   - active-reconnaissance
-  - network-protocols
+  - network-ports
   - smb
   - network-mapper
   - metasploit-framework
@@ -14,8 +14,6 @@ tags:
 ## 01 - Usage
 
 ### 1.1 - Samba Suite Utils
-
-#### 1.1.1 - Authentication
 
 ```
 $ smbclient -U "<username>%<password>" -L //<IP>
@@ -160,6 +158,28 @@ $ nmap -p 445 -Pn -n --script msrpc-enum <IP>
 ```
 
 ^4eb6e0
+
+## 07 - Code Table Reference
+
+| Status Code                                       | Description                                                                                 |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Authentication only, exit status `0`.             | Successful authentication.                                                                  |
+| `ERRNO_LOGON_FAILURE`                             | Authentication failure due to invalid credentials.                                          |
+| `ERRNO_NOT_ENOUGH_MEMORY`                         | Insufficient memory to complete the operation.                                              |
+| `ERRNO_CONNECTION_REFUSED`                        | The connection to the SMB server was refused.                                               |
+| `ERRNO_INVALID_PARAMETER`                         | An invalid parameter was passed to the SMB command.                                         |
+| `ERRNO_NO_SUCH_FILE`<br>`ERRNO_NO_SUCH_DIRECTORY` | The specified file or directory does not exist.                                             |
+| `ERRNO_ACCESS_DENIED`                             | Access to the file or directory is denied.                                                  |
+| `ERRNO_FILE_CONTAINS_MALWARE`                     | The operation was blocked because the file contains malware or potentially harmful content. |
+| `ERRNO_PASSWORD_EXPIRED`                          | Password expired.                                                                           |
+| `ERRNO_ACCOUNT_LOCKED_OUT`                        | User account locked out.                                                                    |
+| `ERRNO_ACCOUNT_DISABLED`                          | User account disabled.                                                                      |
+| `ERRNO_SESSION_KEY_EXPIRED`                       | The session key has expired.                                                                |
+| `ERRNO_NETWORK_UNREACHABLE`                       | The network is unreachable.                                                                 |
+| `ERRNO_CONNECTION_RESET`                          | The connection was reset by the peer.                                                       |
+| `ERRNO_UNSUPPORTED_FEATURE`                       | The requested feature is not supported by the server.                                       |
+| `ERRNO_SERVER_ERROR`                              | An unspecified server error occurred.                                                       |
+
 
 ---
 ## References
