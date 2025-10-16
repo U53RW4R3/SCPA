@@ -35,6 +35,8 @@ $ httpx -silent -l urls.txt -mr 'AmazonS3' | nuclei -t ~/nuclei-templates -id aw
 ```bash
 #!/bin/bash
 
+FILE="${1}"
+
 # Check if the AWS CLI is installed
 if ! which aws &> /dev/null
 then
@@ -43,32 +45,32 @@ then
 fi
 
 # Check if the input file exists
-if [[] ! -f "$1" ]]
+if [[ ! -f "${FILE}" ]]
 then
-    echo "The input file '$1' does not exist."
+    echo "The input file '${FILE}' does not exist."
     exit 1
 fi
 
 # Create an output directory if it doesn't exist
 OUTPUT_DIR="output"
-mkdir -p "$OUTPUT_DIR"
+mkdir -p "${OUTPUT_DIR}"
 
 # TODO: Add an if statement if the attacker does have permissions to enumerate and upload files
 # Loop through each line in the input file and check S3 bucket accessibility
 while IFS= read -r s3
 do
     # Use 'aws s3 ls' to check if the bucket is accessible without credentials
-    if aws s3 --no-sign-request ls "$s3" &> /dev/null
+    if aws s3 --no-sign-request ls "${s3}" &> /dev/null
     then
         echo "Bucket $s3 is accessible without AWS credentials."
 
         # Save the result to the output directory
-        echo "$s3" >> "$OUTPUT_DIR/accessible-targets.txt"
+        echo "${s3}" >> "${OUTPUT_DIR}/accessible-targets.txt"
     else
         # Save the result to the output directory
-        echo "$s3" >> "$OUTPUT_DIR/require_credentials.txt"
+        echo "${s3}" >> "${OUTPUT_DIR}/require_credentials.txt"
     fi
-done < "$1"
+done < "${FILE}"
 ```
 
 The following syntax

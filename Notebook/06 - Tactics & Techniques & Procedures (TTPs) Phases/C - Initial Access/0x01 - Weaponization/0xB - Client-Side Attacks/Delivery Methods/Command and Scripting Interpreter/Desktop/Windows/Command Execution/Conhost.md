@@ -34,7 +34,7 @@ When executing through [[Command Prompt|command prompt]].
 C:\> conhost.exe --headless cmd.exe /c <commands>
 ```
 
-When executing through [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/PowerShell|PowerShell]].
+When executing through [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/PowerShell/Manual|Manual]].
 
 ```
 C:\> conhost.exe --headless powershell.exe -nop -NonI -Nologo -w hidden -enc <base64_encoded>

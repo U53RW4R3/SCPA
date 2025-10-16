@@ -1,6 +1,8 @@
 # Core Utilities
 
-## `wget`
+## Network Protocols
+
+### `wget`
 
 ```
 $ sudo apt install -y wget
@@ -16,7 +18,7 @@ $ sudo apk add --no-cache --quiet wget
 
 ^bf7f3e
 
-## `curl`
+### `curl`
 
 ```
 $ sudo apt install -y curl
@@ -32,7 +34,7 @@ $ sudo apk add --no-cache --quiet curl
 
 ^cb5d15
 
-## `aria2c`
+### `aria2c`
 
 ```
 $ sudo apt install -y aria2

@@ -181,5 +181,5 @@ TODO: Make a cross-reference when making a good checklist for weaponizing when d
 
 ### BadUSB
 
-- [ ] [[02 - BadUSB]]
-- [ ] [[03 - Bash Bunny]]
+- [ ] [[Hak5]]
+- [ ] [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Physical Penetration/Implants/03 - Bash Bunny/Manual]]

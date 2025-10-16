@@ -11,7 +11,7 @@ $ h8mail -u "https://pastebin.com/raw/<URI>" "list_of_urls.txt"
 ---
 ## References
 
-### Github
+### Source Repositories
 
 - [lorien: Awesome Pastebins](https://github.com/lorien/awesome-pastebins)
 
@@ -25,4 +25,8 @@ $ h8mail -u "https://pastebin.com/raw/<URI>" "list_of_urls.txt"
 
 - [pastebin.com](https://pastebin.com)
 
+- [Paste.ee](https://pastee.dev/)
+
 - [ghostbin.com](https://ghostbin.com)
+
+- [AnonPaste](https://anonpaste.org/)

@@ -48,8 +48,18 @@ Restart the network daemon service.
 # systemctl restart NetworkManager
 ```
 
+## DNSCrypt
+
+```
+TODO: Fill in the info for encrypting DNS
+```
+
 ---
 ## References
+
+### DNSCrypt
+
+- [DNSCrypt](https://www.dnscrypt.org/)
 
 ### DNS Leak Test
 

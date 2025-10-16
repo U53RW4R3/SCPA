@@ -211,7 +211,7 @@ C:\> MavInject.exe <pid> /INJECTRUNNING C:\path\to\payload.dll
 
 - [[DLL Injection]]
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/DotNET]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Windows/Code Execution/DotNET/Manual]]
 
 - [[HTA]]
 

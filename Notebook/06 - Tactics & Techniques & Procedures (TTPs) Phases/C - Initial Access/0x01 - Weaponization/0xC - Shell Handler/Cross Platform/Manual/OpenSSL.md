@@ -36,4 +36,4 @@ userware@hackware-os:~$ openssl s_client -quiet -connect <target_IP>:<target_POR
 
 - [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Linux/Code Execution/One-Liners/Reverse Shells/OpenSSL|OpenSSL: Reverse Shells]]
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Linux/Code Execution/One-Liners/Bind Shells/OpenSSL|OpenSSL: Bind Shells]]
+- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/C - Initial Access/0x01 - Weaponization/0xB - Client-Side Attacks/Delivery Methods/Command and Scripting Interpreter/Desktop/Linux/Code Execution/OpenSSL/Manual|OpenSSL: Bind Shells]]

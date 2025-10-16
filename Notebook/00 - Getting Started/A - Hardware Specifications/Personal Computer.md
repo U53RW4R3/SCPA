@@ -8,17 +8,21 @@ author(s):
 
 ### Minimum Specs
 
-- **CPU:** AMD Ryzen 3 or Intel Core i3.
-- **RAM:** 8GB.
-- **Storage:** 500GB.
-- **GPU:** Integrated CPU.
+| Hardware Component | Requirement                  |
+| ------------------ | ---------------------------- |
+| CPU                | AMD Ryzen 3 or Intel Core i3 |
+| RAM                | 8GB                          |
+| Storage            | 1TB HDD                      |
+| GPU                | Integrated CPU               |
 
 ### Recommended Specs
 
-- **CPU:** Intel Core i5 or AMD Ryzen 5 (quad-core).
-- **RAM:** 32GB DDR4.
-- **Storage:** 1TB.
-- **GPU:** NVIDIA RTX or AMD Radeon RX series.
+| Hardware Component | Requirement                               |
+| ------------------ | ----------------------------------------- |
+| CPU                | AMD Ryzen 5 (quad-core) or Intel Core i5. |
+| RAM                | 32GB                                      |
+| Storage            | 1TB SSD                                   |
+| GPU                | NVIDIA RTX or AMD Radeon RX series.       |
 
 ## Laptop
 
