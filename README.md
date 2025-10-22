@@ -11,7 +11,7 @@
 
 ## `> cat introduction.txt`
 
-The **SCPA (Sophicated Cyber Penetration Attacks)** is for hackers wanting a straight guidance with many sections involves in offensive operations. It outlines in a systematic approach, because there are so many resources that are being broadcast on the internet. I've compiled it together which contains sources have been re-applied providing use cases and scenarios in many ways.
+The **SCPA (Sophicated/Simplified Cyber Penetration Attacks)** is for hackers wanting a straight guidance with many sections involves in offensive operations. It outlines in a systematic approach, because there are so many resources that are being broadcast on the internet. I've compiled it together which contains sources have been re-applied providing use cases and scenarios in many ways.
 
 ## `> whoarewe && cat about_SCPA_project.txt`
 
@@ -37,36 +37,7 @@ $ git clone --depth=1 https://github.com/U53RW4R3/SCPA.git && cd SCPA && \
 git sparse-checkout set Notebook
 ```
 
-## Legends indicators in digital notebook
-
-### Parameters
-
-- `<>` -> Required paramaters (e.g. `<IP>`, `<username>`, `<password>`)
-- `[]` -> Optional contextual paramaters (e.g. `[/flag-option]`, `[args]`)
-- `[<>]` -> Optionally contextual required parameters (e.g. `[<bind_IP>]`, `[<PORT>]`)
-- `()` -> Grouped parameter
-
-### Terminal Prompts
-
-#### Cross Platform
-
-`>` -> Universal terminal prompt (i.e. `> <command>`)
-
-#### Unix Shell
-
-- `$` -> Non-elevated user privileges unix-like shell prompt (i.e. `user@hostname:~$ <command>`)
-- `#` -> Elevated user privileges unix-like shell prompt (i.e. `root@hostname:~# <command>`)
-
-#### PowerShell
-
-- `PS />` -> PowerShell Linux console prompt (i.e. `PS /home/USERNAME> <command>`)
-- `PS <drive_letter>:\>` -> Powershell console prompt (i.e. `PS C:\> <cmdlet>`)
-
-#### Windows
-
-`<drive_letter>:\>` -> Windows command prompt (i.e. `C:\> <command>`)
-
-# WORK TO DO
+## WORK TO DO
 
 - [ ] Add tags
 - [ ] Left a lot of TODO labels so go check it out users
@@ -75,7 +46,7 @@ git sparse-checkout set Notebook
 - [ ] Fill in the information of **Hacking The Cloud**
 - [ ] Provide a mindmap to some sections if necessary
 
-# Roadmap
+## Roadmap
 
 - [ ] **Cryptography** section
 - [ ] **Container (docker, kubernetes, LXC)** section

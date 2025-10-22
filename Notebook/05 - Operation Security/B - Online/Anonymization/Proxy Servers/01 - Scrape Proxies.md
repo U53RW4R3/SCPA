@@ -104,15 +104,15 @@ $ nmap -p 1080 -Pn -n -sS --max-retries 1 --min-parallelism 700 --open -T4 --scr
 ---
 ## References
 
-### Backlink
+### Backlinks
 
 #### Information Gathering
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Ports/Cross Platform/Network Tunneling/SOCKS]]
+- [[07 - Tactics & Techniques & Procedures Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Ports/Cross Platform/Network Tunneling/SOCKS|Active Fingerprinting: SOCKS Network Tunneling]]
 
 #### Vulnerability Assessment
 
-- [[06 - Tactics & Techniques & Procedures (TTPs) Phases/B - Vulnerability Assessment/0x03 - Network Ports/Network Tunneling/SOCKS|Password Cracking: SOCKS]]
+- [[07 - Tactics & Techniques & Procedures Phases/B - Vulnerability Assessment/0x03 - Network Ports/Network Tunneling/SOCKS|Password Cracking: SOCKS]]
 
 ### Hunt for Open Proxies
 
@@ -137,6 +137,10 @@ $ nmap -p 1080 -Pn -n -sS --max-retries 1 --min-parallelism 700 --open -T4 --scr
 - [MuRongPIG: Proxy-Master](https://github.com/MuRongPIG/Proxy-Master)
 
 - [Proxyifly: free-proxy-list](https://github.com/proxifly/free-proxy-list)
+
+### The Hackers Choice
+
+- [The Hackers Choice: A Free Telegram Proxy](https://www.thc.org/t/)
 
 #### Spys
 
