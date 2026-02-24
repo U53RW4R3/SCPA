@@ -1,6 +1,6 @@
 # Llamafile
 
-To run language models as portable.
+To run language models as it was portable.
 
 ## Arch-based Distros
 

@@ -1,0 +1,15 @@
+# Shellcode Loader
+
+```python
+import ctypes
+
+shellcode = ""
+
+# Create a buffer in memory to hold the shellcode
+memory = ctypes.create_string_buffer(shellcode, len(shellcode))
+
+# Cast the buffer to a function pointer
+execute = ctypes.cast(memory, ctypes.CFUNCTYPE(ctypes.c_void_p))
+
+execute()
+```

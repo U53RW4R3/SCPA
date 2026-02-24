@@ -2,8 +2,7 @@
 
 * DNS Analysis
     1. [DNSTracer](https://www.mavetju.org/unix/dnstracer.php)
-    2. [DNSWalk](https://www.kali.org/tools/dnswalk/) 
-    3. [MassDNS](https://github.com/blechschmidt/massdns)
+    2. [DNSWalk](https://www.kali.org/tools/dnswalk/)
     4. [ShuffleDNS](https://github.com/projectdiscovery/shuffledns)
 
 * IDS/IPS Identification
@@ -51,7 +50,7 @@
     3. [irpas](http://phenoelit-us.org/irpas)
 
 * SMB Analysis
-    1. [Impacket](https://github.com/fortra/impacket) && [Impacket (ThePorgs fork has more functions)](https://github.com/ThePorgs/impacket)
+    1. [Impacket](https://github.com/fortra/impacket)
     2. [MoreImpacketExamples](https://github.com/icyguider/MoreImpacketExamples)
     3. [Impacket Static Binaries](https://github.com/ropnop/impacket_static_binaries)
     4. [Certipy](https://github.com/ly4k/Certipy)

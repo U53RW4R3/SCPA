@@ -1,0 +1,199 @@
+---
+author(s):
+  - Userware
+tags:
+  - checklist
+  - initial-access
+  - weaponization
+  - client-side-attacks
+  - phishing
+  - defense-evasion
+---
+# Checklist
+
+TODO: Make a cross-reference when making a good checklist for weaponizing when delivering the attack.
+
+## Passive Client Information Gathering
+
+- [ ] Scrape metadata from images and documents. Refer to this [[06 - Tactics & Techniques & Procedures Phases/A - Information Gathering/0x04 - Forensics/Checklist|checklist]] to narrow down your search results.
+	- [[Exiftool]]
+	- [[exifLooter]]
+	- [[06 - Tactics & Techniques & Procedures Phases/F - Post Exploitation/0x02 - Privilege Escalation/Linux/Local Privilege Escalation/Superuser/Sudo/Shell Escape Sequences/Exploits/Network Scanners/Network Mapper|Network Mapper]]
+- [ ] Look for job requirements of what technology that the target(s) using that can be weaponized.
+
+## Active Client Information Gathering
+
+- [ ] Interact with the targets through communications to gather information.
+	- [ ] Communication via a phone call.
+	- [ ] Communication via a person.
+
+## Phishing Campaign
+
+### Pretext
+
+- [ ] For social engineering pretext visit this [[Social Engineering Pretext|section]] to make preparation for the campaign.
+
+### Delivery Method
+
+- [ ] Phishing via Email
+	- Gather emails with the following methods.
+		- Passively browse the website 
+			- [ ] Search for emails to scrape them.
+			- [ ] Search for first and last names to parse them to perform user enumeration with the following.
+				- SMTP Port
+					- [[06 - Tactics & Techniques & Procedures Phases/A - Information Gathering/0x02 - Active Fingerprinting/Network Ports/Cross Platform/Mail Server/SMTP|Username enumeration]]
+				- Web mail
+		- [ ] OSINT gathering on social media
+		- [ ] OSINT gathering using google dorking
+			- TODO: Fill in the bullet points/checkboxes
+		- [ ] Data breaches
+		- [ ] Parse and verify the emails
+	- [ ] Check if the domain is spoofable.
+- [ ] Phishing via Service
+	- Social Media
+- [ ] Smishing (SMS Phishing)
+- [ ] Vishing (Voice Phishing)
+	- Use Generative AI with Voice Model to mask your voice.
+	- If you're gonna be in a video conference. Use deep fake to replace your facial features as a mask.
+
+### Evasion
+
+- Ensure the email contents are legit and bypasses the filter.
+	- [ ] Broken grammar and spelling.
+
+## File Attachment
+
+> [!NOTE]
+> You can be creative by combining multiple files.
+
+- [ ] Check **Command and Scripting Interpreter** section to change the execution methods.
+- [ ] [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/HTML Smuggling/Manual|HTML Smuggling]]
+- [ ] Deploy Payload (Trojan Horse).
+	- [ ] Macros
+		- [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macros/Manual|Microsoft Office]]
+		- [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Cross Platform/LibreOffice/Manual|LibreOffice Macro]]
+	- [ ] Macroless
+		- [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]]
+		- [[Excel]]
+	- [ ] Disguise it with an icon.
+	- [[Spoof Payloads|Double File Extension]]
+	- [ ] Append a [[Spoof Payloads|RTLO (Right to Left Override)]] to make the extension look legitimate.
+	- [ ] Mac OSX application (`.app`) or [[AppleScript|applescript]].
+		- [ ] [[Spoof Payloads|Space After Filename]]
+	- [ ] Windows Executable file (`.exe`).
+		- [ ] Backdoor the executable file
+			- [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Payloads/Desktop/Windows/Backdoor EXEcutable Files/Manual|Manual]]
+			- [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Payloads/Desktop/Windows/Backdoor EXEcutable Files/MSFVenom|MSFVenom]]
+			- [[Shellter|Shellter]]
+	- [ ] HTML Application (`.hta`)
+	- [ ] Installer
+		- [ ] MSI
+		- [ ] ClickOnce
+	- [ ] [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Shortcut File/Windows/Offensive Tools|Shortcut Link]] (`.lnk`)
+		- [ ] Decoy file.
+
+### Evasion
+
+- [ ] Insert text to bypass **LM (Language Models)** to inject prompt to skip a security scan and change the foreground text color the same as the background document to make it invisible to the user.
+- [ ] Insert malicious hyperlinks (any file format will work).
+	- [ ] Some webapps have [[06 - Tactics & Techniques & Procedures Phases/D - Webapp Pentesting/Injection/Client-Side Attack/Open Redirect/Checklist|Open Redirect]] vulnerabilities. This can be used to insert the malicious URL to redirect the target to the malicious server.
+	- [ ] Use **QR Code** with a malicious link to redirect the target to your malicious server.
+
+#### Bypass MOTW (Mark of the Web)
+
+> [!NOTE]
+> You can be creative by combing multiple files. Use polyglot to your advantage.
+
+- [ ] Archive Files
+	- 7Zip
+		- [ ] Password protected
+	- CAB
+- [ ] Disk container
+	- [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Document File/Windows/Disk Image/Generate Disk Image/Offensive Tools/PackMyPayload/Usage|PackMyPayload]]
+		- [ ] Add archive file.
+			- 7zip
+				- [ ] Password protected.
+			- Zip
+				- [ ] Password protected.
+			- CAB
+			- Tarball
+		- [ ] Spoof file attachment inside the container.
+			- [ ] [[01 - Format NTFS Disk Image|Format NTFS Disk Image]]
+			- [ ] [[02 - Alternate Data Stream|Alternate data stream]] inside Linux.
+			- [ ] [[03 - Spoof ZoneTransfer (MOTW Bypass)|Append fake zonetransfer]] inside linux.
+		- [ ] Archive all files inside a disk container image.
+			- ISO
+			- IMG
+			- VHD
+			- VHDX
+- [ ] Enable and execute VBA macros
+	- [ ] Add archive file.
+		- 7zip
+			- [ ] Password protected.
+		- CAB
+		- Tarball
+	- [ ] Using [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]] to embed inside a file.
+	- [ ] Using **OneNote** to embed inside a file.
+	- [ ] Using **Adobe Reader** or **Foxit** to embed inside a file.
+	- [ ] Shortcut `.lnk` file.
+		- [ ] Shell Scripting
+			- Batch (`.bat` or `.cmd`)
+			- VBScript (`.vbs`)
+	- [ ] HTML Application (`.hta`) with macros inside using [[Microsoft Office Macros|DCOM]] method.
+- [ ] Using [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/File Attachment/Microsoft Office/Windows/Macroless/Word/Manual|Word OLE Object]] to embed inside a file.
+	- [ ] Add archive file.
+		- 7zip
+			- [ ] Password protected.
+		- Zip
+			- [ ] Password protected.
+		- CAB
+		- Tarball
+	- [ ] Shortcut `.lnk` file.
+	- [ ] HTML Application (`.hta`)
+	- [ ] Installer
+		- [ ] MSI
+		- [ ] ClickOnce
+	- [ ] Shell Scripting
+		- Batch (`.bat` or `.cmd`)
+		- VBScript (`.vbs`)
+- [ ] Using **Adobe Reader** or **Foxit** to embed inside a file.
+	- [ ] Add archive file.
+		- 7zip
+			- [ ] Password protected.
+		- Zip
+			- [ ] Password protected.
+		- CAB
+		- Tarball
+	- [ ] Shortcut `.lnk` file.
+	- [ ] HTML Application (`.hta`)
+	- [ ] Installer
+		- [ ] MSI
+		- [ ] ClickOnce
+	- [ ] Shell Scripting
+		- Batch (`.bat` or `.cmd`)
+		- VBScript (`.vbs`)
+
+### Package Manager
+
+- [ ] Trojanize [[Package File Templates|software package]] in Linux.
+
+## Physical Penetration
+
+### Evil Twin
+
+- [ ] [[Evil Twin]]
+
+### Whaling
+
+- [ ] TODO: Fill in the info
+
+### Hardware Implant
+
+- [ ] [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Physical Penetration/Implants/Bash Bunny/Manual|Bash Bunny]]
+
+#### USB Drop
+
+- [ ] BadUSB
+	- [[Hak5]]
+	- [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Physical Penetration/Implants/USB Drop/02 - BadUSB/Arduino/DigiSpark/Manual|Arduino DigiSpark]]
+- [ ] [[06 - Tactics & Techniques & Procedures Phases/C - Initial Access/0x01 - Weaponization/0xC - Client-Side Attacks/Delivery Methods/Physical Penetration/Implants/USB Drop/01 - Removable Media/Manual|Removable Media]]

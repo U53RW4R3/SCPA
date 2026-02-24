@@ -1,0 +1,70 @@
+---
+author(s):
+  - Userware
+tags:
+  - information-gathering
+  - active-fingerprinting
+  - network-ports
+  - pop3
+---
+# POP3
+
+## 01 - Banner Grab
+
+### 1.1 - Manual
+
+```
+$ nc -nv <IP> 110
+
+$ openssl s_client -connect <IP>:995 -crlf -quiet
+```
+
+### 1.2 - #network-mapper
+
+```
+$ sudo nmap -p 110,995 -sV <IP>
+```
+
+### 1.3 - #metasploit
+
+```
+msf > use auxiliary/scanner/pop3/pop3_version
+
+msf auxiliary(scanner/pop3/pop3_version) > options
+
+Module options (auxiliary/scanner/pop3/pop3_version):
+
+   Name     Current Setting  Required  Description
+   ----     ---------------  --------  -----------
+   RHOSTS                    yes       The target host(s), see https://github.com/rapid7/metasploit-framework/wiki/Using-Metasploit
+   RPORT    110              yes       The target port (TCP) 
+   THREADS  1                yes       The number of concurrent threads (max one per host)
+
+msf auxiliary(scanner/pop3/pop3_version) > set rhosts <IP>
+
+msf auxiliary(scanner/pop3/pop3_version) > set threads 4
+
+msf auxiliary(scanner/pop3/pop3_version) > run -j
+```
+
+## 02 - Capabilities
+
+```
+$ sudo nmap -p 110,995 -sV --script pop3-capabilities <IP>
+```
+
+## 03 - Enumeration
+
+> [!IMPORTANT] Conditions
+> You must be authenticated first in order to perform enumeration.
+
+```
+list
+```
+
+---
+## References
+
+### Hacktricks
+
+- [Hacktricks: Pentesting POP](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-pop.html)

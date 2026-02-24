@@ -1,6 +1,8 @@
 # Regular Distros
 
-## Debian Based
+## Linux
+
+### Debian Based
 
 | Distro     | Is ARM Architecture Present? | URL                                     |
 | ---------- | ---------------------------- | --------------------------------------- |
@@ -9,14 +11,14 @@
 | armbian    | True                         | https://www.armbian.com                 |
 | Linux Mint | False                        | https://linuxmint.com/download_lmde.php |
 
-## Ubuntu Based
+### Ubuntu Based
 
 | Distro     | Is ARM Architecture Present? | URL                                 |
 | ---------- | ---------------------------- | ----------------------------------- |
 | Ubuntu     | True                         | https://ubuntu.com/download/desktop |
 | Linux Mint | False                        | https://linuxmint.com/download.php  |
 
-## Arch Based
+### Arch Based
 
 | Distro     | Is ARM Architecture Present? | URL                             |
 | ---------- | ---------------------------- | ------------------------------- |
