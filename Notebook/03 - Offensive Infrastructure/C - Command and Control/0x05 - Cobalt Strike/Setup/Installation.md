@@ -1,0 +1,41 @@
+---
+author(s):
+  - Userware
+tags:
+  - offensive-infrastructure
+  - command-and-control
+  - cobalt-strike
+---
+# Installation
+
+## 01 - Dependencies
+
+Install the required dependencies according to your package manager.
+
+```
+$ sudo apt install -y mingw-w64 nasm default-jdk default-jre
+
+$ sudo pacman -S mingw-w64-binutils mingw-w64-crt mingw-w64-gcc mingw-w64-headers mingw-w64-winpthreads nasm jdk-openjdk jre-openjdk
+```
+
+## 02 - Launch Team Server and Operator Client
+
+```
+$ sudo ./teamserver <IP> <password> /path/to/malleable_c2.profile
+
+$ ./cobaltstrike.sh
+```
+
+> [!INFO]
+> Download the aggressor scripts.
+
+---
+## References
+
+### Source Repositories
+
+- [harleyQu1nn: AggressorScripts](https://github.com/harleyQu1nn/AggressorScripts)
+
+### Cobalt Strike
+
+- [Cobalt Strike: Manage Cobalt Strike with Services](https://www.cobaltstrike.com/blog/manage-cobalt-strike-with-services)

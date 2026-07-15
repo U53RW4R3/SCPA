@@ -1,0 +1,5 @@
+# Generic
+
+```
+"default password"
+```

@@ -1,0 +1,63 @@
+# SharpUp
+
+## 01 - Compile
+
+Install a targeting pack from this [link](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481). Then compile `SharpUp`.
+
+```
+C:\> git clone https://github.com/GhostPack/SharpUp
+
+C:\> cd SharpUp
+
+C:\SharpUp> dotnet build -c Release -p:TargetFrameworkVersion=v4.8.1
+```
+
+## 02 - Help Menu
+
+```
+C:\> SharpUp.exe
+
+SharpUp.exe [audit] [check1] [check2]...
+
+    audit   - Specifies whether or not to enable audit mode. If enabled, SharpUp will run vulenrability checks
+              regardless if the process is in high integrity or the user is in the local administrator's group.
+              If no checks are specified, audit will run all checks. Otherwise, each check following audit will
+              be ran.
+
+    check*  - The individual vulnerability check to be ran. Must be one of the following:
+
+              - AlwaysInstallElevated
+              - CachedGPPPassword
+              - DomainGPPPassword
+              - HijackablePaths
+              - McAfeeSitelistFiles
+              - ModifiableScheduledTaskFile
+              - ModifiableServiceBinaries
+              - ModifiableServiceRegistryKeys
+              - ModifiableServices
+              - ProcessDLLHijack
+              - RegistryAutoLogons
+              - RegistryAutoruns
+              - TokenPrivileges
+              - UnattendedInstallFiles
+              - UnquotedServicePath
+
+
+
+    Examples:
+        SharpUp.exe audit
+            -> Runs all vulnerability checks regardless of integrity level or group membership.
+
+        SharpUp.exe HijackablePaths
+            -> Check only if there are modifiable paths in the user's %PATH% variable.
+
+        SharpUp.exe audit HijackablePaths
+            -> Check only for modifiable paths in the user's %PATH% regardless of integrity level or group membership.
+```
+
+---
+## References
+
+### Source Repositories
+
+- [SharpUp](https://github.com/GhostPack/SharpUp)
