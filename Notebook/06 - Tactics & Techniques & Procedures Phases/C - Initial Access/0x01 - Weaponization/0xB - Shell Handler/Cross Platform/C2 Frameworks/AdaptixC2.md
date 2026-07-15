@@ -1,1 +1,0 @@
-# AdaptixC2

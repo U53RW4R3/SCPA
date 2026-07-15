@@ -1,5 +1,0 @@
-# Generic
-
-```
-"default password"
-```

@@ -1,5 +1,0 @@
-# Simple Loader
-
-```nim
-
-```
